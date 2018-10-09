@@ -2,51 +2,42 @@
   "date": "October 9, 2018",
   "authors": [
     {
-      "github": "johndoe",
-      "name": "John Doe",
-      "initials": "JD",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "twitter": "johndoe",
-      "email": "john.doe@something.com",
+      "github": "Benjamin-Lee",
+      "name": "Benjamin D. Lee",
+      "initials": "BDL",
+      "orcid": "0000-0002-7133-8397",
+      "email": "benjamindlee@me.com",
       "affiliations": [
-        "Department of Something, University of Whatever"
-      ],
-      "funders": "Grant XXXXXXXX",
-      "affiliation_numbers": [
-        1
-      ]
-    },
-    {
-      "github": "janeroe",
-      "name": "Jane Roe",
-      "initials": "JR",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "email": "jane.roe@whatever.edu",
-      "affiliations": [
-        "Department of Something, University of Whatever",
-        "Department of Whatever, University of Something"
+        "School of Engineering and Applied Sciences, Harvard University",
+        "Department of Genetics, Harvard Medical School",
+        "Lab41, In-Q-Tel"
       ],
       "affiliation_numbers": [
         1,
-        2
+        2,
+        3
       ]
     }
   ],
   "affiliations": [
     {
-      "affiliation": "Department of Something, University of Whatever",
+      "affiliation": "School of Engineering and Applied Sciences, Harvard University",
       "affiliation_number": 1
     },
     {
-      "affiliation": "Department of Whatever, University of Something",
+      "affiliation": "Department of Genetics, Harvard Medical School",
       "affiliation_number": 2
+    },
+    {
+      "affiliation": "Lab41, In-Q-Tel",
+      "affiliation_number": 3
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/ten_simple_rules_for_ml_in_bio",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "ten_simple_rules_for_ml_in_bio",
-    "commit": "3d7e4d937f48e7f6db2864f9be01163859b96b46"
+    "commit": "9283a371675610f4bb09f3c2d5d497704dd8bbdd"
   },
   "manuscript_stats": {
     "reference_counts": {
