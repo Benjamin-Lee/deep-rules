@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/Benjamin-Lee/ten_simple_rules_for_ml_in_bio/tree/gh-pages) branch hosts the contents of this directory at https://Benjamin-Lee.github.io/ten_simple_rules_for_ml_in_bio/.
-The permalink for this webpage version is https://Benjamin-Lee.github.io/ten_simple_rules_for_ml_in_bio/v/a8b7b2076570ca14039821a39d3d80beab4e74d8/.
+The permalink for this webpage version is https://Benjamin-Lee.github.io/ten_simple_rules_for_ml_in_bio/v/3d7e4d937f48e7f6db2864f9be01163859b96b46/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://Benjamin-Lee.github.io/ten_simple_rules_for_ml_in_bio/v/freeze/.
 
 ## Files
@@ -32,4 +32,4 @@ git add v/*/*.ots
 ## Source
 
 The manuscripts in this directory were built from
-[`a8b7b2076570ca14039821a39d3d80beab4e74d8`](https://github.com/Benjamin-Lee/ten_simple_rules_for_ml_in_bio/commit/a8b7b2076570ca14039821a39d3d80beab4e74d8).
+[`3d7e4d937f48e7f6db2864f9be01163859b96b46`](https://github.com/Benjamin-Lee/ten_simple_rules_for_ml_in_bio/commit/3d7e4d937f48e7f6db2864f9be01163859b96b46).
