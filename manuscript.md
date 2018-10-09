@@ -18,9 +18,9 @@ title: 'Manubot Rootstock: Manuscript Title'
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/ten_simple_rules_for_ml_in_bio/v/a8b7b2076570ca14039821a39d3d80beab4e74d8/))
+([permalink](https://Benjamin-Lee.github.io/ten_simple_rules_for_ml_in_bio/v/3d7e4d937f48e7f6db2864f9be01163859b96b46/))
 was automatically generated
-from [Benjamin-Lee/ten_simple_rules_for_ml_in_bio@a8b7b20](https://github.com/Benjamin-Lee/ten_simple_rules_for_ml_in_bio/tree/a8b7b2076570ca14039821a39d3d80beab4e74d8)
+from [Benjamin-Lee/ten_simple_rules_for_ml_in_bio@3d7e4d9](https://github.com/Benjamin-Lee/ten_simple_rules_for_ml_in_bio/tree/3d7e4d937f48e7f6db2864f9be01163859b96b46)
 on October 9, 2018.
 </em></small>
 
