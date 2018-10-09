@@ -1,0 +1,57 @@
+{
+  "date": "October 9, 2018",
+  "authors": [
+    {
+      "github": "johndoe",
+      "name": "John Doe",
+      "initials": "JD",
+      "orcid": "XXXX-XXXX-XXXX-XXXX",
+      "twitter": "johndoe",
+      "email": "john.doe@something.com",
+      "affiliations": [
+        "Department of Something, University of Whatever"
+      ],
+      "funders": "Grant XXXXXXXX",
+      "affiliation_numbers": [
+        1
+      ]
+    },
+    {
+      "github": "janeroe",
+      "name": "Jane Roe",
+      "initials": "JR",
+      "orcid": "XXXX-XXXX-XXXX-XXXX",
+      "email": "jane.roe@whatever.edu",
+      "affiliations": [
+        "Department of Something, University of Whatever",
+        "Department of Whatever, University of Something"
+      ],
+      "affiliation_numbers": [
+        1,
+        2
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "affiliation": "Department of Something, University of Whatever",
+      "affiliation_number": 1
+    },
+    {
+      "affiliation": "Department of Whatever, University of Something",
+      "affiliation_number": 2
+    }
+  ],
+  "ci_source": {
+    "repo_slug": "Benjamin-Lee/ten_simple_rules_for_ml_in_bio",
+    "repo_owner": "Benjamin-Lee",
+    "repo_name": "ten_simple_rules_for_ml_in_bio",
+    "commit": "a8b7b2076570ca14039821a39d3d80beab4e74d8"
+  },
+  "manuscript_stats": {
+    "reference_counts": {
+      "total": 0
+    },
+    "word_count": 216
+  }
+}
