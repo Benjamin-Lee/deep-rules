@@ -1,27 +1,19 @@
 ---
-title: "Manubot Rootstock: Manuscript Title"
+title: "Ten Simple Rules for Machine Learning in Biology"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - ten simple rules
+  - machine learning
+  - deep learning
+  - artificial intelligence
 lang: en-US
 author_info:
   -
-    github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    github: Benjamin-Lee
+    name: Benjamin D. Lee
+    initials: BDL
+    orcid: 0000-0002-7133-8397
+    email: benjamindlee@me.com
     affiliations:
-      - Department of Something, University of Whatever
-    funders: Grant XXXXXXXX
-  -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - School of Engineering and Applied Sciences, Harvard University
+      - Department of Genetics, Harvard Medical School
+      - Lab41, In-Q-Tel
