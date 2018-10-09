@@ -10,8 +10,19 @@
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+This is the manuscript for a community-written [Ten Simple
+Rules](https://collections.plos.org/ten-simple-rules) article aimed at [PLOS
+Computational Biology](ploscompbio.org). Machine learning is exploding in
+popularity and is increasingly finding its way into biological data analysis.
+However, since most biologists receive little (or no) data science training,
+using machine learning properly can be a daunting task.
+
+**We're going to try to fix that.** By boiling down the community's knowledge
+into ten simple rules, we hope to increase the number of biological researchers
+using ML (by making it more inviting) and the quality of the research (by
+helping them avoid common mistakes).
+
+Join us!
 
 ## Manubot
 
