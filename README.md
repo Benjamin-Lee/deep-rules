@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# Ten Simple Rules for Machine Learning in Biology
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
