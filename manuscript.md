@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2018-10-09'
+date-meta: '2018-10-22'
 keywords:
 - ten simple rules
 - machine learning
@@ -18,10 +18,10 @@ title: Ten Simple Rules for Machine Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/ten_simple_rules_for_ml_in_bio/v/a09de97d7cc894c0cb1950778511398d4a500ce5/))
+([permalink](https://Benjamin-Lee.github.io/ten_simple_rules_for_dl_in_bio/v/a09de97d7cc894c0cb1950778511398d4a500ce5/))
 was automatically generated
-from [Benjamin-Lee/ten_simple_rules_for_ml_in_bio@a09de97](https://github.com/Benjamin-Lee/ten_simple_rules_for_ml_in_bio/tree/a09de97d7cc894c0cb1950778511398d4a500ce5)
-on October 9, 2018.
+from [Benjamin-Lee/ten_simple_rules_for_dl_in_bio@a09de97](https://github.com/Benjamin-Lee/ten_simple_rules_for_dl_in_bio/tree/a09de97d7cc894c0cb1950778511398d4a500ce5)
+on October 22, 2018.
 </em></small>
 
 ## Authors
