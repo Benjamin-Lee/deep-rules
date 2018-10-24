@@ -2,9 +2,9 @@
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://Benjamin-Lee.github.io/ten_simple_rules_for_dl_in_bio/)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://Benjamin-Lee.github.io/ten_simple_rules_for_dl_in_bio/manuscript.pdf)
-[![Build Status](https://travis-ci.org/Benjamin-Lee/ten_simple_rules_for_ml_in_bio.svg?branch=master)](https://travis-ci.org/Benjamin-Lee/ten_simple_rules_for_ml_in_bio)
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://Benjamin-Lee.github.io/deep-rules/)
+[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf)
+[![Build Status](https://travis-ci.org/Benjamin-Lee/deep-rules.svg?branch=master)](https://travis-ci.org/Benjamin-Lee/deep-rules)
 
 ## Manuscript description
 
@@ -33,7 +33,7 @@ Manubot automates citations and references, versions manuscripts using git, and 
 The [Manubot Rootstock repository](https://git.io/vQSvo) is a general purpose template for creating new Manubot instances, as detailed in [`SETUP.md`](SETUP.md).
 See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
 
-Please open [an issue](https://github.com/Benjamin-Lee/ten_simple_rules_for_ml_in_bio/issues) for questions related to Manubot usage, bug reports, or general inquiries.
+Please open [an issue](https://github.com/Benjamin-Lee/deep-rules/issues) for questions related to Manubot usage, bug reports, or general inquiries.
 
 ### Repository directories & files
 
@@ -80,17 +80,17 @@ sh build/autobuild.sh
 
 ### Continuous Integration
 
-[![Build Status](https://travis-ci.org/Benjamin-Lee/ten_simple_rules_for_dl_in_bio.svg?branch=master)](https://travis-ci.org/Benjamin-Lee/ten_simple_rules_for_dl_in_bio)
+[![Build Status](https://travis-ci.org/Benjamin-Lee/deep-rules.svg?branch=master)](https://travis-ci.org/Benjamin-Lee/deep-rules)
 
 Whenever a pull request is opened, Travis CI will test whether the changes break the build process to generate a formatted manuscript.
 The build process aims to detect common errors, such as invalid citations.
 If your pull request build fails, see the Travis CI logs for the cause of failure and revise your pull request accordingly.
 
-When a commit to the `master` branch occurs (for example, when a pull request is merged), Travis CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/Benjamin-Lee/ten_simple_rules_for_dl_in_bio/tree/gh-pages) and [`output`](https://github.com/Benjamin-Lee/ten_simple_rules_for_dl_in_bio/tree/output) branches.
+When a commit to the `master` branch occurs (for example, when a pull request is merged), Travis CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/Benjamin-Lee/deep-rules/tree/gh-pages) and [`output`](https://github.com/Benjamin-Lee/deep-rules/tree/output) branches.
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
-+ **HTML manuscript** at https://Benjamin-Lee.github.io/ten_simple_rules_for_dl_in_bio/
-+ **PDF manuscript** at https://Benjamin-Lee.github.io/ten_simple_rules_for_dl_in_bio/manuscript.pdf
++ **HTML manuscript** at https://Benjamin-Lee.github.io/deep-rules/
++ **PDF manuscript** at https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf
 
 For continuous integration configuration details, see [`.travis.yml`](.travis.yml).
 
@@ -105,7 +105,7 @@ We encourage users to openly license their manuscripts, which is the default as 
 [![License: CC0 1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 Except when noted otherwise, the entirety of this repository is licensed under a CC BY 4.0 License ([`LICENSE.md`](LICENSE.md)), which allows reuse with attribution.
-Please attribute by linking to https://github.com/Benjamin-Lee/ten_simple_rules_for_dl_in_bio.
+Please attribute by linking to https://github.com/Benjamin-Lee/deep-rules.
 
 Since CC BY is not ideal for code and data, certain repository components are also released under the CC0 1.0 public domain dedication ([`LICENSE-CC0.md`](LICENSE-CC0.md)).
 All files matched by the following glob patterns are dual licensed under CC BY 4.0 and CC0 1.0:
@@ -129,4 +129,4 @@ Except for the following files with different licenses:
 
 + `build/assets/anchors.js` which is [released](https://www.bryanbraun.com/anchorjs/) under an [MIT License](https://opensource.org/licenses/MIT)
 
-Please open [an issue](https://github.com/Benjamin-Lee/ten_simple_rules_for_dl_in_bio/issues) for any question related to licensing.
+Please open [an issue](https://github.com/Benjamin-Lee/deep-rules/issues) for any question related to licensing.
