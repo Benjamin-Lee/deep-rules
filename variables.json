@@ -1,5 +1,5 @@
 {
-  "date": "October 22, 2018",
+  "date": "October 24, 2018",
   "authors": [
     {
       "github": "Benjamin-Lee",
@@ -37,7 +37,7 @@
     "repo_slug": "Benjamin-Lee/ten_simple_rules_for_dl_in_bio",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "ten_simple_rules_for_dl_in_bio",
-    "commit": "a09de97d7cc894c0cb1950778511398d4a500ce5"
+    "commit": "59e651ebb2437779c46ea0c1fe3a247750def345"
   },
   "manuscript_stats": {
     "reference_counts": {
