@@ -34,9 +34,9 @@
     }
   ],
   "ci_source": {
-    "repo_slug": "Benjamin-Lee/ten_simple_rules_for_dl_in_bio",
+    "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
-    "repo_name": "ten_simple_rules_for_dl_in_bio",
+    "repo_name": "deep-rules",
     "commit": "59e651ebb2437779c46ea0c1fe3a247750def345"
   },
   "manuscript_stats": {
