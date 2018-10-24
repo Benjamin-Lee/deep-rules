@@ -15,7 +15,7 @@ Rules](https://collections.plos.org/ten-simple-rules) article aimed at [PLOS
 Computational Biology](ploscompbio.org). Deep learning is exploding in
 popularity and is increasingly finding its way into biological data analysis.
 However, since most biologists receive little (or no) data science training,
-using machine deep properly can be a daunting task.
+using deep learning properly can be a daunting task.
 
 **We're going to try to fix that.** By boiling down the community's knowledge
 into ten simple rules, we hope to increase the number of biological researchers
