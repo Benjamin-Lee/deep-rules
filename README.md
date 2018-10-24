@@ -1,8 +1,8 @@
 # Output directory containing the formatted manuscript
 
-The [`gh-pages`](https://github.com/Benjamin-Lee/ten_simple_rules_for_dl_in_bio/tree/gh-pages) branch hosts the contents of this directory at https://Benjamin-Lee.github.io/ten_simple_rules_for_dl_in_bio/.
-The permalink for this webpage version is https://Benjamin-Lee.github.io/ten_simple_rules_for_dl_in_bio/v/59e651ebb2437779c46ea0c1fe3a247750def345/.
-To redirect to the permalink for the latest manuscript version at anytime, use the link https://Benjamin-Lee.github.io/ten_simple_rules_for_dl_in_bio/v/freeze/.
+The [`gh-pages`](https://github.com/Benjamin-Lee/deep-rules/tree/gh-pages) branch hosts the contents of this directory at https://Benjamin-Lee.github.io/deep-rules/.
+The permalink for this webpage version is https://Benjamin-Lee.github.io/deep-rules/v/59e651ebb2437779c46ea0c1fe3a247750def345/.
+To redirect to the permalink for the latest manuscript version at anytime, use the link https://Benjamin-Lee.github.io/deep-rules/v/freeze/.
 
 ## Files
 
@@ -32,4 +32,4 @@ git add v/*/*.ots
 ## Source
 
 The manuscripts in this directory were built from
-[`59e651ebb2437779c46ea0c1fe3a247750def345`](https://github.com/Benjamin-Lee/ten_simple_rules_for_dl_in_bio/commit/59e651ebb2437779c46ea0c1fe3a247750def345).
+[`59e651ebb2437779c46ea0c1fe3a247750def345`](https://github.com/Benjamin-Lee/deep-rules/commit/59e651ebb2437779c46ea0c1fe3a247750def345).
