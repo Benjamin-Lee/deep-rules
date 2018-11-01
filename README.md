@@ -24,6 +24,17 @@ helping them avoid common mistakes).
 
 Join us!
 
+## Where we are now
+
+Currently, we're in the process of proposing rules. Once we have ten ideas (we
+can always refine and change them later), we'll submit a presubmission inquiry
+to PLOS to get a formal go-ahead for the paper.
+
+To submit an idea for a rule, [make an
+issue](https://github.com/Benjamin-Lee/deep-rules/issues/new). To view the list
+of proposed rules, take a look
+[here](https://github.com/Benjamin-Lee/deep-rules/issues?q=label%3Arule).
+
 ## Manubot
 
 <!-- usage note: do not edit this section -->
