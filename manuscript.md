@@ -18,9 +18,9 @@ title: Ten Simple Rules for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/393ef59da7455f9bf3126155adc367d0728dc249/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/0e7892130bd802b0f5fcfcdc238ed30578738ab9/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@393ef59](https://github.com/Benjamin-Lee/deep-rules/tree/393ef59da7455f9bf3126155adc367d0728dc249)
+from [Benjamin-Lee/deep-rules@0e78921](https://github.com/Benjamin-Lee/deep-rules/tree/0e7892130bd802b0f5fcfcdc238ed30578738ab9)
 on November 7, 2018.
 </em></small>
 
