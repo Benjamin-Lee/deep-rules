@@ -27,14 +27,16 @@ inquiry, the following rules have been proposed:
 
 <!-- just using 1. for each entry so that they can be more easily reordered -->
 
-1. Don't use deep learning if you don't have to.
-1. Always compare the performance of deep models with simple, tuned baseline models.
-1. Understand the questions you can (and can't) answer with your data and model.
-1. Use existing model architectures whenever possible.
-1. When it comes to data, bigger is better.
-1. If you don't have enough data, consider whether there is other data that can help pre-train a model.
-1. Don't share model weights trained on private data.
-1. Normalize, normalize, normalize.
+1. Lorem ipsum
+1. Lorem ipsum
+1. Lorem ipsum
+1. Lorem ipsum
+1. Lorem ipsum
+1. Lorem ipsum
+1. Lorem ipsum
+1. Lorem ipsum
+1. Lorem ipsum
+1. Lorem ipsum
 
 These rules are chosen so that readers of varying experience levels will be able to gain from the article and range from the high level (Should I use deep learning for this problem?) to implementation best practices.
 
