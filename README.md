@@ -41,7 +41,7 @@ Help of any kind is highly appreciated. Want to pitch in but not sure how?
 
 - Have an idea for a rule? [Propose it!](https://github.com/Benjamin-Lee/deep-rules/issues/new?template=rule-proposal.md)
 - Know of anyone who might be interested? [Send them an email!](mailto:@?subject=Ten%20Simple%20Rules%20for%20Using%20Deep%20Learning%20in%20Biology%20paper&body=Take%20a%20look%20at%20the%20Deep%20Rules%20project%2C%20a%20PLOS%20Computational%20Biology%20paper%20written%20collaboratively%20using%20GitHub!%20%0A%0Ahttps%3A%2F%2Fgithub.com%2FBenjamin-Lee%2Fdeep-rules%0A%0AThe%20paper%2C%20entitled%20%22Ten%20Simple%20Rules%20for%20Using%20Deep%20Learning%20in%20Biology%2C%22%20is%20currently%20soliciting%20rule%20proposals%20from%20the%20community.%20To%20propose%20a%20rule%2C%20submit%20it%20here%3A%20https%3A%2F%2Fgithub.com%2FBenjamin-Lee%2Fdeep-rules%2Fissues%2Fnew%3Ftemplate%3Drule-proposal.md%0A%0AIf%20you%20know%20of%20anyone%20who%20might%20be%20interested%2C%20feel%20free%20to%20forward%20this%20email%20along!)
-- Have Twitter followers? [Tweet about the project!](twitter.com)
+- Have Twitter followers? [Tweet about the project!](http://twitter.com)
 - Revise the [cover letter](https://github.com/Benjamin-Lee/deep-rules/edit/master/content/presubmission_inquiry.md)
 
 ## Manubot
