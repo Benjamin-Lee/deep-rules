@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/Benjamin-Lee/deep-rules/tree/gh-pages) branch hosts the contents of this directory at https://Benjamin-Lee.github.io/deep-rules/.
-The permalink for this webpage version is https://Benjamin-Lee.github.io/deep-rules/v/7f1380eaeb19267659441710b125988ffe3abc83/.
+The permalink for this webpage version is https://Benjamin-Lee.github.io/deep-rules/v/d2559d7e18e69507a154eb10d6e2eb55d40d532a/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://Benjamin-Lee.github.io/deep-rules/v/freeze/.
 
 ## Files
@@ -32,4 +32,4 @@ git add v/*/*.ots
 ## Source
 
 The manuscripts in this directory were built from
-[`7f1380eaeb19267659441710b125988ffe3abc83`](https://github.com/Benjamin-Lee/deep-rules/commit/7f1380eaeb19267659441710b125988ffe3abc83).
+[`d2559d7e18e69507a154eb10d6e2eb55d40d532a`](https://github.com/Benjamin-Lee/deep-rules/commit/d2559d7e18e69507a154eb10d6e2eb55d40d532a).
