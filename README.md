@@ -27,7 +27,7 @@ Join us!
 ## Where we are now
 
 Currently, we're in the process of proposing rules. Once we have ten rules
-decided up, we'll submit a presubmission inquiry to PLOS to get a formal
+decided, we'll submit a presubmission inquiry to PLOS to get a formal
 go-ahead for the paper.
 
 To submit an idea for a rule, [make an
