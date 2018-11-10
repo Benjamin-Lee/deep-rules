@@ -12,7 +12,7 @@
 
 This is the manuscript for a community-written [Ten Simple
 Rules](https://collections.plos.org/ten-simple-rules) article aimed at [PLOS
-Computational Biology](ploscompbio.org). Deep learning is exploding in
+Computational Biology](https://journals.plos.org/ploscompbiol/). Deep learning is exploding in
 popularity and is increasingly finding its way into biological data analysis.
 However, since most biologists receive little (or no) data science training,
 using deep learning properly can be a daunting task.
