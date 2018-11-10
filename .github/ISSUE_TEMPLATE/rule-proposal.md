@@ -9,8 +9,6 @@ about: Suggest a new rule for the paper
 <!-- Put an x in between the brackets to show you did! -->
 - [ ] Yes
 
-**In one sentence, describe the rule.**
-
 **Feel free to elaborate, rant, and/or ramble.**
 
 **Any citations for the rule?** (peer-reviewed literature preferred but not required)
