@@ -14,3 +14,4 @@ In chronological order:
 - Kun-Hsing Yu
 - Andrew L. Beam
 - Hugo Aerts
+- Beth Signal
