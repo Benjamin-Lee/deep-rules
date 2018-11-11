@@ -15,3 +15,5 @@ In chronological order:
 - Andrew L. Beam
 - Hugo Aerts
 - Beth Signal
+- Paul Brodersen
+- Marc Chevrette
