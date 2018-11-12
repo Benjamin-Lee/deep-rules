@@ -42,7 +42,7 @@ These rules are chosen so that readers of varying experience levels will be able
 
 Upon determination that this manuscript will be suitable for submission to PLOS Computational Biology, I will further engage with the community to solicit feedback and contributions. All authors of the paper will meet the ICMJE authorship standards.
 
-By providing guidance on deep learning, powerful DL methods can be properly utilized by the community towards a deeper understanding of biology. Here, we aim to increase the number of biological researchers that take advanatage of DL methods (by making them more inviting) and improve the overall the quality and reproducibility of the research (by helping them avoid common mistakes).
+By providing guidance on deep learning, powerful DL methods can be properly utilized by the community towards a deeper understanding of biology. Here, we aim to increase the number of biological researchers that take advanatage of DL methods (by making DL more accessible) and improve the overall the quality and reproducibility of the research (by helping researchers avoid common mistakes).
 
 Sincerely,
 
