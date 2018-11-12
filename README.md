@@ -44,6 +44,8 @@ Help of any kind is highly appreciated. Want to pitch in but not sure how?
 - Have Twitter followers? [Tweet about the project!](http://twitter.com)
 - Revise the [cover letter](https://github.com/Benjamin-Lee/deep-rules/edit/master/content/presubmission_inquiry.md)
 
+For more information, see [the contribution guidelines](CONTRIBUTING.md). All contributions are subject to the [code of conduct](CODE_OF_CONDUCT.md).
+
 ## Manubot
 
 <!-- usage note: do not edit this section -->

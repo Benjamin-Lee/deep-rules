@@ -3,11 +3,11 @@ Dear Dr. Markel:
 I am writing to submit a Ten Simple Rules article entitled “Ten Simple Rules for
 Deep Learning in Biology.” Deep learning (DL) is exploding in popularity and is
 increasingly finding its way into biological data analysis. However, since most
-biologists receive little (or no) data science training, using deep learning
-properly can be a daunting task.
+biologists receive little (or no) formal data science training, using deep learning
+properly remains a daunting task.
 
-Deep learning is a large and complex field by itself, with additional complexity
-added when applied to biology. Inspired by [*Opportunities and obstacles for
+Alone, deep learning is a large and complex field. Additional complexity
+is added when applied to biology. Inspired by [*Opportunities and obstacles for
 deep learning in biology and medicine*](https://doi.org/10.1098/rsif.2017.0387)
 and [*Ten Simple Rules for Writing a PLOS Ten Simple Rules
 Article*](https://doi.org/10.1371/journal.pcbi.1003858) (Rule 5: Collaborate), I propose
@@ -16,7 +16,7 @@ to write the article using
 manuscript authoring platform based on GitHub. By writing the manuscript in the
 open on GitHub (which is extensively used by those doing deep learning research)
 and soliciting input from the community, I hope that the article will be able to
-provide actionable, DL-specific guidance for both new and intermediate DL
+provide actionable, DL-specific guidance for both new and experienced DL
 practitioners.
 
 
@@ -42,7 +42,7 @@ These rules are chosen so that readers of varying experience levels will be able
 
 Upon determination that this manuscript will be suitable for submission to PLOS Computational Biology, I will further engage with the community to solicit feedback and contributions. All authors of the paper will meet the ICMJE authorship standards.
 
-It is my hope that, by providing guidance on deep learning, these powerful methods can be properly utilized by the community and increase the number of biological researchers using DL (by making it more inviting) and the quality of the research (by helping them avoid common mistakes), ultimately leading to a deeper understanding of biology.
+By providing guidance on deep learning, powerful DL methods can be properly utilized by the community towards a deeper understanding of biology. Here, we aim to increase the number of biological researchers that take advanatage of DL methods (by making DL more accessible) and improve the overall the quality and reproducibility of the research (by helping researchers avoid common mistakes).
 
 Sincerely,
 
