@@ -17,3 +17,7 @@ In chronological order:
 - Beth Signal
 - Paul Brodersen
 - Marc Chevrette
+- Ben Lengerich
+- Jacob Schreiber
+- Brett Beaulieu-Jones
+- Julian Stanley
