@@ -22,3 +22,4 @@ In chronological order:
 - Brett Beaulieu-Jones
 - Julian Stanley
 - Paul Stewart
+- Thiago Britto Borges
