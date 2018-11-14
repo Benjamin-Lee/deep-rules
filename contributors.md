@@ -23,4 +23,5 @@ In chronological order:
 - Julian Stanley
 - Paul Stewart
 - Thiago Britto Borges
+- Isaac Lazzeri
 - Sebastian Raschka
