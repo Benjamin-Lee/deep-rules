@@ -26,3 +26,4 @@ In chronological order:
 - Isaac Lazzeri
 - Sebastian Raschka
 - Fábio Madeira
+- Gökçen Eraslan
