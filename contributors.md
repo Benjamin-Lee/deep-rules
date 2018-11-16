@@ -27,3 +27,4 @@ In chronological order:
 - Sebastian Raschka
 - Fábio Madeira
 - Gökçen Eraslan
+- Renger Jellema
