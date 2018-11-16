@@ -25,3 +25,4 @@ In chronological order:
 - Thiago Britto Borges
 - Isaac Lazzeri
 - Sebastian Raschka
+- Fábio Madeira
