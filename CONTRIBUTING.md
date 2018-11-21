@@ -15,7 +15,10 @@ components of the paper.
 
 Contributions to the article operate on a pull request model. We expect
 participants to actively review pull requests. We'd love to have you ask
-questions, clarify points, and jump in and edit the text.
+questions, clarify points, and jump in and edit the text. For minor changes
+(fixing a typo or similar), collaborators with push privileges may push directly
+to master. As a rule of thumb, if someone could potentially disagree with the
+change, make a PR.
 
 ## Authorship
 
