@@ -30,3 +30,4 @@ In chronological order:
 - Renger Jellema
 - Victor Greiff
 - Evan M. Cofer
+- Haohan Wang
