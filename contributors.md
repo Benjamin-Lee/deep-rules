@@ -29,3 +29,4 @@ In chronological order:
 - Gökçen Eraslan
 - Renger Jellema
 - Victor Greiff
+- Evan M. Cofer
