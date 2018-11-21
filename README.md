@@ -28,7 +28,7 @@ Join us!
 ## Where we are now
 
 Currently, we're in the process of condensing the multitude of proposed rules
-down to ten rules. Once we them decided, we'll start writing the paper and
+down to ten. Once we have the rules decided, we'll start writing the paper and
 submit a presubmission inquiry to PLOS to get a formal go-ahead.
 
 To view the list of condensed rules, take a look
