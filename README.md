@@ -28,12 +28,11 @@ Join us!
 ## Where we are now
 
 Currently, we're in the process of condensing the multitude of proposed rules
-down to ten. Once we have the rules decided, we'll start writing the paper and
+down to ten rules. Once we them decided, we'll start writing the paper and
 submit a presubmission inquiry to PLOS to get a formal go-ahead.
 
 To view the list of condensed rules, take a look
-[here](https://github.com/Benjamin-Lee/deep-rules/blob/master/rules.md). To
-submit an idea for a rule, [make an
+[here](https://github.com/Benjamin-Lee/deep-rules/blob/master/rules.md). To submit an idea for a rule, [make an
 issue](https://github.com/Benjamin-Lee/deep-rules/issues/new?template=rule-proposal.md).
 
 ## How you can help
@@ -46,22 +45,18 @@ Help of any kind is highly appreciated. Want to pitch in but not sure how?
 - Revise the [cover letter](https://github.com/Benjamin-Lee/deep-rules/edit/master/content/presubmission_inquiry.md)
 - Have an idea for a rule? [Propose it!](https://github.com/Benjamin-Lee/deep-rules/issues/new?template=rule-proposal.md)
 
-For more information, see [the contribution guidelines](CONTRIBUTING.md). All
-contributions are subject to the [code of conduct](CODE_OF_CONDUCT.md).
+For more information, see [the contribution guidelines](CONTRIBUTING.md). All contributions are subject to the [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Manubot
 
 <!-- usage note: do not edit this section -->
 
-Manubot is a system for writing scholarly manuscripts via GitHub. Manubot
-automates citations and references, versions manuscripts using git, and enables
-collaborative writing via GitHub. The [Manubot Rootstock
-repository](https://git.io/vQSvo) is a general purpose template for creating new
-Manubot instances, as detailed in [`SETUP.md`](SETUP.md). See
-[`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
+Manubot is a system for writing scholarly manuscripts via GitHub.
+Manubot automates citations and references, versions manuscripts using git, and enables collaborative writing via GitHub.
+The [Manubot Rootstock repository](https://git.io/vQSvo) is a general purpose template for creating new Manubot instances, as detailed in [`SETUP.md`](SETUP.md).
+See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
 
-Please open [an issue](https://github.com/Benjamin-Lee/deep-rules/issues) for
-questions related to Manubot usage, bug reports, or general inquiries.
+Please open [an issue](https://github.com/Benjamin-Lee/deep-rules/issues) for questions related to Manubot usage, bug reports, or general inquiries.
 
 ### Repository directories & files
 
