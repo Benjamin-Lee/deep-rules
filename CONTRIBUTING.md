@@ -38,9 +38,9 @@ cited literature, look over the text in detail, or are you just supporting the
 concept?
 
 Before a repository maintainer merges a pull request, there must be at least one
-affirmative review. If there is any unaddressed criticism or disapproval, a
-repository maintainer will determine how to proceed and may wait for additional
-feedback.
+affirmative review by someone other than the author and the maintainer. If there
+is any unaddressed criticism or disapproval, a repository maintainer will
+determine how to proceed and may wait for additional feedback. 
 
 For minor changes (fixing a typo or similar), collaborators with push
 privileges may push directly to the master branch. As a rule of thumb, if
