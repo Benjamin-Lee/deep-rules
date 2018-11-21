@@ -42,6 +42,9 @@ affirmative review by someone other than the author and the maintainer. If there
 is any unaddressed criticism or disapproval, a repository maintainer will
 determine how to proceed and may wait for additional feedback. 
 
-For minor changes (fixing a typo or similar), collaborators with push
-privileges may push directly to the master branch. As a rule of thumb, if
-someone could potentially disagree with the change, make a PR.
+## The Contribution Process
+
+1. New pull request (optionally with `[WIP]`)
+2. Pull request author adds `[MRG]` to the pull request title to indicate it is ready to merge and for review
+3. Reviewer edits `[MRG]` to `[MRG+1]` after approval
+4. Maintainer merges
