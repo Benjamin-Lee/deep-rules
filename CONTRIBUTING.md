@@ -32,7 +32,7 @@ If there is any unaddressed criticism or disapproval, a repository maintainer wi
 
 ## The Contribution Process
 
-1. New pull request (optionally with `[WIP]`)
-2. Pull request author adds `[MRG]` to the pull request title to indicate it is ready to merge and for review
-3. Reviewer edits `[MRG]` to `[MRG+1]` after approval
-4. Maintainer merges
+1. Contributor creates a new pull request (optionally with `[WIP]` in the title to indicate work in progress)
+2. Pull request author removes [`WIP`] to indicate it is ready for review
+3. Maintainer suggests edits and approves the pull request after all changes are made
+4. Second maintainer approves and merges the pull request
