@@ -13,7 +13,7 @@ Article*](https://doi.org/10.1371/journal.pcbi.1003858) (Rule 5: Collaborate), I
 To accomplish this goal, I have created a
 [repository](github.com/Benjamin-Lee/deep-rules) that will host the discussion
 and writing of the manuscript. In preparation for submitting this letter of
-inquiry, the following 10 rules have been proposed:
+inquiry, the following ten rules have been proposed:
 
 <!-- just using 1. for each entry so that they can be more easily reordered -->
 
