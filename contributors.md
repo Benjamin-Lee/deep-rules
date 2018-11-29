@@ -31,3 +31,4 @@ In chronological order:
 - Victor Greiff
 - Evan M. Cofer
 - Haohan Wang
+- Shyam M. Saladi
