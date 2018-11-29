@@ -42,4 +42,4 @@ Here, we aim to increase the accessibility of DL techniques to biology and there
 
 Sincerely,
 
-Benjamin Lee, [on behalf of all authors](https://github.com/Benjamin-Lee/deep-rules/blob/master/contributors.md)
+Benjamin Lee, [on behalf of all contributors](https://github.com/Benjamin-Lee/deep-rules/blob/master/contributors.md)
