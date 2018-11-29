@@ -38,3 +38,6 @@
   - Correlation != Causation ([#9](https://github.com/Benjamin-Lee/deep-rules/issues/9))
   - Don't overinterpret ([#33](https://github.com/Benjamin-Lee/deep-rules/issues/33))
 
+10. Don't share models trained on private data.
+  - Talk about machine learning security and privacy concerns, especially with respect to PII and PHI. ([#4](https://github.com/Benjamin-Lee/deep-rules/issues/4))
+  - Emphasize the added dangers of deep models with greater representational capacity
