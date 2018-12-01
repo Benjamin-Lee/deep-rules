@@ -18,7 +18,7 @@ Further, we propose to write the article with Manubot, a collaborative manuscrip
 By writing the manuscript in the open on GitHub, which is extensively used by those actively conducting DL research, and soliciting input from the wider scientific community, we are convinced that this manuscript will provide actionable, DL-specific advice for both new and experienced DL practitioners.
 
 
-In preparation for thsi letter of inquiry, the following ten rules have been proposed:
+In preparation for this letter of inquiry, the following ten rules have been proposed:
 
 <!-- just using 1. for each entry so that they can be more easily reordered -->
 
