@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2018-11-30'
+date-meta: '2018-12-01'
 keywords:
 - ten simple rules
 - machine learning
@@ -18,10 +18,10 @@ title: Ten Simple Rules for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ce0bd3ef74f9f0a5c3b3d734c27cf76737b7697e/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/3d523d7ba423b4dd90829c2000118cbae121b9b1/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@ce0bd3e](https://github.com/Benjamin-Lee/deep-rules/tree/ce0bd3ef74f9f0a5c3b3d734c27cf76737b7697e)
-on November 30, 2018.
+from [Benjamin-Lee/deep-rules@3d523d7](https://github.com/Benjamin-Lee/deep-rules/tree/3d523d7ba423b4dd90829c2000118cbae121b9b1)
+on December 1, 2018.
 </em></small>
 
 ## Authors
