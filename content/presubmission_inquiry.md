@@ -13,7 +13,7 @@ Alone, DL is large and complex field, and its correct application to biological 
 By providing accessible and actionable guidance on how to best use DL to answer biological questions, we seek to accelerate scientific progress and minimize barriers to entry.
 
 Inspired by [*Opportunities and obstacles for deep learning in biology and medicine*](https://doi.org/10.1098/rsif.2017.0387) and [*Ten Simple Rules for Writing a PLOS Ten Simple Rules Article*](https://doi.org/10.1371/journal.pcbi.1003858) (Rule 5: Collaborate), we have already assembled a team of expert authors in bioinformatics and DL through an open call for contributions.
-To that end, we have created a GitHub [repository](github.com/Benjamin-Lee/deep-rules) to host the discussion and drafting process.
+To that end, we have created a GitHub [repository](https://github.com/Benjamin-Lee/deep-rules) to host the discussion and drafting process.
 Further, we propose to write the article with Manubot, a collaborative manuscript authoring platform based on GitHub.
 By writing the manuscript in the open on GitHub, which is extensively used by those actively conducting DL research, and soliciting input from the wider scientific community, we are convinced that this manuscript will provide actionable, DL-specific advice for both new and experienced DL practitioners.
 
