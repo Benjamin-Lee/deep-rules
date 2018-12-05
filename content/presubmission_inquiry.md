@@ -23,7 +23,7 @@ In preparation for this letter of inquiry, the following ten rules have been pro
 <!-- just using 1. for each entry so that they can be more easily reordered -->
 
 1. Rules that apply to machine learning also apply to deep learning
-1. Lorem ipsum
+1. Understand the complexities of training deep neural networks
 1. Know your data and your question
 1. Choose an appropriate model for the data 
 1. Tune your hyperparameters
