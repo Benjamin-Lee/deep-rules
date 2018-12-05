@@ -10,7 +10,7 @@
   - Test the robustness of your DL model in a simulation framework in which the ground truth is known ([#49](https://github.com/Benjamin-Lee/deep-rules/issues/49))
   - Sanity checks, good coding practices, design and run experiments systematically ([#52](https://github.com/Benjamin-Lee/deep-rules/issues/52), [#35](https://github.com/Benjamin-Lee/deep-rules/issues/35))
 
-2. Rules more specific for DL (not necessarily ML) that apply to "DL in Biology" as well
+2. Understand the complexities of training deep neural networks
   - Rerun multiple times different initial weight settings (e.g., avg. top 3 out of 5 performance) for fair comparison ([#42](https://github.com/Benjamin-Lee/deep-rules/issues/42))
   - More extensive model selection: architecture as well as hyperparameter search required ([#42](https://github.com/Benjamin-Lee/deep-rules/issues/42))
   - Deep learning really shines on unstructured, not structured data ([#22](https://github.com/Benjamin-Lee/deep-rules/issues/22))
