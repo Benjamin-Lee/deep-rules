@@ -22,16 +22,16 @@ In preparation for this letter of inquiry, the following ten rules have been pro
 
 <!-- just using 1. for each entry so that they can be more easily reordered -->
 
-1. Rules that apply to machine learning also apply to deep learning
+1. Concepts that apply to machine learning also apply to deep learning
 1. Understand the complexities of training deep neural networks
 1. Know your data and your question
-1. Choose an appropriate model for the data 
-1. Tune your hyperparameters
-1. Limit overfitting
-1. Compare to non-DL methods as baselines
-1. A DL model can be, but doesn't need to be a black box
+1. Choose an appropriate neural network architecture and data representation
+1. Tune your hyperparameters extensively and systematically
+1. Address deep neural networks' increased tendency to overfit the dataset
+1. Use traditional methods to establish performance baselines
+1. Do not necessarily consider a DL model as a black box
 1. Interpret predictions in the correct manner
-1. Don't share models trained on private data.
+1. Don't share models trained on sensitive data.
 
 These rules range from high-level guidance to implementation best practices and they have been devised to effectively reach audiences of varying expertise.
 Upon notification that this manuscript will be suitable for submission to PLOS Computational Biology, we will further engage with the community to solicit feedback and contributions.

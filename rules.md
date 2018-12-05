@@ -1,6 +1,6 @@
 # Proposed Rules
 
-1. Rules for ML apply to DL ([#37](https://github.com/Benjamin-Lee/deep-rules/issues/37))
+1. Concepts that apply to machine learning also apply to deep learning ([#37](https://github.com/Benjamin-Lee/deep-rules/issues/37))
   - Garbage In/Garbage Out ([#26](https://github.com/Benjamin-Lee/deep-rules/issues/26))
   - Normalize your data ([#7](https://github.com/Benjamin-Lee/deep-rules/issues/7))
   - Make sure data is not biased/skewed ([#43](https://github.com/Benjamin-Lee/deep-rules/issues/43))
@@ -18,18 +18,18 @@
 3. Know your data and your question
   - ([#31](https://github.com/Benjamin-Lee/deep-rules/issues/31), [#12](https://github.com/Benjamin-Lee/deep-rules/issues/12), [#13](https://github.com/Benjamin-Lee/deep-rules/issues/13),  [#18](https://github.com/Benjamin-Lee/deep-rules/issues/18))
 
-4. Choose a model appropriate to the data ([#29](https://github.com/Benjamin-Lee/deep-rules/issues/29))
+4. Choose an appropriate neural network architecture and data representation ([#29](https://github.com/Benjamin-Lee/deep-rules/issues/29))
   - A bit of discussion on DL architectures and how they apply to different problems here would be helpful
 
-5. Tune your hyperparameters ([#42](https://github.com/Benjamin-Lee/deep-rules/issues/42), [#11](https://github.com/Benjamin-Lee/deep-rules/issues/11))
+5. Tune your hyperparameters extensively and systematically ([#42](https://github.com/Benjamin-Lee/deep-rules/issues/42), [#11](https://github.com/Benjamin-Lee/deep-rules/issues/11))
   - Again, discussion on DL specific tuning would be helpful. i.e. layers, dropout, activation functions etc.
 
-6. Limit overfitting ([#28](https://github.com/Benjamin-Lee/deep-rules/issues/28))
+6. Address deep neural networks' increased tendency to overfit the dataset ([#28](https://github.com/Benjamin-Lee/deep-rules/issues/28))
   - Some discussion on how not to overfit particularly in the context of DL methods.
 
-7. Compare to non-DL methods as baselines ([#41](https://github.com/Benjamin-Lee/deep-rules/issues/41), [#11](https://github.com/Benjamin-Lee/deep-rules/issues/11), [#10](https://github.com/Benjamin-Lee/deep-rules/issues/10))
+7. Use traditional methods to establish performance baselines ([#41](https://github.com/Benjamin-Lee/deep-rules/issues/41), [#11](https://github.com/Benjamin-Lee/deep-rules/issues/11), [#10](https://github.com/Benjamin-Lee/deep-rules/issues/10))
 
-8. A DL model can be, but doesn't need to be a black box
+8. Do not necessarily consider a DL model as a black box
   - How to interpret DL models ([#36](https://github.com/Benjamin-Lee/deep-rules/issues/36))
   - Similar to [#6](https://github.com/Benjamin-Lee/deep-rules/issues/6). Check if DL is actually a significant improvement in performance over a more 'interpretable' model ([#25](https://github.com/Benjamin-Lee/deep-rules/issues/25))
 
@@ -38,6 +38,6 @@
   - Correlation != Causation ([#9](https://github.com/Benjamin-Lee/deep-rules/issues/9))
   - Don't overinterpret ([#33](https://github.com/Benjamin-Lee/deep-rules/issues/33))
 
-10. Don't share models trained on private data.
+10. Don't share models trained on sensitive data.
   - Talk about machine learning security and privacy concerns, especially with respect to PII and PHI. ([#4](https://github.com/Benjamin-Lee/deep-rules/issues/4))
   - Emphasize the added dangers of deep models with greater representational capacity
