@@ -26,6 +26,7 @@
 
 6. Address deep neural networks' increased tendency to overfit the dataset ([#28](https://github.com/Benjamin-Lee/deep-rules/issues/28))
   - Some discussion on how not to overfit particularly in the context of DL methods.
+  - Overfitting as a symptom of fitting to confounding effects ([#55](https://github.com/Benjamin-Lee/deep-rules/issues/55))
 
 7. Use traditional methods to establish performance baselines ([#41](https://github.com/Benjamin-Lee/deep-rules/issues/41), [#11](https://github.com/Benjamin-Lee/deep-rules/issues/11), [#10](https://github.com/Benjamin-Lee/deep-rules/issues/10))
 
