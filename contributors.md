@@ -32,3 +32,4 @@ In chronological order:
 - Evan M. Cofer
 - Haohan Wang
 - Shyam M. Saladi
+- Michael M. Hoffman
