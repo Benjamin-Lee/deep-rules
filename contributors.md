@@ -7,7 +7,7 @@ will be listed as authors; all others will be thanked in the acknowledgements.
 In chronological order:
 
 - Benjamin D. Lee
-- Casey Greene
+- Casey S. Greene
 - Anthony Gitter
 - Tim Triche, Jr.
 - Simina M. Boca
