@@ -18,9 +18,9 @@ title: Ten Simple Rules for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a134ab667f1a6718622bac24dcc10cdd7dcaa6f0/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/458a78028fd697ac56c8a2ed2e5d706bb516b87a/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@a134ab6](https://github.com/Benjamin-Lee/deep-rules/tree/a134ab667f1a6718622bac24dcc10cdd7dcaa6f0)
+from [Benjamin-Lee/deep-rules@458a780](https://github.com/Benjamin-Lee/deep-rules/tree/458a78028fd697ac56c8a2ed2e5d706bb516b87a)
 on December 6, 2018.
 </em></small>
 
@@ -45,6 +45,40 @@ on December 6, 2018.
 
 
 ## Introduction
+
+
+## Rule 1: Concepts that apply to machine learning also apply to deep learning
+
+
+
+## Rule 2: Understand the complexities of training deep neural networks
+
+
+## Rule 3: Know your data and your question
+
+
+## Rule 4: Choose an appropriate neural network architecture and data representation
+
+
+## Rule 5: Tune your hyperparameters extensively and systematically
+
+
+## Rule 6: Address deep neural networks' increased tendency to overfit the dataset
+
+
+## Rule 7: Use traditional methods to establish performance baselines
+
+
+## Rule 8: Do not necessarily consider a DL model as a black box
+
+
+## Rule 9: Interpret predictions in the correct manner
+
+
+## Rule 10: Don't share models trained on sensitive data.
+
+
+## Conclusion
 
 
 ## References {.page_break_before}
