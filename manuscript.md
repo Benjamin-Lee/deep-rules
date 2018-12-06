@@ -18,9 +18,9 @@ title: Ten Simple Rules for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/458a78028fd697ac56c8a2ed2e5d706bb516b87a/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/103fa85fc32de664840f46fb5953fae3bb813f32/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@458a780](https://github.com/Benjamin-Lee/deep-rules/tree/458a78028fd697ac56c8a2ed2e5d706bb516b87a)
+from [Benjamin-Lee/deep-rules@103fa85](https://github.com/Benjamin-Lee/deep-rules/tree/103fa85fc32de664840f46fb5953fae3bb813f32)
 on December 6, 2018.
 </em></small>
 
@@ -75,7 +75,7 @@ on December 6, 2018.
 ## Rule 9: Interpret predictions in the correct manner
 
 
-## Rule 10: Don't share models trained on sensitive data.
+## Rule 10: Don't share models trained on sensitive data
 
 
 ## Conclusion
