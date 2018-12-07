@@ -9,6 +9,11 @@ about: Suggest a new rule for the paper
 <!-- Put an x in between the brackets to show you did! -->
 - [ ] Yes
 
+**Did you add yourself as a [contributor](https://github.com/Benjamin-Lee/deep-rules/blob/master/contributors.md) by making a pull request if this is your first contribution?**
+
+<!-- Put an x in between the brackets to show you did! -->
+- [ ] Yes, I added myself or am already a contributor
+
 **Feel free to elaborate, rant, and/or ramble.**
 
 **Any citations for the rule?** (peer-reviewed literature preferred but not required)

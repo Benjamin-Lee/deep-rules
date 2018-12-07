@@ -7,7 +7,7 @@ will be listed as authors; all others will be thanked in the acknowledgements.
 In chronological order:
 
 - Benjamin D. Lee
-- Casey Greene
+- Casey S. Greene
 - Anthony Gitter
 - Tim Triche, Jr.
 - Simina M. Boca
@@ -17,3 +17,19 @@ In chronological order:
 - Beth Signal
 - Paul Brodersen
 - Marc Chevrette
+- Ben Lengerich
+- Jacob Schreiber
+- Brett Beaulieu-Jones
+- Julian Stanley
+- Paul Stewart
+- Thiago Britto Borges
+- Isaac Lazzeri
+- Sebastian Raschka
+- Fábio Madeira
+- Gökçen Eraslan
+- Renger Jellema
+- Victor Greiff
+- Evan M. Cofer
+- Haohan Wang
+- Shyam M. Saladi
+- Michael M. Hoffman

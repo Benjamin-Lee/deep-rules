@@ -5,6 +5,7 @@
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://Benjamin-Lee.github.io/deep-rules/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf)
 [![Build Status](https://travis-ci.org/Benjamin-Lee/deep-rules.svg?branch=master)](https://travis-ci.org/Benjamin-Lee/deep-rules)
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Have%20you%20used%20deep%20learning%20in%20your%20research%3F%20If%20so%2C%20contribute%20to%20the%20Ten%20Simple%20Rules%20for%20Deep%20Learning%20in%20Biology%20paper%21%0A%0Ahttp%3A%2F%2Fgithub.com%2FBenjamin-Lee%2Fdeep-rules)
 
 ## Manuscript description
 
@@ -26,23 +27,19 @@ Join us!
 
 ## Where we are now
 
-Currently, we're in the process of proposing rules. Once we have ten rules
-decided, we'll submit a presubmission inquiry to PLOS to get a formal
-go-ahead for the paper.
+Currently, we're in the process of drafting the paper with each rule being tracked in its own [project](https://github.com/Benjamin-Lee/deep-rules/projects). To contribute to the paper, take a look at [`CONTRIBUTING.md`](CONTRIBUTING.md) for information on how we're organizing the writing as well as [`USAGE.md`](USAGE.md) for instructions on how to write the actual text.
 
-To submit an idea for a rule, [make an
-issue](https://github.com/Benjamin-Lee/deep-rules/issues/new?template=rule-proposal.md). To view the list
-of proposed rules, take a look
-[here](https://github.com/Benjamin-Lee/deep-rules/issues?q=label%3Arule).
+The raw text of the manuscript is stored within the [content directory](content). The rendered manuscript may be viewed as HTML [here](https://Benjamin-Lee.github.io/deep-rules/) or as a PDF [here](https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf).
+
+The [presubmission inquiry](content/presubmission_inquiry.md) has been submitted and we're eagerly waiting to hear back from the journal.
 
 ## How you can help
 
 Help of any kind is highly appreciated. Want to pitch in but not sure how?
 
-- Have an idea for a rule? [Propose it!](https://github.com/Benjamin-Lee/deep-rules/issues/new?template=rule-proposal.md)
-- Know of anyone who might be interested? [Send them an email!](mailto:@?subject=Ten%20Simple%20Rules%20for%20Using%20Deep%20Learning%20in%20Biology%20paper&body=Take%20a%20look%20at%20the%20Deep%20Rules%20project%2C%20a%20PLOS%20Computational%20Biology%20paper%20written%20collaboratively%20using%20GitHub!%20%0A%0Ahttps%3A%2F%2Fgithub.com%2FBenjamin-Lee%2Fdeep-rules%0A%0AThe%20paper%2C%20entitled%20%22Ten%20Simple%20Rules%20for%20Using%20Deep%20Learning%20in%20Biology%2C%22%20is%20currently%20soliciting%20rule%20proposals%20from%20the%20community.%20To%20propose%20a%20rule%2C%20submit%20it%20here%3A%20https%3A%2F%2Fgithub.com%2FBenjamin-Lee%2Fdeep-rules%2Fissues%2Fnew%3Ftemplate%3Drule-proposal.md%0A%0AIf%20you%20know%20of%20anyone%20who%20might%20be%20interested%2C%20feel%20free%20to%20forward%20this%20email%20along!)
-- Have Twitter followers? [Tweet about the project!](http://twitter.com)
-- Revise the [cover letter](https://github.com/Benjamin-Lee/deep-rules/edit/master/content/presubmission_inquiry.md)
+- Help us write the [rules](rules.md) into a [manuscript](content).
+- Know of anyone who might be interested? [Send them an email!](mailto:@?subject=Ten%20Simple%20Rules%20for%20Using%20Deep%20Learning%20in%20Biology%20paper&body=Take%20a%20look%20at%20the%20Deep%20Rules%20project%2C%20a%20PLOS%20Computational%20Biology%20paper%20written%20collaboratively%20using%20GitHub!%20%0A%0Ahttps%3A%2F%2Fgithub.com%2FBenjamin-Lee%2Fdeep-rules%0A%0AIf%20you%20know%20of%20anyone%20who%20might%20be%20interested%2C%20feel%20free%20to%20forward%20this%20email%20along!)
+- Have Twitter followers? [Tweet about the project!](https://twitter.com/intent/tweet?text=Have%20you%20used%20deep%20learning%20in%20your%20research%3F%20If%20so%2C%20contribute%20to%20the%20Ten%20Simple%20Rules%20for%20Deep%20Learning%20in%20Biology%20paper%21%0A%0Ahttps%3A%2F%2Fgithub.com%2FBenjamin-Lee%2Fdeep-rules)
 
 For more information, see [the contribution guidelines](CONTRIBUTING.md). All contributions are subject to the [code of conduct](CODE_OF_CONDUCT.md).
 

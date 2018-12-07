@@ -1,49 +1,46 @@
-Dear Dr. Markel:
+Scott Markel
+Dassault Systèmes BIOVIA
+5005 Wateridge Vista Dr
+San Diego, CA 92121
 
-I am writing to submit a Ten Simple Rules article entitled “Ten Simple Rules for
-Deep Learning in Biology.” Deep learning (DL) is exploding in popularity and is
-increasingly finding its way into biological data analysis. However, since most
-biologists receive little (or no) formal data science training, using deep learning
-properly remains a daunting task.
+December 5th, 2018
 
-Alone, deep learning is a large and complex field. Additional complexity
-is added when applied to biology. Inspired by [*Opportunities and obstacles for
-deep learning in biology and medicine*](https://doi.org/10.1098/rsif.2017.0387)
-and [*Ten Simple Rules for Writing a PLOS Ten Simple Rules
-Article*](https://doi.org/10.1371/journal.pcbi.1003858) (Rule 5: Collaborate), I propose
-to write the article using
-[Manubot](https://github.com/greenelab/manubot-rootstock), a collaborative
-manuscript authoring platform based on GitHub. By writing the manuscript in the
-open on GitHub (which is extensively used by those doing deep learning research)
-and soliciting input from the community, I hope that the article will be able to
-provide actionable, DL-specific guidance for both new and experienced DL
-practitioners.
+Dear Dr. Markel,
+
+It is with great enthusiasm that we are writing to ask your interest in publishing a Ten Simple Rules article entitled “Ten Simple Rules for Deep Learning in Biology.”
+Deep learning (DL) is exploding in popularity and increasingly used for biological data analysis.
+Alone, DL is large and complex field, and its correct application to biological research remains a daunting task for most.
+By providing accessible and actionable guidance on how to best use DL to answer biological questions, we seek to accelerate scientific progress and minimize barriers to entry.
+
+Inspired by [*Opportunities and obstacles for deep learning in biology and medicine*](https://doi.org/10.1098/rsif.2017.0387) and [*Ten Simple Rules for Writing a PLOS Ten Simple Rules Article*](https://doi.org/10.1371/journal.pcbi.1003858) (Rule 5: Collaborate), we have already assembled a team of expert authors in bioinformatics and DL through an open call for contributions.
+To that end, we have created a GitHub [repository](https://github.com/Benjamin-Lee/deep-rules) to host the discussion and drafting process.
+Further, we propose to write the article with Manubot, a collaborative manuscript authoring platform based on GitHub.
+By writing the manuscript in the open on GitHub, which is extensively used by those actively conducting DL research, and soliciting input from the wider scientific community, we are convinced that this manuscript will provide actionable, DL-specific advice for both new and experienced DL practitioners.
 
 
-To accomplish this goal, I have created a
-[repository](github.com/Benjamin-Lee/deep-rules) that will host the discussion
-and writing of the manuscript. In preparation for submitting this letter of
-inquiry, the following rules have been proposed:
+In preparation for this letter of inquiry, the following ten rules have been proposed:
 
 <!-- just using 1. for each entry so that they can be more easily reordered -->
 
-1. Lorem ipsum
-1. Lorem ipsum
-1. Lorem ipsum
-1. Lorem ipsum
-1. Lorem ipsum
-1. Lorem ipsum
-1. Lorem ipsum
-1. Lorem ipsum
-1. Lorem ipsum
-1. Lorem ipsum
+1. Concepts that apply to machine learning also apply to deep learning
+1. Understand the complexities of training deep neural networks
+1. Know your data and your question
+1. Choose an appropriate neural network architecture and data representation
+1. Tune your hyperparameters extensively and systematically
+1. Address deep neural networks' increased tendency to overfit the dataset
+1. Use traditional methods to establish performance baselines
+1. Do not necessarily consider a DL model as a black box
+1. Interpret predictions in the correct manner
+1. Don't share models trained on sensitive data.
 
-These rules are chosen so that readers of varying experience levels will be able to gain from the article and range from the high level (Should I use deep learning for this problem?) to implementation best practices.
+These rules range from high-level guidance to implementation best practices and they have been devised to effectively reach audiences of varying expertise.
+Upon notification that this manuscript will be suitable for submission to PLOS Computational Biology, we will further engage with the community to solicit feedback and contributions.
+All authors of the paper will meet the ICMJE authorship standards.
 
-Upon determination that this manuscript will be suitable for submission to PLOS Computational Biology, I will further engage with the community to solicit feedback and contributions. All authors of the paper will meet the ICMJE authorship standards.
+By providing guidance on DL, these powerful methods can be more properly utilized by both computational and experimental biologists.
+Here, we aim to increase the accessibility of DL techniques to biology and thereby improve the overall quality and reproducibility of DL in the literature.
 
-By providing guidance on deep learning, powerful DL methods can be properly utilized by the community towards a deeper understanding of biology. Here, we aim to increase the number of biological researchers that take advanatage of DL methods (by making DL more accessible) and improve the overall the quality and reproducibility of the research (by helping researchers avoid common mistakes).
 
 Sincerely,
 
-Benjamin Lee
+Benjamin Lee, [on behalf of all contributors](https://github.com/Benjamin-Lee/deep-rules/blob/master/contributors.md)
