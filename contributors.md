@@ -16,7 +16,7 @@ In chronological order:
 - Hugo Aerts
 - Beth Signal
 - Paul Brodersen
-- Marc Chevrette
+- Marc G. Chevrette
 - Ben Lengerich
 - Jacob Schreiber
 - Brett Beaulieu-Jones
