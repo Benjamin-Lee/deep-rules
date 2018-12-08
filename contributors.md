@@ -6,7 +6,6 @@ will be listed as authors; all others will be thanked in the acknowledgements.
 
 In chronological order with progress towards authorship:
 
-
 <!--Contributors: Please add "Yes" to all columns which you believe apply to you via a pull request.
 
 Please ensure that it is a valid Markdown table format (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables).
