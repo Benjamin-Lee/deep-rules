@@ -18,9 +18,9 @@ title: Ten Simple Rules for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2a39e3f5bc3703c361f09ac30bbe865b28d517f4/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d7ee69b5950b448909a3a3c4047142a7ede7060d/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@2a39e3f](https://github.com/Benjamin-Lee/deep-rules/tree/2a39e3f5bc3703c361f09ac30bbe865b28d517f4)
+from [Benjamin-Lee/deep-rules@d7ee69b](https://github.com/Benjamin-Lee/deep-rules/tree/d7ee69b5950b448909a3a3c4047142a7ede7060d)
 on December 8, 2018.
 </em></small>
 
@@ -46,22 +46,22 @@ on December 8, 2018.
 
 
 
-## Rule 2: Understand the complexities of training deep neural networks
+## Rule 2: Use traditional methods to establish performance baselines
 
 
-## Rule 3: Know your data and your question
+## Rule 3: Understand the complexities of training deep neural networks
 
 
-## Rule 4: Choose an appropriate neural network architecture and data representation
+## Rule 4: Know your data and your question
 
 
-## Rule 5: Tune your hyperparameters extensively and systematically
+## Rule 5: Choose an appropriate neural network architecture and data representation
 
 
-## Rule 6: Address deep neural networks' increased tendency to overfit the dataset
+## Rule 6: Tune your hyperparameters extensively and systematically
 
 
-## Rule 7: Use traditional methods to establish performance baselines
+## Rule 7: Address deep neural networks' increased tendency to overfit the dataset
 
 
 ## Rule 8: Do not necessarily consider a DL model as a black box
