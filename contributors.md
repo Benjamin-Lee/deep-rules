@@ -34,3 +34,4 @@ In chronological order:
 - Shyam M. Saladi
 - Michael M. Hoffman
 - Samuel G. Finlayson
+- Anshul Kundaje
