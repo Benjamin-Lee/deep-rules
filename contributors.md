@@ -33,4 +33,4 @@ In chronological order:
 - Haohan Wang
 - Shyam M. Saladi
 - Michael M. Hoffman
-- Samuel Finlayson
+- Samuel G. Finlayson
