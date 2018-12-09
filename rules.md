@@ -4,6 +4,7 @@
   - Garbage In/Garbage Out ([#26](https://github.com/Benjamin-Lee/deep-rules/issues/26))
   - Normalize your data ([#7](https://github.com/Benjamin-Lee/deep-rules/issues/7))
   - Make sure data is not biased/skewed ([#43](https://github.com/Benjamin-Lee/deep-rules/issues/43))
+  - How to deal with class imbalance
   - Make it reproducible ([#21](https://github.com/Benjamin-Lee/deep-rules/issues/21))
   - Validate it ([#27](https://github.com/Benjamin-Lee/deep-rules/issues/27))
   - Test/train/validate splitting ([#20](https://github.com/Benjamin-Lee/deep-rules/issues/20), [#19](https://github.com/Benjamin-Lee/deep-rules/issues/19))
@@ -29,6 +30,7 @@
 7. Address deep neural networks' increased tendency to overfit the dataset ([#28](https://github.com/Benjamin-Lee/deep-rules/issues/28))
   - Some discussion on how not to overfit particularly in the context of DL methods.
   - Overfitting as a symptom of fitting to confounding effects ([#55](https://github.com/Benjamin-Lee/deep-rules/issues/55))
+  - Emphasize the added dangers of deep models with greater representational capacity
 
 8. Do not necessarily consider a DL model as a black box
   - How to interpret DL models ([#36](https://github.com/Benjamin-Lee/deep-rules/issues/36))
@@ -41,4 +43,3 @@
 
 10. Don't share models trained on sensitive data.
   - Talk about machine learning security and privacy concerns, especially with respect to PII and PHI. ([#4](https://github.com/Benjamin-Lee/deep-rules/issues/4))
-  - Emphasize the added dangers of deep models with greater representational capacity
