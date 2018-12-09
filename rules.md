@@ -28,9 +28,9 @@
   - Again, discussion on DL specific tuning would be helpful. i.e. layers, dropout, activation functions etc.
 
 7. Address deep neural networks' increased tendency to overfit the dataset ([#28](https://github.com/Benjamin-Lee/deep-rules/issues/28))
+  - Emphasize the added dangers of deep models with greater representational capacity with respect to overfitting
   - Some discussion on how not to overfit particularly in the context of DL methods.
   - Overfitting as a symptom of fitting to confounding effects ([#55](https://github.com/Benjamin-Lee/deep-rules/issues/55))
-  - Emphasize the added dangers of deep models with greater representational capacity
 
 8. Do not necessarily consider a DL model as a black box
   - How to interpret DL models ([#36](https://github.com/Benjamin-Lee/deep-rules/issues/36))
@@ -43,3 +43,4 @@
 
 10. Don't share models trained on sensitive data.
   - Talk about machine learning security and privacy concerns, especially with respect to PII and PHI. ([#4](https://github.com/Benjamin-Lee/deep-rules/issues/4))
+  - Emphasize the added dangers of deep models with greater representational capacity with respect to recovering sensitive data
