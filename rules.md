@@ -11,7 +11,9 @@
   - Test the robustness of your DL model in a simulation framework in which the ground truth is known ([#49](https://github.com/Benjamin-Lee/deep-rules/issues/49))
   - Sanity checks, good coding practices, design and run experiments systematically ([#52](https://github.com/Benjamin-Lee/deep-rules/issues/52), [#35](https://github.com/Benjamin-Lee/deep-rules/issues/35))
 
-2. Use traditional methods to establish performance baselines ([#41](https://github.com/Benjamin-Lee/deep-rules/issues/41), [#11](https://github.com/Benjamin-Lee/deep-rules/issues/11), [#10](https://github.com/Benjamin-Lee/deep-rules/issues/10))
+2. Use traditional methods to establish performance baselines
+  - Use a traditional machine learning algorithm (e.g., an off-the-shelf ensemble method like random forest that doesn't require extensive hyperparameter tuning) to assess whether it already solves the problem/addresses the research question adequately before moving to DL [#11](https://github.com/Benjamin-Lee/deep-rules/issues/11) [#10](https://github.com/Benjamin-Lee/deep-rules/issues/10))
+  - Implement a simple (generalized) linear model like multinomial logistic regression in the same software framework that is being used for DL, to establish a performance baseline early on in the project to help with debugging more complex DL implementations [#41](https://github.com/Benjamin-Lee/deep-rules/issues/41)
 
 3. Understand the complexities of training deep neural networks
   - Rerun multiple times different initial weight settings (e.g., avg. top 3 out of 5 performance) for fair comparison ([#42](https://github.com/Benjamin-Lee/deep-rules/issues/42))
