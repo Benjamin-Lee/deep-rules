@@ -14,6 +14,10 @@ We use issues for discussion of papers, section outlines, and other structural c
 Contributions to the article operate on a pull request model. We expect participants to actively review pull requests.
 We'd love to have you ask questions, clarify points, and jump in and edit the text.
 
+To mark a pull request as a work in progress, use `WIP`, `work in progress`, or `🚧` somewhere in the title to automatically prevent merging.
+
+![](https://raw.githubusercontent.com/wip/app/master/assets/wip.gif)
+
 ## Authorship
 
 What qualifies as authorship? We use the [ICMJE Guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html).
