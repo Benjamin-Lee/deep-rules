@@ -45,3 +45,4 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Shyam M. Saladi      | Yes        |                           |          |                |             |
 | Michael M. Hoffman   | Yes        |                           |          |                |             |
 | Samuel G. Finlayson  | Yes        |                           |          |                |             |
+| Anshul Kundaje       | Yes        |                           |          |                |             |
