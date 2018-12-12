@@ -18,9 +18,9 @@ title: Ten Simple Rules for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/b4a853c645372d9e49482f1342fcf274c0ccc173/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/abb1a75b32761cc3cb6e5d5ec950ef096147056c/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@b4a853c](https://github.com/Benjamin-Lee/deep-rules/tree/b4a853c645372d9e49482f1342fcf274c0ccc173)
+from [Benjamin-Lee/deep-rules@abb1a75](https://github.com/Benjamin-Lee/deep-rules/tree/abb1a75b32761cc3cb6e5d5ec950ef096147056c)
 on December 12, 2018.
 </em></small>
 
@@ -88,7 +88,7 @@ Adversarial training techniques, such as model inversion attacks, can be used to
 These risks are higher in deep learning compared to traditional machine learning techniques because of the greater representational capacity of the models. 
 This is achieved by the high volume of model weights, even in a relatively small project, that allow deep learning to model high-dimensional non-linear relationships among data. 
 This enhanced modeling capacity allows the model to learn more robust and nuanced features of specific data, leading to the chance of revealing the underlying sensitive data. 
-When you train deep learning models on sensitive data, be sure not to share the model weights directly, and use privacy preserving techniques [@1HuQe3Z8X] such as differential privacy [@LiCxcgZp, @eJgWbXRz] and homomorphic encryption [@me326jb9, @3326vtLW] to protect sensitive data.
+When you train deep learning models on sensitive data, be sure not to share the model weights directly, and use privacy preserving techniques [@1HuQe3Z8X] such as differential privacy [@LiCxcgZp; @eJgWbXRz] and homomorphic encryption [@me326jb9; @3326vtLW] to protect sensitive data.
 
 
 
