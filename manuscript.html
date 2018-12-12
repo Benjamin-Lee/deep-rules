@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Benjamin D. Lee" />
-  <meta name="dcterms.date" content="2018-12-11" />
+  <meta name="dcterms.date" content="2018-12-12" />
   <meta name="keywords" content="ten simple rules, machine learning, deep learning, artificial intelligence" />
   <title>Ten Simple Rules for Deep Learning in Biology</title>
   <style type="text/css">
@@ -27,7 +27,7 @@
 <header id="title-block-header">
 <h1 class="title">Ten Simple Rules for Deep Learning in Biology</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/af486174e12c0aeb81049cc5406cf4815984a0a4/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/af486174e12c0aeb81049cc5406cf4815984a0a4">Benjamin-Lee/deep-rules@af48617</a> on December 11, 2018. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/b4a853c645372d9e49482f1342fcf274c0ccc173/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/b4a853c645372d9e49482f1342fcf274c0ccc173">Benjamin-Lee/deep-rules@b4a853c</a> on December 12, 2018. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Benjamin D. Lee</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-7133-8397">0000-0002-7133-8397</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/Benjamin-Lee">Benjamin-Lee</a><br> <small> School of Engineering and Applied Sciences, Harvard University; Department of Genetics, Harvard Medical School; Lab41, In-Q-Tel </small></li>
@@ -45,6 +45,7 @@
 <h2 id="rule-8-do-not-necessarily-consider-a-dl-model-as-a-black-box">Rule 8: Do not necessarily consider a DL model as a black box</h2>
 <h2 id="rule-9-interpret-predictions-in-the-correct-manner">Rule 9: Interpret predictions in the correct manner</h2>
 <h2 id="rule-10-dont-share-models-trained-on-sensitive-data">Rule 10: Don’t share models trained on sensitive data</h2>
+<p>One of the greatest opportunities for deep learning in biology is the ability for deep learning techniques to incorporate representation learning to extract information that can not readily be captured by traditional methods <span class="citation" data-cites="UeE0s74F">[<a href="#ref-UeE0s74F">5</a>]</span>. The abundance of features for each training example means that the representation learning of the deep learning models can capture information-rich abstractions of data during the training process. Therefore with deep learning, and even with some traditional machine learning models such as k-nearest neighbors which stores the full training data, it is important not to share models trained on sensitive data. Applying deep learning to images of cats from the internet does not pose a significant privacy problems, but in the field of human health, this starts to approach privacy concerns. Adversarial training techniques, such as model inversion attacks, can be used to exploit model predictions to recover recognizable images of people’s faces used for training <span class="citation" data-cites="zCqhgXvY">[<a href="#ref-zCqhgXvY">6</a>]</span>. These risks are higher in deep learning compared to traditional machine learning techniques because of the greater representational capacity of the models. This is achieved by the high volume of model weights, even in a relatively small project, that allow deep learning to model high-dimensional non-linear relationships among data. This enhanced modeling capacity allows the model to learn more robust and nuanced features of specific data, leading to the chance of revealing the underlying sensitive data. When you train deep learning models on sensitive data, be sure not to share the model weights directly, and use privacy preserving techniques <span class="citation" data-cites="1HuQe3Z8X">[<a href="#ref-1HuQe3Z8X">7</a>]</span> such as differential privacy <span class="citation" data-cites="LiCxcgZp">[<a href="#ref-LiCxcgZp">8</a>]</span> and homomorphic encryption <span class="citation" data-cites="me326jb9">[<a href="#ref-me326jb9">10</a>]</span> to protect sensitive data.</p>
 <h2 id="conclusion">Conclusion</h2>
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
@@ -66,6 +67,44 @@ DOI: <a href="https://doi.org/10.1186/s13040-017-0155-3">10.1186/s13040-017-0155
 </div>
 <div id="ref-1GGGHdsew">
 <p>4. <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></p>
+</div>
+<div id="ref-UeE0s74F">
+<p>5. <strong>Convolutional Networks on Graphs for Learning Molecular Fingerprints</strong><br />
+David Duvenaud, Dougal Maclaurin, Jorge Aguilera-Iparraguirre, Rafael Gómez-Bombarelli, Timothy Hirzel, Alán Aspuru-Guzik, Ryan P. Adams<br />
+<em>arXiv</em> (2015-09-30) <a href="https://arxiv.org/abs/1509.09292v2">https://arxiv.org/abs/1509.09292v2</a></p>
+</div>
+<div id="ref-zCqhgXvY">
+<p>6. <strong>Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures</strong><br />
+Matt Fredrikson, Somesh Jha, Thomas Ristenpart<br />
+<em>Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security - CCS ’15</em> (2015) <a href="https://doi.org/cwdm">https://doi.org/cwdm</a><br />
+DOI: <a href="https://doi.org/10.1145/2810103.2813677">10.1145/2810103.2813677</a></p>
+</div>
+<div id="ref-1HuQe3Z8X">
+<p>7. <strong>A generic framework for privacy preserving deep learning</strong><br />
+Theo Ryffel, Andrew Trask, Morten Dahl, Bobby Wagner, Jason Mancuso, Daniel Rueckert, Jonathan Passerat-Palmbach<br />
+<em>arXiv</em> (2018-11-09) <a href="https://arxiv.org/abs/1811.04017v2">https://arxiv.org/abs/1811.04017v2</a></p>
+</div>
+<div id="ref-LiCxcgZp">
+<p>8. <strong>Deep Learning with Differential Privacy</strong><br />
+Martin Abadi, Andy Chu, Ian Goodfellow, H. Brendan McMahan, Ilya Mironov, Kunal Talwar, Li Zhang<br />
+<em>Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security - CCS’16</em> (2016) <a href="https://doi.org/gcrnp3">https://doi.org/gcrnp3</a><br />
+DOI: <a href="https://doi.org/10.1145/2976749.2978318">10.1145/2976749.2978318</a></p>
+</div>
+<div id="ref-eJgWbXRz">
+<p>9. <strong>Privacy-Preserving Distributed Deep Learning for Clinical Data</strong><br />
+Brett K. Beaulieu-Jones, William Yuan, Samuel G. Finlayson, Zhiwei Steven Wu<br />
+<em>arXiv</em> (2018-12-04) <a href="https://arxiv.org/abs/1812.01484v1">https://arxiv.org/abs/1812.01484v1</a></p>
+</div>
+<div id="ref-me326jb9">
+<p>10. <strong>SIG-DB: Leveraging homomorphic encryption to securely interrogate privately held genomic databases</strong><br />
+Alexander J. Titus, Audrey Flower, Patrick Hagerty, Paul Gamble, Charlie Lewis, Todd Stavish, Kevin P. O’Connell, Greg Shipley, Stephanie M. Rogers<br />
+<em>PLOS Computational Biology</em> (2018-09-04) <a href="https://doi.org/gd6xd5">https://doi.org/gd6xd5</a><br />
+DOI: <a href="https://doi.org/10.1371/journal.pcbi.1006454">10.1371/journal.pcbi.1006454</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/30180163">30180163</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6138421">PMC6138421</a></p>
+</div>
+<div id="ref-3326vtLW">
+<p>11. <strong>The AlexNet Moment for Homomorphic Encryption: HCNN, the First Homomorphic CNN on Encrypted Data with GPUs</strong><br />
+Ahmad Al Badawi, Jin Chao, Jie Lin, Chan Fook Mun, Sim Jun Jie, Benjamin Hong Meng Tan, Xiao Nan, Khin Mi Mi Aung, Vijay Ramaseshan Chandrasekhar<br />
+<em>arXiv</em> (2018-11-02) <a href="https://arxiv.org/abs/1811.00778v1">https://arxiv.org/abs/1811.00778v1</a></p>
 </div>
 </div>
 <script>

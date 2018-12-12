@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2018-12-11'
+date-meta: '2018-12-12'
 keywords:
 - ten simple rules
 - machine learning
@@ -18,10 +18,10 @@ title: Ten Simple Rules for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/af486174e12c0aeb81049cc5406cf4815984a0a4/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/b4a853c645372d9e49482f1342fcf274c0ccc173/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@af48617](https://github.com/Benjamin-Lee/deep-rules/tree/af486174e12c0aeb81049cc5406cf4815984a0a4)
-on December 11, 2018.
+from [Benjamin-Lee/deep-rules@b4a853c](https://github.com/Benjamin-Lee/deep-rules/tree/b4a853c645372d9e49482f1342fcf274c0ccc173)
+on December 12, 2018.
 </em></small>
 
 ## Authors
@@ -80,6 +80,16 @@ By increasing the accessibility of DL techniques to biology, we aim to improve t
 
 
 ## Rule 10: Don't share models trained on sensitive data
+
+One of the greatest opportunities for deep learning in biology is the ability for deep learning techniques to incorporate representation learning to extract information that can not readily be captured by traditional methods [@UeE0s74F]. 
+The abundance of features for each training example means that the representation learning of the deep learning models can capture information-rich abstractions of data during the training process. Therefore with deep learning, and even with some traditional machine learning models such as k-nearest neighbors which stores the full training data, it is important not to share models trained on sensitive data.
+Applying deep learning to images of cats from the internet does not pose a significant privacy problems, but in the field of human health, this starts to approach privacy concerns. 
+Adversarial training techniques, such as model inversion attacks, can be used to exploit model predictions to recover recognizable images of people's faces used for training [@zCqhgXvY]. 
+These risks are higher in deep learning compared to traditional machine learning techniques because of the greater representational capacity of the models. 
+This is achieved by the high volume of model weights, even in a relatively small project, that allow deep learning to model high-dimensional non-linear relationships among data. 
+This enhanced modeling capacity allows the model to learn more robust and nuanced features of specific data, leading to the chance of revealing the underlying sensitive data. 
+When you train deep learning models on sensitive data, be sure not to share the model weights directly, and use privacy preserving techniques [@1HuQe3Z8X] such as differential privacy [@LiCxcgZp, @eJgWbXRz] and homomorphic encryption [@me326jb9, @3326vtLW] to protect sensitive data.
+
 
 
 ## Conclusion

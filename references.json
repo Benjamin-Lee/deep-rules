@@ -1,5 +1,174 @@
 [
   {
+    "number": "1509.09292v2",
+    "version": "2",
+    "URL": "https://arxiv.org/abs/1509.09292v2",
+    "title": "Convolutional Networks on Graphs for Learning Molecular Fingerprints",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          9,
+          30
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "David Duvenaud"
+      },
+      {
+        "literal": "Dougal Maclaurin"
+      },
+      {
+        "literal": "Jorge Aguilera-Iparraguirre"
+      },
+      {
+        "literal": "Rafael Gómez-Bombarelli"
+      },
+      {
+        "literal": "Timothy Hirzel"
+      },
+      {
+        "literal": "Alán Aspuru-Guzik"
+      },
+      {
+        "literal": "Ryan P. Adams"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "We introduce a convolutional neural network that operates directly on graphs.\nThese networks allow end-to-end learning of prediction pipelines whose inputs\nare graphs of arbitrary size and shape. The architecture we present generalizes\nstandard molecular feature extraction methods based on circular fingerprints.\nWe show that these data-driven features are more interpretable, and have better\npredictive performance on a variety of tasks.",
+    "type": "report",
+    "id": "UeE0s74F"
+  },
+  {
+    "number": "1811.00778v1",
+    "version": "1",
+    "URL": "https://arxiv.org/abs/1811.00778v1",
+    "title": "The AlexNet Moment for Homomorphic Encryption: HCNN, the First\n  Homomorphic CNN on Encrypted Data with GPUs",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          2
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Ahmad Al Badawi"
+      },
+      {
+        "literal": "Jin Chao"
+      },
+      {
+        "literal": "Jie Lin"
+      },
+      {
+        "literal": "Chan Fook Mun"
+      },
+      {
+        "literal": "Sim Jun Jie"
+      },
+      {
+        "literal": "Benjamin Hong Meng Tan"
+      },
+      {
+        "literal": "Xiao Nan"
+      },
+      {
+        "literal": "Khin Mi Mi Aung"
+      },
+      {
+        "literal": "Vijay Ramaseshan Chandrasekhar"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "Fully homomorphic encryption, with its widely-known feature of computing on\nencrypted data, empowers a wide range of privacy-concerned cloud applications\nincluding deep learning as a service. This comes at a high cost since FHE\nincludes highly-intensive computation that requires enormous computing power.\nAlthough the literature includes a number of proposals to run CNNs on encrypted\ndata, the performance is still far from satisfactory. In this paper, we push\nthe level up and show how to accelerate the performance of running CNNs on\nencrypted data using GPUs. We evaluated a CNN to classify homomorphically the\nMNIST dataset into 10 classes. We used a number of techniques such as\nlow-precision training, unified training and testing network, optimized FHE\nparameters and a very efficient GPU implementation to achieve high performance.\nOur solution achieved high security level (> 128 bit) and high accuracy (99%).\nIn terms of performance, our best results show that we could classify the\nentire testing dataset in 14.105 seconds, with per-image amortized time (1.411\nmilliseconds) 40.41x faster than prior art.",
+    "type": "report",
+    "id": "3326vtLW"
+  },
+  {
+    "number": "1811.04017v2",
+    "version": "2",
+    "URL": "https://arxiv.org/abs/1811.04017v2",
+    "title": "A generic framework for privacy preserving deep learning",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          9
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Theo Ryffel"
+      },
+      {
+        "literal": "Andrew Trask"
+      },
+      {
+        "literal": "Morten Dahl"
+      },
+      {
+        "literal": "Bobby Wagner"
+      },
+      {
+        "literal": "Jason Mancuso"
+      },
+      {
+        "literal": "Daniel Rueckert"
+      },
+      {
+        "literal": "Jonathan Passerat-Palmbach"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "We detail a new framework for privacy preserving deep learning and discuss\nits assets. The framework puts a premium on ownership and secure processing of\ndata and introduces a valuable representation based on chains of commands and\ntensors. This abstraction allows one to implement complex privacy preserving\nconstructs such as Federated Learning, Secure Multiparty Computation, and\nDifferential Privacy while still exposing a familiar deep learning API to the\nend-user. We report early results on the Boston Housing and Pima Indian\nDiabetes datasets. While the privacy features apart from Differential Privacy\ndo not impact the prediction accuracy, the current implementation of the\nframework introduces a significant overhead in performance, which will be\naddressed at a later stage of the development. We believe this work is an\nimportant milestone introducing the first reliable, general framework for\nprivacy preserving deep learning.",
+    "type": "report",
+    "id": "1HuQe3Z8X"
+  },
+  {
+    "number": "1812.01484v1",
+    "version": "1",
+    "URL": "https://arxiv.org/abs/1812.01484v1",
+    "title": "Privacy-Preserving Distributed Deep Learning for Clinical Data",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Brett K. Beaulieu-Jones"
+      },
+      {
+        "literal": "William Yuan"
+      },
+      {
+        "literal": "Samuel G. Finlayson"
+      },
+      {
+        "literal": "Zhiwei Steven Wu"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "Deep learning with medical data often requires larger samples sizes than are\navailable at single providers. While data sharing among institutions is\ndesirable to train more accurate and sophisticated models, it can lead to\nsevere privacy concerns due the sensitive nature of the data. This problem has\nmotivated a number of studies on distributed training of neural networks that\ndo not require direct sharing of the training data. However, simple distributed\ntraining does not offer provable privacy guarantees to satisfy technical safe\nstandards and may reveal information about the underlying patients. We present\na method to train neural networks for clinical data in a distributed fashion\nunder differential privacy. We demonstrate these methods on two datasets that\ninclude information from multiple independent sites, the eICU collaborative\nResearch Database and The Cancer Genome Atlas.",
+    "type": "report",
+    "id": "eJgWbXRz"
+  },
+  {
     "publisher": "The Royal Society",
     "issue": "141",
     "DOI": "10.1098/rsif.2017.0387",
@@ -171,6 +340,86 @@
     "id": "PZMP42Ak"
   },
   {
+    "publisher": "ACM Press",
+    "DOI": "10.1145/2810103.2813677",
+    "type": "paper-conference",
+    "source": "Crossref",
+    "title": "Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures",
+    "author": [
+      {
+        "given": "Matt",
+        "family": "Fredrikson"
+      },
+      {
+        "given": "Somesh",
+        "family": "Jha"
+      },
+      {
+        "given": "Thomas",
+        "family": "Ristenpart"
+      }
+    ],
+    "event": "the 22nd ACM SIGSAC Conference",
+    "container-title": "Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security - CCS '15",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "URL": "https://doi.org/cwdm",
+    "id": "zCqhgXvY"
+  },
+  {
+    "publisher": "ACM Press",
+    "DOI": "10.1145/2976749.2978318",
+    "type": "paper-conference",
+    "source": "Crossref",
+    "title": "Deep Learning with Differential Privacy",
+    "author": [
+      {
+        "given": "Martin",
+        "family": "Abadi"
+      },
+      {
+        "given": "Andy",
+        "family": "Chu"
+      },
+      {
+        "given": "Ian",
+        "family": "Goodfellow"
+      },
+      {
+        "given": "H. Brendan",
+        "family": "McMahan"
+      },
+      {
+        "given": "Ilya",
+        "family": "Mironov"
+      },
+      {
+        "given": "Kunal",
+        "family": "Talwar"
+      },
+      {
+        "given": "Li",
+        "family": "Zhang"
+      }
+    ],
+    "event": "the 2016 ACM SIGSAC Conference",
+    "container-title": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security - CCS'16",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcrnp3",
+    "id": "LiCxcgZp"
+  },
+  {
     "publisher": "Springer Nature",
     "issue": "1",
     "DOI": "10.1186/s13040-017-0155-3",
@@ -199,6 +448,76 @@
     "PMCID": "PMC5721660",
     "PMID": "29234465",
     "id": "p4Nl5If0"
+  },
+  {
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "9",
+    "DOI": "10.1371/journal.pcbi.1006454",
+    "type": "article-journal",
+    "page": "e1006454",
+    "source": "Crossref",
+    "title": "SIG-DB: Leveraging homomorphic encryption to securely interrogate privately held genomic databases",
+    "volume": "14",
+    "author": [
+      {
+        "given": "Alexander J.",
+        "family": "Titus"
+      },
+      {
+        "given": "Audrey",
+        "family": "Flower"
+      },
+      {
+        "given": "Patrick",
+        "family": "Hagerty"
+      },
+      {
+        "given": "Paul",
+        "family": "Gamble"
+      },
+      {
+        "given": "Charlie",
+        "family": "Lewis"
+      },
+      {
+        "given": "Todd",
+        "family": "Stavish"
+      },
+      {
+        "given": "Kevin P.",
+        "family": "O’Connell"
+      },
+      {
+        "given": "Greg",
+        "family": "Shipley"
+      },
+      {
+        "given": "Stephanie M.",
+        "family": "Rogers"
+      }
+    ],
+    "container-title": "PLOS Computational Biology",
+    "language": "en",
+    "editor": [
+      {
+        "given": "Scott",
+        "family": "Markel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          4
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gd6xd5",
+    "container-title-short": "PLoS Comput Biol",
+    "PMCID": "PMC6138421",
+    "PMID": "30180163",
+    "id": "me326jb9"
   },
   {
     "URL": "https://github.com/Benjamin-Lee/deep-review",
