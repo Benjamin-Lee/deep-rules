@@ -4,31 +4,35 @@
   - Garbage In/Garbage Out ([#26](https://github.com/Benjamin-Lee/deep-rules/issues/26))
   - Normalize your data ([#7](https://github.com/Benjamin-Lee/deep-rules/issues/7))
   - Make sure data is not biased/skewed ([#43](https://github.com/Benjamin-Lee/deep-rules/issues/43))
+  - How to deal with class imbalance
   - Make it reproducible ([#21](https://github.com/Benjamin-Lee/deep-rules/issues/21))
   - Validate it ([#27](https://github.com/Benjamin-Lee/deep-rules/issues/27))
   - Test/train/validate splitting ([#20](https://github.com/Benjamin-Lee/deep-rules/issues/20), [#19](https://github.com/Benjamin-Lee/deep-rules/issues/19))
   - Test the robustness of your DL model in a simulation framework in which the ground truth is known ([#49](https://github.com/Benjamin-Lee/deep-rules/issues/49))
   - Sanity checks, good coding practices, design and run experiments systematically ([#52](https://github.com/Benjamin-Lee/deep-rules/issues/52), [#35](https://github.com/Benjamin-Lee/deep-rules/issues/35))
 
-2. Understand the complexities of training deep neural networks
+2. Use traditional methods to establish performance baselines
+  - Use a traditional machine learning algorithm (e.g., an off-the-shelf ensemble method like random forest that doesn't require extensive hyperparameter tuning) to assess whether it already solves the problem/addresses the research question adequately before moving to DL [#11](https://github.com/Benjamin-Lee/deep-rules/issues/11) [#10](https://github.com/Benjamin-Lee/deep-rules/issues/10))
+  - Implement a simple (generalized) linear model like multinomial logistic regression in the same software framework that is being used for DL, to establish a performance baseline early on in the project to help with debugging more complex DL implementations [#41](https://github.com/Benjamin-Lee/deep-rules/issues/41)
+
+3. Understand the complexities of training deep neural networks
   - Rerun multiple times different initial weight settings (e.g., avg. top 3 out of 5 performance) for fair comparison ([#42](https://github.com/Benjamin-Lee/deep-rules/issues/42))
   - More extensive model selection: architecture as well as hyperparameter search required ([#42](https://github.com/Benjamin-Lee/deep-rules/issues/42))
   - Deep learning really shines on unstructured, not structured data ([#22](https://github.com/Benjamin-Lee/deep-rules/issues/22))
 
-3. Know your data and your question
+4. Know your data and your question
   - ([#31](https://github.com/Benjamin-Lee/deep-rules/issues/31), [#12](https://github.com/Benjamin-Lee/deep-rules/issues/12), [#13](https://github.com/Benjamin-Lee/deep-rules/issues/13),  [#18](https://github.com/Benjamin-Lee/deep-rules/issues/18))
 
-4. Choose an appropriate neural network architecture and data representation ([#29](https://github.com/Benjamin-Lee/deep-rules/issues/29))
+5. Choose an appropriate neural network architecture and data representation ([#29](https://github.com/Benjamin-Lee/deep-rules/issues/29))
   - A bit of discussion on DL architectures and how they apply to different problems here would be helpful
 
-5. Tune your hyperparameters extensively and systematically ([#42](https://github.com/Benjamin-Lee/deep-rules/issues/42), [#11](https://github.com/Benjamin-Lee/deep-rules/issues/11))
+6. Tune your hyperparameters extensively and systematically ([#42](https://github.com/Benjamin-Lee/deep-rules/issues/42), [#11](https://github.com/Benjamin-Lee/deep-rules/issues/11))
   - Again, discussion on DL specific tuning would be helpful. i.e. layers, dropout, activation functions etc.
 
-6. Address deep neural networks' increased tendency to overfit the dataset ([#28](https://github.com/Benjamin-Lee/deep-rules/issues/28))
+7. Address deep neural networks' increased tendency to overfit the dataset ([#28](https://github.com/Benjamin-Lee/deep-rules/issues/28))
+  - Emphasize the added dangers of deep models with greater representational capacity with respect to overfitting
   - Some discussion on how not to overfit particularly in the context of DL methods.
   - Overfitting as a symptom of fitting to confounding effects ([#55](https://github.com/Benjamin-Lee/deep-rules/issues/55))
-
-7. Use traditional methods to establish performance baselines ([#41](https://github.com/Benjamin-Lee/deep-rules/issues/41), [#11](https://github.com/Benjamin-Lee/deep-rules/issues/11), [#10](https://github.com/Benjamin-Lee/deep-rules/issues/10))
 
 8. Do not necessarily consider a DL model as a black box
   - How to interpret DL models ([#36](https://github.com/Benjamin-Lee/deep-rules/issues/36))
@@ -41,4 +45,4 @@
 
 10. Don't share models trained on sensitive data.
   - Talk about machine learning security and privacy concerns, especially with respect to PII and PHI. ([#4](https://github.com/Benjamin-Lee/deep-rules/issues/4))
-  - Emphasize the added dangers of deep models with greater representational capacity
+  - Emphasize the added dangers of deep models with greater representational capacity with respect to recovering sensitive data
