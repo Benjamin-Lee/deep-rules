@@ -18,9 +18,9 @@ title: Ten Simple Rules for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/abb1a75b32761cc3cb6e5d5ec950ef096147056c/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e5f5d94c46d5ebb5de74c4498d9df80a17e01931/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@abb1a75](https://github.com/Benjamin-Lee/deep-rules/tree/abb1a75b32761cc3cb6e5d5ec950ef096147056c)
+from [Benjamin-Lee/deep-rules@e5f5d94](https://github.com/Benjamin-Lee/deep-rules/tree/e5f5d94c46d5ebb5de74c4498d9df80a17e01931)
 on December 12, 2018.
 </em></small>
 
@@ -83,7 +83,7 @@ By increasing the accessibility of DL techniques to biology, we aim to improve t
 
 One of the greatest opportunities for deep learning in biology is the ability for deep learning techniques to incorporate representation learning to extract information that can not readily be captured by traditional methods [@UeE0s74F]. 
 The abundance of features for each training example means that the representation learning of the deep learning models can capture information-rich abstractions of data during the training process. Therefore with deep learning, and even with some traditional machine learning models such as k-nearest neighbors which stores the full training data, it is important not to share models trained on sensitive data.
-Applying deep learning to images of cats from the internet does not pose a significant privacy problems, but in the field of human health, this starts to approach privacy concerns. 
+Applying deep learning to images of cats from the internet does not pose significant privacy problems, but in the field of human health, this starts to approach privacy concerns. 
 Adversarial training techniques, such as model inversion attacks, can be used to exploit model predictions to recover recognizable images of people's faces used for training [@zCqhgXvY]. 
 These risks are higher in deep learning compared to traditional machine learning techniques because of the greater representational capacity of the models. 
 This is achieved by the high volume of model weights, even in a relatively small project, that allow deep learning to model high-dimensional non-linear relationships among data. 
