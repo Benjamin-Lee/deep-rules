@@ -18,9 +18,9 @@ title: Ten Simple Rules for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/78980a342cb6e0e0f92f2197670b24c6e19b5abb/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/0cafb87ccc8a1142ea68ed71f372942c8b3dbc89/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@78980a3](https://github.com/Benjamin-Lee/deep-rules/tree/78980a342cb6e0e0f92f2197670b24c6e19b5abb)
+from [Benjamin-Lee/deep-rules@0cafb87](https://github.com/Benjamin-Lee/deep-rules/tree/0cafb87ccc8a1142ea68ed71f372942c8b3dbc89)
 on December 13, 2018.
 </em></small>
 
@@ -82,13 +82,14 @@ By increasing the accessibility of DL techniques to biology, we aim to improve t
 ## Rule 10: Don't share models trained on sensitive data
 
 One of the greatest opportunities for deep learning in biology is the ability for deep learning techniques to incorporate representation learning to extract information that can not readily be captured by traditional methods [@UeE0s74F]. 
-The abundance of features for each training example means that the representation learning of the deep learning models can capture information-rich abstractions of data during the training process. Therefore with deep learning, and even with some traditional machine learning models such as k-nearest neighbors which stores the full training data, it is important not to share models trained on sensitive data.
-Applying deep learning to images of cats from the internet does not pose significant privacy problems, but in the field of human health, this starts to approach privacy concerns. 
-Adversarial training techniques, such as model inversion attacks, can be used to exploit model predictions to recover recognizable images of people's faces used for training [@zCqhgXvY]. 
-These risks are higher in deep learning compared to traditional machine learning techniques because of the greater representational capacity of the models. 
-This is achieved by the high volume of model weights, even in a relatively small project, that allow deep learning to model high-dimensional non-linear relationships among data. 
-This enhanced modeling capacity allows the model to learn more robust and nuanced features of specific data, leading to the chance of revealing the underlying sensitive data. 
-When you train deep learning models on sensitive data, be sure not to share the model weights directly, and use privacy preserving techniques [@1HuQe3Z8X] such as differential privacy [@LiCxcgZp; @eJgWbXRz] and homomorphic encryption [@me326jb9; @3326vtLW] to protect sensitive data.
+The abundance of features for each training example means that the representation learning of the deep learning models can capture information-rich abstractions of data during the training process.
+Therefore with both deep learning and traditional machine learning models (_e.g._ _k_-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data.
+Applying deep learning to images of cats from the internet does not pose significant ethical, legal, or privacy problems; this is not the case when dealing with classified, confidential, trade secret, or other types of biological data that cannot be shared.
+For example, adversarial training techniques such as model inversion attacks can be used to exploit model predictions to recover recognizable images of people's faces used for training [@zCqhgXvY]. 
+These risks are even more significant in deep learning compared to traditional machine learning techniques due to the greater representational capacity of the models. 
+This is achieved by the large number of model weights, even in a relatively small project, that allow deep learning to model high-dimensional non-linear relationships among data. 
+It is this enhanced modeling capacity that allows the model to learn more robust and nuanced features of specific data, leading to the danger of revealing the underlying sensitive data. 
+When training deep learning models on sensitive data, be sure not to share the model weights directly, and use privacy preserving techniques [@1HuQe3Z8X] such as differential privacy [@LiCxcgZp; @eJgWbXRz] and homomorphic encryption [@me326jb9; @3326vtLW] to protect sensitive data. 
 
 
 
