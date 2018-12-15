@@ -169,6 +169,50 @@
     "id": "eJgWbXRz"
   },
   {
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "12",
+    "DOI": "10.1021/acs.molpharmaceut.7b00578",
+    "type": "article-journal",
+    "page": "4462-4475",
+    "source": "Crossref",
+    "title": "Comparison of Deep Learning With Multiple Machine Learning Methods and Metrics Using Diverse Drug Discovery Data Sets",
+    "volume": "14",
+    "author": [
+      {
+        "given": "Alexandru",
+        "family": "Korotcov"
+      },
+      {
+        "given": "Valery",
+        "family": "Tkachenko"
+      },
+      {
+        "given": "Daniel P.",
+        "family": "Russo"
+      },
+      {
+        "given": "Sean",
+        "family": "Ekins"
+      }
+    ],
+    "container-title": "Molecular Pharmaceutics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          13
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcj4p2",
+    "container-title-short": "Mol. Pharmaceutics",
+    "PMCID": "PMC5741413",
+    "PMID": "29096442",
+    "id": "rKXyJKNt"
+  },
+  {
     "publisher": "The Royal Society",
     "issue": "141",
     "DOI": "10.1098/rsif.2017.0387",

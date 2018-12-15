@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2018-12-13'
+date-meta: '2018-12-15'
 keywords:
 - ten simple rules
 - machine learning
@@ -18,10 +18,10 @@ title: Ten Simple Rules for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/0cafb87ccc8a1142ea68ed71f372942c8b3dbc89/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/cd442a15f97ea6baf0b717f4039b08ada53e9d37/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@0cafb87](https://github.com/Benjamin-Lee/deep-rules/tree/0cafb87ccc8a1142ea68ed71f372942c8b3dbc89)
-on December 13, 2018.
+from [Benjamin-Lee/deep-rules@cd442a1](https://github.com/Benjamin-Lee/deep-rules/tree/cd442a15f97ea6baf0b717f4039b08ada53e9d37)
+on December 15, 2018.
 </em></small>
 
 ## Authors
@@ -52,7 +52,19 @@ By increasing the accessibility of DL techniques to biology, we aim to improve t
 
 
 ## Rule 1: Concepts that apply to machine learning also apply to deep learning
-
+Deep learning is a distinct subfield of machine learning, but it is still a subfield.
+Deep learning has proven to be an extremely powerful paradigm capable of outperforming “traditional” machine learning approaches, but it is not immune to the many limitations inherent to machine learning.
+Many best practices for machine learning apply to deep learning as well.
+For instance, deep supervised learning models should be trained, tuned, and tested on non-overlapping datasets.
+Those developing deep learning models should select data that are relevant to the problem at hand; non-salient data can hamper performance or lead to spurious conclusions.
+Furthermore, investigators should begin by thoroughly inspecting their data.
+When coupled with imprudence, data that is biased, skewed, or of low quality will produce models of dubious performance and limited generalizability.
+Biases in testing data can also unduly influence measures of model performance.
+For example, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance.
+As such, model performance should be evaluated with a carefully-picked panel of relevant metrics that make minimal assumptions about the composition of the testing data [@rKXyJKNt].
+Extreme cases warrant testing the robustness of the model and metrics on simulated data for which the ground truth is known.
+Said simulations can be used to verify the correctness of the model’s implementation as well.
+Like all computational methods, deep learning should be leveraged in a systematic manner that is reproducible and rigorously tested.
 
 
 ## Rule 2: Use traditional methods to establish performance baselines
