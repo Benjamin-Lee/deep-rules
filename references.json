@@ -564,13 +564,84 @@
     "id": "me326jb9"
   },
   {
+    "type": "book",
+    "title": "A collaboratively written review paper on deep learning, genomics, and precision medicine: Benjamin-Lee/deep-review",
+    "genre": "CSS",
+    "source": "GitHub",
     "URL": "https://github.com/Benjamin-Lee/deep-review",
-    "type": "webpage",
+    "note": "original-date: 2018-11-10T22:03:07Z",
+    "shortTitle": "A collaboratively written review paper on deep learning, genomics, and precision medicine",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Benjamin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          11,
+          10
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2018",
+          12,
+          18
+        ]
+      ]
+    },
     "id": "6XC2t354"
   },
   {
-    "URL": "https://greenelab.github.io/meta-review/",
     "type": "webpage",
+    "title": "Open collaborative writing with Manubot",
+    "URL": "https://greenelab.github.io/meta-review/",
+    "language": "en-US",
+    "author": [
+      {
+        "family": "Himmelstein",
+        "given": "Daniel S."
+      },
+      {
+        "family": "Slochower",
+        "given": "David R."
+      },
+      {
+        "family": "Malladi",
+        "given": "Venkat S."
+      },
+      {
+        "family": "Greene",
+        "given": "Casey S."
+      },
+      {
+        "family": "Gitter",
+        "given": "Anthony"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          12,
+          18
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2018",
+          12,
+          18
+        ]
+      ]
+    },
     "id": "1GGGHdsew"
   }
 ]
