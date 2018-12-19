@@ -1,10 +1,10 @@
 ---
-name: Rule Proposal
+name: Tip Proposal
 about: Suggest a new rule for the paper
 
 ---
 
-**Have you checked the [list of proposed rules](https://github.com/Benjamin-Lee/deep-rules/issues?q=is%3Aissue+is%3Aopen+label%3Arule) to see if the rule has already been proposed?**
+**Have you checked the [list of proposed tips](https://github.com/Benjamin-Lee/deep-rules/issues?q=is%3Aissue+is%3Aopen+label%3Atip) to see if the tip has already been proposed?**
 
 <!-- Put an x in between the brackets to show you did! -->
 - [ ] Yes
