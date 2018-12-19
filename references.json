@@ -565,12 +565,11 @@
   },
   {
     "type": "book",
-    "title": "A collaboratively written review paper on deep learning, genomics, and precision medicine: Benjamin-Lee/deep-review",
+    "title": "Ten Simple Rules for Deep Learning in Biology. Contribute to Benjamin-Lee/deep-rules development by creating an account on GitHub",
     "genre": "CSS",
     "source": "GitHub",
-    "URL": "https://github.com/Benjamin-Lee/deep-review",
-    "note": "original-date: 2018-11-10T22:03:07Z",
-    "shortTitle": "A collaboratively written review paper on deep learning, genomics, and precision medicine",
+    "URL": "https://github.com/Benjamin-Lee/deep-rules",
+    "note": "original-date: 2018-10-09T02:10:24Z",
     "author": [
       {
         "family": "Lee",
@@ -581,8 +580,8 @@
       "date-parts": [
         [
           "2018",
-          11,
-          10
+          12,
+          19
         ]
       ]
     },
@@ -595,7 +594,7 @@
         ]
       ]
     },
-    "id": "6XC2t354"
+    "id": "ysdRl4lj"
   },
   {
     "type": "webpage",
