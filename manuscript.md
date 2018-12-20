@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2018-12-19'
+date-meta: '2018-12-20'
 keywords:
 - ten simple rules
 - machine learning
@@ -18,10 +18,10 @@ title: Ten Simple Rules for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a701222429220b92b64f0e70595e6cc84e8b2341/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d657a19d2fb9d56c2b0f172f49eb1701b2d33404/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@a701222](https://github.com/Benjamin-Lee/deep-rules/tree/a701222429220b92b64f0e70595e6cc84e8b2341)
-on December 19, 2018.
+from [Benjamin-Lee/deep-rules@d657a19](https://github.com/Benjamin-Lee/deep-rules/tree/d657a19d2fb9d56c2b0f172f49eb1701b2d33404)
+on December 20, 2018.
 </em></small>
 
 ## Authors
@@ -79,7 +79,21 @@ Like all computational methods, deep learning should be leveraged in a systemati
 ## Rule 5: Choose an appropriate neural network architecture and data representation
 
 
-## Rule 6: Tune your hyperparameters extensively and systematically
+## Rule 6: Expect to tune hyperparameters extensively and systematically
+
+Deep neural networks have the ability to approximate arbitrary continuous functions, as long as the neural network contains enough hidden nodes [@1BnILgle7].
+However, this flexibility makes the training process somewhat challenging.
+Users should expect to systematically evaluate the impact of numerous hyperparameters when they aim to apply deep neural networks to new data or challenges.
+
+Neural network architectures also have their own odd nuances that affect hyperparameter portability.
+For example, in variational autoencoders (VAEs) there are two elements that are being optimized, reconstruction and distribution loss [@NLVTJ9Lj].
+In common implementations, the relative weights of each are a function of the number of input features (more increase the importance of reconstruction loss) and the number of features in the latent space (more increase the importance of the distribution loss).
+Users who apply a VAE architecture to a new dataset with more input features, even without changing any hyperparameters, alter the relative weights of the components of the loss function.
+
+This flexibility also makes it difficult to evaluate the extent to which neural network methods are well-suited to solving a task.
+Hu and Greene [@5CsWRjfp] discuss a Continental Breakfast Included (CBI) effect by which unequal hyperparameter tuning skews the evaluation of methods, especially those with performance that varies substantially with modest changes to hyperparameters.
+The implication of CBI on methods developers is discussed more in Rule 2 (`TODO: cgreene tie these together`).
+The implication of CBI on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require an input of human and compute time for hyperparameter optimization.
 
 
 ## Rule 7: Address deep neural networks' increased tendency to overfit the dataset
