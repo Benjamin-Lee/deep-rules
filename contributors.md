@@ -18,7 +18,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Name                 | Discussion | Substantial contributions | Drafting | Final approval | Accountable |
 | -------------------- | ---------- | ------------------------- | -------- | -------------- | ----------- |
 | Benjamin D. Lee      | Yes        | Yes                       |          |                | Yes         |
-| Casey S. Greene      | Yes        |                           |          |                |             |
+| Casey S. Greene      | Yes        |                           | Yes      |                |             |
 | Anthony Gitter       | Yes        |                           |          |                |             |
 | Tim Triche, Jr.      | Yes        |                           |          |                |             |
 | Simina M. Boca       | Yes        |                           |          |                |             |
@@ -40,7 +40,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Gökçen Eraslan       | Yes        |                           |          |                |             |
 | Renger Jellema       | Yes        |                           |          |                |             |
 | Victor Greiff        | Yes        |                           |          |                |             |
-| Evan M. Cofer        | Yes        |                           |          |                |             |
+| Evan M. Cofer        | Yes        |                           | Yes      |                |             |
 | Haohan Wang          | Yes        |                           |          |                |             |
 | Shyam M. Saladi      | Yes        |                           |          |                |             |
 | Michael M. Hoffman   | Yes        |                           |          |                |             |
