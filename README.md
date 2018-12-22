@@ -26,7 +26,7 @@ Join us!
 
 ## Where we are now
 
-Currently, we're in the process of drafting the paper with each tip being tracked in its own [project](https://github.com/Benjamin-Lee/deep-rules/projects). To contribute to the paper, take a look at [`CONTRIBUTING.md`](CONTRIBUTING.md) for information on how we're organizing the writing as well as [`USAGE.md`](USAGE.md) for instructions on how to write the actual text.
+Currently, we're in the process of drafting the paper with each tip being tracked in its own [project](https://github.com/Benjamin-Lee/deep-rules/projects). The journal has already [approved our presubmission inquiry](https://github.com/Benjamin-Lee/deep-rules/issues/99), so we are ready to write! To contribute to the paper, take a look at [`CONTRIBUTING.md`](CONTRIBUTING.md) for information on how we're organizing the writing as well as [`USAGE.md`](USAGE.md) for instructions on how to write the actual text.
 
 The raw text of the manuscript is stored within the [content directory](content). The rendered manuscript may be viewed as HTML [here](https://Benjamin-Lee.github.io/deep-rules/) or as a PDF [here](https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf).
 
@@ -41,6 +41,11 @@ Help of any kind is highly appreciated. Want to pitch in but not sure how?
 - Have Twitter followers? [Tweet about the project!](https://twitter.com/intent/tweet?text=Have%20you%20used%20deep%20learning%20in%20your%20research%3F%20If%20so%2C%20contribute%20to%20the%20Ten%20Quick%20Tips%20for%20Deep%20Learning%20in%20Biology%20paper%21%0A%0Ahttps%3A%2F%2Fgithub.com%2FBenjamin-Lee%2Fdeep-rules)
 
 For more information, see [the contribution guidelines](CONTRIBUTING.md). All contributions are subject to the [code of conduct](CODE_OF_CONDUCT.md).
+
+## A note on the projects's name
+
+Originally, this paper was going to be titled "Ten simple rules for deep learning in biology." However, the [journal asked](https://github.com/Benjamin-Lee/deep-rules/issues/99) that we change the name to "*n* quick tips for deep learning in biology" to be placed into the educational section as well as to give us more latitude with the number of tips we have. While we changed the name of the paper, for simplicity, we kept the name of the repo as `deep-rules`.
+
 
 ## Manubot
 
