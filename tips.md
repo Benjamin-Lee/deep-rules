@@ -1,4 +1,4 @@
-# Proposed Rules
+# Proposed Tips
 
 1. Concepts that apply to machine learning also apply to deep learning ([#37](https://github.com/Benjamin-Lee/deep-rules/issues/37))
   - Garbage In/Garbage Out ([#26](https://github.com/Benjamin-Lee/deep-rules/issues/26))
