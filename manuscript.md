@@ -18,9 +18,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/896ff506a0449734aa5a56de7098e0b2021e6d0c/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/785dd4a0ab7d573364bda5255662e4bf22ed31cc/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@896ff50](https://github.com/Benjamin-Lee/deep-rules/tree/896ff506a0449734aa5a56de7098e0b2021e6d0c)
+from [Benjamin-Lee/deep-rules@785dd4a](https://github.com/Benjamin-Lee/deep-rules/tree/785dd4a0ab7d573364bda5255662e4bf22ed31cc)
 on January 2, 2019.
 </em></small>
 
@@ -39,7 +39,7 @@ on January 2, 2019.
 
 
 
-## Introduction
+## Introduction {#intro}
 
 Deep learning (DL), a subfield of machine learning (ML) implementing artificial neural networks with many layers, is increasingly used for the analysis of biological data [@PZMP42Ak].
 Despite its growing popularity, DL itself remains an active area of research. Its everchanging complexity and lack of current beginner resources focused on biological applications pose large barriers of entry to newcomers who wish to utilize state-of-the-art DL in their research.
@@ -51,7 +51,7 @@ Ultmately, the tips we established range from high-level guidance to the impleme
 By increasing the accessibility of DL techniques to biology, we aim to improve the overall quality and reproducibility of DL in the literature, enabling these powerful methods to be properly utilized to generate new scientific insights.
 
 
-## Tip 1: Concepts that apply to machine learning also apply to deep learning
+## Tip 1: Concepts that apply to machine learning also apply to deep learning {#concepts}
 Deep learning is a distinct subfield of machine learning, but it is still a subfield.
 Deep learning has proven to be an extremely powerful paradigm capable of outperforming “traditional” machine learning approaches, but it is not immune to the many limitations inherent to machine learning.
 Many best practices for machine learning apply to deep learning as well.
@@ -67,19 +67,19 @@ Said simulations can be used to verify the correctness of the model’s implemen
 Like all computational methods, deep learning should be leveraged in a systematic manner that is reproducible and rigorously tested.
 
 
-## Tip 2: Use traditional methods to establish performance baselines
+## Tip 2: Use traditional methods to establish performance baselines {#baselines}
 
 
-## Tip 3: Understand the complexities of training deep neural networks
+## Tip 3: Understand the complexities of training deep neural networks {#complexities}
 
 
-## Tip 4: Know your data and your question
+## Tip 4: Know your data and your question {#know-your-problem}
 
 
-## Tip 5: Choose an appropriate neural network architecture and data representation
+## Tip 5: Choose an appropriate neural network architecture and data representation {#architecture}
 
 
-## Tip 6: Expect to tune hyperparameters extensively and systematically
+## Tip 6: Expect to tune hyperparameters extensively and systematically {#hyperparameters}
 
 Deep neural networks have the ability to approximate arbitrary continuous functions, as long as the neural network contains enough hidden nodes [@1BnILgle7].
 However, this flexibility makes the training process somewhat challenging.
@@ -95,16 +95,17 @@ Hu and Greene [@5CsWRjfp] discuss a Continental Breakfast Included (CBI) effect 
 The implication of CBI on methods developers is discussed more in Rule 2 (`TODO: cgreene tie these together`).
 The implication of CBI on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require an input of human and compute time for hyperparameter optimization.
 
-## Tip 7: Address deep neural networks' increased tendency to overfit the dataset
+
+## Tip 7: Address deep neural networks' increased tendency to overfit the dataset {#overfitting}
 
 
-## Tip 8: Do not necessarily consider a DL model as a black box
+## Tip 8: Do not necessarily consider a DL model as a black box {#blackbox}
 
 
-## Tip 9: Interpret predictions in the correct manner
+## Tip 9: Interpret predictions in the correct manner {#interpretation}
 
 
-## Tip 10: Don't share models trained on sensitive data
+## Tip 10: Don't share models trained on sensitive data {#privacy}
 
 One of the greatest opportunities for deep learning in biology is the ability for deep learning techniques to incorporate representation learning to extract information that can not readily be captured by traditional methods [@UeE0s74F].
 The abundance of features for each training example means that the representation learning of the deep learning models can capture information-rich abstractions of data during the training process.
@@ -117,7 +118,7 @@ It is this enhanced modeling capacity that allows the model to learn more robust
 When training deep learning models on sensitive data, be sure not to share the model weights directly, and use privacy preserving techniques [@1HuQe3Z8X] such as differential privacy [@LiCxcgZp; @eJgWbXRz] and homomorphic encryption [@me326jb9; @3326vtLW] to protect sensitive data.
 
 
-## Conclusion
+## Conclusion {#conclusion}
 
 
 ## References {.page_break_before}
