@@ -18,9 +18,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9936c06e2c5caf85acaa3c5d9d4e42a71ffce6c6/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/896ff506a0449734aa5a56de7098e0b2021e6d0c/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@9936c06](https://github.com/Benjamin-Lee/deep-rules/tree/9936c06e2c5caf85acaa3c5d9d4e42a71ffce6c6)
+from [Benjamin-Lee/deep-rules@896ff50](https://github.com/Benjamin-Lee/deep-rules/tree/896ff506a0449734aa5a56de7098e0b2021e6d0c)
 on January 2, 2019.
 </em></small>
 
