@@ -269,6 +269,84 @@
     "id": "rKXyJKNt"
   },
   {
+    "publisher": "Springer Nature America, Inc",
+    "issue": "1",
+    "DOI": "10.1038/s41467-017-02388-1",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "VAMPnets for deep learning of molecular kinetics",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Andreas",
+        "family": "Mardt"
+      },
+      {
+        "given": "Luca",
+        "family": "Pasquali"
+      },
+      {
+        "given": "Hao",
+        "family": "Wu"
+      },
+      {
+        "given": "Frank",
+        "family": "Noé"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          2
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcvf62",
+    "container-title-short": "Nat Commun",
+    "PMCID": "PMC5750224",
+    "PMID": "29295994",
+    "id": "lwg6sPLT"
+  },
+  {
+    "publisher": "Springer Nature America, Inc",
+    "issue": "1",
+    "DOI": "10.1038/s41467-018-05378-z",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Deep learning to predict the lab-of-origin of engineered DNA",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Alec A. K.",
+        "family": "Nielsen"
+      },
+      {
+        "given": "Christopher A.",
+        "family": "Voigt"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          7
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gd27sw",
+    "container-title-short": "Nat Commun",
+    "PMCID": "PMC6081423",
+    "PMID": "30087331",
+    "id": "WGfstNkj"
+  },
+  {
     "publisher": "The Royal Society",
     "issue": "141",
     "DOI": "10.1098/rsif.2017.0387",
@@ -664,18 +742,18 @@
     "issued": {
       "date-parts": [
         [
-          "2018",
-          12,
-          31
+          "2019",
+          1,
+          2
         ]
       ]
     },
     "accessed": {
       "date-parts": [
         [
-          "2018",
-          12,
-          31
+          "2019",
+          1,
+          2
         ]
       ]
     },
@@ -720,9 +798,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2018",
-          12,
-          31
+          "2019",
+          1,
+          2
         ]
       ]
     },
