@@ -347,6 +347,171 @@
     "id": "WGfstNkj"
   },
   {
+    "publisher": "Springer Nature",
+    "issue": "1",
+    "DOI": "10.1038/s41746-018-0029-1",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Scalable and accurate deep learning with electronic health records",
+    "volume": "1",
+    "author": [
+      {
+        "given": "Alvin",
+        "family": "Rajkomar"
+      },
+      {
+        "given": "Eyal",
+        "family": "Oren"
+      },
+      {
+        "given": "Kai",
+        "family": "Chen"
+      },
+      {
+        "given": "Andrew M.",
+        "family": "Dai"
+      },
+      {
+        "given": "Nissan",
+        "family": "Hajaj"
+      },
+      {
+        "given": "Michaela",
+        "family": "Hardt"
+      },
+      {
+        "given": "Peter J.",
+        "family": "Liu"
+      },
+      {
+        "given": "Xiaobing",
+        "family": "Liu"
+      },
+      {
+        "given": "Jake",
+        "family": "Marcus"
+      },
+      {
+        "given": "Mimi",
+        "family": "Sun"
+      },
+      {
+        "given": "Patrik",
+        "family": "Sundberg"
+      },
+      {
+        "given": "Hector",
+        "family": "Yee"
+      },
+      {
+        "given": "Kun",
+        "family": "Zhang"
+      },
+      {
+        "given": "Yi",
+        "family": "Zhang"
+      },
+      {
+        "given": "Gerardo",
+        "family": "Flores"
+      },
+      {
+        "given": "Gavin E.",
+        "family": "Duggan"
+      },
+      {
+        "given": "Jamie",
+        "family": "Irvine"
+      },
+      {
+        "given": "Quoc",
+        "family": "Le"
+      },
+      {
+        "given": "Kurt",
+        "family": "Litsch"
+      },
+      {
+        "given": "Alexander",
+        "family": "Mossin"
+      },
+      {
+        "given": "Justin",
+        "family": "Tansuwan"
+      },
+      {
+        "given": "De",
+        "family": "Wang"
+      },
+      {
+        "given": "James",
+        "family": "Wexler"
+      },
+      {
+        "given": "Jimbo",
+        "family": "Wilson"
+      },
+      {
+        "given": "Dana",
+        "family": "Ludwig"
+      },
+      {
+        "given": "Samuel L.",
+        "family": "Volchenboum"
+      },
+      {
+        "given": "Katherine",
+        "family": "Chou"
+      },
+      {
+        "given": "Michael",
+        "family": "Pearson"
+      },
+      {
+        "given": "Srinivasan",
+        "family": "Madabushi"
+      },
+      {
+        "given": "Nigam H.",
+        "family": "Shah"
+      },
+      {
+        "given": "Atul J.",
+        "family": "Butte"
+      },
+      {
+        "given": "Michael D.",
+        "family": "Howell"
+      },
+      {
+        "given": "Claire",
+        "family": "Cui"
+      },
+      {
+        "given": "Greg S.",
+        "family": "Corrado"
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Dean"
+      }
+    ],
+    "container-title": "npj Digital Medicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          8
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gdqcc8",
+    "container-title-short": "npj Digital Med",
+    "id": "1DssZebFm"
+  },
+  {
     "publisher": "The Royal Society",
     "issue": "141",
     "DOI": "10.1098/rsif.2017.0387",
@@ -744,7 +909,7 @@
         [
           "2019",
           1,
-          2
+          3
         ]
       ]
     },
@@ -753,7 +918,7 @@
         [
           "2019",
           1,
-          2
+          3
         ]
       ]
     },
@@ -800,7 +965,7 @@
         [
           "2019",
           1,
-          2
+          3
         ]
       ]
     },

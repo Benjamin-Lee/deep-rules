@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2019-01-02'
+date-meta: '2019-01-03'
 keywords:
 - quick tips
 - machine learning
@@ -18,10 +18,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/785dd4a0ab7d573364bda5255662e4bf22ed31cc/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/57a9a1b5b3ba94853377e0465b558e4a0b17a145/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@785dd4a](https://github.com/Benjamin-Lee/deep-rules/tree/785dd4a0ab7d573364bda5255662e4bf22ed31cc)
-on January 2, 2019.
+from [Benjamin-Lee/deep-rules@57a9a1b](https://github.com/Benjamin-Lee/deep-rules/tree/57a9a1b5b3ba94853377e0465b558e4a0b17a145)
+on January 3, 2019.
 </em></small>
 
 ## Authors
@@ -68,6 +68,16 @@ Like all computational methods, deep learning should be leveraged in a systemati
 
 
 ## Tip 2: Use traditional methods to establish performance baselines {#baselines}
+
+Before diving into a fancy thousand-layer neural network, always implement at least a simple model to establish an adequate performance baseline. 
+For example, researchers can build multinomial logistic regression or random forest models using the same software framework that is being used for DL and evaluate its classification performance. 
+This approach will help researchers with assessing the complexity of the task at hand and debugging more complex DL architectures. 
+Depending on the amount of available data and the type of tasks, DL models may not necessarily be the best performing one. 
+As an illustration, the simple baseline models by Rajkomar A et al. [@1DssZebFm] had achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many. 
+
+It is worth noting that many conventional machine learning methods (e.g., support vector machines, random forests) require parameter tuning. 
+Instead of assuming that DL is better than other machine learning methods, researchers should investigate whether the baseline models are rigorously fine-tuned. 
+The performance comparison among DL models and many other ML approaches is informative only when the models are fairly compared.
 
 
 ## Tip 3: Understand the complexities of training deep neural networks {#complexities}
