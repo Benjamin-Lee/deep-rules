@@ -42,7 +42,7 @@ Help of any kind is highly appreciated. Want to pitch in but not sure how?
 
 For more information, see [the contribution guidelines](CONTRIBUTING.md). All contributions are subject to the [code of conduct](CODE_OF_CONDUCT.md).
 
-## A note on the projects's name
+## A note on the project's name
 
 Originally, this paper was going to be titled "Ten simple rules for deep learning in biology." However, the [journal asked](https://github.com/Benjamin-Lee/deep-rules/issues/99) that we change the name to "*n* quick tips for deep learning in biology" to be placed into the educational section as well as to give us more latitude with the number of tips we have. While we changed the name of the paper, for simplicity, we kept the name of the repo as `deep-rules`.
 
