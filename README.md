@@ -30,8 +30,6 @@ Currently, we're in the process of drafting the paper with each tip being tracke
 
 The raw text of the manuscript is stored within the [content directory](content). The rendered manuscript may be viewed as HTML [here](https://Benjamin-Lee.github.io/deep-rules/) or as a PDF [here](https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf).
 
-The [presubmission inquiry](content/presubmission_inquiry.md) has been submitted and we're eagerly waiting to hear back from the journal.
-
 ## How you can help
 
 Help of any kind is highly appreciated. Want to pitch in but not sure how?
