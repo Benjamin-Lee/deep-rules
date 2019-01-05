@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2019-01-03'
+date-meta: '2019-01-05'
 keywords:
 - quick tips
 - machine learning
@@ -18,10 +18,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/57a9a1b5b3ba94853377e0465b558e4a0b17a145/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/8929dc21654f3f692b5e863ae76d0b495b953882/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@57a9a1b](https://github.com/Benjamin-Lee/deep-rules/tree/57a9a1b5b3ba94853377e0465b558e4a0b17a145)
-on January 3, 2019.
+from [Benjamin-Lee/deep-rules@8929dc2](https://github.com/Benjamin-Lee/deep-rules/tree/8929dc21654f3f692b5e863ae76d0b495b953882)
+on January 5, 2019.
 </em></small>
 
 ## Authors
