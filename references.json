@@ -269,6 +269,70 @@
     "id": "rKXyJKNt"
   },
   {
+    "publisher": "Springer Nature",
+    "issue": "10",
+    "DOI": "10.1038/nrg2825",
+    "type": "article-journal",
+    "page": "733-739",
+    "source": "Crossref",
+    "title": "Tackling the widespread and critical impact of batch effects in high-throughput data",
+    "volume": "11",
+    "author": [
+      {
+        "given": "Jeffrey T.",
+        "family": "Leek"
+      },
+      {
+        "given": "Robert B.",
+        "family": "Scharpf"
+      },
+      {
+        "given": "Héctor Corrada",
+        "family": "Bravo"
+      },
+      {
+        "given": "David",
+        "family": "Simcha"
+      },
+      {
+        "given": "Benjamin",
+        "family": "Langmead"
+      },
+      {
+        "given": "W. Evan",
+        "family": "Johnson"
+      },
+      {
+        "given": "Donald",
+        "family": "Geman"
+      },
+      {
+        "given": "Keith",
+        "family": "Baggerly"
+      },
+      {
+        "given": "Rafael A.",
+        "family": "Irizarry"
+      }
+    ],
+    "container-title": "Nature Reviews Genetics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          9,
+          14
+        ]
+      ]
+    },
+    "URL": "https://doi.org/cfr324",
+    "container-title-short": "Nat Rev Genet",
+    "PMCID": "PMC3880143",
+    "PMID": "20838408",
+    "id": "mPnIAH38"
+  },
+  {
     "publisher": "Springer Nature America, Inc",
     "issue": "1",
     "DOI": "10.1038/s41467-017-02388-1",
@@ -909,7 +973,7 @@
         [
           "2019",
           1,
-          5
+          9
         ]
       ]
     },
@@ -918,7 +982,7 @@
         [
           "2019",
           1,
-          5
+          9
         ]
       ]
     },
@@ -965,7 +1029,7 @@
         [
           "2019",
           1,
-          5
+          9
         ]
       ]
     },
