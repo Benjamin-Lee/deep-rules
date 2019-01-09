@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Benjamin D. Lee" />
-  <meta name="dcterms.date" content="2019-01-05" />
+  <meta name="dcterms.date" content="2019-01-09" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
   <style type="text/css">
@@ -27,7 +27,7 @@
 <header id="title-block-header">
 <h1 class="title">Ten Quick Tips for Deep Learning in Biology</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/8929dc21654f3f692b5e863ae76d0b495b953882/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/8929dc21654f3f692b5e863ae76d0b495b953882">Benjamin-Lee/deep-rules@8929dc2</a> on January 5, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/d06f69cdff98dda0451d0dee6b2992b7d360c049/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/d06f69cdff98dda0451d0dee6b2992b7d360c049">Benjamin-Lee/deep-rules@d06f69c</a> on January 9, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><strong>Benjamin D. Lee</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-7133-8397">0000-0002-7133-8397</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/Benjamin-Lee">Benjamin-Lee</a><br> <small> School of Engineering and Applied Sciences, Harvard University; Department of Genetics, Harvard Medical School; Lab41, In-Q-Tel </small></li>
@@ -42,16 +42,19 @@
 <p>It is worth noting that many conventional machine learning methods (e.g., support vector machines, random forests) require parameter tuning. Instead of assuming that DL is better than other machine learning methods, researchers should investigate whether the baseline models are rigorously fine-tuned. The performance comparison among DL models and many other ML approaches is informative only when the models are fairly compared.</p>
 <h2 id="complexities">Tip 3: Understand the complexities of training deep neural networks</h2>
 <h2 id="know-your-problem">Tip 4: Know your data and your question</h2>
+<p>In the era of easily accessible datasets, one sometimes starts analyzing data without a good understanding of the study design, namely why the data were collected and how. Having appropriate meta-data, a comprehensive data dictionary, and even the actual data collection protocol is essential for any analysis, including one that involves deep learning. It’s even better to also have access to a subject matter expert who has either collected or analyzed this type of data before! For example, if the main reason why the data were collected was to test the impact of an intervention, it may be the case that a randomized controlled trial was performed. However, ethical or other study considerations may make this impossible or impractical, in which case the design may have been an observational one, either prospective or retrospective. These designs may also incorporate some amount of matching - for example, cases and controls may be selected so that the age range or weight distribution is similar. All of these different designs have different assumptions and caveats, which cannot be ignored during a data analysis. Many datasets are now passively collected or do not have a specific design, but even in this case it is important to know how individuals or samples were treated (for example, if all samples are from the same study site, if certain ethnic groups or zip codes are oversampled, if there are differences in processing dates or techniques.)</p>
+<p>Systematic biases can lead to artifacts or “batch effects,” which mean that instead of finding correlates with an outcome or grouping of interest, the investigator may find correlates with variables that are not of interest and obtain misleading results <span class="citation" data-cites="mPnIAH38">[<a href="#ref-mPnIAH38">9</a>]</span>. Other study design considerations that should not be overlooked include knowing whether a study involves biological or technical replicates or both. For example, are some samples collected from the same individuals at different time points? Are those time points before and after some treatment? If one assumes that all the samples are independent but that is in fact not the case, a variety of issues may arise, including having a lower effective sample size than expected.</p>
+<p>In general, deep learning has an increased tendency for overfitting, compared to classical methods, due to the large number of parameters being estimated, making issues of adequate sample size even more important (see <a href="#overfitting">Rule 7</a>). For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see <a href="#interpretation">Rule 9</a>). Finally, it is important to note that with the exception of very specific cases of unsupervised data analysis, it is generally the case that a molecular or imaging dataset does not have much value without appropriate clinical or demographic data; this must always be balanced with the need to protect patient privacy (see <a href="#privacy">Rule 10</a>). Looking at these data can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.</p>
 <h2 id="architecture">Tip 5: Choose an appropriate neural network architecture and data representation</h2>
 <h2 id="hyperparameters">Tip 6: Expect to tune hyperparameters extensively and systematically</h2>
-<p>Deep neural networks have the ability to approximate arbitrary continuous functions, as long as the neural network contains enough hidden nodes <span class="citation" data-cites="1BnILgle7">[<a href="#ref-1BnILgle7">9</a>]</span>. However, this flexibility makes the training process somewhat challenging. Users should expect to systematically evaluate the impact of numerous hyperparameters when they aim to apply deep neural networks to new data or challenges.</p>
-<p>Neural network architectures also have their own odd nuances that affect hyperparameter portability. For example, in variational autoencoders (VAEs) there are two elements that are being optimized, reconstruction and distribution loss <span class="citation" data-cites="NLVTJ9Lj">[<a href="#ref-NLVTJ9Lj">10</a>]</span>. In common implementations, the relative weights of each are a function of the number of input features (more increase the importance of reconstruction loss) and the number of features in the latent space (more increase the importance of the distribution loss). Users who apply a VAE architecture to a new dataset with more input features, even without changing any hyperparameters, alter the relative weights of the components of the loss function.</p>
-<p>This flexibility also makes it difficult to evaluate the extent to which neural network methods are well-suited to solving a task. Hu and Greene <span class="citation" data-cites="5CsWRjfp">[<a href="#ref-5CsWRjfp">11</a>]</span> discuss a Continental Breakfast Included (CBI) effect by which unequal hyperparameter tuning skews the evaluation of methods, especially those with performance that varies substantially with modest changes to hyperparameters. The implication of CBI on methods developers is discussed more in Rule 2 (<code>TODO: cgreene tie these together</code>). The implication of CBI on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require an input of human and compute time for hyperparameter optimization.</p>
+<p>Deep neural networks have the ability to approximate arbitrary continuous functions, as long as the neural network contains enough hidden nodes <span class="citation" data-cites="1BnILgle7">[<a href="#ref-1BnILgle7">10</a>]</span>. However, this flexibility makes the training process somewhat challenging. Users should expect to systematically evaluate the impact of numerous hyperparameters when they aim to apply deep neural networks to new data or challenges.</p>
+<p>Neural network architectures also have their own odd nuances that affect hyperparameter portability. For example, in variational autoencoders (VAEs) there are two elements that are being optimized, reconstruction and distribution loss <span class="citation" data-cites="NLVTJ9Lj">[<a href="#ref-NLVTJ9Lj">11</a>]</span>. In common implementations, the relative weights of each are a function of the number of input features (more increase the importance of reconstruction loss) and the number of features in the latent space (more increase the importance of the distribution loss). Users who apply a VAE architecture to a new dataset with more input features, even without changing any hyperparameters, alter the relative weights of the components of the loss function.</p>
+<p>This flexibility also makes it difficult to evaluate the extent to which neural network methods are well-suited to solving a task. Hu and Greene <span class="citation" data-cites="5CsWRjfp">[<a href="#ref-5CsWRjfp">12</a>]</span> discuss a Continental Breakfast Included (CBI) effect by which unequal hyperparameter tuning skews the evaluation of methods, especially those with performance that varies substantially with modest changes to hyperparameters. The implication of CBI on methods developers is discussed more in Rule 2 (<code>TODO: cgreene tie these together</code>). The implication of CBI on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require an input of human and compute time for hyperparameter optimization.</p>
 <h2 id="overfitting">Tip 7: Address deep neural networks’ increased tendency to overfit the dataset</h2>
 <h2 id="blackbox">Tip 8: Do not necessarily consider a DL model as a black box</h2>
 <h2 id="interpretation">Tip 9: Interpret predictions in the correct manner</h2>
 <h2 id="privacy">Tip 10: Don’t share models trained on sensitive data</h2>
-<p>One of the greatest opportunities for deep learning in biology is the ability for deep learning techniques to incorporate representation learning to extract information that can not readily be captured by traditional methods <span class="citation" data-cites="UeE0s74F">[<a href="#ref-UeE0s74F">12</a>]</span>. The abundance of features for each training example means that the representation learning of the deep learning models can capture information-rich abstractions of data during the training process. Therefore with both deep learning and traditional machine learning models (<em>e.g.</em> <em>k</em>-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data. Applying deep learning to images of cats from the internet does not pose significant ethical, legal, or privacy problems; this is not the case when dealing with classified, confidential, trade secret, or other types of biological data that cannot be shared. For example, adversarial training techniques such as model inversion attacks can be used to exploit model predictions to recover recognizable images of people’s faces used for training <span class="citation" data-cites="zCqhgXvY">[<a href="#ref-zCqhgXvY">13</a>]</span>. These risks are even more significant in deep learning compared to traditional machine learning techniques due to the greater representational capacity of the models. This is achieved by the large number of model weights, even in a relatively small project, that allow deep learning to model high-dimensional non-linear relationships among data. It is this enhanced modeling capacity that allows the model to learn more robust and nuanced features of specific data, leading to the danger of revealing the underlying sensitive data. When training deep learning models on sensitive data, be sure not to share the model weights directly, and use privacy preserving techniques <span class="citation" data-cites="1HuQe3Z8X">[<a href="#ref-1HuQe3Z8X">14</a>]</span> such as differential privacy <span class="citation" data-cites="LiCxcgZp eJgWbXRz">[<a href="#ref-LiCxcgZp">15</a>,<a href="#ref-eJgWbXRz">16</a>]</span> and homomorphic encryption <span class="citation" data-cites="me326jb9 3326vtLW">[<a href="#ref-me326jb9">17</a>,<a href="#ref-3326vtLW">18</a>]</span> to protect sensitive data.</p>
+<p>One of the greatest opportunities for deep learning in biology is the ability for deep learning techniques to incorporate representation learning to extract information that can not readily be captured by traditional methods <span class="citation" data-cites="UeE0s74F">[<a href="#ref-UeE0s74F">13</a>]</span>. The abundance of features for each training example means that the representation learning of the deep learning models can capture information-rich abstractions of data during the training process. Therefore with both deep learning and traditional machine learning models (<em>e.g.</em> <em>k</em>-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data. Applying deep learning to images of cats from the internet does not pose significant ethical, legal, or privacy problems; this is not the case when dealing with classified, confidential, trade secret, or other types of biological data that cannot be shared. For example, adversarial training techniques such as model inversion attacks can be used to exploit model predictions to recover recognizable images of people’s faces used for training <span class="citation" data-cites="zCqhgXvY">[<a href="#ref-zCqhgXvY">14</a>]</span>. These risks are even more significant in deep learning compared to traditional machine learning techniques due to the greater representational capacity of the models. This is achieved by the large number of model weights, even in a relatively small project, that allow deep learning to model high-dimensional non-linear relationships among data. It is this enhanced modeling capacity that allows the model to learn more robust and nuanced features of specific data, leading to the danger of revealing the underlying sensitive data. When training deep learning models on sensitive data, be sure not to share the model weights directly, and use privacy preserving techniques <span class="citation" data-cites="1HuQe3Z8X">[<a href="#ref-1HuQe3Z8X">15</a>]</span> such as differential privacy <span class="citation" data-cites="LiCxcgZp eJgWbXRz">[<a href="#ref-LiCxcgZp">16</a>,<a href="#ref-eJgWbXRz">17</a>]</span> and homomorphic encryption <span class="citation" data-cites="me326jb9 3326vtLW">[<a href="#ref-me326jb9">18</a>,<a href="#ref-3326vtLW">19</a>]</span> to protect sensitive data.</p>
 <h2 id="conclusion">Conclusion</h2>
 <h2 id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
@@ -83,7 +86,7 @@ DOI: <a href="https://doi.org/10.1186/s13040-017-0155-3">10.1186/s13040-017-0155
 <div id="ref-ysdRl4lj">
 <p>5. <strong>Ten Quick Tips for Deep Learning in Biology. Contribute to Benjamin-Lee/deep-rules development by creating an account on GitHub</strong><br />
 Benjamin Lee<br />
-(2019-01-05) <a href="https://github.com/Benjamin-Lee/deep-rules">https://github.com/Benjamin-Lee/deep-rules</a></p>
+(2019-01-09) <a href="https://github.com/Benjamin-Lee/deep-rules">https://github.com/Benjamin-Lee/deep-rules</a></p>
 </div>
 <div id="ref-1GGGHdsew">
 <p>6. <strong>Open collaborative writing with Manubot</strong><br />
@@ -102,58 +105,64 @@ Alvin Rajkomar, Eyal Oren, Kai Chen, Andrew M. Dai, Nissan Hajaj, Michaela Hardt
 <em>npj Digital Medicine</em> (2018-05-08) <a href="https://doi.org/gdqcc8">https://doi.org/gdqcc8</a><br />
 DOI: <a href="https://doi.org/10.1038/s41746-018-0029-1">10.1038/s41746-018-0029-1</a></p>
 </div>
+<div id="ref-mPnIAH38">
+<p>9. <strong>Tackling the widespread and critical impact of batch effects in high-throughput data</strong><br />
+Jeffrey T. Leek, Robert B. Scharpf, Héctor Corrada Bravo, David Simcha, Benjamin Langmead, W. Evan Johnson, Donald Geman, Keith Baggerly, Rafael A. Irizarry<br />
+<em>Nature Reviews Genetics</em> (2010-09-14) <a href="https://doi.org/cfr324">https://doi.org/cfr324</a><br />
+DOI: <a href="https://doi.org/10.1038/nrg2825">10.1038/nrg2825</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/20838408">20838408</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3880143">PMC3880143</a></p>
+</div>
 <div id="ref-1BnILgle7">
-<p>9. <strong>Approximation capabilities of multilayer feedforward networks</strong><br />
+<p>10. <strong>Approximation capabilities of multilayer feedforward networks</strong><br />
 Kurt Hornik<br />
 <em>Neural Networks</em> (1991) <a href="https://doi.org/dzwxkd">https://doi.org/dzwxkd</a><br />
 DOI: <a href="https://doi.org/10.1016/0893-6080(91)90009-t">10.1016/0893-6080(91)90009-t</a></p>
 </div>
 <div id="ref-NLVTJ9Lj">
-<p>10. <strong>Auto-Encoding Variational Bayes</strong><br />
+<p>11. <strong>Auto-Encoding Variational Bayes</strong><br />
 Diederik P Kingma, Max Welling<br />
 <em>arXiv</em> (2013-12-20) <a href="https://arxiv.org/abs/1312.6114v10">https://arxiv.org/abs/1312.6114v10</a></p>
 </div>
 <div id="ref-5CsWRjfp">
-<p>11. <strong>Parameter tuning is a key part of dimensionality reduction via deep variational autoencoders for single cell RNA transcriptomics</strong><br />
+<p>12. <strong>Parameter tuning is a key part of dimensionality reduction via deep variational autoencoders for single cell RNA transcriptomics</strong><br />
 Qiwen Hu, Casey S Greene<br />
 <em>Cold Spring Harbor Laboratory</em> (2018-08-05) <a href="https://doi.org/gdxxjf">https://doi.org/gdxxjf</a><br />
 DOI: <a href="https://doi.org/10.1101/385534">10.1101/385534</a></p>
 </div>
 <div id="ref-UeE0s74F">
-<p>12. <strong>Convolutional Networks on Graphs for Learning Molecular Fingerprints</strong><br />
+<p>13. <strong>Convolutional Networks on Graphs for Learning Molecular Fingerprints</strong><br />
 David Duvenaud, Dougal Maclaurin, Jorge Aguilera-Iparraguirre, Rafael Gómez-Bombarelli, Timothy Hirzel, Alán Aspuru-Guzik, Ryan P. Adams<br />
 <em>arXiv</em> (2015-09-30) <a href="https://arxiv.org/abs/1509.09292v2">https://arxiv.org/abs/1509.09292v2</a></p>
 </div>
 <div id="ref-zCqhgXvY">
-<p>13. <strong>Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures</strong><br />
+<p>14. <strong>Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures</strong><br />
 Matt Fredrikson, Somesh Jha, Thomas Ristenpart<br />
 <em>Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security - CCS ’15</em> (2015) <a href="https://doi.org/cwdm">https://doi.org/cwdm</a><br />
 DOI: <a href="https://doi.org/10.1145/2810103.2813677">10.1145/2810103.2813677</a></p>
 </div>
 <div id="ref-1HuQe3Z8X">
-<p>14. <strong>A generic framework for privacy preserving deep learning</strong><br />
+<p>15. <strong>A generic framework for privacy preserving deep learning</strong><br />
 Theo Ryffel, Andrew Trask, Morten Dahl, Bobby Wagner, Jason Mancuso, Daniel Rueckert, Jonathan Passerat-Palmbach<br />
 <em>arXiv</em> (2018-11-09) <a href="https://arxiv.org/abs/1811.04017v2">https://arxiv.org/abs/1811.04017v2</a></p>
 </div>
 <div id="ref-LiCxcgZp">
-<p>15. <strong>Deep Learning with Differential Privacy</strong><br />
+<p>16. <strong>Deep Learning with Differential Privacy</strong><br />
 Martin Abadi, Andy Chu, Ian Goodfellow, H. Brendan McMahan, Ilya Mironov, Kunal Talwar, Li Zhang<br />
 <em>Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security - CCS’16</em> (2016) <a href="https://doi.org/gcrnp3">https://doi.org/gcrnp3</a><br />
 DOI: <a href="https://doi.org/10.1145/2976749.2978318">10.1145/2976749.2978318</a></p>
 </div>
 <div id="ref-eJgWbXRz">
-<p>16. <strong>Privacy-Preserving Distributed Deep Learning for Clinical Data</strong><br />
+<p>17. <strong>Privacy-Preserving Distributed Deep Learning for Clinical Data</strong><br />
 Brett K. Beaulieu-Jones, William Yuan, Samuel G. Finlayson, Zhiwei Steven Wu<br />
 <em>arXiv</em> (2018-12-04) <a href="https://arxiv.org/abs/1812.01484v1">https://arxiv.org/abs/1812.01484v1</a></p>
 </div>
 <div id="ref-me326jb9">
-<p>17. <strong>SIG-DB: Leveraging homomorphic encryption to securely interrogate privately held genomic databases</strong><br />
+<p>18. <strong>SIG-DB: Leveraging homomorphic encryption to securely interrogate privately held genomic databases</strong><br />
 Alexander J. Titus, Audrey Flower, Patrick Hagerty, Paul Gamble, Charlie Lewis, Todd Stavish, Kevin P. O’Connell, Greg Shipley, Stephanie M. Rogers<br />
 <em>PLOS Computational Biology</em> (2018-09-04) <a href="https://doi.org/gd6xd5">https://doi.org/gd6xd5</a><br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1006454">10.1371/journal.pcbi.1006454</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/30180163">30180163</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6138421">PMC6138421</a></p>
 </div>
 <div id="ref-3326vtLW">
-<p>18. <strong>The AlexNet Moment for Homomorphic Encryption: HCNN, the First Homomorphic CNN on Encrypted Data with GPUs</strong><br />
+<p>19. <strong>The AlexNet Moment for Homomorphic Encryption: HCNN, the First Homomorphic CNN on Encrypted Data with GPUs</strong><br />
 Ahmad Al Badawi, Jin Chao, Jie Lin, Chan Fook Mun, Sim Jun Jie, Benjamin Hong Meng Tan, Xiao Nan, Khin Mi Mi Aung, Vijay Ramaseshan Chandrasekhar<br />
 <em>arXiv</em> (2018-11-02) <a href="https://arxiv.org/abs/1811.00778v1">https://arxiv.org/abs/1811.00778v1</a></p>
 </div>
