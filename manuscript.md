@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2019-01-09'
+date-meta: '2019-01-10'
 keywords:
 - quick tips
 - machine learning
@@ -18,10 +18,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d06f69cdff98dda0451d0dee6b2992b7d360c049/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e493cb5851e58c81309f4eb4cd1bcc950a594988/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@d06f69c](https://github.com/Benjamin-Lee/deep-rules/tree/d06f69cdff98dda0451d0dee6b2992b7d360c049)
-on January 9, 2019.
+from [Benjamin-Lee/deep-rules@e493cb5](https://github.com/Benjamin-Lee/deep-rules/tree/e493cb5851e58c81309f4eb4cd1bcc950a594988)
+on January 10, 2019.
 </em></small>
 
 ## Authors
@@ -126,6 +126,26 @@ The implication of CBI on users of deep neural networks is that attaining perfor
 
 
 ## Tip 7: Address deep neural networks' increased tendency to overfit the dataset {#overfitting}
+
+Overfitting is one of the most significant dangers faced by a deep learning practitioner.
+Put simply, overfitting occurs when a model fits patterns in the training data too closely, includes noise or non-scientifically relevant perturbations, or in the most extreme case, simply memorizes patterns in the training set.
+This subtle distinction is made clearer by seeing what happens when a model is tested on data to which it was not exposed during training: just as a student who memorizes exam materials struggles to correctly answer questions for which they have not studied, a machine learning model that has overfit to its training data will perform poorly on unseen test data.
+Deep learning models are particularly susceptible to overfitting due to their relatively large number of parameters and associated representational capacity.
+To continue the student analogy, a smarter student has greater potential for memorization than average one and thus may be more inclined to memorize.
+
+![A visual example of overfitting. While a high-degree polynomial gets high accuracy on its training data, it performs poorly on data that is has not seen before, whereas a simple linear regression works well. The greater representational capacity of the polynomial is analogous to using a larger or deeper neural network.](images/overfitting.png){#fig:overfitting-fig}
+
+The simplest way to combat overfitting is to detect it.
+This can be done by splitting the dataset into three parts: a training set, a tuning set (also commonly called a validation set in the machine learning literature), and a test set.
+By exposing the model solely to the training data during fitting, a researcher can use the model's performance on the unseen test data to measure the amount of overfitting.
+While a slight drop in performance from the training set to the test set is normal, a significant drop is a clear sign of overfitting (see Figure @fig:overfitting-fig for a visual demonstration of an overfit model that performs poorly on test data).
+Additionally, there are a variety of techniques to reduce overfitting during training including data augmentation and regularization techniques such as dropout [@1AdSlvfDV=2627435.2670313] and weight decay [@1AdSlvfDV=2986916.2987033].
+Another way, as described by Chuang and Keiser, is to identify the baseline level of memorization of the network by training on the data with the labels randomly shuffled and to see if the model performs better on the actual data [@yqAEYaMg].
+If the model performs no better on real data than randomly scrambled data, then the performance of the model can be attributed to overfitting.
+
+Additionally, one must be sure that their data are not skewed or biased, such as by having confounding and scientifically irrelevant variables that the model can pick up on [@FEPLn1Uo].
+In this case, simply holding out test data is insufficient.
+The best remedy for confounding variables is to [know your data](#know-your-problem) and to test your model on truly independent data.
 
 
 ## Tip 8: Do not necessarily consider a DL model as a black box {#blackbox}

@@ -71,6 +71,46 @@
     "id": "UeE0s74F"
   },
   {
+    "number": "1807.00431v2",
+    "version": "2",
+    "URL": "https://arxiv.org/abs/1807.00431v2",
+    "title": "Confounding variables can degrade generalization performance of\n  radiological deep learning models",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          2
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "John R. Zech"
+      },
+      {
+        "literal": "Marcus A. Badgeley"
+      },
+      {
+        "literal": "Manway Liu"
+      },
+      {
+        "literal": "Anthony B. Costa"
+      },
+      {
+        "literal": "Joseph J. Titano"
+      },
+      {
+        "literal": "Eric K. Oermann"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "Early results in using convolutional neural networks (CNNs) on x-rays to\ndiagnose disease have been promising, but it has not yet been shown that models\ntrained on x-rays from one hospital or one group of hospitals will work equally\nwell at different hospitals. Before these tools are used for computer-aided\ndiagnosis in real-world clinical settings, we must verify their ability to\ngeneralize across a variety of hospital systems. A cross-sectional design was\nused to train and evaluate pneumonia screening CNNs on 158,323 chest x-rays\nfrom NIH (n=112,120 from 30,805 patients), Mount Sinai (42,396 from 12,904\npatients), and Indiana (n=3,807 from 3,683 patients). In 3 / 5 natural\ncomparisons, performance on chest x-rays from outside hospitals was\nsignificantly lower than on held-out x-rays from the original hospital systems.\nCNNs were able to detect where an x-ray was acquired (hospital system, hospital\ndepartment) with extremely high accuracy and calibrate predictions accordingly.\nThe performance of CNNs in diagnosing diseases on x-rays may reflect not only\ntheir ability to identify disease-specific imaging findings on x-rays, but also\ntheir ability to exploit confounding information. Estimates of CNN performance\nbased on test data from hospital systems used for model training may overstate\ntheir likely real-world performance.",
+    "type": "report",
+    "id": "FEPLn1Uo"
+  },
+  {
     "number": "1811.00778v1",
     "version": "1",
     "URL": "https://arxiv.org/abs/1811.00778v1",
@@ -267,6 +307,41 @@
     "PMCID": "PMC5741413",
     "PMID": "29096442",
     "id": "rKXyJKNt"
+  },
+  {
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "10",
+    "DOI": "10.1021/acschembio.8b00881",
+    "type": "article-journal",
+    "page": "2819-2821",
+    "source": "Crossref",
+    "title": "Adversarial Controls for Scientific Machine Learning",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Kangway V.",
+        "family": "Chuang"
+      },
+      {
+        "given": "Michael J.",
+        "family": "Keiser"
+      }
+    ],
+    "container-title": "ACS Chemical Biology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfk9mh",
+    "container-title-short": "ACS Chem. Biol.",
+    "PMID": "30336670",
+    "id": "yqAEYaMg"
   },
   {
     "publisher": "Springer Nature",
@@ -956,9 +1031,14 @@
     "id": "me326jb9"
   },
   {
+    "URL": "http://dl.acm.org/citation.cfm?id",
+    "type": "webpage",
+    "id": "1AdSlvfDV"
+  },
+  {
     "type": "book",
     "title": "Ten Quick Tips for Deep Learning in Biology. Contribute to Benjamin-Lee/deep-rules development by creating an account on GitHub",
-    "genre": "CSS",
+    "genre": "Jupyter Notebook",
     "source": "GitHub",
     "URL": "https://github.com/Benjamin-Lee/deep-rules",
     "note": "original-date: 2018-10-09T02:10:24Z",
@@ -973,7 +1053,7 @@
         [
           "2019",
           1,
-          9
+          10
         ]
       ]
     },
@@ -982,7 +1062,7 @@
         [
           "2019",
           1,
-          9
+          10
         ]
       ]
     },
@@ -1029,7 +1109,7 @@
         [
           "2019",
           1,
-          9
+          10
         ]
       ]
     },
