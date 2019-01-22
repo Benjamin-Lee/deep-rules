@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2019-01-10'
+date-meta: '2019-01-22'
 keywords:
 - quick tips
 - machine learning
@@ -18,10 +18,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e493cb5851e58c81309f4eb4cd1bcc950a594988/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/b62c7379ec03121cf80fdaf127afd0a374bbab31/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@e493cb5](https://github.com/Benjamin-Lee/deep-rules/tree/e493cb5851e58c81309f4eb4cd1bcc950a594988)
-on January 10, 2019.
+from [Benjamin-Lee/deep-rules@b62c737](https://github.com/Benjamin-Lee/deep-rules/tree/b62c7379ec03121cf80fdaf127afd0a374bbab31)
+on January 22, 2019.
 </em></small>
 
 ## Authors
@@ -99,9 +99,9 @@ Other study design considerations that should not be overlooked include knowing 
 For example, are some samples collected from the same individuals at different time points? Are those time points before and after some treatment?
 If one assumes that all the samples are independent but that is in fact not the case, a variety of issues may arise, including having a lower effective sample size than expected.
 
-In general, deep learning has an increased tendency for overfitting, compared to classical methods, due to the large number of parameters being estimated, making issues of adequate sample size even more important (see [Rule 7](#overfitting)).
-For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see [Rule 9](#interpretation)).
-Finally, it is important to note that with the exception of very specific cases of unsupervised data analysis, it is generally the case that a molecular or imaging dataset does not have much value without appropriate clinical or demographic data; this must always be balanced with the need to protect patient privacy (see [Rule 10](#privacy)). 
+In general, deep learning has an increased tendency for overfitting, compared to classical methods, due to the large number of parameters being estimated, making issues of adequate sample size even more important (see [Tip 7](#overfitting)).
+For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see [Tip 9](#interpretation)).
+Finally, it is important to note that with the exception of very specific cases of unsupervised data analysis, it is generally the case that a molecular or imaging dataset does not have much value without appropriate clinical or demographic data; this must always be balanced with the need to protect patient privacy (see [Tip 10](#privacy)). 
 Looking at these data can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.
 
 
@@ -121,7 +121,7 @@ Users who apply a VAE architecture to a new dataset with more input features, ev
 
 This flexibility also makes it difficult to evaluate the extent to which neural network methods are well-suited to solving a task.
 Hu and Greene [@5CsWRjfp] discuss a Continental Breakfast Included (CBI) effect by which unequal hyperparameter tuning skews the evaluation of methods, especially those with performance that varies substantially with modest changes to hyperparameters.
-The implication of CBI on methods developers is discussed more in Rule 2 (`TODO: cgreene tie these together`).
+The implication of CBI on methods developers is discussed more in [Tip 2](#baselines) (`TODO: cgreene tie these together`).
 The implication of CBI on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require an input of human and compute time for hyperparameter optimization.
 
 
