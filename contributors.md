@@ -28,7 +28,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Beth Signal          | Yes        |                           |          |                |             |
 | Paul Brodersen       | Yes        |                           |          |                |             |
 | Marc G. Chevrette    | Yes        |                           | Yes      |                |             |
-| Ben Lengerich        | Yes        |                           |          |                |             |
+| Ben Lengerich        | Yes        |                           | Yes      |                |             |
 | Jacob Schreiber      | Yes        |                           |          |                |             |
 | Brett Beaulieu-Jones | Yes        |                           |          |                |             |
 | Julian Stanley       | Yes        |                           |          |                |             |
