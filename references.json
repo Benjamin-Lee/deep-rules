@@ -265,6 +265,91 @@
     "id": "1BnILgle7"
   },
   {
+    "publisher": "Elsevier BV",
+    "issue": "2",
+    "DOI": "10.1016/s0933-3657(96)00367-3",
+    "type": "article-journal",
+    "page": "107-138",
+    "source": "Crossref",
+    "title": "An evaluation of machine-learning methods for predicting pneumonia mortality",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Gregory F.",
+        "family": "Cooper"
+      },
+      {
+        "given": "Constantin F.",
+        "family": "Aliferis"
+      },
+      {
+        "given": "Richard",
+        "family": "Ambrosino"
+      },
+      {
+        "given": "John",
+        "family": "Aronis"
+      },
+      {
+        "given": "Bruce G.",
+        "family": "Buchanan"
+      },
+      {
+        "given": "Richard",
+        "family": "Caruana"
+      },
+      {
+        "given": "Michael J.",
+        "family": "Fine"
+      },
+      {
+        "given": "Clark",
+        "family": "Glymour"
+      },
+      {
+        "given": "Geoffrey",
+        "family": "Gordon"
+      },
+      {
+        "given": "Barbara H.",
+        "family": "Hanusa"
+      },
+      {
+        "given": "Janine E.",
+        "family": "Janosky"
+      },
+      {
+        "given": "Christopher",
+        "family": "Meek"
+      },
+      {
+        "given": "Tom",
+        "family": "Mitchell"
+      },
+      {
+        "given": "Thomas",
+        "family": "Richardson"
+      },
+      {
+        "given": "Peter",
+        "family": "Spirtes"
+      }
+    ],
+    "container-title": "Artificial Intelligence in Medicine",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1997,
+          2
+        ]
+      ]
+    },
+    "URL": "https://doi.org/b6vnmd",
+    "container-title-short": "Artificial Intelligence in Medicine",
+    "id": "980FAm5x"
+  },
+  {
     "publisher": "American Chemical Society (ACS)",
     "issue": "12",
     "DOI": "10.1021/acs.molpharmaceut.7b00578",
@@ -852,6 +937,50 @@
   },
   {
     "publisher": "ACM Press",
+    "DOI": "10.1145/2783258.2788613",
+    "type": "paper-conference",
+    "source": "Crossref",
+    "title": "Intelligible Models for HealthCare",
+    "author": [
+      {
+        "given": "Rich",
+        "family": "Caruana"
+      },
+      {
+        "given": "Yin",
+        "family": "Lou"
+      },
+      {
+        "given": "Johannes",
+        "family": "Gehrke"
+      },
+      {
+        "given": "Paul",
+        "family": "Koch"
+      },
+      {
+        "given": "Marc",
+        "family": "Sturm"
+      },
+      {
+        "given": "Noemie",
+        "family": "Elhadad"
+      }
+    ],
+    "event": "the 21th ACM SIGKDD International Conference",
+    "container-title": "Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining - KDD '15",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gftgxk",
+    "id": "gSmt16Rh"
+  },
+  {
+    "publisher": "ACM Press",
     "DOI": "10.1145/2810103.2813677",
     "type": "paper-conference",
     "source": "Crossref",
@@ -1053,7 +1182,7 @@
         [
           "2019",
           1,
-          22
+          25
         ]
       ]
     },
@@ -1062,7 +1191,7 @@
         [
           "2019",
           1,
-          22
+          25
         ]
       ]
     },
@@ -1109,7 +1238,7 @@
         [
           "2019",
           1,
-          22
+          25
         ]
       ]
     },

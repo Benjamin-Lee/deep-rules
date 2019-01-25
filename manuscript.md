@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2019-01-22'
+date-meta: '2019-01-25'
 keywords:
 - quick tips
 - machine learning
@@ -18,10 +18,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/b62c7379ec03121cf80fdaf127afd0a374bbab31/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/5c9b3ac65ec15da10da36d703ea0b72c44707d2f/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@b62c737](https://github.com/Benjamin-Lee/deep-rules/tree/b62c7379ec03121cf80fdaf127afd0a374bbab31)
-on January 22, 2019.
+from [Benjamin-Lee/deep-rules@5c9b3ac](https://github.com/Benjamin-Lee/deep-rules/tree/5c9b3ac65ec15da10da36d703ea0b72c44707d2f)
+on January 25, 2019.
 </em></small>
 
 ## Authors
@@ -151,7 +151,23 @@ The best remedy for confounding variables is to [know your data](#know-your-prob
 ## Tip 8: Do not necessarily consider a DL model as a black box {#blackbox}
 
 
-## Tip 9: Interpret predictions in the correct manner {#interpretation}
+## Tip 9: Don't over-interpret predictions {#interpretation}
+
+Deep learning models can make predictions with high accuracy, but we need to take care to correctly interpret these predictions.
+We know that the basic tenets of machine learning also apply to deep learning ([Tip 1](#concepts)), but because deep models can be difficult to interpret intuitively, there is a temptation to anthropomorphize deep models.
+We must resist this temptation.
+
+A common saying in statistics classes is "correlation doesn't imply causality".
+While we know that accurately predicting an outcome doesn't imply learning the causal mechanism, it can be easy to forget this lesson when the predictions are extremely accurate.
+A poignant example of this lesson is [@980FAm5x; @gSmt16Rh].
+In this study, the authors evaluated the capacities of several models to predict the probability of death for patients admitted to an intensive care unit with pneumonia.
+Unsurprisingly, the neural network model achieved the best predictive accuracy.
+However, after fitting a rule-based model, the authors discovered that the hospital data implied the rule "HasAsthma(x) => LowerRisk(x)".
+This rule contradicts medical understanding - having asthma doesn't make pneumonia better!
+This rule was supported by the data (pneumonia patients with a history of pneumonia tended to receive more aggressive care), so the neural network also learned to make predictions according to this rule.
+Guiding treatment decisions according to the predictions of the neural network would have been disastrous, even though the neural network had high predictive accuracy.
+
+To trust the reasoning and scientific conclusions of deep learning models, combine knowledge of the data ([Tip 4](#know-your-problem)) with inspection of the model ([Tip 8](#blackbox)).
 
 
 ## Tip 10: Don't share models trained on sensitive data {#privacy}
