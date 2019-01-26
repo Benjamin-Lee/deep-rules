@@ -37,15 +37,16 @@
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "42f4353754c77dcca8f6cb632ed3ea0712bb8805"
+    "commit": "d66a972bfaf75e9b55748554a69c8f0bf09282a3"
   },
   "manuscript_stats": {
     "reference_counts": {
       "arxiv": 8,
       "doi": 15,
+      "pmid": 1,
       "url": 3,
-      "total": 26
+      "total": 27
     },
-    "word_count": 2873
+    "word_count": 2875
   }
 }

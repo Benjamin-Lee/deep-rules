@@ -18,9 +18,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/42f4353754c77dcca8f6cb632ed3ea0712bb8805/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d66a972bfaf75e9b55748554a69c8f0bf09282a3/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@42f4353](https://github.com/Benjamin-Lee/deep-rules/tree/42f4353754c77dcca8f6cb632ed3ea0712bb8805)
+from [Benjamin-Lee/deep-rules@d66a972](https://github.com/Benjamin-Lee/deep-rules/tree/d66a972bfaf75e9b55748554a69c8f0bf09282a3)
 on January 26, 2019.
 </em></small>
 
@@ -53,14 +53,14 @@ By increasing the accessibility of DL techniques to biology, we aim to improve t
 
 ## Tip 1: Concepts that apply to machine learning also apply to deep learning {#concepts}
 Deep learning is a distinct subfield of machine learning, but it is still a subfield.
-Deep learning has proven to be an extremely powerful paradigm capable of outperforming “traditional” machine learning approaches, but it is not immune to the many limitations inherent to machine learning.
-Many best practices for machine learning apply to deep learning as well.
+DL has proven to be an extremely powerful paradigm capable of outperforming “traditional” machine learning approaches in certain contexts, but it is not immune to the many limitations inherent to machine learning.
+Many best practices for machine learning also apply to deep learning.
 For instance, deep supervised learning models should be trained, tuned, and tested on non-overlapping datasets.
 Those developing deep learning models should select data that are relevant to the problem at hand; non-salient data can hamper performance or lead to spurious conclusions.
 Furthermore, investigators should begin by thoroughly inspecting their data.
 When coupled with imprudence, data that is biased, skewed, or of low quality will produce models of dubious performance and limited generalizability.
 Biases in testing data can also unduly influence measures of model performance.
-For example, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance.
+For example, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance [@u86hHJ9b].
 As such, model performance should be evaluated with a carefully-picked panel of relevant metrics that make minimal assumptions about the composition of the testing data [@rKXyJKNt].
 Extreme cases warrant testing the robustness of the model and metrics on simulated data for which the ground truth is known.
 Said simulations can be used to verify the correctness of the model’s implementation as well.
