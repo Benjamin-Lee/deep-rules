@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2019-01-25'
+date-meta: '2019-01-26'
 keywords:
 - quick tips
 - machine learning
@@ -18,10 +18,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/5c9b3ac65ec15da10da36d703ea0b72c44707d2f/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/42f4353754c77dcca8f6cb632ed3ea0712bb8805/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@5c9b3ac](https://github.com/Benjamin-Lee/deep-rules/tree/5c9b3ac65ec15da10da36d703ea0b72c44707d2f)
-on January 25, 2019.
+from [Benjamin-Lee/deep-rules@42f4353](https://github.com/Benjamin-Lee/deep-rules/tree/42f4353754c77dcca8f6cb632ed3ea0712bb8805)
+on January 26, 2019.
 </em></small>
 
 ## Authors
@@ -72,8 +72,9 @@ Like all computational methods, deep learning should be leveraged in a systemati
 Before diving into a fancy thousand-layer neural network, always implement at least a simple model to establish an adequate performance baseline. 
 For example, researchers can build multinomial logistic regression or random forest models using the same software framework that is being used for DL and evaluate its classification performance. 
 This approach will help researchers with assessing the complexity of the task at hand and debugging more complex DL architectures. 
+The utility of these methods is evidenced by the recent development of hybrid models which combine DL and simpler models to improve robustness, interpretability, and confidence estimation [@uBcf6TJ2; @2bsGpiQt].
 Depending on the amount of available data and the type of tasks, DL models may not necessarily be the best performing one. 
-As an illustration, the simple baseline models by Rajkomar A et al. [@1DssZebFm] had achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many. 
+As an illustration, the simple baseline models by Rajkomar et al. [@1DssZebFm] achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many. 
 
 It is worth noting that many conventional machine learning methods (e.g., support vector machines, random forests) require parameter tuning. 
 Instead of assuming that DL is better than other machine learning methods, researchers should investigate whether the baseline models are rigorously fine-tuned. 

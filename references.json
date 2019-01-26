@@ -71,6 +71,68 @@
     "id": "UeE0s74F"
   },
   {
+    "number": "1803.04765v1",
+    "version": "1",
+    "URL": "https://arxiv.org/abs/1803.04765v1",
+    "title": "Deep k-Nearest Neighbors: Towards Confident, Interpretable and Robust\n  Deep Learning",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          13
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Nicolas Papernot"
+      },
+      {
+        "literal": "Patrick McDaniel"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "Deep neural networks (DNNs) enable innovative applications of machine\nlearning like image recognition, machine translation, or malware detection.\nHowever, deep learning is often criticized for its lack of robustness in\nadversarial settings (e.g., vulnerability to adversarial inputs) and general\ninability to rationalize its predictions. In this work, we exploit the\nstructure of deep learning to enable new learning-based inference and decision\nstrategies that achieve desirable properties such as robustness and\ninterpretability. We take a first step in this direction and introduce the Deep\nk-Nearest Neighbors (DkNN). This hybrid classifier combines the k-nearest\nneighbors algorithm with representations of the data learned by each layer of\nthe DNN: a test input is compared to its neighboring training points according\nto the distance that separates them in the representations. We show the labels\nof these neighboring points afford confidence estimates for inputs outside the\nmodel's training manifold, including on malicious inputs like adversarial\nexamples--and therein provides protections against inputs that are outside the\nmodels understanding. This is because the nearest neighbors can be used to\nestimate the nonconformity of, i.e., the lack of support for, a prediction in\nthe training data. The neighbors also constitute human-interpretable\nexplanations of predictions. We evaluate the DkNN algorithm on several\ndatasets, and show the confidence estimates accurately identify inputs outside\nthe model, and that the explanations provided by nearest neighbors are\nintuitive and useful in understanding model failures.",
+    "type": "report",
+    "id": "uBcf6TJ2"
+  },
+  {
+    "number": "1805.11783v2",
+    "version": "2",
+    "URL": "https://arxiv.org/abs/1805.11783v2",
+    "title": "To Trust Or Not To Trust A Classifier",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          30
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Heinrich Jiang"
+      },
+      {
+        "literal": "Been Kim"
+      },
+      {
+        "literal": "Melody Y. Guan"
+      },
+      {
+        "literal": "Maya Gupta"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "Knowing when a classifier's prediction can be trusted is useful in many\napplications and critical for safely using AI. While the bulk of the effort in\nmachine learning research has been towards improving classifier performance,\nunderstanding when a classifier's predictions should and should not be trusted\nhas received far less attention. The standard approach is to use the\nclassifier's discriminant or confidence score; however, we show there exists an\nalternative that is more effective in many situations. We propose a new score,\ncalled the trust score, which measures the agreement between the classifier and\na modified nearest-neighbor classifier on the testing example. We show\nempirically that high (low) trust scores produce surprisingly high precision at\nidentifying correctly (incorrectly) classified examples, consistently\noutperforming the classifier's confidence score as well as many other\nbaselines. Further, under some mild distributional assumptions, we show that if\nthe trust score for an example is high (low), the classifier will likely agree\n(disagree) with the Bayes-optimal classifier. Our guarantees consist of\nnon-asymptotic rates of statistical consistency under various nonparametric\nsettings and build on recent developments in topological data analysis.",
+    "type": "report",
+    "id": "2bsGpiQt"
+  },
+  {
     "number": "1807.00431v2",
     "version": "2",
     "URL": "https://arxiv.org/abs/1807.00431v2",
@@ -1182,7 +1244,7 @@
         [
           "2019",
           1,
-          25
+          26
         ]
       ]
     },
@@ -1191,7 +1253,7 @@
         [
           "2019",
           1,
-          25
+          26
         ]
       ]
     },
@@ -1238,7 +1300,7 @@
         [
           "2019",
           1,
-          25
+          26
         ]
       ]
     },
