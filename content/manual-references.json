@@ -18,10 +18,8 @@
       "family": "Himmelstein"
     }
   ]
-}
-]
-[
-  {
+},
+{
     "standard_citation": "raw:wilson2017",
     "URL": "http://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning.pdf",
     "author": [
@@ -89,5 +87,5 @@
     "publisher": "Curran Associates, Inc.",
     "title": "The marginal value of adaptive gradient methods in machine learning",
     "type": "chapter"
-  }
+  } 
 ]
