@@ -19,9 +19,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e83ed8d7228dc2958d87c3d06b73be2d4e13270d/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2ec48d37a92301520e375c04374f03c8e0f36522/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@e83ed8d](https://github.com/Benjamin-Lee/deep-rules/tree/e83ed8d7228dc2958d87c3d06b73be2d4e13270d)
+from [Benjamin-Lee/deep-rules@2ec48d3](https://github.com/Benjamin-Lee/deep-rules/tree/2ec48d37a92301520e375c04374f03c8e0f36522)
 on February 5, 2019.
 </em></small>
 
@@ -151,7 +151,7 @@ The simplest way to combat overfitting is to detect it.
 This can be done by splitting the dataset into three parts: a training set, a tuning set (also commonly called a validation set in the machine learning literature), and a test set.
 By exposing the model solely to the training data during fitting, a researcher can use the model's performance on the unseen test data to measure the amount of overfitting.
 While a slight drop in performance from the training set to the test set is normal, a significant drop is a clear sign of overfitting (see Figure @fig:overfitting-fig for a visual demonstration of an overfit model that performs poorly on test data).
-Additionally, there are a variety of techniques to reduce overfitting during training including data augmentation and regularization techniques such as dropout [@1AdSlvfDV=2627435.2670313] and weight decay [@1AdSlvfDV=2986916.2987033].
+Additionally, there are a variety of techniques to reduce overfitting during training including data augmentation and regularization techniques such as dropout [@R1RpVu06] and weight decay [@eR3C2hhK].
 Another way, as described by Chuang and Keiser, is to identify the baseline level of memorization of the network by training on the data with the labels randomly shuffled and to see if the model performs better on the actual data [@yqAEYaMg].
 If the model performs no better on real data than randomly scrambled data, then the performance of the model can be attributed to overfitting.
 

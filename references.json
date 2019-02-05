@@ -1257,9 +1257,95 @@
     "id": "u86hHJ9b"
   },
   {
-    "URL": "http://dl.acm.org/citation.cfm?id",
-    "type": "webpage",
-    "id": "1AdSlvfDV"
+    "type": "paper-conference",
+    "title": "A Simple Weight Decay Can Improve Generalization",
+    "container-title": "Proceedings of the 4th International Conference on Neural Information Processing Systems",
+    "collection-title": "NIPS'91",
+    "publisher": "Morgan Kaufmann Publishers Inc.",
+    "publisher-place": "San Francisco, CA, USA",
+    "page": "950–957",
+    "source": "ACM Digital Library",
+    "event-place": "San Francisco, CA, USA",
+    "abstract": "It has been observed in numerical simulations that a weight decay can improve generalization in a feed-forward neural network. This paper explains why. It is proven that a weight decay has two effects in a linear network. First, it suppresses any irrelevant components of the weight vector by choosing the smallest vector that solves the learning problem. Second, if the size is chosen right, a weight decay can suppress some of the effects of static noise on the targets, which improves generalization quite a lot. It is then shown how to extend these results to networks with hidden layers and non-linear units. Finally the theory is confirmed by some numerical simulations using the data from NetTalk.",
+    "URL": "http://dl.acm.org/citation.cfm?id=2986916.2987033",
+    "ISBN": "9781558602229",
+    "author": [
+      {
+        "family": "Krogh",
+        "given": "Anders"
+      },
+      {
+        "family": "Hertz",
+        "given": "John A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1991"
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          2,
+          5
+        ]
+      ]
+    },
+    "id": "eR3C2hhK"
+  },
+  {
+    "type": "article-journal",
+    "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "container-title": "Journal of Machine Learning Research",
+    "page": "1929-1958",
+    "volume": "15",
+    "source": "Journal of Machine Learning Research",
+    "abstract": "Deep neural nets with a large number of parameters are very\npowerful machine learning systems. However, overfitting is a\nserious problem in such networks. Large networks are also slow\nto use, making it difficult to deal with overfitting by\ncombining the predictions of many different large neural nets at\ntest time. Dropout is a technique for addressing this problem.\nThe key idea is to randomly drop units (along with their\nconnections) from the neural network during training. This\nprevents units from co-adapting too much. During training,\ndropout samples from an exponential number of different\n“thinned” networks. At test time, it is easy to approximate the\neffect of averaging the predictions of all these thinned\nnetworks by simply using a single unthinned network that has\nsmaller weights. This significantly reduces overfitting and\ngives major improvements over other regularization methods. We\nshow that dropout improves the performance of neural networks on\nsupervised learning tasks in vision, speech recognition,\ndocument classification and computational biology, obtaining\nstate-of-the-art results on many benchmark data sets.",
+    "URL": "http://jmlr.org/papers/v15/srivastava14a.html",
+    "shortTitle": "Dropout",
+    "author": [
+      {
+        "family": "Srivastava",
+        "given": "Nitish"
+      },
+      {
+        "family": "Hinton",
+        "given": "Geoffrey"
+      },
+      {
+        "family": "Krizhevsky",
+        "given": "Alex"
+      },
+      {
+        "family": "Sutskever",
+        "given": "Ilya"
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "Ruslan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          2,
+          5
+        ]
+      ]
+    },
+    "id": "R1RpVu06"
   },
   {
     "type": "book",
