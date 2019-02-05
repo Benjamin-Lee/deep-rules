@@ -7,6 +7,7 @@ keywords:
   - artificial intelligence
 lang: en-US
 author_info:
+  # Note: this is in chronological order, not final authorship order
   -
     github: Benjamin-Lee
     name: Benjamin D. Lee
@@ -14,9 +15,9 @@ author_info:
     orcid: 0000-0002-7133-8397
     email: benjamindlee@me.com
     affiliations:
+      - Lab41, In-Q-Tel 
       - School of Engineering and Applied Sciences, Harvard University
       - Department of Genetics, Harvard Medical School
-      - Lab41, In-Q-Tel
   -
     github: AlexanderTitus
     name: Alexander J. Titus
@@ -25,3 +26,4 @@ author_info:
     email: titus.professional@gmail.com
     affiliations:
       - Titus Analytics
+  # ^^^ Add your information above this line ^^^  
