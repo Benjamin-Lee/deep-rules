@@ -8,9 +8,9 @@
       "orcid": "0000-0002-7133-8397",
       "email": "benjamindlee@me.com",
       "affiliations": [
+        "Lab41, In-Q-Tel",
         "School of Engineering and Applied Sciences, Harvard University",
-        "Department of Genetics, Harvard Medical School",
-        "Lab41, In-Q-Tel"
+        "Department of Genetics, Harvard Medical School"
       ],
       "affiliation_numbers": [
         1,
@@ -34,15 +34,15 @@
   ],
   "affiliations": [
     {
-      "affiliation": "School of Engineering and Applied Sciences, Harvard University",
+      "affiliation": "Lab41, In-Q-Tel",
       "affiliation_number": 1
     },
     {
-      "affiliation": "Department of Genetics, Harvard Medical School",
+      "affiliation": "School of Engineering and Applied Sciences, Harvard University",
       "affiliation_number": 2
     },
     {
-      "affiliation": "Lab41, In-Q-Tel",
+      "affiliation": "Department of Genetics, Harvard Medical School",
       "affiliation_number": 3
     },
     {
@@ -54,7 +54,7 @@
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "580e75497de49ceed4a90c3018790bb266ac53b1"
+    "commit": "e83ed8d7228dc2958d87c3d06b73be2d4e13270d"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -64,6 +64,6 @@
       "url": 3,
       "total": 27
     },
-    "word_count": 2875
+    "word_count": 2890
   }
 }

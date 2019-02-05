@@ -19,13 +19,14 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/580e75497de49ceed4a90c3018790bb266ac53b1/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e83ed8d7228dc2958d87c3d06b73be2d4e13270d/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@580e754](https://github.com/Benjamin-Lee/deep-rules/tree/580e75497de49ceed4a90c3018790bb266ac53b1)
+from [Benjamin-Lee/deep-rules@e83ed8d](https://github.com/Benjamin-Lee/deep-rules/tree/e83ed8d7228dc2958d87c3d06b73be2d4e13270d)
 on February 5, 2019.
 </em></small>
 
 ## Authors
+Please note the current author order is chronological and does not reflect the final order.
 
 
 
@@ -35,7 +36,7 @@ on February 5, 2019.
     · ![GitHub icon](images/github.svg){height="13px" width="13px"}
     [Benjamin-Lee](https://github.com/Benjamin-Lee)<br>
   <small>
-     School of Engineering and Applied Sciences, Harvard University; Department of Genetics, Harvard Medical School; Lab41, In-Q-Tel
+     Lab41, In-Q-Tel; School of Engineering and Applied Sciences, Harvard University; Department of Genetics, Harvard Medical School
   </small>
 
 + **Alexander J. Titus**<br>
