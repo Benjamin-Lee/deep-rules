@@ -1,5 +1,5 @@
 {
-  "date": "January 26, 2019",
+  "date": "February 5, 2019",
   "authors": [
     {
       "github": "Benjamin-Lee",
@@ -17,6 +17,19 @@
         2,
         3
       ]
+    },
+    {
+      "github": "AlexanderTitus",
+      "name": "Alexander J. Titus",
+      "initials": "AJT",
+      "orcid": "0000-0002-0145-9564",
+      "email": "titus.professional@gmail.com",
+      "affiliations": [
+        "Titus Analytics"
+      ],
+      "affiliation_numbers": [
+        4
+      ]
     }
   ],
   "affiliations": [
@@ -31,13 +44,17 @@
     {
       "affiliation": "Lab41, In-Q-Tel",
       "affiliation_number": 3
+    },
+    {
+      "affiliation": "Titus Analytics",
+      "affiliation_number": 4
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "4997c72d2eae4b8d9e879310d806ee5d1078890d"
+    "commit": "580e75497de49ceed4a90c3018790bb266ac53b1"
   },
   "manuscript_stats": {
     "reference_counts": {

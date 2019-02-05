@@ -1,7 +1,8 @@
 ---
 author-meta:
 - Benjamin D. Lee
-date-meta: '2019-01-26'
+- Alexander J. Titus
+date-meta: '2019-02-05'
 keywords:
 - quick tips
 - machine learning
@@ -18,10 +19,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/4997c72d2eae4b8d9e879310d806ee5d1078890d/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/580e75497de49ceed4a90c3018790bb266ac53b1/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@4997c72](https://github.com/Benjamin-Lee/deep-rules/tree/4997c72d2eae4b8d9e879310d806ee5d1078890d)
-on January 26, 2019.
+from [Benjamin-Lee/deep-rules@580e754](https://github.com/Benjamin-Lee/deep-rules/tree/580e75497de49ceed4a90c3018790bb266ac53b1)
+on February 5, 2019.
 </em></small>
 
 ## Authors
@@ -35,6 +36,15 @@ on January 26, 2019.
     [Benjamin-Lee](https://github.com/Benjamin-Lee)<br>
   <small>
      School of Engineering and Applied Sciences, Harvard University; Department of Genetics, Harvard Medical School; Lab41, In-Q-Tel
+  </small>
+
++ **Alexander J. Titus**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0002-0145-9564](https://orcid.org/0000-0002-0145-9564)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [AlexanderTitus](https://github.com/AlexanderTitus)<br>
+  <small>
+     Titus Analytics
   </small>
 
 
