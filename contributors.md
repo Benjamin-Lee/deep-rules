@@ -46,4 +46,4 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Michael M. Hoffman   | Yes        |                           |          |                |             |
 | Samuel G. Finlayson  | Yes        | Yes                       |          |                |             |
 | Anshul Kundaje       | Yes        |                           |          |                |             |
-| Alexander J. Titus   | Yes        | Yes                       | Yes      |                |             |
+| Alexander J. Titus   | Yes        | Yes                       | Yes      |                | Yes         |
