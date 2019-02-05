@@ -40,3 +40,4 @@ If there is any unaddressed criticism or disapproval, a repository maintainer wi
 2. Pull request author removes [`WIP`] to indicate it is ready for review
 3. Maintainer suggests edits and approves the pull request after all changes are made
 4. Second maintainer approves and merges the pull request
+5. If you have met the requirements for all of the columns in [`contributors.md`](contributors.md) (except for final approval), PR your information to [`content/metadata.yaml`](content/metadata.yaml). **Note: authorship order in `content/metadata.yaml` reflects chronological order, not final authorship order.** Final authorship order will be determined when we are finished with our draft and it is ready for submission.
