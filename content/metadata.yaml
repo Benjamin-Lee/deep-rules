@@ -7,6 +7,7 @@ keywords:
   - artificial intelligence
 lang: en-US
 author_info:
+  # Note: this is in chronological order, not final authorship order
   -
     github: Benjamin-Lee
     name: Benjamin D. Lee
@@ -16,4 +17,5 @@ author_info:
     affiliations:
       - School of Engineering and Applied Sciences, Harvard University
       - Department of Genetics, Harvard Medical School
-      - Lab41, In-Q-Tel
+      - Lab41, In-Q-Tel 
+  # ^^^ Add your information above this line ^^^
