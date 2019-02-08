@@ -26,4 +26,12 @@ author_info:
     email: titus.professional@gmail.com
     affiliations:
       - Titus Analytics
+  -
+    github: khyu
+    name: Kun-Hsing Yu
+    initials: KHY
+    orcid: 0000-0001-9892-8218
+    email: Kun-Hsing_Yu@hms.harvard.edu
+    affiliations:
+      - Department of Biomedical Informatics, Harvard Medical School
   # ^^^ Add your information above this line ^^^  
