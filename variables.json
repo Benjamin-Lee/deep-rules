@@ -1,5 +1,5 @@
 {
-  "date": "February 5, 2019",
+  "date": "February 8, 2019",
   "authors": [
     {
       "github": "Benjamin-Lee",
@@ -30,6 +30,19 @@
       "affiliation_numbers": [
         4
       ]
+    },
+    {
+      "github": "khyu",
+      "name": "Kun-Hsing Yu",
+      "initials": "KHY",
+      "orcid": "0000-0001-9892-8218",
+      "email": "Kun-Hsing_Yu@hms.harvard.edu",
+      "affiliations": [
+        "Department of Biomedical Informatics, Harvard Medical School"
+      ],
+      "affiliation_numbers": [
+        5
+      ]
     }
   ],
   "affiliations": [
@@ -48,13 +61,17 @@
     {
       "affiliation": "Titus Analytics",
       "affiliation_number": 4
+    },
+    {
+      "affiliation": "Department of Biomedical Informatics, Harvard Medical School",
+      "affiliation_number": 5
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "2ec48d37a92301520e375c04374f03c8e0f36522"
+    "commit": "5437d4cd7f16c91fb52785dba4b9a8ae9e444200"
   },
   "manuscript_stats": {
     "reference_counts": {

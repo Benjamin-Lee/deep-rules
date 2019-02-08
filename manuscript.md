@@ -2,7 +2,8 @@
 author-meta:
 - Benjamin D. Lee
 - Alexander J. Titus
-date-meta: '2019-02-05'
+- Kun-Hsing Yu
+date-meta: '2019-02-08'
 keywords:
 - quick tips
 - machine learning
@@ -19,10 +20,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2ec48d37a92301520e375c04374f03c8e0f36522/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/5437d4cd7f16c91fb52785dba4b9a8ae9e444200/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@2ec48d3](https://github.com/Benjamin-Lee/deep-rules/tree/2ec48d37a92301520e375c04374f03c8e0f36522)
-on February 5, 2019.
+from [Benjamin-Lee/deep-rules@5437d4c](https://github.com/Benjamin-Lee/deep-rules/tree/5437d4cd7f16c91fb52785dba4b9a8ae9e444200)
+on February 8, 2019.
 </em></small>
 
 ## Authors
@@ -46,6 +47,15 @@ Please note the current author order is chronological and does not reflect the f
     [AlexanderTitus](https://github.com/AlexanderTitus)<br>
   <small>
      Titus Analytics
+  </small>
+
++ **Kun-Hsing Yu**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0001-9892-8218](https://orcid.org/0000-0001-9892-8218)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [khyu](https://github.com/khyu)<br>
+  <small>
+     Department of Biomedical Informatics, Harvard Medical School
   </small>
 
 
