@@ -1,12 +1,13 @@
 ---
-title: "Ten Simple Rules for Deep Learning in Biology"
+title: "Ten Quick Tips for Deep Learning in Biology"
 keywords:
-  - ten simple rules
+  - quick tips
   - machine learning
   - deep learning
   - artificial intelligence
 lang: en-US
 author_info:
+  # Note: this is in chronological order, not final authorship order
   -
     github: Benjamin-Lee
     name: Benjamin D. Lee
@@ -14,6 +15,23 @@ author_info:
     orcid: 0000-0002-7133-8397
     email: benjamindlee@me.com
     affiliations:
+      - Lab41, In-Q-Tel 
       - School of Engineering and Applied Sciences, Harvard University
       - Department of Genetics, Harvard Medical School
-      - Lab41, In-Q-Tel
+  -
+    github: AlexanderTitus
+    name: Alexander J. Titus
+    initials: AJT
+    orcid: 0000-0002-0145-9564
+    email: titus.professional@gmail.com
+    affiliations:
+      - Titus Analytics
+  -
+    github: khyu
+    name: Kun-Hsing Yu
+    initials: KHY
+    orcid: 0000-0001-9892-8218
+    email: Kun-Hsing_Yu@hms.harvard.edu
+    affiliations:
+      - Department of Biomedical Informatics, Harvard Medical School
+  # ^^^ Add your information above this line ^^^  
