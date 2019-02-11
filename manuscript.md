@@ -2,6 +2,7 @@
 author-meta:
 - Benjamin D. Lee
 - Alexander J. Titus
+- Kun-Hsing Yu
 - Marc G. Chevrette
 date-meta: '2019-02-11'
 keywords:
@@ -20,9 +21,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a971ecd06756cea061c155c4fd3b2966495ca54d/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9b2e11a534f21649809168da8b74da8813468526/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@a971ecd](https://github.com/Benjamin-Lee/deep-rules/tree/a971ecd06756cea061c155c4fd3b2966495ca54d)
+from [Benjamin-Lee/deep-rules@9b2e11a](https://github.com/Benjamin-Lee/deep-rules/tree/9b2e11a534f21649809168da8b74da8813468526)
 on February 11, 2019.
 </em></small>
 
@@ -47,6 +48,15 @@ Please note the current author order is chronological and does not reflect the f
     [AlexanderTitus](https://github.com/AlexanderTitus)<br>
   <small>
      Titus Analytics
+  </small>
+
++ **Kun-Hsing Yu**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0001-9892-8218](https://orcid.org/0000-0001-9892-8218)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [khyu](https://github.com/khyu)<br>
+  <small>
+     Department of Biomedical Informatics, Harvard Medical School
   </small>
 
 + **Marc G. Chevrette**<br>
