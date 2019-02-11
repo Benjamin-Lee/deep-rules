@@ -43,4 +43,12 @@ author_info:
     affiliations:
       - Department of Genetics, University of Wisconsin-Madison
       - Department of Bacteriology, University of Wisconsin-Madison
+  -
+    github: pstew
+    name: Paul Allen Stewart
+    initials: PAS
+    orcid: 0000-0003-0882-308X
+    email: paul.stewart@moffitt.org
+    affiliations:
+      - Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center
   # ^^^ Add your information above this line ^^^  
