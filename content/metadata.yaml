@@ -17,3 +17,11 @@ author_info:
       - School of Engineering and Applied Sciences, Harvard University
       - Department of Genetics, Harvard Medical School
       - Lab41, In-Q-Tel
+  -
+    github: pstew
+    name: Paul Allen Stewart
+    initials: PAS
+    orcid: 0000-0003-0882-308X
+    email: paul.stewart@moffitt.org
+    affiliations:
+      - Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center
