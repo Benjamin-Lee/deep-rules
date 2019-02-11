@@ -4,6 +4,7 @@ author-meta:
 - Alexander J. Titus
 - Kun-Hsing Yu
 - Marc G. Chevrette
+- Paul Allen Stewart
 date-meta: '2019-02-11'
 keywords:
 - quick tips
@@ -21,9 +22,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9b2e11a534f21649809168da8b74da8813468526/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9b1183e67f807fc4be958f28ad9c9077c1c007b1/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@9b2e11a](https://github.com/Benjamin-Lee/deep-rules/tree/9b2e11a534f21649809168da8b74da8813468526)
+from [Benjamin-Lee/deep-rules@9b1183e](https://github.com/Benjamin-Lee/deep-rules/tree/9b1183e67f807fc4be958f28ad9c9077c1c007b1)
 on February 11, 2019.
 </em></small>
 
@@ -66,6 +67,15 @@ Please note the current author order is chronological and does not reflect the f
     [chevrm](https://github.com/chevrm)<br>
   <small>
      Department of Genetics, University of Wisconsin-Madison; Department of Bacteriology, University of Wisconsin-Madison
+  </small>
+
++ **Paul Allen Stewart**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0003-0882-308X](https://orcid.org/0000-0003-0882-308X)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [pstew](https://github.com/pstew)<br>
+  <small>
+     Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center
   </small>
 
 
@@ -117,23 +127,34 @@ The performance comparison among DL models and many other ML approaches is infor
 
 ## Tip 4: Know your data and your question {#know-your-problem}
 
-In the era of easily accessible datasets, one sometimes starts analyzing data without a good understanding of the study design, namely why the data were collected and how. 
-Having appropriate meta-data, a comprehensive data dictionary, and even the actual data collection protocol is essential for any analysis, including one that involves deep learning. 
-It's even better to also have access to a subject matter expert who has either collected or analyzed this type of data before! 
-For example, if the main reason why the data were collected was to test the impact of an intervention, it may be the case that a randomized controlled trial was performed.
-However, ethical or other study considerations may make this impossible or impractical, in which case the design may have been an observational one, either prospective or retrospective.
-These designs may also incorporate some amount of matching - for example, cases and controls may be selected so that the age range or weight distribution is similar.
-All of these different designs have different assumptions and caveats, which cannot be ignored during a data analysis.
-Many datasets are now passively collected or do not have a specific design, but even in this case it is important to know how individuals or samples were treated (for example, if all samples are from the same study site, if certain ethnic groups or zip codes are oversampled, if there are differences in processing dates or techniques.)
+Having a well-defined scientific question and a clear analysis plan is crucial for carrying out a successful deep learning project.
+Just like it would be inadvisable to step foot in a laboratory and begin experiments without having a defined endpoint, a deep learning project should not be undertaken without preparation.
+Foremost, it is important to assess if a dataset exists that can answer the biological question of interest; obtaining said data and associated metadata and reviewing the study protocol should be pursued as early on in the project as possible.
+A publication or resource might purportedly offer data that seems to be a good fit to test your hypothesis, but the act of obtaining the data can reveal numerous problems such as the data is unstructured when it is supposed to be structured, crucial metadata such as sample stratification is missing, or the usable sample size is different than what is reported.
+Data collection should be documented or a data collection protocol should be created and specified in the project documentation.
+Information such as the resource used, the date downloaded, and the version of the dataset, if any, will help minimize operational confusion and will allow for transparency during the publication process.
 
-Systematic biases can lead to artifacts or "batch effects," which mean that instead of finding correlates with an outcome or grouping of interest, the investigator may find correlates with variables that are not of interest and obtain misleading results [@mPnIAH38].
+Once the data is obtained, it is easy to begin analyzing data without a good understanding of the study design, namely why the data was collected and how.
+Metadata has been standardized in many fields and can help with this (for example, see [@YuxbleXb]), but if at all possible, seek out a subject matter expert who has experience with this type of data.
+Receiving first-hand knowledge of the “gotchas" of a dataset will minimize the amount of guesswork and increase the success rate of a deep learning project.
+For example, if the main reason why the data was collected was to test the impact of an intervention, then it may be the case that a randomized controlled trial was performed.
+However, it is not always possible to perform a randomized trial for ethical or practical reasons.
+Therefore, an observational study design is often considered, with the data either prospectively or retrospectively collected. 
+In order to ensure similar distributions of important characteristics across study groups in the absence of randomization, individuals may be matched based on age, gender, or weight.
+Study designs will often have different assumptions and caveats, and these cannot be ignored during a data analysis.
+Many datasets are now passively collected or do not have a specific design, but even in this case it is important to know how individuals or samples were treated.
+Samples originating from the same study site, oversampling of ethnic groups or zip codes, and sample processing differences are all sources of variation that need to be accounted for.
+
+Systematic biases, which can be induced by confounding variables, for example, can lead to artifacts or so-called "batch effects." 
+As a consequence, models may learn to rely on correlations that are irrelevant in the scientific context of the study and may result in misguided predictions and misleading conclusions [@mPnIAH38].
 Other study design considerations that should not be overlooked include knowing whether a study involves biological or technical replicates or both.
-For example, are some samples collected from the same individuals at different time points? Are those time points before and after some treatment?
+For example, are some samples collected from the same individuals at different time points? 
+Are those time points before and after some treatment? 
 If one assumes that all the samples are independent but that is in fact not the case, a variety of issues may arise, including having a lower effective sample size than expected.
 
 In general, deep learning has an increased tendency for overfitting, compared to classical methods, due to the large number of parameters being estimated, making issues of adequate sample size even more important (see [Tip 7](#overfitting)).
 For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see [Tip 9](#interpretation)).
-Finally, it is important to note that with the exception of very specific cases of unsupervised data analysis, it is generally the case that a molecular or imaging dataset does not have much value without appropriate clinical or demographic data; this must always be balanced with the need to protect patient privacy (see [Tip 10](#privacy)). 
+Finally, it is important to note that with the exception of very specific cases of unsupervised data analysis, it is generally the case that a molecular or imaging dataset does not have much value without appropriate clinical or demographic data; this must always be balanced with the need to protect patient privacy (see [Tip 10](#privacy)).
 Looking at these data can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.
 
 

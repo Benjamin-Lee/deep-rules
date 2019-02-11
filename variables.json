@@ -58,6 +58,19 @@
         6,
         7
       ]
+    },
+    {
+      "github": "pstew",
+      "name": "Paul Allen Stewart",
+      "initials": "PAS",
+      "orcid": "0000-0003-0882-308X",
+      "email": "paul.stewart@moffitt.org",
+      "affiliations": [
+        "Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center"
+      ],
+      "affiliation_numbers": [
+        8
+      ]
     }
   ],
   "affiliations": [
@@ -88,22 +101,26 @@
     {
       "affiliation": "Department of Bacteriology, University of Wisconsin-Madison",
       "affiliation_number": 7
+    },
+    {
+      "affiliation": "Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center",
+      "affiliation_number": 8
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "9b2e11a534f21649809168da8b74da8813468526"
+    "commit": "9b1183e67f807fc4be958f28ad9c9077c1c007b1"
   },
   "manuscript_stats": {
     "reference_counts": {
       "arxiv": 8,
-      "doi": 15,
+      "doi": 16,
       "pmid": 1,
       "url": 4,
-      "total": 28
+      "total": 29
     },
-    "word_count": 2890
+    "word_count": 3118
   }
 }

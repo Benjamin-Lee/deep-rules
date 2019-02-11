@@ -492,6 +492,128 @@
   },
   {
     "publisher": "Springer Nature",
+    "issue": "4",
+    "DOI": "10.1038/ng1201-365",
+    "type": "article-journal",
+    "page": "365-371",
+    "source": "Crossref",
+    "title": "Minimum information about a microarray experiment (MIAME)—toward standards for microarray data",
+    "volume": "29",
+    "author": [
+      {
+        "given": "Alvis",
+        "family": "Brazma"
+      },
+      {
+        "given": "Pascal",
+        "family": "Hingamp"
+      },
+      {
+        "given": "John",
+        "family": "Quackenbush"
+      },
+      {
+        "given": "Gavin",
+        "family": "Sherlock"
+      },
+      {
+        "given": "Paul",
+        "family": "Spellman"
+      },
+      {
+        "given": "Chris",
+        "family": "Stoeckert"
+      },
+      {
+        "given": "John",
+        "family": "Aach"
+      },
+      {
+        "given": "Wilhelm",
+        "family": "Ansorge"
+      },
+      {
+        "given": "Catherine A.",
+        "family": "Ball"
+      },
+      {
+        "given": "Helen C.",
+        "family": "Causton"
+      },
+      {
+        "given": "Terry",
+        "family": "Gaasterland"
+      },
+      {
+        "given": "Patrick",
+        "family": "Glenisson"
+      },
+      {
+        "given": "Frank C.P.",
+        "family": "Holstege"
+      },
+      {
+        "given": "Irene F.",
+        "family": "Kim"
+      },
+      {
+        "given": "Victor",
+        "family": "Markowitz"
+      },
+      {
+        "given": "John C.",
+        "family": "Matese"
+      },
+      {
+        "given": "Helen",
+        "family": "Parkinson"
+      },
+      {
+        "given": "Alan",
+        "family": "Robinson"
+      },
+      {
+        "given": "Ugis",
+        "family": "Sarkans"
+      },
+      {
+        "given": "Steffen",
+        "family": "Schulze-Kremer"
+      },
+      {
+        "given": "Jason",
+        "family": "Stewart"
+      },
+      {
+        "given": "Ronald",
+        "family": "Taylor"
+      },
+      {
+        "given": "Jaak",
+        "family": "Vilo"
+      },
+      {
+        "given": "Martin",
+        "family": "Vingron"
+      }
+    ],
+    "container-title": "Nature Genetics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2001,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/ck257n",
+    "container-title-short": "Nat Genet",
+    "PMID": "11726920",
+    "id": "YuxbleXb"
+  },
+  {
+    "publisher": "Springer Nature",
     "issue": "10",
     "DOI": "10.1038/nrg2825",
     "type": "article-journal",
