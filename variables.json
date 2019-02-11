@@ -1,5 +1,5 @@
 {
-  "date": "February 8, 2019",
+  "date": "February 11, 2019",
   "authors": [
     {
       "github": "Benjamin-Lee",
@@ -32,16 +32,18 @@
       ]
     },
     {
-      "github": "khyu",
-      "name": "Kun-Hsing Yu",
-      "initials": "KHY",
-      "orcid": "0000-0001-9892-8218",
-      "email": "Kun-Hsing_Yu@hms.harvard.edu",
+      "github": "chevrm",
+      "name": "Marc G. Chevrette",
+      "initials": "MGC",
+      "orcid": "0000-0002-7209-0717",
+      "email": "chevrm@gmail.com",
       "affiliations": [
-        "Department of Biomedical Informatics, Harvard Medical School"
+        "Department of Genetics, University of Wisconsin-Madison",
+        "Department of Bacteriology, University of Wisconsin-Madison"
       ],
       "affiliation_numbers": [
-        5
+        5,
+        6
       ]
     }
   ],
@@ -63,15 +65,19 @@
       "affiliation_number": 4
     },
     {
-      "affiliation": "Department of Biomedical Informatics, Harvard Medical School",
+      "affiliation": "Department of Genetics, University of Wisconsin-Madison",
       "affiliation_number": 5
+    },
+    {
+      "affiliation": "Department of Bacteriology, University of Wisconsin-Madison",
+      "affiliation_number": 6
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "5437d4cd7f16c91fb52785dba4b9a8ae9e444200"
+    "commit": "a971ecd06756cea061c155c4fd3b2966495ca54d"
   },
   "manuscript_stats": {
     "reference_counts": {
