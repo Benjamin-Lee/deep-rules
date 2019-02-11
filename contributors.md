@@ -17,33 +17,33 @@ If you would like to use use a visual editor, copy and paste the table below her
 
 | Name                 | Discussion | Substantial contributions | Drafting | Final approval | Accountable |
 | -------------------- | ---------- | ------------------------- | -------- | -------------- | ----------- |
-| Benjamin D. Lee      | Yes        | Yes                       |          |                | Yes         |
-| Casey S. Greene      | Yes        |                           | Yes      |                |             |
-| Anthony Gitter       | Yes        |                           |          |                |             |
-| Tim Triche, Jr.      | Yes        |                           |          |                |             |
-| Simina M. Boca       | Yes        |                           |          |                |             |
-| Kun-Hsing Yu         | Yes        |                           | Yes      |                |             |
-| Andrew L. Beam       | Yes        |                           |          |                |             |
+| Benjamin D. Lee      | Yes        | Yes                       | Yes      |                | Yes         |
+| Casey S. Greene      | Yes        | Yes                       | Yes      |                |             |
+| Anthony Gitter       | Yes        | Yes                       | Yes      |                |             |
+| Tim Triche, Jr.      | Yes        | Yes                       | Yes      |                |             |
+| Simina M. Boca       | Yes        | Yes                       | Yes      |                |             |
+| Kun-Hsing Yu         | Yes        | Yes                       | Yes      |                |             |
+| Andrew L. Beam       | Yes        | Yes                       |          |                |             |
 | Hugo Aerts           | Yes        |                           |          |                |             |
-| Beth Signal          | Yes        |                           |          |                |             |
+| Beth Signal          | Yes        | Yes                       | Yes      |                |             |
 | Paul Brodersen       | Yes        |                           |          |                |             |
-| Marc G. Chevrette    | Yes        |                           | Yes      |                |             |
-| Ben Lengerich        | Yes        |                           |          |                |             |
-| Jacob Schreiber      | Yes        |                           |          |                |             |
+| Marc G. Chevrette    | Yes        | Yes                       | Yes      |                | Yes         |
+| Ben Lengerich        | Yes        | Yes                       | Yes      |                |             |
+| Jacob Schreiber      | Yes        | Yes                       | Yes      |                |             |
 | Brett Beaulieu-Jones | Yes        |                           |          |                |             |
 | Julian Stanley       | Yes        |                           |          |                |             |
-| Paul Stewart         | Yes        |                           |          |                |             |
-| Thiago Britto Borges | Yes        |                           |          |                |             |
+| Paul Stewart         | Yes        | Yes                       | Yes      |                |             |
+| Thiago Britto Borges | Yes        | Yes                       | Yes      |                |             |
 | Isaac Lazzeri        | Yes        |                           |          |                |             |
-| Sebastian Raschka    | Yes        |                           |          |                |             |
+| Sebastian Raschka    | Yes        | Yes                       | Yes      |                |             |
 | Fábio Madeira        | Yes        |                           |          |                |             |
 | Gökçen Eraslan       | Yes        |                           |          |                |             |
 | Renger Jellema       | Yes        |                           |          |                |             |
 | Victor Greiff        | Yes        |                           |          |                |             |
-| Evan M. Cofer        | Yes        |                           | Yes      |                |             |
+| Evan M. Cofer        | Yes        | Yes                       | Yes      |                |             |
 | Haohan Wang          | Yes        |                           |          |                |             |
 | Shyam M. Saladi      | Yes        |                           |          |                |             |
 | Michael M. Hoffman   | Yes        |                           |          |                |             |
-| Samuel G. Finlayson  | Yes        |                           |          |                |             |
+| Samuel G. Finlayson  | Yes        | Yes                       |          |                |             |
 | Anshul Kundaje       | Yes        |                           |          |                |             |
-| Alexander J. Titus   | Yes        |                           | Yes      |                |             |
+| Alexander J. Titus   | Yes        | Yes                       | Yes      |                | Yes         |
