@@ -5,7 +5,8 @@ author-meta:
 - Kun-Hsing Yu
 - Marc G. Chevrette
 - Paul Allen Stewart
-date-meta: '2019-02-11'
+- Evan M. Cofer
+date-meta: '2019-02-12'
 keywords:
 - quick tips
 - machine learning
@@ -22,10 +23,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9b1183e67f807fc4be958f28ad9c9077c1c007b1/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/6ea29f267109916d98d07679fe436ba8bcc89dd6/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@9b1183e](https://github.com/Benjamin-Lee/deep-rules/tree/9b1183e67f807fc4be958f28ad9c9077c1c007b1)
-on February 11, 2019.
+from [Benjamin-Lee/deep-rules@6ea29f2](https://github.com/Benjamin-Lee/deep-rules/tree/6ea29f267109916d98d07679fe436ba8bcc89dd6)
+on February 12, 2019.
 </em></small>
 
 ## Authors
@@ -76,6 +77,15 @@ Please note the current author order is chronological and does not reflect the f
     [pstew](https://github.com/pstew)<br>
   <small>
      Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center
+  </small>
+
++ **Evan M. Cofer**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0003-3877-0433](https://orcid.org/0000-0003-3877-0433)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [evancofer](https://github.com/evancofer)<br>
+  <small>
+     Lewis-Sigler Institute for Integrative Genomics, Princeton University; Graduate Program in Quantitative and Computational Biology, Princeton University
   </small>
 
 

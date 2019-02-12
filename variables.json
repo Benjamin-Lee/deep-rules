@@ -1,5 +1,5 @@
 {
-  "date": "February 11, 2019",
+  "date": "February 12, 2019",
   "authors": [
     {
       "github": "Benjamin-Lee",
@@ -71,6 +71,21 @@
       "affiliation_numbers": [
         8
       ]
+    },
+    {
+      "github": "evancofer",
+      "name": "Evan M. Cofer",
+      "initials": "EMC",
+      "orcid": "0000-0003-3877-0433",
+      "email": "ecofer@princeton.edu",
+      "affiliations": [
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University",
+        "Graduate Program in Quantitative and Computational Biology, Princeton University"
+      ],
+      "affiliation_numbers": [
+        9,
+        10
+      ]
     }
   ],
   "affiliations": [
@@ -105,13 +120,21 @@
     {
       "affiliation": "Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center",
       "affiliation_number": 8
+    },
+    {
+      "affiliation": "Lewis-Sigler Institute for Integrative Genomics, Princeton University",
+      "affiliation_number": 9
+    },
+    {
+      "affiliation": "Graduate Program in Quantitative and Computational Biology, Princeton University",
+      "affiliation_number": 10
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "9b1183e67f807fc4be958f28ad9c9077c1c007b1"
+    "commit": "6ea29f267109916d98d07679fe436ba8bcc89dd6"
   },
   "manuscript_stats": {
     "reference_counts": {
