@@ -86,6 +86,19 @@
         9,
         10
       ]
+    },
+    {
+      "github": "rasbt",
+      "name": "Sebastian Raschka",
+      "initials": "SR",
+      "orcid": "0000-0001-6989-4493",
+      "email": "sraschka@wisc.edu",
+      "affiliations": [
+        "Department of Statistics, University of Wisconsin-Madison"
+      ],
+      "affiliation_numbers": [
+        11
+      ]
     }
   ],
   "affiliations": [
@@ -128,13 +141,17 @@
     {
       "affiliation": "Graduate Program in Quantitative and Computational Biology, Princeton University",
       "affiliation_number": 10
+    },
+    {
+      "affiliation": "Department of Statistics, University of Wisconsin-Madison",
+      "affiliation_number": 11
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "6ea29f267109916d98d07679fe436ba8bcc89dd6"
+    "commit": "76a45bba05ab0dd17a3c7897a1f099bd9d0ad7b9"
   },
   "manuscript_stats": {
     "reference_counts": {

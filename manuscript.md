@@ -6,6 +6,7 @@ author-meta:
 - Marc G. Chevrette
 - Paul Allen Stewart
 - Evan M. Cofer
+- Sebastian Raschka
 date-meta: '2019-02-12'
 keywords:
 - quick tips
@@ -23,9 +24,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/6ea29f267109916d98d07679fe436ba8bcc89dd6/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/76a45bba05ab0dd17a3c7897a1f099bd9d0ad7b9/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@6ea29f2](https://github.com/Benjamin-Lee/deep-rules/tree/6ea29f267109916d98d07679fe436ba8bcc89dd6)
+from [Benjamin-Lee/deep-rules@76a45bb](https://github.com/Benjamin-Lee/deep-rules/tree/76a45bba05ab0dd17a3c7897a1f099bd9d0ad7b9)
 on February 12, 2019.
 </em></small>
 
@@ -86,6 +87,15 @@ Please note the current author order is chronological and does not reflect the f
     [evancofer](https://github.com/evancofer)<br>
   <small>
      Lewis-Sigler Institute for Integrative Genomics, Princeton University; Graduate Program in Quantitative and Computational Biology, Princeton University
+  </small>
+
++ **Sebastian Raschka**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0001-6989-4493](https://orcid.org/0000-0001-6989-4493)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [rasbt](https://github.com/rasbt)<br>
+  <small>
+     Department of Statistics, University of Wisconsin-Madison
   </small>
 
 
