@@ -51,4 +51,13 @@ author_info:
     email: paul.stewart@moffitt.org
     affiliations:
       - Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center
+  -
+    github: evancofer
+    name: Evan M. Cofer
+    initials: EMC
+    orcid: 0000-0003-3877-0433
+    email: ecofer@princeton.edu
+    affiliations:
+      - Lewis-Sigler Institute for Integrative Genomics, Princeton University
+      - Graduate Program in Quantitative and Computational Biology, Princeton University
   # ^^^ Add your information above this line ^^^  
