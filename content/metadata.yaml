@@ -60,4 +60,12 @@ author_info:
     affiliations:
       - Lewis-Sigler Institute for Integrative Genomics, Princeton University
       - Graduate Program in Quantitative and Computational Biology, Princeton University
+  -
+    github: rasbt
+    name: Sebastian Raschka
+    initials: SR
+    orcid: 0000-0001-6989-4493
+    email: sraschka@wisc.edu
+    affiliations:
+      - Department of Statistics, University of Wisconsin-Madison
   # ^^^ Add your information above this line ^^^  
