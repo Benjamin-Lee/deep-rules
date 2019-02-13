@@ -27,7 +27,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Hugo Aerts           | Yes        |                           |          |                |             |
 | Beth Signal          | Yes        | Yes                       | Yes      |                |             |
 | Paul Brodersen       | Yes        |                           |          |                |             |
-| Marc G. Chevrette    | Yes        | Yes                       | Yes      |                |             |
+| Marc G. Chevrette    | Yes        | Yes                       | Yes      |                | Yes         |
 | Ben Lengerich        | Yes        | Yes                       | Yes      |                |             |
 | Jacob Schreiber      | Yes        | Yes                       | Yes      |                |             |
 | Brett Beaulieu-Jones | Yes        |                           |          |                |             |
@@ -46,4 +46,4 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Michael M. Hoffman   | Yes        |                           |          |                |             |
 | Samuel G. Finlayson  | Yes        | Yes                       |          |                |             |
 | Anshul Kundaje       | Yes        |                           |          |                |             |
-| Alexander J. Titus   | Yes        | Yes                       | Yes      |                |             |
+| Alexander J. Titus   | Yes        | Yes                       | Yes      |                | Yes         |
