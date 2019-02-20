@@ -1120,6 +1120,46 @@
     "id": "5CsWRjfp"
   },
   {
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "12",
+    "DOI": "10.1109/jproc.2017.2761740",
+    "type": "article-journal",
+    "page": "2295-2329",
+    "source": "Crossref",
+    "title": "Efficient Processing of Deep Neural Networks: A Tutorial and Survey",
+    "volume": "105",
+    "author": [
+      {
+        "given": "Vivienne",
+        "family": "Sze"
+      },
+      {
+        "given": "Yu-Hsin",
+        "family": "Chen"
+      },
+      {
+        "given": "Tien-Ju",
+        "family": "Yang"
+      },
+      {
+        "given": "Joel S.",
+        "family": "Emer"
+      }
+    ],
+    "container-title": "Proceedings of the IEEE",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcnp38",
+    "container-title-short": "Proc. IEEE",
+    "id": "L7EocHX2"
+  },
+  {
     "publisher": "ACM Press",
     "DOI": "10.1145/2783258.2788613",
     "type": "paper-conference",
@@ -1470,6 +1510,24 @@
     "id": "R1RpVu06"
   },
   {
+    "type": "webpage",
+    "title": "Abstract",
+    "genre": "concept",
+    "abstract": "This cuDNN Developer Guide provides an overview of cuDNN 7.4.2, and details about the types, enums, and routines within the cuDNN library API.",
+    "URL": "http://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html",
+    "language": "en-us",
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          2,
+          20
+        ]
+      ]
+    },
+    "id": "1GSwNJdl7"
+  },
+  {
     "type": "book",
     "title": "Ten Quick Tips for Deep Learning in Biology. Contribute to Benjamin-Lee/deep-rules development by creating an account on GitHub",
     "genre": "Jupyter Notebook",
@@ -1548,5 +1606,83 @@
       ]
     },
     "id": "1GGGHdsew"
+  },
+  {
+    "type": "chapter",
+    "title": "The Marginal Value of Adaptive Gradient Methods in Machine Learning",
+    "container-title": "Advances in Neural Information Processing Systems 30",
+    "publisher": "Curran Associates, Inc.",
+    "page": "4148–4158",
+    "source": "Neural Information Processing Systems",
+    "URL": "http://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning.pdf",
+    "author": [
+      {
+        "family": "Wilson",
+        "given": "Ashia C"
+      },
+      {
+        "family": "Roelofs",
+        "given": "Rebecca"
+      },
+      {
+        "family": "Stern",
+        "given": "Mitchell"
+      },
+      {
+        "family": "Srebro",
+        "given": "Nati"
+      },
+      {
+        "family": "Recht",
+        "given": "Benjamin"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Guyon",
+        "given": "I."
+      },
+      {
+        "family": "Luxburg",
+        "given": "U. V."
+      },
+      {
+        "family": "Bengio",
+        "given": "S."
+      },
+      {
+        "family": "Wallach",
+        "given": "H."
+      },
+      {
+        "family": "Fergus",
+        "given": "R."
+      },
+      {
+        "family": "Vishwanathan",
+        "given": "S."
+      },
+      {
+        "family": "Garnett",
+        "given": "R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          2,
+          20
+        ]
+      ]
+    },
+    "id": "mIx19cpn"
   }
 ]

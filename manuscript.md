@@ -25,9 +25,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/7de29da1dfa33bd41b8850b580f5d9ba18c7c40e/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/1859cf40b53b698789f56f6976860e15125bcf5f/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@7de29da](https://github.com/Benjamin-Lee/deep-rules/tree/7de29da1dfa33bd41b8850b580f5d9ba18c7c40e)
+from [Benjamin-Lee/deep-rules@1859cf4](https://github.com/Benjamin-Lee/deep-rules/tree/1859cf40b53b698789f56f6976860e15125bcf5f)
 on February 20, 2019.
 </em></small>
 
@@ -155,6 +155,21 @@ The performance comparison among DL models and many other ML approaches is infor
 
 
 ## Tip 3: Understand the complexities of training deep neural networks {#complexities}
+
+Correctly training deep neural networks is a non-trivial process.
+There are many different options and potential pitfalls at every stage.
+To get good results you have to expect to train many networks with a range of different parameter and hyperparameter settings.
+Despite improved framework ease-of-use and on-demand cloud computing resources this means DL can be very demanding, often requiring significant infrastructure and patience to achieve state-of-the-art performance [@L7EocHX2].
+The experimentation inherent to DL is often noisy (requiring repetition) and represents a significant organizational challenge.
+All code, random seeds, parameters, and results must be carefully corralled using good coding practices (for example, version control, continuous integration etc.) in order to be effective and interpretable.
+This organization is also key to being able to efficiently share your work and to update your model as new data becomes available. 
+
+One specific reproducibility pitfall that is often missed is the default use of non-deterministic algorithms by CUDA/CuDNN backends when training on GPUs.
+Making this process reproducible is distinct from setting random seeds, which will primarily affect pseudorandom deterministic procedures such as shuffling and initialization, and requires explicitly specifying the use of deterministic algorithms in your DL library [@1GSwNJdl7]. 
+
+Similar to [Tip 4](#baselines), try to start with a relatively smaller network and increase the size and complexity as needed to prevent wasting time and resources. 
+Beware of the seemingly trivial choices that are being made implicitly by default settings in your framework of choice e.g. choice of optimization algorithm (adaptive methods often lead to faster convergence during training but may lead to worse generalization performance on independent datasets [@mIx19cpn]).
+These need to be carefully considered and their impacts evaluated (see [Tip 6](#hyperparameters)).
 
 
 ## Tip 4: Know your data and your question {#know-your-problem}

@@ -18,6 +18,7 @@ string	citation	standard_citation	citation_id
 @doi:10.1038/s41746-018-0029-1	doi:10.1038/s41746-018-0029-1	doi:10.1038/s41746-018-0029-1	1DssZebFm
 @doi:10.1098/rsif.2017.0387	doi:10.1098/rsif.2017.0387	doi:10.1098/rsif.2017.0387	PZMP42Ak
 @doi:10.1101/385534	doi:10.1101/385534	doi:10.1101/385534	5CsWRjfp
+@doi:10.1109/JPROC.2017.2761740	doi:10.1109/JPROC.2017.2761740	doi:10.1109/jproc.2017.2761740	L7EocHX2
 @doi:10.1145/2783258.2788613	doi:10.1145/2783258.2788613	doi:10.1145/2783258.2788613	gSmt16Rh
 @doi:10.1145/2810103.2813677	doi:10.1145/2810103.2813677	doi:10.1145/2810103.2813677	zCqhgXvY
 @doi:10.1145/2976749.2978318	doi:10.1145/2976749.2978318	doi:10.1145/2976749.2978318	LiCxcgZp
@@ -26,5 +27,7 @@ string	citation	standard_citation	citation_id
 @pmid:25738806	pmid:25738806	pmid:25738806	u86hHJ9b
 @tag:krogh-weight-decay	url:http://dl.acm.org/citation.cfm?id=2986916.2987033	url:http://dl.acm.org/citation.cfm?id=2986916.2987033	eR3C2hhK
 @url:http://jmlr.csail.mit.edu/papers/v15/srivastava14a.html	url:http://jmlr.csail.mit.edu/papers/v15/srivastava14a.html	url:http://jmlr.csail.mit.edu/papers/v15/srivastava14a.html	R1RpVu06
+@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility	url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility	url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility	1GSwNJdl7
 @url:https://github.com/Benjamin-Lee/deep-rules	url:https://github.com/Benjamin-Lee/deep-rules	url:https://github.com/Benjamin-Lee/deep-rules	ysdRl4lj
 @url:https://greenelab.github.io/meta-review/	url:https://greenelab.github.io/meta-review/	url:https://greenelab.github.io/meta-review/	1GGGHdsew
+@url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning	url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning	url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning	mIx19cpn
