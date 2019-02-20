@@ -1511,20 +1511,22 @@
   },
   {
     "type": "webpage",
-    "title": "Abstract",
-    "genre": "concept",
-    "abstract": "This cuDNN Developer Guide provides an overview of cuDNN 7.4.2, and details about the types, enums, and routines within the cuDNN library API.",
-    "URL": "http://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html",
-    "language": "en-us",
-    "accessed": {
+    "URL": "https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility",
+    "title": "Deep Learning SDK Documentation",
+    "issued": {
       "date-parts": [
         [
-          "2019",
-          2,
-          20
+          2018,
+          11,
+          1
         ]
       ]
     },
+    "author": [
+      {
+        "literal": "NVIDIA"
+      }
+    ],
     "id": "1GSwNJdl7"
   },
   {
