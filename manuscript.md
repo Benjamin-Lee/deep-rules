@@ -7,7 +7,8 @@ author-meta:
 - Paul Allen Stewart
 - Evan M. Cofer
 - Sebastian Raschka
-date-meta: '2019-02-17'
+- Finlay Maguire
+date-meta: '2019-02-20'
 keywords:
 - quick tips
 - machine learning
@@ -24,10 +25,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/915584972ba3c023238beecece81771c284ff2ab/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/7de29da1dfa33bd41b8850b580f5d9ba18c7c40e/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@9155849](https://github.com/Benjamin-Lee/deep-rules/tree/915584972ba3c023238beecece81771c284ff2ab)
-on February 17, 2019.
+from [Benjamin-Lee/deep-rules@7de29da](https://github.com/Benjamin-Lee/deep-rules/tree/7de29da1dfa33bd41b8850b580f5d9ba18c7c40e)
+on February 20, 2019.
 </em></small>
 
 ## Authors
@@ -96,6 +97,15 @@ Please note the current author order is chronological and does not reflect the f
     [rasbt](https://github.com/rasbt)<br>
   <small>
      Department of Statistics, University of Wisconsin-Madison
+  </small>
+
++ **Finlay Maguire**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0002-1203-9514](https://orcid.org/0000-0002-1203-9514)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [fmaguire](https://github.com/fmaguire)<br>
+  <small>
+     Faculty of Computer Science, Dalhousie University
   </small>
 
 

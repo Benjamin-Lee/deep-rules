@@ -11,7 +11,8 @@
   <meta name="author" content="Paul Allen Stewart" />
   <meta name="author" content="Evan M. Cofer" />
   <meta name="author" content="Sebastian Raschka" />
-  <meta name="dcterms.date" content="2019-02-17" />
+  <meta name="author" content="Finlay Maguire" />
+  <meta name="dcterms.date" content="2019-02-20" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
   <style type="text/css">
@@ -33,7 +34,7 @@
 <header id="title-block-header">
 <h1 class="title">Ten Quick Tips for Deep Learning in Biology</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/915584972ba3c023238beecece81771c284ff2ab/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/915584972ba3c023238beecece81771c284ff2ab">Benjamin-Lee/deep-rules@9155849</a> on February 17, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/7de29da1dfa33bd41b8850b580f5d9ba18c7c40e/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/7de29da1dfa33bd41b8850b580f5d9ba18c7c40e">Benjamin-Lee/deep-rules@7de29da</a> on February 20, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <p>Please note the current author order is chronological and does not reflect the final order.</p>
 <ul>
@@ -44,6 +45,7 @@
 <li><p><strong>Paul Allen Stewart</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0003-0882-308X">0000-0003-0882-308X</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/pstew">pstew</a><br> <small> Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center </small></p></li>
 <li><p><strong>Evan M. Cofer</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0003-3877-0433">0000-0003-3877-0433</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/evancofer">evancofer</a><br> <small> Lewis-Sigler Institute for Integrative Genomics, Princeton University; Graduate Program in Quantitative and Computational Biology, Princeton University </small></p></li>
 <li><p><strong>Sebastian Raschka</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0001-6989-4493">0000-0001-6989-4493</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/rasbt">rasbt</a><br> <small> Department of Statistics, University of Wisconsin-Madison </small></p></li>
+<li><p><strong>Finlay Maguire</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-1203-9514">0000-0002-1203-9514</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/fmaguire">fmaguire</a><br> <small> Faculty of Computer Science, Dalhousie University </small></p></li>
 </ul>
 <h2 id="intro">Introduction</h2>
 <p>Deep learning (DL), a subfield of machine learning (ML) implementing artificial neural networks with many layers, is increasingly used for the analysis of biological data <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak">1</a>]</span>. In many cases, novel biological insights have been revealed through careful evaluation of DL methods ranging from predicting protein-drug binding kinetics <span class="citation" data-cites="lwg6sPLT">[<a href="#ref-lwg6sPLT">2</a>]</span> to identifying the lab-of-origin of synthetic DNA <span class="citation" data-cites="WGfstNkj">[<a href="#ref-WGfstNkj">3</a>]</span>. However, a lack of relevant up-to-date resources focused on biological applications of DL pose a significant barrier to newcomers wishing to utilize state-of-the-art DL in their research. As DL is an active and specialized research area, detailed resources are rapidly rendered obsolete and few resources articulate general DL best practices to the scientific community. Most instructional literature focuses on ML broadly, rather than DL specifically, further limiting accessibility and reproducibility. To address this issue, we solicited input from a diverse community of researchers, who wrote this manuscript collaboratively using the GitHub version control platform <span class="citation" data-cites="ysdRl4lj">[<a href="#ref-ysdRl4lj">4</a>]</span> and Manubot <span class="citation" data-cites="1GGGHdsew">[<a href="#ref-1GGGHdsew">5</a>]</span>.</p>
@@ -103,7 +105,7 @@ DOI: <a href="https://doi.org/10.1038/s41467-018-05378-z">10.1038/s41467-018-053
 <div id="ref-ysdRl4lj">
 <p>4. <strong>Ten Quick Tips for Deep Learning in Biology. Contribute to Benjamin-Lee/deep-rules development by creating an account on GitHub</strong><br />
 Benjamin Lee<br />
-(2019-02-17) <a href="https://github.com/Benjamin-Lee/deep-rules">https://github.com/Benjamin-Lee/deep-rules</a></p>
+(2019-02-20) <a href="https://github.com/Benjamin-Lee/deep-rules">https://github.com/Benjamin-Lee/deep-rules</a></p>
 </div>
 <div id="ref-1GGGHdsew">
 <p>5. <strong>Open collaborative writing with Manubot</strong><br />

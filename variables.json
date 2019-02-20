@@ -1,5 +1,5 @@
 {
-  "date": "February 17, 2019",
+  "date": "February 20, 2019",
   "authors": [
     {
       "github": "Benjamin-Lee",
@@ -99,6 +99,19 @@
       "affiliation_numbers": [
         11
       ]
+    },
+    {
+      "github": "fmaguire",
+      "name": "Finlay Maguire",
+      "initials": "FM",
+      "orcid": "0000-0002-1203-9514",
+      "email": "finlaymaguire@gmail.com",
+      "affiliations": [
+        "Faculty of Computer Science, Dalhousie University"
+      ],
+      "affiliation_numbers": [
+        12
+      ]
     }
   ],
   "affiliations": [
@@ -145,13 +158,17 @@
     {
       "affiliation": "Department of Statistics, University of Wisconsin-Madison",
       "affiliation_number": 11
+    },
+    {
+      "affiliation": "Faculty of Computer Science, Dalhousie University",
+      "affiliation_number": 12
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "915584972ba3c023238beecece81771c284ff2ab"
+    "commit": "7de29da1dfa33bd41b8850b580f5d9ba18c7c40e"
   },
   "manuscript_stats": {
     "reference_counts": {
