@@ -18,5 +18,25 @@
       "family": "Himmelstein"
     }
   ]
+},
+{
+  "type": "webpage",
+  "standard_citation": "url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility",
+  "URL": "https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility",
+  "title": "Deep Learning SDK Documentation",
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        11,
+        1
+      ]
+    ]
+  },
+  "author": [
+    {
+        "literal": "NVIDIA"
+    }
+  ]
 }
 ]
