@@ -68,4 +68,12 @@ author_info:
     email: sraschka@wisc.edu
     affiliations:
       - Department of Statistics, University of Wisconsin-Madison
+  - 
+    github: fmaguire
+    name: Finlay Maguire
+    initials: FM
+    orcid: 0000-0002-1203-9514
+    email: finlaymaguire@gmail.com
+    affiliations:
+      - Faculty of Computer Science, Dalhousie University
   # ^^^ Add your information above this line ^^^  
