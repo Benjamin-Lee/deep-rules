@@ -8,7 +8,7 @@ author-meta:
 - Evan M. Cofer
 - Sebastian Raschka
 - Finlay Maguire
-date-meta: '2019-02-20'
+date-meta: '2019-02-22'
 keywords:
 - quick tips
 - machine learning
@@ -25,10 +25,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/dfc36cd2b1be09f582ab60b126f79d4b8db0b86c/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/0794db2681dc52db58909076465def607832e0f9/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@dfc36cd](https://github.com/Benjamin-Lee/deep-rules/tree/dfc36cd2b1be09f582ab60b126f79d4b8db0b86c)
-on February 20, 2019.
+from [Benjamin-Lee/deep-rules@0794db2](https://github.com/Benjamin-Lee/deep-rules/tree/0794db2681dc52db58909076465def607832e0f9)
+on February 22, 2019.
 </em></small>
 
 ## Authors
@@ -129,7 +129,9 @@ Deep learning is a distinct subfield of machine learning, but it is still a subf
 DL has proven to be an extremely powerful paradigm capable of outperforming “traditional” machine learning approaches in certain contexts, but it is not immune to the many limitations inherent to machine learning.
 Many best practices for machine learning also apply to deep learning.
 For instance, deep supervised learning models should be trained, tuned, and tested on non-overlapping datasets.
-Those developing deep learning models should select data that are relevant to the problem at hand; non-salient data can hamper performance or lead to spurious conclusions.
+Similarly, to prevent overfitting, the data used for testing should be locked and only used one-time for evaluating the final model after all tuning steps were completed. 
+Using a test set more than once will lead to biased estimates of the generalization performance.
+Those developing deep learning models should also select data that are relevant to the problem at hand; non-salient data can hamper performance or lead to spurious conclusions.
 Furthermore, investigators should begin by thoroughly inspecting their data.
 When coupled with imprudence, data that is biased, skewed, or of low quality will produce models of dubious performance and limited generalizability.
 Biases in testing data can also unduly influence measures of model performance.
