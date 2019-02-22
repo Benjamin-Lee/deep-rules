@@ -34,4 +34,46 @@ author_info:
     email: Kun-Hsing_Yu@hms.harvard.edu
     affiliations:
       - Department of Biomedical Informatics, Harvard Medical School
+  -
+    github: chevrm
+    name: Marc G. Chevrette
+    initials: MGC
+    orcid: 0000-0002-7209-0717
+    email: chevrm@gmail.com
+    affiliations:
+      - Department of Genetics, University of Wisconsin-Madison
+      - Department of Bacteriology, University of Wisconsin-Madison
+  -
+    github: pstew
+    name: Paul Allen Stewart
+    initials: PAS
+    orcid: 0000-0003-0882-308X
+    email: paul.stewart@moffitt.org
+    affiliations:
+      - Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center
+  -
+    github: evancofer
+    name: Evan M. Cofer
+    initials: EMC
+    orcid: 0000-0003-3877-0433
+    email: ecofer@princeton.edu
+    affiliations:
+      - Lewis-Sigler Institute for Integrative Genomics, Princeton University
+      - Graduate Program in Quantitative and Computational Biology, Princeton University
+  -
+    github: rasbt
+    name: Sebastian Raschka
+    initials: SR
+    orcid: 0000-0001-6989-4493
+    email: sraschka@wisc.edu
+    affiliations:
+      - Department of Statistics, University of Wisconsin-Madison
+  - 
+    github: fmaguire
+    name: Finlay Maguire
+    initials: FM
+    orcid: 0000-0002-1203-9514
+    email: finlaymaguire@gmail.com
+    affiliations:
+      - Faculty of Computer Science, Dalhousie University
   # ^^^ Add your information above this line ^^^  
