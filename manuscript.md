@@ -8,7 +8,7 @@ author-meta:
 - Evan M. Cofer
 - Sebastian Raschka
 - Finlay Maguire
-date-meta: '2019-02-22'
+date-meta: '2019-02-23'
 keywords:
 - quick tips
 - machine learning
@@ -25,10 +25,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/0794db2681dc52db58909076465def607832e0f9/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ea10db34053435471b6f7369e6d3b03827bfc75c/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@0794db2](https://github.com/Benjamin-Lee/deep-rules/tree/0794db2681dc52db58909076465def607832e0f9)
-on February 22, 2019.
+from [Benjamin-Lee/deep-rules@ea10db3](https://github.com/Benjamin-Lee/deep-rules/tree/ea10db34053435471b6f7369e6d3b03827bfc75c)
+on February 23, 2019.
 </em></small>
 
 ## Authors
@@ -130,7 +130,7 @@ DL has proven to be an extremely powerful paradigm capable of outperforming “t
 Many best practices for machine learning also apply to deep learning.
 For instance, deep supervised learning models should be trained, tuned, and tested on non-overlapping datasets.
 Similarly, to prevent overfitting, the data used for testing should be locked and only used one-time for evaluating the final model after all tuning steps were completed. 
-Using a test set more than once will lead to biased estimates of the generalization performance.
+Using a test set more than once will lead to biased estimates of the generalization performance  [@1CDx6NYSj; @hJQdIoO3].
 Those developing deep learning models should also select data that are relevant to the problem at hand; non-salient data can hamper performance or lead to spurious conclusions.
 Furthermore, investigators should begin by thoroughly inspecting their data.
 When coupled with imprudence, data that is biased, skewed, or of low quality will produce models of dubious performance and limited generalizability.

@@ -265,6 +265,31 @@
     "id": "1HuQe3Z8X"
   },
   {
+    "number": "1811.12808v2",
+    "version": "2",
+    "URL": "https://arxiv.org/abs/1811.12808v2",
+    "title": "Model Evaluation, Model Selection, and Algorithm Selection in Machine\n  Learning",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          11,
+          13
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Sebastian Raschka"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "The correct use of model evaluation, model selection, and algorithm selection\ntechniques is vital in academic machine learning research as well as in many\nindustrial settings. This article reviews different techniques that can be used\nfor each of these three subtasks and discusses the main advantages and\ndisadvantages of each technique with references to theoretical and empirical\nstudies. Further, recommendations are given to encourage best yet feasible\npractices in research and applications of machine learning. Common methods such\nas the holdout method for model evaluation and selection are covered, which are\nnot recommended when working with small datasets. Different flavors of the\nbootstrap technique are introduced for estimating the uncertainty of\nperformance estimates, as an alternative to confidence intervals via normal\napproximation if bootstrapping is computationally feasible. Common\ncross-validation techniques such as leave-one-out cross-validation and k-fold\ncross-validation are reviewed, the bias-variance trade-off for choosing k is\ndiscussed, and practical tips for the optimal choice of k are given based on\nempirical evidence. Different statistical tests for algorithm comparisons are\npresented, and strategies for dealing with multiple comparisons such as omnibus\ntests and multiple-comparison corrections are discussed. Finally, alternative\nmethods for algorithm selection, such as the combined F-test 5x2\ncross-validation and nested cross-validation, are recommended for comparing\nmachine learning algorithms when datasets are small.",
+    "type": "report",
+    "id": "1CDx6NYSj"
+  },
+  {
     "number": "1812.01484v1",
     "version": "1",
     "URL": "https://arxiv.org/abs/1812.01484v1",
@@ -1284,6 +1309,35 @@
     "id": "LiCxcgZp"
   },
   {
+    "publisher": "MIT Press - Journals",
+    "issue": "7",
+    "DOI": "10.1162/089976698300017197",
+    "type": "article-journal",
+    "page": "1895-1923",
+    "source": "Crossref",
+    "title": "Approximate Statistical Tests for Comparing Supervised Classification Learning Algorithms",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Thomas G.",
+        "family": "Dietterich"
+      }
+    ],
+    "container-title": "Neural Computation",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          1998,
+          10
+        ]
+      ]
+    },
+    "URL": "https://doi.org/fqc9w5",
+    "container-title-short": "Neural Computation",
+    "id": "hJQdIoO3"
+  },
+  {
     "publisher": "Springer Nature",
     "issue": "1",
     "DOI": "10.1186/s13040-017-0155-3",
@@ -1453,7 +1507,7 @@
         [
           "2019",
           2,
-          22
+          23
         ]
       ]
     },
@@ -1503,7 +1557,7 @@
         [
           "2019",
           2,
-          22
+          23
         ]
       ]
     },
@@ -1547,7 +1601,7 @@
         [
           "2019",
           2,
-          22
+          23
         ]
       ]
     },
@@ -1556,7 +1610,7 @@
         [
           "2019",
           2,
-          22
+          23
         ]
       ]
     },
@@ -1603,7 +1657,7 @@
         [
           "2019",
           2,
-          22
+          23
         ]
       ]
     },
@@ -1681,7 +1735,7 @@
         [
           "2019",
           2,
-          22
+          23
         ]
       ]
     },
