@@ -8,7 +8,7 @@ author-meta:
 - Evan M. Cofer
 - Sebastian Raschka
 - Finlay Maguire
-date-meta: '2019-02-23'
+date-meta: '2019-02-24'
 keywords:
 - quick tips
 - machine learning
@@ -25,10 +25,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ea10db34053435471b6f7369e6d3b03827bfc75c/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ad2e09515798354e1fa252ce48fcc4ae3072ee76/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@ea10db3](https://github.com/Benjamin-Lee/deep-rules/tree/ea10db34053435471b6f7369e6d3b03827bfc75c)
-on February 23, 2019.
+from [Benjamin-Lee/deep-rules@ad2e095](https://github.com/Benjamin-Lee/deep-rules/tree/ad2e09515798354e1fa252ce48fcc4ae3072ee76)
+on February 24, 2019.
 </em></small>
 
 ## Authors
@@ -255,8 +255,9 @@ The best remedy for confounding variables is to [know your data](#know-your-prob
 
 ## Tip 9: Don't over-interpret predictions {#interpretation}
 
-Deep learning models can make predictions with high accuracy, but we need to take care to correctly interpret these predictions.
-We know that the basic tenets of machine learning also apply to deep learning ([Tip 1](#concepts)), but because deep models can be difficult to interpret intuitively, there is a temptation to anthropomorphize deep models.
+Once we have trained an accurate deep model, we often want to use it to deduce scientific findings.
+In doing so, we need to take care to correctly interpret the model's predictions.
+We know that the basic tenets of machine learning also apply to deep learning ([Tip 1](#concepts)), but because deep models can be difficult to interpret intuitively, there is a temptation to anthropomorphize the models.
 We must resist this temptation.
 
 A common saying in statistics classes is "correlation doesn't imply causality".
@@ -269,7 +270,9 @@ This rule contradicts medical understanding - having asthma doesn't make pneumon
 This rule was supported by the data (pneumonia patients with a history of pneumonia tended to receive more aggressive care), so the neural network also learned to make predictions according to this rule.
 Guiding treatment decisions according to the predictions of the neural network would have been disastrous, even though the neural network had high predictive accuracy.
 
-To trust the reasoning and scientific conclusions of deep learning models, combine knowledge of the data ([Tip 4](#know-your-problem)) with inspection of the model ([Tip 8](#blackbox)).
+To trust deep learning models, we must combine knowledge of the training data ([Tip 4](#know-your-problem)) with inspection of the model ([Tip 8](#blackbox)).
+By probing data domains where the model succeeds and contrasting with domains where the model fails, we can identify the internal logic and deduce scientific conclusions.
+In this way, we can move beyond fitting predictive models toward building understanding.
 
 
 ## Tip 10: Don't share models trained on sensitive data {#privacy}
