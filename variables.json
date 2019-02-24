@@ -112,6 +112,19 @@
       "affiliation_numbers": [
         12
       ]
+    },
+    {
+      "github": "blengerich",
+      "name": "Benjamin J. Lengerich",
+      "initials": "BJL",
+      "orcid": "0000-0001-8690-9554",
+      "email": "blengeri@andrew.cmu.edu",
+      "affiliations": [
+        "Computer Science Department, Carnegie Mellon University"
+      ],
+      "affiliation_numbers": [
+        13
+      ]
     }
   ],
   "affiliations": [
@@ -162,13 +175,17 @@
     {
       "affiliation": "Faculty of Computer Science, Dalhousie University",
       "affiliation_number": 12
+    },
+    {
+      "affiliation": "Computer Science Department, Carnegie Mellon University",
+      "affiliation_number": 13
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "ad2e09515798354e1fa252ce48fcc4ae3072ee76"
+    "commit": "3c27c4cf88f025194f94eb592fe2405cd542ce04"
   },
   "manuscript_stats": {
     "reference_counts": {

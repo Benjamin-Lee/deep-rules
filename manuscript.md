@@ -8,6 +8,7 @@ author-meta:
 - Evan M. Cofer
 - Sebastian Raschka
 - Finlay Maguire
+- Benjamin J. Lengerich
 date-meta: '2019-02-24'
 keywords:
 - quick tips
@@ -25,9 +26,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ad2e09515798354e1fa252ce48fcc4ae3072ee76/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/3c27c4cf88f025194f94eb592fe2405cd542ce04/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@ad2e095](https://github.com/Benjamin-Lee/deep-rules/tree/ad2e09515798354e1fa252ce48fcc4ae3072ee76)
+from [Benjamin-Lee/deep-rules@3c27c4c](https://github.com/Benjamin-Lee/deep-rules/tree/3c27c4cf88f025194f94eb592fe2405cd542ce04)
 on February 24, 2019.
 </em></small>
 
@@ -106,6 +107,15 @@ Please note the current author order is chronological and does not reflect the f
     [fmaguire](https://github.com/fmaguire)<br>
   <small>
      Faculty of Computer Science, Dalhousie University
+  </small>
+
++ **Benjamin J. Lengerich**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0001-8690-9554](https://orcid.org/0000-0001-8690-9554)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [blengerich](https://github.com/blengerich)<br>
+  <small>
+     Computer Science Department, Carnegie Mellon University
   </small>
 
 
