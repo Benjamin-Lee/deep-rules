@@ -15,7 +15,7 @@ author_info:
     orcid: 0000-0002-7133-8397
     email: benjamindlee@me.com
     affiliations:
-      - Lab41, In-Q-Tel 
+      - Lab41, In-Q-Tel
       - School of Engineering and Applied Sciences, Harvard University
       - Department of Genetics, Harvard Medical School
   -
@@ -68,7 +68,7 @@ author_info:
     email: sraschka@wisc.edu
     affiliations:
       - Department of Statistics, University of Wisconsin-Madison
-  - 
+  -
     github: fmaguire
     name: Finlay Maguire
     initials: FM
@@ -76,4 +76,12 @@ author_info:
     email: finlaymaguire@gmail.com
     affiliations:
       - Faculty of Computer Science, Dalhousie University
-  # ^^^ Add your information above this line ^^^  
+  -
+    github: blengerich
+    name: Benjamin J. Lengerich
+    initials: BJL
+    orcid: 0000-0001-8690-9554
+    email: blengeri@andrew.cmu.edu
+    affiliations:
+      - Computer Science Department, Carnegie Mellon University
+  # ^^^ Add your information above this line ^^^
