@@ -77,11 +77,19 @@ author_info:
     affiliations:
       - Faculty of Computer Science, Dalhousie University
   -
+    github: blengerich
+    name: Benjamin J. Lengerich
+    initials: BJL
+    orcid: 0000-0001-8690-9554
+    email: blengeri@andrew.cmu.edu
+    affiliations:
+      - Computer Science Department, Carnegie Mellon University
+  -
     github: alxndrkalinin
     name: Alexandr A. Kalinin
     initials: AAK
     orcid: 0000-0003-4563-3226
     email: akalinin@umich.edu
     affiliations:
-      - Department of Computational Medicine and Bioinformatics, University of Michigan
+      - Department of Computational Medicine and Bioinformatics, University of Michigan  
   # ^^^ Add your information above this line ^^^
