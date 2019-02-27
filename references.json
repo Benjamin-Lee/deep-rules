@@ -324,6 +324,159 @@
     "id": "eJgWbXRz"
   },
   {
+    "publisher": "Springer Berlin Heidelberg",
+    "DOI": "10.1007/978-3-642-35289-8",
+    "type": "book",
+    "source": "Crossref",
+    "title": "Neural Networks: Tricks of the Trade",
+    "container-title": "Lecture Notes in Computer Science",
+    "editor": [
+      {
+        "given": "Grégoire",
+        "family": "Montavon"
+      },
+      {
+        "given": "Geneviève B.",
+        "family": "Orr"
+      },
+      {
+        "given": "Klaus-Robert",
+        "family": "Müller"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfvtvt",
+    "id": "JT3rHKc7"
+  },
+  {
+    "publisher": "Springer Nature",
+    "issue": "1",
+    "DOI": "10.1007/s10278-016-9914-9",
+    "type": "article-journal",
+    "page": "95-101",
+    "source": "Crossref",
+    "title": "High-Throughput Classification of Radiographs Using Deep Convolutional Neural Networks",
+    "volume": "30",
+    "author": [
+      {
+        "given": "Alvin",
+        "family": "Rajkomar"
+      },
+      {
+        "given": "Sneha",
+        "family": "Lingam"
+      },
+      {
+        "given": "Andrew G.",
+        "family": "Taylor"
+      },
+      {
+        "given": "Michael",
+        "family": "Blum"
+      },
+      {
+        "given": "John",
+        "family": "Mongan"
+      }
+    ],
+    "container-title": "Journal of Digital Imaging",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          10,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcgk7v",
+    "container-title-short": "J Digit Imaging",
+    "PMCID": "PMC5267603",
+    "PMID": "27730417",
+    "id": "x6HXFAS4"
+  },
+  {
+    "publisher": "Springer Nature",
+    "issue": "3",
+    "DOI": "10.1007/s11263-015-0816-y",
+    "type": "article-journal",
+    "page": "211-252",
+    "source": "Crossref",
+    "title": "ImageNet Large Scale Visual Recognition Challenge",
+    "volume": "115",
+    "author": [
+      {
+        "given": "Olga",
+        "family": "Russakovsky"
+      },
+      {
+        "given": "Jia",
+        "family": "Deng"
+      },
+      {
+        "given": "Hao",
+        "family": "Su"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Krause"
+      },
+      {
+        "given": "Sanjeev",
+        "family": "Satheesh"
+      },
+      {
+        "given": "Sean",
+        "family": "Ma"
+      },
+      {
+        "given": "Zhiheng",
+        "family": "Huang"
+      },
+      {
+        "given": "Andrej",
+        "family": "Karpathy"
+      },
+      {
+        "given": "Aditya",
+        "family": "Khosla"
+      },
+      {
+        "given": "Michael",
+        "family": "Bernstein"
+      },
+      {
+        "given": "Alexander C.",
+        "family": "Berg"
+      },
+      {
+        "given": "Li",
+        "family": "Fei-Fei"
+      }
+    ],
+    "container-title": "International Journal of Computer Vision",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          4,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcgk7w",
+    "container-title-short": "Int J Comput Vis",
+    "id": "cBVeXnZx"
+  },
+  {
     "publisher": "Elsevier BV",
     "issue": "2",
     "DOI": "10.1016/0893-6080(91)90009-t",
@@ -1117,6 +1270,75 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>Advanced machine learning models applied to large-scale genomics datasets hold the promise to be major drivers for genome science. Once trained, such models can serve as a tool to probe the relationships between data modalities, including the effect of genetic variants on phenotype. However, lack of standardization and limited accessibility of trained models have hampered their impact in practice. To address this, we present Kipoi, a collaborative initiative to define standards and to foster reuse of trained models in genomics. Already, the Kipoi repository contains over 2,000 trained models that cover canonical prediction tasks in transcriptional and post-transcriptional gene regulation. The Kipoi model standard grants automated software installation and provides unified interfaces to apply and interpret models. We illustrate Kipoi through canonical use cases, including model benchmarking, transfer learning, variant effect prediction, and building new models from existing ones. By providing a unified framework to archive, share, access, use, and build on models developed by the community, Kipoi will foster the dissemination and use of machine learning models in genomics.</jats:p>",
+    "DOI": "10.1101/375345",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Kipoi: accelerating the community exchange and reuse of predictive models for genomics",
+    "author": [
+      {
+        "given": "Ziga",
+        "family": "Avsec"
+      },
+      {
+        "given": "Roman",
+        "family": "Kreuzhuber"
+      },
+      {
+        "given": "Johnny",
+        "family": "Israeli"
+      },
+      {
+        "given": "Nancy",
+        "family": "Xu"
+      },
+      {
+        "given": "Jun",
+        "family": "Cheng"
+      },
+      {
+        "given": "Avanti",
+        "family": "Shrikumar"
+      },
+      {
+        "given": "Abhimanyu",
+        "family": "Banerjee"
+      },
+      {
+        "given": "Daniel S",
+        "family": "Kim"
+      },
+      {
+        "given": "Lara",
+        "family": "Urban"
+      },
+      {
+        "given": "Anshul",
+        "family": "Kundaje"
+      },
+      {
+        "given": "Oliver",
+        "family": "Stegle"
+      },
+      {
+        "given": "Julien",
+        "family": "Gagneur"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          24
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gd24sx",
+    "id": "14cVrrqP1"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
     "abstract": "<jats:p>Single-cell RNA sequencing (scRNA-seq) is a powerful tool to profile the transcriptomes of a large number of individual cells at a high resolution. These data usually contain measurements of gene expression for many genes in thousands or tens of thousands of cells, though some datasets now reach the million-cell mark. Projecting high-dimensional scRNA-seq data into a low dimensional space aids downstream analysis and data visualization. Many recent preprints accomplish this using variational autoencoders (VAE), generative models that learn underlying structure of data by compress it into a constrained, low dimensional space. The low dimensional spaces generated by VAEs have revealed complex patterns and novel biological signals from large-scale gene expression data and drug response predictions. Here, we evaluate a simple VAE approach for gene expression data, Tybalt, by training and measuring its performance on sets of simulated scRNA-seq data. We find a number of counter-intuitive performance features: i.e., deeper neural networks can struggle when datasets contain more observations under some parameter configurations. We show that these methods are highly sensitive to parameter tuning: when tuned, the performance of the Tybalt model, which was not optimized for scRNA-seq data, outperforms other popular dimension reduction approaches - PCA, ZIFA, UMAP and t-SNE. On the other hand, without tuning performance can also be remarkably poor on the same data. Our results should discourage authors and reviewers from relying on self-reported performance comparisons to evaluate the relative value of contributions in this area at this time. Instead, we recommend that attempts to compare or benchmark autoencoder methods for scRNA-seq data be performed by disinterested third parties or by methods developers only on unseen benchmark data that are provided to all participants simultaneously because the potential for performance differences due to unequal parameter tuning is so high.</jats:p>",
     "DOI": "10.1101/385534",
     "type": "manuscript",
@@ -1143,6 +1365,43 @@
     },
     "URL": "https://doi.org/gdxxjf",
     "id": "5CsWRjfp"
+  },
+  {
+    "publisher": "IEEE",
+    "DOI": "10.1109/cvprw.2014.131",
+    "type": "paper-conference",
+    "source": "Crossref",
+    "title": "CNN Features Off-the-Shelf: An Astounding Baseline for Recognition",
+    "author": [
+      {
+        "given": "Ali Sharif",
+        "family": "Razavian"
+      },
+      {
+        "given": "Hossein",
+        "family": "Azizpour"
+      },
+      {
+        "given": "Josephine",
+        "family": "Sullivan"
+      },
+      {
+        "given": "Stefan",
+        "family": "Carlsson"
+      }
+    ],
+    "event": "2014 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+    "container-title": "2014 IEEE Conference on Computer Vision and Pattern Recognition Workshops",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          6
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f3np4s",
+    "id": "x7a5SM90"
   },
   {
     "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -1183,6 +1442,55 @@
     "URL": "https://doi.org/gcnp38",
     "container-title-short": "Proc. IEEE",
     "id": "L7EocHX2"
+  },
+  {
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "DOI": "10.1109/tbdata.2016.2573280",
+    "type": "article-journal",
+    "page": "1-1",
+    "source": "Crossref",
+    "title": "Deep Model Based Transfer and Multi-Task Learning for Biological Image Analysis",
+    "author": [
+      {
+        "given": "Wenlu",
+        "family": "Zhang"
+      },
+      {
+        "given": "Rongjian",
+        "family": "Li"
+      },
+      {
+        "given": "Tao",
+        "family": "Zeng"
+      },
+      {
+        "given": "Qian",
+        "family": "Sun"
+      },
+      {
+        "given": "Sudhir",
+        "family": "Kumar"
+      },
+      {
+        "given": "Jieping",
+        "family": "Ye"
+      },
+      {
+        "given": "Shuiwang",
+        "family": "Ji"
+      }
+    ],
+    "container-title": "IEEE Transactions on Big Data",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfvs28",
+    "container-title-short": "IEEE Trans. Big Data",
+    "id": "ZwUaSNWa"
   },
   {
     "publisher": "ACM Press",
@@ -1473,44 +1781,8 @@
     "id": "u86hHJ9b"
   },
   {
-    "type": "paper-conference",
-    "title": "A Simple Weight Decay Can Improve Generalization",
-    "container-title": "Proceedings of the 4th International Conference on Neural Information Processing Systems",
-    "collection-title": "NIPS'91",
-    "publisher": "Morgan Kaufmann Publishers Inc.",
-    "publisher-place": "San Francisco, CA, USA",
-    "page": "950–957",
-    "source": "ACM Digital Library",
-    "event-place": "San Francisco, CA, USA",
-    "abstract": "It has been observed in numerical simulations that a weight decay can improve generalization in a feed-forward neural network. This paper explains why. It is proven that a weight decay has two effects in a linear network. First, it suppresses any irrelevant components of the weight vector by choosing the smallest vector that solves the learning problem. Second, if the size is chosen right, a weight decay can suppress some of the effects of static noise on the targets, which improves generalization quite a lot. It is then shown how to extend these results to networks with hidden layers and non-linear units. Finally the theory is confirmed by some numerical simulations using the data from NetTalk.",
     "URL": "http://dl.acm.org/citation.cfm?id=2986916.2987033",
-    "ISBN": "9781558602229",
-    "author": [
-      {
-        "family": "Krogh",
-        "given": "Anders"
-      },
-      {
-        "family": "Hertz",
-        "given": "John A."
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1991"
-        ]
-      ]
-    },
-    "accessed": {
-      "date-parts": [
-        [
-          "2019",
-          2,
-          24
-        ]
-      ]
-    },
+    "type": "webpage",
     "id": "eR3C2hhK"
   },
   {
@@ -1557,7 +1829,7 @@
         [
           "2019",
           2,
-          24
+          27
         ]
       ]
     },
@@ -1601,7 +1873,7 @@
         [
           "2019",
           2,
-          24
+          27
         ]
       ]
     },
@@ -1610,7 +1882,7 @@
         [
           "2019",
           2,
-          24
+          27
         ]
       ]
     },
@@ -1657,11 +1929,77 @@
         [
           "2019",
           2,
-          24
+          27
         ]
       ]
     },
     "id": "1GGGHdsew"
+  },
+  {
+    "type": "chapter",
+    "title": "How transferable are features in deep neural networks?",
+    "container-title": "Advances in Neural Information Processing Systems 27",
+    "publisher": "Curran Associates, Inc.",
+    "page": "3320–3328",
+    "source": "Neural Information Processing Systems",
+    "URL": "http://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-neural-networks.pdf",
+    "author": [
+      {
+        "family": "Yosinski",
+        "given": "Jason"
+      },
+      {
+        "family": "Clune",
+        "given": "Jeff"
+      },
+      {
+        "family": "Bengio",
+        "given": "Yoshua"
+      },
+      {
+        "family": "Lipson",
+        "given": "Hod"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Ghahramani",
+        "given": "Z."
+      },
+      {
+        "family": "Welling",
+        "given": "M."
+      },
+      {
+        "family": "Cortes",
+        "given": "C."
+      },
+      {
+        "family": "Lawrence",
+        "given": "N. D."
+      },
+      {
+        "family": "Weinberger",
+        "given": "K. Q."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          2,
+          27
+        ]
+      ]
+    },
+    "id": "enhj7VT6"
   },
   {
     "type": "chapter",
@@ -1735,7 +2073,7 @@
         [
           "2019",
           2,
-          24
+          27
         ]
       ]
     },
