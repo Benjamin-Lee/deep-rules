@@ -18,7 +18,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Name                 | Discussion | Substantial contributions | Drafting | Final approval | Accountable |
 | -------------------- | ---------- | ------------------------- | -------- | -------------- | ----------- |
 | Benjamin D. Lee      | Yes        | Yes                       | Yes      |                | Yes         |
-| Casey S. Greene      | Yes        | Yes                       | Yes      |                |             |
+| Casey S. Greene      | Yes        | Yes                       | Yes      |                | Yes         |
 | Anthony Gitter       | Yes        | Yes                       | Yes      |                |             |
 | Tim Triche, Jr.      | Yes        | Yes                       | Yes      |                |             |
 | Simina M. Boca       | Yes        | Yes                       | Yes      |                |             |
