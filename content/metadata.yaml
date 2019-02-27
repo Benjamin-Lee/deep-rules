@@ -84,4 +84,12 @@ author_info:
     email: blengeri@andrew.cmu.edu
     affiliations:
       - Computer Science Department, Carnegie Mellon University
+  -
+    github: alxndrkalinin
+    name: Alexandr A. Kalinin
+    initials: AAK
+    orcid: 0000-0003-4563-3226
+    email: akalinin@umich.edu
+    affiliations:
+      - Department of Computational Medicine and Bioinformatics, University of Michigan  
   # ^^^ Add your information above this line ^^^
