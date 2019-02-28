@@ -10,6 +10,7 @@ author-meta:
 - Finlay Maguire
 - Benjamin J. Lengerich
 - Alexandr A. Kalinin
+- Anthony Gitter
 date-meta: '2019-02-28'
 keywords:
 - quick tips
@@ -27,9 +28,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/fc65eb9776b65748b5b0a9eb47d4ce38d3221fd9/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/c7adc880acd8a61fa1f6489d257489131a935564/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@fc65eb9](https://github.com/Benjamin-Lee/deep-rules/tree/fc65eb9776b65748b5b0a9eb47d4ce38d3221fd9)
+from [Benjamin-Lee/deep-rules@c7adc88](https://github.com/Benjamin-Lee/deep-rules/tree/c7adc880acd8a61fa1f6489d257489131a935564)
 on February 28, 2019.
 </em></small>
 
@@ -126,6 +127,17 @@ Please note the current author order is chronological and does not reflect the f
     [alxndrkalinin](https://github.com/alxndrkalinin)<br>
   <small>
      Department of Computational Medicine and Bioinformatics, University of Michigan
+  </small>
+
++ **Anthony Gitter**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0002-5324-9833](https://orcid.org/0000-0002-5324-9833)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [agitter](https://github.com/agitter)
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    [anthonygitter](https://twitter.com/anthonygitter)<br>
+  <small>
+     Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research
   </small>
 
 

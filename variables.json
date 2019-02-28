@@ -138,6 +138,22 @@
       "affiliation_numbers": [
         14
       ]
+    },
+    {
+      "github": "agitter",
+      "name": "Anthony Gitter",
+      "initials": "AG",
+      "orcid": "0000-0002-5324-9833",
+      "twitter": "anthonygitter",
+      "email": "gitter@biostat.wisc.edu",
+      "affiliations": [
+        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
+        "Morgridge Institute for Research"
+      ],
+      "affiliation_numbers": [
+        15,
+        16
+      ]
     }
   ],
   "affiliations": [
@@ -196,13 +212,21 @@
     {
       "affiliation": "Department of Computational Medicine and Bioinformatics, University of Michigan",
       "affiliation_number": 14
+    },
+    {
+      "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
+      "affiliation_number": 15
+    },
+    {
+      "affiliation": "Morgridge Institute for Research",
+      "affiliation_number": 16
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "fc65eb9776b65748b5b0a9eb47d4ce38d3221fd9"
+    "commit": "c7adc880acd8a61fa1f6489d257489131a935564"
   },
   "manuscript_stats": {
     "reference_counts": {
