@@ -92,4 +92,14 @@ author_info:
     email: akalinin@umich.edu
     affiliations:
       - Department of Computational Medicine and Bioinformatics, University of Michigan  
+  -
+    github: agitter
+    name: Anthony Gitter
+    initials: AG
+    orcid: 0000-0002-5324-9833
+    twitter: anthonygitter
+    email: gitter@biostat.wisc.edu
+    affiliations:
+      - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison
+      - Morgridge Institute for Research
   # ^^^ Add your information above this line ^^^
