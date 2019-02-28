@@ -91,7 +91,7 @@ author_info:
     orcid: 0000-0003-4563-3226
     email: akalinin@umich.edu
     affiliations:
-      - Department of Computational Medicine and Bioinformatics, University of Michigan  
+      - Department of Computational Medicine and Bioinformatics, University of Michigan
   -
     github: agitter
     name: Anthony Gitter
@@ -102,4 +102,12 @@ author_info:
     affiliations:
       - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison
       - Morgridge Institute for Research
+  -
+    github: cgreene
+    name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    email: greenescientist@gmail.com
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
   # ^^^ Add your information above this line ^^^
