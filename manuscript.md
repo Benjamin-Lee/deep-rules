@@ -29,9 +29,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/8e74d282ca30d10d2ee86645d6cd7f2d5147a579/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/82623cd3131166c70f147bbbaf8273a576bcf154/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@8e74d28](https://github.com/Benjamin-Lee/deep-rules/tree/8e74d282ca30d10d2ee86645d6cd7f2d5147a579)
+from [Benjamin-Lee/deep-rules@82623cd](https://github.com/Benjamin-Lee/deep-rules/tree/82623cd3131166c70f147bbbaf8273a576bcf154)
 on February 28, 2019.
 </em></small>
 
@@ -364,6 +364,12 @@ When training deep learning models on sensitive data, using privacy preserving t
 
 
 ## Conclusion {#conclusion}
+
+
+## Acknowledgements {#acknowledgements.md}
+
+ The authors would like the thank Daniel Himmelstein and the developers of Manubot for creating the software that enabled the collaborative composition of this manuscript.
+ We would also like to thank [**TODO**: insert the names of the contributors who don't meet the standards for authorship] for their contributions to the discussions that comprised the intial stage of the drafting process.
 
 
 ## References {.page_break_before}
