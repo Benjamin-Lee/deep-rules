@@ -1781,8 +1781,44 @@
     "id": "u86hHJ9b"
   },
   {
+    "type": "paper-conference",
+    "title": "A Simple Weight Decay Can Improve Generalization",
+    "container-title": "Proceedings of the 4th International Conference on Neural Information Processing Systems",
+    "collection-title": "NIPS'91",
+    "publisher": "Morgan Kaufmann Publishers Inc.",
+    "publisher-place": "San Francisco, CA, USA",
+    "page": "950–957",
+    "source": "ACM Digital Library",
+    "event-place": "San Francisco, CA, USA",
+    "abstract": "It has been observed in numerical simulations that a weight decay can improve generalization in a feed-forward neural network. This paper explains why. It is proven that a weight decay has two effects in a linear network. First, it suppresses any irrelevant components of the weight vector by choosing the smallest vector that solves the learning problem. Second, if the size is chosen right, a weight decay can suppress some of the effects of static noise on the targets, which improves generalization quite a lot. It is then shown how to extend these results to networks with hidden layers and non-linear units. Finally the theory is confirmed by some numerical simulations using the data from NetTalk.",
     "URL": "http://dl.acm.org/citation.cfm?id=2986916.2987033",
-    "type": "webpage",
+    "ISBN": "9781558602229",
+    "author": [
+      {
+        "family": "Krogh",
+        "given": "Anders"
+      },
+      {
+        "family": "Hertz",
+        "given": "John A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1991"
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          2,
+          28
+        ]
+      ]
+    },
     "id": "eR3C2hhK"
   },
   {
@@ -1829,7 +1865,7 @@
         [
           "2019",
           2,
-          27
+          28
         ]
       ]
     },
@@ -1873,7 +1909,7 @@
         [
           "2019",
           2,
-          27
+          28
         ]
       ]
     },
@@ -1882,7 +1918,7 @@
         [
           "2019",
           2,
-          27
+          28
         ]
       ]
     },
@@ -1929,7 +1965,7 @@
         [
           "2019",
           2,
-          27
+          28
         ]
       ]
     },
@@ -1995,7 +2031,7 @@
         [
           "2019",
           2,
-          27
+          28
         ]
       ]
     },
@@ -2073,7 +2109,7 @@
         [
           "2019",
           2,
-          27
+          28
         ]
       ]
     },

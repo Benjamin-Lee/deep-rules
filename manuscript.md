@@ -10,7 +10,7 @@ author-meta:
 - Finlay Maguire
 - Benjamin J. Lengerich
 - Alexandr A. Kalinin
-date-meta: '2019-02-27'
+date-meta: '2019-02-28'
 keywords:
 - quick tips
 - machine learning
@@ -27,10 +27,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2d3729b3bea48086adbb396d35347dac654ff14f/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/fc65eb9776b65748b5b0a9eb47d4ce38d3221fd9/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@2d3729b](https://github.com/Benjamin-Lee/deep-rules/tree/2d3729b3bea48086adbb396d35347dac654ff14f)
-on February 27, 2019.
+from [Benjamin-Lee/deep-rules@fc65eb9](https://github.com/Benjamin-Lee/deep-rules/tree/fc65eb9776b65748b5b0a9eb47d4ce38d3221fd9)
+on February 28, 2019.
 </em></small>
 
 ## Authors
