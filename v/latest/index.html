@@ -14,6 +14,7 @@
   <meta name="author" content="Finlay Maguire" />
   <meta name="author" content="Benjamin J. Lengerich" />
   <meta name="author" content="Alexandr A. Kalinin" />
+  <meta name="author" content="Anthony Gitter" />
   <meta name="dcterms.date" content="2019-02-28" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
@@ -36,7 +37,7 @@
 <header id="title-block-header">
 <h1 class="title">Ten Quick Tips for Deep Learning in Biology</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/fc65eb9776b65748b5b0a9eb47d4ce38d3221fd9/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/fc65eb9776b65748b5b0a9eb47d4ce38d3221fd9">Benjamin-Lee/deep-rules@fc65eb9</a> on February 28, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/c7adc880acd8a61fa1f6489d257489131a935564/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/c7adc880acd8a61fa1f6489d257489131a935564">Benjamin-Lee/deep-rules@c7adc88</a> on February 28, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <p>Please note the current author order is chronological and does not reflect the final order.</p>
 <ul>
@@ -50,6 +51,7 @@
 <li><p><strong>Finlay Maguire</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-1203-9514">0000-0002-1203-9514</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/fmaguire">fmaguire</a><br> <small> Faculty of Computer Science, Dalhousie University </small></p></li>
 <li><p><strong>Benjamin J. Lengerich</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0001-8690-9554">0000-0001-8690-9554</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/blengerich">blengerich</a><br> <small> Computer Science Department, Carnegie Mellon University </small></p></li>
 <li><p><strong>Alexandr A. Kalinin</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0003-4563-3226">0000-0003-4563-3226</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/alxndrkalinin">alxndrkalinin</a><br> <small> Department of Computational Medicine and Bioinformatics, University of Michigan </small></p></li>
+<li><p><strong>Anthony Gitter</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-5324-9833">0000-0002-5324-9833</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/agitter">agitter</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/anthonygitter">anthonygitter</a><br> <small> Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research </small></p></li>
 </ul>
 <h2 id="intro">Introduction</h2>
 <p>Deep learning (DL), a subfield of machine learning (ML) implementing artificial neural networks with many layers, is increasingly used for the analysis of biological data <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak">1</a>]</span>. In many cases, novel biological insights have been revealed through careful evaluation of DL methods ranging from predicting protein-drug binding kinetics <span class="citation" data-cites="lwg6sPLT">[<a href="#ref-lwg6sPLT">2</a>]</span> to identifying the lab-of-origin of synthetic DNA <span class="citation" data-cites="WGfstNkj">[<a href="#ref-WGfstNkj">3</a>]</span>. However, a lack of relevant up-to-date resources focused on biological applications of DL pose a significant barrier to newcomers wishing to utilize state-of-the-art DL in their research. As DL is an active and specialized research area, detailed resources are rapidly rendered obsolete and few resources articulate general DL best practices to the scientific community. Most instructional literature focuses on ML broadly, rather than DL specifically, further limiting accessibility and reproducibility. To address this issue, we solicited input from a diverse community of researchers, who wrote this manuscript collaboratively using the GitHub version control platform <span class="citation" data-cites="ysdRl4lj">[<a href="#ref-ysdRl4lj">4</a>]</span> and Manubot <span class="citation" data-cites="1GGGHdsew">[<a href="#ref-1GGGHdsew">5</a>]</span>.</p>
