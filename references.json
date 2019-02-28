@@ -1270,6 +1270,55 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
+    "abstract": "<jats:p>Background: Data sharing accelerates scientific progress but sharing individual level data while preserving patient privacy presents a barrier. Methods and Results: Using pairs of deep neural networks, we generated simulated, synthetic \"participants\" that closely resemble participants of the SPRINT trial. We showed that such paired networks can be trained with differential privacy, a formal privacy framework that limits the likelihood that queries of the synthetic participants' data could identify a real a participant in the trial. Machine-learning predictors built on the synthetic population generalize to the original dataset. This finding suggests that the synthetic data can be shared with others, enabling them to perform hypothesis-generating analyses as though they had the original trial data. Conclusions: Deep neural networks that generate synthetic participants facilitate secondary analyses and reproducible investigation of clinical datasets by enhancing data sharing while preserving participant privacy.</jats:p>",
+    "DOI": "10.1101/159756",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Privacy-preserving generative deep neural networks support clinical data sharing",
+    "author": [
+      {
+        "given": "Brett K.",
+        "family": "Beaulieu-Jones"
+      },
+      {
+        "given": "Zhiwei Steven",
+        "family": "Wu"
+      },
+      {
+        "given": "Chris",
+        "family": "Williams"
+      },
+      {
+        "given": "Ran",
+        "family": "Lee"
+      },
+      {
+        "given": "Sanjeev P",
+        "family": "Bhavnani"
+      },
+      {
+        "given": "James Brian",
+        "family": "Byrd"
+      },
+      {
+        "given": "Casey S.",
+        "family": "Greene"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          5
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcnzrn",
+    "id": "fbIH12yd"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
     "abstract": "<jats:p>Advanced machine learning models applied to large-scale genomics datasets hold the promise to be major drivers for genome science. Once trained, such models can serve as a tool to probe the relationships between data modalities, including the effect of genetic variants on phenotype. However, lack of standardization and limited accessibility of trained models have hampered their impact in practice. To address this, we present Kipoi, a collaborative initiative to define standards and to foster reuse of trained models in genomics. Already, the Kipoi repository contains over 2,000 trained models that cover canonical prediction tasks in transcriptional and post-transcriptional gene regulation. The Kipoi model standard grants automated software installation and provides unified interfaces to apply and interpret models. We illustrate Kipoi through canonical use cases, including model benchmarking, transfer learning, variant effect prediction, and building new models from existing ones. By providing a unified framework to archive, share, access, use, and build on models developed by the community, Kipoi will foster the dissemination and use of machine learning models in genomics.</jats:p>",
     "DOI": "10.1101/375345",
     "type": "manuscript",

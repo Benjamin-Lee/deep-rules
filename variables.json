@@ -154,6 +154,19 @@
         15,
         16
       ]
+    },
+    {
+      "github": "cgreene",
+      "name": "Casey S. Greene",
+      "initials": "CSG",
+      "orcid": "0000-0001-8713-9213",
+      "email": "greenescientist@gmail.com",
+      "affiliations": [
+        "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania"
+      ],
+      "affiliation_numbers": [
+        17
+      ]
     }
   ],
   "affiliations": [
@@ -220,22 +233,26 @@
     {
       "affiliation": "Morgridge Institute for Research",
       "affiliation_number": 16
+    },
+    {
+      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania",
+      "affiliation_number": 17
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "c7adc880acd8a61fa1f6489d257489131a935564"
+    "commit": "fa1a03c5434592903b5cc3a6c396f1f3975111a4"
   },
   "manuscript_stats": {
     "reference_counts": {
       "arxiv": 9,
-      "doi": 24,
+      "doi": 25,
       "pmid": 1,
       "url": 7,
-      "total": 41
+      "total": 42
     },
-    "word_count": 3983
+    "word_count": 4176
   }
 }
