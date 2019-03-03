@@ -12,7 +12,7 @@ author-meta:
 - Alexandr A. Kalinin
 - Anthony Gitter
 - Casey S. Greene
-date-meta: '2019-02-28'
+date-meta: '2019-03-03'
 keywords:
 - quick tips
 - machine learning
@@ -29,10 +29,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/82623cd3131166c70f147bbbaf8273a576bcf154/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e2b3f9786c288e563bd01ccfc4d9a7f09ad625dd/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@82623cd](https://github.com/Benjamin-Lee/deep-rules/tree/82623cd3131166c70f147bbbaf8273a576bcf154)
-on February 28, 2019.
+from [Benjamin-Lee/deep-rules@e2b3f97](https://github.com/Benjamin-Lee/deep-rules/tree/e2b3f9786c288e563bd01ccfc4d9a7f09ad625dd)
+on March 3, 2019.
 </em></small>
 
 ## Authors
