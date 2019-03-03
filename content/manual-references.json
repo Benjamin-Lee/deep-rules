@@ -38,5 +38,24 @@
         "literal": "NVIDIA"
     }
   ]
-}
+},
+{
+  "type": "webpage",
+  "standard_citation": "url:https://github.com/Benjamin-Lee/deep-rules",
+  "URL": "https://github.com/Benjamin-Lee/deep-rules",
+  "title": "Benjamin-Lee/deep-rules GitHub repository",
+  "issued": {
+    "date-parts": [
+      [
+        2018
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Benjamin",
+      "family": "Lee"
+    }
+  ]
+},
 ]
