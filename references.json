@@ -1726,6 +1726,92 @@
   },
   {
     "publisher": "Public Library of Science (PLoS)",
+    "issue": "3",
+    "DOI": "10.1371/journal.pcbi.1005399",
+    "type": "article-journal",
+    "page": "e1005399",
+    "source": "Crossref",
+    "title": "Ten simple rules for responsible big data research",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Matthew",
+        "family": "Zook"
+      },
+      {
+        "given": "Solon",
+        "family": "Barocas"
+      },
+      {
+        "given": "danah",
+        "family": "boyd"
+      },
+      {
+        "given": "Kate",
+        "family": "Crawford"
+      },
+      {
+        "given": "Emily",
+        "family": "Keller"
+      },
+      {
+        "given": "Seeta Peña",
+        "family": "Gangadharan"
+      },
+      {
+        "given": "Alyssa",
+        "family": "Goodman"
+      },
+      {
+        "given": "Rachelle",
+        "family": "Hollander"
+      },
+      {
+        "given": "Barbara A.",
+        "family": "Koenig"
+      },
+      {
+        "given": "Jacob",
+        "family": "Metcalf"
+      },
+      {
+        "given": "Arvind",
+        "family": "Narayanan"
+      },
+      {
+        "given": "Alondra",
+        "family": "Nelson"
+      },
+      {
+        "given": "Frank",
+        "family": "Pasquale"
+      }
+    ],
+    "container-title": "PLOS Computational Biology",
+    "language": "en",
+    "editor": [
+      {
+        "given": "Fran",
+        "family": "Lewitter"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          30
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gdqfcn",
+    "container-title-short": "PLoS Comput Biol",
+    "PMCID": "PMC5373508",
+    "PMID": "28358831",
+    "id": "uXPlMpfq"
+  },
+  {
+    "publisher": "Public Library of Science (PLoS)",
     "issue": "9",
     "DOI": "10.1371/journal.pcbi.1006454",
     "type": "article-journal",
@@ -1864,7 +1950,7 @@
         [
           "2019",
           3,
-          3
+          7
         ]
       ]
     },
@@ -1914,7 +2000,7 @@
         [
           "2019",
           3,
-          3
+          7
         ]
       ]
     },
@@ -1991,8 +2077,8 @@
       "date-parts": [
         [
           "2019",
-          2,
-          21
+          3,
+          5
         ]
       ]
     },
@@ -2001,7 +2087,7 @@
         [
           "2019",
           3,
-          3
+          7
         ]
       ]
     },
@@ -2067,7 +2153,7 @@
         [
           "2019",
           3,
-          3
+          7
         ]
       ]
     },
@@ -2145,7 +2231,7 @@
         [
           "2019",
           3,
-          3
+          7
         ]
       ]
     },

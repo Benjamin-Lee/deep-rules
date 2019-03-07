@@ -12,7 +12,7 @@ author-meta:
 - Alexandr A. Kalinin
 - Anthony Gitter
 - Casey S. Greene
-date-meta: '2019-03-03'
+date-meta: '2019-03-07'
 keywords:
 - quick tips
 - machine learning
@@ -29,10 +29,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e2b3f9786c288e563bd01ccfc4d9a7f09ad625dd/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/863f53fc708070d8668b3dbe6a34c09b1ccaaa4d/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@e2b3f97](https://github.com/Benjamin-Lee/deep-rules/tree/e2b3f9786c288e563bd01ccfc4d9a7f09ad625dd)
-on March 3, 2019.
+from [Benjamin-Lee/deep-rules@863f53f](https://github.com/Benjamin-Lee/deep-rules/tree/863f53fc708070d8668b3dbe6a34c09b1ccaaa4d)
+on March 7, 2019.
 </em></small>
 
 ## Authors
@@ -353,7 +353,7 @@ In this way, we can move beyond fitting predictive models toward building unders
 One of the greatest opportunities for deep learning in biology is the ability for deep learning techniques to incorporate representation learning to extract information that can not readily be captured by traditional methods [@UeE0s74F].
 The abundance of features for each training example means that the representation learning of the deep learning models can capture information-rich abstractions of data during the training process.
 Therefore with both deep learning and traditional machine learning models (_e.g._ _k_-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data.
-Applying deep learning to images of cats from the internet does not pose significant ethical, legal, or privacy problems; this is not the case when dealing with classified, confidential, trade secret, or other types of biological data that cannot be shared.
+Applying deep learning to images of cats from the internet does not pose significant ethical, legal, or privacy problems; this is not the case when dealing with classified, confidential, trade secret, or other types of biological data that cannot be shared [@uXPlMpfq].
 
 Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption [@me326jb9; @3326vtLW].
 However, adversarial training techniques such as model inversion attacks can be used to exploit model predictions to recover recognizable images of people's faces used for training [@zCqhgXvY].
