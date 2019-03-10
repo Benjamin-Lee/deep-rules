@@ -173,6 +173,61 @@
     "id": "FEPLn1Uo"
   },
   {
+    "number": "1810.08055v1",
+    "version": "1",
+    "URL": "https://arxiv.org/abs/1810.08055v1",
+    "title": "Ten Simple Rules for Reproducible Research in Jupyter Notebooks",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          13
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Adam Rule"
+      },
+      {
+        "literal": "Amanda Birmingham"
+      },
+      {
+        "literal": "Cristal Zuniga"
+      },
+      {
+        "literal": "Ilkay Altintas"
+      },
+      {
+        "literal": "Shih-Cheng Huang"
+      },
+      {
+        "literal": "Rob Knight"
+      },
+      {
+        "literal": "Niema Moshiri"
+      },
+      {
+        "literal": "Mai H. Nguyen"
+      },
+      {
+        "literal": "Sara Brin Rosenthal"
+      },
+      {
+        "literal": "Fernando Pérez"
+      },
+      {
+        "literal": "Peter W. Rose"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "Reproducibility of computational studies is a hallmark of scientific\nmethodology. It enables researchers to build with confidence on the methods and\nfindings of others, reuse and extend computational pipelines, and thereby drive\nscientific progress. Since many experimental studies rely on computational\nanalyses, biologists need guidance on how to set up and document reproducible\ndata analyses or simulations.\n  In this paper, we address several questions about reproducibility. For\nexample, what are the technical and non-technical barriers to reproducible\ncomputational studies? What opportunities and challenges do computational\nnotebooks offer to overcome some of these barriers? What tools are available\nand how can they be used effectively?\n  We have developed a set of rules to serve as a guide to scientists with a\nspecific focus on computational notebook systems, such as Jupyter Notebooks,\nwhich have become a tool of choice for many applications. Notebooks combine\ndetailed workflows with narrative text and visualization of results. Combined\nwith software repositories and open source licensing, notebooks are powerful\ntools for transparent, collaborative, reproducible, and reusable data analyses.",
+    "type": "report",
+    "id": "Tx4vUlOa"
+  },
+  {
     "number": "1811.00778v1",
     "version": "1",
     "URL": "https://arxiv.org/abs/1811.00778v1",
@@ -1726,6 +1781,150 @@
   },
   {
     "publisher": "Public Library of Science (PLoS)",
+    "issue": "10",
+    "DOI": "10.1371/journal.pcbi.1003285",
+    "type": "article-journal",
+    "page": "e1003285",
+    "source": "Crossref",
+    "title": "Ten Simple Rules for Reproducible Computational Research",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Geir Kjetil",
+        "family": "Sandve"
+      },
+      {
+        "given": "Anton",
+        "family": "Nekrutenko"
+      },
+      {
+        "given": "James",
+        "family": "Taylor"
+      },
+      {
+        "given": "Eivind",
+        "family": "Hovig"
+      }
+    ],
+    "container-title": "PLoS Computational Biology",
+    "language": "en",
+    "editor": [
+      {
+        "given": "Philip E.",
+        "family": "Bourne"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          24
+        ]
+      ]
+    },
+    "URL": "https://doi.org/pjb",
+    "container-title-short": "PLoS Comput Biol",
+    "PMCID": "PMC3812051",
+    "PMID": "24204232",
+    "id": "Pf3steOn"
+  },
+  {
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "7",
+    "DOI": "10.1371/journal.pcbi.1004947",
+    "type": "article-journal",
+    "page": "e1004947",
+    "source": "Crossref",
+    "title": "Ten Simple Rules for Taking Advantage of Git and GitHub",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Yasset",
+        "family": "Perez-Riverol"
+      },
+      {
+        "given": "Laurent",
+        "family": "Gatto"
+      },
+      {
+        "given": "Rui",
+        "family": "Wang"
+      },
+      {
+        "given": "Timo",
+        "family": "Sachsenberg"
+      },
+      {
+        "given": "Julian",
+        "family": "Uszkoreit"
+      },
+      {
+        "given": "Felipe da Veiga",
+        "family": "Leprevost"
+      },
+      {
+        "given": "Christian",
+        "family": "Fufezan"
+      },
+      {
+        "given": "Tobias",
+        "family": "Ternent"
+      },
+      {
+        "given": "Stephen J.",
+        "family": "Eglen"
+      },
+      {
+        "given": "Daniel S.",
+        "family": "Katz"
+      },
+      {
+        "given": "Tom J.",
+        "family": "Pollard"
+      },
+      {
+        "given": "Alexander",
+        "family": "Konovalov"
+      },
+      {
+        "given": "Robert M.",
+        "family": "Flight"
+      },
+      {
+        "given": "Kai",
+        "family": "Blin"
+      },
+      {
+        "given": "Juan Antonio",
+        "family": "Vizcaíno"
+      }
+    ],
+    "container-title": "PLOS Computational Biology",
+    "language": "en",
+    "editor": [
+      {
+        "given": "Scott",
+        "family": "Markel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          7,
+          14
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gbrb39",
+    "container-title-short": "PLoS Comput Biol",
+    "PMCID": "PMC4945047",
+    "PMID": "27415786",
+    "id": "kEX5dgzK"
+  },
+  {
+    "publisher": "Public Library of Science (PLoS)",
     "issue": "3",
     "DOI": "10.1371/journal.pcbi.1005399",
     "type": "article-journal",
@@ -1950,7 +2149,7 @@
         [
           "2019",
           3,
-          7
+          10
         ]
       ]
     },
@@ -2000,7 +2199,7 @@
         [
           "2019",
           3,
-          7
+          10
         ]
       ]
     },
@@ -2078,7 +2277,7 @@
         [
           "2019",
           3,
-          5
+          8
         ]
       ]
     },
@@ -2087,7 +2286,7 @@
         [
           "2019",
           3,
-          7
+          10
         ]
       ]
     },
@@ -2153,7 +2352,7 @@
         [
           "2019",
           3,
-          7
+          10
         ]
       ]
     },
@@ -2231,7 +2430,7 @@
         [
           "2019",
           3,
-          7
+          10
         ]
       ]
     },

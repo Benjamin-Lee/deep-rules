@@ -12,7 +12,7 @@ author-meta:
 - Alexandr A. Kalinin
 - Anthony Gitter
 - Casey S. Greene
-date-meta: '2019-03-07'
+date-meta: '2019-03-10'
 keywords:
 - quick tips
 - machine learning
@@ -29,10 +29,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/863f53fc708070d8668b3dbe6a34c09b1ccaaa4d/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/c73d3df1b83dbe9b889342d10f62cf6731e361eb/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@863f53f](https://github.com/Benjamin-Lee/deep-rules/tree/863f53fc708070d8668b3dbe6a34c09b1ccaaa4d)
-on March 7, 2019.
+from [Benjamin-Lee/deep-rules@c73d3df](https://github.com/Benjamin-Lee/deep-rules/tree/c73d3df1b83dbe9b889342d10f62cf6731e361eb)
+on March 10, 2019.
 </em></small>
 
 ## Authors
@@ -211,16 +211,16 @@ The performance comparison among DL models and many other ML approaches is infor
 
 Correctly training deep neural networks is a non-trivial process.
 There are many different options and potential pitfalls at every stage.
-To get good results you have to expect to train many networks with a range of different parameter and hyperparameter settings.
-Despite improved framework ease-of-use and on-demand cloud computing resources this means DL can be very demanding, often requiring significant infrastructure and patience to achieve state-of-the-art performance [@L7EocHX2].
+To get good results, you must expect to train many networks with a range of different parameter and hyperparameter settings.
+Deep learning can be very demanding, often requiring extensive computing infrastructure and patience to achieve state-of-the-art performance [@L7EocHX2].
 The experimentation inherent to DL is often noisy (requiring repetition) and represents a significant organizational challenge.
-All code, random seeds, parameters, and results must be carefully corralled using good coding practices (for example, version control, continuous integration etc.) in order to be effective and interpretable.
-This organization is also key to being able to efficiently share your work and to update your model as new data becomes available. 
+All code, random seeds, parameters, and results must be carefully corralled using general good coding practices (for example, version control [@kEX5dgzK], continuous integration etc.) in order to be effective and interpretable.
+This organization is also key to being able to efficiently share and reproduce your work [@Pf3steOn; @Tx4vUlOa] as well as to update your model as new data becomes available.
 
-One specific reproducibility pitfall that is often missed is the default use of non-deterministic algorithms by CUDA/CuDNN backends when training on GPUs.
+One specific reproducibility pitfall that is often missed in deep learning applications is the default use of non-deterministic algorithms by CUDA/CuDNN backends when using GPUs.
 Making this process reproducible is distinct from setting random seeds, which will primarily affect pseudorandom deterministic procedures such as shuffling and initialization, and requires explicitly specifying the use of deterministic algorithms in your DL library [@1GSwNJdl7]. 
 
-Similar to [Tip 4](#baselines), try to start with a relatively smaller network and increase the size and complexity as needed to prevent wasting time and resources. 
+Similar to [Tip 4](#baselines), try to start with a relatively small network and increase the size and complexity as needed to prevent wasting time and resources. 
 Beware of the seemingly trivial choices that are being made implicitly by default settings in your framework of choice e.g. choice of optimization algorithm (adaptive methods often lead to faster convergence during training but may lead to worse generalization performance on independent datasets [@mIx19cpn]).
 These need to be carefully considered and their impacts evaluated (see [Tip 6](#hyperparameters)).
 
