@@ -1,5 +1,5 @@
 {
-  "date": "March 10, 2019",
+  "date": "March 12, 2019",
   "authors": [
     {
       "github": "Benjamin-Lee",
@@ -167,6 +167,25 @@
       "affiliation_numbers": [
         17
       ]
+    },
+    {
+      "github": "SiminaB",
+      "name": "Simina M. Boca",
+      "initials": "SMB",
+      "orcid": "0000-0002-1400-3398",
+      "email": "smb310@georgetown.edu",
+      "affiliations": [
+        "Innovation Center for Biomedical Informatics, Georgetown University Medical Center",
+        "Department of Oncology, Georgetown University Medical Center",
+        "Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center",
+        "Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center"
+      ],
+      "affiliation_numbers": [
+        18,
+        19,
+        20,
+        21
+      ]
     }
   ],
   "affiliations": [
@@ -237,13 +256,29 @@
     {
       "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania",
       "affiliation_number": 17
+    },
+    {
+      "affiliation": "Innovation Center for Biomedical Informatics, Georgetown University Medical Center",
+      "affiliation_number": 18
+    },
+    {
+      "affiliation": "Department of Oncology, Georgetown University Medical Center",
+      "affiliation_number": 19
+    },
+    {
+      "affiliation": "Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center",
+      "affiliation_number": 20
+    },
+    {
+      "affiliation": "Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center",
+      "affiliation_number": 21
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "c73d3df1b83dbe9b889342d10f62cf6731e361eb"
+    "commit": "9b31e7f63da66ac7f76cb28c2e317eb16063ac88"
   },
   "manuscript_stats": {
     "reference_counts": {

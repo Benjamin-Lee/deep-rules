@@ -12,7 +12,8 @@ author-meta:
 - Alexandr A. Kalinin
 - Anthony Gitter
 - Casey S. Greene
-date-meta: '2019-03-10'
+- Simina M. Boca
+date-meta: '2019-03-12'
 keywords:
 - quick tips
 - machine learning
@@ -29,10 +30,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/c73d3df1b83dbe9b889342d10f62cf6731e361eb/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9b31e7f63da66ac7f76cb28c2e317eb16063ac88/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@c73d3df](https://github.com/Benjamin-Lee/deep-rules/tree/c73d3df1b83dbe9b889342d10f62cf6731e361eb)
-on March 10, 2019.
+from [Benjamin-Lee/deep-rules@9b31e7f](https://github.com/Benjamin-Lee/deep-rules/tree/9b31e7f63da66ac7f76cb28c2e317eb16063ac88)
+on March 12, 2019.
 </em></small>
 
 ## Authors
@@ -148,6 +149,15 @@ Please note the current author order is chronological and does not reflect the f
     [cgreene](https://github.com/cgreene)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+  </small>
+
++ **Simina M. Boca**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0002-1400-3398](https://orcid.org/0000-0002-1400-3398)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [SiminaB](https://github.com/SiminaB)<br>
+  <small>
+     Innovation Center for Biomedical Informatics, Georgetown University Medical Center; Department of Oncology, Georgetown University Medical Center; Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center; Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center
   </small>
 
 
