@@ -30,9 +30,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/eb83baf452a9ac826a1a42429a0cc54e29a2bfb7/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/cae37937fdb7fe3b0bb7d5349d9f03f6c35776dc/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@eb83baf](https://github.com/Benjamin-Lee/deep-rules/tree/eb83baf452a9ac826a1a42429a0cc54e29a2bfb7)
+from [Benjamin-Lee/deep-rules@cae3793](https://github.com/Benjamin-Lee/deep-rules/tree/cae37937fdb7fe3b0bb7d5349d9f03f6c35776dc)
 on March 12, 2019.
 </em></small>
 
@@ -360,17 +360,14 @@ In this way, we can move beyond fitting predictive models toward building unders
 
 ## Tip 10: Don't share models trained on sensitive data {#privacy}
 
-One of the greatest opportunities for deep learning in biology is the ability for deep learning techniques to incorporate representation learning to extract information that can not readily be captured by traditional methods [@UeE0s74F].
-The abundance of features for each training example means that the representation learning of the deep learning models can capture information-rich abstractions of data during the training process.
-Therefore with both deep learning and traditional machine learning models (_e.g._ _k_-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data.
-Applying deep learning to images of cats from the internet does not pose significant ethical, legal, or privacy problems; this is not the case when dealing with classified, confidential, trade secret, or other types of biological data that cannot be shared [@uXPlMpfq].
-
-Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption [@me326jb9; @3326vtLW].
-However, adversarial training techniques such as model inversion attacks can be used to exploit model predictions to recover recognizable images of people's faces used for training [@zCqhgXvY].
-These risks are more significant in deep learning than traditional machine learning because models have more representational capacity.
-The large number of model weights, even in a relatively small network, allow deep learning to model high-dimensional non-linear relationships among features.
-Such models can learn more nuanced features of specific data, but these features may be so specific that they may reveal the underlying sensitive data.
-When training deep learning models on sensitive data, using privacy preserving techniques [@1HuQe3Z8X], such as differential privacy [@LiCxcgZp; @fbIH12yd; @eJgWbXRz], can help to mitigate risks as long as the assumptions underlying these techniques are met.
+Practitioners may encounter datasets that cannot be shared, such as ones for which there would be significant ethical or legal issues associated with release [@uXPlMpfq].
+One of the greatest opportunities for deep learning in biology is the ability for these techniques to extract information that cannot readily be captured by traditional methods [@UeE0s74F].
+The representation learning of the deep learning models can capture information-rich abstractions of multiple features of the data during the training process.
+However, these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs.
+Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption [@me326jb9; @3326vtLW], but adversarial training techniques such as model inversion attacks can be used to exploit model predictions to recover recognizable images of people's faces used for training [@zCqhgXvY].
+With both deep learning and certain traditional machine learning methods (_e.g._ _k_-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data.
+Privacy preserving techniques [@1HuQe3Z8X], such as differential privacy [@LiCxcgZp; @fbIH12yd; @eJgWbXRz], can help to mitigate risks as long as the assumptions underlying these techniques are met.
+These techniques provide a path towards a future where models can be shared, but more software development and theoretical advances will be required to make these techniques easy to apply in many settings.
 
 
 ## Conclusion {#conclusion}
