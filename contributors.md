@@ -21,7 +21,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Casey S. Greene      | Yes        | Yes                       | Yes      |                | Yes         |
 | Anthony Gitter       | Yes        | Yes                       | Yes      |                | Yes         |
 | Tim Triche, Jr.      | Yes        | Yes                       | Yes      |                |             |
-| Simina M. Boca       | Yes        | Yes                       | Yes      |                |             |
+| Simina M. Boca       | Yes        | Yes                       | Yes      |                | Yes         |
 | Kun-Hsing Yu         | Yes        | Yes                       | Yes      |                |             |
 | Andrew L. Beam       | Yes        | Yes                       |          |                |             |
 | Hugo Aerts           | Yes        |                           |          |                |             |
