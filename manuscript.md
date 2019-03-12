@@ -30,9 +30,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9b31e7f63da66ac7f76cb28c2e317eb16063ac88/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/eb83baf452a9ac826a1a42429a0cc54e29a2bfb7/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@9b31e7f](https://github.com/Benjamin-Lee/deep-rules/tree/9b31e7f63da66ac7f76cb28c2e317eb16063ac88)
+from [Benjamin-Lee/deep-rules@eb83baf](https://github.com/Benjamin-Lee/deep-rules/tree/eb83baf452a9ac826a1a42429a0cc54e29a2bfb7)
 on March 12, 2019.
 </em></small>
 
@@ -203,16 +203,16 @@ Said simulations can be used to verify the correctness of the model’s implemen
 
 ## Tip 2: Use traditional methods to establish performance baselines {#baselines}
 
-Before diving into a fancy thousand-layer neural network, always implement at least a simple model to establish an adequate performance baseline.
-For example, researchers can build multinomial logistic regression or random forest models using the same software framework that is being used for DL and evaluate its classification performance.
+It is important to implement a simple model to establish an adequate performance baseline, since it is easy to fall into the trap of an unnecessarily convoluted analysis.
+For example, a researcher could first a build a logistic regression model using the same software framework planned for DL to first evaluate the classification performance.
 This approach will help researchers with assessing the complexity of the task at hand and debugging more complex DL architectures.
 The utility of these methods is evidenced by the recent development of hybrid models which combine DL and simpler models to improve robustness, interpretability, and confidence estimation [@uBcf6TJ2; @2bsGpiQt].
-Depending on the amount of available data and the type of tasks, DL models may not necessarily be the best performing one.
+Depending on the amount of available data and the type of tasks, DL models may not necessarily perform the best.
 As an illustration, the simple baseline models by Rajkomar et al. [@1DssZebFm] achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many.
 
 It is worth noting that conventional machine learning methods (e.g., support vector machines, random forests) are also likely to benefit from parameter tuning.
 It can be tempting to train baseline models with these conventional methods using default parameters, which may provide acceptable but not stellar performance, but then tune the parameters for DL models to optimize performance.
-Hu and Greene [@5CsWRjfp] discuss a Continental Breakfast Included effect by which unequal hyperparameter tuning skews the evaluation of methods, especially those with performance that varies substantially with modest changes to hyperparameters.
+Hu and Greene [@5CsWRjfp] discuss a "Continental Breakfast Included" effect by which unequal hyperparameter tuning skews the evaluation of methods, especially those with performance that varies substantially with modest changes to hyperparameters.
 Those wishing to compare methods should tune the parameters of traditional and DL to optimize performance before making claims about relative performance differences.
 The performance comparison among DL models and many other ML approaches is informative only when the models are similarly tuned.
 
