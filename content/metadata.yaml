@@ -110,4 +110,15 @@ author_info:
     email: greenescientist@gmail.com
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+  -
+    github: SiminaB
+    name: Simina M. Boca
+    initials: SMB
+    orcid: 0000-0002-1400-3398
+    email: smb310@georgetown.edu
+    affiliations:
+      - Innovation Center for Biomedical Informatics, Georgetown University Medical Center
+      - Department of Oncology, Georgetown University Medical Center
+      - Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center
+      - Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center
   # ^^^ Add your information above this line ^^^
