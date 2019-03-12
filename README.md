@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/Benjamin-Lee/deep-rules/tree/gh-pages) branch hosts the contents of this directory at https://Benjamin-Lee.github.io/deep-rules/.
-The permalink for this webpage version is https://Benjamin-Lee.github.io/deep-rules/v/c73d3df1b83dbe9b889342d10f62cf6731e361eb/.
+The permalink for this webpage version is https://Benjamin-Lee.github.io/deep-rules/v/9b31e7f63da66ac7f76cb28c2e317eb16063ac88/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://Benjamin-Lee.github.io/deep-rules/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`c73d3df1b83dbe9b889342d10f62cf6731e361eb`](https://github.com/Benjamin-Lee/deep-rules/commit/c73d3df1b83dbe9b889342d10f62cf6731e361eb).
+[`9b31e7f63da66ac7f76cb28c2e317eb16063ac88`](https://github.com/Benjamin-Lee/deep-rules/commit/9b31e7f63da66ac7f76cb28c2e317eb16063ac88).
