@@ -13,7 +13,7 @@ author-meta:
 - Anthony Gitter
 - Casey S. Greene
 - Simina M. Boca
-date-meta: '2019-03-12'
+date-meta: '2019-03-14'
 keywords:
 - quick tips
 - machine learning
@@ -30,10 +30,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/cae37937fdb7fe3b0bb7d5349d9f03f6c35776dc/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/32311cc4036ce59f86109e86ad9b22c691929d3a/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@cae3793](https://github.com/Benjamin-Lee/deep-rules/tree/cae37937fdb7fe3b0bb7d5349d9f03f6c35776dc)
-on March 12, 2019.
+from [Benjamin-Lee/deep-rules@32311cc](https://github.com/Benjamin-Lee/deep-rules/tree/32311cc4036ce59f86109e86ad9b22c691929d3a)
+on March 14, 2019.
 </em></small>
 
 ## Authors
@@ -371,6 +371,11 @@ These techniques provide a path towards a future where models can be shared, but
 
 
 ## Conclusion {#conclusion}
+
+Deep learning techniques have the potential for wide use in biology, meeting or exceeding the performance of both humans and the current state-of-the art algorithms in a variety of tasks.
+Beyond simply achieving good predictive performance, deep learning has the potential to generate novel biological insights that could assist the progress of fundamental research. 
+To realize this potential, the use of deep learning as a research tool must be approached as any other tool would be: scientifically and thoughtfully.
+We hope that our tips will serve as a starting point for the discussion of best practices for deep learning as they apply to biology, not as an ending point.
 
 
 ## Acknowledgements {#acknowledgements.md}
