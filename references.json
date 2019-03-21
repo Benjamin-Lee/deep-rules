@@ -725,6 +725,31 @@
   },
   {
     "publisher": "Springer Nature",
+    "issue": "1",
+    "DOI": "10.1023/a:1010933404324",
+    "type": "article-journal",
+    "page": "5-32",
+    "source": "Crossref",
+    "volume": "45",
+    "author": [
+      {
+        "given": "Leo",
+        "family": "Breiman"
+      }
+    ],
+    "container-title": "Machine Learning",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "URL": "https://doi.org/d8zjwq",
+    "id": "Uy4oESDl"
+  },
+  {
+    "publisher": "Springer Nature",
     "issue": "4",
     "DOI": "10.1038/ng1201-365",
     "type": "article-journal",
@@ -986,6 +1011,29 @@
     "PMCID": "PMC6081423",
     "PMID": "30087331",
     "id": "WGfstNkj"
+  },
+  {
+    "publisher": "Springer Nature",
+    "issue": "10",
+    "DOI": "10.1038/s41551-018-0315-x",
+    "type": "article-journal",
+    "page": "709-710",
+    "source": "Crossref",
+    "title": "Towards trustable machine learning",
+    "volume": "2",
+    "container-title": "Nature Biomedical Engineering",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfw9cn",
+    "container-title-short": "Nat Biomed Eng",
+    "id": "GdO9NZJH"
   },
   {
     "publisher": "Springer Nature",
@@ -1509,6 +1557,59 @@
   },
   {
     "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "1",
+    "DOI": "10.1109/jbhi.2016.2636665",
+    "type": "article-journal",
+    "page": "4-21",
+    "source": "Crossref",
+    "title": "Deep Learning for Health Informatics",
+    "volume": "21",
+    "author": [
+      {
+        "given": "Daniele",
+        "family": "Ravi"
+      },
+      {
+        "given": "Charence",
+        "family": "Wong"
+      },
+      {
+        "given": "Fani",
+        "family": "Deligianni"
+      },
+      {
+        "given": "Melissa",
+        "family": "Berthelot"
+      },
+      {
+        "given": "Javier",
+        "family": "Andreu-Perez"
+      },
+      {
+        "given": "Benny",
+        "family": "Lo"
+      },
+      {
+        "given": "Guang-Zhong",
+        "family": "Yang"
+      }
+    ],
+    "container-title": "IEEE Journal of Biomedical and Health Informatics",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfgtzx",
+    "container-title-short": "IEEE J. Biomed. Health Inform.",
+    "PMID": "28055930",
+    "id": "8seWxxzY"
+  },
+  {
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
     "issue": "12",
     "DOI": "10.1109/jproc.2017.2761740",
     "type": "article-journal",
@@ -1595,6 +1696,43 @@
     "URL": "https://doi.org/gfvs28",
     "container-title-short": "IEEE Trans. Big Data",
     "id": "ZwUaSNWa"
+  },
+  {
+    "publisher": "WORLD SCIENTIFIC",
+    "DOI": "10.1142/9789814644730_0014",
+    "type": "paper-conference",
+    "source": "Crossref",
+    "title": "UNSUPERVISED FEATURE CONSTRUCTION AND KNOWLEDGE EXTRACTION FROM GENOME-WIDE ASSAYS OF BREAST CANCER WITH DENOISING AUTOENCODERS",
+    "author": [
+      {
+        "given": "JIE",
+        "family": "TAN"
+      },
+      {
+        "given": "MATTHEW",
+        "family": "UNG"
+      },
+      {
+        "given": "CHAO",
+        "family": "CHENG"
+      },
+      {
+        "given": "CASEY S",
+        "family": "GREENE"
+      }
+    ],
+    "event": "Proceedings of the Pacific Symposium",
+    "container-title": "Biocomputing 2015",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          11
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gcgmbs",
+    "id": "PBiRSdXv"
   },
   {
     "publisher": "ACM Press",
@@ -2204,6 +2342,41 @@
       ]
     },
     "id": "R1RpVu06"
+  },
+  {
+    "type": "article-journal",
+    "title": "Interpreting Neural-network Connection Weights",
+    "container-title": "AI Expert",
+    "page": "46–51",
+    "volume": "6",
+    "issue": "4",
+    "source": "ACM Digital Library",
+    "URL": "http://dl.acm.org/citation.cfm?id=129449.129452",
+    "ISSN": "0888-3785",
+    "author": [
+      {
+        "family": "Garson",
+        "given": "G. David"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1991",
+          4
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          3,
+          21
+        ]
+      ]
+    },
+    "id": "nvwiZALT"
   },
   {
     "type": "webpage",

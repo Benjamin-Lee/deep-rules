@@ -30,9 +30,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/6f3e2f6d0cc8bc3a4b63d1ec84fd7df2f24bb4be/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/6f1f4c5c3d967b105f73aed11184b91b8496d5fa/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@6f3e2f6](https://github.com/Benjamin-Lee/deep-rules/tree/6f3e2f6d0cc8bc3a4b63d1ec84fd7df2f24bb4be)
+from [Benjamin-Lee/deep-rules@6f1f4c5](https://github.com/Benjamin-Lee/deep-rules/tree/6f1f4c5c3d967b105f73aed11184b91b8496d5fa)
 on March 21, 2019.
 </em></small>
 
@@ -333,7 +333,22 @@ In this case, simply holding out test data is insufficient.
 The best remedy for confounding variables is to [know your data](#know-your-problem) and to test your model on truly independent data.
 
 
-## Tip 8: Do not necessarily consider a DL model as a black box {#blackbox}
+## Tip 8: Your DL models can be more transparent {#blackbox} 
+In ML, interpretability refers to the study of the discriminative features used for classification or regression task.
+ML models can vary in terms of interpretability from a “transparent” to a “black-box” model, the first with a clear description of features importance found, for example, in common random forests implementations [@Uy4oESDl]. 
+The second for the most widely used DL implementations.  
+Because of the large number of parameters and non-linear relationships among features, DL models are hard to interpret when compared to other ML models. 
+
+There are, however, many strategies to interpret a DL models.
+For example, autoencoders (AE) is a family of unsupervised methods that aim to learn a new (encoded) representation and minimize the error between the new representation and the input data. 
+Tan et al., [@PBiRSdXv] used a denoising AE to summarize key features from breast cancer dataset.
+The authors could map encoded features to clinical characteristics relevant to the disease. 
+
+Model transparency is notably important in the biomedical field.
+Many authors attribute the lack of pervasiveness of deep learning tools in healthcare because of the inability to understand what these models learn [@8seWxxzY; @GdO9NZJH]. 
+In conclusion, we encourage beginners of the DL to train in parallel a base model that is easier to interpret. 
+In case the difference in accuracy is too high to trade-off with the DL model, pre-training AE may help to dissect which are discriminative features. 
+Alternatively, algorithms based on Garson's work [@nvwiZALT] can help to investigate the weights of a DL model to better understand it [TODO detail Garson’s algorithm?].
 
 
 ## Tip 9: Don't over-interpret predictions {#interpretation}
