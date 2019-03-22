@@ -13,7 +13,7 @@ author-meta:
 - Anthony Gitter
 - Casey S. Greene
 - Simina M. Boca
-date-meta: '2019-03-21'
+date-meta: '2019-03-22'
 keywords:
 - quick tips
 - machine learning
@@ -30,10 +30,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/6f1f4c5c3d967b105f73aed11184b91b8496d5fa/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/1b4308438c8675e2480a6cb3dda51d85799806a1/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@6f1f4c5](https://github.com/Benjamin-Lee/deep-rules/tree/6f1f4c5c3d967b105f73aed11184b91b8496d5fa)
-on March 21, 2019.
+from [Benjamin-Lee/deep-rules@1b43084](https://github.com/Benjamin-Lee/deep-rules/tree/1b4308438c8675e2480a6cb3dda51d85799806a1)
+on March 22, 2019.
 </em></small>
 
 ## Authors
@@ -42,119 +42,119 @@ Please note the current author order is chronological and does not reflect the f
 
 
 + **Benjamin D. Lee**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-7133-8397](https://orcid.org/0000-0002-7133-8397)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [Benjamin-Lee](https://github.com/Benjamin-Lee)<br>
   <small>
      Lab41, In-Q-Tel; School of Engineering and Applied Sciences, Harvard University; Department of Genetics, Harvard Medical School
   </small>
 
 + **Alexander J. Titus**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-0145-9564](https://orcid.org/0000-0002-0145-9564)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [AlexanderTitus](https://github.com/AlexanderTitus)<br>
   <small>
      Titus Analytics
   </small>
 
 + **Kun-Hsing Yu**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-9892-8218](https://orcid.org/0000-0001-9892-8218)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [khyu](https://github.com/khyu)<br>
   <small>
      Department of Biomedical Informatics, Harvard Medical School
   </small>
 
 + **Marc G. Chevrette**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-7209-0717](https://orcid.org/0000-0002-7209-0717)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [chevrm](https://github.com/chevrm)<br>
   <small>
      Department of Genetics, University of Wisconsin-Madison; Department of Bacteriology, University of Wisconsin-Madison
   </small>
 
 + **Paul Allen Stewart**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-0882-308X](https://orcid.org/0000-0003-0882-308X)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [pstew](https://github.com/pstew)<br>
   <small>
      Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center
   </small>
 
 + **Evan M. Cofer**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-3877-0433](https://orcid.org/0000-0003-3877-0433)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [evancofer](https://github.com/evancofer)<br>
   <small>
      Lewis-Sigler Institute for Integrative Genomics, Princeton University; Graduate Program in Quantitative and Computational Biology, Princeton University
   </small>
 
 + **Sebastian Raschka**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-6989-4493](https://orcid.org/0000-0001-6989-4493)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [rasbt](https://github.com/rasbt)<br>
   <small>
      Department of Statistics, University of Wisconsin-Madison
   </small>
 
 + **Finlay Maguire**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-1203-9514](https://orcid.org/0000-0002-1203-9514)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [fmaguire](https://github.com/fmaguire)<br>
   <small>
      Faculty of Computer Science, Dalhousie University
   </small>
 
 + **Benjamin J. Lengerich**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-8690-9554](https://orcid.org/0000-0001-8690-9554)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [blengerich](https://github.com/blengerich)<br>
   <small>
      Computer Science Department, Carnegie Mellon University
   </small>
 
 + **Alexandr A. Kalinin**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-4563-3226](https://orcid.org/0000-0003-4563-3226)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [alxndrkalinin](https://github.com/alxndrkalinin)<br>
   <small>
      Department of Computational Medicine and Bioinformatics, University of Michigan
   </small>
 
 + **Anthony Gitter**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-5324-9833](https://orcid.org/0000-0002-5324-9833)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [agitter](https://github.com/agitter)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
      Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research
   </small>
 
 + **Casey S. Greene**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [cgreene](https://github.com/cgreene)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
   </small>
 
 + **Simina M. Boca**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-1400-3398](https://orcid.org/0000-0002-1400-3398)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [SiminaB](https://github.com/SiminaB)<br>
   <small>
      Innovation Center for Biomedical Informatics, Georgetown University Medical Center; Department of Oncology, Georgetown University Medical Center; Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center; Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center
