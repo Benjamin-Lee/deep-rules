@@ -13,7 +13,7 @@ author-meta:
 - Anthony Gitter
 - Casey S. Greene
 - Simina M. Boca
-date-meta: '2019-03-22'
+date-meta: '2019-03-29'
 keywords:
 - quick tips
 - machine learning
@@ -30,10 +30,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/1b4308438c8675e2480a6cb3dda51d85799806a1/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a7c7713c5db775165cba37e34461a9394a136622/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@1b43084](https://github.com/Benjamin-Lee/deep-rules/tree/1b4308438c8675e2480a6cb3dda51d85799806a1)
-on March 22, 2019.
+from [Benjamin-Lee/deep-rules@a7c7713](https://github.com/Benjamin-Lee/deep-rules/tree/a7c7713c5db775165cba37e34461a9394a136622)
+on March 29, 2019.
 </em></small>
 
 ## Authors
@@ -176,6 +176,7 @@ By increasing the accessibility of DL for applications in biological research, w
 
 
 ## Tip 1: Concepts that apply to machine learning also apply to deep learning {#concepts}
+
 Deep learning is a distinct subfield of machine learning, but it is still a subfield.
 DL has proven to be an extremely powerful paradigm capable of outperforming “traditional” machine learning approaches in certain contexts, but it is not immune to the many limitations inherent to machine learning.
 Many best practices for machine learning also apply to deep learning.
@@ -269,6 +270,7 @@ Looking at these data can also clarify the study design (for example, by seeing 
 
 
 ## Tip 5: Choose an appropriate data representation and neural network architecture {#architecture}
+
 Unfortunately, choosing how to represent your data and design your architecture is closer to an art than a science.
 While certain best practices have been established by the research community [@JT3rHKc7], architecture design choices remain largely problem-specific and are vastly empirical efforts requiring extensive experimentation.
 Furthermore, as deep learning is a quickly evolving field, many recommendations are often short-lived and frequently replaced by newer insights supported by recent empirical results.
@@ -333,7 +335,8 @@ In this case, simply holding out test data is insufficient.
 The best remedy for confounding variables is to [know your data](#know-your-problem) and to test your model on truly independent data.
 
 
-## Tip 8: Your DL models can be more transparent {#blackbox} 
+## Tip 8: Your DL models can be more transparent {#blackbox}
+
 In ML, interpretability refers to the study of the discriminative features used for classification or regression task.
 ML models can vary in terms of interpretability from a “transparent” to a “black-box” model, the first with a clear description of features importance found, for example, in common random forests implementations [@Uy4oESDl]. 
 The second for the most widely used DL implementations.  
@@ -348,7 +351,7 @@ Model transparency is notably important in the biomedical field.
 Many authors attribute the lack of pervasiveness of deep learning tools in healthcare because of the inability to understand what these models learn [@8seWxxzY; @GdO9NZJH]. 
 In conclusion, we encourage beginners of the DL to train in parallel a base model that is easier to interpret. 
 In case the difference in accuracy is too high to trade-off with the DL model, pre-training AE may help to dissect which are discriminative features. 
-Alternatively, algorithms based on Garson's work [@nvwiZALT] can help to investigate the weights of a DL model to better understand it [TODO detail Garson’s algorithm?].
+Alternatively, algorithms based on Garson's work [@nvwiZALT] can help to investigate the weights of a DL model to better understand it [**TODO detail Garson’s algorithm?**].
 
 
 ## Tip 9: Don't over-interpret predictions {#interpretation}
@@ -393,10 +396,10 @@ To realize this potential, the use of deep learning as a research tool must be a
 We hope that our tips will serve as a starting point for the discussion of best practices for deep learning as they apply to biology, not as an ending point.
 
 
-## Acknowledgements {#acknowledgements.md}
+## Acknowledgements {#acknowledgements}
 
- The authors would like the thank Daniel Himmelstein and the developers of Manubot for creating the software that enabled the collaborative composition of this manuscript.
- We would also like to thank [**TODO**: insert the names of the contributors who don't meet the standards for authorship] for their contributions to the discussions that comprised the intial stage of the drafting process.
+The authors would like the thank Daniel Himmelstein and the developers of Manubot for creating the software that enabled the collaborative composition of this manuscript.
+We would also like to thank [**TODO**: insert the names of the contributors who don't meet the standards for authorship] for their contributions to the discussions that comprised the intial stage of the drafting process.
 
 
 ## References {.page_break_before}
