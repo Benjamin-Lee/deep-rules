@@ -13,7 +13,7 @@ author-meta:
 - Anthony Gitter
 - Casey S. Greene
 - Simina M. Boca
-date-meta: '2019-03-29'
+date-meta: '2019-04-16'
 keywords:
 - quick tips
 - machine learning
@@ -30,10 +30,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a7c7713c5db775165cba37e34461a9394a136622/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e6d6d0eef758d1d3ff20ce67bd66250bec0e9730/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@a7c7713](https://github.com/Benjamin-Lee/deep-rules/tree/a7c7713c5db775165cba37e34461a9394a136622)
-on March 29, 2019.
+from [Benjamin-Lee/deep-rules@e6d6d0e](https://github.com/Benjamin-Lee/deep-rules/tree/e6d6d0eef758d1d3ff20ce67bd66250bec0e9730)
+on April 16, 2019.
 </em></small>
 
 ## Authors
@@ -204,18 +204,21 @@ Said simulations can be used to verify the correctness of the model’s implemen
 
 ## Tip 2: Use traditional methods to establish performance baselines {#baselines}
 
-It is important to implement a simple model to establish an adequate performance baseline, since it is easy to fall into the trap of an unnecessarily convoluted analysis.
-For example, a researcher could first a build a logistic regression model using the same software framework planned for DL to first evaluate the classification performance.
-This approach will help researchers with assessing the complexity of the task at hand and debugging more complex DL architectures.
-The utility of these methods is evidenced by the recent development of hybrid models which combine DL and simpler models to improve robustness, interpretability, and confidence estimation [@uBcf6TJ2; @2bsGpiQt].
-Depending on the amount of available data and the type of tasks, DL models may not necessarily perform the best.
-As an illustration, the simple baseline models by Rajkomar et al. [@1DssZebFm] achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many.
+Since deep learning requires practitioners to consider a larger number and variety of tuning parameters or algorithm settings (so-called hyperparameters) compared to more traditional methods, it is easy to fall into the trap of performing an unnecessarily convoluted analysis. 
+Hence, before applying deep learning to a given problem, we highly recommend implementing a simple model at the beginning of each study to establish adequate performance baselines.
+While performance baselines available from existing literature also serve as a helpful guidance and should be taken into account, an implementation of a simple model (for example, linear or logistic regression) using the same software framework planned for DL is additionally helpful for assessing the correctness of computational data processing and performance evaluation pipelines.
+Beyond serving as a predictive performance baseline, an implementation of a simple model can also provide guidance for estimating computational performance and and resource requirements.
+Furthermore, in some cases, it can also be useful to combine simple baseline model with deep neural networks. Such hybrid models that combine DL and simpler models can improve generalization performance, model interpretability, and confidence estimation [@uBcf6TJ2; @2bsGpiQt].
+Depending on the amount and the nature of the available data, as well as the task to be performed, deep learning may not always be able to outperform conventional methods.
+As an illustration, Rajkomar et al. [@1DssZebFm] found that simpler baseline models achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many. 
+Another example is provided by Koutsoukas et al., who benchmarked several traditional machine learning approaches against deep neural networks for modeling bioactivity data on moderately sized datasets [@19zfIm033]. 
+The researchers found that while well tuned deep learning approaches generally tend to outperform conventional classifiers, simple methods such as Naive Bayes classification tend to outperform deep learning as the noise in the dataset increases.
 
-It is worth noting that conventional machine learning methods (e.g., support vector machines, random forests) are also likely to benefit from parameter tuning.
-It can be tempting to train baseline models with these conventional methods using default parameters, which may provide acceptable but not stellar performance, but then tune the parameters for DL models to optimize performance.
-Hu and Greene [@5CsWRjfp] discuss a "Continental Breakfast Included" effect by which unequal hyperparameter tuning skews the evaluation of methods, especially those with performance that varies substantially with modest changes to hyperparameters.
-Those wishing to compare methods should tune the parameters of traditional and DL to optimize performance before making claims about relative performance differences.
-The performance comparison among DL models and many other ML approaches is informative only when the models are similarly tuned.
+It is worth noting that conventional off-the-shelf machine learning algorithms (e.g., support vector machines and random forests) are also likely to benefit from hyperparameter tuning.
+It can be tempting to train baseline models with these conventional methods using default settings, which may provide acceptable but not stellar performance, but then tune the settings for DL algorithms to further optimize performance.
+Hu and Greene [@5CsWRjfp] discuss a "Continental Breakfast Included" effect by which unequal hyperparameter tuning for different learning algorithms skews the evaluation of these methods, especially when the performance of an algorithm varies substantially with modest changes to its hyperparameters.
+Those wishing to compare different learning algorithms should tune the settings of both traditional and DL-based methods to optimize performance before making claims about relative performance differences.
+The performance comparison among DL models and many other ML approaches is informative only when the models are similarly well-tuned.
 
 
 ## Tip 3: Understand the complexities of training deep neural networks {#complexities}
@@ -297,19 +300,22 @@ Multi-task learning can be used separately or in combination with transfer learn
 
 ## Tip 6: Expect to tune hyperparameters extensively and systematically {#hyperparameters}
 
-Deep neural networks have the ability to approximate arbitrary continuous functions, as long as the neural network contains enough hidden nodes [@1BnILgle7].
-However, this flexibility makes the training process somewhat challenging.
+Multi-layer neural networks can approximate arbitrary continuous functions, given at least one hidden layer, a non-linear activation function, and a large number of hidden units [@1BnILgle7].
+The same theory applies to deeper architectures, which require an exponentially smaller number of hidden units to approximate functions with the same complexity as neural networks with only one hidden layer.
+The flexibility of neural networks to approximate arbitrary, continuous functions as well as the overall trend towards deeper architectures with an increasing number of hidden units and learnable weight parameters (the so-called increasing "capacity" of neural networks) allows for solving more and more complex problems but also poses additional challenges during model training.
 Users should expect to systematically evaluate the impact of numerous hyperparameters when they aim to apply deep neural networks to new data or challenges.
-
-Neural network architectures also have their own odd nuances that affect hyperparameter portability.
-For example, in variational autoencoders (VAEs) there are two elements that are being optimized, reconstruction and distribution loss [@NLVTJ9Lj].
-In common implementations, the relative weights of each are a function of the number of input features (more increase the importance of reconstruction loss) and the number of features in the latent space (more increase the importance of the distribution loss).
+Hyperparameters are typically manifested in the choice of optimization algorithms, learning rate, activation functions, number of hidden layers and hidden units, size of the training batches, weight initialization schemes, and also seeds for pseudo-random number generators used for dataset shuffling and weight initialization.
+Moreover, additional hyperparameters are introduced common techniques that facilitate the training of deeper architectures, such as norm penalties (typically in the form of $L^2$ regularization), Dropout [@wgOFUxdw], and Batch Normalization [@4oKcgKmU], which can reduce the effect of the so-called vanishing or exploding gradient problem when working with deep neural networks.
+Neural network architectures also have their odd nuances that affect hyperparameter portability.
+For example, in variational autoencoders (VAEs), two components are being optimized, a reconstruction and a distribution loss [@NLVTJ9Lj].
+In conventional implementations, the relative weighting of each component is a function of the number of input features (more increase the importance of reconstruction loss) and the number of features in the latent space (more increase the importance of the distribution loss). 
+**{SR: I am not sure this is correct, why would a larger number of, e.g., pixels make the reconstruction loss more important? I suppose this is true if we just sum over the pixel-wise differences, but if we average, e.g., using MSE, I am not convinced this is true. Please comment.}**
 Users who apply a VAE architecture to a new dataset with more input features, even without changing any hyperparameters, alter the relative weights of the components of the loss function.
 
 This flexibility also makes it difficult to evaluate the extent to which neural network methods are well-suited to solving a task.
 We discussed how the Continental Breakfast Included effect could affect methods developers seeking to compare techniques in [Tip 2](#baselines).
 This effect also has implications for those seeking to use existing deep learning methods because performance estimates from deep neural networks are often provided after tuning.
-The implication of this effect on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require an input of human and compute time for hyperparameter optimization.
+The implication of this effect on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require a relatively large input of human and computation time for hyperparameter optimization.
 
 
 ## Tip 7: Address deep neural networks' increased tendency to overfit the dataset {#overfitting}
