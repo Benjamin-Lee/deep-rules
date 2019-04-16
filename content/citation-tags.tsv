@@ -1,4 +1,7 @@
 tag	citation
+Yosinski2014	url:https://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-neural-networks
+srivastava-dropout	url:http://dl.acm.org/citation.cfm?id=2670313
+ioffe-batchnorm	url:https://dl.acm.org/citation.cfm?id=3045118.3045167
 garson-interpreting	url:https://dl.acm.org/citation.cfm?id=129452
 hornik-approximation	doi:10.1016/0893-6080(91)90009-T
 krogh-weight-decay	url:http://dl.acm.org/citation.cfm?id=2986916.2987033
