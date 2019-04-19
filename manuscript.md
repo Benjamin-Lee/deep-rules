@@ -30,9 +30,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/f7520a9a369fda056319e6e0198b6e13c4d19770/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/f6a7ace67060e79036998aac0bef182127d19014/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@f7520a9](https://github.com/Benjamin-Lee/deep-rules/tree/f7520a9a369fda056319e6e0198b6e13c4d19770)
+from [Benjamin-Lee/deep-rules@f6a7ace](https://github.com/Benjamin-Lee/deep-rules/tree/f6a7ace67060e79036998aac0bef182127d19014)
 on April 19, 2019.
 </em></small>
 
@@ -283,7 +283,7 @@ With that being said, there are some general principles that are useful to follo
 First and foremost, use your knowledge of the available data and your question (see [Tip 4](#know-your-problem)) to inform your data representation and architectural design choices.
 For example, if your data is an array of measurements with no natural ordering of inputs (such as gene expression data), multilayer perceptrons (MLPs), which are the most basic type of neural network, may be effective.
 Similarly, if your data is comprised of images, convolutional neural networks (CNNs) are a good choice because they emphasize local structures and adjacency within the data.
-CNNs may also be a good choice for learning on sequences, as recent empirical evidence suggests they can outperform canonical sequence learning techniques such as recurrent neural networks (RNNs) and the closely related long short-term memory (LSTM) networks [arxiv:1803.01271]. 
+CNNs may also be a good choice for learning on sequences, as recent empirical evidence suggests they can outperform canonical sequence learning techniques such as recurrent neural networks (RNNs) and the closely related long short-term memory (LSTM) networks [@aqgi0yxG].
 
 DL models can typically benefit from large amounts of labeled data to avoid overfitting (see [Tip 7](#overfitting)) and to achieve top performance on a task in hand.
 In the event that there is not enough data available to train your model, consider using transfer learning.

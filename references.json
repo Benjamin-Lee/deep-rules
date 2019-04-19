@@ -71,6 +71,37 @@
     "id": "UeE0s74F"
   },
   {
+    "number": "1803.01271v2",
+    "version": "2",
+    "URL": "https://arxiv.org/abs/1803.01271v2",
+    "title": "An Empirical Evaluation of Generic Convolutional and Recurrent Networks\n  for Sequence Modeling",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Shaojie Bai"
+      },
+      {
+        "literal": "J. Zico Kolter"
+      },
+      {
+        "literal": "Vladlen Koltun"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "For most deep learning practitioners, sequence modeling is synonymous with\nrecurrent networks. Yet recent results indicate that convolutional\narchitectures can outperform recurrent networks on tasks such as audio\nsynthesis and machine translation. Given a new sequence modeling task or\ndataset, which architecture should one use? We conduct a systematic evaluation\nof generic convolutional and recurrent architectures for sequence modeling. The\nmodels are evaluated across a broad range of standard tasks that are commonly\nused to benchmark recurrent networks. Our results indicate that a simple\nconvolutional architecture outperforms canonical recurrent networks such as\nLSTMs across a diverse range of tasks and datasets, while demonstrating longer\neffective memory. We conclude that the common association between sequence\nmodeling and recurrent networks should be reconsidered, and convolutional\nnetworks should be regarded as a natural starting point for sequence modeling\ntasks. To assist related work, we have made code available at\nhttp://github.com/locuslab/TCN .",
+    "type": "report",
+    "id": "aqgi0yxG"
+  },
+  {
     "number": "1803.04765v1",
     "version": "1",
     "URL": "https://arxiv.org/abs/1803.04765v1",
