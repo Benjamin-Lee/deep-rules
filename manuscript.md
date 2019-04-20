@@ -13,7 +13,7 @@ author-meta:
 - Anthony Gitter
 - Casey S. Greene
 - Simina M. Boca
-date-meta: '2019-04-19'
+date-meta: '2019-04-20'
 keywords:
 - quick tips
 - machine learning
@@ -30,10 +30,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/f6a7ace67060e79036998aac0bef182127d19014/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/cb7f6a177d5ad63b28daec691f545b6df611a55f/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@f6a7ace](https://github.com/Benjamin-Lee/deep-rules/tree/f6a7ace67060e79036998aac0bef182127d19014)
-on April 19, 2019.
+from [Benjamin-Lee/deep-rules@cb7f6a1](https://github.com/Benjamin-Lee/deep-rules/tree/cb7f6a177d5ad63b28daec691f545b6df611a55f)
+on April 20, 2019.
 </em></small>
 
 ## Authors
@@ -320,7 +320,7 @@ The implication of this effect on users of deep neural networks is that attainin
 
 ## Tip 7: Address deep neural networks' increased tendency to overfit the dataset {#overfitting}
 
-Overfitting is one of the most significant dangers faced by a deep learning practitioner.
+Overfitting is one of the most significant dangers you'll face in deep learning (and traditional machine learning).
 Put simply, overfitting occurs when a model fits patterns in the training data too closely, includes noise or non-scientifically relevant perturbations, or in the most extreme case, simply memorizes patterns in the training set.
 This subtle distinction is made clearer by seeing what happens when a model is tested on data to which it was not exposed during training: just as a student who memorizes exam materials struggles to correctly answer questions for which they have not studied, a machine learning model that has overfit to its training data will perform poorly on unseen test data.
 Deep learning models are particularly susceptible to overfitting due to their relatively large number of parameters and associated representational capacity.
