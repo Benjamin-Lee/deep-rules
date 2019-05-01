@@ -49,4 +49,4 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Alexander J. Titus   | Yes        | Yes                       | Yes      |                | Yes         |
 | Alexandr A. Kalinin  | Yes        | Yes                       | Yes      |                | Yes         |
 | Finlay Maguire       | Yes        | Yes                       | Yes      |                | Yes         |
-| Sonja Aits           |            |                           |          |                |             |
+| Sonja Aits           | Yes        |                           |          |                |             |
