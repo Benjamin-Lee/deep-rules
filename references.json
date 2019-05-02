@@ -2327,56 +2327,8 @@
     "id": "u86hHJ9b"
   },
   {
-    "type": "article-journal",
-    "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
-    "container-title": "J. Mach. Learn. Res.",
-    "page": "1929–1958",
-    "volume": "15",
-    "issue": "1",
-    "source": "ACM Digital Library",
-    "abstract": "Deep neural nets with a large number of parameters are very powerful machine learning systems. However, overfitting is a serious problem in such networks. Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. Dropout is a technique for addressing this problem. The key idea is to randomly drop units (along with their connections) from the neural network during training. This prevents units from co-adapting too much. During training, dropout samples from an exponential number of different \"thinned\" networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network that has smaller weights. This significantly reduces overfitting and gives major improvements over other regularization methods. We show that dropout improves the performance of neural networks on supervised learning tasks in vision, speech recognition, document classification and computational biology, obtaining state-of-the-art results on many benchmark data sets.",
-    "URL": "http://dl.acm.org/citation.cfm?id=2627435.2670313",
-    "ISSN": "1532-4435",
-    "shortTitle": "Dropout",
-    "author": [
-      {
-        "family": "Srivastava",
-        "given": "Nitish"
-      },
-      {
-        "family": "Hinton",
-        "given": "Geoffrey"
-      },
-      {
-        "family": "Krizhevsky",
-        "given": "Alex"
-      },
-      {
-        "family": "Sutskever",
-        "given": "Ilya"
-      },
-      {
-        "family": "Salakhutdinov",
-        "given": "Ruslan"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2014",
-          1
-        ]
-      ]
-    },
-    "accessed": {
-      "date-parts": [
-        [
-          "2019",
-          4,
-          20
-        ]
-      ]
-    },
+    "URL": "http://dl.acm.org/citation.cfm?id=2670313",
+    "type": "webpage",
     "id": "wgOFUxdw"
   },
   {
@@ -2413,8 +2365,8 @@
       "date-parts": [
         [
           "2019",
-          4,
-          20
+          5,
+          2
         ]
       ]
     },
@@ -2463,8 +2415,8 @@
       "date-parts": [
         [
           "2019",
-          4,
-          20
+          5,
+          2
         ]
       ]
     },
@@ -2498,8 +2450,8 @@
       "date-parts": [
         [
           "2019",
-          4,
-          20
+          5,
+          2
         ]
       ]
     },
@@ -2539,8 +2491,8 @@
       "date-parts": [
         [
           "2019",
-          4,
-          20
+          5,
+          2
         ]
       ]
     },
@@ -2626,7 +2578,7 @@
         [
           "2019",
           4,
-          17
+          22
         ]
       ]
     },
@@ -2634,8 +2586,8 @@
       "date-parts": [
         [
           "2019",
-          4,
-          20
+          5,
+          2
         ]
       ]
     },
@@ -2700,8 +2652,8 @@
       "date-parts": [
         [
           "2019",
-          4,
-          20
+          5,
+          2
         ]
       ]
     },
@@ -2778,8 +2730,8 @@
       "date-parts": [
         [
           "2019",
-          4,
-          20
+          5,
+          2
         ]
       ]
     },
