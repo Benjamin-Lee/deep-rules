@@ -200,6 +200,7 @@
     "container-title": "arXiv",
     "publisher": "arXiv",
     "abstract": "Early results in using convolutional neural networks (CNNs) on x-rays to\ndiagnose disease have been promising, but it has not yet been shown that models\ntrained on x-rays from one hospital or one group of hospitals will work equally\nwell at different hospitals. Before these tools are used for computer-aided\ndiagnosis in real-world clinical settings, we must verify their ability to\ngeneralize across a variety of hospital systems. A cross-sectional design was\nused to train and evaluate pneumonia screening CNNs on 158,323 chest x-rays\nfrom NIH (n=112,120 from 30,805 patients), Mount Sinai (42,396 from 12,904\npatients), and Indiana (n=3,807 from 3,683 patients). In 3 / 5 natural\ncomparisons, performance on chest x-rays from outside hospitals was\nsignificantly lower than on held-out x-rays from the original hospital systems.\nCNNs were able to detect where an x-ray was acquired (hospital system, hospital\ndepartment) with extremely high accuracy and calibrate predictions accordingly.\nThe performance of CNNs in diagnosing diseases on x-rays may reflect not only\ntheir ability to identify disease-specific imaging findings on x-rays, but also\ntheir ability to exploit confounding information. Estimates of CNN performance\nbased on test data from hospital systems used for model training may overstate\ntheir likely real-world performance.",
+    "DOI": "10.1371/journal.pmed.1002683",
     "type": "report",
     "id": "FEPLn1Uo"
   },
@@ -259,9 +260,9 @@
     "id": "Tx4vUlOa"
   },
   {
-    "number": "1811.00778v1",
-    "version": "1",
-    "URL": "https://arxiv.org/abs/1811.00778v1",
+    "number": "1811.00778v2",
+    "version": "2",
+    "URL": "https://arxiv.org/abs/1811.00778v2",
     "title": "The AlexNet Moment for Homomorphic Encryption: HCNN, the First\n  Homomorphic CNN on Encrypted Data with GPUs",
     "issued": {
       "date-parts": [
@@ -286,7 +287,7 @@
         "literal": "Chan Fook Mun"
       },
       {
-        "literal": "Sim Jun Jie"
+        "literal": "Jun Jie Sim"
       },
       {
         "literal": "Benjamin Hong Meng Tan"
@@ -489,7 +490,7 @@
     "id": "x6HXFAS4"
   },
   {
-    "publisher": "Springer Nature",
+    "publisher": "Springer Science and Business Media LLC",
     "issue": "3",
     "DOI": "10.1007/s11263-015-0816-y",
     "type": "article-journal",
@@ -902,7 +903,7 @@
     "id": "YuxbleXb"
   },
   {
-    "publisher": "Springer Nature",
+    "publisher": "Springer Science and Business Media LLC",
     "issue": "10",
     "DOI": "10.1038/nrg2825",
     "type": "article-journal",
@@ -966,7 +967,7 @@
     "id": "mPnIAH38"
   },
   {
-    "publisher": "Springer Nature America, Inc",
+    "publisher": "Springer Nature",
     "issue": "1",
     "DOI": "10.1038/s41467-017-02388-1",
     "type": "article-journal",
@@ -1009,7 +1010,7 @@
     "id": "lwg6sPLT"
   },
   {
-    "publisher": "Springer Nature America, Inc",
+    "publisher": "Springer Nature",
     "issue": "1",
     "DOI": "10.1038/s41467-018-05378-z",
     "type": "article-journal",
@@ -1064,10 +1065,11 @@
     },
     "URL": "https://doi.org/gfw9cn",
     "container-title-short": "Nat Biomed Eng",
+    "PMID": "31015650",
     "id": "GdO9NZJH"
   },
   {
-    "publisher": "Springer Nature",
+    "publisher": "Springer Science and Business Media LLC",
     "issue": "1",
     "DOI": "10.1038/s41746-018-0029-1",
     "type": "article-journal",
@@ -2327,11 +2329,60 @@
     "id": "u86hHJ9b"
   },
   {
-    "URL": "http://dl.acm.org/citation.cfm?id=2670313",
-    "type": "webpage",
-    "id": "wgOFUxdw"
+    "id": "wgOFUxdw",
+    "type": "article-journal",
+    "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "container-title": "J. Mach. Learn. Res.",
+    "page": "1929–1958",
+    "volume": "15",
+    "issue": "1",
+    "source": "ACM Digital Library",
+    "abstract": "Deep neural nets with a large number of parameters are very powerful machine learning systems. However, overfitting is a serious problem in such networks. Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. Dropout is a technique for addressing this problem. The key idea is to randomly drop units (along with their connections) from the neural network during training. This prevents units from co-adapting too much. During training, dropout samples from an exponential number of different \"thinned\" networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network that has smaller weights. This significantly reduces overfitting and gives major improvements over other regularization methods. We show that dropout improves the performance of neural networks on supervised learning tasks in vision, speech recognition, document classification and computational biology, obtaining state-of-the-art results on many benchmark data sets.",
+    "URL": "http://dl.acm.org/citation.cfm?id=2627435.2670313",
+    "ISSN": "1532-4435",
+    "shortTitle": "Dropout",
+    "author": [
+      {
+        "family": "Srivastava",
+        "given": "Nitish"
+      },
+      {
+        "family": "Hinton",
+        "given": "Geoffrey"
+      },
+      {
+        "family": "Krizhevsky",
+        "given": "Alex"
+      },
+      {
+        "family": "Sutskever",
+        "given": "Ilya"
+      },
+      {
+        "family": "Salakhutdinov",
+        "given": "Ruslan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          1
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          6,
+          3
+        ]
+      ]
+    }
   },
   {
+    "id": "eR3C2hhK",
     "type": "paper-conference",
     "title": "A Simple Weight Decay Can Improve Generalization",
     "container-title": "Proceedings of the 4th International Conference on Neural Information Processing Systems",
@@ -2344,6 +2395,7 @@
     "abstract": "It has been observed in numerical simulations that a weight decay can improve generalization in a feed-forward neural network. This paper explains why. It is proven that a weight decay has two effects in a linear network. First, it suppresses any irrelevant components of the weight vector by choosing the smallest vector that solves the learning problem. Second, if the size is chosen right, a weight decay can suppress some of the effects of static noise on the targets, which improves generalization quite a lot. It is then shown how to extend these results to networks with hidden layers and non-linear units. Finally the theory is confirmed by some numerical simulations using the data from NetTalk.",
     "URL": "http://dl.acm.org/citation.cfm?id=2986916.2987033",
     "ISBN": "9781558602229",
+    "note": "event-place: Denver, Colorado",
     "author": [
       {
         "family": "Krogh",
@@ -2365,14 +2417,14 @@
       "date-parts": [
         [
           "2019",
-          5,
-          2
+          6,
+          3
         ]
       ]
-    },
-    "id": "eR3C2hhK"
+    }
   },
   {
+    "id": "R1RpVu06",
     "type": "article-journal",
     "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
     "container-title": "Journal of Machine Learning Research",
@@ -2415,14 +2467,14 @@
       "date-parts": [
         [
           "2019",
-          5,
-          2
+          6,
+          3
         ]
       ]
-    },
-    "id": "R1RpVu06"
+    }
   },
   {
+    "id": "nvwiZALT",
     "type": "article-journal",
     "title": "Interpreting Neural-network Connection Weights",
     "container-title": "AI Expert",
@@ -2450,25 +2502,24 @@
       "date-parts": [
         [
           "2019",
-          5,
-          2
+          6,
+          3
         ]
       ]
-    },
-    "id": "nvwiZALT"
+    }
   },
   {
+    "id": "4oKcgKmU",
     "type": "paper-conference",
     "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
     "container-title": "Proceedings of the 32Nd International Conference on International Conference on Machine Learning - Volume 37",
     "collection-title": "ICML'15",
     "publisher": "JMLR.org",
-    "publisher-place": "Lille, France",
     "page": "448–456",
     "source": "ACM Digital Library",
-    "event-place": "Lille, France",
     "abstract": "Training Deep Neural Networks is complicated by the fact that the distribution of each layer's inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization, and makes it notoriously hard to train models with saturating nonlinearities. We refer to this phenomenon as internal covariate shift, and address the problem by normalizing layer inputs. Our method draws its strength from making normalization a part of the model architecture and performing the normalization for each training mini-batch. Batch Normalization allows us to use much higher learning rates and be less careful about initialization, and in some cases eliminates the need for Dropout. Applied to a state-of-the-art image classification model, Batch Normalization achieves the same accuracy with 14 times fewer training steps, and beats the original model by a significant margin. Using an ensemble of batch-normalized networks, we improve upon the best published result on ImageNet classification: reaching 4.82% top-5 test error, exceeding the accuracy of human raters.",
     "URL": "http://dl.acm.org/citation.cfm?id=3045118.3045167",
+    "note": "event-place: Lille, France",
     "shortTitle": "Batch Normalization",
     "author": [
       {
@@ -2491,12 +2542,11 @@
       "date-parts": [
         [
           "2019",
-          5,
-          2
+          6,
+          3
         ]
       ]
-    },
-    "id": "4oKcgKmU"
+    }
   },
   {
     "type": "webpage",
@@ -2539,6 +2589,7 @@
     "id": "ysdRl4lj"
   },
   {
+    "id": "1GGGHdsew",
     "type": "webpage",
     "title": "Open collaborative writing with Manubot",
     "URL": "https://greenelab.github.io/meta-review/",
@@ -2577,8 +2628,8 @@
       "date-parts": [
         [
           "2019",
-          4,
-          22
+          6,
+          3
         ]
       ]
     },
@@ -2586,14 +2637,14 @@
       "date-parts": [
         [
           "2019",
-          5,
-          2
+          6,
+          3
         ]
       ]
-    },
-    "id": "1GGGHdsew"
+    }
   },
   {
+    "id": "enhj7VT6",
     "type": "chapter",
     "title": "How transferable are features in deep neural networks?",
     "container-title": "Advances in Neural Information Processing Systems 27",
@@ -2652,14 +2703,14 @@
       "date-parts": [
         [
           "2019",
-          5,
-          2
+          6,
+          3
         ]
       ]
-    },
-    "id": "enhj7VT6"
+    }
   },
   {
+    "id": "mIx19cpn",
     "type": "chapter",
     "title": "The Marginal Value of Adaptive Gradient Methods in Machine Learning",
     "container-title": "Advances in Neural Information Processing Systems 30",
@@ -2730,11 +2781,10 @@
       "date-parts": [
         [
           "2019",
-          5,
-          2
+          6,
+          3
         ]
       ]
-    },
-    "id": "mIx19cpn"
+    }
   }
 ]

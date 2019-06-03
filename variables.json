@@ -1,5 +1,5 @@
 {
-  "date": "May 2, 2019",
+  "date": "June 3, 2019",
   "authors": [
     {
       "github": "Benjamin-Lee",
@@ -278,7 +278,7 @@
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "e80c29cf64bbc0018edc9161e2483b33bea59225"
+    "commit": "f73d7e8166957b92d0934b327614940d1ae449ea"
   },
   "manuscript_stats": {
     "reference_counts": {

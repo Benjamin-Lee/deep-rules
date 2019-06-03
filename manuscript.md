@@ -13,7 +13,7 @@ author-meta:
 - Anthony Gitter
 - Casey S. Greene
 - Simina M. Boca
-date-meta: '2019-05-02'
+date-meta: '2019-06-03'
 keywords:
 - quick tips
 - machine learning
@@ -30,10 +30,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e80c29cf64bbc0018edc9161e2483b33bea59225/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/f73d7e8166957b92d0934b327614940d1ae449ea/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@e80c29c](https://github.com/Benjamin-Lee/deep-rules/tree/e80c29cf64bbc0018edc9161e2483b33bea59225)
-on May 2, 2019.
+from [Benjamin-Lee/deep-rules@f73d7e8](https://github.com/Benjamin-Lee/deep-rules/tree/f73d7e8166957b92d0934b327614940d1ae449ea)
+on June 3, 2019.
 </em></small>
 
 ## Authors
