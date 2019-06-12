@@ -13,7 +13,8 @@ author-meta:
 - Anthony Gitter
 - Casey S. Greene
 - Simina M. Boca
-date-meta: '2019-06-03'
+- Timothy J. Triche, Jr.
+date-meta: '2019-06-12'
 keywords:
 - quick tips
 - machine learning
@@ -30,10 +31,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/f73d7e8166957b92d0934b327614940d1ae449ea/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/f1a7392d0635d2d0ea3c6ac2c8fa7305f5748786/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@f73d7e8](https://github.com/Benjamin-Lee/deep-rules/tree/f73d7e8166957b92d0934b327614940d1ae449ea)
-on June 3, 2019.
+from [Benjamin-Lee/deep-rules@f1a7392](https://github.com/Benjamin-Lee/deep-rules/tree/f1a7392d0635d2d0ea3c6ac2c8fa7305f5748786)
+on June 12, 2019.
 </em></small>
 
 ## Authors
@@ -158,6 +159,15 @@ Please note the current author order is chronological and does not reflect the f
     [SiminaB](https://github.com/SiminaB)<br>
   <small>
      Innovation Center for Biomedical Informatics, Georgetown University Medical Center; Department of Oncology, Georgetown University Medical Center; Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center; Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center
+  </small>
+
++ **Timothy J. Triche, Jr.**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-5665-946X](https://orcid.org/0000-0001-5665-946X)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [ttriche](https://github.com/ttriche)<br>
+  <small>
+     Center for Epigenetics, Van Andel Research Institute; Department of Translational Genomics, Keck School of Medicine, University of Southern California
   </small>
 
 

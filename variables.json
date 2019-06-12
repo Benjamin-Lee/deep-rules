@@ -1,5 +1,5 @@
 {
-  "date": "June 3, 2019",
+  "date": "June 12, 2019",
   "authors": [
     {
       "github": "Benjamin-Lee",
@@ -186,6 +186,21 @@
         20,
         21
       ]
+    },
+    {
+      "github": "ttriche",
+      "name": "Timothy J. Triche, Jr.",
+      "initials": "TJT",
+      "orcid": "0000-0001-5665-946X",
+      "email": "tim.triche@gmail.com",
+      "affiliations": [
+        "Center for Epigenetics, Van Andel Research Institute",
+        "Department of Translational Genomics, Keck School of Medicine, University of Southern California"
+      ],
+      "affiliation_numbers": [
+        22,
+        23
+      ]
     }
   ],
   "affiliations": [
@@ -272,13 +287,21 @@
     {
       "affiliation": "Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center",
       "affiliation_number": 21
+    },
+    {
+      "affiliation": "Center for Epigenetics, Van Andel Research Institute",
+      "affiliation_number": 22
+    },
+    {
+      "affiliation": "Department of Translational Genomics, Keck School of Medicine, University of Southern California",
+      "affiliation_number": 23
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "f73d7e8166957b92d0934b327614940d1ae449ea"
+    "commit": "f1a7392d0635d2d0ea3c6ac2c8fa7305f5748786"
   },
   "manuscript_stats": {
     "reference_counts": {
