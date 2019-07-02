@@ -121,4 +121,13 @@ author_info:
       - Department of Oncology, Georgetown University Medical Center
       - Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center
       - Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center
+  -
+    github: ttriche
+    name: Timothy J. Triche, Jr.
+    initials: TJT
+    orcid: 0000-0001-5665-946X
+    email: tim.triche@gmail.com
+    affiliations:
+      - Center for Epigenetics, Van Andel Research Institute
+      - Department of Translational Genomics, Keck School of Medicine, University of Southern California
   # ^^^ Add your information above this line ^^^

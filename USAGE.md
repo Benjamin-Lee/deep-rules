@@ -4,7 +4,8 @@ This repository uses [Manubot](https://manubot.org) to automatically produce a m
 
 ## Manubot markdown
 
-Manuscript text should be written in markdown files, which should be located in [`content`](content) with a digit prefix for ordering (e.g. `01.`, `02.`, etc.) and a `.md` extension.
+Manuscript text should be written in markdown files located in the [`content`](content) directory.
+Markdown files are identified by their `.md` extension and ordered according to their two-digit prefix (e.g. `01.`, `02.`, … `99.`).
 
 For basic formatting, check out the [CommonMark Help](https://commonmark.org/help/) page for an introduction to the formatting options provided by standard markdown.
 In addition, Manubot supports an extended version of markdown, tailored for scholarly writing, which includes [Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) and the extensions discussed below.
@@ -198,9 +199,8 @@ If you are using the Manubot, feel free to submit a pull request to add your man
 To cite the Manubot project or for more information on its design and history, see `@url:https://greenelab.github.io/meta-review/`:
 
 > **Open collaborative writing with Manubot**<br>
-Daniel S. Himmelstein, David R. Slochower, Venkat S. Malladi, Casey S.
-Greene, Anthony Gitter<br>
-_Manubot Preprint_ (2018) <https://greenelab.github.io/meta-review/>
+Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter<br>
+_Manubot Preprint_ (2019) <https://greenelab.github.io/meta-review/>
 
 ## Acknowledgments
 
