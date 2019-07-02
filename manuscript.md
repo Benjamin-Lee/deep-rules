@@ -14,7 +14,7 @@ author-meta:
 - Casey S. Greene
 - Simina M. Boca
 - Timothy J. Triche, Jr.
-date-meta: '2019-06-12'
+date-meta: '2019-07-02'
 keywords:
 - quick tips
 - machine learning
@@ -31,10 +31,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/f1a7392d0635d2d0ea3c6ac2c8fa7305f5748786/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9bb0a4a9602bcf2300ca3fed50a0cd4b8e0195e6/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@f1a7392](https://github.com/Benjamin-Lee/deep-rules/tree/f1a7392d0635d2d0ea3c6ac2c8fa7305f5748786)
-on June 12, 2019.
+from [Benjamin-Lee/deep-rules@9bb0a4a](https://github.com/Benjamin-Lee/deep-rules/tree/9bb0a4a9602bcf2300ca3fed50a0cd4b8e0195e6)
+on July 2, 2019.
 </em></small>
 
 ## Authors
@@ -211,6 +211,8 @@ Model performance should be evaluated with a carefully-picked panel of relevant 
 Extreme cases warrant testing the robustness of the model and metrics on simulated data for which the ground truth is known.
 Said simulations can be used to verify the correctness of the model’s implementation as well.
 
+In summary, if you are not familiar with machine learning, review a general machine learning guide such as [@p4Nl5If0] before diving right into deep learning.
+
 
 ## Tip 2: Use traditional methods to establish performance baselines {#baselines}
 
@@ -230,6 +232,8 @@ Hu and Greene [@5CsWRjfp] discuss a "Continental Breakfast Included" effect by w
 Those wishing to compare different learning algorithms should tune the settings of both traditional and DL-based methods to optimize performance before making claims about relative performance differences.
 The performance comparison among DL models and many other ML approaches is informative only when the models are similarly well-tuned.
 
+To sum this tip up, create and fully tune several traditional models such as logistic regression models or random forests before implementing a DL model.
+
 
 ## Tip 3: Understand the complexities of training deep neural networks {#complexities}
 
@@ -248,6 +252,8 @@ Similar to [Tip 4](#baselines), try to start with a relatively small network and
 Beware of the seemingly trivial choices that are being made implicitly by default settings in your framework of choice e.g. choice of optimization algorithm (adaptive methods often lead to faster convergence during training but may lead to worse generalization performance on independent datasets [@mIx19cpn]).
 These need to be carefully considered and their impacts evaluated (see [Tip 6](#hyperparameters)).
 
+In short, use smaller and simpler networks to enable faster prototyping and follow general software development best practices to maximize reproducibility.
+
 
 ## Tip 4: Know your data and your question {#know-your-problem}
 
@@ -263,23 +269,25 @@ Metadata has been standardized in many fields and can help with this (for exampl
 Receiving first-hand knowledge of the “gotchas" of a dataset will minimize the amount of guesswork and increase the success rate of a deep learning project.
 For example, if the main reason why the data was collected was to test the impact of an intervention, then it may be the case that a randomized controlled trial was performed.
 However, it is not always possible to perform a randomized trial for ethical or practical reasons.
-Therefore, an observational study design is often considered, with the data either prospectively or retrospectively collected. 
+Therefore, an observational study design is often considered, with the data either prospectively or retrospectively collected.
 In order to ensure similar distributions of important characteristics across study groups in the absence of randomization, individuals may be matched based on age, gender, or weight.
 Study designs will often have different assumptions and caveats, and these cannot be ignored during a data analysis.
 Many datasets are now passively collected or do not have a specific design, but even in this case it is important to know how individuals or samples were treated.
 Samples originating from the same study site, oversampling of ethnic groups or zip codes, and sample processing differences are all sources of variation that need to be accounted for.
 
-Systematic biases, which can be induced by confounding variables, for example, can lead to artifacts or so-called "batch effects." 
+Systematic biases, which can be induced by confounding variables, for example, can lead to artifacts or so-called "batch effects."
 As a consequence, models may learn to rely on correlations that are irrelevant in the scientific context of the study and may result in misguided predictions and misleading conclusions [@mPnIAH38].
 Other study design considerations that should not be overlooked include knowing whether a study involves biological or technical replicates or both.
-For example, are some samples collected from the same individuals at different time points? 
-Are those time points before and after some treatment? 
+For example, are some samples collected from the same individuals at different time points?
+Are those time points before and after some treatment?
 If one assumes that all the samples are independent but that is in fact not the case, a variety of issues may arise, including having a lower effective sample size than expected.
 
 In general, deep learning has an increased tendency for overfitting, compared to classical methods, due to the large number of parameters being estimated, making issues of adequate sample size even more important (see [Tip 7](#overfitting)).
 For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see [Tip 9](#interpretation)).
 Finally, it is important to note that with the exception of very specific cases of unsupervised data analysis, it is generally the case that a molecular or imaging dataset does not have much value without appropriate clinical or demographic data; this must always be balanced with the need to protect patient privacy (see [Tip 10](#privacy)).
 Looking at these data can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.
+
+Basically, throughly study your data and ensure that you understand its context and peculiarities *before* jumping into deep learning.
 
 
 ## Tip 5: Choose an appropriate data representation and neural network architecture {#architecture}
@@ -305,15 +313,17 @@ For example Rojkomar et al. showed advantages of ImageNet-pretraining [@cBVeXnZx
 In addition or as an alternative to pre-training models on larger datasets for transfer learning yourself, you may also be able to obtain pre-trained models from public repositories, such as Kipoi [@14cVrrqP1] for genomics models.
 Moreover, learned features can be helpful even when pre-training task was different from the target one [@x7a5SM90].
 Related to this property of transfer learning is multi-task learning, in which a network is trained jointly for multiple tasks simultaneously, sharing the same set of features across them.
-Multi-task learning can be used separately or in combination with transfer learning [@ZwUaSNWa].
+Multi-task learning can be used separately or even in combination with transfer learning [@ZwUaSNWa].
+
+This tip can be distilled two main action points: first, base your network's architecture on your knowledge of the problem and, second, take advantage of similar existing data or pre-trained deep learning models.
 
 
-## Tip 6: Expect to tune hyperparameters extensively and systematically {#hyperparameters}
+## Tip 6: Tune your hyperparameters extensively and systematically {#hyperparameters}
 
 Multi-layer neural networks can approximate arbitrary continuous functions, given at least one hidden layer, a non-linear activation function, and a large number of hidden units [@1BnILgle7].
 The same theory applies to deeper architectures, which require an exponentially smaller number of hidden units to approximate functions with the same complexity as neural networks with only one hidden layer.
 The flexibility of neural networks to approximate arbitrary, continuous functions as well as the overall trend towards deeper architectures with an increasing number of hidden units and learnable weight parameters (the so-called increasing "capacity" of neural networks) allows for solving more and more complex problems but also poses additional challenges during model training.
-Users should expect to systematically evaluate the impact of numerous hyperparameters when they aim to apply deep neural networks to new data or challenges.
+You should expect to systematically evaluate the impact of numerous hyperparameters when you aim to apply deep neural networks to new data or challenges.
 Hyperparameters are typically manifested in the choice of optimization algorithms, learning rate, activation functions, number of hidden layers and hidden units, size of the training batches, weight initialization schemes, and also seeds for pseudo-random number generators used for dataset shuffling and weight initialization.
 Moreover, additional hyperparameters are introduced common techniques that facilitate the training of deeper architectures, such as norm penalties (typically in the form of $L^2$ regularization), Dropout [@wgOFUxdw], and Batch Normalization [@4oKcgKmU], which can reduce the effect of the so-called vanishing or exploding gradient problem when working with deep neural networks.
 Neural network architectures also have their odd nuances that affect hyperparameter portability.
@@ -326,6 +336,8 @@ This flexibility also makes it difficult to evaluate the extent to which neural 
 We discussed how the Continental Breakfast Included effect could affect methods developers seeking to compare techniques in [Tip 2](#baselines).
 This effect also has implications for those seeking to use existing deep learning methods because performance estimates from deep neural networks are often provided after tuning.
 The implication of this effect on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require a relatively large input of human and computation time for hyperparameter optimization.
+
+To get the best performance of your model, be sure to systematically optimize your hyperparameters on your tuning dataset, introduced in the next section. 
 
 
 ## Tip 7: Address deep neural networks' increased tendency to overfit the dataset {#overfitting}
@@ -349,6 +361,9 @@ If the model performs no better on real data than randomly scrambled data, then 
 Additionally, one must be sure that their data are not skewed or biased, such as by having confounding and scientifically irrelevant variables that the model can pick up on [@FEPLn1Uo].
 In this case, simply holding out test data is insufficient.
 The best remedy for confounding variables is to [know your data](#know-your-problem) and to test your model on truly independent data.
+
+In essence, split your data into training, tuning, and single-use testing sets to assess the performance of the model on data it truly has not seen before. 
+Additionally, be cognizant of the danger of skewed or biased data artificially inflating accuracy.
 
 
 ## Tip 8: Your DL models can be more transparent {#blackbox}
@@ -382,14 +397,13 @@ While we know that accurately predicting an outcome doesn't imply learning the c
 A poignant example of this lesson is [@980FAm5x; @gSmt16Rh].
 In this study, the authors evaluated the capacities of several models to predict the probability of death for patients admitted to an intensive care unit with pneumonia.
 Unsurprisingly, the neural network model achieved the best predictive accuracy.
-However, after fitting a rule-based model, the authors discovered that the hospital data implied the rule "HasAsthma(x) => LowerRisk(x)".
+However, after fitting a rule-based model, the authors discovered that the hospital data implied the rule `HasAsthma(x) => LowerRisk(x)`.
 This rule contradicts medical understanding - having asthma doesn't make pneumonia better!
 This rule was supported by the data (pneumonia patients with a history of pneumonia tended to receive more aggressive care), so the neural network also learned to make predictions according to this rule.
 Guiding treatment decisions according to the predictions of the neural network would have been disastrous, even though the neural network had high predictive accuracy.
 
 To trust deep learning models, we must combine knowledge of the training data ([Tip 4](#know-your-problem)) with inspection of the model ([Tip 8](#blackbox)).
-By probing data domains where the model succeeds and contrasting with domains where the model fails, we can identify the internal logic and deduce scientific conclusions.
-In this way, we can move beyond fitting predictive models toward building understanding.
+To move beyond fitting predictive models toward building understanding and deducing scientific conclusions, probe data domains where your model succeeds and contrast them with domains where your model fails in order to identify your model's internal logic, taking care to avoid overinterpreting or anthropomorphizing the model.
 
 
 ## Tip 10: Don't share models trained on sensitive data {#privacy}
@@ -402,6 +416,7 @@ Techniques to train deep neural networks without sharing unencrypted access to d
 With both deep learning and certain traditional machine learning methods (_e.g._ _k_-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data.
 Privacy preserving techniques [@1HuQe3Z8X], such as differential privacy [@LiCxcgZp; @fbIH12yd; @eJgWbXRz], can help to mitigate risks as long as the assumptions underlying these techniques are met.
 These techniques provide a path towards a future where models can be shared, but more software development and theoretical advances will be required to make these techniques easy to apply in many settings.
+Until then, don't share models trained on sensitive data.
 
 
 ## Conclusion {#conclusion}
