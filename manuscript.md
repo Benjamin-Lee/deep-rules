@@ -31,9 +31,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9bb0a4a9602bcf2300ca3fed50a0cd4b8e0195e6/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e63754145d9060d211d4e9e114dbdd7e318dfe07/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@9bb0a4a](https://github.com/Benjamin-Lee/deep-rules/tree/9bb0a4a9602bcf2300ca3fed50a0cd4b8e0195e6)
+from [Benjamin-Lee/deep-rules@e637541](https://github.com/Benjamin-Lee/deep-rules/tree/e63754145d9060d211d4e9e114dbdd7e318dfe07)
 on July 2, 2019.
 </em></small>
 
@@ -192,7 +192,7 @@ DL has proven to be an extremely powerful paradigm capable of outperforming “t
 Many best practices for machine learning also apply to deep learning.
 Like all computational methods, deep learning should be applied in a systematic manner that is reproducible and rigorously tested.
 
-Those developing deep learning models should select data that are relevant to the problem at hand; non-salient data can hamper performance or lead to spurious conclusions.
+Those developing deep learning models should select datasets that are relevant to the problem at hand; non-salient data can hamper performance or lead to spurious conclusions.
 Biases in testing data can also unduly influence measures of model performance, and it may be difficult to directly identify confounders from the model.
 Investigators should consider the extent to which the outcome of interest is likely to be predictable from the input data and begin by throughly inspecting the input data.
 Suppose that there are robust heritability estimates for a phenotype that suggest that the genetic contribution is modest but a deep learning model predicts the phenotype with very high accuracy.
@@ -200,7 +200,7 @@ The model may be capturing signal unrelated to genetic mechanisms underlying the
 In this case, a possible explanation is that people with similar genetic markers may have shared exposures.
 This is something that researchers should probe before reporting unrealistic accuracy measures.
 A similar situation can arise with tasks for which inter-rater reliability is modest but deep learning models produce very high accuracies.
-When coupled with imprudence, data that is confounded, biased, skewed, or of low quality will produce models of dubious performance and limited generalizability.
+When coupled with imprudence, datasets that are confounded, biased, skewed, or of low quality will produce models of dubious performance and limited generalizability.
 
 Using a test set more than once will lead to biased estimates of the generalization performance  [@1CDx6NYSj; @hJQdIoO3].
 Deep supervised learning models should be trained, tuned, and tested on non-overlapping datasets.
@@ -260,11 +260,12 @@ In short, use smaller and simpler networks to enable faster prototyping and foll
 Having a well-defined scientific question and a clear analysis plan is crucial for carrying out a successful deep learning project.
 Just like it would be inadvisable to step foot in a laboratory and begin experiments without having a defined endpoint, a deep learning project should not be undertaken without preparation.
 Foremost, it is important to assess if a dataset exists that can answer the biological question of interest; obtaining said data and associated metadata and reviewing the study protocol should be pursued as early on in the project as possible.
-A publication or resource might purportedly offer data that seems to be a good fit to test your hypothesis, but the act of obtaining the data can reveal numerous problems such as the data is unstructured when it is supposed to be structured, crucial metadata such as sample stratification is missing, or the usable sample size is different than what is reported.
+A publication or resource might purportedly offer a dataset that seems to be a good fit to test your hypothesis, but the act of obtaining it can reveal numerous problems. 
+It may be unstructured when it is supposed to be structured, crucial metadata such as sample stratification are missing, or the usable sample size is different than what is reported.
 Data collection should be documented or a data collection protocol should be created and specified in the project documentation.
 Information such as the resource used, the date downloaded, and the version of the dataset, if any, will help minimize operational confusion and will allow for transparency during the publication process.
 
-Once the data is obtained, it is easy to begin analyzing data without a good understanding of the study design, namely why the data was collected and how.
+Once the dataset is obtained, it is easy to begin analysis without a good understanding of the study design, namely why the data was collected and how.
 Metadata has been standardized in many fields and can help with this (for example, see [@YuxbleXb]), but if at all possible, seek out a subject matter expert who has experience with this type of data.
 Receiving first-hand knowledge of the “gotchas" of a dataset will minimize the amount of guesswork and increase the success rate of a deep learning project.
 For example, if the main reason why the data was collected was to test the impact of an intervention, then it may be the case that a randomized controlled trial was performed.
@@ -285,7 +286,7 @@ If one assumes that all the samples are independent but that is in fact not the 
 In general, deep learning has an increased tendency for overfitting, compared to classical methods, due to the large number of parameters being estimated, making issues of adequate sample size even more important (see [Tip 7](#overfitting)).
 For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see [Tip 9](#interpretation)).
 Finally, it is important to note that with the exception of very specific cases of unsupervised data analysis, it is generally the case that a molecular or imaging dataset does not have much value without appropriate clinical or demographic data; this must always be balanced with the need to protect patient privacy (see [Tip 10](#privacy)).
-Looking at these data can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.
+Looking at these annotations can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.
 
 Basically, throughly study your data and ensure that you understand its context and peculiarities *before* jumping into deep learning.
 
@@ -299,15 +300,15 @@ This is further complicated by the fact that many recommendations do not general
 With that being said, there are some general principles that are useful to follow when experimenting.
 
 First and foremost, use your knowledge of the available data and your question (see [Tip 4](#know-your-problem)) to inform your data representation and architectural design choices.
-For example, if your data is an array of measurements with no natural ordering of inputs (such as gene expression data), multilayer perceptrons (MLPs), which are the most basic type of neural network, may be effective.
-Similarly, if your data is comprised of images, convolutional neural networks (CNNs) are a good choice because they emphasize local structures and adjacency within the data.
+For example, if your dataset is an array of measurements with no natural ordering of inputs (such as gene expression data), multilayer perceptrons (MLPs), which are the most basic type of neural network, may be effective.
+Similarly, if your dataset is comprised of images, convolutional neural networks (CNNs) are a good choice because they emphasize local structures and adjacency within the data.
 CNNs may also be a good choice for learning on sequences, as recent empirical evidence suggests they can outperform canonical sequence learning techniques such as recurrent neural networks (RNNs) and the closely related long short-term memory (LSTM) networks [@aqgi0yxG].
 
 DL models can typically benefit from large amounts of labeled data to avoid overfitting (see [Tip 7](#overfitting)) and to achieve top performance on a task in hand.
 In the event that there is not enough data available to train your model, consider using transfer learning.
 In transfer learning, a model whose weights were generated by training on another dataset is used as the starting point for training [@enhj7VT6].
 Transfer learning is most useful when pre-training and target datasets are of similar nature [@enhj7VT6].
-For this reason, it is important to search for similar data that is already available and may potentially be used to increase the size of the training set or for pre-training and subsequent fine-tuning on the target data.
+For this reason, it is important to search for similar datasets that are already available and may potentially be used to increase the size of the training set or for pre-training and subsequent fine-tuning on the target data.
 However, even when this assumption does not hold, transferring features still can improve performance of the model compared to just random feature initialization.
 For example Rojkomar et al. showed advantages of ImageNet-pretraining [@cBVeXnZx] for the model that is applied to grayscale medical image classification [@x6HXFAS4].
 In addition or as an alternative to pre-training models on larger datasets for transfer learning yourself, you may also be able to obtain pre-trained models from public repositories, such as Kipoi [@14cVrrqP1] for genomics models.
@@ -358,7 +359,7 @@ Additionally, there are a variety of techniques to reduce overfitting during tra
 Another way, as described by Chuang and Keiser, is to identify the baseline level of memorization of the network by training on the data with the labels randomly shuffled and to see if the model performs better on the actual data [@yqAEYaMg].
 If the model performs no better on real data than randomly scrambled data, then the performance of the model can be attributed to overfitting.
 
-Additionally, one must be sure that their data are not skewed or biased, such as by having confounding and scientifically irrelevant variables that the model can pick up on [@FEPLn1Uo].
+Additionally, one must be sure that their dataset is not skewed or biased, such as by having confounding and scientifically irrelevant variables that the model can pick up on [@FEPLn1Uo].
 In this case, simply holding out test data is insufficient.
 The best remedy for confounding variables is to [know your data](#know-your-problem) and to test your model on truly independent data.
 
@@ -422,7 +423,7 @@ Until then, don't share models trained on sensitive data.
 ## Conclusion {#conclusion}
 
 Deep learning techniques have the potential for wide use in biology, meeting or exceeding the performance of both humans and the current state-of-the art algorithms in a variety of tasks.
-Beyond simply achieving good predictive performance, deep learning has the potential to generate novel biological insights that could assist the progress of fundamental research. 
+Beyond simply achieving good predictive performance, deep learning has the potential to generate novel biological insights that could assist the progress of fundamental research.
 To realize this potential, the use of deep learning as a research tool must be approached as any other tool would be: scientifically and thoughtfully.
 We hope that our tips will serve as a starting point for the discussion of best practices for deep learning as they apply to biology, not as an ending point.
 
