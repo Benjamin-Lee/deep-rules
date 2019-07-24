@@ -1,5 +1,5 @@
 {
-  "date": "July 2, 2019",
+  "date": "July 24, 2019",
   "authors": [
     {
       "github": "Benjamin-Lee",
@@ -49,14 +49,13 @@
       "name": "Marc G. Chevrette",
       "initials": "MGC",
       "orcid": "0000-0002-7209-0717",
-      "email": "chevrm@gmail.com",
+      "twitter": "wildtypeMC",
+      "email": "chevrette@wisc.edu",
       "affiliations": [
-        "Department of Genetics, University of Wisconsin-Madison",
-        "Department of Bacteriology, University of Wisconsin-Madison"
+        "Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison"
       ],
       "affiliation_numbers": [
-        6,
-        7
+        6
       ]
     },
     {
@@ -69,7 +68,7 @@
         "Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center"
       ],
       "affiliation_numbers": [
-        8
+        7
       ]
     },
     {
@@ -83,8 +82,8 @@
         "Graduate Program in Quantitative and Computational Biology, Princeton University"
       ],
       "affiliation_numbers": [
-        9,
-        10
+        8,
+        9
       ]
     },
     {
@@ -97,7 +96,7 @@
         "Department of Statistics, University of Wisconsin-Madison"
       ],
       "affiliation_numbers": [
-        11
+        10
       ]
     },
     {
@@ -110,7 +109,7 @@
         "Faculty of Computer Science, Dalhousie University"
       ],
       "affiliation_numbers": [
-        12
+        11
       ]
     },
     {
@@ -123,7 +122,7 @@
         "Computer Science Department, Carnegie Mellon University"
       ],
       "affiliation_numbers": [
-        13
+        12
       ]
     },
     {
@@ -136,7 +135,7 @@
         "Department of Computational Medicine and Bioinformatics, University of Michigan"
       ],
       "affiliation_numbers": [
-        14
+        13
       ]
     },
     {
@@ -151,8 +150,8 @@
         "Morgridge Institute for Research"
       ],
       "affiliation_numbers": [
-        15,
-        16
+        14,
+        15
       ]
     },
     {
@@ -165,7 +164,7 @@
         "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania"
       ],
       "affiliation_numbers": [
-        17
+        16
       ]
     },
     {
@@ -181,10 +180,10 @@
         "Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center"
       ],
       "affiliation_numbers": [
+        17,
         18,
         19,
-        20,
-        21
+        20
       ]
     },
     {
@@ -198,8 +197,8 @@
         "Department of Translational Genomics, Keck School of Medicine, University of Southern California"
       ],
       "affiliation_numbers": [
-        22,
-        23
+        21,
+        22
       ]
     }
   ],
@@ -225,83 +224,79 @@
       "affiliation_number": 5
     },
     {
-      "affiliation": "Department of Genetics, University of Wisconsin-Madison",
+      "affiliation": "Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison",
       "affiliation_number": 6
     },
     {
-      "affiliation": "Department of Bacteriology, University of Wisconsin-Madison",
+      "affiliation": "Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center",
       "affiliation_number": 7
     },
     {
-      "affiliation": "Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center",
+      "affiliation": "Lewis-Sigler Institute for Integrative Genomics, Princeton University",
       "affiliation_number": 8
     },
     {
-      "affiliation": "Lewis-Sigler Institute for Integrative Genomics, Princeton University",
+      "affiliation": "Graduate Program in Quantitative and Computational Biology, Princeton University",
       "affiliation_number": 9
     },
     {
-      "affiliation": "Graduate Program in Quantitative and Computational Biology, Princeton University",
+      "affiliation": "Department of Statistics, University of Wisconsin-Madison",
       "affiliation_number": 10
     },
     {
-      "affiliation": "Department of Statistics, University of Wisconsin-Madison",
+      "affiliation": "Faculty of Computer Science, Dalhousie University",
       "affiliation_number": 11
     },
     {
-      "affiliation": "Faculty of Computer Science, Dalhousie University",
+      "affiliation": "Computer Science Department, Carnegie Mellon University",
       "affiliation_number": 12
     },
     {
-      "affiliation": "Computer Science Department, Carnegie Mellon University",
+      "affiliation": "Department of Computational Medicine and Bioinformatics, University of Michigan",
       "affiliation_number": 13
     },
     {
-      "affiliation": "Department of Computational Medicine and Bioinformatics, University of Michigan",
+      "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
       "affiliation_number": 14
     },
     {
-      "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
+      "affiliation": "Morgridge Institute for Research",
       "affiliation_number": 15
     },
     {
-      "affiliation": "Morgridge Institute for Research",
+      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania",
       "affiliation_number": 16
     },
     {
-      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania",
+      "affiliation": "Innovation Center for Biomedical Informatics, Georgetown University Medical Center",
       "affiliation_number": 17
     },
     {
-      "affiliation": "Innovation Center for Biomedical Informatics, Georgetown University Medical Center",
+      "affiliation": "Department of Oncology, Georgetown University Medical Center",
       "affiliation_number": 18
     },
     {
-      "affiliation": "Department of Oncology, Georgetown University Medical Center",
+      "affiliation": "Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center",
       "affiliation_number": 19
     },
     {
-      "affiliation": "Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center",
+      "affiliation": "Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center",
       "affiliation_number": 20
     },
     {
-      "affiliation": "Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center",
+      "affiliation": "Center for Epigenetics, Van Andel Research Institute",
       "affiliation_number": 21
     },
     {
-      "affiliation": "Center for Epigenetics, Van Andel Research Institute",
-      "affiliation_number": 22
-    },
-    {
       "affiliation": "Department of Translational Genomics, Keck School of Medicine, University of Southern California",
-      "affiliation_number": 23
+      "affiliation_number": 22
     }
   ],
   "ci_source": {
     "repo_slug": "Benjamin-Lee/deep-rules",
     "repo_owner": "Benjamin-Lee",
     "repo_name": "deep-rules",
-    "commit": "e63754145d9060d211d4e9e114dbdd7e318dfe07"
+    "commit": "a529b7dc1d975cc61682295e4bfb8569e11d8687"
   },
   "manuscript_stats": {
     "reference_counts": {

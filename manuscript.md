@@ -14,7 +14,7 @@ author-meta:
 - Casey S. Greene
 - Simina M. Boca
 - Timothy J. Triche, Jr.
-date-meta: '2019-07-02'
+date-meta: '2019-07-24'
 keywords:
 - quick tips
 - machine learning
@@ -31,10 +31,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e63754145d9060d211d4e9e114dbdd7e318dfe07/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a529b7dc1d975cc61682295e4bfb8569e11d8687/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@e637541](https://github.com/Benjamin-Lee/deep-rules/tree/e63754145d9060d211d4e9e114dbdd7e318dfe07)
-on July 2, 2019.
+from [Benjamin-Lee/deep-rules@a529b7d](https://github.com/Benjamin-Lee/deep-rules/tree/a529b7dc1d975cc61682295e4bfb8569e11d8687)
+on July 24, 2019.
 </em></small>
 
 ## Authors
@@ -73,9 +73,11 @@ Please note the current author order is chronological and does not reflect the f
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-7209-0717](https://orcid.org/0000-0002-7209-0717)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [chevrm](https://github.com/chevrm)<br>
+    [chevrm](https://github.com/chevrm)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [wildtypeMC](https://twitter.com/wildtypeMC)<br>
   <small>
-     Department of Genetics, University of Wisconsin-Madison; Department of Bacteriology, University of Wisconsin-Madison
+     Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison
   </small>
 
 + **Paul Allen Stewart**<br>
