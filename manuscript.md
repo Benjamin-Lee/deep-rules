@@ -14,7 +14,7 @@ author-meta:
 - Casey S. Greene
 - Simina M. Boca
 - Timothy J. Triche, Jr.
-date-meta: '2019-07-24'
+date-meta: '2019-08-02'
 keywords:
 - quick tips
 - machine learning
@@ -31,10 +31,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a529b7dc1d975cc61682295e4bfb8569e11d8687/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/b142e6d2e3fb3baa8dcbc6d4592a56a7a9b4357a/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@a529b7d](https://github.com/Benjamin-Lee/deep-rules/tree/a529b7dc1d975cc61682295e4bfb8569e11d8687)
-on July 24, 2019.
+from [Benjamin-Lee/deep-rules@b142e6d](https://github.com/Benjamin-Lee/deep-rules/tree/b142e6d2e3fb3baa8dcbc6d4592a56a7a9b4357a)
+on August 2, 2019.
 </em></small>
 
 ## Authors
