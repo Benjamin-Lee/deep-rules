@@ -14,7 +14,7 @@ author-meta:
 - Casey S. Greene
 - Simina M. Boca
 - Timothy J. Triche, Jr.
-date-meta: '2019-09-13'
+date-meta: '2019-10-02'
 keywords:
 - quick tips
 - machine learning
@@ -31,10 +31,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/62e2d6997f9cb3c876959c4623e9f61dd52ffa07/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/afd7c611c3116604f93f538f70ca2661b478f5fe/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@62e2d69](https://github.com/Benjamin-Lee/deep-rules/tree/62e2d6997f9cb3c876959c4623e9f61dd52ffa07)
-on September 13, 2019.
+from [Benjamin-Lee/deep-rules@afd7c61](https://github.com/Benjamin-Lee/deep-rules/tree/afd7c611c3116604f93f538f70ca2661b478f5fe)
+on October 2, 2019.
 </em></small>
 
 ## Authors
@@ -361,7 +361,7 @@ Additionally, there are a variety of techniques to reduce overfitting during tra
 Another way, as described by Chuang and Keiser, is to identify the baseline level of memorization of the network by training on the data with the labels randomly shuffled and to see if the model performs better on the actual data [@yqAEYaMg].
 If the model performs no better on real data than randomly scrambled data, then the performance of the model can be attributed to overfitting.
 
-Additionally, one must be sure that their dataset is not skewed or biased, such as by having confounding and scientifically irrelevant variables that the model can pick up on [@FEPLn1Uo].
+Additionally, one must be sure that their dataset is not skewed or biased, such as by having confounding and scientifically irrelevant variables that the model can pick up on [@NDyhvXoh].
 In this case, simply holding out test data is insufficient.
 The best remedy for confounding variables is to [know your data](#know-your-problem) and to test your model on truly independent data.
 

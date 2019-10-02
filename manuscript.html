@@ -18,7 +18,7 @@
   <meta name="author" content="Casey S. Greene" />
   <meta name="author" content="Simina M. Boca" />
   <meta name="author" content="Timothy J. Triche, Jr." />
-  <meta name="dcterms.date" content="2019-09-13" />
+  <meta name="dcterms.date" content="2019-10-02" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
   <style>
@@ -35,7 +35,7 @@
 <header id="title-block-header">
 <h1 class="title">Ten Quick Tips for Deep Learning in Biology</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/62e2d6997f9cb3c876959c4623e9f61dd52ffa07/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/62e2d6997f9cb3c876959c4623e9f61dd52ffa07">Benjamin-Lee/deep-rules@62e2d69</a> on September 13, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/afd7c611c3116604f93f538f70ca2661b478f5fe/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/afd7c611c3116604f93f538f70ca2661b478f5fe">Benjamin-Lee/deep-rules@afd7c61</a> on October 2, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <p>Please note the current author order is chronological and does not reflect the final order.</p>
 <ul>
@@ -93,7 +93,7 @@
 <img src="images/overfitting.png" alt="Figure 1: A visual example of overfitting. While a high-degree polynomial gets high accuracy on its training data, it performs poorly on data that is has not seen before, whereas a simple linear regression works well. The greater representational capacity of the polynomial is analogous to using a larger or deeper neural network." id="fig:overfitting-fig" /><figcaption><span>Figure 1:</span> A visual example of overfitting. While a high-degree polynomial gets high accuracy on its training data, it performs poorly on data that is has not seen before, whereas a simple linear regression works well. The greater representational capacity of the polynomial is analogous to using a larger or deeper neural network.</figcaption>
 </figure>
 <p>The simplest way to combat overfitting is to detect it. This can be done by splitting the dataset into three parts: a training set, a tuning set (also commonly called a validation set in the machine learning literature), and a test set. By exposing the model solely to the training data during fitting, a researcher can use the model’s performance on the unseen test data to measure the amount of overfitting. While a slight drop in performance from the training set to the test set is normal, a significant drop is a clear sign of overfitting (see Figure <a href="#fig:overfitting-fig">1</a> for a visual demonstration of an overfit model that performs poorly on test data). Additionally, there are a variety of techniques to reduce overfitting during training including data augmentation and regularization techniques such as dropout <span class="citation" data-cites="R1RpVu06">[<a href="#ref-R1RpVu06" role="doc-biblioref">36</a>]</span> and weight decay <span class="citation" data-cites="eR3C2hhK">[<a href="#ref-eR3C2hhK" role="doc-biblioref">37</a>]</span>. Another way, as described by Chuang and Keiser, is to identify the baseline level of memorization of the network by training on the data with the labels randomly shuffled and to see if the model performs better on the actual data <span class="citation" data-cites="yqAEYaMg">[<a href="#ref-yqAEYaMg" role="doc-biblioref">38</a>]</span>. If the model performs no better on real data than randomly scrambled data, then the performance of the model can be attributed to overfitting.</p>
-<p>Additionally, one must be sure that their dataset is not skewed or biased, such as by having confounding and scientifically irrelevant variables that the model can pick up on <span class="citation" data-cites="FEPLn1Uo">[<a href="#ref-FEPLn1Uo" role="doc-biblioref">39</a>]</span>. In this case, simply holding out test data is insufficient. The best remedy for confounding variables is to <a href="#know-your-problem">know your data</a> and to test your model on truly independent data.</p>
+<p>Additionally, one must be sure that their dataset is not skewed or biased, such as by having confounding and scientifically irrelevant variables that the model can pick up on <span class="citation" data-cites="NDyhvXoh">[<a href="#ref-NDyhvXoh" role="doc-biblioref">39</a>]</span>. In this case, simply holding out test data is insufficient. The best remedy for confounding variables is to <a href="#know-your-problem">know your data</a> and to test your model on truly independent data.</p>
 <p>In essence, split your data into training, tuning, and single-use testing sets to assess the performance of the model on data it truly has not seen before. Additionally, be cognizant of the danger of skewed or biased data artificially inflating accuracy.</p>
 <h2 id="blackbox">Tip 8: Your DL models can be more transparent</h2>
 <p>In ML, interpretability refers to the study of the discriminative features used for classification or regression task. ML models can vary in terms of interpretability from a “transparent” to a “black-box” model, the first with a clear description of features importance found, for example, in common random forests implementations <span class="citation" data-cites="Uy4oESDl">[<a href="#ref-Uy4oESDl" role="doc-biblioref">40</a>]</span>.  The second for the most widely used DL implementations.   Because of the large number of parameters and non-linear relationships among features, DL models are hard to interpret when compared to other ML models. </p>
@@ -138,7 +138,7 @@ Benjamin Lee<br />
 <div id="ref-1GGGHdsew">
 <p>5. <strong>Open collaborative writing with Manubot</strong><br />
 Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter<br />
-(2019-09-06) <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></p>
+(2019-09-20) <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></p>
 </div>
 <div id="ref-p4Nl5If0">
 <p>6. <strong>Ten quick tips for machine learning in computational biology</strong><br />
@@ -315,7 +315,10 @@ Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Sala
 <em>Journal of Machine Learning Research</em> (2014) <a href="http://jmlr.org/papers/v15/srivastava14a.html">http://jmlr.org/papers/v15/srivastava14a.html</a></p>
 </div>
 <div id="ref-eR3C2hhK">
-<p>37. <a href="http://dl.acm.org/citation.cfm?id=2986916.2987033">http://dl.acm.org/citation.cfm?id=2986916.2987033</a></p>
+<p>37. <strong>A Simple Weight Decay Can Improve Generalization</strong><br />
+Anders Krogh, John A. Hertz<br />
+<em>Proceedings of the 4th International Conference on Neural Information Processing Systems</em> (1991) <a href="http://dl.acm.org/citation.cfm?id=2986916.2987033">http://dl.acm.org/citation.cfm?id=2986916.2987033</a><br />
+ISBN: <a href="https://worldcat.org/isbn/9781558602229">9781558602229</a></p>
 </div>
 <div id="ref-yqAEYaMg">
 <p>38. <strong>Adversarial Controls for Scientific Machine Learning</strong><br />
@@ -323,11 +326,11 @@ Kangway V. Chuang, Michael J. Keiser<br />
 <em>ACS Chemical Biology</em> (2018-10-19) <a href="https://doi.org/gfk9mh">https://doi.org/gfk9mh</a><br />
 DOI: <a href="https://doi.org/10.1021/acschembio.8b00881">10.1021/acschembio.8b00881</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30336670">30336670</a></p>
 </div>
-<div id="ref-FEPLn1Uo">
-<p>39. <strong>Confounding variables can degrade generalization performance of radiological deep learning models</strong><br />
-John R. Zech, Marcus A. Badgeley, Manway Liu, Anthony B. Costa, Joseph J. Titano, Eric K. Oermann<br />
-<em>arXiv</em> (2018-07-02) <a href="https://arxiv.org/abs/1807.00431v2">https://arxiv.org/abs/1807.00431v2</a><br />
-DOI: <a href="https://doi.org/10.1371/journal.pmed.1002683">10.1371/journal.pmed.1002683</a></p>
+<div id="ref-NDyhvXoh">
+<p>39. <strong>Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study</strong><br />
+John R. Zech, Marcus A. Badgeley, Manway Liu, Anthony B. Costa, Joseph J. Titano, Eric Karl Oermann<br />
+<em>PLOS Medicine</em> (2018-11-06) <a href="https://doi.org/gfj53h">https://doi.org/gfj53h</a><br />
+DOI: <a href="https://doi.org/10.1371/journal.pmed.1002683">10.1371/journal.pmed.1002683</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30399157">30399157</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6219764">PMC6219764</a></p>
 </div>
 <div id="ref-Uy4oESDl">
 <p>40. <br />
