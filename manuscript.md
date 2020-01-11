@@ -14,7 +14,7 @@ author-meta:
 - Casey S. Greene
 - Simina M. Boca
 - Timothy J. Triche, Jr.
-date-meta: '2019-10-02'
+date-meta: '2020-01-11'
 keywords:
 - quick tips
 - machine learning
@@ -31,10 +31,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/afd7c611c3116604f93f538f70ca2661b478f5fe/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/0f84e649891c80366559ccdddce3faeceeb097af/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@afd7c61](https://github.com/Benjamin-Lee/deep-rules/tree/afd7c611c3116604f93f538f70ca2661b478f5fe)
-on October 2, 2019.
+from [Benjamin-Lee/deep-rules@0f84e64](https://github.com/Benjamin-Lee/deep-rules/tree/0f84e649891c80366559ccdddce3faeceeb097af)
+on January 11, 2020.
 </em></small>
 
 ## Authors
@@ -230,7 +230,7 @@ The researchers found that while well tuned deep learning approaches generally t
 
 It is worth noting that conventional off-the-shelf machine learning algorithms (e.g., support vector machines and random forests) are also likely to benefit from hyperparameter tuning.
 It can be tempting to train baseline models with these conventional methods using default settings, which may provide acceptable but not stellar performance, but then tune the settings for DL algorithms to further optimize performance.
-Hu and Greene [@5CsWRjfp] discuss a "Continental Breakfast Included" effect by which unequal hyperparameter tuning for different learning algorithms skews the evaluation of these methods, especially when the performance of an algorithm varies substantially with modest changes to its hyperparameters.
+Hu and Greene [@gTcMnARc] discuss a "Continental Breakfast Included" effect by which unequal hyperparameter tuning for different learning algorithms skews the evaluation of these methods, especially when the performance of an algorithm varies substantially with modest changes to its hyperparameters.
 Those wishing to compare different learning algorithms should tune the settings of both traditional and DL-based methods to optimize performance before making claims about relative performance differences.
 The performance comparison among DL models and many other ML approaches is informative only when the models are similarly well-tuned.
 

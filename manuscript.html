@@ -18,7 +18,7 @@
   <meta name="author" content="Casey S. Greene" />
   <meta name="author" content="Simina M. Boca" />
   <meta name="author" content="Timothy J. Triche, Jr." />
-  <meta name="dcterms.date" content="2019-10-02" />
+  <meta name="dcterms.date" content="2020-01-11" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
   <style>
@@ -35,7 +35,7 @@
 <header id="title-block-header">
 <h1 class="title">Ten Quick Tips for Deep Learning in Biology</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/afd7c611c3116604f93f538f70ca2661b478f5fe/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/afd7c611c3116604f93f538f70ca2661b478f5fe">Benjamin-Lee/deep-rules@afd7c61</a> on October 2, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://Benjamin-Lee.github.io/deep-rules/v/0f84e649891c80366559ccdddce3faeceeb097af/">permalink</a>) was automatically generated from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/0f84e649891c80366559ccdddce3faeceeb097af">Benjamin-Lee/deep-rules@0f84e64</a> on January 11, 2020. </em></small></p>
 <h2 id="authors">Authors</h2>
 <p>Please note the current author order is chronological and does not reflect the final order.</p>
 <ul>
@@ -65,7 +65,7 @@
 <p>In summary, if you are not familiar with machine learning, review a general machine learning guide such as <span class="citation" data-cites="p4Nl5If0">[<a href="#ref-p4Nl5If0" role="doc-biblioref">6</a>]</span> before diving right into deep learning.</p>
 <h2 id="baselines">Tip 2: Use traditional methods to establish performance baselines</h2>
 <p>Since deep learning requires practitioners to consider a larger number and variety of tuning parameters or algorithm settings (so-called hyperparameters) compared to more traditional methods, it is easy to fall into the trap of performing an unnecessarily convoluted analysis. Hence, before applying deep learning to a given problem, we highly recommend implementing a simple model at the beginning of each study to establish adequate performance baselines. While performance baselines available from existing literature also serve as a helpful guidance and should be taken into account, an implementation of a simple model (for example, linear or logistic regression) using the same software framework planned for DL is additionally helpful for assessing the correctness of computational data processing and performance evaluation pipelines. Beyond serving as a predictive performance baseline, an implementation of a simple model can also provide guidance for estimating computational performance and and resource requirements. Furthermore, in some cases, it can also be useful to combine simple baseline model with deep neural networks. Such hybrid models that combine DL and simpler models can improve generalization performance, model interpretability, and confidence estimation <span class="citation" data-cites="uBcf6TJ2 2bsGpiQt">[<a href="#ref-uBcf6TJ2" role="doc-biblioref">11</a>,<a href="#ref-2bsGpiQt" role="doc-biblioref">12</a>]</span>. Depending on the amount and the nature of the available data, as well as the task to be performed, deep learning may not always be able to outperform conventional methods. As an illustration, Rajkomar et al. <span class="citation" data-cites="1DssZebFm">[<a href="#ref-1DssZebFm" role="doc-biblioref">13</a>]</span> found that simpler baseline models achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many. Another example is provided by Koutsoukas et al., who benchmarked several traditional machine learning approaches against deep neural networks for modeling bioactivity data on moderately sized datasets <span class="citation" data-cites="19zfIm033">[<a href="#ref-19zfIm033" role="doc-biblioref">14</a>]</span>. The researchers found that while well tuned deep learning approaches generally tend to outperform conventional classifiers, simple methods such as Naive Bayes classification tend to outperform deep learning as the noise in the dataset increases.</p>
-<p>It is worth noting that conventional off-the-shelf machine learning algorithms (e.g., support vector machines and random forests) are also likely to benefit from hyperparameter tuning. It can be tempting to train baseline models with these conventional methods using default settings, which may provide acceptable but not stellar performance, but then tune the settings for DL algorithms to further optimize performance. Hu and Greene <span class="citation" data-cites="5CsWRjfp">[<a href="#ref-5CsWRjfp" role="doc-biblioref">15</a>]</span> discuss a “Continental Breakfast Included” effect by which unequal hyperparameter tuning for different learning algorithms skews the evaluation of these methods, especially when the performance of an algorithm varies substantially with modest changes to its hyperparameters. Those wishing to compare different learning algorithms should tune the settings of both traditional and DL-based methods to optimize performance before making claims about relative performance differences. The performance comparison among DL models and many other ML approaches is informative only when the models are similarly well-tuned.</p>
+<p>It is worth noting that conventional off-the-shelf machine learning algorithms (e.g., support vector machines and random forests) are also likely to benefit from hyperparameter tuning. It can be tempting to train baseline models with these conventional methods using default settings, which may provide acceptable but not stellar performance, but then tune the settings for DL algorithms to further optimize performance. Hu and Greene <span class="citation" data-cites="gTcMnARc">[<a href="#ref-gTcMnARc" role="doc-biblioref">15</a>]</span> discuss a “Continental Breakfast Included” effect by which unequal hyperparameter tuning for different learning algorithms skews the evaluation of these methods, especially when the performance of an algorithm varies substantially with modest changes to its hyperparameters. Those wishing to compare different learning algorithms should tune the settings of both traditional and DL-based methods to optimize performance before making claims about relative performance differences. The performance comparison among DL models and many other ML approaches is informative only when the models are similarly well-tuned.</p>
 <p>To sum this tip up, create and fully tune several traditional models such as logistic regression models or random forests before implementing a DL model.</p>
 <h2 id="complexities">Tip 3: Understand the complexities of training deep neural networks</h2>
 <p>Correctly training deep neural networks is a non-trivial process. There are many different options and potential pitfalls at every stage. To get good results, you must expect to train many networks with a range of different parameter and hyperparameter settings. Deep learning can be very demanding, often requiring extensive computing infrastructure and patience to achieve state-of-the-art performance <span class="citation" data-cites="L7EocHX2">[<a href="#ref-L7EocHX2" role="doc-biblioref">16</a>]</span>. The experimentation inherent to DL is often noisy (requiring repetition) and represents a significant organizational challenge. All code, random seeds, parameters, and results must be carefully corralled using general good coding practices (for example, version control <span class="citation" data-cites="kEX5dgzK">[<a href="#ref-kEX5dgzK" role="doc-biblioref">17</a>]</span>, continuous integration etc.) in order to be effective and interpretable. This organization is also key to being able to efficiently share and reproduce your work <span class="citation" data-cites="Pf3steOn Tx4vUlOa">[<a href="#ref-Pf3steOn" role="doc-biblioref">18</a>,<a href="#ref-Tx4vUlOa" role="doc-biblioref">19</a>]</span> as well as to update your model as new data becomes available.</p>
@@ -138,7 +138,7 @@ Benjamin Lee<br />
 <div id="ref-1GGGHdsew">
 <p>5. <strong>Open collaborative writing with Manubot</strong><br />
 Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter<br />
-(2019-09-20) <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></p>
+<em>Manubot</em> (2019-11-20) <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></p>
 </div>
 <div id="ref-p4Nl5If0">
 <p>6. <strong>Ten quick tips for machine learning in computational biology</strong><br />
@@ -155,7 +155,7 @@ Sebastian Raschka<br />
 <p>8. <strong>Approximate Statistical Tests for Comparing Supervised Classification Learning Algorithms</strong><br />
 Thomas G. Dietterich<br />
 <em>Neural Computation</em> (1998-10) <a href="https://doi.org/fqc9w5">https://doi.org/fqc9w5</a><br />
-DOI: <a href="https://doi.org/10.1162/089976698300017197">10.1162/089976698300017197</a></p>
+DOI: <a href="https://doi.org/10.1162/089976698300017197">10.1162/089976698300017197</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/9744903">9744903</a></p>
 </div>
 <div id="ref-u86hHJ9b">
 <p>9. <strong>The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets.</strong><br />
@@ -191,11 +191,11 @@ Alexios Koutsoukas, Keith J. Monaghan, Xiaoli Li, Jun Huan<br />
 <em>Journal of Cheminformatics</em> (2017-06-28) <a href="https://doi.org/gfwv4d">https://doi.org/gfwv4d</a><br />
 DOI: <a href="https://doi.org/10.1186/s13321-017-0226-y">10.1186/s13321-017-0226-y</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29086090">29086090</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5489441">PMC5489441</a></p>
 </div>
-<div id="ref-5CsWRjfp">
+<div id="ref-gTcMnARc">
 <p>15. <strong>Parameter tuning is a key part of dimensionality reduction via deep variational autoencoders for single cell RNA transcriptomics</strong><br />
 Qiwen Hu, Casey S. Greene<br />
-<em>Cold Spring Harbor Laboratory</em> (2018-08-05) <a href="https://doi.org/gdxxjf">https://doi.org/gdxxjf</a><br />
-DOI: <a href="https://doi.org/10.1101/385534">10.1101/385534</a></p>
+<em>Biocomputing 2019</em> (2018-11) <a href="https://doi.org/gf5pc7">https://doi.org/gf5pc7</a><br />
+DOI: <a href="https://doi.org/10.1142/9789813279827_0033">10.1142/9789813279827_0033</a></p>
 </div>
 <div id="ref-L7EocHX2">
 <p>16. <strong>Efficient Processing of Deep Neural Networks: A Tutorial and Survey</strong><br />
@@ -295,14 +295,12 @@ Kurt Hornik<br />
 DOI: <a href="https://doi.org/10.1016/0893-6080(91)90009-t">10.1016/0893-6080(91)90009-t</a></p>
 </div>
 <div id="ref-wgOFUxdw">
-<p>33. <strong>Dropout: A Simple Way to Prevent Neural Networks from Overfitting</strong><br />
-Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov<br />
-<em>J. Mach. Learn. Res.</em> (2014-01) <a href="http://dl.acm.org/citation.cfm?id=2627435.2670313">http://dl.acm.org/citation.cfm?id=2627435.2670313</a></p>
+<p>33. <strong>Dropout</strong><br />
+SrivastavaNitish, HintonGeoffrey, KrizhevskyAlex, SutskeverIlya, SalakhutdinovRuslan<br />
+<em>The Journal of Machine Learning Research</em> (2014-01-01) <a href="https://dl.acm.org/doi/abs/10.5555/2627435.2670313">https://dl.acm.org/doi/abs/10.5555/2627435.2670313</a></p>
 </div>
 <div id="ref-4oKcgKmU">
-<p>34. <strong>Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift</strong><br />
-Sergey Ioffe, Christian Szegedy<br />
-<em>Proceedings of the 32Nd International Conference on International Conference on Machine Learning - Volume 37</em> (2015) <a href="http://dl.acm.org/citation.cfm?id=3045118.3045167">http://dl.acm.org/citation.cfm?id=3045118.3045167</a></p>
+<p>34. <strong>Batch normalization | Proceedings of the 32nd International Conference on International Conference on Machine Learning - Volume 37</strong><a href="https://dl.acm.org/doi/abs/10.5555/3045118.3045167">https://dl.acm.org/doi/abs/10.5555/3045118.3045167</a></p>
 </div>
 <div id="ref-NLVTJ9Lj">
 <p>35. <strong>Auto-Encoding Variational Bayes</strong><br />
@@ -315,10 +313,7 @@ Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Sala
 <em>Journal of Machine Learning Research</em> (2014) <a href="http://jmlr.org/papers/v15/srivastava14a.html">http://jmlr.org/papers/v15/srivastava14a.html</a></p>
 </div>
 <div id="ref-eR3C2hhK">
-<p>37. <strong>A Simple Weight Decay Can Improve Generalization</strong><br />
-Anders Krogh, John A. Hertz<br />
-<em>Proceedings of the 4th International Conference on Neural Information Processing Systems</em> (1991) <a href="http://dl.acm.org/citation.cfm?id=2986916.2987033">http://dl.acm.org/citation.cfm?id=2986916.2987033</a><br />
-ISBN: <a href="https://worldcat.org/isbn/9781558602229">9781558602229</a></p>
+<p>37. <strong>A simple weight decay can improve generalization | Proceedings of the 4th International Conference on Neural Information Processing Systems</strong><a href="https://dl.acm.org/doi/abs/10.5555/2986916.2987033">https://dl.acm.org/doi/abs/10.5555/2986916.2987033</a></p>
 </div>
 <div id="ref-yqAEYaMg">
 <p>38. <strong>Adversarial Controls for Scientific Machine Learning</strong><br />
@@ -357,9 +352,9 @@ Nature Biomedical Engineering<br />
 DOI: <a href="https://doi.org/10.1038/s41551-018-0315-x">10.1038/s41551-018-0315-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31015650">31015650</a></p>
 </div>
 <div id="ref-nvwiZALT">
-<p>44. <strong>Interpreting Neural-network Connection Weights</strong><br />
-G. David Garson<br />
-<em>AI Expert</em> (1991-04) <a href="http://dl.acm.org/citation.cfm?id=129449.129452">http://dl.acm.org/citation.cfm?id=129449.129452</a></p>
+<p>44. <strong>Interpreting neural-network connection weights</strong><br />
+GarsonG David<br />
+<em>AI Expert</em> (1991-04-01) <a href="https://dl.acm.org/doi/abs/10.5555/129449.129452">https://dl.acm.org/doi/abs/10.5555/129449.129452</a></p>
 </div>
 <div id="ref-980FAm5x">
 <p>45. <strong>An evaluation of machine-learning methods for predicting pneumonia mortality</strong><br />
