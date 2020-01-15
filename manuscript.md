@@ -14,7 +14,7 @@ author-meta:
 - Casey S. Greene
 - Simina M. Boca
 - Timothy J. Triche, Jr.
-date-meta: '2020-01-11'
+date-meta: '2020-01-15'
 keywords:
 - quick tips
 - machine learning
@@ -31,10 +31,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/be61014a57be7ee6da2768119b1873735aa2adcb/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9522ea5b6db67fd06f3a98ffd4c7ce518e7967aa/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@be61014](https://github.com/Benjamin-Lee/deep-rules/tree/be61014a57be7ee6da2768119b1873735aa2adcb)
-on January 11, 2020.
+from [Benjamin-Lee/deep-rules@9522ea5](https://github.com/Benjamin-Lee/deep-rules/tree/9522ea5b6db67fd06f3a98ffd4c7ce518e7967aa)
+on January 15, 2020.
 </em></small>
 
 ## Authors
@@ -208,7 +208,7 @@ Using a test set more than once will lead to biased estimates of the generalizat
 Deep supervised learning models should be trained, tuned, and tested on non-overlapping datasets.
 The data used for testing should be locked and only used one-time for evaluating the final model after all tuning steps are completed.
 Also, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance [@u86hHJ9b].
-Model performance should be evaluated with a carefully-picked panel of relevant metrics that make minimal assumptions about the composition of the testing data [@rKXyJKNt], with particular consideration given to metrics that are most directly applicable to the task at hand.
+Model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data [@rKXyJKNt], with particular consideration given to metrics that are most directly applicable to the task at hand.
 
 Extreme cases warrant testing the robustness of the model and metrics on simulated data for which the ground truth is known.
 Said simulations can be used to verify the correctness of the model’s implementation as well.
@@ -218,21 +218,22 @@ In summary, if you are not familiar with machine learning, review a general mach
 
 ## Tip 2: Use traditional methods to establish performance baselines {#baselines}
 
-Since deep learning requires practitioners to consider a larger number and variety of tuning parameters or algorithm settings (so-called hyperparameters) compared to more traditional methods, it is easy to fall into the trap of performing an unnecessarily convoluted analysis. 
+Since deep learning requires practitioners to consider a larger number and variety of tuning parameters or algorithm settings (so-called hyperparameters) compared to more traditional methods, it is easy to fall into the trap of performing an unnecessarily convoluted analysis.
 Hence, before applying deep learning to a given problem, we highly recommend implementing a simple model at the beginning of each study to establish adequate performance baselines.
-While performance baselines available from existing literature also serve as a helpful guidance and should be taken into account, an implementation of a simple model (for example, linear or logistic regression) using the same software framework planned for DL is additionally helpful for assessing the correctness of computational data processing and performance evaluation pipelines.
+While performance baselines available from existing literature also serve as a helpful guidance and should be taken into account, an implementation of a simple model (for example, linear or logistic regression) using the same software framework planned for DL is additionally helpful for assessing the correctness of data processing and performance evaluation pipelines.
 Beyond serving as a predictive performance baseline, an implementation of a simple model can also provide guidance for estimating computational performance and and resource requirements.
 Furthermore, in some cases, it can also be useful to combine simple baseline model with deep neural networks. Such hybrid models that combine DL and simpler models can improve generalization performance, model interpretability, and confidence estimation [@uBcf6TJ2; @2bsGpiQt].
+
 Depending on the amount and the nature of the available data, as well as the task to be performed, deep learning may not always be able to outperform conventional methods.
-As an illustration, Rajkomar et al. [@1DssZebFm] found that simpler baseline models achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many. 
-Another example is provided by Koutsoukas et al., who benchmarked several traditional machine learning approaches against deep neural networks for modeling bioactivity data on moderately sized datasets [@19zfIm033]. 
+As an illustration, Rajkomar et al. [@1DssZebFm] found that simpler baseline models achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many.
+Another example is provided by Koutsoukas et al., who benchmarked several traditional machine learning approaches against deep neural networks for modeling bioactivity data on moderately sized datasets [@19zfIm033].
 The researchers found that while well tuned deep learning approaches generally tend to outperform conventional classifiers, simple methods such as Naive Bayes classification tend to outperform deep learning as the noise in the dataset increases.
 
 It is worth noting that conventional off-the-shelf machine learning algorithms (e.g., support vector machines and random forests) are also likely to benefit from hyperparameter tuning.
 It can be tempting to train baseline models with these conventional methods using default settings, which may provide acceptable but not stellar performance, but then tune the settings for DL algorithms to further optimize performance.
 Hu and Greene [@gTcMnARc] discuss a "Continental Breakfast Included" effect by which unequal hyperparameter tuning for different learning algorithms skews the evaluation of these methods, especially when the performance of an algorithm varies substantially with modest changes to its hyperparameters.
 Those wishing to compare different learning algorithms should tune the settings of both traditional and DL-based methods to optimize performance before making claims about relative performance differences.
-The performance comparison among DL models and many other ML approaches is informative only when the models are similarly well-tuned.
+The performance comparison among DL models and many other ML approaches is informative only when the models are similarly well tuned.
 
 To sum this tip up, create and fully tune several traditional models such as logistic regression models or random forests before implementing a DL model.
 
@@ -259,7 +260,7 @@ In short, use smaller and simpler networks to enable faster prototyping and foll
 
 ## Tip 4: Know your data and your question {#know-your-problem}
 
-Having a well-defined scientific question and a clear analysis plan is crucial for carrying out a successful deep learning project.
+Having a well defined scientific question and a clear analysis plan is crucial for carrying out a successful deep learning project.
 Just like it would be inadvisable to step foot in a laboratory and begin experiments without having a defined endpoint, a deep learning project should not be undertaken without preparation.
 Foremost, it is important to assess if a dataset exists that can answer the biological question of interest; obtaining said data and associated metadata and reviewing the study protocol should be pursued as early on in the project as possible.
 A publication or resource might purportedly offer a dataset that seems to be a good fit to test your hypothesis, but the act of obtaining it can reveal numerous problems. 
@@ -331,16 +332,16 @@ Hyperparameters are typically manifested in the choice of optimization algorithm
 Moreover, additional hyperparameters are introduced common techniques that facilitate the training of deeper architectures, such as norm penalties (typically in the form of $L^2$ regularization), Dropout [@wgOFUxdw], and Batch Normalization [@4oKcgKmU], which can reduce the effect of the so-called vanishing or exploding gradient problem when working with deep neural networks.
 Neural network architectures also have their odd nuances that affect hyperparameter portability.
 For example, in variational autoencoders (VAEs), two components are being optimized, a reconstruction and a distribution loss [@NLVTJ9Lj].
-In conventional implementations, the relative weighting of each component is a function of the number of input features (more increase the importance of reconstruction loss) and the number of features in the latent space (more increase the importance of the distribution loss). 
+In conventional implementations, the relative weighting of each component is a function of the number of input features (more increase the importance of reconstruction loss) and the number of features in the latent space (more increase the importance of the distribution loss).
 **{SR: I am not sure this is correct, why would a larger number of, e.g., pixels make the reconstruction loss more important? I suppose this is true if we just sum over the pixel-wise differences, but if we average, e.g., using MSE, I am not convinced this is true. Please comment.}**
 Users who apply a VAE architecture to a new dataset with more input features, even without changing any hyperparameters, alter the relative weights of the components of the loss function.
 
-This flexibility also makes it difficult to evaluate the extent to which neural network methods are well-suited to solving a task.
+This flexibility also makes it difficult to evaluate the extent to which neural network methods are well suited to solving a task.
 We discussed how the Continental Breakfast Included effect could affect methods developers seeking to compare techniques in [Tip 2](#baselines).
 This effect also has implications for those seeking to use existing deep learning methods because performance estimates from deep neural networks are often provided after tuning.
 The implication of this effect on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require a relatively large input of human and computation time for hyperparameter optimization.
 
-To get the best performance of your model, be sure to systematically optimize your hyperparameters on your tuning dataset, introduced in the next section. 
+To get the best performance of your model, be sure to systematically optimize your hyperparameters on your tuning dataset, introduced in the next section.
 
 
 ## Tip 7: Address deep neural networks' increased tendency to overfit the dataset {#overfitting}
@@ -415,8 +416,9 @@ Practitioners may encounter datasets that cannot be shared, such as ones for whi
 One of the greatest opportunities for deep learning in biology is the ability for these techniques to extract information that cannot readily be captured by traditional methods [@UeE0s74F].
 The representation learning of the deep learning models can capture information-rich abstractions of multiple features of the data during the training process.
 However, these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs.
+Thus, with both deep learning and certain traditional machine learning methods (_e.g._ _k_-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data.
+
 Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption [@me326jb9; @3326vtLW], but adversarial training techniques such as model inversion attacks can be used to exploit model predictions to recover recognizable images of people's faces used for training [@zCqhgXvY].
-With both deep learning and certain traditional machine learning methods (_e.g._ _k_-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data.
 Privacy preserving techniques [@1HuQe3Z8X], such as differential privacy [@LiCxcgZp; @fbIH12yd; @eJgWbXRz], can help to mitigate risks as long as the assumptions underlying these techniques are met.
 These techniques provide a path towards a future where models can be shared, but more software development and theoretical advances will be required to make these techniques easy to apply in many settings.
 Until then, don't share models trained on sensitive data.
