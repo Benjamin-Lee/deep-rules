@@ -17,74 +17,50 @@ manubot process \
   --content-directory=content \
   --output-directory=output \
   --cache-directory=ci/cache \
+  --skip-citations \
   --log-level=INFO
 
-# pandoc settings
-CSL_PATH=build/assets/style.csl
-BIBLIOGRAPHY_PATH=output/references.json
-INPUT_PATH=output/manuscript.md
+# Pandoc's configuration is specified via files of option defaults
+# located in the $PANDOC_DATA_DIR/defaults directory.
+PANDOC_DATA_DIR="${PANDOC_DATA_DIR:-build/pandoc}"
 
 # Make output directory
 mkdir -p output
 
 # Create HTML output
-# http://pandoc.org/MANUAL.html
+# https://pandoc.org/MANUAL.html
 echo >&2 "Exporting HTML manuscript"
 pandoc --verbose \
-  --from=markdown \
-  --to=html5 \
-  --filter=pandoc-fignos \
-  --filter=pandoc-eqnos \
-  --filter=pandoc-tablenos \
-  --bibliography="$BIBLIOGRAPHY_PATH" \
-  --csl="$CSL_PATH" \
-  --metadata link-citations=true \
-  --include-after-body=build/themes/default.html \
-  --include-after-body=build/plugins/table-scroll.html \
-  --include-after-body=build/plugins/anchors.html \
-  --include-after-body=build/plugins/accordion.html \
-  --include-after-body=build/plugins/tooltips.html \
-  --include-after-body=build/plugins/jump-to-first.html \
-  --include-after-body=build/plugins/link-highlight.html \
-  --include-after-body=build/plugins/table-of-contents.html \
-  --include-after-body=build/plugins/lightbox.html \
-  --mathjax \
-  --variable math="" \
-  --include-after-body=build/plugins/math.html \
-  --include-after-body=build/plugins/hypothesis.html \
-  --include-after-body=build/plugins/analytics.html \
-  --output=output/manuscript.html \
-  "$INPUT_PATH"
+  --data-dir="$PANDOC_DATA_DIR" \
+  --defaults=common.yaml \
+  --defaults=html.yaml
 
 # Return null if docker command is missing, otherwise return path to docker
 DOCKER_EXISTS="$(command -v docker || true)"
 
 # Create PDF output (unless BUILD_PDF environment variable equals "false")
+# If Docker is not available, use WeasyPrint to create PDF
 if [ "${BUILD_PDF:-}" != "false" ] && [ -z "$DOCKER_EXISTS" ]; then
   echo >&2 "Exporting PDF manuscript using WeasyPrint"
   if [ -L images ]; then rm images; fi  # if images is a symlink, remove it
   ln -s content/images
   pandoc \
-    --from=markdown \
-    --to=html5 \
-    --pdf-engine=weasyprint \
-    --pdf-engine-opt=--presentational-hints \
-    --filter=pandoc-fignos \
-    --filter=pandoc-eqnos \
-    --filter=pandoc-tablenos \
-    --bibliography="$BIBLIOGRAPHY_PATH" \
-    --csl="$CSL_PATH" \
-    --metadata link-citations=true \
-    --webtex=https://latex.codecogs.com/svg.latex? \
-    --include-after-body=build/themes/default.html \
-    --output=output/manuscript.pdf \
-    "$INPUT_PATH"
+    --data-dir="$PANDOC_DATA_DIR" \
+    --defaults=common.yaml \
+    --defaults=html.yaml \
+    --defaults=pdf-weasyprint.yaml
   rm images
 fi
 
-# Create PDF output (unless BUILD_PDF environment variable equals "false")
+# If Docker is available, use athenapdf to create PDF
 if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_EXISTS" ]; then
   echo >&2 "Exporting PDF manuscript using Docker + Athena"
+  if [ "${CI:-}" = "true" ]; then
+    # Incease --delay for CI builds to ensure the webpage fully renders, even when the CI server is under high load.
+    # Local builds default to a shorter --delay to minimize runtime, assuming proper rendering is less crucial.
+    MANUBOT_ATHENAPDF_DELAY="${MANUBOT_ATHENAPDF_DELAY:-5000}"
+    echo >&2 "Continuous integration build detected. Setting athenapdf --delay=$MANUBOT_ATHENAPDF_DELAY"
+  fi
   if [ -d output/images ]; then rm -rf output/images; fi  # if images is a directory, remove it
   cp -R -L content/images output/
   docker run \
@@ -94,7 +70,8 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_EXISTS" ]; then
     --security-opt=seccomp:unconfined \
     arachnysdocker/athenapdf:2.16.0 \
     athenapdf \
-    --delay=2000 \
+    --delay=${MANUBOT_ATHENAPDF_DELAY:-1100} \
+    --pagesize=A4 \
     manuscript.html manuscript.pdf
   rm -rf output/images
 fi
@@ -103,18 +80,40 @@ fi
 if [ "${BUILD_DOCX:-}" = "true" ]; then
   echo >&2 "Exporting Word Docx manuscript"
   pandoc --verbose \
-    --from=markdown \
-    --to=docx \
-    --filter=pandoc-fignos \
-    --filter=pandoc-eqnos \
-    --filter=pandoc-tablenos \
-    --bibliography="$BIBLIOGRAPHY_PATH" \
-    --csl="$CSL_PATH" \
-    --metadata link-citations=true \
-    --reference-doc=build/themes/default.docx \
-    --resource-path=.:content \
-    --output=output/manuscript.docx \
-    "$INPUT_PATH"
+    --data-dir="$PANDOC_DATA_DIR" \
+    --defaults=common.yaml \
+    --defaults=docx.yaml
+fi
+
+# Spellcheck
+if [ "${SPELLCHECK:-}" = "true" ]; then
+  export ASPELL_CONF="add-extra-dicts $(pwd)/build/assets/custom-dictionary.txt; ignore-case true"
+
+  # Identify and store spelling errors
+  pandoc \
+    --data-dir="$PANDOC_DATA_DIR" \
+    --lua-filter spellcheck.lua \
+    output/manuscript.md \
+    | sort -fu > output/spelling-errors.txt
+  echo >&2 "Potential spelling errors:"
+  cat output/spelling-errors.txt
+
+  # Add additional forms of punctuation that Pandoc converts so that the
+  # locations can be detected
+  # Create a new expanded spelling errors file so that the saved artifact
+  # contains only the original misspelled words
+  cp output/spelling-errors.txt output/expanded-spelling-errors.txt
+  grep "’" output/spelling-errors.txt | sed "s/’/'/g" >> output/expanded-spelling-errors.txt || true
+
+  # Find locations of spelling errors
+  # Use "|| true" after grep because otherwise this step of the pipeline will
+  # return exit code 1 if any of the markdown files do not contain a
+  # misspelled word
+  cat output/expanded-spelling-errors.txt | while read word; do grep -ion "\<$word\>" content/*.md; done | sort -h -t ":" -k 1b,1 -k2,2 > output/spelling-error-locations.txt || true
+  echo >&2 "Filenames and line numbers with potential spelling errors:"
+  cat output/spelling-error-locations.txt
+
+  rm output/expanded-spelling-errors.txt
 fi
 
 echo >&2 "Build complete"
