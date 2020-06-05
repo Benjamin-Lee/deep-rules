@@ -60,7 +60,7 @@
   ]
 },
 {
-  "id": "@url:https://christophm.github.io/interpretable-ml-book/",
+  "id": "url:https://christophm.github.io/interpretable-ml-book/",
   "type": "book",
   "title": "Interpretable Machine Learning",
   "author": [{"given": "Christoph", "family": "Molnar"}],
