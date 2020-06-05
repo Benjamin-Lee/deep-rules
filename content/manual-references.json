@@ -58,5 +58,19 @@
       "family": "Lee"
     }
   ]
+},
+{
+  "id": "@url:https://christophm.github.io/interpretable-ml-book/",
+  "type": "book",
+  "title": "Interpretable Machine Learning",
+  "author": [{"given": "Christoph", "family": "Molnar"}],
+  "URL":  "https://christophm.github.io/interpretable-ml-book/",
+  "issued": {
+    "date-parts": [
+      [
+        2019
+      ]
+    ]
+  }
 }
 ]
