@@ -1,311 +1,352 @@
 {
-  "date": "January 15, 2020",
-  "authors": [
-    {
-      "github": "Benjamin-Lee",
-      "name": "Benjamin D. Lee",
-      "initials": "BDL",
-      "orcid": "0000-0002-7133-8397",
-      "email": "benjamindlee@me.com",
-      "affiliations": [
-        "Lab41, In-Q-Tel",
-        "School of Engineering and Applied Sciences, Harvard University",
-        "Department of Genetics, Harvard Medical School"
-      ],
-      "affiliation_numbers": [
-        1,
-        2,
-        3
-      ]
-    },
-    {
-      "github": "AlexanderTitus",
-      "name": "Alexander J. Titus",
-      "initials": "AJT",
-      "orcid": "0000-0002-0145-9564",
-      "email": "titus.professional@gmail.com",
-      "affiliations": [
-        "Titus Analytics"
-      ],
-      "affiliation_numbers": [
-        4
-      ]
-    },
-    {
-      "github": "khyu",
-      "name": "Kun-Hsing Yu",
-      "initials": "KHY",
-      "orcid": "0000-0001-9892-8218",
-      "email": "Kun-Hsing_Yu@hms.harvard.edu",
-      "affiliations": [
-        "Department of Biomedical Informatics, Harvard Medical School"
-      ],
-      "affiliation_numbers": [
-        5
-      ]
-    },
-    {
-      "github": "chevrm",
-      "name": "Marc G. Chevrette",
-      "initials": "MGC",
-      "orcid": "0000-0002-7209-0717",
-      "twitter": "wildtypeMC",
-      "email": "chevrette@wisc.edu",
-      "affiliations": [
-        "Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison"
-      ],
-      "affiliation_numbers": [
-        6
-      ]
-    },
-    {
-      "github": "pstew",
-      "name": "Paul Allen Stewart",
-      "initials": "PAS",
-      "orcid": "0000-0003-0882-308X",
-      "email": "paul.stewart@moffitt.org",
-      "affiliations": [
-        "Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center"
-      ],
-      "affiliation_numbers": [
-        7
-      ]
-    },
-    {
-      "github": "evancofer",
-      "name": "Evan M. Cofer",
-      "initials": "EMC",
-      "orcid": "0000-0003-3877-0433",
-      "email": "ecofer@princeton.edu",
-      "affiliations": [
-        "Lewis-Sigler Institute for Integrative Genomics, Princeton University",
-        "Graduate Program in Quantitative and Computational Biology, Princeton University"
-      ],
-      "affiliation_numbers": [
-        8,
-        9
-      ]
-    },
-    {
-      "github": "rasbt",
-      "name": "Sebastian Raschka",
-      "initials": "SR",
-      "orcid": "0000-0001-6989-4493",
-      "email": "sraschka@wisc.edu",
-      "affiliations": [
-        "Department of Statistics, University of Wisconsin-Madison"
-      ],
-      "affiliation_numbers": [
-        10
-      ]
-    },
-    {
-      "github": "fmaguire",
-      "name": "Finlay Maguire",
-      "initials": "FM",
-      "orcid": "0000-0002-1203-9514",
-      "email": "finlaymaguire@gmail.com",
-      "affiliations": [
-        "Faculty of Computer Science, Dalhousie University"
-      ],
-      "affiliation_numbers": [
-        11
-      ]
-    },
-    {
-      "github": "blengerich",
-      "name": "Benjamin J. Lengerich",
-      "initials": "BJL",
-      "orcid": "0000-0001-8690-9554",
-      "email": "blengeri@andrew.cmu.edu",
-      "affiliations": [
-        "Computer Science Department, Carnegie Mellon University"
-      ],
-      "affiliation_numbers": [
-        12
-      ]
-    },
-    {
-      "github": "alxndrkalinin",
-      "name": "Alexandr A. Kalinin",
-      "initials": "AAK",
-      "orcid": "0000-0003-4563-3226",
-      "email": "akalinin@umich.edu",
-      "affiliations": [
-        "Department of Computational Medicine and Bioinformatics, University of Michigan"
-      ],
-      "affiliation_numbers": [
-        13
-      ]
-    },
-    {
-      "github": "agitter",
-      "name": "Anthony Gitter",
-      "initials": "AG",
-      "orcid": "0000-0002-5324-9833",
-      "twitter": "anthonygitter",
-      "email": "gitter@biostat.wisc.edu",
-      "affiliations": [
-        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
-        "Morgridge Institute for Research"
-      ],
-      "affiliation_numbers": [
-        14,
-        15
-      ]
-    },
-    {
-      "github": "cgreene",
-      "name": "Casey S. Greene",
-      "initials": "CSG",
-      "orcid": "0000-0001-8713-9213",
-      "email": "greenescientist@gmail.com",
-      "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania"
-      ],
-      "affiliation_numbers": [
-        16
-      ]
-    },
-    {
-      "github": "SiminaB",
-      "name": "Simina M. Boca",
-      "initials": "SMB",
-      "orcid": "0000-0002-1400-3398",
-      "email": "smb310@georgetown.edu",
-      "affiliations": [
-        "Innovation Center for Biomedical Informatics, Georgetown University Medical Center",
-        "Department of Oncology, Georgetown University Medical Center",
-        "Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center",
-        "Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center"
-      ],
-      "affiliation_numbers": [
-        17,
-        18,
-        19,
-        20
-      ]
-    },
-    {
-      "github": "ttriche",
-      "name": "Timothy J. Triche, Jr.",
-      "initials": "TJT",
-      "orcid": "0000-0001-5665-946X",
-      "email": "tim.triche@gmail.com",
-      "affiliations": [
-        "Center for Epigenetics, Van Andel Research Institute",
-        "Department of Translational Genomics, Keck School of Medicine, University of Southern California"
-      ],
-      "affiliation_numbers": [
-        21,
-        22
-      ]
-    }
-  ],
-  "affiliations": [
-    {
-      "affiliation": "Lab41, In-Q-Tel",
-      "affiliation_number": 1
-    },
-    {
-      "affiliation": "School of Engineering and Applied Sciences, Harvard University",
-      "affiliation_number": 2
-    },
-    {
-      "affiliation": "Department of Genetics, Harvard Medical School",
-      "affiliation_number": 3
-    },
-    {
-      "affiliation": "Titus Analytics",
-      "affiliation_number": 4
-    },
-    {
-      "affiliation": "Department of Biomedical Informatics, Harvard Medical School",
-      "affiliation_number": 5
-    },
-    {
-      "affiliation": "Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison",
-      "affiliation_number": 6
-    },
-    {
-      "affiliation": "Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center",
-      "affiliation_number": 7
-    },
-    {
-      "affiliation": "Lewis-Sigler Institute for Integrative Genomics, Princeton University",
-      "affiliation_number": 8
-    },
-    {
-      "affiliation": "Graduate Program in Quantitative and Computational Biology, Princeton University",
-      "affiliation_number": 9
-    },
-    {
-      "affiliation": "Department of Statistics, University of Wisconsin-Madison",
-      "affiliation_number": 10
-    },
-    {
-      "affiliation": "Faculty of Computer Science, Dalhousie University",
-      "affiliation_number": 11
-    },
-    {
-      "affiliation": "Computer Science Department, Carnegie Mellon University",
-      "affiliation_number": 12
-    },
-    {
-      "affiliation": "Department of Computational Medicine and Bioinformatics, University of Michigan",
-      "affiliation_number": 13
-    },
-    {
-      "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
-      "affiliation_number": 14
-    },
-    {
-      "affiliation": "Morgridge Institute for Research",
-      "affiliation_number": 15
-    },
-    {
-      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania",
-      "affiliation_number": 16
-    },
-    {
-      "affiliation": "Innovation Center for Biomedical Informatics, Georgetown University Medical Center",
-      "affiliation_number": 17
-    },
-    {
-      "affiliation": "Department of Oncology, Georgetown University Medical Center",
-      "affiliation_number": 18
-    },
-    {
-      "affiliation": "Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center",
-      "affiliation_number": 19
-    },
-    {
-      "affiliation": "Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center",
-      "affiliation_number": 20
-    },
-    {
-      "affiliation": "Center for Epigenetics, Van Andel Research Institute",
-      "affiliation_number": 21
-    },
-    {
-      "affiliation": "Department of Translational Genomics, Keck School of Medicine, University of Southern California",
-      "affiliation_number": 22
-    }
-  ],
-  "ci_source": {
-    "repo_slug": "Benjamin-Lee/deep-rules",
-    "repo_owner": "Benjamin-Lee",
-    "repo_name": "deep-rules",
-    "commit": "9522ea5b6db67fd06f3a98ffd4c7ce518e7967aa"
+  "pandoc": {
+    "title": "Ten Quick Tips for Deep Learning in Biology",
+    "keywords": [
+      "quick tips",
+      "machine learning",
+      "deep learning",
+      "artificial intelligence"
+    ],
+    "lang": "en-US",
+    "date-meta": "2020-06-08",
+    "author-meta": [
+      "Benjamin D. Lee",
+      "Alexander J. Titus",
+      "Kun-Hsing Yu",
+      "Marc G. Chevrette",
+      "Paul Allen Stewart",
+      "Evan M. Cofer",
+      "Sebastian Raschka",
+      "Finlay Maguire",
+      "Benjamin J. Lengerich",
+      "Alexandr A. Kalinin",
+      "Anthony Gitter",
+      "Casey S. Greene",
+      "Simina M. Boca",
+      "Timothy J. Triche, Jr."
+    ],
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta name=\"citation_title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta property=\"og:title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta property=\"twitter:title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta name=\"dc.date\" content=\"2020-06-08\" />\n<meta name=\"citation_publication_date\" content=\"2020-06-08\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Benjamin D. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Lab41, In-Q-Tel\" />\n<meta name=\"citation_author_institution\" content=\"School of Engineering and Applied Sciences, Harvard University\" />\n<meta name=\"citation_author_institution\" content=\"Department of Genetics, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7133-8397\" />\n<meta name=\"citation_author\" content=\"Alexander J. Titus\" />\n<meta name=\"citation_author_institution\" content=\"Titus Analytics\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0145-9564\" />\n<meta name=\"citation_author\" content=\"Kun-Hsing Yu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Informatics, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9892-8218\" />\n<meta name=\"citation_author\" content=\"Marc G. Chevrette\" />\n<meta name=\"citation_author_institution\" content=\"Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7209-0717\" />\n<meta name=\"twitter:creator\" content=\"@wildtypeMC\" />\n<meta name=\"citation_author\" content=\"Paul Allen Stewart\" />\n<meta name=\"citation_author_institution\" content=\"Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0882-308X\" />\n<meta name=\"citation_author\" content=\"Evan M. Cofer\" />\n<meta name=\"citation_author_institution\" content=\"Lewis-Sigler Institute for Integrative Genomics, Princeton University\" />\n<meta name=\"citation_author_institution\" content=\"Graduate Program in Quantitative and Computational Biology, Princeton University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3877-0433\" />\n<meta name=\"citation_author\" content=\"Sebastian Raschka\" />\n<meta name=\"citation_author_institution\" content=\"Department of Statistics, University of Wisconsin-Madison\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6989-4493\" />\n<meta name=\"citation_author\" content=\"Finlay Maguire\" />\n<meta name=\"citation_author_institution\" content=\"Faculty of Computer Science, Dalhousie University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1203-9514\" />\n<meta name=\"citation_author\" content=\"Benjamin J. Lengerich\" />\n<meta name=\"citation_author_institution\" content=\"Computer Science Department, Carnegie Mellon University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8690-9554\" />\n<meta name=\"citation_author\" content=\"Alexandr A. Kalinin\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computational Medicine and Bioinformatics, University of Michigan\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4563-3226\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Georgetown University Medical Center\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center\" />\n<meta name=\"citation_author_institution\" content=\"Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Timothy J. Triche, Jr.\" />\n<meta name=\"citation_author_institution\" content=\"Center for Epigenetics, Van Andel Research Institute\" />\n<meta name=\"citation_author_institution\" content=\"Department of Translational Genomics, Keck School of Medicine, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5665-946X\" />\n<link rel=\"canonical\" href=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta property=\"og:url\" content=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta property=\"twitter:url\" content=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Benjamin-Lee.github.io/deep-rules/v/a26a4feeea82a34fe06555607719296ec7a47807/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Benjamin-Lee.github.io/deep-rules/v/a26a4feeea82a34fe06555607719296ec7a47807/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Benjamin-Lee.github.io/deep-rules/v/a26a4feeea82a34fe06555607719296ec7a47807/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/Benjamin-Lee/deep-rules/raw/a26a4feeea82a34fe06555607719296ec7a47807/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/Benjamin-Lee/deep-rules/raw/a26a4feeea82a34fe06555607719296ec7a47807/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "bibliography": [
+      "content/manual-references.json"
+    ],
+    "manubot-output-bibliography": "output/references.json",
+    "manubot-output-citekeys": "output/citations.tsv",
+    "manubot-requests-cache-path": "ci/cache/requests-cache",
+    "manubot-clear-requests-cache": false
   },
-  "manuscript_stats": {
-    "reference_counts": {
-      "arxiv": 10,
-      "doi": 34,
-      "pmid": 1,
-      "url": 10,
-      "total": 55
+  "manubot": {
+    "date": "June 8, 2020",
+    "authors": [
+      {
+        "github": "Benjamin-Lee",
+        "name": "Benjamin D. Lee",
+        "initials": "BDL",
+        "orcid": "0000-0002-7133-8397",
+        "email": "benjamindlee@me.com",
+        "affiliations": [
+          "Lab41, In-Q-Tel",
+          "School of Engineering and Applied Sciences, Harvard University",
+          "Department of Genetics, Harvard Medical School"
+        ],
+        "affiliation_numbers": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "github": "AlexanderTitus",
+        "name": "Alexander J. Titus",
+        "initials": "AJT",
+        "orcid": "0000-0002-0145-9564",
+        "email": "titus.professional@gmail.com",
+        "affiliations": [
+          "Titus Analytics"
+        ],
+        "affiliation_numbers": [
+          4
+        ]
+      },
+      {
+        "github": "khyu",
+        "name": "Kun-Hsing Yu",
+        "initials": "KHY",
+        "orcid": "0000-0001-9892-8218",
+        "email": "Kun-Hsing_Yu@hms.harvard.edu",
+        "affiliations": [
+          "Department of Biomedical Informatics, Harvard Medical School"
+        ],
+        "affiliation_numbers": [
+          5
+        ]
+      },
+      {
+        "github": "chevrm",
+        "name": "Marc G. Chevrette",
+        "initials": "MGC",
+        "orcid": "0000-0002-7209-0717",
+        "twitter": "wildtypeMC",
+        "email": "chevrette@wisc.edu",
+        "affiliations": [
+          "Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison"
+        ],
+        "affiliation_numbers": [
+          6
+        ]
+      },
+      {
+        "github": "pstew",
+        "name": "Paul Allen Stewart",
+        "initials": "PAS",
+        "orcid": "0000-0003-0882-308X",
+        "email": "paul.stewart@moffitt.org",
+        "affiliations": [
+          "Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center"
+        ],
+        "affiliation_numbers": [
+          7
+        ]
+      },
+      {
+        "github": "evancofer",
+        "name": "Evan M. Cofer",
+        "initials": "EMC",
+        "orcid": "0000-0003-3877-0433",
+        "email": "ecofer@princeton.edu",
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University",
+          "Graduate Program in Quantitative and Computational Biology, Princeton University"
+        ],
+        "affiliation_numbers": [
+          8,
+          9
+        ]
+      },
+      {
+        "github": "rasbt",
+        "name": "Sebastian Raschka",
+        "initials": "SR",
+        "orcid": "0000-0001-6989-4493",
+        "email": "sraschka@wisc.edu",
+        "affiliations": [
+          "Department of Statistics, University of Wisconsin-Madison"
+        ],
+        "affiliation_numbers": [
+          10
+        ]
+      },
+      {
+        "github": "fmaguire",
+        "name": "Finlay Maguire",
+        "initials": "FM",
+        "orcid": "0000-0002-1203-9514",
+        "email": "finlaymaguire@gmail.com",
+        "affiliations": [
+          "Faculty of Computer Science, Dalhousie University"
+        ],
+        "affiliation_numbers": [
+          11
+        ]
+      },
+      {
+        "github": "blengerich",
+        "name": "Benjamin J. Lengerich",
+        "initials": "BJL",
+        "orcid": "0000-0001-8690-9554",
+        "email": "blengeri@andrew.cmu.edu",
+        "affiliations": [
+          "Computer Science Department, Carnegie Mellon University"
+        ],
+        "affiliation_numbers": [
+          12
+        ]
+      },
+      {
+        "github": "alxndrkalinin",
+        "name": "Alexandr A. Kalinin",
+        "initials": "AAK",
+        "orcid": "0000-0003-4563-3226",
+        "email": "akalinin@umich.edu",
+        "affiliations": [
+          "Department of Computational Medicine and Bioinformatics, University of Michigan"
+        ],
+        "affiliation_numbers": [
+          13
+        ]
+      },
+      {
+        "github": "agitter",
+        "name": "Anthony Gitter",
+        "initials": "AG",
+        "orcid": "0000-0002-5324-9833",
+        "twitter": "anthonygitter",
+        "email": "gitter@biostat.wisc.edu",
+        "affiliations": [
+          "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
+          "Morgridge Institute for Research"
+        ],
+        "affiliation_numbers": [
+          14,
+          15
+        ]
+      },
+      {
+        "github": "cgreene",
+        "name": "Casey S. Greene",
+        "initials": "CSG",
+        "orcid": "0000-0001-8713-9213",
+        "email": "greenescientist@gmail.com",
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania"
+        ],
+        "affiliation_numbers": [
+          16
+        ]
+      },
+      {
+        "github": "SiminaB",
+        "name": "Simina M. Boca",
+        "initials": "SMB",
+        "orcid": "0000-0002-1400-3398",
+        "email": "smb310@georgetown.edu",
+        "affiliations": [
+          "Innovation Center for Biomedical Informatics, Georgetown University Medical Center",
+          "Department of Oncology, Georgetown University Medical Center",
+          "Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center",
+          "Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center"
+        ],
+        "affiliation_numbers": [
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      {
+        "github": "ttriche",
+        "name": "Timothy J. Triche, Jr.",
+        "initials": "TJT",
+        "orcid": "0000-0001-5665-946X",
+        "email": "tim.triche@gmail.com",
+        "affiliations": [
+          "Center for Epigenetics, Van Andel Research Institute",
+          "Department of Translational Genomics, Keck School of Medicine, University of Southern California"
+        ],
+        "affiliation_numbers": [
+          21,
+          22
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "affiliation": "Lab41, In-Q-Tel",
+        "affiliation_number": 1
+      },
+      {
+        "affiliation": "School of Engineering and Applied Sciences, Harvard University",
+        "affiliation_number": 2
+      },
+      {
+        "affiliation": "Department of Genetics, Harvard Medical School",
+        "affiliation_number": 3
+      },
+      {
+        "affiliation": "Titus Analytics",
+        "affiliation_number": 4
+      },
+      {
+        "affiliation": "Department of Biomedical Informatics, Harvard Medical School",
+        "affiliation_number": 5
+      },
+      {
+        "affiliation": "Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison",
+        "affiliation_number": 6
+      },
+      {
+        "affiliation": "Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center",
+        "affiliation_number": 7
+      },
+      {
+        "affiliation": "Lewis-Sigler Institute for Integrative Genomics, Princeton University",
+        "affiliation_number": 8
+      },
+      {
+        "affiliation": "Graduate Program in Quantitative and Computational Biology, Princeton University",
+        "affiliation_number": 9
+      },
+      {
+        "affiliation": "Department of Statistics, University of Wisconsin-Madison",
+        "affiliation_number": 10
+      },
+      {
+        "affiliation": "Faculty of Computer Science, Dalhousie University",
+        "affiliation_number": 11
+      },
+      {
+        "affiliation": "Computer Science Department, Carnegie Mellon University",
+        "affiliation_number": 12
+      },
+      {
+        "affiliation": "Department of Computational Medicine and Bioinformatics, University of Michigan",
+        "affiliation_number": 13
+      },
+      {
+        "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
+        "affiliation_number": 14
+      },
+      {
+        "affiliation": "Morgridge Institute for Research",
+        "affiliation_number": 15
+      },
+      {
+        "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania",
+        "affiliation_number": 16
+      },
+      {
+        "affiliation": "Innovation Center for Biomedical Informatics, Georgetown University Medical Center",
+        "affiliation_number": 17
+      },
+      {
+        "affiliation": "Department of Oncology, Georgetown University Medical Center",
+        "affiliation_number": 18
+      },
+      {
+        "affiliation": "Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center",
+        "affiliation_number": 19
+      },
+      {
+        "affiliation": "Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center",
+        "affiliation_number": 20
+      },
+      {
+        "affiliation": "Center for Epigenetics, Van Andel Research Institute",
+        "affiliation_number": 21
+      },
+      {
+        "affiliation": "Department of Translational Genomics, Keck School of Medicine, University of Southern California",
+        "affiliation_number": 22
+      }
+    ],
+    "ci_source": {
+      "provider": "travis",
+      "repo_slug": "Benjamin-Lee/deep-rules",
+      "repo_owner": "Benjamin-Lee",
+      "repo_name": "deep-rules",
+      "commit": "a26a4feeea82a34fe06555607719296ec7a47807",
+      "triggering_commit": "a26a4feeea82a34fe06555607719296ec7a47807",
+      "build_url": "https://travis-ci.org/Benjamin-Lee/deep-rules/builds/695973982",
+      "job_url": "https://travis-ci.org/Benjamin-Lee/deep-rules/jobs/695973983"
     },
-    "word_count": 5182
+    "html_url": "https://Benjamin-Lee.github.io/deep-rules/",
+    "pdf_url": "https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf",
+    "html_url_versioned": "https://Benjamin-Lee.github.io/deep-rules/v/a26a4feeea82a34fe06555607719296ec7a47807/",
+    "pdf_url_versioned": "https://Benjamin-Lee.github.io/deep-rules/v/a26a4feeea82a34fe06555607719296ec7a47807/manuscript.pdf",
+    "manubot_version": "0.3.1",
+    "rootstock_commit": "b7462701ff85854a67d878db4af89d0268bb11d2",
+    "thumbnail_url": "https://github.com/Benjamin-Lee/deep-rules/raw/a26a4feeea82a34fe06555607719296ec7a47807/thumbnail.png",
+    "manuscript_stats": {
+      "word_count": 5210
+    }
   }
 }
