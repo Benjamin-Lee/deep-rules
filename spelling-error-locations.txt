@@ -1,4 +1,3 @@
-content/00.front-matter.md:4:metadata
 content/02.intro.md:3:DL
 content/02.intro.md:3:subfield
 content/02.intro.md:4:DL
@@ -63,12 +62,9 @@ content/05.dl-complexities.md:15:datasets
 content/05.dl-complexities.md:16:hyperparameters
 content/05.dl-complexities.md:18:reproducibility
 content/06.know-your-problem.md:5:dataset
-content/06.know-your-problem.md:5:metadata
 content/06.know-your-problem.md:6:dataset
-content/06.know-your-problem.md:7:metadata
 content/06.know-your-problem.md:9:dataset
 content/06.know-your-problem.md:11:dataset
-content/06.know-your-problem.md:12:Metadata
 content/06.know-your-problem.md:13:dataset
 content/06.know-your-problem.md:19:datasets
 content/06.know-your-problem.md:29:overfitting
@@ -101,17 +97,13 @@ content/07.architecture-and-representation.md:20:ImageNet
 content/07.architecture-and-representation.md:20:pretraining
 content/07.architecture-and-representation.md:20:Rojkomar
 content/07.architecture-and-representation.md:21:datasets
-content/07.architecture-and-representation.md:21:genomics
 content/07.architecture-and-representation.md:21:Kipoi
 content/07.architecture-and-representation.md:21:pre
 content/07.architecture-and-representation.md:21:pre
 content/07.architecture-and-representation.md:22:pre
-content/07.architecture-and-representation.md:23:multi
-content/07.architecture-and-representation.md:24:Multi
 content/07.architecture-and-representation.md:26:pre
 content/08.hyperparameters.md:1:hyperparameters
 content/08.hyperparameters.md:1:hyperparameters
-content/08.hyperparameters.md:3:Multi
 content/08.hyperparameters.md:5:learnable
 content/08.hyperparameters.md:6:hyperparameters
 content/08.hyperparameters.md:7:dataset
@@ -162,8 +154,6 @@ content/10.blackbox.md:9:autoencoders
 content/10.blackbox.md:10:AE
 content/10.blackbox.md:10:dataset
 content/10.blackbox.md:10:denoising
-content/10.blackbox.md:13:biomedical
-content/10.blackbox.md:14:healthcare
 content/10.blackbox.md:15:DL
 content/10.blackbox.md:16:AE
 content/10.blackbox.md:16:discriminative
@@ -173,7 +163,6 @@ content/10.blackbox.md:17:DL
 content/10.blackbox.md:17:Garson's
 content/10.blackbox.md:17:Garson’s
 content/10.blackbox.md:17:TODO
-content/11.interpretation.md:5:anthropomorphize
 content/11.interpretation.md:19:anthropomorphizing
 content/11.interpretation.md:19:overinterpreting
 content/12.privacy.md:3:datasets
