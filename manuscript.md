@@ -14,9 +14,10 @@ author-meta:
 - Casey S. Greene
 - Simina M. Boca
 - Timothy J. Triche, Jr.
+- Thiago Britto-Borges
 bibliography:
 - content/manual-references.json
-date-meta: '2020-06-08'
+date-meta: '2020-06-12'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -35,9 +36,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-06-08" />
+  <meta name="dc.date" content="2020-06-12" />
 
-  <meta name="citation_publication_date" content="2020-06-08" />
+  <meta name="citation_publication_date" content="2020-06-12" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -155,6 +156,12 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0001-5665-946X" />
 
+  <meta name="citation_author" content="Thiago Britto-Borges" />
+
+  <meta name="citation_author_institution" content="Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg" />
+
+  <meta name="citation_author_orcid" content="0000-0002-6218-4429" />
+
   <link rel="canonical" href="https://Benjamin-Lee.github.io/deep-rules/" />
 
   <meta property="og:url" content="https://Benjamin-Lee.github.io/deep-rules/" />
@@ -167,19 +174,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/a26a4feeea82a34fe06555607719296ec7a47807/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/77f5c29675f9677c355aad3efd3897ca9713a524/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a26a4feeea82a34fe06555607719296ec7a47807/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/77f5c29675f9677c355aad3efd3897ca9713a524/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a26a4feeea82a34fe06555607719296ec7a47807/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/77f5c29675f9677c355aad3efd3897ca9713a524/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a26a4feeea82a34fe06555607719296ec7a47807/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/77f5c29675f9677c355aad3efd3897ca9713a524/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a26a4feeea82a34fe06555607719296ec7a47807/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/77f5c29675f9677c355aad3efd3897ca9713a524/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -208,10 +215,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a26a4feeea82a34fe06555607719296ec7a47807/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/77f5c29675f9677c355aad3efd3897ca9713a524/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@a26a4fe](https://github.com/Benjamin-Lee/deep-rules/tree/a26a4feeea82a34fe06555607719296ec7a47807)
-on June 8, 2020.
+from [Benjamin-Lee/deep-rules@77f5c29](https://github.com/Benjamin-Lee/deep-rules/tree/77f5c29675f9677c355aad3efd3897ca9713a524)
+on June 12, 2020.
 </em></small>
 
 ## Authors
@@ -347,6 +354,15 @@ Please note the current author order is chronological and does not reflect the f
     [ttriche](https://github.com/ttriche)<br>
   <small>
      Center for Epigenetics, Van Andel Research Institute; Department of Translational Genomics, Keck School of Medicine, University of Southern California
+  </small>
+
++ **Thiago Britto-Borges**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-6218-4429](https://orcid.org/0000-0002-6218-4429)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [tbrittoborges](https://github.com/tbrittoborges)<br>
+  <small>
+     Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg
   </small>
 
 

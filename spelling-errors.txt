@@ -20,6 +20,7 @@ Biomathematics
 Biostatistics
 blengerich
 Boca
+Britto
 cgreene
 Chevrette
 chevrm
@@ -88,9 +89,12 @@ Sigler
 Simina
 SiminaB
 subfield
+tbrittoborges
+Thiago
 TODO
 Translational
 Triche
+Tschira
 ttriche
 unencrypted
 VAE
