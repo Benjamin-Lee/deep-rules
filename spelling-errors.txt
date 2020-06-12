@@ -8,6 +8,7 @@ alxndrkalinin
 Analytics
 Andel
 anthonygitter
+anthropomorphize
 anthropomorphizing
 arxiv
 AUROC
@@ -17,6 +18,7 @@ benchmarked
 bioactivity
 Bioinformatics
 Biomathematics
+biomedical
 Biostatistics
 blengerich
 Boca
@@ -43,9 +45,11 @@ Finlay
 fmaguire
 Garson’s
 generalizability
+genomics
 Gitter
 GPUs
 grayscale
+healthcare
 heritability
 Himmelstein
 homomorphic
@@ -54,6 +58,7 @@ Hu
 hyperparameter
 hyperparameters
 ImageNet
+Informatics
 interpretability
 interpretable
 Kalinin
@@ -66,10 +71,12 @@ learnable
 Lengerich
 LSTM
 Maguire
+Metadata
 MLPs
 Moffitt
 Morgridge
 MSE
+Multi
 multilayer
 overfit
 overfitting
