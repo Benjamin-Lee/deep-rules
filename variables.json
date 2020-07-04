@@ -347,14 +347,14 @@
       }
     ],
     "ci_source": {
-      "provider": "travis",
+      "provider": "github",
       "repo_slug": "Benjamin-Lee/deep-rules",
       "repo_owner": "Benjamin-Lee",
       "repo_name": "deep-rules",
       "commit": "9d6e87d97cd782e1841be6eabde79bfac00c7750",
       "triggering_commit": "9d6e87d97cd782e1841be6eabde79bfac00c7750",
-      "build_url": "https://travis-ci.org/Benjamin-Lee/deep-rules/builds/704895510",
-      "job_url": "https://travis-ci.org/Benjamin-Lee/deep-rules/jobs/704895511"
+      "build_url": "https://github.com/Benjamin-Lee/deep-rules/commit/9d6e87d97cd782e1841be6eabde79bfac00c7750/checks",
+      "job_url": "https://github.com/Benjamin-Lee/deep-rules/runs/run3"
     },
     "html_url": "https://Benjamin-Lee.github.io/deep-rules/",
     "pdf_url": "https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf",
