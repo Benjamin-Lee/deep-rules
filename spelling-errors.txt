@@ -1,6 +1,5 @@
 accuracies
 Acknowledgements
-AE
 agitter
 AlexanderTitus
 Alexandr
@@ -18,7 +17,8 @@ benchmarked
 bioactivity
 Bioinformatics
 Biomathematics
-biomedical
+Biomedical
+biomedicine
 Biostatistics
 blengerich
 Boca
@@ -36,14 +36,12 @@ CuDNN
 Dalhousie
 dataset
 datasets
-denoising
 discriminative
 DL
 Epigenetics
 evancofer
 Finlay
 fmaguire
-Garson’s
 generalizability
 genomics
 Gitter
@@ -71,7 +69,7 @@ learnable
 Lengerich
 LSTM
 Maguire
-Metadata
+metadata
 MLPs
 Moffitt
 Morgridge
@@ -99,6 +97,7 @@ subfield
 tbrittoborges
 Thiago
 TODO
+tradeoff
 Translational
 Triche
 Tschira

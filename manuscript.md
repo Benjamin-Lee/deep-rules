@@ -17,7 +17,7 @@ author-meta:
 - Thiago Britto-Borges
 bibliography:
 - content/manual-references.json
-date-meta: '2020-06-12'
+date-meta: '2020-07-04'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -36,9 +36,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-06-12" />
+  <meta name="dc.date" content="2020-07-04" />
 
-  <meta name="citation_publication_date" content="2020-06-12" />
+  <meta name="citation_publication_date" content="2020-07-04" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -174,19 +174,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/77f5c29675f9677c355aad3efd3897ca9713a524/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/9d6e87d97cd782e1841be6eabde79bfac00c7750/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/77f5c29675f9677c355aad3efd3897ca9713a524/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/9d6e87d97cd782e1841be6eabde79bfac00c7750/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/77f5c29675f9677c355aad3efd3897ca9713a524/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/9d6e87d97cd782e1841be6eabde79bfac00c7750/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/77f5c29675f9677c355aad3efd3897ca9713a524/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/9d6e87d97cd782e1841be6eabde79bfac00c7750/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/77f5c29675f9677c355aad3efd3897ca9713a524/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/9d6e87d97cd782e1841be6eabde79bfac00c7750/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -215,10 +215,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/77f5c29675f9677c355aad3efd3897ca9713a524/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9d6e87d97cd782e1841be6eabde79bfac00c7750/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@77f5c29](https://github.com/Benjamin-Lee/deep-rules/tree/77f5c29675f9677c355aad3efd3897ca9713a524)
-on June 12, 2020.
+from [Benjamin-Lee/deep-rules@9d6e87d](https://github.com/Benjamin-Lee/deep-rules/tree/9d6e87d97cd782e1841be6eabde79bfac00c7750)
+on July 4, 2020.
 </em></small>
 
 ## Authors
@@ -565,21 +565,24 @@ Additionally, be cognizant of the danger of skewed or biased data artificially i
 
 ## Tip 8: Your DL models can be more transparent {#blackbox}
 
-In ML, interpretability refers to the study of the discriminative features used for classification or regression task.
-ML models can vary in terms of interpretability from a “transparent” to a “black-box” model, the first with a clear description of features importance found, for example, in common random forests implementations [@doi:10.1023/A:1010933404324]. 
-The second for the most widely used DL implementations.  
-Because of the large number of parameters and non-linear relationships among features, DL models are hard to interpret when compared to other ML models. 
+Model interpretability is a broad concept.
+In certain cases, the goal behind interpretation is to understand the underlying data generating processes while in other cases the goal is to understand why a model made the prediction that it did for a specific example or set of examples.
+In much of the ML literature, including in our guidelines,  the concept of model interpretability refers to the ability to identify the discriminative features that influence or sway the predictions.
+ML models vary widely in terms of interpretability: some are fully transparent while others are considered to be "black-boxes" that make predictions with little ability to examine why.
+Logistic regression and decision tree models are generally considered interpretable, while deep neural networks are often considered among the most difficult to interpret because they can have many parameters and non-linear relationships. 
 
-There are, however, many strategies to interpret a DL models.
-For example, autoencoders (AE) is a family of unsupervised methods that aim to learn a new (encoded) representation and minimize the error between the new representation and the input data. 
-Tan et al., [@doi:10.1142/9789814644730_0014] used a denoising AE to summarize key features from breast cancer dataset.
-The authors could map encoded features to clinical characteristics relevant to the disease. 
+Model interpretability is particularly important in biomedicine, where subsequent decision making often requires human input.
+Many authors attribute a lower uptake of DL tools in healthcare to interpretability challenges [@doi:10.1109/JBHI.2016.2636665; @doi:10.1038/s41551-018-0315-x]. 
+Strategies to interpret both ML and DL models are rapidly emerging, and the literature on the topic is growing at an exponential rate [@arxiv:2001.02522].
+Therefore, instead of recommending specific methods for either DL-specific or general-purpose model interpretation, we suggest consulting [@url:https://christophm.github.io/interpretable-ml-book/] which is freely available and continually updated.
 
-Model transparency is notably important in the biomedical field.
-Many authors attribute the lack of pervasiveness of deep learning tools in healthcare because of the inability to understand what these models learn [@doi:10.1109/JBHI.2016.2636665; @doi:10.1038/s41551-018-0315-x]. 
-In conclusion, we encourage beginners of the DL to train in parallel a base model that is easier to interpret. 
-In case the difference in accuracy is too high to trade-off with the DL model, pre-training AE may help to dissect which are discriminative features. 
-Alternatively, algorithms based on Garson's work [@tag:garson-interpreting] can help to investigate the weights of a DL model to better understand it [**TODO detail Garson’s algorithm?**].
+Model interpretation is an open, active area of research.
+It is becoming more feasible to interpret models with many parameters and non-linear relationships, but in many cases simpler models remain substantially easier to interpret than more complex ones.
+When deciding on a machine learning approach and model architecture, consider an interpretability versus accuracy tradeoff.
+A challenge in considering this tradeoff is that the extent to which one trades interpretability for accuracy depends on the problem itself.
+When the features provided to the model are already highly relevant to the task at hand, a simpler, interpretable model that gives up only a little performance when compared to a very complex one more useful in many settings.
+On the other hand, if features must be combined in complex ways to be meaningful for the task, the performance difference of a model capable of capturing that structure may outweigh the interpretability costs.
+An appropriate choice can only be made after careful consideration, which often includes estimating the performance of a simple, linear model that serves as a [baseline](#baselines).
 
 
 ## Tip 9: Don't over-interpret predictions {#interpretation}
@@ -596,7 +599,7 @@ In this study, the authors evaluated the capacities of several models to predict
 Unsurprisingly, the neural network model achieved the best predictive accuracy.
 However, after fitting a rule-based model, the authors discovered that the hospital data implied the rule `HasAsthma(x) => LowerRisk(x)`.
 This rule contradicts medical understanding - having asthma doesn't make pneumonia better!
-This rule was supported by the data (pneumonia patients with a history of pneumonia tended to receive more aggressive care), so the neural network also learned to make predictions according to this rule.
+This rule was supported by the data (pneumonia patients with a history of asthma tended to receive more aggressive care), so the neural network also learned to make predictions according to this rule.
 Guiding treatment decisions according to the predictions of the neural network would have been disastrous, even though the neural network had high predictive accuracy.
 
 To trust deep learning models, we must combine knowledge of the training data ([Tip 4](#know-your-problem)) with inspection of the model ([Tip 8](#blackbox)).
