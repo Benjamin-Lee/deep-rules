@@ -17,7 +17,7 @@ author-meta:
 - Thiago Britto-Borges
 bibliography:
 - content/manual-references.json
-date-meta: '2020-07-04'
+date-meta: '2020-09-16'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -36,9 +36,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-07-04" />
+  <meta name="dc.date" content="2020-09-16" />
 
-  <meta name="citation_publication_date" content="2020-07-04" />
+  <meta name="citation_publication_date" content="2020-09-16" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -174,19 +174,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/9d6e87d97cd782e1841be6eabde79bfac00c7750/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/ac9677b328677012901178eaea335a601920ad4e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/9d6e87d97cd782e1841be6eabde79bfac00c7750/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ac9677b328677012901178eaea335a601920ad4e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/9d6e87d97cd782e1841be6eabde79bfac00c7750/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ac9677b328677012901178eaea335a601920ad4e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/9d6e87d97cd782e1841be6eabde79bfac00c7750/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ac9677b328677012901178eaea335a601920ad4e/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/9d6e87d97cd782e1841be6eabde79bfac00c7750/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ac9677b328677012901178eaea335a601920ad4e/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -215,10 +215,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9d6e87d97cd782e1841be6eabde79bfac00c7750/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ac9677b328677012901178eaea335a601920ad4e/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@9d6e87d](https://github.com/Benjamin-Lee/deep-rules/tree/9d6e87d97cd782e1841be6eabde79bfac00c7750)
-on July 4, 2020.
+from [Benjamin-Lee/deep-rules@ac9677b](https://github.com/Benjamin-Lee/deep-rules/tree/ac9677b328677012901178eaea335a601920ad4e)
+on September 16, 2020.
 </em></small>
 
 ## Authors
@@ -523,11 +523,6 @@ The flexibility of neural networks to approximate arbitrary, continuous function
 You should expect to systematically evaluate the impact of numerous hyperparameters when you aim to apply deep neural networks to new data or challenges.
 Hyperparameters are typically manifested in the choice of optimization algorithms, learning rate, activation functions, number of hidden layers and hidden units, size of the training batches, weight initialization schemes, and also seeds for pseudo-random number generators used for dataset shuffling and weight initialization.
 Moreover, additional hyperparameters are introduced common techniques that facilitate the training of deeper architectures, such as norm penalties (typically in the form of $L^2$ regularization), Dropout [@tag:srivastava-dropout], and Batch Normalization [@tag:ioffe-batchnorm], which can reduce the effect of the so-called vanishing or exploding gradient problem when working with deep neural networks.
-Neural network architectures also have their odd nuances that affect hyperparameter portability.
-For example, in variational autoencoders (VAEs), two components are being optimized, a reconstruction and a distribution loss [@arxiv:1312.6114].
-In conventional implementations, the relative weighting of each component is a function of the number of input features (more increase the importance of reconstruction loss) and the number of features in the latent space (more increase the importance of the distribution loss).
-**{SR: I am not sure this is correct, why would a larger number of, e.g., pixels make the reconstruction loss more important? I suppose this is true if we just sum over the pixel-wise differences, but if we average, e.g., using MSE, I am not convinced this is true. Please comment.}**
-Users who apply a VAE architecture to a new dataset with more input features, even without changing any hyperparameters, alter the relative weights of the components of the loss function.
 
 This flexibility also makes it difficult to evaluate the extent to which neural network methods are well suited to solving a task.
 We discussed how the Continental Breakfast Included effect could affect methods developers seeking to compare techniques in [Tip 2](#baselines).

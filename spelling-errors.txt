@@ -10,7 +10,6 @@ anthonygitter
 anthropomorphizing
 arxiv
 AUROC
-autoencoders
 backends
 benchmarked
 bioactivity
@@ -67,10 +66,9 @@ Maguire
 MLPs
 Moffitt
 Morgridge
-MSE
 multilayer
 overfit
-Overfitting
+overfitting
 overinterpreting
 perceptrons
 pre
@@ -96,8 +94,5 @@ Triche
 Tschira
 ttriche
 unencrypted
-VAE
-VAEs
-variational
 wildtypeMC
 Yu
