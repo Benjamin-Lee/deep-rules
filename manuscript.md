@@ -174,19 +174,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2ced5f32f674fa5490abb66c21990f85fe962ebd/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/8749b6d5f9e5a220c82a17ef850d3c1bb8c3eed2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2ced5f32f674fa5490abb66c21990f85fe962ebd/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/8749b6d5f9e5a220c82a17ef850d3c1bb8c3eed2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2ced5f32f674fa5490abb66c21990f85fe962ebd/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/8749b6d5f9e5a220c82a17ef850d3c1bb8c3eed2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2ced5f32f674fa5490abb66c21990f85fe962ebd/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/8749b6d5f9e5a220c82a17ef850d3c1bb8c3eed2/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2ced5f32f674fa5490abb66c21990f85fe962ebd/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/8749b6d5f9e5a220c82a17ef850d3c1bb8c3eed2/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -215,9 +215,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2ced5f32f674fa5490abb66c21990f85fe962ebd/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/8749b6d5f9e5a220c82a17ef850d3c1bb8c3eed2/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@2ced5f3](https://github.com/Benjamin-Lee/deep-rules/tree/2ced5f32f674fa5490abb66c21990f85fe962ebd)
+from [Benjamin-Lee/deep-rules@8749b6d](https://github.com/Benjamin-Lee/deep-rules/tree/8749b6d5f9e5a220c82a17ef850d3c1bb8c3eed2)
 on September 17, 2020.
 </em></small>
 
@@ -547,16 +547,18 @@ The simplest way to combat overfitting is to detect it.
 This can be done by splitting the dataset into three parts: a training set, a tuning set (also commonly called a validation set in the machine learning literature), and a test set.
 By exposing the model solely to the training data during fitting, a researcher can use the model's performance on the unseen test data to measure the amount of overfitting.
 While a slight drop in performance from the training set to the test set is normal, a significant drop is a clear sign of overfitting (see Figure @fig:overfitting-fig for a visual demonstration of an overfit model that performs poorly on test data).
-Additionally, there are a variety of techniques to reduce overfitting during training including data augmentation and regularization techniques such as dropout [@url:http://jmlr.csail.mit.edu/papers/v15/srivastava14a.html] and weight decay [@tag:krogh-weight-decay].
+In addition, there are a variety of techniques to reduce overfitting during training including data augmentation and regularization techniques such as dropout [@url:http://jmlr.csail.mit.edu/papers/v15/srivastava14a.html] and weight decay [@tag:krogh-weight-decay].
 Another way, as described by Chuang and Keiser, is to identify the baseline level of memorization of the network by training on the data with the labels randomly shuffled and to see if the model performs better on the actual data [@doi:10.1021/acschembio.8b00881].
 If the model performs no better on real data than randomly scrambled data, then the performance of the model can be attributed to overfitting.
 
-Additionally, one must be sure that their dataset is not skewed or biased, such as by having confounding and scientifically irrelevant variables that the model can pick up on [@doi:10.1371/journal.pmed.1002683].
-In this case, simply holding out test data is insufficient.
+Additionally, in biology and medicine it is critical to consider independence when defining training and test sets.
+For example, a DL model for pneumonia detection in chest X-rays performed well but failed to generalize to outside hospitals because they were able to detect which hospital the image was from and exploited this information when making predictions [@doi:10.1371/journal.pmed.1002683].
+Similarly, when dealing with sequence data, holding out data that are evolutionarily related or share structural homology to the training data can result in overfitting.
+In these cases, simply holding out test data selected from a random partition of the training data is insufficient.
 The best remedy for confounding variables is to [know your data](#know-your-problem) and to test your model on truly independent data.
 
-In essence, split your data into training, tuning, and single-use testing sets to assess the performance of the model on data it truly has not seen before. 
-Additionally, be cognizant of the danger of skewed or biased data artificially inflating accuracy.
+In essence, practitioners should split data into training, tuning, and single-use testing sets to assess the performance of the model on data that can provide a reliable estimate of its generalization performance.
+Futhermore, be cognizant of the danger of skewed or biased data artificially inflating accuracy.
 
 
 ## Tip 8: Your DL models can be more transparent {#blackbox}
