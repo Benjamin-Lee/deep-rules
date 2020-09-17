@@ -174,19 +174,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/daf9b1a235f8d160cbc6b75a53ea45cf1c109074/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/b07f7f22e9a56dc19db9fb7b0eb82bf3fa5805e1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/daf9b1a235f8d160cbc6b75a53ea45cf1c109074/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b07f7f22e9a56dc19db9fb7b0eb82bf3fa5805e1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/daf9b1a235f8d160cbc6b75a53ea45cf1c109074/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b07f7f22e9a56dc19db9fb7b0eb82bf3fa5805e1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/daf9b1a235f8d160cbc6b75a53ea45cf1c109074/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b07f7f22e9a56dc19db9fb7b0eb82bf3fa5805e1/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/daf9b1a235f8d160cbc6b75a53ea45cf1c109074/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b07f7f22e9a56dc19db9fb7b0eb82bf3fa5805e1/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -215,9 +215,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/daf9b1a235f8d160cbc6b75a53ea45cf1c109074/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/b07f7f22e9a56dc19db9fb7b0eb82bf3fa5805e1/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@daf9b1a](https://github.com/Benjamin-Lee/deep-rules/tree/daf9b1a235f8d160cbc6b75a53ea45cf1c109074)
+from [Benjamin-Lee/deep-rules@b07f7f2](https://github.com/Benjamin-Lee/deep-rules/tree/b07f7f22e9a56dc19db9fb7b0eb82bf3fa5805e1)
 on September 17, 2020.
 </em></small>
 
@@ -513,7 +513,7 @@ Moreover, learned features can be helpful even when pre-training task was differ
 Related to this property of transfer learning is multi-task learning, in which a network is trained jointly for multiple tasks simultaneously, sharing the same set of features across them.
 Multi-task learning can be used separately or even in combination with transfer learning [@doi:10.1109/TBDATA.2016.2573280].
 
-This tip can be distilled two main action points: first, base your network's architecture on your knowledge of the problem and, second, take advantage of similar existing data or pre-trained deep learning models.
+This tip can be distilled into two main action points: first, base your network's architecture on your knowledge of the problem and, second, take advantage of similar existing data or pre-trained deep learning models.
 
 
 ## Tip 6: Tune your hyperparameters extensively and systematically {#hyperparameters}
