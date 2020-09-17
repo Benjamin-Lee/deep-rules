@@ -17,7 +17,7 @@ author-meta:
 - Thiago Britto-Borges
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-16'
+date-meta: '2020-09-17'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -36,9 +36,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-09-16" />
+  <meta name="dc.date" content="2020-09-17" />
 
-  <meta name="citation_publication_date" content="2020-09-16" />
+  <meta name="citation_publication_date" content="2020-09-17" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -174,19 +174,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/ac9677b328677012901178eaea335a601920ad4e/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/44694a4ce21160d6d8f93aee13181bf725021af2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ac9677b328677012901178eaea335a601920ad4e/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/44694a4ce21160d6d8f93aee13181bf725021af2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ac9677b328677012901178eaea335a601920ad4e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/44694a4ce21160d6d8f93aee13181bf725021af2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ac9677b328677012901178eaea335a601920ad4e/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/44694a4ce21160d6d8f93aee13181bf725021af2/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ac9677b328677012901178eaea335a601920ad4e/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/44694a4ce21160d6d8f93aee13181bf725021af2/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -215,10 +215,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ac9677b328677012901178eaea335a601920ad4e/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/44694a4ce21160d6d8f93aee13181bf725021af2/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@ac9677b](https://github.com/Benjamin-Lee/deep-rules/tree/ac9677b328677012901178eaea335a601920ad4e)
-on September 16, 2020.
+from [Benjamin-Lee/deep-rules@44694a4](https://github.com/Benjamin-Lee/deep-rules/tree/44694a4ce21160d6d8f93aee13181bf725021af2)
+on September 17, 2020.
 </em></small>
 
 ## Authors
@@ -371,11 +371,12 @@ Please note the current author order is chronological and does not reflect the f
 
 Deep learning (DL) is a subfield of machine learning (ML) focusing on artificial neural networks with many layers, which are increasingly used for the analysis of biological data [@doi:10.1098/rsif.2017.0387].
 In many cases, novel biological insights have been revealed through careful evaluation of DL methods ranging from predicting protein-drug binding kinetics [@doi:10.1038/s41467-017-02388-1] to identifying the lab-of-origin of synthetic DNA [@doi:10.1038/s41467-018-05378-z].
-However, the lack of concise recommendations for biological applications of DL poses a challenge for newcomers wishing to apply state-of-the-art DL in their research.
+However, for researchers and students entirely new to this area and those experienced in using classical ML methods (_e.g._ linear regression), using DL correctly can be a daunting task.
+The lack of concise recommendations for biological applications of DL poses further a challenge for newcomers wishing to apply state-of-the-art DL in their research.
 As DL is an active and specialized research area, detailed resources are rapidly rendered obsolete, and only few resources articulate general DL best practices to the scientific community broadly and the biological community specifically.
 To address this issue, we solicited input from a community of researchers with varied biological and deep learning interests, who wrote this manuscript collaboratively using the GitHub version control platform [@url:https://github.com/Benjamin-Lee/deep-rules] and Manubot [@url:https://greenelab.github.io/meta-review/].
 
-In the course of our discussions, several themes became clear: the importance of understanding and applying ML fundamentals  [@doi:10.1186/s13040-017-0155-3] as a baseline for utilizing DL, the necessity for extensive model comparisons with careful evaluation, and the need for critical thought in interpreting results generated by means of DL, among others.
+In the course of our discussions, several themes became clear: the importance of understanding and applying ML fundamentals [@doi:10.1186/s13040-017-0155-3] as a baseline for utilizing DL, the necessity for extensive model comparisons with careful evaluation, and the need for critical thought in interpreting results generated by means of DL, among others.
 Ultimately, the tips we collate range from high-level guidance to the implementation of best practices, and it is our hope that they will provide actionable, DL-specific advice for both new and experienced DL practitioners alike who would like to employ DL in biological research.
 By increasing the accessibility of DL for applications in biological research, we aim to improve the overall quality and reporting of DL in the literature, enabling more researchers to utilize these state-of-the art modeling techniques.
 
