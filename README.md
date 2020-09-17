@@ -4,7 +4,7 @@
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://Benjamin-Lee.github.io/deep-rules/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf)
-[![Build Status](https://travis-ci.org/Benjamin-Lee/deep-rules.svg?branch=master)](https://travis-ci.org/Benjamin-Lee/deep-rules)
+[![Manubot](https://github.com/Benjamin-Lee/deep-rules/workflows/Manubot/badge.svg)](https://github.com/Benjamin-Lee/deep-rules/actions)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Have%20you%20used%20deep%20learning%20in%20your%20research%3F%20If%20so%2C%20contribute%20to%20the%20Ten%20Simple%20Rules%20for%20Deep%20Learning%20in%20Biology%20paper%21%0A%0Ahttp%3A%2F%2Fgithub.com%2FBenjamin-Lee%2Fdeep-rules)
 
 ## Manuscript description
@@ -68,7 +68,6 @@ The directories are as follows:
 + [`webpage`](webpage) is a directory meant to be rendered as a static webpage for viewing the HTML manuscript.
 + [`build`](build) contains commands and tools for building the manuscript.
 + [`ci`](ci) contains files necessary for deployment via continuous integration.
-  For the CI configuration, see [`.travis.yml`](.travis.yml).
 
 ### Local execution
 
@@ -88,7 +87,7 @@ bash build/build.sh
 # This is required to view local images in the HTML output.
 
 # Configure the webpage directory
-python build/webpage.py
+manubot webpage
 
 # You can now open the manuscript webpage/index.html in a web browser.
 # Alternatively, open a local webserver at http://localhost:8000/ with the
@@ -98,7 +97,7 @@ python -m http.server
 ```
 
 Sometimes it's helpful to monitor the content directory and automatically rebuild the manuscript when a change is detected.
-The following command, while running, will trigger both the `build.sh` and `webpage.py` scripts upon content changes:
+The following command, while running, will trigger both the `build.sh` script and `manubot webpage` command upon content changes:
 
 ```sh
 bash build/autobuild.sh

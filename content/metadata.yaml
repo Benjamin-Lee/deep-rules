@@ -6,7 +6,7 @@ keywords:
   - deep learning
   - artificial intelligence
 lang: en-US
-author_info:
+authors:
   # Note: this is in chronological order, not final authorship order
   -
     github: Benjamin-Lee
@@ -130,4 +130,12 @@ author_info:
     affiliations:
       - Center for Epigenetics, Van Andel Research Institute
       - Department of Translational Genomics, Keck School of Medicine, University of Southern California
+  -
+    github: tbrittoborges
+    name: Thiago Britto-Borges
+    initials: TBB
+    orcid: 0000-0002-6218-4429
+    email: Thiago.BrittoBorges@uni-heidelberg.de
+    affiliations:
+      - Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg
   # ^^^ Add your information above this line ^^^
