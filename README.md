@@ -105,7 +105,7 @@ bash build/autobuild.sh
 
 ### Continuous Integration
 
-[![Build Status](https://travis-ci.org/Benjamin-Lee/deep-rules.svg?branch=master)](https://travis-ci.org/Benjamin-Lee/deep-rules)
+[![Manubot](https://github.com/Benjamin-Lee/deep-rules/workflows/Manubot/badge.svg)](https://github.com/Benjamin-Lee/deep-rules/actions)
 
 Whenever a pull request is opened, Travis CI will test whether the changes break the build process to generate a formatted manuscript.
 The build process aims to detect common errors, such as invalid citations.
