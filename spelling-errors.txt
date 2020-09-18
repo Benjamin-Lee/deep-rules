@@ -52,7 +52,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 ImageNet
 interpretability
 interpretable
