@@ -17,7 +17,7 @@ author-meta:
 - Thiago Britto-Borges
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-18'
+date-meta: '2020-09-25'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -36,9 +36,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-09-18" />
+  <meta name="dc.date" content="2020-09-25" />
 
-  <meta name="citation_publication_date" content="2020-09-18" />
+  <meta name="citation_publication_date" content="2020-09-25" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -174,19 +174,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/0b3f4b63d9c4c7128bc2e54cd9efeb98ded60591/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0b3f4b63d9c4c7128bc2e54cd9efeb98ded60591/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0b3f4b63d9c4c7128bc2e54cd9efeb98ded60591/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0b3f4b63d9c4c7128bc2e54cd9efeb98ded60591/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0b3f4b63d9c4c7128bc2e54cd9efeb98ded60591/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -215,10 +215,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/0b3f4b63d9c4c7128bc2e54cd9efeb98ded60591/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@0b3f4b6](https://github.com/Benjamin-Lee/deep-rules/tree/0b3f4b63d9c4c7128bc2e54cd9efeb98ded60591)
-on September 18, 2020.
+from [Benjamin-Lee/deep-rules@5e90f1a](https://github.com/Benjamin-Lee/deep-rules/tree/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd)
+on September 25, 2020.
 </em></small>
 
 ## Authors
@@ -482,8 +482,10 @@ If one assumes that all the samples are independent but that is in fact not the 
 
 In general, deep learning has an increased tendency for overfitting, compared to classical methods, due to the large number of parameters being estimated, making issues of adequate sample size even more important (see [Tip 7](#overfitting)).
 For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see [Tip 9](#interpretation)).
-Finally, it is important to note that with the exception of very specific cases of unsupervised data analysis, it is generally the case that a molecular or imaging dataset does not have much value without appropriate clinical or demographic data; this must always be balanced with the need to protect patient privacy (see [Tip 10](#privacy)).
+It is important to note that molecular or imaging datasets often require appropriate clinical or demographic data to support robust analyses; this must always be balanced with the need to protect patient privacy (see [Tip 10](#privacy)).
 Looking at these annotations can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.
+One tool in the practitioner's toolkit for dealing with datasets that are not thoroughly understood is data simulation.
+Simulating data under reasonable assumptions and assessing the extent to which the model can capture or mitigate issues with certain features of the data is a valuable technique for identifying model architectures and hyperparameters that are reasonable under those assumptions.
 
 Basically, thoroughly study your data and ensure that you understand its context and peculiarities *before* jumping into deep learning.
 

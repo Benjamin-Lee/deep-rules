@@ -72,7 +72,9 @@ content/06.know-your-problem.md:29:overfitting
 content/06.know-your-problem.md:29:overfitting
 content/06.know-your-problem.md:30:dataset
 content/06.know-your-problem.md:30:overfitting
-content/06.know-your-problem.md:31:dataset
+content/06.know-your-problem.md:31:datasets
+content/06.know-your-problem.md:33:datasets
+content/06.know-your-problem.md:34:hyperparameters
 content/07.architecture-and-representation.md:6:datasets
 content/07.architecture-and-representation.md:10:dataset
 content/07.architecture-and-representation.md:10:MLPs
