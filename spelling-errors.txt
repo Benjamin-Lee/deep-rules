@@ -14,6 +14,8 @@ backends
 benchmarked
 bioactivity
 Bioinformatics
+biomarker
+biomarkers
 Biomathematics
 biomedicine
 Biostatistics
@@ -52,7 +54,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 ImageNet
 interpretability
 interpretable

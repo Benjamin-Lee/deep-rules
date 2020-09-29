@@ -17,7 +17,7 @@ author-meta:
 - Thiago Britto-Borges
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-25'
+date-meta: '2020-09-29'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -36,9 +36,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-09-25" />
+  <meta name="dc.date" content="2020-09-29" />
 
-  <meta name="citation_publication_date" content="2020-09-25" />
+  <meta name="citation_publication_date" content="2020-09-29" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -174,19 +174,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/539e894d9746e3c7c54d3d41ec69df342f421f88/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/539e894d9746e3c7c54d3d41ec69df342f421f88/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -215,10 +215,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@5e90f1a](https://github.com/Benjamin-Lee/deep-rules/tree/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd)
-on September 25, 2020.
+from [Benjamin-Lee/deep-rules@539e894](https://github.com/Benjamin-Lee/deep-rules/tree/539e894d9746e3c7c54d3d41ec69df342f421f88)
+on September 29, 2020.
 </em></small>
 
 ## Authors
@@ -572,6 +572,8 @@ ML models vary widely in terms of interpretability: some are fully transparent 
 Logistic regression and decision tree models are generally considered interpretable, while deep neural networks are often considered among the most difficult to interpret because they can have many parameters and non-linear relationships. 
 
 Model interpretability is particularly important in biomedicine, where subsequent decision making often requires human input.
+For example, while prediction rules can be derived from high-throughput molecular datasets, most affordable clinical tests rely on lower dimensional measurements of a limited number of biomarkers.
+Selecting those biomarkers to support decision making is an important modeling and interpretation challenge.
 Many authors attribute a lower uptake of DL tools in healthcare to interpretability challenges [@doi:10.1109/JBHI.2016.2636665; @doi:10.1038/s41551-018-0315-x]. 
 Strategies to interpret both ML and DL models are rapidly emerging, and the literature on the topic is growing at an exponential rate [@arxiv:2001.02522].
 Therefore, instead of recommending specific methods for either DL-specific or general-purpose model interpretation, we suggest consulting [@url:https://christophm.github.io/interpretable-ml-book/] which is freely available and continually updated.
@@ -583,6 +585,9 @@ A challenge in considering this tradeoff is that the extent to which one trades 
 When the features provided to the model are already highly relevant to the task at hand, a simpler, interpretable model that gives up only a little performance when compared to a very complex one more useful in many settings.
 On the other hand, if features must be combined in complex ways to be meaningful for the task, the performance difference of a model capable of capturing that structure may outweigh the interpretability costs.
 An appropriate choice can only be made after careful consideration, which often includes estimating the performance of a simple, linear model that serves as a [baseline](#baselines).
+In cases where models are learned from high-throughput datasets, a small subset of features in the dataset may be strongly correlated with the complex combination of the larger feature set defined from the deep learning model.
+In this case, this more limited number of features can themselves be used in the subsequent simplified model to further enhance interpretability of the model.
+This feature reduction can be essential to defining biomarker panels that enable clinical applications.
 
 
 ## Tip 9: Don't over-interpret predictions {#interpretation}
