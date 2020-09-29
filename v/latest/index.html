@@ -19,7 +19,7 @@
   <meta name="author" content="Simina M. Boca" />
   <meta name="author" content="Timothy J. Triche, Jr." />
   <meta name="author" content="Thiago Britto-Borges" />
-  <meta name="dcterms.date" content="2020-09-25" />
+  <meta name="dcterms.date" content="2020-09-29" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
   <style>
@@ -42,8 +42,8 @@
   <meta name="citation_title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="og:title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
-  <meta name="dc.date" content="2020-09-25" />
-  <meta name="citation_publication_date" content="2020-09-25" />
+  <meta name="dc.date" content="2020-09-29" />
+  <meta name="citation_publication_date" content="2020-09-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -111,13 +111,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/539e894d9746e3c7c54d3d41ec69df342f421f88/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/539e894d9746e3c7c54d3d41ec69df342f421f88/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -129,10 +129,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/5e90f1a9a82d77df5ab0a7005e9a0718cb2514cd">Benjamin-Lee/deep-rules@5e90f1a</a>
-on September 25, 2020.
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/539e894d9746e3c7c54d3d41ec69df342f421f88">Benjamin-Lee/deep-rules@539e894</a>
+on September 29, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <p>Please note the current author order is chronological and does not reflect the final order.</p>
@@ -421,6 +421,8 @@ In much of the ML literature, including in our guidelines, the concept of model 
 ML models vary widely in terms of interpretability: some are fully transparent while others are considered to be “black-boxes” that make predictions with little ability to examine why.
 Logistic regression and decision tree models are generally considered interpretable, while deep neural networks are often considered among the most difficult to interpret because they can have many parameters and non-linear relationships. </p>
 <p>Model interpretability is particularly important in biomedicine, where subsequent decision making often requires human input.
+For example, while prediction rules can be derived from high-throughput molecular datasets, most affordable clinical tests rely on lower dimensional measurements of a limited number of biomarkers.
+Selecting those biomarkers to support decision making is an important modeling and interpretation challenge.
 Many authors attribute a lower uptake of DL tools in healthcare to interpretability challenges <span class="citation" data-cites="8seWxxzY GdO9NZJH">[<a href="#ref-8seWxxzY" role="doc-biblioref">39</a>,<a href="#ref-GdO9NZJH" role="doc-biblioref">40</a>]</span>. 
 Strategies to interpret both ML and DL models are rapidly emerging, and the literature on the topic is growing at an exponential rate <span class="citation" data-cites="cRG2FGOV">[<a href="#ref-cRG2FGOV" role="doc-biblioref">41</a>]</span>.
 Therefore, instead of recommending specific methods for either DL-specific or general-purpose model interpretation, we suggest consulting <span class="citation" data-cites="pj5bK84R">[<a href="#ref-pj5bK84R" role="doc-biblioref">42</a>]</span> which is freely available and continually updated.</p>
@@ -430,7 +432,10 @@ When deciding on a machine learning approach and model architecture, consider an
 A challenge in considering this tradeoff is that the extent to which one trades interpretability for accuracy depends on the problem itself.
 When the features provided to the model are already highly relevant to the task at hand, a simpler, interpretable model that gives up only a little performance when compared to a very complex one more useful in many settings.
 On the other hand, if features must be combined in complex ways to be meaningful for the task, the performance difference of a model capable of capturing that structure may outweigh the interpretability costs.
-An appropriate choice can only be made after careful consideration, which often includes estimating the performance of a simple, linear model that serves as a <a href="#baselines">baseline</a>.</p>
+An appropriate choice can only be made after careful consideration, which often includes estimating the performance of a simple, linear model that serves as a <a href="#baselines">baseline</a>.
+In cases where models are learned from high-throughput datasets, a small subset of features in the dataset may be strongly correlated with the complex combination of the larger feature set defined from the deep learning model.
+In this case, this more limited number of features can themselves be used in the subsequent simplified model to further enhance interpretability of the model.
+This feature reduction can be essential to defining biomarker panels that enable clinical applications.</p>
 <h2 id="interpretation">Tip 9: Don’t over-interpret predictions</h2>
 <p>Once we have trained an accurate deep model, we often want to use it to deduce scientific findings.
 In doing so, we need to take care to correctly interpret the model’s predictions.
