@@ -37,9 +37,12 @@ dataset
 datasets
 discriminative
 DL
+ejfertig
+Elana
 Epigenetics
 evancofer
 evolutionarily
+Fertig
 Finlay
 fmaguire
 Futhermore
@@ -54,7 +57,8 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
+identifaction
 ImageNet
 interpretability
 interpretable
@@ -76,7 +80,9 @@ overfit
 overfitting
 overinterpreting
 perceptrons
+phenotypes
 pre
+preprocessing
 pretraining
 pseudorandom
 pstew

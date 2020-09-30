@@ -15,9 +15,10 @@ author-meta:
 - Simina M. Boca
 - Timothy J. Triche, Jr.
 - Thiago Britto-Borges
+- Elana J. Fertig
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-29'
+date-meta: '2020-09-30'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -36,9 +37,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-09-29" />
+  <meta name="dc.date" content="2020-09-30" />
 
-  <meta name="citation_publication_date" content="2020-09-29" />
+  <meta name="citation_publication_date" content="2020-09-30" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -162,6 +163,12 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-6218-4429" />
 
+  <meta name="citation_author" content="Elana J. Fertig" />
+
+  <meta name="citation_author_institution" content="Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Johns Hopkins University" />
+
+  <meta name="citation_author_orcid" content="0000-0003-3204-342X" />
+
   <link rel="canonical" href="https://Benjamin-Lee.github.io/deep-rules/" />
 
   <meta property="og:url" content="https://Benjamin-Lee.github.io/deep-rules/" />
@@ -174,19 +181,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/539e894d9746e3c7c54d3d41ec69df342f421f88/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/539e894d9746e3c7c54d3d41ec69df342f421f88/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -215,10 +222,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/539e894d9746e3c7c54d3d41ec69df342f421f88/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@539e894](https://github.com/Benjamin-Lee/deep-rules/tree/539e894d9746e3c7c54d3d41ec69df342f421f88)
-on September 29, 2020.
+from [Benjamin-Lee/deep-rules@da0c34e](https://github.com/Benjamin-Lee/deep-rules/tree/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c)
+on September 30, 2020.
 </em></small>
 
 ## Authors
@@ -365,6 +372,15 @@ Please note the current author order is chronological and does not reflect the f
      Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg
   </small>
 
++ **Elana J. Fertig**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-3204-342X](https://orcid.org/0000-0003-3204-342X)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [ejfertig](https://github.com/ejfertig)<br>
+  <small>
+     Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Johns Hopkins University
+  </small>
+
 
 
 ## Introduction {#intro}
@@ -388,7 +404,8 @@ DL has proven to be an extremely powerful paradigm capable of outperforming “t
 Many best practices for machine learning also apply to deep learning.
 Like all computational methods, deep learning should be applied in a systematic manner that is reproducible and rigorously tested.
 
-Those developing deep learning models should select datasets that are relevant to the problem at hand; non-salient data can hamper performance or lead to spurious conclusions.
+Those developing deep learning models should select datasets to train and test model performance that are relevant to the problem at hand; non-salient data can hamper performance or lead to spurious conclusions. 
+For example, supervised deep learning for phenotype prediction should be applied to datasets that contain large numbers of representative samples from all phenotypes to be predicted.
 Biases in testing data can also unduly influence measures of model performance, and it may be difficult to directly identify confounders from the model.
 Investigators should consider the extent to which the outcome of interest is likely to be predictable from the input data and begin by thoroughly inspecting the input data.
 Suppose that there are robust heritability estimates for a phenotype that suggest that the genetic contribution is modest but a deep learning model predicts the phenotype with very high accuracy.
@@ -397,6 +414,8 @@ In this case, a possible explanation is that people with similar genetic markers
 This is something that researchers should probe before reporting unrealistic accuracy measures.
 A similar situation can arise with tasks for which inter-rater reliability is modest but deep learning models produce very high accuracies.
 When coupled with imprudence, datasets that are confounded, biased, skewed, or of low quality will produce models of dubious performance and limited generalizability.
+Data exploration with unsupervised learning and data visualization can reveal the biases and technical artifacts in these datasets, providing a critical first step to assessing data quality before any deep learning model is applied.
+In some cases, these analyses can identify biases from known technical artifacts or sample processing which can be corrected through preprocessing techniques to support more accurate application of deep leaning models for subsequent prediction or feature identifaction problems from those datasets.
 
 Using a test set more than once will lead to biased estimates of the generalization performance  [@arxiv:1811.12808; @doi:10.1162/089976698300017197].
 Deep supervised learning models should be trained, tuned, and tested on non-overlapping datasets.
@@ -405,7 +424,10 @@ Also, many conventional metrics for classification (e.g. area under the receiver
 Model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data [@doi:10.1021/acs.molpharmaceut.7b00578], with particular consideration given to metrics that are most directly applicable to the task at hand.
 
 Extreme cases warrant testing the robustness of the model and metrics on simulated data for which the ground truth is known.
-Said simulations can be used to verify the correctness of the model’s implementation as well.
+To accurately test the performance of the model, it is important that simulated datasets be generated for a range of parameters.
+Simulated datasets generated from parameters that are consistent with the assumptions of the deep learning models can be used to verify the correctness of the model’s implementation.
+Further modifying the parameters to test variation and violations of model assumptions can further test the sensitivity of performance to those assumptions. 
+Generative models based upon sample training sets can provide important tools to generate large cohorts of simulated datasets that are representative of the real world problems to which the machine learning prediction models will be applied.
 
 In summary, if you are not familiar with machine learning, review a general machine learning guide such as [@doi:10.1186/s13040-017-0155-3] before diving right into deep learning.
 
@@ -456,7 +478,7 @@ In short, use smaller and simpler networks to enable faster prototyping and foll
 
 Having a well defined scientific question and a clear analysis plan is crucial for carrying out a successful deep learning project.
 Just like it would be inadvisable to step foot in a laboratory and begin experiments without having a defined endpoint, a deep learning project should not be undertaken without preparation.
-Foremost, it is important to assess if a dataset exists that can answer the biological question of interest; obtaining said data and associated metadata and reviewing the study protocol should be pursued as early on in the project as possible.
+Foremost, it is important to assess if a dataset exists that can answer the biological question of interest for the given deep learning model; obtaining said data and associated metadata and reviewing the study protocol should be pursued as early on in the project as possible.
 A publication or resource might purportedly offer a dataset that seems to be a good fit to test your hypothesis, but the act of obtaining it can reveal numerous problems. 
 It may be unstructured when it is supposed to be structured, crucial metadata such as sample stratification are missing, or the usable sample size is different than what is reported.
 Data collection should be documented or a data collection protocol should be created and specified in the project documentation.
@@ -479,6 +501,7 @@ Other study design considerations that should not be overlooked include knowing 
 For example, are some samples collected from the same individuals at different time points?
 Are those time points before and after some treatment?
 If one assumes that all the samples are independent but that is in fact not the case, a variety of issues may arise, including having a lower effective sample size than expected.
+As described in [Tip 1](#concepts), unsupervised learning and other exploratory analyses can be identify such biases in these datasets prior to applying the deep learning model.
 
 In general, deep learning has an increased tendency for overfitting, compared to classical methods, due to the large number of parameters being estimated, making issues of adequate sample size even more important (see [Tip 7](#overfitting)).
 For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see [Tip 9](#interpretation)).
