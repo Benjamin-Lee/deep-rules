@@ -11,7 +11,7 @@ We are writing to submit our manuscript entitled “Ten Quick Tip for Deep Learn
 
 Deep learning provides new opportunities for classifying and recognizing patterns in biological data.
 While deep learning is a relatively young field within the broader field of machine learning, many general-purpose algorithms and methods shared by the broader deep learning community can be readily repurposed and applied to biological data.
-Though we encourage the use of deep learning to solve existing and novel problems in biology, we want to share essential tips among practitioners for avoiding common pitfalls.
+Though we encourage the use of deep learning to solve existing and novel problems in biology, we want to share essential tips from practitioners to help computational biologists beginning work in this area avoid common pitfalls.
 
 Ultimately, we have decided on the following ten tips as being critical for engaging in principled and effective research based on deep learning:
 
