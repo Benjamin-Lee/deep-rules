@@ -3,7 +3,7 @@ Dassault Systèmes BIOVIA
 5005 Wateridge Vista Dr
 San Diego, CA 92121
 
-October Xth, 2020
+October 30th, 2020
 
 Dear Dr. Markel,
 
