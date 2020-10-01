@@ -22,7 +22,7 @@ Ultimately, we have decided on the following ten tips as being critical for enga
 5. Choose an appropriate data representation and neural network architectures
 6. Tune your hyperparameters extensively and systematically
 7. Address deep neural networks' increased tendency to overfit the dataset
-8. Your DL models can be more transparent
+8. Your deep learning models can be more transparent
 9. Don't over-interpret predictions
 10. Don't share models trained on sensitive data
 
