@@ -26,5 +26,7 @@ Ultimately, we have decided on the following ten tips as being critical for enga
 9. Don't over-interpret predictions
 10. Don't share models trained on sensitive data
 
+It is our hope that, by applying these tips, deep learning novices and experienced machine learning practitioners new to biology will be able to generate correct, actionable, and robust biological insights through deep learning.
+
 Sincerely,  
 Benjamin Lee, on behalf of all authors
