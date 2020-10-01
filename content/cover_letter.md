@@ -9,7 +9,7 @@ Dear Dr. Markel,
 
 We are writing to submit our manuscript entitled “Ten Quick Tip for Deep Learning in Biology” for consideration in _PLOS Computational Biology_'s education section.
 
-Ultimately, we have decided on the following ten tips as being critical for engaging in principled and effective DL-based research:
+Ultimately, we have decided on the following ten tips as being critical for engaging in principled and effective research based on deep learning:
 
 1. Concepts that apply to machine learning also apply to deep learning
 2. Use traditional methods to establish performance baselines
