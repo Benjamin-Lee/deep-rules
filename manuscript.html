@@ -20,7 +20,7 @@
   <meta name="author" content="Timothy J. Triche, Jr." />
   <meta name="author" content="Thiago Britto-Borges" />
   <meta name="author" content="Elana J. Fertig" />
-  <meta name="dcterms.date" content="2020-09-30" />
+  <meta name="dcterms.date" content="2020-10-01" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
   <style>
@@ -43,8 +43,8 @@
   <meta name="citation_title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="og:title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
-  <meta name="dc.date" content="2020-09-30" />
-  <meta name="citation_publication_date" content="2020-09-30" />
+  <meta name="dc.date" content="2020-10-01" />
+  <meta name="citation_publication_date" content="2020-10-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -115,13 +115,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bafe3adb935bef5addbcd6717de18b32a968539a/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bafe3adb935bef5addbcd6717de18b32a968539a/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -133,10 +133,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c">Benjamin-Lee/deep-rules@da0c34e</a>
-on September 30, 2020.
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/bafe3adb935bef5addbcd6717de18b32a968539a">Benjamin-Lee/deep-rules@bafe3ad</a>
+on October 1, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <p>Please note the current author order is chronological and does not reflect the final order.</p>
@@ -306,11 +306,6 @@ Deep supervised learning models should be trained, tuned, and tested on non-over
 The data used for testing should be locked and only used one-time for evaluating the final model after all tuning steps are completed.
 Also, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance <span class="citation" data-cites="KnxQ4G8">[<a href="#ref-KnxQ4G8" role="doc-biblioref">9</a>]</span>.
 Model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data <span class="citation" data-cites="rKXyJKNt">[<a href="#ref-rKXyJKNt" role="doc-biblioref">10</a>]</span>, with particular consideration given to metrics that are most directly applicable to the task at hand.</p>
-<p>Extreme cases warrant testing the robustness of the model and metrics on simulated data for which the ground truth is known.
-To accurately test the performance of the model, it is important that simulated datasets be generated for a range of parameters.
-Simulated datasets generated from parameters that are consistent with the assumptions of the deep learning models can be used to verify the correctness of the model’s implementation.
-Further modifying the parameters to test variation and violations of model assumptions can further test the sensitivity of performance to those assumptions.
-Generative models based upon sample training sets can provide important tools to generate large cohorts of simulated datasets that are representative of the real world problems to which the machine learning prediction models will be applied.</p>
 <p>In summary, if you are not familiar with machine learning, review a general machine learning guide such as <span class="citation" data-cites="p4Nl5If0">[<a href="#ref-p4Nl5If0" role="doc-biblioref">6</a>]</span> before diving right into deep learning.</p>
 <h2 id="baselines">Tip 2: Use traditional methods to establish performance baselines</h2>
 <p>Since deep learning requires practitioners to consider a larger number and variety of tuning parameters or algorithm settings (so-called hyperparameters) compared to more traditional methods, it is easy to fall into the trap of performing an unnecessarily convoluted analysis.
@@ -370,9 +365,12 @@ As described in <a href="#concepts">Tip 1</a>, unsupervised learning and other e
 <p>In general, deep learning has an increased tendency for overfitting, compared to classical methods, due to the large number of parameters being estimated, making issues of adequate sample size even more important (see <a href="#overfitting">Tip 7</a>).
 For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see <a href="#interpretation">Tip 9</a>).
 It is important to note that molecular or imaging datasets often require appropriate clinical or demographic data to support robust analyses; this must always be balanced with the need to protect patient privacy (see <a href="#privacy">Tip 10</a>).
-Looking at these annotations can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.
-One tool in the practitioner’s toolkit for dealing with datasets that are not thoroughly understood is data simulation.
-Simulating data under reasonable assumptions and assessing the extent to which the model can capture or mitigate issues with certain features of the data is a valuable technique for identifying model architectures and hyperparameters that are reasonable under those assumptions.</p>
+Looking at these annotations can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.</p>
+<p>Data simulation is a powerful approach to creating additional data for model testing.
+In data simulation, a model is used to learn the true distribution of a training set for the purpose of creating new data points.
+Simulations should be performed under reasonable assumptions since the goal would be to identify useful model architectures and hyperparameters, and simulated datasets can be used to verify the correctness of a model’s implementation.
+To accurately test the performance of the model, it is important that simulated datasets be generated for a range of parameters.
+For example, varying the parameters to violate the model’s assumptions can test the sensitivity of the model’s performance.</p>
 <p>Basically, thoroughly study your data and ensure that you understand its context and peculiarities <em>before</em> jumping into deep learning.</p>
 <h2 id="architecture">Tip 5: Choose an appropriate data representation and neural network architecture</h2>
 <p>Unfortunately, choosing how to represent your data and design your architecture is closer to an art than a science.
@@ -690,10 +688,7 @@ Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Sala
 <em>Journal of Machine Learning Research</em> (2014) <a href="http://jmlr.org/papers/v15/srivastava14a.html">http://jmlr.org/papers/v15/srivastava14a.html</a></p>
 </div>
 <div id="ref-eR3C2hhK">
-<p>36. <strong>A simple weight decay can improve generalization</strong><br />
-Anders Krogh, John A. Hertz<br />
-<em>Proceedings of the 4th International Conference on Neural Information Processing Systems</em> (1991-12-02)<br />
-ISBN: <a href="https://worldcat.org/isbn/9781558602229">9781558602229</a></p>
+<p>36. <a href="http://dl.acm.org/citation.cfm?id=2986916.2987033">http://dl.acm.org/citation.cfm?id=2986916.2987033</a></p>
 </div>
 <div id="ref-yqAEYaMg">
 <p>37. <strong>Adversarial Controls for Scientific Machine Learning</strong><br />

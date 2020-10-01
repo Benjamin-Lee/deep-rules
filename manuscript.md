@@ -18,7 +18,7 @@ author-meta:
 - Elana J. Fertig
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-30'
+date-meta: '2020-10-01'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -37,9 +37,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-09-30" />
+  <meta name="dc.date" content="2020-10-01" />
 
-  <meta name="citation_publication_date" content="2020-09-30" />
+  <meta name="citation_publication_date" content="2020-10-01" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -181,19 +181,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bafe3adb935bef5addbcd6717de18b32a968539a/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bafe3adb935bef5addbcd6717de18b32a968539a/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -222,10 +222,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@da0c34e](https://github.com/Benjamin-Lee/deep-rules/tree/da0c34ebafb36c6fa5ddec898d2e750b5bc5d79c)
-on September 30, 2020.
+from [Benjamin-Lee/deep-rules@bafe3ad](https://github.com/Benjamin-Lee/deep-rules/tree/bafe3adb935bef5addbcd6717de18b32a968539a)
+on October 1, 2020.
 </em></small>
 
 ## Authors
@@ -417,17 +417,11 @@ When coupled with imprudence, datasets that are confounded, biased, skewed, or o
 Data exploration with unsupervised learning and data visualization can reveal the biases and technical artifacts in these datasets, providing a critical first step to assessing data quality before any deep learning model is applied.
 In some cases, these analyses can identify biases from known technical artifacts or sample processing which can be corrected through preprocessing techniques to support more accurate application of deep leaning models for subsequent prediction or feature identifaction problems from those datasets.
 
-Using a test set more than once will lead to biased estimates of the generalization performance  [@arxiv:1811.12808; @doi:10.1162/089976698300017197].
+Using a test set more than once will lead to biased estimates of the generalization performance [@arxiv:1811.12808; @doi:10.1162/089976698300017197].
 Deep supervised learning models should be trained, tuned, and tested on non-overlapping datasets.
 The data used for testing should be locked and only used one-time for evaluating the final model after all tuning steps are completed.
 Also, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance [@pmid:25738806].
 Model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data [@doi:10.1021/acs.molpharmaceut.7b00578], with particular consideration given to metrics that are most directly applicable to the task at hand.
-
-Extreme cases warrant testing the robustness of the model and metrics on simulated data for which the ground truth is known.
-To accurately test the performance of the model, it is important that simulated datasets be generated for a range of parameters.
-Simulated datasets generated from parameters that are consistent with the assumptions of the deep learning models can be used to verify the correctness of the model’s implementation.
-Further modifying the parameters to test variation and violations of model assumptions can further test the sensitivity of performance to those assumptions. 
-Generative models based upon sample training sets can provide important tools to generate large cohorts of simulated datasets that are representative of the real world problems to which the machine learning prediction models will be applied.
 
 In summary, if you are not familiar with machine learning, review a general machine learning guide such as [@doi:10.1186/s13040-017-0155-3] before diving right into deep learning.
 
@@ -479,7 +473,7 @@ In short, use smaller and simpler networks to enable faster prototyping and foll
 Having a well defined scientific question and a clear analysis plan is crucial for carrying out a successful deep learning project.
 Just like it would be inadvisable to step foot in a laboratory and begin experiments without having a defined endpoint, a deep learning project should not be undertaken without preparation.
 Foremost, it is important to assess if a dataset exists that can answer the biological question of interest for the given deep learning model; obtaining said data and associated metadata and reviewing the study protocol should be pursued as early on in the project as possible.
-A publication or resource might purportedly offer a dataset that seems to be a good fit to test your hypothesis, but the act of obtaining it can reveal numerous problems. 
+A publication or resource might purportedly offer a dataset that seems to be a good fit to test your hypothesis, but the act of obtaining it can reveal numerous problems.
 It may be unstructured when it is supposed to be structured, crucial metadata such as sample stratification are missing, or the usable sample size is different than what is reported.
 Data collection should be documented or a data collection protocol should be created and specified in the project documentation.
 Information such as the resource used, the date downloaded, and the version of the dataset, if any, will help minimize operational confusion and will allow for transparency during the publication process.
@@ -507,10 +501,14 @@ In general, deep learning has an increased tendency for overfitting, compared to
 For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see [Tip 9](#interpretation)).
 It is important to note that molecular or imaging datasets often require appropriate clinical or demographic data to support robust analyses; this must always be balanced with the need to protect patient privacy (see [Tip 10](#privacy)).
 Looking at these annotations can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.
-One tool in the practitioner's toolkit for dealing with datasets that are not thoroughly understood is data simulation.
-Simulating data under reasonable assumptions and assessing the extent to which the model can capture or mitigate issues with certain features of the data is a valuable technique for identifying model architectures and hyperparameters that are reasonable under those assumptions.
 
-Basically, thoroughly study your data and ensure that you understand its context and peculiarities *before* jumping into deep learning.
+Data simulation is a powerful approach to creating additional data for model testing.
+In data simulation, a model is used to learn the true distribution of a training set for the purpose of creating new data points.
+Simulations should be performed under reasonable assumptions since the goal would be to identify useful model architectures and hyperparameters, and simulated datasets can be used to verify the correctness of a model’s implementation.
+To accurately test the performance of the model, it is important that simulated datasets be generated for a range of parameters.
+For example, varying the parameters to violate the model's assumptions can test the sensitivity of the model's performance.
+
+Basically, thoroughly study your data and ensure that you understand its context and peculiarities _before_ jumping into deep learning.
 
 
 ## Tip 5: Choose an appropriate data representation and neural network architecture {#architecture}
