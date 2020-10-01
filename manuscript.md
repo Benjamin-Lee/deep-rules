@@ -181,19 +181,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bafe3adb935bef5addbcd6717de18b32a968539a/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/fa3117db5be3a96691184d2d972275de1d3bac25/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bafe3adb935bef5addbcd6717de18b32a968539a/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/fa3117db5be3a96691184d2d972275de1d3bac25/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -222,9 +222,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@bafe3ad](https://github.com/Benjamin-Lee/deep-rules/tree/bafe3adb935bef5addbcd6717de18b32a968539a)
+from [Benjamin-Lee/deep-rules@fa3117d](https://github.com/Benjamin-Lee/deep-rules/tree/fa3117db5be3a96691184d2d972275de1d3bac25)
 on October 1, 2020.
 </em></small>
 
@@ -431,8 +431,11 @@ In summary, if you are not familiar with machine learning, review a general mach
 Since deep learning requires practitioners to consider a larger number and variety of tuning parameters or algorithm settings (so-called hyperparameters) compared to more traditional methods, it is easy to fall into the trap of performing an unnecessarily convoluted analysis.
 Hence, before applying deep learning to a given problem, we highly recommend implementing a simple model at the beginning of each study to establish adequate performance baselines.
 While performance baselines available from existing literature also serve as a helpful guidance and should be taken into account, an implementation of a simple model (for example, linear or logistic regression) using the same software framework planned for DL is additionally helpful for assessing the correctness of data processing and performance evaluation pipelines.
+Examples of simple models include logistic regression, random forests, k-nearest neighbors, naive Bayes, and support vector machines.
 Beyond serving as a predictive performance baseline, an implementation of a simple model can also provide guidance for estimating computational performance and and resource requirements.
-Furthermore, in some cases, it can also be useful to combine simple baseline model with deep neural networks. Such hybrid models that combine DL and simpler models can improve generalization performance, model interpretability, and confidence estimation [@arxiv:1803.04765; @arxiv:1805.11783].
+Furthermore, in some cases, it can also be useful to combine simple baseline model with deep neural networks.
+Such hybrid models that combine DL and simpler models can improve generalization performance, model interpretability, and confidence estimation [@arxiv:1803.04765; @arxiv:1805.11783].
+In addition, be sure to tune and compare current state-of-the-art tools (_e.g._ bioinformatics pipelines or image analysis workflows), regardless of whether they use ML, in order to gauge the relative effectiveness of your baseline and DL models.
 
 Depending on the amount and the nature of the available data, as well as the task to be performed, deep learning may not always be able to outperform conventional methods.
 As an illustration, Rajkomar et al. [@doi:10.1038/s41746-018-0029-1] found that simpler baseline models achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many.
@@ -445,7 +448,7 @@ Hu and Greene [@doi:10.1142/9789813279827_0033] discuss a "Continental Breakfast
 Those wishing to compare different learning algorithms should tune the settings of both traditional and DL-based methods to optimize performance before making claims about relative performance differences.
 The performance comparison among DL models and many other ML approaches is informative only when the models are similarly well tuned.
 
-To sum this tip up, create and fully tune several traditional models such as logistic regression models or random forests before implementing a DL model.
+To sum this tip up, create and fully tune several traditional models and standard pipelines before implementing a DL model.
 
 
 ## Tip 3: Understand the complexities of training deep neural networks {#complexities}

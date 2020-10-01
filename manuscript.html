@@ -115,13 +115,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bafe3adb935bef5addbcd6717de18b32a968539a/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bafe3adb935bef5addbcd6717de18b32a968539a/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/fa3117db5be3a96691184d2d972275de1d3bac25/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/fa3117db5be3a96691184d2d972275de1d3bac25/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -133,9 +133,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/bafe3adb935bef5addbcd6717de18b32a968539a/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/bafe3adb935bef5addbcd6717de18b32a968539a">Benjamin-Lee/deep-rules@bafe3ad</a>
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/fa3117db5be3a96691184d2d972275de1d3bac25">Benjamin-Lee/deep-rules@fa3117d</a>
 on October 1, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -311,8 +311,11 @@ Model performance should be evaluated with a carefully picked panel of relevant 
 <p>Since deep learning requires practitioners to consider a larger number and variety of tuning parameters or algorithm settings (so-called hyperparameters) compared to more traditional methods, it is easy to fall into the trap of performing an unnecessarily convoluted analysis.
 Hence, before applying deep learning to a given problem, we highly recommend implementing a simple model at the beginning of each study to establish adequate performance baselines.
 While performance baselines available from existing literature also serve as a helpful guidance and should be taken into account, an implementation of a simple model (for example, linear or logistic regression) using the same software framework planned for DL is additionally helpful for assessing the correctness of data processing and performance evaluation pipelines.
+Examples of simple models include logistic regression, random forests, k-nearest neighbors, naive Bayes, and support vector machines.
 Beyond serving as a predictive performance baseline, an implementation of a simple model can also provide guidance for estimating computational performance and and resource requirements.
-Furthermore, in some cases, it can also be useful to combine simple baseline model with deep neural networks. Such hybrid models that combine DL and simpler models can improve generalization performance, model interpretability, and confidence estimation <span class="citation" data-cites="uBcf6TJ2 2bsGpiQt">[<a href="#ref-uBcf6TJ2" role="doc-biblioref">11</a>,<a href="#ref-2bsGpiQt" role="doc-biblioref">12</a>]</span>.</p>
+Furthermore, in some cases, it can also be useful to combine simple baseline model with deep neural networks.
+Such hybrid models that combine DL and simpler models can improve generalization performance, model interpretability, and confidence estimation <span class="citation" data-cites="uBcf6TJ2 2bsGpiQt">[<a href="#ref-uBcf6TJ2" role="doc-biblioref">11</a>,<a href="#ref-2bsGpiQt" role="doc-biblioref">12</a>]</span>.
+In addition, be sure to tune and compare current state-of-the-art tools (<em>e.g.</em> bioinformatics pipelines or image analysis workflows), regardless of whether they use ML, in order to gauge the relative effectiveness of your baseline and DL models.</p>
 <p>Depending on the amount and the nature of the available data, as well as the task to be performed, deep learning may not always be able to outperform conventional methods.
 As an illustration, Rajkomar et al. <span class="citation" data-cites="1DssZebFm">[<a href="#ref-1DssZebFm" role="doc-biblioref">13</a>]</span> found that simpler baseline models achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many.
 Another example is provided by Koutsoukas et al., who benchmarked several traditional machine learning approaches against deep neural networks for modeling bioactivity data on moderately sized datasets <span class="citation" data-cites="19zfIm033">[<a href="#ref-19zfIm033" role="doc-biblioref">14</a>]</span>.
@@ -322,7 +325,7 @@ It can be tempting to train baseline models with these conventional methods usin
 Hu and Greene <span class="citation" data-cites="gTcMnARc">[<a href="#ref-gTcMnARc" role="doc-biblioref">15</a>]</span> discuss a “Continental Breakfast Included” effect by which unequal hyperparameter tuning for different learning algorithms skews the evaluation of these methods, especially when the performance of an algorithm varies substantially with modest changes to its hyperparameters.
 Those wishing to compare different learning algorithms should tune the settings of both traditional and DL-based methods to optimize performance before making claims about relative performance differences.
 The performance comparison among DL models and many other ML approaches is informative only when the models are similarly well tuned.</p>
-<p>To sum this tip up, create and fully tune several traditional models such as logistic regression models or random forests before implementing a DL model.</p>
+<p>To sum this tip up, create and fully tune several traditional models and standard pipelines before implementing a DL model.</p>
 <h2 id="complexities">Tip 3: Understand the complexities of training deep neural networks</h2>
 <p>Correctly training deep neural networks is a non-trivial process.
 There are many different options and potential pitfalls at every stage.
@@ -688,7 +691,10 @@ Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Sala
 <em>Journal of Machine Learning Research</em> (2014) <a href="http://jmlr.org/papers/v15/srivastava14a.html">http://jmlr.org/papers/v15/srivastava14a.html</a></p>
 </div>
 <div id="ref-eR3C2hhK">
-<p>36. <a href="http://dl.acm.org/citation.cfm?id=2986916.2987033">http://dl.acm.org/citation.cfm?id=2986916.2987033</a></p>
+<p>36. <strong>A simple weight decay can improve generalization</strong><br />
+Anders Krogh, John A. Hertz<br />
+<em>Proceedings of the 4th International Conference on Neural Information Processing Systems</em> (1991-12-02)<br />
+ISBN: <a href="https://worldcat.org/isbn/9781558602229">9781558602229</a></p>
 </div>
 <div id="ref-yqAEYaMg">
 <p>37. <strong>Adversarial Controls for Scientific Machine Learning</strong><br />
