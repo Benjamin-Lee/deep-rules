@@ -82,9 +82,9 @@ content/06.know-your-problem.md:30:overfitting
 content/06.know-your-problem.md:31:dataset
 content/06.know-your-problem.md:31:overfitting
 content/06.know-your-problem.md:32:datasets
-content/06.know-your-problem.md:37:datasets
 content/06.know-your-problem.md:37:hyperparameters
 content/06.know-your-problem.md:38:datasets
+content/06.know-your-problem.md:39:datasets
 content/07.architecture-and-representation.md:6:datasets
 content/07.architecture-and-representation.md:10:dataset
 content/07.architecture-and-representation.md:10:MLPs
@@ -132,6 +132,7 @@ content/09.overfitting.md:3:Overfitting
 content/09.overfitting.md:4:overfitting
 content/09.overfitting.md:5:overfit
 content/09.overfitting.md:6:overfitting
+content/09.overfitting.md:9:datasets
 content/09.overfitting.md:9:overfitting
 content/09.overfitting.md:9:overfitting
 content/09.overfitting.md:9:overfitting
@@ -149,7 +150,7 @@ content/09.overfitting.md:20:DL
 content/09.overfitting.md:21:evolutionarily
 content/09.overfitting.md:21:homology
 content/09.overfitting.md:21:overfitting
-content/09.overfitting.md:26:Futhermore
+content/09.overfitting.md:27:Futhermore
 content/10.blackbox.md:1:DL
 content/10.blackbox.md:3:interpretability
 content/10.blackbox.md:5:discriminative

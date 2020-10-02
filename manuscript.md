@@ -18,7 +18,7 @@ author-meta:
 - Elana J. Fertig
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-01'
+date-meta: '2020-10-02'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -37,9 +37,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-10-01" />
+  <meta name="dc.date" content="2020-10-02" />
 
-  <meta name="citation_publication_date" content="2020-10-01" />
+  <meta name="citation_publication_date" content="2020-10-02" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -181,19 +181,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/fa3117db5be3a96691184d2d972275de1d3bac25/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ae758e89b885abb79755059f22e8a639669146e1/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/fa3117db5be3a96691184d2d972275de1d3bac25/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ae758e89b885abb79755059f22e8a639669146e1/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -222,10 +222,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/fa3117db5be3a96691184d2d972275de1d3bac25/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@fa3117d](https://github.com/Benjamin-Lee/deep-rules/tree/fa3117db5be3a96691184d2d972275de1d3bac25)
-on October 1, 2020.
+from [Benjamin-Lee/deep-rules@ae758e8](https://github.com/Benjamin-Lee/deep-rules/tree/ae758e89b885abb79755059f22e8a639669146e1)
+on October 2, 2020.
 </em></small>
 
 ## Authors
@@ -505,11 +505,16 @@ For a large dataset, overfitting may not be a concern, but the modeling power of
 It is important to note that molecular or imaging datasets often require appropriate clinical or demographic data to support robust analyses; this must always be balanced with the need to protect patient privacy (see [Tip 10](#privacy)).
 Looking at these annotations can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.
 
-Data simulation is a powerful approach to creating additional data for model testing.
+Data simulation is a powerful approach to develop an understanding of how data and analytical methods interact.
 In data simulation, a model is used to learn the true distribution of a training set for the purpose of creating new data points.
-Simulations should be performed under reasonable assumptions since the goal would be to identify useful model architectures and hyperparameters, and simulated datasets can be used to verify the correctness of a model’s implementation.
+Often, researchers may perform simulations under some assumptions about the data generating process to identify useful model architectures and hyperparameters.
+Simulated datasets can be used to verify the correctness of a model’s implementation.
 To accurately test the performance of the model, it is important that simulated datasets be generated for a range of parameters.
 For example, varying the parameters to violate the model's assumptions can test the sensitivity of the model's performance.
+Parameter tuning the simulation can help researchers identify the key features that drive method performance.
+In other cases, neural networks can be used to simulate data to better understand how to structure analyses.
+For example, it is possible to study how analytical strategies cope with varying number of noise sources by using neural networks to simulate genome-wide data [@doi:10.1101/2020.05.03.066597].
+Simulating data from assumptions about the data generating distribution can help to debug or characterize deep learning models, and deep learning models can also simulate data in cases where it is hard to make reasonable assumptions from first principles.
 
 Basically, thoroughly study your data and ensure that you understand its context and peculiarities _before_ jumping into deep learning.
 
@@ -567,7 +572,7 @@ This subtle distinction is made clearer by seeing what happens when a model is t
 Deep learning models are particularly susceptible to overfitting due to their relatively large number of parameters and associated representational capacity.
 To continue the student analogy, a smarter student has greater potential for memorization than average one and thus may be more inclined to memorize.
 
-![A visual example of overfitting. While a high-degree polynomial gets high accuracy on its training data, it performs poorly on data that is has not seen before, whereas a simple linear regression works well. The greater representational capacity of the polynomial is analogous to using a larger or deeper neural network.](images/overfitting.png){#fig:overfitting-fig}
+![A visual example of overfitting and failure to generalize. While a high-degree polynomial gets high accuracy on its training data, it performs poorly on data unlike that which it has seen before. In contrast, a simple linear regression works well on both datasets. The greater representational capacity of the polynomial is analogous to using a larger or deeper neural network.](images/overfitting.png){#fig:overfitting-fig}
 
 The simplest way to combat overfitting is to detect it.
 This can be done by splitting the dataset into three parts: a training set, a tuning set (also commonly called a validation set in the machine learning literature), and a test set.
@@ -583,9 +588,9 @@ Similarly, when dealing with sequence data, holding out data that are evolutiona
 In these cases, simply holding out test data selected from a random partition of the training data is insufficient.
 The best remedy for confounding variables is to [know your data](#know-your-problem) and to test your model on truly independent data.
 
+
 In essence, practitioners should split data into training, tuning, and single-use testing sets to assess the performance of the model on data that can provide a reliable estimate of its generalization performance.
 Futhermore, be cognizant of the danger of skewed or biased data artificially inflating accuracy.
-
 
 ## Tip 8: Your DL models can be more transparent {#blackbox}
 
