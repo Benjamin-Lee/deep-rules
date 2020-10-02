@@ -16,6 +16,7 @@ author-meta:
 - Timothy J. Triche, Jr.
 - Thiago Britto-Borges
 - Elana J. Fertig
+- Alexandra J. Lee
 bibliography:
 - content/manual-references.json
 date-meta: '2020-10-02'
@@ -169,6 +170,14 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0003-3204-342X" />
 
+  <meta name="citation_author" content="Alexandra J. Lee" />
+
+  <meta name="citation_author_institution" content="Genomics and Computational Biology Graduate Program, University of Pennsylvania" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania" />
+
+  <meta name="citation_author_orcid" content="0000-0002-0208-3730" />
+
   <link rel="canonical" href="https://Benjamin-Lee.github.io/deep-rules/" />
 
   <meta property="og:url" content="https://Benjamin-Lee.github.io/deep-rules/" />
@@ -181,19 +190,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/edf10efe4909d1aff04e50e478938613652508b9/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/faf8871b2406a023b9c8620c1ee0e34304c48540/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/edf10efe4909d1aff04e50e478938613652508b9/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/faf8871b2406a023b9c8620c1ee0e34304c48540/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/edf10efe4909d1aff04e50e478938613652508b9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/faf8871b2406a023b9c8620c1ee0e34304c48540/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/edf10efe4909d1aff04e50e478938613652508b9/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/faf8871b2406a023b9c8620c1ee0e34304c48540/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/edf10efe4909d1aff04e50e478938613652508b9/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/faf8871b2406a023b9c8620c1ee0e34304c48540/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -222,9 +231,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/edf10efe4909d1aff04e50e478938613652508b9/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/faf8871b2406a023b9c8620c1ee0e34304c48540/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@edf10ef](https://github.com/Benjamin-Lee/deep-rules/tree/edf10efe4909d1aff04e50e478938613652508b9)
+from [Benjamin-Lee/deep-rules@faf8871](https://github.com/Benjamin-Lee/deep-rules/tree/faf8871b2406a023b9c8620c1ee0e34304c48540)
 on October 2, 2020.
 </em></small>
 
@@ -379,6 +388,15 @@ Please note the current author order is chronological and does not reflect the f
     [ejfertig](https://github.com/ejfertig)<br>
   <small>
      Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Johns Hopkins University
+  </small>
+
++ **Alexandra J. Lee**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-0208-3730](https://orcid.org/0000-0002-0208-3730)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [ajlee21](https://github.com/ajlee21)<br>
+  <small>
+     Genomics and Computational Biology Graduate Program, University of Pennsylvania; Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
 

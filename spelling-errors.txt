@@ -1,6 +1,7 @@
 accuracies
 Acknowledgements
 agitter
+ajlee
 AlexanderTitus
 Alexandr
 alxndrkalinin
@@ -13,7 +14,7 @@ AUROC
 backends
 benchmarked
 bioactivity
-bioinformatics
+Bioinformatics
 biomarker
 biomarkers
 Biomathematics
@@ -58,7 +59,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 identifaction
 ImageNet
 interpretability
@@ -78,7 +79,7 @@ Moffitt
 Morgridge
 multilayer
 overfit
-overfitting
+Overfitting
 overinterpreting
 perceptrons
 phenotypes
