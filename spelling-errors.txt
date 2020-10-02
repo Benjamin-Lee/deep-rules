@@ -13,7 +13,7 @@ AUROC
 backends
 benchmarked
 bioactivity
-Bioinformatics
+bioinformatics
 biomarker
 biomarkers
 Biomathematics
@@ -58,7 +58,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 identifaction
 ImageNet
 interpretability
