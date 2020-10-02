@@ -50,5 +50,5 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Alexandr A. Kalinin  | Yes        | Yes                       | Yes      |                | Yes         |
 | Finlay Maguire       | Yes        | Yes                       | Yes      |                | Yes         |
 | Sonja Aits           | Yes        |                           |          |                |             |
-| Joe Greener          |            |                           |          |                |             |
-| Elana Fertig         |            |                           | Yes      |                | Yes         |
+| Joe Greener          | Yes        |                           |          |                |             |
+| Elana Fertig         | Yes        | Yes                       | Yes      |                | Yes         |
