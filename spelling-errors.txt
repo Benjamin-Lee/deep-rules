@@ -47,6 +47,7 @@ Finlay
 fmaguire
 Futhermore
 generalizability
+genomic
 Gitter
 GPUs
 grayscale
@@ -57,7 +58,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 identifaction
 ImageNet
 interpretability

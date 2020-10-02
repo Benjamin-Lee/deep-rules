@@ -181,19 +181,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ae758e89b885abb79755059f22e8a639669146e1/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ae758e89b885abb79755059f22e8a639669146e1/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -222,9 +222,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@ae758e8](https://github.com/Benjamin-Lee/deep-rules/tree/ae758e89b885abb79755059f22e8a639669146e1)
+from [Benjamin-Lee/deep-rules@a5980ca](https://github.com/Benjamin-Lee/deep-rules/tree/a5980ca9689d01d6f2fe3ea0391998c56ad626ac)
 on October 2, 2020.
 </em></small>
 
@@ -643,6 +643,7 @@ To move beyond fitting predictive models toward building understanding and deduc
 ## Tip 10: Don't share models trained on sensitive data {#privacy}
 
 Practitioners may encounter datasets that cannot be shared, such as ones for which there would be significant ethical or legal issues associated with release [@doi:10.1371/journal.pcbi.1005399].
+Examples of such data include classified, confidential, trade secret biological data as well as medical records, certain genomic assays, and personally identifiable information [@doi:10.1038/s41576-020-0257-5].
 One of the greatest opportunities for deep learning in biology is the ability for these techniques to extract information that cannot readily be captured by traditional methods [@arxiv:1509.09292].
 The representation learning of the deep learning models can capture information-rich abstractions of multiple features of the data during the training process.
 However, these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs.
