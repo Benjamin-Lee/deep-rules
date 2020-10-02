@@ -115,13 +115,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ae758e89b885abb79755059f22e8a639669146e1/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ae758e89b885abb79755059f22e8a639669146e1/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -133,9 +133,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/ae758e89b885abb79755059f22e8a639669146e1/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/a5980ca9689d01d6f2fe3ea0391998c56ad626ac/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/ae758e89b885abb79755059f22e8a639669146e1">Benjamin-Lee/deep-rules@ae758e8</a>
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/a5980ca9689d01d6f2fe3ea0391998c56ad626ac">Benjamin-Lee/deep-rules@a5980ca</a>
 on October 2, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -479,12 +479,13 @@ Guiding treatment decisions according to the predictions of the neural network w
 To move beyond fitting predictive models toward building understanding and deducing scientific conclusions, probe data domains where your model succeeds and contrast them with domains where your model fails in order to identify your model’s internal logic, taking care to avoid overinterpreting or anthropomorphizing the model.</p>
 <h2 id="privacy">Tip 10: Don’t share models trained on sensitive data</h2>
 <p>Practitioners may encounter datasets that cannot be shared, such as ones for which there would be significant ethical or legal issues associated with release <span class="citation" data-cites="uXPlMpfq">[<a href="#ref-uXPlMpfq" role="doc-biblioref">46</a>]</span>.
-One of the greatest opportunities for deep learning in biology is the ability for these techniques to extract information that cannot readily be captured by traditional methods <span class="citation" data-cites="UeE0s74F">[<a href="#ref-UeE0s74F" role="doc-biblioref">47</a>]</span>.
+Examples of such data include classified, confidential, trade secret biological data as well as medical records, certain genomic assays, and personally identifiable information <span class="citation" data-cites="VpgPDZxv">[<a href="#ref-VpgPDZxv" role="doc-biblioref">47</a>]</span>.
+One of the greatest opportunities for deep learning in biology is the ability for these techniques to extract information that cannot readily be captured by traditional methods <span class="citation" data-cites="UeE0s74F">[<a href="#ref-UeE0s74F" role="doc-biblioref">48</a>]</span>.
 The representation learning of the deep learning models can capture information-rich abstractions of multiple features of the data during the training process.
 However, these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs.
 Thus, with both deep learning and certain traditional machine learning methods (<em>e.g.</em> <em>k</em>-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data.</p>
-<p>Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption <span class="citation" data-cites="me326jb9 3326vtLW">[<a href="#ref-me326jb9" role="doc-biblioref">48</a>,<a href="#ref-3326vtLW" role="doc-biblioref">49</a>]</span>, but adversarial training techniques such as model inversion attacks can be used to exploit model predictions to recover recognizable images of people’s faces used for training <span class="citation" data-cites="zCqhgXvY">[<a href="#ref-zCqhgXvY" role="doc-biblioref">50</a>]</span>.
-Privacy preserving techniques <span class="citation" data-cites="1HuQe3Z8X">[<a href="#ref-1HuQe3Z8X" role="doc-biblioref">51</a>]</span>, such as differential privacy <span class="citation" data-cites="LiCxcgZp fbIH12yd eJgWbXRz">[<a href="#ref-LiCxcgZp" role="doc-biblioref">52</a>,<a href="#ref-fbIH12yd" role="doc-biblioref">53</a>,<a href="#ref-eJgWbXRz" role="doc-biblioref">54</a>]</span>, can help to mitigate risks as long as the assumptions underlying these techniques are met.
+<p>Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption <span class="citation" data-cites="me326jb9 3326vtLW">[<a href="#ref-me326jb9" role="doc-biblioref">49</a>,<a href="#ref-3326vtLW" role="doc-biblioref">50</a>]</span>, but adversarial training techniques such as model inversion attacks can be used to exploit model predictions to recover recognizable images of people’s faces used for training <span class="citation" data-cites="zCqhgXvY">[<a href="#ref-zCqhgXvY" role="doc-biblioref">51</a>]</span>.
+Privacy preserving techniques <span class="citation" data-cites="1HuQe3Z8X">[<a href="#ref-1HuQe3Z8X" role="doc-biblioref">52</a>]</span>, such as differential privacy <span class="citation" data-cites="LiCxcgZp fbIH12yd eJgWbXRz">[<a href="#ref-LiCxcgZp" role="doc-biblioref">53</a>,<a href="#ref-fbIH12yd" role="doc-biblioref">54</a>,<a href="#ref-eJgWbXRz" role="doc-biblioref">55</a>]</span>, can help to mitigate risks as long as the assumptions underlying these techniques are met.
 These techniques provide a path towards a future where models can be shared, but more software development and theoretical advances will be required to make these techniques easy to apply in many settings.
 Until then, don’t share models trained on sensitive data.</p>
 <h2 id="conclusion">Conclusion</h2>
@@ -759,47 +760,53 @@ Matthew Zook, Solon Barocas, danah boyd, Kate Crawford, Emily Keller, Seeta Peñ
 <em>PLOS Computational Biology</em> (2017-03-30) <a href="https://doi.org/gdqfcn">https://doi.org/gdqfcn</a><br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1005399">10.1371/journal.pcbi.1005399</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28358831">28358831</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373508">PMC5373508</a></p>
 </div>
+<div id="ref-VpgPDZxv">
+<p>47. <strong>Responsible, practical genomic data sharing that accelerates research</strong><br />
+James Brian Byrd, Anna C. Greene, Deepashree Venkatesh Prasad, Xiaoqian Jiang, Casey S. Greene<br />
+<em>Nature Reviews Genetics</em> (2020-07-21) <a href="https://doi.org/gg7c57">https://doi.org/gg7c57</a><br />
+DOI: <a href="https://doi.org/10.1038/s41576-020-0257-5">10.1038/s41576-020-0257-5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32694666">32694666</a></p>
+</div>
 <div id="ref-UeE0s74F">
-<p>47. <strong>Convolutional Networks on Graphs for Learning Molecular Fingerprints</strong><br />
+<p>48. <strong>Convolutional Networks on Graphs for Learning Molecular Fingerprints</strong><br />
 David Duvenaud, Dougal Maclaurin, Jorge Aguilera-Iparraguirre, Rafael Gómez-Bombarelli, Timothy Hirzel, Alán Aspuru-Guzik, Ryan P. Adams<br />
 <em>arXiv</em> (2015-11-04) <a href="https://arxiv.org/abs/1509.09292">https://arxiv.org/abs/1509.09292</a></p>
 </div>
 <div id="ref-me326jb9">
-<p>48. <strong>SIG-DB: Leveraging homomorphic encryption to securely interrogate privately held genomic databases</strong><br />
+<p>49. <strong>SIG-DB: Leveraging homomorphic encryption to securely interrogate privately held genomic databases</strong><br />
 Alexander J. Titus, Audrey Flower, Patrick Hagerty, Paul Gamble, Charlie Lewis, Todd Stavish, Kevin P. O’Connell, Greg Shipley, Stephanie M. Rogers<br />
 <em>PLOS Computational Biology</em> (2018-09-04) <a href="https://doi.org/gd6xd5">https://doi.org/gd6xd5</a><br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1006454">10.1371/journal.pcbi.1006454</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30180163">30180163</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6138421">PMC6138421</a></p>
 </div>
 <div id="ref-3326vtLW">
-<p>49. <strong>Towards the AlexNet Moment for Homomorphic Encryption: HCNN, theFirst Homomorphic CNN on Encrypted Data with GPUs</strong><br />
+<p>50. <strong>Towards the AlexNet Moment for Homomorphic Encryption: HCNN, theFirst Homomorphic CNN on Encrypted Data with GPUs</strong><br />
 Ahmad Al Badawi, Jin Chao, Jie Lin, Chan Fook Mun, Jun Jie Sim, Benjamin Hong Meng Tan, Xiao Nan, Khin Mi Mi Aung, Vijay Ramaseshan Chandrasekhar<br />
 <em>arXiv</em> (2020-08-20) <a href="https://arxiv.org/abs/1811.00778">https://arxiv.org/abs/1811.00778</a></p>
 </div>
 <div id="ref-zCqhgXvY">
-<p>50. <strong>Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures</strong><br />
+<p>51. <strong>Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures</strong><br />
 Matt Fredrikson, Somesh Jha, Thomas Ristenpart<br />
 <em>Association for Computing Machinery (ACM)</em> (2015) <a href="https://doi.org/cwdm">https://doi.org/cwdm</a><br />
 DOI: <a href="https://doi.org/10.1145/2810103.2813677">10.1145/2810103.2813677</a></p>
 </div>
 <div id="ref-1HuQe3Z8X">
-<p>51. <strong>A generic framework for privacy preserving deep learning</strong><br />
+<p>52. <strong>A generic framework for privacy preserving deep learning</strong><br />
 Theo Ryffel, Andrew Trask, Morten Dahl, Bobby Wagner, Jason Mancuso, Daniel Rueckert, Jonathan Passerat-Palmbach<br />
 <em>arXiv</em> (2018-11-14) <a href="https://arxiv.org/abs/1811.04017">https://arxiv.org/abs/1811.04017</a></p>
 </div>
 <div id="ref-LiCxcgZp">
-<p>52. <strong>Deep Learning with Differential Privacy</strong><br />
+<p>53. <strong>Deep Learning with Differential Privacy</strong><br />
 Martin Abadi, Andy Chu, Ian Goodfellow, H. Brendan McMahan, Ilya Mironov, Kunal Talwar, Li Zhang<br />
 <em>Association for Computing Machinery (ACM)</em> (2016) <a href="https://doi.org/gcrnp3">https://doi.org/gcrnp3</a><br />
 DOI: <a href="https://doi.org/10.1145/2976749.2978318">10.1145/2976749.2978318</a></p>
 </div>
 <div id="ref-fbIH12yd">
-<p>53. <strong>Privacy-preserving generative deep neural networks support clinical data sharing</strong><br />
+<p>54. <strong>Privacy-preserving generative deep neural networks support clinical data sharing</strong><br />
 Brett K. Beaulieu-Jones, Zhiwei Steven Wu, Chris Williams, Ran Lee, Sanjeev P. Bhavnani, James Brian Byrd, Casey S. Greene<br />
 <em>bioRxiv</em> (2018-12-20) <a href="https://doi.org/gcnzrn">https://doi.org/gcnzrn</a><br />
 DOI: <a href="https://doi.org/10.1101/159756">10.1101/159756</a></p>
 </div>
 <div id="ref-eJgWbXRz">
-<p>54. <strong>Privacy-Preserving Distributed Deep Learning for Clinical Data</strong><br />
+<p>55. <strong>Privacy-Preserving Distributed Deep Learning for Clinical Data</strong><br />
 Brett K. Beaulieu-Jones, William Yuan, Samuel G. Finlayson, Zhiwei Steven Wu<br />
 <em>arXiv</em> (2018-12-05) <a href="https://arxiv.org/abs/1812.01484">https://arxiv.org/abs/1812.01484</a></p>
 </div>
