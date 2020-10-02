@@ -52,4 +52,4 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Sonja Aits           | Yes        |                           |          |                |             |
 | Joe Greener          |            |                           |          |                |             |
 | Elana Fertig         |            |                           | Yes      |                | Yes         |
-| Alexandra J. Lee     | Yes        | Yes                       | Yes      |                |             |
+| Alexandra J. Lee     | Yes        | Yes                       | Yes      |                | Yes         |
