@@ -14,7 +14,7 @@ AUROC
 backends
 benchmarked
 bioactivity
-Bioinformatics
+bioinformatics
 biomarker
 biomarkers
 Biomathematics
@@ -60,7 +60,6 @@ Hsing
 Hu
 hyperparameter
 hyperparameters
-identifaction
 ImageNet
 interpretability
 interpretable
@@ -79,7 +78,7 @@ Moffitt
 Morgridge
 multilayer
 overfit
-Overfitting
+overfitting
 overinterpreting
 perceptrons
 phenotypes

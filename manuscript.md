@@ -19,7 +19,7 @@ author-meta:
 - Alexandra J. Lee
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-02'
+date-meta: '2020-10-04'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -38,9 +38,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-10-02" />
+  <meta name="dc.date" content="2020-10-04" />
 
-  <meta name="citation_publication_date" content="2020-10-02" />
+  <meta name="citation_publication_date" content="2020-10-04" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -190,19 +190,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/faf8871b2406a023b9c8620c1ee0e34304c48540/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/faf8871b2406a023b9c8620c1ee0e34304c48540/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/faf8871b2406a023b9c8620c1ee0e34304c48540/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/faf8871b2406a023b9c8620c1ee0e34304c48540/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f08e75f82e65d92baa21902bd2182b9fc8e584d/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/faf8871b2406a023b9c8620c1ee0e34304c48540/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f08e75f82e65d92baa21902bd2182b9fc8e584d/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -231,10 +231,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/faf8871b2406a023b9c8620c1ee0e34304c48540/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@faf8871](https://github.com/Benjamin-Lee/deep-rules/tree/faf8871b2406a023b9c8620c1ee0e34304c48540)
-on October 2, 2020.
+from [Benjamin-Lee/deep-rules@2f08e75](https://github.com/Benjamin-Lee/deep-rules/tree/2f08e75f82e65d92baa21902bd2182b9fc8e584d)
+on October 4, 2020.
 </em></small>
 
 ## Authors
@@ -422,7 +422,7 @@ DL has proven to be an extremely powerful paradigm capable of outperforming “t
 Many best practices for machine learning also apply to deep learning.
 Like all computational methods, deep learning should be applied in a systematic manner that is reproducible and rigorously tested.
 
-Those developing deep learning models should select datasets to train and test model performance that are relevant to the problem at hand; non-salient data can hamper performance or lead to spurious conclusions. 
+Those developing deep learning models should select datasets to train and test model performance that are relevant to the problem at hand; non-salient data can hamper performance or lead to spurious conclusions.
 For example, supervised deep learning for phenotype prediction should be applied to datasets that contain large numbers of representative samples from all phenotypes to be predicted.
 Biases in testing data can also unduly influence measures of model performance, and it may be difficult to directly identify confounders from the model.
 Investigators should consider the extent to which the outcome of interest is likely to be predictable from the input data and begin by thoroughly inspecting the input data.
@@ -433,7 +433,7 @@ This is something that researchers should probe before reporting unrealistic acc
 A similar situation can arise with tasks for which inter-rater reliability is modest but deep learning models produce very high accuracies.
 When coupled with imprudence, datasets that are confounded, biased, skewed, or of low quality will produce models of dubious performance and limited generalizability.
 Data exploration with unsupervised learning and data visualization can reveal the biases and technical artifacts in these datasets, providing a critical first step to assessing data quality before any deep learning model is applied.
-In some cases, these analyses can identify biases from known technical artifacts or sample processing which can be corrected through preprocessing techniques to support more accurate application of deep leaning models for subsequent prediction or feature identifaction problems from those datasets.
+In some cases, these analyses can identify biases from known technical artifacts or sample processing which can be corrected through preprocessing techniques to support more accurate application of deep leaning models for subsequent prediction or feature identification problems from those datasets.
 
 Using a test set more than once will lead to biased estimates of the generalization performance [@arxiv:1811.12808; @doi:10.1162/089976698300017197].
 Deep supervised learning models should be trained, tuned, and tested on non-overlapping datasets.
