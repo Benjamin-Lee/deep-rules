@@ -27,8 +27,8 @@ content/03.ml-concepts.md:17:generalizability
 content/03.ml-concepts.md:18:datasets
 content/03.ml-concepts.md:19:datasets
 content/03.ml-concepts.md:19:preprocessing
-content/03.ml-concepts.md:21:arxiv
-content/03.ml-concepts.md:22:datasets
+content/03.ml-concepts.md:21:datasets
+content/03.ml-concepts.md:23:arxiv
 content/03.ml-concepts.md:24:AUROC
 content/04.baselines.md:3:hyperparameters
 content/04.baselines.md:5:DL

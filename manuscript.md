@@ -19,7 +19,7 @@ author-meta:
 - Alexandra J. Lee
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-04'
+date-meta: '2020-10-06'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -38,9 +38,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-10-04" />
+  <meta name="dc.date" content="2020-10-06" />
 
-  <meta name="citation_publication_date" content="2020-10-04" />
+  <meta name="citation_publication_date" content="2020-10-06" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -190,19 +190,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/a2ecdf188965361a5d5242df16ffb25ab4624fb0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a2ecdf188965361a5d5242df16ffb25ab4624fb0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a2ecdf188965361a5d5242df16ffb25ab4624fb0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f08e75f82e65d92baa21902bd2182b9fc8e584d/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a2ecdf188965361a5d5242df16ffb25ab4624fb0/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f08e75f82e65d92baa21902bd2182b9fc8e584d/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a2ecdf188965361a5d5242df16ffb25ab4624fb0/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -231,10 +231,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a2ecdf188965361a5d5242df16ffb25ab4624fb0/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@2f08e75](https://github.com/Benjamin-Lee/deep-rules/tree/2f08e75f82e65d92baa21902bd2182b9fc8e584d)
-on October 4, 2020.
+from [Benjamin-Lee/deep-rules@a2ecdf1](https://github.com/Benjamin-Lee/deep-rules/tree/a2ecdf188965361a5d5242df16ffb25ab4624fb0)
+on October 6, 2020.
 </em></small>
 
 ## Authors
@@ -427,7 +427,7 @@ For example, supervised deep learning for phenotype prediction should be applied
 Biases in testing data can also unduly influence measures of model performance, and it may be difficult to directly identify confounders from the model.
 Investigators should consider the extent to which the outcome of interest is likely to be predictable from the input data and begin by thoroughly inspecting the input data.
 Suppose that there are robust heritability estimates for a phenotype that suggest that the genetic contribution is modest but a deep learning model predicts the phenotype with very high accuracy.
-The model may be capturing signal unrelated to genetic mechanisms underlying the phenotype.
+The model may be capturing a signal unrelated to the genetic mechanisms underlying the phenotype.
 In this case, a possible explanation is that people with similar genetic markers may have shared exposures.
 This is something that researchers should probe before reporting unrealistic accuracy measures.
 A similar situation can arise with tasks for which inter-rater reliability is modest but deep learning models produce very high accuracies.
@@ -435,10 +435,10 @@ When coupled with imprudence, datasets that are confounded, biased, skewed, or o
 Data exploration with unsupervised learning and data visualization can reveal the biases and technical artifacts in these datasets, providing a critical first step to assessing data quality before any deep learning model is applied.
 In some cases, these analyses can identify biases from known technical artifacts or sample processing which can be corrected through preprocessing techniques to support more accurate application of deep leaning models for subsequent prediction or feature identification problems from those datasets.
 
-Using a test set more than once will lead to biased estimates of the generalization performance [@arxiv:1811.12808; @doi:10.1162/089976698300017197].
-Deep supervised learning models should be trained, tuned, and tested on non-overlapping datasets.
+To evaluate deep supervised learning models, they should be trained, tuned, and tested on non-overlapping datasets.
 The data used for testing should be locked and only used one-time for evaluating the final model after all tuning steps are completed.
-Also, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance [@pmid:25738806].
+Using a test set more than once will lead to biased estimates of the generalization performance [@arxiv:1811.12808; @doi:10.1162/089976698300017197].
+Additionally, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance [@pmid:25738806].
 Model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data [@doi:10.1021/acs.molpharmaceut.7b00578], with particular consideration given to metrics that are most directly applicable to the task at hand.
 
 In summary, if you are not familiar with machine learning, review a general machine learning guide such as [@doi:10.1186/s13040-017-0155-3] before diving right into deep learning.

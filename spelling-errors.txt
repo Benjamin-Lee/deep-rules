@@ -14,7 +14,7 @@ AUROC
 backends
 benchmarked
 bioactivity
-bioinformatics
+Bioinformatics
 biomarker
 biomarkers
 Biomathematics

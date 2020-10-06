@@ -21,7 +21,7 @@
   <meta name="author" content="Thiago Britto-Borges" />
   <meta name="author" content="Elana J. Fertig" />
   <meta name="author" content="Alexandra J. Lee" />
-  <meta name="dcterms.date" content="2020-10-04" />
+  <meta name="dcterms.date" content="2020-10-06" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
   <style>
@@ -44,8 +44,8 @@
   <meta name="citation_title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="og:title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
-  <meta name="dc.date" content="2020-10-04" />
-  <meta name="citation_publication_date" content="2020-10-04" />
+  <meta name="dc.date" content="2020-10-06" />
+  <meta name="citation_publication_date" content="2020-10-06" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -120,13 +120,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/a2ecdf188965361a5d5242df16ffb25ab4624fb0/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a2ecdf188965361a5d5242df16ffb25ab4624fb0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a2ecdf188965361a5d5242df16ffb25ab4624fb0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f08e75f82e65d92baa21902bd2182b9fc8e584d/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f08e75f82e65d92baa21902bd2182b9fc8e584d/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a2ecdf188965361a5d5242df16ffb25ab4624fb0/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a2ecdf188965361a5d5242df16ffb25ab4624fb0/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -138,10 +138,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/2f08e75f82e65d92baa21902bd2182b9fc8e584d/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/a2ecdf188965361a5d5242df16ffb25ab4624fb0/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/2f08e75f82e65d92baa21902bd2182b9fc8e584d">Benjamin-Lee/deep-rules@2f08e75</a>
-on October 4, 2020.
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/a2ecdf188965361a5d5242df16ffb25ab4624fb0">Benjamin-Lee/deep-rules@a2ecdf1</a>
+on October 6, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <p>Please note the current author order is chronological and does not reflect the final order.</p>
@@ -307,17 +307,17 @@ For example, supervised deep learning for phenotype prediction should be applied
 Biases in testing data can also unduly influence measures of model performance, and it may be difficult to directly identify confounders from the model.
 Investigators should consider the extent to which the outcome of interest is likely to be predictable from the input data and begin by thoroughly inspecting the input data.
 Suppose that there are robust heritability estimates for a phenotype that suggest that the genetic contribution is modest but a deep learning model predicts the phenotype with very high accuracy.
-The model may be capturing signal unrelated to genetic mechanisms underlying the phenotype.
+The model may be capturing a signal unrelated to the genetic mechanisms underlying the phenotype.
 In this case, a possible explanation is that people with similar genetic markers may have shared exposures.
 This is something that researchers should probe before reporting unrealistic accuracy measures.
 A similar situation can arise with tasks for which inter-rater reliability is modest but deep learning models produce very high accuracies.
 When coupled with imprudence, datasets that are confounded, biased, skewed, or of low quality will produce models of dubious performance and limited generalizability.
 Data exploration with unsupervised learning and data visualization can reveal the biases and technical artifacts in these datasets, providing a critical first step to assessing data quality before any deep learning model is applied.
 In some cases, these analyses can identify biases from known technical artifacts or sample processing which can be corrected through preprocessing techniques to support more accurate application of deep leaning models for subsequent prediction or feature identification problems from those datasets.</p>
-<p>Using a test set more than once will lead to biased estimates of the generalization performance <span class="citation" data-cites="1CDx6NYSj hJQdIoO3">[<a href="#ref-1CDx6NYSj" role="doc-biblioref">7</a>,<a href="#ref-hJQdIoO3" role="doc-biblioref">8</a>]</span>.
-Deep supervised learning models should be trained, tuned, and tested on non-overlapping datasets.
+<p>To evaluate deep supervised learning models, they should be trained, tuned, and tested on non-overlapping datasets.
 The data used for testing should be locked and only used one-time for evaluating the final model after all tuning steps are completed.
-Also, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance <span class="citation" data-cites="KnxQ4G8">[<a href="#ref-KnxQ4G8" role="doc-biblioref">9</a>]</span>.
+Using a test set more than once will lead to biased estimates of the generalization performance <span class="citation" data-cites="1CDx6NYSj hJQdIoO3">[<a href="#ref-1CDx6NYSj" role="doc-biblioref">7</a>,<a href="#ref-hJQdIoO3" role="doc-biblioref">8</a>]</span>.
+Additionally, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance <span class="citation" data-cites="KnxQ4G8">[<a href="#ref-KnxQ4G8" role="doc-biblioref">9</a>]</span>.
 Model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data <span class="citation" data-cites="rKXyJKNt">[<a href="#ref-rKXyJKNt" role="doc-biblioref">10</a>]</span>, with particular consideration given to metrics that are most directly applicable to the task at hand.</p>
 <p>In summary, if you are not familiar with machine learning, review a general machine learning guide such as <span class="citation" data-cites="p4Nl5If0">[<a href="#ref-p4Nl5If0" role="doc-biblioref">6</a>]</span> before diving right into deep learning.</p>
 <h2 id="baselines">Tip 2: Use traditional methods to establish performance baselines</h2>
