@@ -146,5 +146,13 @@ authors:
     email: ejfertig@jhmi.edu
     affiliations:
       - Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Johns Hopkins University
+  -
+    github: mdkessler
+    name: Michael D. Kessler
+    initials: MDK
+    orcid: 0000-0003-1258-5221
+    email: mkessl11@jh.edu
+    affiliations:
+      - Department of Oncology, Johns Hopkins University
   
   # ^^^ Add your information above this line ^^^
