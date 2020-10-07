@@ -1,4 +1,3 @@
-accuracies
 Acknowledgements
 agitter
 ajlee
@@ -29,7 +28,6 @@ chevrm
 Chuang
 CNNs
 Cofer
-confounders
 convolutional
 CUDA
 CuDNN
@@ -47,7 +45,6 @@ Fertig
 Finlay
 fmaguire
 Futhermore
-generalizability
 genomic
 Gitter
 GPUs
@@ -59,7 +56,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 ImageNet
 interpretability
 interpretable
@@ -81,7 +78,6 @@ overfit
 overfitting
 overinterpreting
 perceptrons
-phenotypes
 pre
 preprocessing
 pretraining

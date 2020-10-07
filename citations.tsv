@@ -5,10 +5,6 @@ doi:10.1038/s41467-018-05378-z	doi:10.1038/s41467-018-05378-z	doi:10.1038/s41467
 url:https://github.com/Benjamin-Lee/deep-rules	url:https://github.com/Benjamin-Lee/deep-rules	url:https://github.com/Benjamin-Lee/deep-rules	ysdRl4lj
 doi:10.1371/journal.pcbi.1007128	doi:10.1371/journal.pcbi.1007128	doi:10.1371/journal.pcbi.1007128	YuJbg3zO
 doi:10.1186/s13040-017-0155-3	doi:10.1186/s13040-017-0155-3	doi:10.1186/s13040-017-0155-3	p4Nl5If0
-arxiv:1811.12808	arxiv:1811.12808	arxiv:1811.12808	1CDx6NYSj
-doi:10.1162/089976698300017197	doi:10.1162/089976698300017197	doi:10.1162/089976698300017197	hJQdIoO3
-pmid:25738806	pmid:25738806	pubmed:25738806	KnxQ4G8
-doi:10.1021/acs.molpharmaceut.7b00578	doi:10.1021/acs.molpharmaceut.7b00578	doi:10.1021/acs.molpharmaceut.7b00578	rKXyJKNt
 arxiv:1803.04765	arxiv:1803.04765	arxiv:1803.04765	uBcf6TJ2
 arxiv:1805.11783	arxiv:1805.11783	arxiv:1805.11783	2bsGpiQt
 doi:10.1038/s41746-018-0029-1	doi:10.1038/s41746-018-0029-1	doi:10.1038/s41746-018-0029-1	1DssZebFm
@@ -34,6 +30,10 @@ doi:10.1109/TBDATA.2016.2573280	doi:10.1109/TBDATA.2016.2573280	doi:10.1109/tbda
 tag:hornik-approximation	doi:10.1016/0893-6080(91)90009-T	doi:10.1016/0893-6080(91)90009-t	1BnILgle7
 tag:srivastava-dropout	http://dl.acm.org/citation.cfm?id=2670313	url:http://dl.acm.org/citation.cfm?id=2670313	wgOFUxdw
 tag:ioffe-batchnorm	https://dl.acm.org/citation.cfm?id=3045118.3045167	url:https://dl.acm.org/citation.cfm?id=3045118.3045167	4oKcgKmU
+arxiv:1811.12808	arxiv:1811.12808	arxiv:1811.12808	1CDx6NYSj
+doi:10.1162/089976698300017197	doi:10.1162/089976698300017197	doi:10.1162/089976698300017197	hJQdIoO3
+pmid:25738806	pmid:25738806	pubmed:25738806	KnxQ4G8
+doi:10.1021/acs.molpharmaceut.7b00578	doi:10.1021/acs.molpharmaceut.7b00578	doi:10.1021/acs.molpharmaceut.7b00578	rKXyJKNt
 url:http://jmlr.csail.mit.edu/papers/v15/srivastava14a.html	url:http://jmlr.csail.mit.edu/papers/v15/srivastava14a.html	url:http://jmlr.csail.mit.edu/papers/v15/srivastava14a.html	R1RpVu06
 tag:krogh-weight-decay	http://dl.acm.org/citation.cfm?id=2986916.2987033	url:http://dl.acm.org/citation.cfm?id=2986916.2987033	eR3C2hhK
 doi:10.1021/acschembio.8b00881	doi:10.1021/acschembio.8b00881	doi:10.1021/acschembio.8b00881	yqAEYaMg
