@@ -1,3 +1,4 @@
+accuracies
 Acknowledgements
 agitter
 ajlee
@@ -13,7 +14,7 @@ AUROC
 backends
 benchmarked
 bioactivity
-bioinformatics
+Bioinformatics
 biomarker
 biomarkers
 Biomathematics
@@ -28,6 +29,7 @@ chevrm
 Chuang
 CNNs
 Cofer
+confounders
 convolutional
 CUDA
 CuDNN
@@ -45,6 +47,7 @@ Fertig
 Finlay
 fmaguire
 Futhermore
+generalizability
 genomic
 Gitter
 GPUs
@@ -78,6 +81,7 @@ overfit
 overfitting
 overinterpreting
 perceptrons
+phenotypes
 pre
 preprocessing
 pretraining
