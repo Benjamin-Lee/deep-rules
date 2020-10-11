@@ -7,7 +7,7 @@ October 30th, 2020
 
 Dear Dr. Markel,
 
-We are writing to submit our manuscript entitled “Ten Quick Tip for Deep Learning in Biology” for consideration in _PLOS Computational Biology_'s education section.
+We are writing to submit our manuscript entitled “Ten Quick Tips for Deep Learning in Biology” for consideration in _PLOS Computational Biology_'s education section.
 
 Deep learning provides new opportunities for classifying and recognizing patterns in biological data.
 While deep learning is a relatively young field within the broader field of machine learning, many general-purpose algorithms and methods shared by the broader deep learning community can be readily repurposed and applied to biological data.
