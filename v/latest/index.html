@@ -120,13 +120,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/37688e8f7de9f1df72b23070938d3c08b5d1f191/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/37688e8f7de9f1df72b23070938d3c08b5d1f191/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -138,9 +138,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/37688e8f7de9f1df72b23070938d3c08b5d1f191">Benjamin-Lee/deep-rules@37688e8</a>
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3">Benjamin-Lee/deep-rules@0cc5544</a>
 on October 11, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -397,26 +397,29 @@ For example, it is possible to study how analytical strategies cope with varying
 Simulating data from assumptions about the data generating distribution can help to debug or characterize deep learning models, and deep learning models can also simulate data in cases where it is hard to make reasonable assumptions from first principles.</p>
 <p>Basically, thoroughly study your data and ensure that you understand its context and peculiarities <em>before</em> jumping into deep learning.</p>
 <h2 id="architecture">Tip 5: Choose an appropriate data representation and neural network architecture</h2>
-<p>Unfortunately, choosing how to represent your data and design your architecture is closer to an art than a science.
-While certain best practices have been established by the research community <span class="citation" data-cites="JT3rHKc7">[<a href="#ref-JT3rHKc7" role="doc-biblioref">25</a>]</span>, architecture design choices remain largely problem-specific and are vastly empirical efforts requiring extensive experimentation.
-Furthermore, as deep learning is a quickly evolving field, many recommendations are often short-lived and frequently replaced by newer insights supported by recent empirical results.
+<p>While certain best practices have been established by the research community <span class="citation" data-cites="JT3rHKc7">[<a href="#ref-JT3rHKc7" role="doc-biblioref">25</a>]</span>, architecture design choices remain largely problem-specific and are vastly empirical efforts requiring extensive experimentation.
+Furthermore, as deep learning is a quickly evolving field, many recommendations are often short-lived, and are frequently replaced by newer insights supported by recent empirical results.
 This is further complicated by the fact that many recommendations do not generalize well across different problems and datasets.
-With that being said, there are some general principles that are useful to follow when experimenting.</p>
+Therefore, unfortunately, choosing how to represent your data and design your architecture is closer to an art than a science.
+That said, there are some general principles that are useful to follow when experimenting.</p>
 <p>First and foremost, use your knowledge of the available data and your question (see <a href="#know-your-problem">Tip 4</a>) to inform your data representation and architectural design choices.
-For example, if your dataset is an array of measurements with no natural ordering of inputs (such as gene expression data), multilayer perceptrons (MLPs), which are the most basic type of neural network, may be effective.
+For example, if your dataset is an array of measurements with no natural ordering of inputs (such as gene expression data), multilayer perceptrons (MLPs) may be effective.
+These are the most basic type of neural network, and they are able to learn complex non-linear relationships across the input data despite their relative simplicity.
 Similarly, if your dataset is comprised of images, convolutional neural networks (CNNs) are a good choice because they emphasize local structures and adjacency within the data.
-CNNs may also be a good choice for learning on sequences, as recent empirical evidence suggests they can outperform canonical sequence learning techniques such as recurrent neural networks (RNNs) and the closely related long short-term memory (LSTM) networks <span class="citation" data-cites="aqgi0yxG">[<a href="#ref-aqgi0yxG" role="doc-biblioref">26</a>]</span>.</p>
-<p>DL models can typically benefit from large amounts of labeled data to avoid overfitting (see <a href="#overfitting">Tip 7</a>) and to achieve top performance on a task in hand.
+CNNs may also be a good choice for learning on sequences, as recent empirical evidence suggests that they can outperform canonical sequence learning techniques such as recurrent neural networks (RNNs) and the closely related long short-term memory (LSTM) networks <span class="citation" data-cites="aqgi0yxG">[<a href="#ref-aqgi0yxG" role="doc-biblioref">26</a>]</span>.</p>
+<p>DL models typically benefit from increasing the amount of labeled data with which to train on.
+Large amounts of data help to avoid overfitting (see <a href="#overfitting">Tip 7</a>), and increase the likelihood of achieving top performance on a given task.
 In the event that there is not enough data available to train your model, consider using transfer learning.
 In transfer learning, a model whose weights were generated by training on another dataset is used as the starting point for training <span class="citation" data-cites="enhj7VT6">[<a href="#ref-enhj7VT6" role="doc-biblioref">27</a>]</span>.
-Transfer learning is most useful when pre-training and target datasets are of similar nature <span class="citation" data-cites="enhj7VT6">[<a href="#ref-enhj7VT6" role="doc-biblioref">27</a>]</span>.
-For this reason, it is important to search for similar datasets that are already available and may potentially be used to increase the size of the training set or for pre-training and subsequent fine-tuning on the target data.
-However, even when this assumption does not hold, transferring features still can improve performance of the model compared to just random feature initialization.
-For example Rojkomar et al. showed advantages of ImageNet-pretraining <span class="citation" data-cites="cBVeXnZx">[<a href="#ref-cBVeXnZx" role="doc-biblioref">28</a>]</span> for the model that is applied to grayscale medical image classification <span class="citation" data-cites="x6HXFAS4">[<a href="#ref-x6HXFAS4" role="doc-biblioref">29</a>]</span>.
-In addition or as an alternative to pre-training models on larger datasets for transfer learning yourself, you may also be able to obtain pre-trained models from public repositories, such as Kipoi <span class="citation" data-cites="14cVrrqP1">[<a href="#ref-14cVrrqP1" role="doc-biblioref">30</a>]</span> for genomics models.
-Moreover, learned features can be helpful even when pre-training task was different from the target one <span class="citation" data-cites="x7a5SM90">[<a href="#ref-x7a5SM90" role="doc-biblioref">31</a>]</span>.
-Related to this property of transfer learning is multi-task learning, in which a network is trained jointly for multiple tasks simultaneously, sharing the same set of features across them.
-Multi-task learning can be used separately or even in combination with transfer learning <span class="citation" data-cites="ZwUaSNWa">[<a href="#ref-ZwUaSNWa" role="doc-biblioref">32</a>]</span>.</p>
+Transfer learning is most useful when the pre-training and target datasets are of similar nature <span class="citation" data-cites="enhj7VT6">[<a href="#ref-enhj7VT6" role="doc-biblioref">27</a>]</span>.
+For this reason, it is important to search for similar datasets that are already available.
+These can potentially be used to increase the size of the training set or for pre-training and subsequent fine-tuning on the target data.
+However, even when this assumption does not hold, transferring features still can still improve model performance compared with random feature initialization.
+For example Rojkomar et al. showed advantages of ImageNet-pretraining <span class="citation" data-cites="cBVeXnZx">[<a href="#ref-cBVeXnZx" role="doc-biblioref">28</a>]</span> for a model that is applied to grayscale medical image classification <span class="citation" data-cites="x6HXFAS4">[<a href="#ref-x6HXFAS4" role="doc-biblioref">29</a>]</span>.
+In addition, or as an alternative to pre-training models on larger datasets for transfer learning yourself, you may also be able to obtain pre-trained models from public repositories, such as Kipoi <span class="citation" data-cites="14cVrrqP1">[<a href="#ref-14cVrrqP1" role="doc-biblioref">30</a>]</span> for genomics models.
+Moreover, learned features can be helpful even when a pre-training task is different from a target task <span class="citation" data-cites="x7a5SM90">[<a href="#ref-x7a5SM90" role="doc-biblioref">31</a>]</span>.
+Another related approach is multi-task learning, which consists of simultaneously training a network for multiple separate tasks that share features.
+In fact, multi-task learning can be used separately or even in combination with transfer learning <span class="citation" data-cites="ZwUaSNWa">[<a href="#ref-ZwUaSNWa" role="doc-biblioref">32</a>]</span>.</p>
 <p>This tip can be distilled into two main action points: first, base your network’s architecture on your knowledge of the problem and, second, take advantage of similar existing data or pre-trained deep learning models.</p>
 <h2 id="hyperparameters">Tip 6: Tune your hyperparameters extensively and systematically</h2>
 <p>Multi-layer neural networks can approximate arbitrary continuous functions, given at least one hidden layer, a non-linear activation function, and a large number of hidden units <span class="citation" data-cites="1BnILgle7">[<a href="#ref-1BnILgle7" role="doc-biblioref">33</a>]</span>.
