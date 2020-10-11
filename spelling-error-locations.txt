@@ -197,6 +197,9 @@ content/99.citation-tags.md:1:dl
 content/99.citation-tags.md:2:dl
 content/99.citation-tags.md:3:dl
 content/99.citation-tags.md:5:dl
+content/cover_letter.md:23:hyperparameters
+content/cover_letter.md:24:dataset
+content/cover_letter.md:24:overfit
 content/presubmission_inquiry.md:11:DL
 content/presubmission_inquiry.md:12:DL
 content/presubmission_inquiry.md:13:DL
