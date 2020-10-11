@@ -190,19 +190,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/cb43efb9d2f86659e7f81387db9effdb63cff707/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/cb43efb9d2f86659e7f81387db9effdb63cff707/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/cb43efb9d2f86659e7f81387db9effdb63cff707/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/cb43efb9d2f86659e7f81387db9effdb63cff707/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/37688e8f7de9f1df72b23070938d3c08b5d1f191/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/cb43efb9d2f86659e7f81387db9effdb63cff707/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/37688e8f7de9f1df72b23070938d3c08b5d1f191/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -231,9 +231,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/cb43efb9d2f86659e7f81387db9effdb63cff707/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@cb43efb](https://github.com/Benjamin-Lee/deep-rules/tree/cb43efb9d2f86659e7f81387db9effdb63cff707)
+from [Benjamin-Lee/deep-rules@37688e8](https://github.com/Benjamin-Lee/deep-rules/tree/37688e8f7de9f1df72b23070938d3c08b5d1f191)
 on October 11, 2020.
 </em></small>
 
