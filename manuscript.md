@@ -190,19 +190,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/37688e8f7de9f1df72b23070938d3c08b5d1f191/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/37688e8f7de9f1df72b23070938d3c08b5d1f191/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -231,9 +231,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/37688e8f7de9f1df72b23070938d3c08b5d1f191/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@37688e8](https://github.com/Benjamin-Lee/deep-rules/tree/37688e8f7de9f1df72b23070938d3c08b5d1f191)
+from [Benjamin-Lee/deep-rules@0cc5544](https://github.com/Benjamin-Lee/deep-rules/tree/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3)
 on October 11, 2020.
 </em></small>
 
@@ -542,28 +542,31 @@ Basically, thoroughly study your data and ensure that you understand its context
 
 ## Tip 5: Choose an appropriate data representation and neural network architecture {#architecture}
 
-Unfortunately, choosing how to represent your data and design your architecture is closer to an art than a science.
 While certain best practices have been established by the research community [@doi:10.1007/978-3-642-35289-8], architecture design choices remain largely problem-specific and are vastly empirical efforts requiring extensive experimentation.
-Furthermore, as deep learning is a quickly evolving field, many recommendations are often short-lived and frequently replaced by newer insights supported by recent empirical results.
+Furthermore, as deep learning is a quickly evolving field, many recommendations are often short-lived, and are frequently replaced by newer insights supported by recent empirical results.
 This is further complicated by the fact that many recommendations do not generalize well across different problems and datasets.
-With that being said, there are some general principles that are useful to follow when experimenting.
+Therefore, unfortunately, choosing how to represent your data and design your architecture is closer to an art than a science.
+That said, there are some general principles that are useful to follow when experimenting.
 
 First and foremost, use your knowledge of the available data and your question (see [Tip 4](#know-your-problem)) to inform your data representation and architectural design choices.
-For example, if your dataset is an array of measurements with no natural ordering of inputs (such as gene expression data), multilayer perceptrons (MLPs), which are the most basic type of neural network, may be effective.
+For example, if your dataset is an array of measurements with no natural ordering of inputs (such as gene expression data), multilayer perceptrons (MLPs) may be effective.
+These are the most basic type of neural network, and they are able to learn complex non-linear relationships across the input data despite their relative simplicity.
 Similarly, if your dataset is comprised of images, convolutional neural networks (CNNs) are a good choice because they emphasize local structures and adjacency within the data.
-CNNs may also be a good choice for learning on sequences, as recent empirical evidence suggests they can outperform canonical sequence learning techniques such as recurrent neural networks (RNNs) and the closely related long short-term memory (LSTM) networks [@arxiv:1803.01271].
+CNNs may also be a good choice for learning on sequences, as recent empirical evidence suggests that they can outperform canonical sequence learning techniques such as recurrent neural networks (RNNs) and the closely related long short-term memory (LSTM) networks [@arxiv:1803.01271].
 
-DL models can typically benefit from large amounts of labeled data to avoid overfitting (see [Tip 7](#overfitting)) and to achieve top performance on a task in hand.
+DL models typically benefit from increasing the amount of labeled data with which to train on.
+Large amounts of data help to avoid overfitting (see [Tip 7](#overfitting)), and increase the likelihood of achieving top performance on a given task.
 In the event that there is not enough data available to train your model, consider using transfer learning.
 In transfer learning, a model whose weights were generated by training on another dataset is used as the starting point for training [@tag:Yosinski2014].
-Transfer learning is most useful when pre-training and target datasets are of similar nature [@tag:Yosinski2014].
-For this reason, it is important to search for similar datasets that are already available and may potentially be used to increase the size of the training set or for pre-training and subsequent fine-tuning on the target data.
-However, even when this assumption does not hold, transferring features still can improve performance of the model compared to just random feature initialization.
-For example Rojkomar et al. showed advantages of ImageNet-pretraining [@doi:10.1007/s11263-015-0816-y] for the model that is applied to grayscale medical image classification [@doi:10.1007/s10278-016-9914-9].
-In addition or as an alternative to pre-training models on larger datasets for transfer learning yourself, you may also be able to obtain pre-trained models from public repositories, such as Kipoi [@doi:10.1101/375345] for genomics models.
-Moreover, learned features can be helpful even when pre-training task was different from the target one [@doi:10.1109/CVPRW.2014.131].
-Related to this property of transfer learning is multi-task learning, in which a network is trained jointly for multiple tasks simultaneously, sharing the same set of features across them.
-Multi-task learning can be used separately or even in combination with transfer learning [@doi:10.1109/TBDATA.2016.2573280].
+Transfer learning is most useful when the pre-training and target datasets are of similar nature [@tag:Yosinski2014].
+For this reason, it is important to search for similar datasets that are already available.
+These can potentially be used to increase the size of the training set or for pre-training and subsequent fine-tuning on the target data.
+However, even when this assumption does not hold, transferring features still can still improve model performance compared with random feature initialization.
+For example Rojkomar et al. showed advantages of ImageNet-pretraining [@doi:10.1007/s11263-015-0816-y] for a model that is applied to grayscale medical image classification [@doi:10.1007/s10278-016-9914-9].
+In addition, or as an alternative to pre-training models on larger datasets for transfer learning yourself, you may also be able to obtain pre-trained models from public repositories, such as Kipoi [@doi:10.1101/375345] for genomics models.
+Moreover, learned features can be helpful even when a pre-training task is different from a target task [@doi:10.1109/CVPRW.2014.131].
+Another related approach is multi-task learning, which consists of simultaneously training a network for multiple separate tasks that share features.
+In fact, multi-task learning can be used separately or even in combination with transfer learning [@doi:10.1109/TBDATA.2016.2573280].
 
 This tip can be distilled into two main action points: first, base your network's architecture on your knowledge of the problem and, second, take advantage of similar existing data or pre-trained deep learning models.
 
