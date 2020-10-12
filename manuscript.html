@@ -21,7 +21,7 @@
   <meta name="author" content="Thiago Britto-Borges" />
   <meta name="author" content="Elana J. Fertig" />
   <meta name="author" content="Alexandra J. Lee" />
-  <meta name="dcterms.date" content="2020-10-11" />
+  <meta name="dcterms.date" content="2020-10-12" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
   <style>
@@ -44,8 +44,8 @@
   <meta name="citation_title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="og:title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
-  <meta name="dc.date" content="2020-10-11" />
-  <meta name="citation_publication_date" content="2020-10-11" />
+  <meta name="dc.date" content="2020-10-12" />
+  <meta name="citation_publication_date" content="2020-10-12" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -120,13 +120,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -138,10 +138,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/0cc55440756f0f46c1894b7efb6f6c05ecb59ad3">Benjamin-Lee/deep-rules@0cc5544</a>
-on October 11, 2020.
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/322c9e40af1bd940fe0a4645f4ecfabf0fee2566">Benjamin-Lee/deep-rules@322c9e4</a>
+on October 12, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <p>Please note the current author order is chronological and does not reflect the final order.</p>
@@ -324,24 +324,22 @@ Additionally, many conventional metrics for classification (e.g. area under the
 Model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data <span class="citation" data-cites="rKXyJKNt">[<a href="#ref-rKXyJKNt" role="doc-biblioref">10</a>]</span>, with particular consideration given to metrics that are most directly applicable to the task at hand.</p>
 <p>In summary, if you are not familiar with machine learning, review a general machine learning guide such as <span class="citation" data-cites="p4Nl5If0">[<a href="#ref-p4Nl5If0" role="doc-biblioref">6</a>]</span> before diving right into deep learning.</p>
 <h2 id="baselines">Tip 2: Use traditional methods to establish performance baselines</h2>
-<p>Since deep learning requires practitioners to consider a larger number and variety of tuning parameters or algorithm settings (so-called hyperparameters) compared to more traditional methods, it is easy to fall into the trap of performing an unnecessarily convoluted analysis.
-Hence, before applying deep learning to a given problem, we highly recommend implementing a simple model at the beginning of each study to establish adequate performance baselines.
-While performance baselines available from existing literature also serve as a helpful guidance and should be taken into account, an implementation of a simple model (for example, linear or logistic regression) using the same software framework planned for DL is additionally helpful for assessing the correctness of data processing and performance evaluation pipelines.
-Examples of simple models include logistic regression, random forests, k-nearest neighbors, naive Bayes, and support vector machines.
-Beyond serving as a predictive performance baseline, an implementation of a simple model can also provide guidance for estimating computational performance and and resource requirements.
-Furthermore, in some cases, it can also be useful to combine simple baseline model with deep neural networks.
-Such hybrid models that combine DL and simpler models can improve generalization performance, model interpretability, and confidence estimation <span class="citation" data-cites="uBcf6TJ2 2bsGpiQt">[<a href="#ref-uBcf6TJ2" role="doc-biblioref">11</a>,<a href="#ref-2bsGpiQt" role="doc-biblioref">12</a>]</span>.
-In addition, be sure to tune and compare current state-of-the-art tools (<em>e.g.</em> bioinformatics pipelines or image analysis workflows), regardless of whether they use ML, in order to gauge the relative effectiveness of your baseline and DL models.</p>
-<p>Depending on the amount and the nature of the available data, as well as the task to be performed, deep learning may not always be able to outperform conventional methods.
-As an illustration, Rajkomar et al. <span class="citation" data-cites="1DssZebFm">[<a href="#ref-1DssZebFm" role="doc-biblioref">13</a>]</span> found that simpler baseline models achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records, which may be a surprise to many.
+<p>Deep learning requires practitioners to consider a larger number and variety of tuning parameters (<em>i.e.</em> algorithmic settings) than more traditional machine learning methods.
+These settings are often called hyperparameters, and their extensiveness can make it easy to fall into the trap of performing an unnecessarily convoluted analysis.
+Hence, before applying deep learning to a given problem, we highly recommend implementing a simpler model with fewer hyperparameters at the beginning of each study.
+Such models include logistic regression, random forests, k-nearest neighbors, naive Bayes, and support vector machines, and using them can help to establish baseline performance expectations.
+While performance baselines available from existing literature can also serve as helpful guides, an implementation of a simpler model that uses the same software framework as planned for DL can greatly help with assessing the correctness of data processing steps, performance evaluation pipelines, resource requirement estimates, and computational performance estimates.
+Furthermore, in some cases, it can even be useful to combine simpler baseline models with deep neural networks, as such hybrid models can improve generalization performance, model interpretability, and confidence estimation <span class="citation" data-cites="uBcf6TJ2 2bsGpiQt">[<a href="#ref-uBcf6TJ2" role="doc-biblioref">11</a>,<a href="#ref-2bsGpiQt" role="doc-biblioref">12</a>]</span>.</p>
+<p>However, it is important to gauge the relative effectiveness of baseline and DL models by comparing them with established tools (<em>e.g.</em> bioinformatics pipelines or image analysis workflows), as conventional methods (machine learning based or not) can potentially perform equivalently to or better than newer ML/DL methods.
+While this seems unintutive, it can in fact be the case when the available data are of limited size and/or atypical in nature.
+For example, Rajkomar et al. <span class="citation" data-cites="1DssZebFm">[<a href="#ref-1DssZebFm" role="doc-biblioref">13</a>]</span> found that simpler baseline models achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records.
 Another example is provided by Koutsoukas et al., who benchmarked several traditional machine learning approaches against deep neural networks for modeling bioactivity data on moderately sized datasets <span class="citation" data-cites="19zfIm033">[<a href="#ref-19zfIm033" role="doc-biblioref">14</a>]</span>.
-The researchers found that while well tuned deep learning approaches generally tend to outperform conventional classifiers, simple methods such as Naive Bayes classification tend to outperform deep learning as the noise in the dataset increases.</p>
-<p>It is worth noting that conventional off-the-shelf machine learning algorithms (e.g., support vector machines and random forests) are also likely to benefit from hyperparameter tuning.
-It can be tempting to train baseline models with these conventional methods using default settings, which may provide acceptable but not stellar performance, but then tune the settings for DL algorithms to further optimize performance.
-Hu and Greene <span class="citation" data-cites="gTcMnARc">[<a href="#ref-gTcMnARc" role="doc-biblioref">15</a>]</span> discuss a “Continental Breakfast Included” effect by which unequal hyperparameter tuning for different learning algorithms skews the evaluation of these methods, especially when the performance of an algorithm varies substantially with modest changes to its hyperparameters.
-Those wishing to compare different learning algorithms should tune the settings of both traditional and DL-based methods to optimize performance before making claims about relative performance differences.
-The performance comparison among DL models and many other ML approaches is informative only when the models are similarly well tuned.</p>
-<p>To sum this tip up, create and fully tune several traditional models and standard pipelines before implementing a DL model.</p>
+The researchers found that while well tuned deep learning approaches generally tend to outperform conventional classifiers, simpler conventional methods such as Naive Bayes classification tend to outperform deep learning as the noise in the dataset increases.</p>
+<p>Another potential pitfall arises from comparing the performance of baseline conventional models trained with default settings with the performance of DL models that have undergone rigorous tuning and optimization.
+Since conventional off-the-shelf machine learning algorithms (<em>e.g.</em> support vector machines and random forests) are also likely to benefit from hyperparameter tuning, such incongreuty prevents the comparison of equally optimized models and can lead to false conclusions about model efficacy.
+Hu and Greene <span class="citation" data-cites="gTcMnARc">[<a href="#ref-gTcMnARc" role="doc-biblioref">15</a>]</span> discuss this under the umbrella of what they call the “Continental Breakfast Included” effect, and they describe how the unequal tuning of hyperparameters across different learning algorithms can especially skew evaluation when the performance of an algorithm varies substantially with modest changes to its hyperparameters.
+Therefore, practitioners should tune the settings of both traditional and DL-based methods before making claims about relative performance differences, as performance comparisons among ML and DL models are only informative when the models are equally well optimized.</p>
+<p>To sum this tip up, practitions are encouraged to create and fully tune several traditional models and standard pipelines before implementing a DL model.</p>
 <h2 id="complexities">Tip 3: Understand the complexities of training deep neural networks</h2>
 <p>Correctly training deep neural networks is a non-trivial process.
 There are many different options and potential pitfalls at every stage.
