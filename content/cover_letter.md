@@ -1,19 +1,16 @@
-Scott Markel  
-Dassault Systèmes BIOVIA  
-5005 Wateridge Vista Dr  
-San Diego, CA 92121
-
 October 30th, 2020
 
-Dear Dr. Markel,
+Dear Prof. Ouellette
 
 We are writing to submit our manuscript entitled “Ten Quick Tips for Deep Learning in Biology” for consideration in _PLOS Computational Biology_'s education section.
 
-Deep learning provides new opportunities for classifying and recognizing patterns in biological data.
+Deep learning provides new opportunities for outcome prediction and pattern recognition in biological data.
 While deep learning is a relatively young field within the broader field of machine learning, many general-purpose algorithms and methods shared by the broader deep learning community can be readily repurposed and applied to biological data.
-Though we encourage the use of deep learning to solve existing and novel problems in biology, we want to share essential tips from practitioners to help computational biologists beginning work in this area avoid common pitfalls.
+Though we encourage the use of deep learning to solve existing and novel problems in biology, we want to share essential tips from practitioners to help readers beginning work in this area avoid common pitfalls.
 
 Ultimately, we have decided on the following ten tips as being critical for engaging in principled and effective research based on deep learning:
+
+<!-- Update these one last time before submitting! -->
 
 1. Concepts that apply to machine learning also apply to deep learning
 2. Use traditional methods to establish performance baselines
