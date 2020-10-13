@@ -17,9 +17,10 @@ author-meta:
 - Thiago Britto-Borges
 - Elana J. Fertig
 - Alexandra J. Lee
+- Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-12'
+date-meta: '2020-10-13'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -38,9 +39,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-10-12" />
+  <meta name="dc.date" content="2020-10-13" />
 
-  <meta name="citation_publication_date" content="2020-10-12" />
+  <meta name="citation_publication_date" content="2020-10-13" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -178,6 +179,12 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-0208-3730" />
 
+  <meta name="citation_author" content="Beth Signal" />
+
+  <meta name="citation_author_institution" content="Climate Change Cluster, University of Technology Sydney" />
+
+  <meta name="citation_author_orcid" content="None" />
+
   <link rel="canonical" href="https://Benjamin-Lee.github.io/deep-rules/" />
 
   <meta property="og:url" content="https://Benjamin-Lee.github.io/deep-rules/" />
@@ -190,19 +197,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/05e3894037e19e63b72be6b5fc6b526473eec52c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/05e3894037e19e63b72be6b5fc6b526473eec52c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/05e3894037e19e63b72be6b5fc6b526473eec52c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/05e3894037e19e63b72be6b5fc6b526473eec52c/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/05e3894037e19e63b72be6b5fc6b526473eec52c/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -231,10 +238,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/322c9e40af1bd940fe0a4645f4ecfabf0fee2566/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/05e3894037e19e63b72be6b5fc6b526473eec52c/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@322c9e4](https://github.com/Benjamin-Lee/deep-rules/tree/322c9e40af1bd940fe0a4645f4ecfabf0fee2566)
-on October 12, 2020.
+from [Benjamin-Lee/deep-rules@05e3894](https://github.com/Benjamin-Lee/deep-rules/tree/05e3894037e19e63b72be6b5fc6b526473eec52c)
+on October 13, 2020.
 </em></small>
 
 ## Authors
@@ -399,29 +406,36 @@ Please note the current author order is chronological and does not reflect the f
      Genomics and Computational Biology Graduate Program, University of Pennsylvania; Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
++ **Beth Signal**<br>
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [betsig](https://github.com/betsig)<br>
+  <small>
+     Climate Change Cluster, University of Technology Sydney
+  </small>
+
 
 
 ## Introduction {#intro}
 
-Deep learning (DL) is a subfield of machine learning (ML) focusing on artificial neural networks with many layers.
+Deep learning is a subfield of machine learning focusing on artificial neural networks with many layers.
 These methods are increasingly being used for the analysis of biological data [@doi:10.1098/rsif.2017.0387].
-In many cases, novel biological insights have been revealed through careful evaluation of DL methods ranging from predicting protein-drug binding kinetics [@doi:10.1038/s41467-017-02388-1] to identifying the lab-of-origin of synthetic DNA [@doi:10.1038/s41467-018-05378-z].
-However, for researchers and students entirely new to this area and those experienced in using classical ML methods (_e.g._ linear regression), using DL correctly can be a daunting task.
-Furthermore, the lack of concise recommendations for biological applications of DL poses an additional challenge for newcomers wishing to apply state-of-the-art DL in their research.
-Since DL is an active and specialized research area, detailed resources are rapidly rendered obsolete, and only a few resources articulate general DL best practices to the scientific community broadly and the biological community specifically.
+In many cases, novel biological insights have been revealed through careful evaluation of deep learning methods ranging from predicting protein-drug binding kinetics [@doi:10.1038/s41467-017-02388-1] to identifying the lab-of-origin of synthetic DNA [@doi:10.1038/s41467-018-05378-z].
+However, for researchers and students entirely new to this area and those experienced in using classical machine learning methods (for example, linear regression), using deep learning correctly can be a daunting task.
+Furthermore, the lack of concise recommendations for biological applications of deep learning poses an additional challenge for newcomers wishing to apply state-of-the-art deep learning in their research.
+Since deep learning is an active and specialized research area, detailed resources are rapidly rendered obsolete, and only a few resources articulate general deep learning best practices to the scientific community broadly and the biological community specifically.
 To address this issue, we solicited input from a community of researchers with varied biological and deep learning interests to write this manuscript collaboratively using the GitHub version control platform [@url:https://github.com/Benjamin-Lee/deep-rules] and Manubot [@doi:10.1371/journal.pcbi.1007128].
 
-Through the course of our discussions, several themes became clear: the importance of understanding and applying ML fundamentals [@doi:10.1186/s13040-017-0155-3] as a baseline for utilizing DL, the necessity for extensive model comparisons with careful evaluation, and the need for critical thought in interpreting results generated by means of DL, among others.
-Both DL models and the datasets to which they are applied impact prediction results, so it is important to consider both when generating biological or clinical insights from these methods.
+Through the course of our discussions, several themes became clear: the importance of understanding and applying machine learning fundamentals [@doi:10.1186/s13040-017-0155-3] as a baseline for utilizing deep learning, the necessity for extensive model comparisons with careful evaluation, and the need for critical thought in interpreting results generated by means of deep learning, among others.
+Both deep learning models and the datasets to which they are applied impact prediction results, so it is important to consider both when generating biological or clinical insights from these methods.
 Ultimately, the tips we collate range from high-level guidance to the implementation of best practices.
-It is our hope that they will provide actionable, DL-specific advice for both new and experienced DL practitioners alike who would like to employ DL in biological research.
-By increasing the accessibility of DL for applications in biological research, we aim to improve the overall quality and reporting of DL in the literature, enabling more researchers to utilize these state-of-the art modeling techniques.
+It is our hope that they will provide actionable, deep learning-specific advice for both new and experienced deep learning practitioners alike who would like to employ deep learning in biological research.
+By increasing the accessibility of deep learning for applications in biological research, we aim to improve the overall quality and reporting of deep learning in the literature, enabling more researchers to utilize these state-of-the art modeling techniques.
 
 
 ## Tip 1: Concepts that apply to machine learning also apply to deep learning {#concepts}
 
 Deep learning is a distinct subfield of machine learning, but it is still a subfield.
-DL has proven to be an extremely powerful paradigm capable of outperforming “traditional” machine learning approaches in certain contexts, but it is not immune to the many limitations inherent to machine learning.
+Though it has proven to be an extremely powerful paradigm capable of outperforming “traditional” machine learning approaches in certain contexts, it is not immune to the many limitations inherent to machine learning.
 Many best practices for machine learning also apply to deep learning.
 Like all computational methods, deep learning should be applied in a systematic manner that is reproducible and rigorously tested.
 
@@ -449,25 +463,25 @@ In summary, if you are not familiar with machine learning, review a general mach
 
 ## Tip 2: Use traditional methods to establish performance baselines {#baselines}
 
-Deep learning requires practitioners to consider a larger number and variety of tuning parameters (_i.e._ algorithmic settings) than more traditional machine learning methods.
+Deep learning requires practitioners to consider a larger number and variety of tuning parameters (that is, algorithmic settings) than more traditional machine learning methods.
 These settings are often called hyperparameters, and their extensiveness can make it easy to fall into the trap of performing an unnecessarily convoluted analysis.
-Hence, before applying deep learning to a given problem, we highly recommend implementing a simpler model with fewer hyperparameters at the beginning of each study. 
+Hence, before applying deep learning to a given problem, we highly recommend implementing a simpler model with fewer hyperparameters at the beginning of each study.
 Such models include logistic regression, random forests, k-nearest neighbors, naive Bayes, and support vector machines, and using them can help to establish baseline performance expectations.
-While performance baselines available from existing literature can also serve as helpful guides, an implementation of a simpler model that uses the same software framework as planned for DL can greatly help with assessing the correctness of data processing steps, performance evaluation pipelines, resource requirement estimates, and computational performance estimates.
+While performance baselines available from existing literature can also serve as helpful guides, an implementation of a simpler model that uses the same software framework as planned for deep learning can greatly help with assessing the correctness of data processing steps, performance evaluation pipelines, resource requirement estimates, and computational performance estimates.
 Furthermore, in some cases, it can even be useful to combine simpler baseline models with deep neural networks, as such hybrid models can improve generalization performance, model interpretability, and confidence estimation [@arxiv:1803.04765; @arxiv:1805.11783].
 
-However, it is important to gauge the relative effectiveness of baseline and DL models by comparing them with established tools (_e.g._ bioinformatics pipelines or image analysis workflows), as conventional methods (machine learning based or not) can potentially perform equivalently to or better than newer ML/DL methods.
-While this seems unintutive, it can in fact be the case when the available data are of limited size and/or atypical in nature. 
-For example, Rajkomar et al. [@doi:10.1038/s41746-018-0029-1] found that simpler baseline models achieved performance comparable with that of DL in a number of clinical prediction tasks using electronic health records.
+However, it is important to gauge the relative effectiveness of baseline and deep learning models by comparing them with established tools (for example, bioinformatics pipelines or image analysis workflows), as conventional methods (machine learning based or not) can potentially perform equivalently to or better than newer machine or deep learning methods.
+While this seems unintuitive, it can in fact be the case when the available data are of limited size and/or atypical in nature.
+For example, Rajkomar et al. [@doi:10.1038/s41746-018-0029-1] found that simpler baseline models achieved performance comparable with that of deep learning in a number of clinical prediction tasks using electronic health records.
 Another example is provided by Koutsoukas et al., who benchmarked several traditional machine learning approaches against deep neural networks for modeling bioactivity data on moderately sized datasets [@doi:10.1186/s13321-017-0226-y].
 The researchers found that while well tuned deep learning approaches generally tend to outperform conventional classifiers, simpler conventional methods such as Naive Bayes classification tend to outperform deep learning as the noise in the dataset increases.
 
-Another potential pitfall arises from comparing the performance of baseline conventional models trained with default settings with the performance of DL models that have undergone rigorous tuning and optimization.
-Since conventional off-the-shelf machine learning algorithms (_e.g._ support vector machines and random forests) are also likely to benefit from hyperparameter tuning, such incongreuty prevents the comparison of equally optimized models and can lead to false conclusions about model efficacy. 
+Another potential pitfall arises from comparing the performance of baseline conventional models trained with default settings with the performance of deep learning models that have undergone rigorous tuning and optimization.
+Since conventional off-the-shelf machine learning algorithms (for example, support vector machines and random forests) are also likely to benefit from hyperparameter tuning, such incongruity prevents the comparison of equally optimized models and can lead to false conclusions about model efficacy.
 Hu and Greene [@doi:10.1142/9789813279827_0033] discuss this under the umbrella of what they call the "Continental Breakfast Included" effect, and they describe how the unequal tuning of hyperparameters across different learning algorithms can especially skew evaluation when the performance of an algorithm varies substantially with modest changes to its hyperparameters.
-Therefore, practitioners should tune the settings of both traditional and DL-based methods before making claims about relative performance differences, as performance comparisons among ML and DL models are only informative when the models are equally well optimized.
+Therefore, practitioners should tune the settings of both traditional machine and deep learning-based methods before making claims about relative performance differences, as performance comparisons among machine learning and deep learning models are only informative when the models are equally well optimized.
 
-To sum this tip up, practitions are encouraged to create and fully tune several traditional models and standard pipelines before implementing a DL model.
+To sum this tip up, practitioners are encouraged to create and fully tune several traditional models and standard pipelines before implementing a deep learning model.
 
 
 ## Tip 3: Understand the complexities of training deep neural networks {#complexities}
@@ -476,15 +490,15 @@ Correctly training deep neural networks is a non-trivial process.
 There are many different options and potential pitfalls at every stage.
 To get good results, you must expect to train many networks with a range of different parameter and hyperparameter settings.
 Deep learning can be very demanding, often requiring extensive computing infrastructure and patience to achieve state-of-the-art performance [@doi:10.1109/JPROC.2017.2761740].
-The experimentation inherent to DL is often noisy (requiring repetition) and represents a significant organizational challenge.
+The experimentation inherent to deep learning is often noisy (requiring repetition) and represents a significant organizational challenge.
 All code, random seeds, parameters, and results must be carefully corralled using general good coding practices (for example, version control [@doi:10.1371/journal.pcbi.1004947], continuous integration etc.) in order to be effective and interpretable.
 This organization is also key to being able to efficiently share and reproduce your work [@doi:10.1371/journal.pcbi.1003285; @arxiv:1810.08055] as well as to update your model as new data becomes available.
 
 One specific reproducibility pitfall that is often missed in deep learning applications is the default use of non-deterministic algorithms by CUDA/CuDNN backends when using GPUs.
-Making this process reproducible is distinct from setting random seeds, which will primarily affect pseudorandom deterministic procedures such as shuffling and initialization, and requires explicitly specifying the use of deterministic algorithms in your DL library [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility]. 
+Making this process reproducible is distinct from setting random seeds, which will primarily affect pseudorandom deterministic procedures such as shuffling and initialization, and requires explicitly specifying the use of deterministic algorithms in your deep learning library [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
 
-Similar to [Tip 4](#baselines), try to start with a relatively small network and increase the size and complexity as needed to prevent wasting time and resources. 
-Beware of the seemingly trivial choices that are being made implicitly by default settings in your framework of choice e.g. choice of optimization algorithm (adaptive methods often lead to faster convergence during training but may lead to worse generalization performance on independent datasets [@url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning]).
+Similar to [Tip 4](#baselines), try to start with a relatively small network and increase the size and complexity as needed to prevent wasting time and resources.
+Beware of the seemingly trivial choices that are being made implicitly by default settings in your framework of choice. For example, choice of optimization algorithm (adaptive methods often lead to faster convergence during training but may lead to worse generalization performance on independent datasets [@url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning]).
 These need to be carefully considered and their impacts evaluated (see [Tip 6](#hyperparameters)).
 
 In short, use smaller and simpler networks to enable faster prototyping and follow general software development best practices to maximize reproducibility.
@@ -519,8 +533,8 @@ Are those time points before and after some treatment?
 If one assumes that all the samples are independent but that is in fact not the case, a variety of issues may arise, including having a lower effective sample size than expected.
 As described in [Tip 1](#concepts), unsupervised learning and other exploratory analyses can be identify such biases in these datasets prior to applying the deep learning model.
 
-In general, deep learning has an increased tendency for overfitting, compared to classical methods, due to the large number of parameters being estimated, making issues of adequate sample size even more important (see [Tip 7](#overfitting)).
-For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see [Tip 9](#interpretation)).
+In general, deep learning has an increased tendency for overfitting compared to classical methods, due to the large number of parameters being estimated, making issues of adequate sample size even more important (see [Tip 7](#overfitting)).
+For a large dataset overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations and thus incorrect interpretation of results (see [Tip 9](#interpretation)).
 It is important to note that molecular or imaging datasets often require appropriate clinical or demographic data to support robust analyses; this must always be balanced with the need to protect patient privacy (see [Tip 10](#privacy)).
 Looking at these annotations can also clarify the study design (for example, by seeing if all the individuals are adolescents or women) or at least help the analyst employing deep learning to know what questions to ask.
 
@@ -552,7 +566,7 @@ These are the most basic type of neural network, and they are able to learn comp
 Similarly, if your dataset is comprised of images, convolutional neural networks (CNNs) are a good choice because they emphasize local structures and adjacency within the data.
 CNNs may also be a good choice for learning on sequences, as recent empirical evidence suggests that they can outperform canonical sequence learning techniques such as recurrent neural networks (RNNs) and the closely related long short-term memory (LSTM) networks [@arxiv:1803.01271].
 
-DL models typically benefit from increasing the amount of labeled data with which to train on.
+Deep learning models typically benefit from increasing the amount of labeled data with which to train on.
 Large amounts of data help to avoid overfitting (see [Tip 7](#overfitting)), and increase the likelihood of achieving top performance on a given task.
 In the event that there is not enough data available to train your model, consider using transfer learning.
 In transfer learning, a model whose weights were generated by training on another dataset is used as the starting point for training [@tag:Yosinski2014].
@@ -605,7 +619,7 @@ Another way, as described by Chuang and Keiser, is to identify the baseline leve
 If the model performs no better on real data than randomly scrambled data, then the performance of the model can be attributed to overfitting.
 
 Additionally, in biology and medicine it is critical to consider independence when defining training and test sets.
-For example, a DL model for pneumonia detection in chest X-rays performed well but failed to generalize to outside hospitals because they were able to detect which hospital the image was from and exploited this information when making predictions [@doi:10.1371/journal.pmed.1002683].
+For example, a deep learning model for pneumonia detection in chest X-rays performed well but failed to generalize to outside hospitals because they were able to detect which hospital the image was from and exploited this information when making predictions [@doi:10.1371/journal.pmed.1002683].
 Similarly, when dealing with sequence data, holding out data that are evolutionarily related or share structural homology to the training data can result in overfitting.
 In these cases, simply holding out test data selected from a random partition of the training data is insufficient.
 The best remedy for confounding variables is to [know your data](#know-your-problem) and to test your model on truly independent data.
@@ -614,20 +628,21 @@ The best remedy for confounding variables is to [know your data](#know-your-prob
 In essence, practitioners should split data into training, tuning, and single-use testing sets to assess the performance of the model on data that can provide a reliable estimate of its generalization performance.
 Futhermore, be cognizant of the danger of skewed or biased data artificially inflating accuracy.
 
-## Tip 8: Your DL models can be more transparent {#blackbox}
+
+## Tip 8: Your deep learning models can be more transparent {#blackbox}
 
 Model interpretability is a broad concept.
 In certain cases, the goal behind interpretation is to understand the underlying data generating processes while in other cases the goal is to understand why a model made the prediction that it did for a specific example or set of examples.
-In much of the ML literature, including in our guidelines,  the concept of model interpretability refers to the ability to identify the discriminative features that influence or sway the predictions.
-ML models vary widely in terms of interpretability: some are fully transparent while others are considered to be "black-boxes" that make predictions with little ability to examine why.
+In much of the machine learning literature, including in our guidelines, the concept of model interpretability refers to the ability to identify the discriminative features that influence or sway the predictions.
+machine learning models vary widely in terms of interpretability: some are fully transparent while others are considered to be "black-boxes" that make predictions with little ability to examine why.
 Logistic regression and decision tree models are generally considered interpretable, while deep neural networks are often considered among the most difficult to interpret because they can have many parameters and non-linear relationships. 
 
 Model interpretability is particularly important in biomedicine, where subsequent decision making often requires human input.
 For example, while prediction rules can be derived from high-throughput molecular datasets, most affordable clinical tests rely on lower dimensional measurements of a limited number of biomarkers.
 Selecting those biomarkers to support decision making is an important modeling and interpretation challenge.
-Many authors attribute a lower uptake of DL tools in healthcare to interpretability challenges [@doi:10.1109/JBHI.2016.2636665; @doi:10.1038/s41551-018-0315-x]. 
-Strategies to interpret both ML and DL models are rapidly emerging, and the literature on the topic is growing at an exponential rate [@arxiv:2001.02522].
-Therefore, instead of recommending specific methods for either DL-specific or general-purpose model interpretation, we suggest consulting [@url:https://christophm.github.io/interpretable-ml-book/] which is freely available and continually updated.
+Many authors attribute a lower uptake of deep learning tools in healthcare to interpretability challenges [@doi:10.1109/JBHI.2016.2636665; @doi:10.1038/s41551-018-0315-x]. 
+Strategies to interpret both machine learning and deep learning models are rapidly emerging, and the literature on the topic is growing at an exponential rate [@arxiv:2001.02522].
+Therefore, instead of recommending specific methods for either deep learning-specific or general-purpose model interpretation, we suggest consulting [@url:https://christophm.github.io/interpretable-ml-book/] which is freely available and continually updated.
 
 Model interpretation is an open, active area of research.
 It is becoming more feasible to interpret models with many parameters and non-linear relationships, but in many cases simpler models remain substantially easier to interpret than more complex ones.
@@ -643,9 +658,9 @@ This feature reduction can be essential to defining biomarker panels that enable
 
 ## Tip 9: Don't over-interpret predictions {#interpretation}
 
-Once we have trained an accurate deep model, we often want to use it to deduce scientific findings.
+Once we have trained an accurate deep learning model, we often want to use it to deduce scientific findings.
 In doing so, we need to take care to correctly interpret the model's predictions.
-We know that the basic tenets of machine learning also apply to deep learning ([Tip 1](#concepts)), but because deep models can be difficult to interpret intuitively, there is a temptation to anthropomorphize the models.
+We know that the basic tenets of machine learning also apply to deep learning ([Tip 1](#concepts)), but because deep learning models can be difficult to interpret intuitively, there is a temptation to anthropomorphize the models.
 We must resist this temptation.
 
 A common saying in statistics classes is "correlation doesn't imply causality".
@@ -669,7 +684,7 @@ Examples of such data include classified, confidential, trade secret biological 
 One of the greatest opportunities for deep learning in biology is the ability for these techniques to extract information that cannot readily be captured by traditional methods [@arxiv:1509.09292].
 The representation learning of the deep learning models can capture information-rich abstractions of multiple features of the data during the training process.
 However, these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs.
-Thus, with both deep learning and certain traditional machine learning methods (_e.g._ _k_-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data.
+Thus, with both deep learning and certain traditional machine learning methods (for example, _k_-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data.
 
 Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption [@doi:10.1371/journal.pcbi.1006454; @arxiv:1811.00778], but adversarial training techniques such as model inversion attacks can be used to exploit model predictions to recover recognizable images of people's faces used for training [@doi:10.1145/2810103.2813677].
 Privacy preserving techniques [@arxiv:1811.04017], such as differential privacy [@doi:10.1145/2976749.2978318; @doi:10.1101/159756; @arxiv:1812.01484], can help to mitigate risks as long as the assumptions underlying these techniques are met.

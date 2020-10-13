@@ -13,6 +13,7 @@ arxiv
 AUROC
 backends
 benchmarked
+betsig
 bioactivity
 Bioinformatics
 biomarker
@@ -37,7 +38,6 @@ Dalhousie
 dataset
 datasets
 discriminative
-DL
 ejfertig
 Elana
 Epigenetics
@@ -59,9 +59,8 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 ImageNet
-incongreuty
 interpretability
 interpretable
 Kalinin
@@ -79,11 +78,10 @@ Moffitt
 Morgridge
 multilayer
 overfit
-overfitting
+Overfitting
 overinterpreting
 perceptrons
 phenotypes
-practitions
 pre
 preprocessing
 pretraining
@@ -108,6 +106,6 @@ Triche
 Tschira
 ttriche
 unencrypted
-unintutive
+unintuitive
 wildtypeMC
 Yu
