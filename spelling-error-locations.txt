@@ -191,9 +191,9 @@ content/14.acknowledgements.md:1:Acknowledgements
 content/14.acknowledgements.md:3:Himmelstein
 content/14.acknowledgements.md:4:TODO
 content/99.citation-tags.md:4:hornik
-content/cover_letter.md:23:hyperparameters
-content/cover_letter.md:24:dataset
-content/cover_letter.md:24:overfit
+content/cover_letter.md:20:hyperparameters
+content/cover_letter.md:21:dataset
+content/cover_letter.md:21:overfit
 content/presubmission_inquiry.md:15:bioinformatics
 content/presubmission_inquiry.md:29:hyperparameters
 content/presubmission_inquiry.md:30:dataset

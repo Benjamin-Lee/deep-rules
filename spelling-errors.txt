@@ -17,7 +17,7 @@ backends
 benchmarked
 betsig
 bioactivity
-Bioinformatics
+bioinformatics
 biomarker
 biomarkers
 Biomathematics
@@ -60,7 +60,7 @@ hornik
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 ImageNet
 interpretability
 interpretable
