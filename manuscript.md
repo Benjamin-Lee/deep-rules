@@ -16,11 +16,12 @@ author-meta:
 - Timothy J. Triche, Jr.
 - Thiago Britto-Borges
 - Elana J. Fertig
+- Michael D. Kessler
 - Alexandra J. Lee
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-13'
+date-meta: '2020-10-14'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -39,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-10-13" />
+  <meta name="dc.date" content="2020-10-14" />
 
-  <meta name="citation_publication_date" content="2020-10-13" />
+  <meta name="citation_publication_date" content="2020-10-14" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -171,6 +172,12 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0003-3204-342X" />
 
+  <meta name="citation_author" content="Michael D. Kessler" />
+
+  <meta name="citation_author_institution" content="Department of Oncology, Johns Hopkins University" />
+
+  <meta name="citation_author_orcid" content="0000-0003-1258-5221" />
+
   <meta name="citation_author" content="Alexandra J. Lee" />
 
   <meta name="citation_author_institution" content="Genomics and Computational Biology Graduate Program, University of Pennsylvania" />
@@ -197,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/4ef7d87c177161fe9d0a2dba746125344d388719/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/4ef7d87c177161fe9d0a2dba746125344d388719/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/4ef7d87c177161fe9d0a2dba746125344d388719/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/4ef7d87c177161fe9d0a2dba746125344d388719/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/4ef7d87c177161fe9d0a2dba746125344d388719/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -238,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/4ef7d87c177161fe9d0a2dba746125344d388719/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@4ef7d87](https://github.com/Benjamin-Lee/deep-rules/tree/4ef7d87c177161fe9d0a2dba746125344d388719)
-on October 13, 2020.
+from [Benjamin-Lee/deep-rules@0e3ebf5](https://github.com/Benjamin-Lee/deep-rules/tree/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2)
+on October 14, 2020.
 </em></small>
 
 ## Authors
@@ -395,6 +402,15 @@ Please note the current author order is chronological and does not reflect the f
     [ejfertig](https://github.com/ejfertig)<br>
   <small>
      Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Johns Hopkins University
+  </small>
+
++ **Michael D. Kessler**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-1258-5221](https://orcid.org/0000-0003-1258-5221)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [mdkessler](https://github.com/mdkessler)<br>
+  <small>
+     Department of Oncology, Johns Hopkins University
   </small>
 
 + **Alexandra J. Lee**<br>

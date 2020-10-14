@@ -17,7 +17,7 @@ backends
 benchmarked
 betsig
 bioactivity
-bioinformatics
+Bioinformatics
 biomarker
 biomarkers
 Biomathematics
@@ -60,7 +60,7 @@ hornik
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 ImageNet
 interpretability
 interpretable
@@ -68,6 +68,7 @@ iPhones
 Kalinin
 Keiser
 Keras
+Kessler
 khyu
 Kipoi
 Koutsoukas
@@ -76,6 +77,7 @@ learnable
 Lengerich
 LSTM
 Maguire
+mdkessler
 MLPs
 Moffitt
 Morgridge
@@ -103,7 +105,7 @@ Simina
 SiminaB
 subfield
 tbrittoborges
-TensorFlow
+Tensorflow
 Thiago
 TODO
 TPOT
