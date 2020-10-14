@@ -151,9 +151,10 @@ authors:
     name: Michael D. Kessler
     initials: MDK
     orcid: 0000-0003-1258-5221
-    email: mkessl11@jh.edu
+    email: mkessl11@jhmi.edu
     affiliations:
       - Department of Oncology, Johns Hopkins University
+  -
     github: ajlee21
     name: Alexandra J. Lee
     initials: AJL
@@ -162,3 +163,4 @@ authors:
     affiliations:
       - Genomics and Computational Biology Graduate Program, University of Pennsylvania
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+# ^^^ Add your information above this line ^^^
