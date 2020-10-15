@@ -17,7 +17,7 @@ backends
 benchmarked
 betsig
 bioactivity
-Bioinformatics
+bioinformatics
 biomarker
 biomarkers
 Biomathematics
@@ -39,6 +39,7 @@ Dalhousie
 dataset
 datasets
 discriminative
+DL
 ejfertig
 Elana
 Epigenetics
@@ -60,7 +61,7 @@ hornik
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 ImageNet
 interpretability
 interpretable
@@ -83,8 +84,9 @@ Moffitt
 Morgridge
 multilayer
 overfit
-overfitting
+Overfitting
 overinterpreting
+parallelized
 perceptrons
 pre
 preprocessing
@@ -96,16 +98,18 @@ quantile
 Rajkomar
 rasbt
 Raschka
+reprocubility
 reproducibility
 RFID
 RNNs
 Rojkomar
 Sigler
+signficant
 Simina
 SiminaB
 subfield
 tbrittoborges
-Tensorflow
+TensorFlow
 Thiago
 TODO
 TPOT

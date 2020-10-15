@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-14'
+date-meta: '2020-10-15'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-10-14" />
+  <meta name="dc.date" content="2020-10-15" />
 
-  <meta name="citation_publication_date" content="2020-10-14" />
+  <meta name="citation_publication_date" content="2020-10-15" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d32411669c82800d16e694a5d123c6367f1de5aa/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d32411669c82800d16e694a5d123c6367f1de5aa/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d32411669c82800d16e694a5d123c6367f1de5aa/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d32411669c82800d16e694a5d123c6367f1de5aa/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d32411669c82800d16e694a5d123c6367f1de5aa/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d32411669c82800d16e694a5d123c6367f1de5aa/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@0e3ebf5](https://github.com/Benjamin-Lee/deep-rules/tree/0e3ebf52293f5f89fa588cf039b2a9a82a676cf2)
-on October 14, 2020.
+from [Benjamin-Lee/deep-rules@d324116](https://github.com/Benjamin-Lee/deep-rules/tree/d32411669c82800d16e694a5d123c6367f1de5aa)
+on October 15, 2020.
 </em></small>
 
 ## Authors
@@ -530,20 +530,22 @@ To sum this tip up, practitioners are encouraged to create and fully tune severa
 
 ## Tip 3: Understand the complexities of training deep neural networks {#complexities}
 
-Correctly training deep neural networks is a non-trivial process.
-There are many different options and potential pitfalls at every stage.
-To get good results, you must expect to train many networks with a range of different parameter and hyperparameter settings.
-Deep learning can be very demanding, often requiring extensive computing infrastructure and patience to achieve state-of-the-art performance [@doi:10.1109/JPROC.2017.2761740].
-The experimentation inherent to deep learning is often noisy (requiring repetition) and represents a significant organizational challenge.
-All code, random seeds, parameters, and results must be carefully corralled using general good coding practices (for example, version control [@doi:10.1371/journal.pcbi.1004947], continuous integration etc.) in order to be effective and interpretable.
-This organization is also key to being able to efficiently share and reproduce your work [@doi:10.1371/journal.pcbi.1003285; @arxiv:1810.08055] as well as to update your model as new data becomes available.
+Correctly training deep neural networks is a non-trivial process, as there are many different options and potential pitfalls at every stage.
+To get good results, you must expect to train many networks across a range of different parameter and hyperparameter settings.
+Such training can be made more difficult by the demanding nature of these deep networks, which often require extensive computing infrastructure and optimization in order to achieve state-of-the-art performance [@doi:10.1109/JPROC.2017.2761740].
+Furthermore, this experimentation is often noisy, which necessitates increased repetition and exacerbates the organizational challenges inherent to deep learning.
+On the whole, all code, random seeds, parameters, and results must be carefully corralled using general good coding practices (e.g. version control [@doi:10.1371/journal.pcbi.1004947], continuous integration etc.) in order to be effective and interpretable.
+This organization is also fundamental to the efficient sharing and reproducibility of research work [@doi:10.1371/journal.pcbi.1003285; @arxiv:1810.08055], and to the ability to keep models up to date as new data becomes available.
 
-One specific reproducibility pitfall that is often missed in deep learning applications is the default use of non-deterministic algorithms by CUDA/CuDNN backends when using GPUs.
-Making this process reproducible is distinct from setting random seeds, which will primarily affect pseudorandom deterministic procedures such as shuffling and initialization, and requires explicitly specifying the use of deterministic algorithms in your deep learning library [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
+One specific reproducibility pitfall that is often missed in the application of deep learning is the default use of non-deterministic algorithms by CUDA/CuDNN backends when using GPUs.
+That is, the CUDA/CuDNN architectures that facilitate the parallelized computing that power state-of-the-art DL often use algorithms by default that produce different outcomes from iteration to iteration.
+Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within your deep learning library), which is distinct from the setting of random seeds that typically achieve reprocubility by controlling pseudorandom deterministic procedures such as shuffling and initialization [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
 
-Similar to [Tip 4](#baselines), try to start with a relatively small network and increase the size and complexity as needed to prevent wasting time and resources.
-Beware of the seemingly trivial choices that are being made implicitly by default settings in your framework of choice. For example, choice of optimization algorithm (adaptive methods often lead to faster convergence during training but may lead to worse generalization performance on independent datasets [@url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning]).
-These need to be carefully considered and their impacts evaluated (see [Tip 6](#hyperparameters)).
+Similar to the suggestions in [Tip 2](#baselines) about starting with simpler models, try to start with a relatively small network and then increase the size and complexity as needed.
+This can help to prevent practitioners from wasting signficant time and resources on running highly complex models that feature numerous unresolved problems. 
+Again, beware of the choices that are being made implicitly (that is, by default settings) by your framework of choice (for example, choice of optimization algorithm), as these seemingly trivial specifics can actually have signficant effects on model performance.
+For example, adaptive methods often lead to faster convergence during training, but may lead to worse generalization performance on independent datasets [@url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning]).
+These nuanced elements are easy to overlook, but it is critical to carefully consider them and to evaluate their potential impact (see [Tip 6](#hyperparameters)).
 
 In short, use smaller and simpler networks to enable faster prototyping and follow general software development best practices to maximize reproducibility.
 
