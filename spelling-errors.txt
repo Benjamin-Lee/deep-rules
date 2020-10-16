@@ -9,11 +9,13 @@ Andel
 anthonygitter
 anthropomorphizing
 approximators
+aquisition
 arxiv
 AUROC
 AutoKeras
 AutoML
 backends
+beginnig
 benchmarked
 betsig
 bioactivity
@@ -61,7 +63,7 @@ hornik
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 ImageNet
 interpretability
 interpretable
@@ -89,7 +91,6 @@ overinterpreting
 parallelized
 perceptrons
 pre
-preprocessing
 pretraining
 pseudorandom
 pstew
@@ -107,6 +108,7 @@ Sigler
 signficant
 Simina
 SiminaB
+specificites
 subfield
 tbrittoborges
 TensorFlow
