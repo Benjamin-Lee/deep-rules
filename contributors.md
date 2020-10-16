@@ -25,7 +25,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Kun-Hsing Yu         | Yes        | Yes                       | Yes      |                |             |
 | Andrew L. Beam       | Yes        | Yes                       |          |                |             |
 | Hugo Aerts           | Yes        |                           |          |                |             |
-| Beth Signal          | Yes        | Yes                       | Yes      |                |             |
+| Beth Signal          | Yes        | Yes                       | Yes      |                | Yes         |
 | Paul Brodersen       | Yes        |                           |          |                |             |
 | Marc G. Chevrette    | Yes        | Yes                       | Yes      |                | Yes         |
 | Ben Lengerich        | Yes        | Yes                       | Yes      |                | Yes         |
@@ -50,5 +50,6 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Alexandr A. Kalinin  | Yes        | Yes                       | Yes      |                | Yes         |
 | Finlay Maguire       | Yes        | Yes                       | Yes      |                | Yes         |
 | Sonja Aits           | Yes        |                           |          |                |             |
-| Joe Greener          |            |                           |          |                |             |
-| Elana Fertig         |            |                           | Yes      |                | Yes         |
+| Alexandra J. Lee     | Yes        | Yes                       | Yes      |                | Yes         |
+| Joe Greener          | Yes        |                           |          |                |             |
+| Elana Fertig         | Yes        | Yes                       | Yes      |                | Yes         |
