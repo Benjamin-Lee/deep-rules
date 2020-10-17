@@ -63,7 +63,7 @@ hornik
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 ImageNet
 interpretability
 interpretable
@@ -86,7 +86,7 @@ Moffitt
 Morgridge
 multilayer
 overfit
-Overfitting
+overfitting
 overinterpreting
 parallelized
 perceptrons

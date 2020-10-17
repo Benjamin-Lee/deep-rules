@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-16'
+date-meta: '2020-10-17'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-10-16" />
+  <meta name="dc.date" content="2020-10-17" />
 
-  <meta name="citation_publication_date" content="2020-10-16" />
+  <meta name="citation_publication_date" content="2020-10-17" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/881a98c3d37cd00c0a52f00f89576889db90b203/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/bc0cb732010676fbe32e3d75d0961160a1ad1a48/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/881a98c3d37cd00c0a52f00f89576889db90b203/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bc0cb732010676fbe32e3d75d0961160a1ad1a48/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/881a98c3d37cd00c0a52f00f89576889db90b203/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bc0cb732010676fbe32e3d75d0961160a1ad1a48/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/881a98c3d37cd00c0a52f00f89576889db90b203/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bc0cb732010676fbe32e3d75d0961160a1ad1a48/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/881a98c3d37cd00c0a52f00f89576889db90b203/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bc0cb732010676fbe32e3d75d0961160a1ad1a48/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/881a98c3d37cd00c0a52f00f89576889db90b203/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/bc0cb732010676fbe32e3d75d0961160a1ad1a48/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@881a98c](https://github.com/Benjamin-Lee/deep-rules/tree/881a98c3d37cd00c0a52f00f89576889db90b203)
-on October 16, 2020.
+from [Benjamin-Lee/deep-rules@bc0cb73](https://github.com/Benjamin-Lee/deep-rules/tree/bc0cb732010676fbe32e3d75d0961160a1ad1a48)
+on October 17, 2020.
 </em></small>
 
 ## Authors
@@ -499,7 +499,7 @@ Depending on the amount and the nature of the available data, as well as the tas
 As an illustration, Rajkomar et al. [@doi:10.1038/s41746-018-0029-1] found that simpler baseline models achieved performance comparable with that of deep learning in a number of clinical prediction tasks using electronic health records, which may be a surprise to many.
 Another example is provided by Koutsoukas et al., who benchmarked several traditional machine learning approaches against deep neural networks for modeling bioactivity data on moderately sized datasets [@doi:10.1186/s13321-017-0226-y].
 The researchers found that while well tuned deep learning approaches generally tend to outperform conventional classifiers, simple methods such as Naive Bayes classification tend to outperform deep learning as the noise in the dataset increases.
-Similarly, Chen et al. [@doi:s41746-019-0122-0] tested deep learning and a variety of traditional machine learning methods such as logistic regression and random forests on five different clinical datasets, finding that the non deep learning methods matched or exceeded the accuracy of the deep learning model in all cases while requiring an order of magnitude less training time.
+Similarly, Chen et al. [@doi:10.1038/s41746-019-0122-0] tested deep learning and a variety of traditional machine learning methods such as logistic regression and random forests on five different clinical datasets, finding that the non deep learning methods matched or exceeded the accuracy of the deep learning model in all cases while requiring an order of magnitude less training time.
 
 In conclusion, deep learning is a tool and, like any other tool, must be used after consideration of its strengths and weaknesses for the problem at hand.
 Once settled upon deep learning as a potential solution, practitioners should follow the scientific method and compare its performance to traditional methods, as we will see next.
