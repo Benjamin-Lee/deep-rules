@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-17'
+date-meta: '2020-10-20'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-10-17" />
+  <meta name="dc.date" content="2020-10-20" />
 
-  <meta name="citation_publication_date" content="2020-10-17" />
+  <meta name="citation_publication_date" content="2020-10-20" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/bc0cb732010676fbe32e3d75d0961160a1ad1a48/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bc0cb732010676fbe32e3d75d0961160a1ad1a48/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bc0cb732010676fbe32e3d75d0961160a1ad1a48/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bc0cb732010676fbe32e3d75d0961160a1ad1a48/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bc0cb732010676fbe32e3d75d0961160a1ad1a48/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/bc0cb732010676fbe32e3d75d0961160a1ad1a48/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@bc0cb73](https://github.com/Benjamin-Lee/deep-rules/tree/bc0cb732010676fbe32e3d75d0961160a1ad1a48)
-on October 17, 2020.
+from [Benjamin-Lee/deep-rules@b0b80ef](https://github.com/Benjamin-Lee/deep-rules/tree/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3)
+on October 20, 2020.
 </em></small>
 
 ## Authors
@@ -557,39 +557,27 @@ Just like it would be inadvisable to set foot in a laboratory and begin experime
 Foremost, it is important to assess if a dataset exists that can answer the biological question of interest using a deep learning-based approach.
 If so, obtaining this data (and associated metadata), and reviewing the study protocol, should be pursued as early on in the project as possible.
 This can help to ensure that data is as expected and can prevent the wasted time and effort that occur when issues are discovered later on in the analytic process.
-For example, a publication or resource might purportedly offer an appropriate dataset that is found to be inadequate upon aquisition.
+For example, a publication or resource might purportedly offer an appropriate dataset that is found to be inadequate upon acquisition.
 The data may be unstructured when it is supposed to be structured, crucial metadata such as sample stratification might be missing, or the usable sample size may be different than expected.
 Any of these data issues might limit a researcher's ability to use DL to address the biological question at hand, or might otherwise require adjustment before DL can be used.
 Data collection should also be carefully documented, or a data collection protocol should be created and specified in the project documentation.
 Information about the resources used, download dates, and dataset versions are critical to preserve.
 Doing so will help to minimize operational confusion and will increase the reproducibility of the analysis.
 
-Once the dataset is obtained, it is important to learn why and how the data were collected before beginnig analysis.
+Once the dataset is obtained, it is important to learn why and how the data were collected before beginning analysis.
 The standardized metadata that exist in many fields can help with this (for example, see [@doi:10.1038/ng1201-365]), but if at all possible, seek out a subject matter expert who has experience with the type of data you are using.
 Doing so will minimize guesswork and is likely to increase the success rate of a deep learning project.
 For example, one might presume that data collected to test the impact of an intervention derives from a randomized controlled trial.
 However, this is not always the case, as ethical or practical concerns often necessitate an observational study design that features prospectively or retrospectively collected data.
 In order to ensure similar distributions of important characteristics across study groups in the absence of randomization, such a study may have selected individuals in a fashion that best matches attributes such as age, gender, or weight.
 Passively collected datasets can have their own peculiarities, and other study designs can include samples that originate from the same study site, the oversampling of ethnic groups or zip codes, or sample processing differences.
-Such information is critical to accurate data analysis, and so it is imperative that practitioners learn about study design assumptions and data specificites prior to performing modeling.
+Such information is critical to accurate data analysis, and so it is imperative that practitioners learn about study design assumptions and data specificities prior to performing modeling.
 Other study design considerations that should not be overlooked include knowing whether a study involves biological or technical replicates or both.
-For example, the existence in a dataset of samples collected from the same individuals at different time points can have signficant effects on analyses that make assumptions about sample size and independence (that is, non-independence can lower the effective sample size).
+For example, the existence in a dataset of samples collected from the same individuals at different time points can have significant effects on analyses that make assumptions about sample size and independence (that is, non-independence can lower the effective sample size).
 Another potential issue is the existence of systematic biases, which can be induced by confounding variables and can lead to artifacts or so-called "batch effects."
 As a consequence, models may learn to rely on the correlations that these systematic biases underpin, even though they are irrelevant to the scientific context of the study.
 This can lead to misguided predictions and misleading conclusions [@doi:10.1038/nrg2825].
 As described in [Tip 1](#concepts), unsupervised learning and other exploratory analyses can help to identify such biases in these datasets prior to applying a deep learning model.
-
-In general, deep learning has an increased tendency towards overfitting (that is, perform well on the training data but not generalize well) compared to classical methods.
-This is often a result of the large number of parameters being estimated in a DL model, and has direct implications for the importance of working with adequate sample sizes (see [Tip 7](#overfitting)).
-For a large dataset, overfitting may not be a concern, but the modeling power of deep learning may lead to more spurious correlations, and thus incorrect interpretations or conclusions (see [Tip 9](#interpretation)).
-It is important to note that molecular or imaging datasets often require appropriate clinical or demographic data to support robust analyses, although this must always be balanced with the need to protect patient privacy (see [Tip 10](#privacy)).
-Looking at these annotations can also clarify the study design (for example, checking for imbalances in sample age or gender), which can help the practitioner identify which questions are most appropriate.
-
-Finally, data simulation is a powerful approach for creating additional data with which to test models.
-In such a scenario, a model is used to estimate the distribution of a training set, and this estimated distribution is then used to create new data points.
-Simulated data can be used to verify the correctness of a model’s implementation, as well as to identify useful model architectures and hyperparameters.
-Therefore, simulations should be performed under reasonable assumptions, and across a wide range of parameters.
-For example, varying the parameters so widely as to to violate the model's assumptions can allow for the testing the model robustness and sensitivity to these assumptions.
 
 Overall, practitioners should make sure to thoroughly study their data and understand its context and peculiarities _before_ moving on to performing deep learning.
 
