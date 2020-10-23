@@ -86,7 +86,7 @@ Moffitt
 Morgridge
 multilayer
 overfit
-Overfitting
+overfitting
 overinterpreting
 parallelized
 perceptrons
@@ -112,7 +112,7 @@ SiminaB
 specificities
 subfield
 tbrittoborges
-TensorFlow
+Tensorflow
 Thiago
 TODO
 toolkits
