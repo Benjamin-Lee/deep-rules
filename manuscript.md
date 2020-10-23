@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/825e1344265e4cbe1642bbc38240b655ec998abe/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/825e1344265e4cbe1642bbc38240b655ec998abe/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/825e1344265e4cbe1642bbc38240b655ec998abe/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/825e1344265e4cbe1642bbc38240b655ec998abe/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/825e1344265e4cbe1642bbc38240b655ec998abe/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,9 +245,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/825e1344265e4cbe1642bbc38240b655ec998abe/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@825e134](https://github.com/Benjamin-Lee/deep-rules/tree/825e1344265e4cbe1642bbc38240b655ec998abe)
+from [Benjamin-Lee/deep-rules@f2ffbbd](https://github.com/Benjamin-Lee/deep-rules/tree/f2ffbbdcbb18a591203110b9f54ec904e9e01e54)
 on October 23, 2020.
 </em></small>
 
@@ -616,19 +616,20 @@ This tip can be distilled into two main action points: first, base your network'
 
 ## Tip 6: Tune your hyperparameters extensively and systematically {#hyperparameters}
 
-Multi-layer neural networks can approximate arbitrary continuous functions, given at least one hidden layer, a non-linear activation function, and a large number of hidden units [@tag:hornik-approximation].
-The same theory applies to deeper architectures, which require an exponentially smaller number of hidden units to approximate functions with the same complexity as neural networks with only one hidden layer.
-The flexibility of neural networks to approximate arbitrary, continuous functions as well as the overall trend towards deeper architectures with an increasing number of hidden units and learnable weight parameters (the so-called increasing "capacity" of neural networks) allows for solving more and more complex problems but also poses additional challenges during model training.
-You should expect to systematically evaluate the impact of numerous hyperparameters when you aim to apply deep neural networks to new data or challenges.
-Hyperparameters are typically manifested in the choice of optimization algorithms, learning rate, activation functions, number of hidden layers and hidden units, size of the training batches, weight initialization schemes, and also seeds for pseudo-random number generators used for dataset shuffling and weight initialization.
-Moreover, additional hyperparameters are introduced common techniques that facilitate the training of deeper architectures, such as norm penalties (typically in the form of $L^2$ regularization), Dropout [@tag:srivastava-dropout], and Batch Normalization [@tag:ioffe-batchnorm], which can reduce the effect of the so-called vanishing or exploding gradient problem when working with deep neural networks.
+Given at least one hidden layer, a non-linear activation function, and a large number of hidden units [@tag:hornik-approximation], multi-layer neural networks can approximate arbitrary continuous functions that relate input and output variables. 
+Deeper architectures that feature additonal hidden layers and an increasing number of overall hidden units and learnable weight parameters (the so-called increasing "capacity" of neural networks) allow for solving increaingly complex problems.
+However, this increased capacity results in many more parameters to tune, which can pose additional challenges during model training.
+In general, one should expect to systematically evaluate the impact of numerous hyperparameters when applying deep neural networks to new data or challenges.
+Hyperparameters typically manifest as choices of optimization algorithms, learning rate, activation functions, number of hidden layers and hidden units, size of the training batches, weight initialization schemes, and seeds for pseudo-random number generators used for dataset shuffling and weight initialization.
+Moreover, additional hyperparameters are introduced by common techniques that facilitate the training of deeper architectures.
+These include norm penalties (typically in the form of $L^2$ regularization), dropout [@tag:srivastava-dropout], and batch normalization [@tag:ioffe-batchnorm], which can reduce the effect of the so-called vanishing or exploding gradient problem when working with deep neural networks.
 
-This flexibility also makes it difficult to evaluate the extent to which neural network methods are well suited to solving a task.
-We discussed how the Continental Breakfast Included effect could affect methods developers seeking to compare techniques in [Tip 2](#baselines).
-This effect also has implications for those seeking to use existing deep learning methods because performance estimates from deep neural networks are often provided after tuning.
-The implication of this effect on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require a relatively large input of human and computation time for hyperparameter optimization.
+This wide array of potential parameters can make it difficult to evaluate the extent to which neural network methods are well suited to solving a task, as it can be unclear to practitioners whether previous successful applications were the result of interactions between unique data attributes and specific parameter sets.
+Similar to the Continental Breakfast Included effect that we discussed in [Tip 2](#baselines), a lack of clarity on how extensive arrays of hyperparameters were tested and/or chosen can affect methods developers as they attempt to compare techniques.
+This effect also has implications for those seeking to use existing deep learning methods, as performance estimates from deep neural networks are often provided after tuning.
+The implication of this effect on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require signficant effort towards temporally expensive hyperparameter optimization.
 
-To get the best performance of your model, be sure to systematically optimize your hyperparameters on your tuning dataset, introduced in the next section.
+Ultimately, to get the best performance of your model, be sure to systematically optimize your hyperparameters on your training dataset, as introduced in the next section.
 
 
 ## Tip 7: Address deep neural networks' increased tendency to overfit the dataset {#overfitting}

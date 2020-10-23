@@ -1,4 +1,5 @@
 Acknowledgements
+additonal
 agitter
 ajlee
 AlexanderTitus
@@ -62,6 +63,7 @@ Hu
 hyperparameter
 hyperparameters
 ImageNet
+increaingly
 interpretability
 interpretable
 iPhones
