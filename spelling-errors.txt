@@ -50,7 +50,6 @@ Fertig
 Finlay
 fmaguire
 Futhermore
-genomic
 Gitter
 GPUs
 grayscale
@@ -61,7 +60,7 @@ hornik
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 ImageNet
 interpretability
 interpretable
@@ -75,6 +74,7 @@ Kipoi
 Koutsoukas
 Kun
 learnable
+learnings
 Lengerich
 LSTM
 Maguire
@@ -84,7 +84,7 @@ Moffitt
 Morgridge
 multilayer
 overfit
-Overfitting
+overfitting
 overinterpreting
 parallelized
 perceptrons
@@ -110,7 +110,7 @@ SiminaB
 specificities
 subfield
 tbrittoborges
-Tensorflow
+TensorFlow
 Thiago
 TODO
 toolkits

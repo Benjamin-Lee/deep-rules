@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/bed910c2878acbf53fb763867c62509b3accdfdb/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bed910c2878acbf53fb763867c62509b3accdfdb/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bed910c2878acbf53fb763867c62509b3accdfdb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bed910c2878acbf53fb763867c62509b3accdfdb/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bed910c2878acbf53fb763867c62509b3accdfdb/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,9 +245,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/bed910c2878acbf53fb763867c62509b3accdfdb/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@bed910c](https://github.com/Benjamin-Lee/deep-rules/tree/bed910c2878acbf53fb763867c62509b3accdfdb)
+from [Benjamin-Lee/deep-rules@c5a4679](https://github.com/Benjamin-Lee/deep-rules/tree/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb)
 on October 23, 2020.
 </em></small>
 
@@ -717,16 +717,17 @@ To move beyond fitting predictive models toward building understanding and deduc
 ## Tip 10: Don't share models trained on sensitive data {#privacy}
 
 Practitioners may encounter datasets that cannot be shared, such as ones for which there would be significant ethical or legal issues associated with release [@doi:10.1371/journal.pcbi.1005399].
-Examples of such data include classified, confidential, trade secret biological data as well as medical records, certain genomic assays, and personally identifiable information [@doi:10.1038/s41576-020-0257-5].
-One of the greatest opportunities for deep learning in biology is the ability for these techniques to extract information that cannot readily be captured by traditional methods [@arxiv:1509.09292].
-The representation learning of the deep learning models can capture information-rich abstractions of multiple features of the data during the training process.
-However, these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs.
-Thus, with both deep learning and certain traditional machine learning methods (for example, _k_-nearest neighbors models, which learn by memorizing the full training data), it is imperative not to share models trained on sensitive data.
+Examples of such data include classified or confidential data, biological data related to trade secrets, and medical records or other personally identifiable information [@doi:10.1038/s41576-020-0257-5].
+While deep learning models can capture information-rich abstractions of multiple features of the data during the training process (which represents one of its great strengths), these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs [@doi:10.1145/2810103.2813677; @arxiv:1610.05820].
+In other words, the complex relationships learned about the input data can potentially be used to infer characteristics about the original dataset.
+This means that the strengths that imbue deep learnings with its great predictive capacity also raise the level of risk surrounding data privacy.
+Therefore, while there is tremendous promise for deep learning techniques to extract information that cannot readily be captured by traditional methods [@arxiv:1509.09292], it is imperative not to share models trained on sensitive data.
+This also holds true for certain traditional machine learning methods that learn by capturing specific details of the full training data (for example, _k_-nearest neighbors models). 
 
-Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption [@doi:10.1371/journal.pcbi.1006454; @arxiv:1811.00778], but adversarial training techniques such as model inversion attacks can be used to exploit model predictions to recover recognizable images of people's faces used for training [@doi:10.1145/2810103.2813677].
+Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption, which serves to enable equivalent prediction on data that is encrypted end to end [@doi:10.1371/journal.pcbi.1006454; @arxiv:1811.00778].
 Privacy preserving techniques [@arxiv:1811.04017], such as differential privacy [@doi:10.1145/2976749.2978318; @doi:10.1101/159756; @arxiv:1812.01484], can help to mitigate risks as long as the assumptions underlying these techniques are met.
-These techniques provide a path towards a future where models can be shared, but more software development and theoretical advances will be required to make these techniques easy to apply in many settings.
-Until then, don't share models trained on sensitive data.
+These methods provide a path towards a future where trained models and their predictions can be shared, but more software development and theoretical advances will be required to make these techniques easy to apply correctly in many settings.
+Unless you use these techniques, don't share the weights or arbitrary access to the predictions of models trained on sensitive data.
 
 
 ## Conclusion {#conclusion}
