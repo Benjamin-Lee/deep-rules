@@ -128,13 +128,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/f081ad0d614854cd4ae386a9de7b2aa1126a1983/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/f081ad0d614854cd4ae386a9de7b2aa1126a1983/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/f081ad0d614854cd4ae386a9de7b2aa1126a1983/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/f081ad0d614854cd4ae386a9de7b2aa1126a1983/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/f081ad0d614854cd4ae386a9de7b2aa1126a1983/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -146,9 +146,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/f2ffbbdcbb18a591203110b9f54ec904e9e01e54/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/f081ad0d614854cd4ae386a9de7b2aa1126a1983/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/f2ffbbdcbb18a591203110b9f54ec904e9e01e54">Benjamin-Lee/deep-rules@f2ffbbd</a>
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/f081ad0d614854cd4ae386a9de7b2aa1126a1983">Benjamin-Lee/deep-rules@f081ad0</a>
 on October 23, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -500,28 +500,28 @@ In these cases, simply holding out test data selected from a random partition of
 The best remedy for confounding variables is to <a href="#know-your-problem">know your data</a> and to test your model on truly independent data.</p>
 <p>In essence, practitioners should split data into training, tuning, and single-use testing sets to assess the performance of the model on data that can provide a reliable estimate of its generalization performance.
 Futhermore, be cognizant of the danger of skewed or biased data artificially inflating accuracy.</p>
-<h2 id="blackbox">Tip 8: Your deep learning models can be more transparent</h2>
-<p>Model interpretability is a broad concept.
+<h2 id="blackbox">Tip 8: Deep learning models can be made more transparent</h2>
+<p>While model interpretability is a broad concept, in much of the machine learning literature (including in our guidelines), it refers to the ability to identify the discriminative features that influence or sway the predictions.
 In certain cases, the goal behind interpretation is to understand the underlying data generating processes while in other cases the goal is to understand why a model made the prediction that it did for a specific example or set of examples.
-In much of the machine learning literature, including in our guidelines, the concept of model interpretability refers to the ability to identify the discriminative features that influence or sway the predictions.
-machine learning models vary widely in terms of interpretability: some are fully transparent while others are considered to be “black-boxes” that make predictions with little ability to examine why.
+Machine learning models vary widely in terms of interpretability: some are fully transparent while others are considered to be “black-boxes” that make predictions with little ability to examine why.
 Logistic regression and decision tree models are generally considered interpretable, while deep neural networks are often considered among the most difficult to interpret because they can have many parameters and non-linear relationships. </p>
-<p>Model interpretability is particularly important in biomedicine, where subsequent decision making often requires human input.
-For example, while prediction rules can be derived from high-throughput molecular datasets, most affordable clinical tests rely on lower dimensional measurements of a limited number of biomarkers.
-Selecting those biomarkers to support decision making is an important modeling and interpretation challenge.
-Many authors attribute a lower uptake of deep learning tools in healthcare to interpretability challenges <span class="citation" data-cites="8seWxxzY GdO9NZJH">[<a href="#ref-8seWxxzY" role="doc-biblioref">55</a>,<a href="#ref-GdO9NZJH" role="doc-biblioref">56</a>]</span>. 
-Strategies to interpret both machine learning and deep learning models are rapidly emerging, and the literature on the topic is growing at an exponential rate <span class="citation" data-cites="cRG2FGOV">[<a href="#ref-cRG2FGOV" role="doc-biblioref">57</a>]</span>.
-Therefore, instead of recommending specific methods for either deep learning-specific or general-purpose model interpretation, we suggest consulting <span class="citation" data-cites="pj5bK84R">[<a href="#ref-pj5bK84R" role="doc-biblioref">58</a>]</span> which is freely available and continually updated.</p>
-<p>Model interpretation is an open, active area of research.
-It is becoming more feasible to interpret models with many parameters and non-linear relationships, but in many cases simpler models remain substantially easier to interpret than more complex ones.
+<p>Knowing which of the input variables are influencing the outputted predictions, and potentially in what ways, can help with the application or extrapolation of machine learning models.
+This is particularly important in biomedicine, where subsequent decision making often requires human input, and where models are employed with the hope of better understanding why relationships exist in the first place.
+Furthermore, while prediction rules can be derived from high-throughput molecular datasets, most affordable clinical tests still rely on lower dimensional measurements of a limited number of biomarkers.
+Therefore, it is often still unclear how to translate the predictive capacity of deep learning models that encompassing non-linear relationships between countless input variables into clinically digestible terms.
+As a result, selecting which biomarkers to use for decision making remains an important modeling and interpretation challenge.
+In fact, many authors attribute a lower uptake of deep learning tools in healthcare to interpretability challenges <span class="citation" data-cites="8seWxxzY GdO9NZJH">[<a href="#ref-8seWxxzY" role="doc-biblioref">55</a>,<a href="#ref-GdO9NZJH" role="doc-biblioref">56</a>]</span>. 
+Nonetheless, strategies to interpret both machine learning and deep learning models are rapidly emerging, and the literature on the topic is growing at an exponential rate <span class="citation" data-cites="cRG2FGOV">[<a href="#ref-cRG2FGOV" role="doc-biblioref">57</a>]</span>.
+Instead of recommending specific methods for either deep learning-specific or general-purpose model interpretation, we suggest consulting <span class="citation" data-cites="pj5bK84R">[<a href="#ref-pj5bK84R" role="doc-biblioref">58</a>]</span>, which is freely available and continually updated.</p>
+<p>While active research into model interpretability is enabling increased interpretation of models with many parameters and non-linear relationships, simpler traditional machine learning models often remain substantially easier to interpret.
 When deciding on a machine learning approach and model architecture, consider an interpretability versus accuracy tradeoff.
 A challenge in considering this tradeoff is that the extent to which one trades interpretability for accuracy depends on the problem itself.
-When the features provided to the model are already highly relevant to the task at hand, a simpler, interpretable model that gives up only a little performance when compared to a very complex one more useful in many settings.
+When the features provided to the model are already highly relevant to the task at hand, a simpler and more interpretable model that gives up only a little performance is often more useful.
 On the other hand, if features must be combined in complex ways to be meaningful for the task, the performance difference of a model capable of capturing that structure may outweigh the interpretability costs.
-An appropriate choice can only be made after careful consideration, which often includes estimating the performance of a simple, linear model that serves as a <a href="#baselines">baseline</a>.
+An appropriate choice can only be made after careful consideration, which often includes estimating the performance of a simple linear model that serves as a <a href="#baselines">baseline</a>.
 In cases where models are learned from high-throughput datasets, a small subset of features in the dataset may be strongly correlated with the complex combination of the larger feature set defined from the deep learning model.
 In this case, this more limited number of features can themselves be used in the subsequent simplified model to further enhance interpretability of the model.
-This feature reduction can be essential to defining biomarker panels that enable clinical applications.</p>
+This feature reduction can be essential when defining biomarker panels for use in clinical applications.</p>
 <h2 id="interpretation">Tip 9: Don’t over-interpret predictions</h2>
 <p>Once we have trained an accurate deep learning model, we often want to use it to deduce scientific findings.
 In doing so, we need to take care to correctly interpret the model’s predictions.
