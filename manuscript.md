@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/825e1344265e4cbe1642bbc38240b655ec998abe/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/825e1344265e4cbe1642bbc38240b655ec998abe/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/825e1344265e4cbe1642bbc38240b655ec998abe/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/825e1344265e4cbe1642bbc38240b655ec998abe/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/825e1344265e4cbe1642bbc38240b655ec998abe/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,9 +245,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/825e1344265e4cbe1642bbc38240b655ec998abe/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@c5a4679](https://github.com/Benjamin-Lee/deep-rules/tree/c5a4679fa172c2b4a8ddaf8dc79daebcb32d68eb)
+from [Benjamin-Lee/deep-rules@825e134](https://github.com/Benjamin-Lee/deep-rules/tree/825e1344265e4cbe1642bbc38240b655ec998abe)
 on October 23, 2020.
 </em></small>
 
@@ -732,10 +732,10 @@ Unless you use these techniques, don't share the weights or arbitrary access to 
 
 ## Conclusion {#conclusion}
 
-Deep learning techniques have the potential for wide use in biology, meeting or exceeding the performance of both humans and the current state-of-the art algorithms in a variety of tasks.
-Beyond simply achieving good predictive performance, deep learning has the potential to generate novel biological insights that could assist the progress of fundamental research.
+Deep learning techniques have the potential for wide use in biology and the capacity to meet or exceed the performance of both humans and the current state-of-the art algorithms across a wide range of tasks.
+Beyond simply achieving good predictive performance, deep learning has the potential to inform novel biological insights to fundamentally drive high value research.
 To realize this potential, the use of deep learning as a research tool must be approached as any other tool would be: scientifically and thoughtfully.
-We hope that our tips will serve as a starting point for the discussion of best practices for deep learning as they apply to biology, not as an ending point.
+We hope that our tips for applying deep learning to the biological sciences will serve as a starting point for discussion and not as an ending point.
 
 
 ## Acknowledgements {#acknowledgements}
