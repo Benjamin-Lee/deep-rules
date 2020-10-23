@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-20'
+date-meta: '2020-10-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-10-20" />
+  <meta name="dc.date" content="2020-10-23" />
 
-  <meta name="citation_publication_date" content="2020-10-20" />
+  <meta name="citation_publication_date" content="2020-10-23" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/bed910c2878acbf53fb763867c62509b3accdfdb/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bed910c2878acbf53fb763867c62509b3accdfdb/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bed910c2878acbf53fb763867c62509b3accdfdb/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bed910c2878acbf53fb763867c62509b3accdfdb/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bed910c2878acbf53fb763867c62509b3accdfdb/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/bed910c2878acbf53fb763867c62509b3accdfdb/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@b0b80ef](https://github.com/Benjamin-Lee/deep-rules/tree/b0b80ef657f8f53769a02e1d476a8bdcc2c429f3)
-on October 20, 2020.
+from [Benjamin-Lee/deep-rules@bed910c](https://github.com/Benjamin-Lee/deep-rules/tree/bed910c2878acbf53fb763867c62509b3accdfdb)
+on October 23, 2020.
 </em></small>
 
 ## Authors
@@ -433,24 +433,31 @@ Please note the current author order is chronological and does not reflect the f
 
 ## Introduction {#intro}
 
-Deep learning is a subfield of machine learning focusing on artificial neural networks with many layers.
-These methods are increasingly being used for the analysis of biological data [@doi:10.1098/rsif.2017.0387].
-In many cases, novel biological insights have been revealed through careful evaluation of deep learning methods ranging from predicting protein-drug binding kinetics [@doi:10.1038/s41467-017-02388-1] to identifying the lab-of-origin of synthetic DNA [@doi:10.1038/s41467-018-05378-z].
-However, for researchers and students entirely new to this area and those experienced in using classical machine learning methods (for example, linear regression), using deep learning correctly can be a daunting task.
-Furthermore, the lack of concise recommendations for biological applications of deep learning poses an additional challenge for newcomers wishing to apply state-of-the-art deep learning in their research.
-Since deep learning is an active and specialized research area, detailed resources are rapidly rendered obsolete, and only a few resources articulate general deep learning best practices to the scientific community broadly and the biological community specifically.
-To address this issue, we solicited input from a community of researchers with varied biological and deep learning interests to write this manuscript collaboratively using the GitHub version control platform [@url:https://github.com/Benjamin-Lee/deep-rules] and Manubot [@doi:10.1371/journal.pcbi.1007128].
+Machine learning is a branch of computational science organized around the learning by computers via algorithms of relationships between dataset variables. Traditionally this has referred to statistical methods such as linear and logistic regression, but as the scale and complexity of data have increased, many new ML methods have been developed to model and learn increasingly complex relationships.
+One powerful approach for learning complex (that is, both linear and non-linear) relationships between input and output variables is called an artificial neural network.
+These networks are modeled after the human brain, and they comprise artificial neurons arranged into layers.
+Each layer receive input from previous layers (the first of which represents the input data), and then "fires off" its own weighted output that then serves as input into subsequent layers in the network. 
+Thus, the process of "training" a neural network is in fact the tuning of these output weights such that a metric called a cost function is optimized.
+Deep learning utilizes artificial neural networks with many layers (hence the term "deep"), and given the computational advances of recent decades, is now capable of being applied to massive data sets and in enumerable contexts.
+In many circumstances, deep learning has the capacity to learn more complex relationships and make more accurate predictions than other methods.
+Therefore, deep learning has become its own subfield of machine learning, and in the context of biological research, has been increasingly used to derive novel insights from high-dimensional biological data [@doi:10.1098/rsif.2017.0387].
+For example, deep learning has been used to predict protein-drug binding kinetics [@doi:10.1038/s41467-017-02388-1], to identify the lab-of-origin of synthetic DNA [@doi:10.1038/s41467-018-05378-z], and to uncover the facial phenotypes of genetic disorders [@doi:10.1038/s41591-018-0279-0].
 
-Through the course of our discussions, several themes became clear: the importance of understanding and applying machine learning fundamentals [@doi:10.1186/s13040-017-0155-3] as a baseline for utilizing deep learning, the necessity for extensive model comparisons with careful evaluation, and the need for critical thought in interpreting results generated by means of deep learning, among others.
+However, for researchers and students new to machine learning, and even for those experienced in using classical machine learning methods (for example, linear regression), using deep learning correctly can be daunting due to the highly complex nature of the method and the corresponding toolkits.
+General resources communicating best practices to the scientific community broadly and the biological community specifically are scarce, and any resources that do exist are prone to reaching obsolescence rapidly due to deep learning's active and specialized nature.
+In addition, the lack of established standards or concise recommendations for the application of deep learning to biological questions further limits newcomers from using state-of-the-art deep learning in their research.  
+
+To address this issue, we solicited input from a community of researchers with varied biological and deep learning interests.
+These individuals collaboratively contributed to the writing of this manuscript using the GitHub version control platform [@url:https://github.com/Benjamin-Lee/deep-rules] and the Manubot manuscript generation toolset [@url:https://greenelab.github.io/meta-review/].
+The goal was to articulate a practical, accessible, and concise set of guidelines and suggestions for biologically oriented researchers to follow when using deep learning.
+
+In the course of our discussions, several themes became clear: the importance of understanding and applying machine learning fundamentals [@doi:10.1186/s13040-017-0155-3] as a baseline for utilizing deep learning, the necessity for extensive model comparisons with careful evaluation, and the need for critical thought in interpreting results generated by deep learning, among others.
 The major similarities between deep learning and traditional computational methods also became apparent.
 Although deep learning is a distinct subfield of machine learning, it is still a subfield.
 It is subject to the many limitations inherent to machine learning, and many best practices for machine learning also apply to deep learning.
 In addition, as with all computational methods, deep learning should be applied in a systematic manner that is reproducible and rigorously tested.
-
-Ultimately, the tips we collate range from high-level guidance to the implementation of best practices.
-It is our hope that they will provide actionable, deep learning-specific advice for both new and experienced deep learning practitioners alike who would like to employ deep learning in biological research.
-By increasing the accessibility of deep learning for applications in biological research, we aim to improve the overall quality and reporting of deep learning in the literature, enabling more researchers to utilize these state-of-the art modeling techniques.
-
+Ultimately, the tips we collate range from high-level guidance to best practices for implementation, and it is our hope that they will provide actionable, deep learning-specific instruction for both new and experienced deep learning practitioners.
+By making deep learning more accessible for use in biological research, we aim to improve the overall usage and reporting quality of deep learning in the literature, and to enable increasing numbers of researchers to utilize these state-of-the art techniques effectively and accurately.
 
 ## Tip 1: Decide whether deep learning is appropriate for your problem {#appropriate}
 
@@ -513,12 +520,6 @@ Hence, before applying deep learning to a given problem, we highly recommend imp
 Such models include logistic regression, random forests, k-nearest neighbors, naive Bayes, and support vector machines, and using them can help to establish baseline performance expectations.
 While performance baselines available from existing literature can also serve as helpful guides, an implementation of a simpler model that uses the same software framework as planned for deep learning can greatly help with assessing the correctness of data processing steps, performance evaluation pipelines, resource requirement estimates, and computational performance estimates.
 Furthermore, in some cases, it can even be useful to combine simpler baseline models with deep neural networks, as such hybrid models can improve generalization performance, model interpretability, and confidence estimation [@arxiv:1803.04765; @arxiv:1805.11783].
-
-However, it is important to gauge the relative effectiveness of baseline and deep learning models by comparing them with established tools (for example, bioinformatics pipelines or image analysis workflows), as conventional methods (machine learning based or not) can potentially perform equivalently to or better than newer machine or deep learning methods.
-While this seems unintuitive, it can in fact be the case when the available data are of limited size and/or atypical in nature.
-For example, Rajkomar et al. [@doi:10.1038/s41746-018-0029-1] found that simpler baseline models achieved performance comparable with that of deep learning in a number of clinical prediction tasks using electronic health records.
-Another example is provided by Koutsoukas et al., who benchmarked several traditional machine learning approaches against deep neural networks for modeling bioactivity data on moderately sized datasets [@doi:10.1186/s13321-017-0226-y].
-The researchers found that while well tuned deep learning approaches generally tend to outperform conventional classifiers, simpler conventional methods such as Naive Bayes classification tend to outperform deep learning as the noise in the dataset increases.
 
 Another potential pitfall arises from comparing the performance of baseline conventional models trained with default settings with the performance of deep learning models that have undergone rigorous tuning and optimization.
 Since conventional off-the-shelf machine learning algorithms (for example, support vector machines and random forests) are also likely to benefit from hyperparameter tuning, such incongruity prevents the comparison of equally optimized models and can lead to false conclusions about model efficacy.

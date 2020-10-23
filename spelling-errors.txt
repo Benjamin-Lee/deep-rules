@@ -17,7 +17,7 @@ backends
 benchmarked
 betsig
 bioactivity
-bioinformatics
+Bioinformatics
 biomarker
 biomarkers
 Biomathematics
@@ -84,10 +84,11 @@ Moffitt
 Morgridge
 multilayer
 overfit
-overfitting
+Overfitting
 overinterpreting
 parallelized
 perceptrons
+phenotypes
 pre
 pretraining
 pseudorandom
@@ -112,6 +113,8 @@ tbrittoborges
 Tensorflow
 Thiago
 TODO
+toolkits
+toolset
 TPOT
 tradeoff
 Translational
@@ -120,6 +123,5 @@ Tschira
 ttriche
 Turi
 unencrypted
-unintuitive
 wildtypeMC
 Yu
