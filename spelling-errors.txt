@@ -8,7 +8,6 @@ alxndrkalinin
 Analytics
 Andel
 anthonygitter
-anthropomorphizing
 approximators
 arxiv
 AUROC
@@ -27,6 +26,7 @@ Biostatistics
 blengerich
 Boca
 Britto
+causual
 cgreene
 Chevrette
 chevrm
@@ -61,7 +61,7 @@ hornik
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 ImageNet
 increaingly
 interpretability
@@ -86,7 +86,8 @@ Moffitt
 Morgridge
 multilayer
 overfit
-overfitting
+Overfitting
+overinterpret
 overinterpreting
 parallelized
 perceptrons

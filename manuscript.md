@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-23'
+date-meta: '2020-10-25'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-10-23" />
+  <meta name="dc.date" content="2020-10-25" />
 
-  <meta name="citation_publication_date" content="2020-10-23" />
+  <meta name="citation_publication_date" content="2020-10-25" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/f081ad0d614854cd4ae386a9de7b2aa1126a1983/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/f081ad0d614854cd4ae386a9de7b2aa1126a1983/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/f081ad0d614854cd4ae386a9de7b2aa1126a1983/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/f081ad0d614854cd4ae386a9de7b2aa1126a1983/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/f081ad0d614854cd4ae386a9de7b2aa1126a1983/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/f081ad0d614854cd4ae386a9de7b2aa1126a1983/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@f081ad0](https://github.com/Benjamin-Lee/deep-rules/tree/f081ad0d614854cd4ae386a9de7b2aa1126a1983)
-on October 23, 2020.
+from [Benjamin-Lee/deep-rules@3b4e7de](https://github.com/Benjamin-Lee/deep-rules/tree/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb)
+on October 25, 2020.
 </em></small>
 
 ## Authors
@@ -696,23 +696,22 @@ This feature reduction can be essential when defining biomarker panels for use i
 
 ## Tip 9: Don't over-interpret predictions {#interpretation}
 
-Once we have trained an accurate deep learning model, we often want to use it to deduce scientific findings.
-In doing so, we need to take care to correctly interpret the model's predictions.
-Because deep models can be difficult to interpret intuitively, there is a temptation to anthropomorphize the models.
-We must resist this temptation.
-
-A common saying in statistics classes is "correlation doesn't imply causality".
-While we know that accurately predicting an outcome doesn't imply learning the causal mechanism, it can be easy to forget this lesson when the predictions are extremely accurate.
-A poignant example of this lesson is [@tag:predicting-pneumonia-mortality; @doi:10.1145/2783258.2788613].
-In this study, the authors evaluated the capacities of several models to predict the probability of death for patients admitted to an intensive care unit with pneumonia.
+Once we have trained an accurate deep learning model, we often want to use it to deduce relationships and inform scientific findings.
+However, in doing this, we need to be careful to correctly interpret the model's predictions.
+Given that deep learning models can be difficult to interpret intuitively, there is often a temptation to overinterpret the predictions in indulgent and/or inaccurate ways.
+As the classic statistical saying "correlation doesn't mean causation" implies, predictions by deep learning models don't necessarily speak to certain causual relationships.
+While we generally know this, and understand that accurately predicting an outcome doesn't imply the learning of any causal mechanism, it can be easy to forget this lesson when the predictions are extremely accurate.
+A poignant example of this lesson is from work where authors evaluated the capacities of several models to predict the probability of death for patients with pneumonia admitted to an intensive care unit [@tag:predicting-pneumonia-mortality; @doi:10.1145/2783258.2788613].
 Unsurprisingly, the neural network model achieved the best predictive accuracy.
-However, after fitting a rule-based model, the authors discovered that the hospital data implied the rule `HasAsthma(x) => LowerRisk(x)`.
-This rule contradicts medical understanding - having asthma doesn't make pneumonia better!
-This rule was supported by the data (pneumonia patients with a history of asthma tended to receive more aggressive care), so the neural network also learned to make predictions according to this rule.
+However, after fitting a rule-based model in order to better understand the relationships inherent to their data, the authors discovered that the hospital data implied the rule `HasAsthma(x) => LowerRisk(x)`.
+This rule contradicts medical understanding, as having asthma doesn't make pneumonia better!
+Nonetheless, this rule was supported by the data, as pneumonia patients with a history of asthma tended to receive more aggressive care.
+The neural network had therefore also learned to make predictions according to this rule despite the fact that it has nothing to do with causality or mechanism.
 Guiding treatment decisions according to the predictions of the neural network would have been disastrous, even though the neural network had high predictive accuracy.
 
 To trust deep learning models, we must combine knowledge of the training data ([Tip 4](#know-your-problem)) with inspection of the model ([Tip 8](#blackbox)).
-To move beyond fitting predictive models toward building understanding and deducing scientific conclusions, probe data domains where your model succeeds and contrast them with domains where your model fails in order to identify your model's internal logic, taking care to avoid overinterpreting or anthropomorphizing the model.
+To move beyond fitting predictive models and towards the building of an understanding that can inform scientific deduction, we suggest working to disentangle a model's internal logic by comparing data domains where models succeeds to those in which they fail.
+By doing so, we can avoid overinterpreting models and view them for what they are: complex statistical models trained on high dimensional data.
 
 
 ## Tip 10: Don't share models trained on sensitive data {#privacy}
