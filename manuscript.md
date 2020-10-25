@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/41b50f2defef69252969a0e296c44313fc115baa/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/41b50f2defef69252969a0e296c44313fc115baa/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/41b50f2defef69252969a0e296c44313fc115baa/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/41b50f2defef69252969a0e296c44313fc115baa/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/41b50f2defef69252969a0e296c44313fc115baa/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,9 +245,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/41b50f2defef69252969a0e296c44313fc115baa/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@3b4e7de](https://github.com/Benjamin-Lee/deep-rules/tree/3b4e7dee23a7ec774c8c51224bc0316de61dfbeb)
+from [Benjamin-Lee/deep-rules@41b50f2](https://github.com/Benjamin-Lee/deep-rules/tree/41b50f2defef69252969a0e296c44313fc115baa)
 on October 25, 2020.
 </em></small>
 
@@ -634,34 +634,37 @@ Ultimately, to get the best performance of your model, be sure to systematically
 
 ## Tip 7: Address deep neural networks' increased tendency to overfit the dataset {#overfitting}
 
-Overfitting is one of the most significant dangers you'll face in deep learning (and traditional machine learning).
-Put simply, overfitting occurs when a model fits patterns in the training data too closely, includes noise or non-scientifically relevant perturbations, or in the most extreme case, simply memorizes patterns in the training set.
+Overfitting is a challenge inherent to machine learning in general, and is one of the most significant challenges you'll face when applying deep learning specifically.
+Overfitting occurs when a model fits patterns in the training data so closely that it is including non-generalizable noise or non-scientifically relevant perturbations in the relationships it is learning.
+In other words, the model fits patterns that are overly specific to the data it is training on rather than learning general relationships that hold across similar datasets.
 This subtle distinction is made clearer by seeing what happens when a model is tested on data to which it was not exposed during training: just as a student who memorizes exam materials struggles to correctly answer questions for which they have not studied, a machine learning model that has overfit to its training data will perform poorly on unseen test data.
 Deep learning models are particularly susceptible to overfitting due to their relatively large number of parameters and associated representational capacity.
-To continue the student analogy, a smarter student has greater potential for memorization than average one and thus may be more inclined to memorize.
+Just as some students may have greater potential for memorization, deep learning models seem more prone to overfitting than machine learning models with fewer parameters.
 
-![A visual example of overfitting and failure to generalize. While a high-degree polynomial gets high accuracy on its training data, it performs poorly on data unlike that which it has seen before. In contrast, a simple linear regression works well on both datasets. The greater representational capacity of the polynomial is analogous to using a larger or deeper neural network.](images/overfitting.png){#fig:overfitting-fig}
+![A visual example of overfitting and failure to generalize. While a high-degree polynomial achieves high accuracy on its training data, it performs poorly on data with specificities that have not been seen before. That is, the model has learned the training dataset specifically rather than learning a generalizable pattern that represents data of this type. In contrast, a simple linear regression works well on both datasets. The greater representational capacity of the polynomial is analogous to using a larger or deeper neural network.](images/overfitting.png){#fig:overfitting-fig}
 
-To evaluate deep supervised learning models, they should be trained, tuned, and tested on non-overlapping datasets.
-The data used for testing should be locked and only used one-time for evaluating the final model after all tuning steps are completed.
-Using a test set more than once will lead to biased estimates of the generalization performance [@arxiv:1811.12808; @doi:10.1162/089976698300017197].
-While transformation and normalization procedures need to be applied equally to all datasets, the parameters required for such procedures (for example, quantile normalization, a common standardization method when analyzing gene-expression data) should only be derived from training data, not tuning and test data, to keep the latter two independent.
-Additionally, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance [@pmid:25738806].
-Model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data [@doi:10.1021/acs.molpharmaceut.7b00578], with particular consideration given to metrics that are most directly applicable to the task at hand.
-
-The simplest way to combat overfitting is to detect it.
-This can be done by splitting the dataset into three parts: a training set, a tuning set (also commonly called a validation set in the machine learning literature), and a test set.
-By exposing the model solely to the training data during fitting, a researcher can use the model's performance on the unseen test data to measure the amount of overfitting.
+In general, one of the most effective ways to combat overfitting is to detect it in the first place.
+One way to do this is to split the main dataset being worked on into three independent parts: a training set, a tuning set (also commonly called a validation set in the machine learning literature), and a test set.
+These three partitions allow us to optimize models by iterating between model learning on the training set and hyperparameter evaluation on the tuning set without affecting the final model assessment on the test set.
+That is, the data used for testing should be "locked away" and used only once to evaluate the final model after all training and tuning steps are completed.
+A researcher can then use the model's performance on the independent test data as a measure of how overfit (i.e. non-generalizable) the model is.
+This type of approach is necessary for evaluating the generalizability of models without the biases that can arise from learning and testing on the same data [@arxiv:1811.12808; @doi:10.1162/089976698300017197].
 While a slight drop in performance from the training set to the test set is normal, a significant drop is a clear sign of overfitting (see Figure @fig:overfitting-fig for a visual demonstration of an overfit model that performs poorly on test data).
-In addition, there are a variety of techniques to reduce overfitting during training including data augmentation and regularization techniques such as dropout [@url:http://jmlr.csail.mit.edu/papers/v15/srivastava14a.html] and weight decay [@tag:krogh-weight-decay].
-Another way, as described by Chuang and Keiser, is to identify the baseline level of memorization of the network by training on the data with the labels randomly shuffled and to see if the model performs better on the actual data [@doi:10.1021/acschembio.8b00881].
-If the model performs no better on real data than randomly scrambled data, then the performance of the model can be attributed to overfitting.
 
-Additionally, in biology and medicine it is critical to consider independence when defining training and test sets.
-For example, a deep learning model for pneumonia detection in chest X-rays performed well but failed to generalize to outside hospitals because they were able to detect which hospital the image was from and exploited this information when making predictions [@doi:10.1371/journal.pmed.1002683].
-Similarly, when dealing with sequence data, holding out data that are evolutionarily related or share structural homology to the training data can result in overfitting.
-In these cases, simply holding out test data selected from a random partition of the training data is insufficient.
-The best remedy for confounding variables is to [know your data](#know-your-problem) and to test your model on truly independent data.
+If overfitting is an issue, there are a variety of techniques to reduce overfitting, including data augmentation and various regularization techniques [@url:http://jmlr.csail.mit.edu/papers/v15/srivastava14a.html; @tag:krogh-weight-decay].
+Another way to reduce overfitting, as described by Chuang and Keiser, is to identify the baseline level of memorization that is occuring by training on data that has its labels randomly shuffled.
+By comparing the model performance with the shuffled data to that achieved with the actual data [@doi:10.1021/acschembio.8b00881], a practitioner can identify overfitting as a model that performs no better on real data, as this suggest that any predictive capacity is not due to data-driven signal.
+One important caveat when working with partitioned data is the need to apply transformation and normalization procedures equally to all datasets.
+The parameters required for such procedures (for example, quantile normalization, a common standardization method when analyzing gene-expression data) should only be derived from the training data, and not from the tuning or test data.
+Additionally, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance [@pmid:25738806].
+Therefore, model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data [@doi:10.1021/acs.molpharmaceut.7b00578].
+
+When working with biological and medical data, one must also carefully consider potential sources of bias and/or non-independence when defining training and test sets.
+For example, a deep learning model for pneumonia detection in chest X-rays appeared to performed well within the hospitals providing the training data, but then failed to generalize to other hospitals [@doi:10.1371/journal.pmed.1002683].
+This resulted from the deep learning model picking up on signal related to which hospital the images were from, and represents a type of artifact or "batch effect" that practitioners must be vigilant towards.
+When dealing with sequence data, holding out test data that are evolutionarily related or that share structural homology to the training data can result in overfitting that is hard to detect due to the inherent relatedness of the partitioned data (cite?).
+In such situations, simply holding out test data selected from a random partition of the training data can be insufficient.
+Again, the best remedy for identifying confounding variables is to [know your data](#know-your-problem) and to test models on truly independent data.
 
 In essence, practitioners should split data into training, tuning, and single-use testing sets to assess the performance of the model on data that can provide a reliable estimate of its generalization performance.
 Futhermore, be cognizant of the danger of skewed or biased data artificially inflating accuracy.

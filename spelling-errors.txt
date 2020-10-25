@@ -51,6 +51,8 @@ Fertig
 Finlay
 fmaguire
 Futhermore
+generalizability
+generalizable
 Gitter
 GPUs
 grayscale
@@ -61,7 +63,7 @@ hornik
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 ImageNet
 increaingly
 interpretability
@@ -74,6 +76,7 @@ Kessler
 khyu
 Kipoi
 Koutsoukas
+krogh
 Kun
 learnable
 learnings
@@ -85,8 +88,9 @@ MLPs
 Moffitt
 Morgridge
 multilayer
+occuring
 overfit
-Overfitting
+overfitting
 overinterpret
 overinterpreting
 parallelized
