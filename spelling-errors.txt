@@ -57,6 +57,7 @@ Gitter
 GPUs
 grayscale
 Himmelstein
+historicallly
 homology
 homomorphic
 hornik
@@ -78,6 +79,7 @@ Kipoi
 Koutsoukas
 krogh
 Kun
+leanring
 learnable
 learnings
 Lengerich
@@ -90,11 +92,12 @@ Morgridge
 multilayer
 occuring
 overfit
-overfitting
+Overfitting
 overinterpret
 overinterpreting
 parallelized
 perceptrons
+pharmacovigilance
 phenotypes
 pre
 pretraining
