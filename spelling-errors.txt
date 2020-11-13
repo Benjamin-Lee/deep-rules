@@ -64,7 +64,7 @@ hornik
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 ImageNet
 increaingly
 interpretability
