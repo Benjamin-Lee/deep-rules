@@ -1,9 +1,17 @@
+---
+documentclass: letter
+fontsize: 11pt
+geometry: margin=.95in
+pagestyle: empty
+author: Benjamin D. Lee
+date: November 12, 2020
+---
 Fernando Chirigati  
 Springer Nature  
 One New York Plaza, Suite 4500  
 New York, NY 10004
 
-November Xth, 2020
+November 12^th^, 2020
 
 Dear Dr. Chirigati,
 
