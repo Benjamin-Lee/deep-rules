@@ -39,6 +39,7 @@ CuDNN
 Dalhousie
 dataset
 datasets
+differentiable
 discriminative
 DL
 ejfertig
@@ -64,7 +65,7 @@ hornik
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 ImageNet
 increaingly
 interpretability
@@ -123,7 +124,6 @@ tbrittoborges
 Tensorflow
 Thiago
 TODO
-toolkits
 toolset
 TPOT
 tradeoff

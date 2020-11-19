@@ -1,10 +1,9 @@
-content/02.intro.md:3:dataset
-content/02.intro.md:10:subfield
-content/02.intro.md:11:phenotypes
-content/02.intro.md:13:toolkits
-content/02.intro.md:18:toolset
-content/02.intro.md:23:subfield
-content/02.intro.md:23:subfield
+content/02.intro.md:8:differentiable
+content/02.intro.md:11:subfield
+content/02.intro.md:12:phenotypes
+content/02.intro.md:21:toolset
+content/02.intro.md:26:subfield
+content/02.intro.md:26:subfield
 content/03.when-to-use-dl.md:5:approximators
 content/03.when-to-use-dl.md:5:hornik
 content/03.when-to-use-dl.md:5:leanring
