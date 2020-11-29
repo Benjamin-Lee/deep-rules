@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-11-19'
+date-meta: '2020-11-29'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-11-19" />
+  <meta name="dc.date" content="2020-11-29" />
 
-  <meta name="citation_publication_date" content="2020-11-19" />
+  <meta name="citation_publication_date" content="2020-11-29" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/c573c35844acf79e92effcbfc4afbb10bfd5417d/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d1931f11d4d06b699519083dfc629f74d8cad8ae/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c573c35844acf79e92effcbfc4afbb10bfd5417d/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d1931f11d4d06b699519083dfc629f74d8cad8ae/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c573c35844acf79e92effcbfc4afbb10bfd5417d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d1931f11d4d06b699519083dfc629f74d8cad8ae/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c573c35844acf79e92effcbfc4afbb10bfd5417d/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d1931f11d4d06b699519083dfc629f74d8cad8ae/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c573c35844acf79e92effcbfc4afbb10bfd5417d/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d1931f11d4d06b699519083dfc629f74d8cad8ae/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/c573c35844acf79e92effcbfc4afbb10bfd5417d/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d1931f11d4d06b699519083dfc629f74d8cad8ae/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@c573c35](https://github.com/Benjamin-Lee/deep-rules/tree/c573c35844acf79e92effcbfc4afbb10bfd5417d)
-on November 19, 2020.
+from [Benjamin-Lee/deep-rules@d1931f1](https://github.com/Benjamin-Lee/deep-rules/tree/d1931f11d4d06b699519083dfc629f74d8cad8ae)
+on November 29, 2020.
 </em></small>
 
 ## Authors
@@ -465,51 +465,54 @@ By making deep learning more accessible for use in biological research, we aim t
 
 ## Tip 1: Decide whether deep learning is appropriate for your problem {#appropriate}
 
-In recent years, the number of publications implementing deep learning in biology have risen tremendously.
-Given deep learning's usefulness across a range of scientific questions and data modalities, it may seem as though it is a panacea for nearly all modeling problems.
-While the neural networks that underpin deep leanring models are in fact universal function approximators, and are therefore theoretically capable of learning the functions that relate almost any input and output variables [@doi:10.1007/BF02551274; @tag:hornik-approximation], deep learning is actually not suited to every modeling situation.
-This is largely driven by the training demands of deep learning models, which require significant amounts of data, computing power, and expertise.
+In recent years, the number of projects and publications implementing deep learning in biology has risen tremendously [@doi:10.1089/omi.2018.0097; @doi:10.1007/978-981-15-3383-9_54; @doi:10.3390/info11040193]. Given deep learning's usefulness across a range of scientific questions and data modalities, it may seem as though it is a panacea for nearly all modeling problems.
+Neural networks that underpin deep learning models are, in fact, universal function approximators and are therefore theoretically capable of learning the functions that relate almost any input and output variables [@doi:10.1007/BF02551274; @tag:hornik-approximation]. However, deep learning is not suited to every modeling situation.
+The primary limiting factors for deep learning's suitability for a given problem is primarily limited by the training demands of neural network models, which require significant amounts of data, computing power, and programming as well as modeling expertise.
 
-In the areas of biology where data collection is thoroughly automated, such as DNA sequencing, large amounts of high quality data may in fact be available.
-However, areas of biology that rely on manual data collection may not possess enough data to effectively train and apply deep learning models.
-Though there are methods that try to increase the amount of training data, such as data augmentation (in which existing data is slightly manipulated in an attempt to yield "new" samples) and weak supervision (in which simple labeling heuristics are combined to produce noisy, probabilistic labels) [@arxiv:1605.07723v3], these methods cannot overcome a complete shortage of data.
-A general rule of thumb is that deep learning can be considered for datasets with at least one hundred samples per class [@arxiv:1511.06348], although it is really best suited for use with datasets that contain orders of magnitude more samples.
+In the areas of biology where data collection is thoroughly automated, such as DNA sequencing, large amounts of high-quality data may be available.
+However, areas of biology that rely on manual data collection may not possess enough data to train and apply deep learning models effectively.
+Though there are methods that try to increase the amount of training data, such as data augmentation (in which existing data is slightly manipulated in an attempt to yield "new" samples) and weak supervision (in which simple labeling heuristics are combined to produce noisy, probabilistic labels) [@arxiv:1605.07723v3], these methods cannot overcome substantial data shortages.
 
-Training deep learning models is also very demanding, and often requires extensive computing infrastructure and patience to achieve state-of-the-art performance [@doi:10.1109/JPROC.2017.2761740].
-In some deep learning contexts, such as generating human-like text, state-of-the-art models have over one hundred billion parameters [@arxiv:2005.14165] and require very costly and time-consuming training [@arxiv:1906.02243].
+In the fields of computer vision and natural language processing, deep neural networks are routinely trained on sample sizes ranging from hundreds of thousands to millions of training examples. Datasets of this size are often not available in many biological contexts. Still, it has been found that under certain circumstances, deep learning can already be considered for datasets with at least one hundred samples per class [@arxiv:1511.06348]. However, it is really best suited for use with datasets that contain orders of magnitude more samples.
+
+Training deep learning models is also very demanding and often requires extensive computing infrastructure and patience to achieve state-of-the-art performance [@doi:10.1109/JPROC.2017.2761740].
+In some deep learning contexts, such as generating human-like text, state-of-the-art models have over one hundred billion parameters [@arxiv:2005.14165] and require very costly and time-consuming training procedures [@arxiv:1906.02243].
 Though deep learning applications in biology rarely require this much training, they can require computational resources beyond those available on consumer-grade devices such as laptops or office desktops.
-Specialized hardware such as discrete graphics processing units (GPUs) and custom deep learning accelerators can dramatically reduce the time and cost required to train models, but this hardware is not universally accessible and cloud-based rentals add additional cost and complexity.
+Specialized hardware such as discrete graphics processing units (GPUs) and custom deep learning accelerators can dramatically reduce the time and cost required to train models [@doi:10.3390/info11040193]. Still, this hardware is not universally accessible, and cloud-based rentals add additional cost and complexity.
 Despite these limiting factors, these specialized hardware solutions are likely to be more broadly available as deep learning becomes more popular (for example, recent-generation iPhones already have such hardware).
-In contrast to these large scale computational demands of deep learning, traditional machine learning models can often be trained on a laptop (or even on a \$5 computer [@arxiv:1809.00238]) in seconds to minutes.
-Therefore, due to this enormous disparity in resource demand alone, traditional machine learning approaches may still prove desirable in a variety of biological applications.
+In contrast to these large scale computational demands of deep learning, traditional machine learning models can often be trained on laptops (or even on a \$5 computer [@arxiv:1809.00238]) in seconds to minutes.
+Therefore, due to this enormous disparity in resource demand alone, traditional machine learning approaches may still prove desirable in various biological applications.
 
 Beyond requiring more data and computational capacity, building and training deep learning models often requires more expertise than training traditional machine learning models.
 There are currently several competing programming frameworks for deep learning, such as Tensorflow [@arxiv:1603.04467] and PyTorch [@arxiv:1912.01703], that are widely used across academic research fields and industrial application sets.
 While these frameworks allow users to create and deploy entirely novel model architectures, this flexibility combined with the rapid development of the deep learning field has resulted in large and complex frameworks that can be daunting to new users.
 For readers new to software development but experienced in biology, gaining computational skills while interfacing with such complex industrial-grade tools can be a prohibitive challenge.
-Conversely, traditional machine learning methods are generally more straightforward to implement, and there are currently more tools for automating the model selection and training process for traditional machine learning models than there are for deep learning models.
-For example, automated machine learning (AutoML) tools, such as TPOT [@doi:10.1007/978-3-319-31204-0_9] and Turi Create [@https://github.com/apple/turicreate], are able to automatically test and optimize multiple machine learning models, and can allow users to achieve competitive performance with only a few lines of code.
-Thankfully, there are efforts underway to extend these and other automation frameworks in order to reduce the expertise required to build and use deep learning models as well.
-For example, TPOT, Turi Create and AutoKeras [@arxiv:1806.10282], are already capable of abstracting away much of the programming required for "standard" deep learning tasks, and high level interfaces such as Keras [@https://keras.io], make it increasingly straightforward to design and test custom deep learning architectures
+Conversely, traditional machine learning methods are generally more straightforward to implement.
+There are currently more tools for automating the model selection and training process for traditional machine learning models than for deep learning models.
+For example, automated machine learning (AutoML) tools, such as TPOT [@doi:10.1007/978-3-319-31204-0_9] and Turi Create [@https://github.com/apple/turicreate], are able to test and optimize multiple machine learning models automatically, and can allow users to achieve competitive performance with only a few lines of code.
+Thankfully, there are efforts underway to extend these and other automation frameworks to reduce the expertise required to build and use deep learning models.
+For example, TPOT, Turi Create, and AutoKeras [@arxiv:1806.10282] are already capable of abstracting away much of the programming required for "standard" deep learning tasks, and high-level interfaces such as Keras [@https://keras.io] and Fastai [@doi:10.3390/info11020108], make it increasingly straightforward to design and test custom deep learning architectures
 In the future, projects such as these are likely to make deep learning increasingly accessible to a much wider swatch of researchers.
 
-Despite these limitations, deep learning is strongly indicated over traditional machine learning for certain research questions and problems.
+Despite these limitations, deep learning is strongly indicated over traditional machine learning for specific research questions and problems.
 In general, these include problems that feature hidden patterns across the data, complex relationships, and interrelated variables.
-Problems in computer vision and natural language processing often exhibit exhibit these very features, which helps to explain why these areas were some of the first to experience significant breakthroughs during the recent deep learning revolution [@doi:10.1145/3065386]. 
+Problems in computer vision and natural language processing often exhibit these very features, which helps explain why these areas were some of the first to experience significant breakthroughs during the recent deep learning revolution [@doi:10.1145/3065386]. 
 As long as large amounts of accurate and labeled data are available, applications to areas of biology with related data characteristics, such as genetic medicine [@doi:10.3389/fpsyt.2018.00290], radiology [@doi:10.1007/s11604-018-0726-3], microscopy [@doi:10.1364/OPTICA.4.001437], and pharmacovigilance [@doi:10.1093/jamia/ocw180], are similarly likely to benefit from deep learning techniques.
-For example, Ferreira et al. used deep learning to recognize individual birds from images [@doi:10.1111/2041-210X.13436] despite this problem being very difficult historicallly.
-By combining automatic data collection using RFID tags with data augmentation and transfer learning (explained in [Tip 5](#architecture)), the authors were able to use deep learning to achieve 90% accuracy in several species.
-Other research areas where deep learning excels are generative modeling, in which new samples are able to be created based on the training data, and reinforcement learning, in which agents are trained to interact with their environments.
-On the whole, initial evaluation as to whether similar problems (including analogous ones in other domains) have been solved successfully using deep learning can inform researchers as to the potential for deep learning to address their needs.
+For example, Ferreira et al. used deep learning to recognize individual birds from images [@doi:10.1111/2041-210X.13436] despite this problem being very difficult historically.
+By combining automatic data collection using RFID tags with data augmentation and transfer learning (explained in [Tip 5](#architecture)), the authors were able to use deep learning to achieve 90% accuracy across several species.
+Another research area where deep learning excels is generative modeling, where new samples are created based on the training data [@doi:10.1109/ISACV.2018.8354080].
+One other area of machine learning that has been revolutionized by deep learning is reinforcement learning, which is concerned with training agents to interact with an environment [@arXiv:1709.06560].
+Overall, initial evaluation as to whether similar problems (including analogous ones in other domains) have been solved successfully using deep learning can inform researchers about the potential for deep learning to address their needs.
 
 On the other hand, depending on the amount and type of data available and the nature of the problem set, deep learning may not always be able to outperform conventional methods,
-As an illustration, Rajkomar et al. [@doi:10.1038/s41746-018-0029-1] found that simpler baseline models achieved performance comparable with that of deep learning in a number of clinical prediction tasks using electronic health records.
+As an illustration, Rajkomar et al. [@doi:10.1038/s41746-018-0029-1] found that simpler baseline models achieved performance comparable with deep learning in several clinical prediction tasks using electronic health records.
 Another example is provided by Koutsoukas et al., who benchmarked several traditional machine learning approaches against deep neural networks for modeling bioactivity data on moderately sized datasets [@doi:10.1186/s13321-017-0226-y].
-The researchers found that while well tuned deep learning approaches generally tend to outperform conventional classifiers, simple methods such as Naive Bayes classification tend to outperform deep learning as the noise in the dataset increases.
-Similarly, Chen et al. [@doi:10.1038/s41746-019-0122-0] tested deep learning and a variety of traditional machine learning methods such as logistic regression and random forests on five different clinical datasets, and found that traditional methods matched or exceeded the accuracy of the deep learning model in all cases despite requiring an order of magnitude less training time.
+The researchers found that while well-tuned deep learning approaches generally tend to outperform conventional classifiers, simple methods such as Naive Bayes classification tend to outperform deep learning as the dataset's noise increases.
+Similarly, Chen et al. [@doi:10.1038/s41746-019-0122-0] tested deep learning and a variety of traditional machine learning methods such as logistic regression and random forests on five different clinical datasets.
+They found that traditional methods matched or exceeded the accuracy of the deep learning model in all cases despite requiring an order of magnitude less training time.
 
 Therefore, in conclusion, deep learning should only be used after a robust consideration of its strengths and weaknesses for the problem at hand.
-Once choosing deep learning as a potential solution, practitioners should use the scientific method to compare the performance of deep learning to that of traditional methods, as outlined in the following tips.
+Once choosing deep learning as a potential solution, practitioners should still consider traditional methods as performance baselines and use the scientific method to compare the performance of deep learning to that of traditional methods, as outlined in the following tips.
 
 
 ## Tip 2: Use traditional methods to establish performance baselines {#baselines}

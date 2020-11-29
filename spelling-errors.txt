@@ -39,6 +39,7 @@ CuDNN
 Dalhousie
 dataset
 datasets
+dataset’s
 differentiable
 discriminative
 DL
@@ -47,6 +48,7 @@ Elana
 Epigenetics
 evancofer
 evolutionarily
+Fastai
 Ferreira
 Fertig
 Finlay
@@ -58,7 +60,6 @@ Gitter
 GPUs
 grayscale
 Himmelstein
-historicallly
 homology
 homomorphic
 hornik
@@ -80,7 +81,6 @@ Kipoi
 Koutsoukas
 krogh
 Kun
-leanring
 learnable
 learnings
 Lengerich
