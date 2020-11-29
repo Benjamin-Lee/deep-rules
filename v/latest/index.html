@@ -128,13 +128,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d1931f11d4d06b699519083dfc629f74d8cad8ae/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d1931f11d4d06b699519083dfc629f74d8cad8ae/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d1931f11d4d06b699519083dfc629f74d8cad8ae/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/977cc3ac68364ec7734733be41a8616a900f1596/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/977cc3ac68364ec7734733be41a8616a900f1596/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/977cc3ac68364ec7734733be41a8616a900f1596/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d1931f11d4d06b699519083dfc629f74d8cad8ae/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d1931f11d4d06b699519083dfc629f74d8cad8ae/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/977cc3ac68364ec7734733be41a8616a900f1596/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/977cc3ac68364ec7734733be41a8616a900f1596/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -146,9 +146,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/d1931f11d4d06b699519083dfc629f74d8cad8ae/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/977cc3ac68364ec7734733be41a8616a900f1596/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/d1931f11d4d06b699519083dfc629f74d8cad8ae">Benjamin-Lee/deep-rules@d1931f1</a>
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/977cc3ac68364ec7734733be41a8616a900f1596">Benjamin-Lee/deep-rules@977cc3a</a>
 on November 29, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -543,15 +543,15 @@ Guiding treatment decisions according to the predictions of the neural network w
 To move beyond fitting predictive models and towards the building of an understanding that can inform scientific deduction, we suggest working to disentangle a model’s internal logic by comparing data domains where models succeeds to those in which they fail.
 By doing so, we can avoid overinterpreting models and view them for what they are: complex statistical models trained on high dimensional data.</p>
 <h2 id="privacy">Tip 10: Don’t share models trained on sensitive data</h2>
-<p>Practitioners may encounter datasets that cannot be shared, such as ones for which there would be significant ethical or legal issues associated with release <span class="citation" data-cites="uXPlMpfq">[<a href="#ref-uXPlMpfq" role="doc-biblioref">72</a>]</span>.
-Examples of such data include classified or confidential data, biological data related to trade secrets, and medical records or other personally identifiable information <span class="citation" data-cites="VpgPDZxv">[<a href="#ref-VpgPDZxv" role="doc-biblioref">73</a>]</span>.
+<p>Practitioners may encounter datasets that cannot be shared, such as ones for which there would be significant ethical or legal issues associated with their release <span class="citation" data-cites="uXPlMpfq">[<a href="#ref-uXPlMpfq" role="doc-biblioref">72</a>]</span>.
+Examples of such data include classified or confidential data, biological data related to trade secrets, medical records, or other personally identifiable information <span class="citation" data-cites="VpgPDZxv">[<a href="#ref-VpgPDZxv" role="doc-biblioref">73</a>]</span>.
 While deep learning models can capture information-rich abstractions of multiple features of the data during the training process (which represents one of its great strengths), these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs <span class="citation" data-cites="zCqhgXvY 1HbRTExaU">[<a href="#ref-zCqhgXvY" role="doc-biblioref">74</a>,<a href="#ref-1HbRTExaU" role="doc-biblioref">75</a>]</span>.
 In other words, the complex relationships learned about the input data can potentially be used to infer characteristics about the original dataset.
 This means that the strengths that imbue deep learnings with its great predictive capacity also raise the level of risk surrounding data privacy.
 Therefore, while there is tremendous promise for deep learning techniques to extract information that cannot readily be captured by traditional methods <span class="citation" data-cites="UeE0s74F">[<a href="#ref-UeE0s74F" role="doc-biblioref">76</a>]</span>, it is imperative not to share models trained on sensitive data.
 This also holds true for certain traditional machine learning methods that learn by capturing specific details of the full training data (for example, <em>k</em>-nearest neighbors models).</p>
 <p>Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption, which serves to enable equivalent prediction on data that is encrypted end to end <span class="citation" data-cites="me326jb9 3326vtLW">[<a href="#ref-me326jb9" role="doc-biblioref">77</a>,<a href="#ref-3326vtLW" role="doc-biblioref">78</a>]</span>.
-Privacy preserving techniques <span class="citation" data-cites="1HuQe3Z8X">[<a href="#ref-1HuQe3Z8X" role="doc-biblioref">79</a>]</span>, such as differential privacy <span class="citation" data-cites="LiCxcgZp fbIH12yd eJgWbXRz">[<a href="#ref-LiCxcgZp" role="doc-biblioref">80</a>,<a href="#ref-fbIH12yd" role="doc-biblioref">81</a>,<a href="#ref-eJgWbXRz" role="doc-biblioref">82</a>]</span>, can help to mitigate risks as long as the assumptions underlying these techniques are met.
+Privacy-preserving techniques <span class="citation" data-cites="1HuQe3Z8X">[<a href="#ref-1HuQe3Z8X" role="doc-biblioref">79</a>]</span>, such as differential privacy <span class="citation" data-cites="LiCxcgZp fbIH12yd eJgWbXRz">[<a href="#ref-LiCxcgZp" role="doc-biblioref">80</a>,<a href="#ref-fbIH12yd" role="doc-biblioref">81</a>,<a href="#ref-eJgWbXRz" role="doc-biblioref">82</a>]</span>, can help to mitigate risks as long as the assumptions underlying these techniques are met.
 These methods provide a path towards a future where trained models and their predictions can be shared, but more software development and theoretical advances will be required to make these techniques easy to apply correctly in many settings.
 Unless you use these techniques, don’t share the weights or arbitrary access to the predictions of models trained on sensitive data.</p>
 <h2 id="conclusion">Conclusion</h2>
