@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-11-29'
+date-meta: '2020-11-30'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-11-29" />
+  <meta name="dc.date" content="2020-11-30" />
 
-  <meta name="citation_publication_date" content="2020-11-29" />
+  <meta name="citation_publication_date" content="2020-11-30" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/977cc3ac68364ec7734733be41a8616a900f1596/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/95a307e38b6e0a942971cbac3c4a738558329d50/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/977cc3ac68364ec7734733be41a8616a900f1596/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/95a307e38b6e0a942971cbac3c4a738558329d50/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/977cc3ac68364ec7734733be41a8616a900f1596/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/95a307e38b6e0a942971cbac3c4a738558329d50/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/977cc3ac68364ec7734733be41a8616a900f1596/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/95a307e38b6e0a942971cbac3c4a738558329d50/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/977cc3ac68364ec7734733be41a8616a900f1596/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/95a307e38b6e0a942971cbac3c4a738558329d50/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/977cc3ac68364ec7734733be41a8616a900f1596/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/95a307e38b6e0a942971cbac3c4a738558329d50/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@977cc3a](https://github.com/Benjamin-Lee/deep-rules/tree/977cc3ac68364ec7734733be41a8616a900f1596)
-on November 29, 2020.
+from [Benjamin-Lee/deep-rules@95a307e](https://github.com/Benjamin-Lee/deep-rules/tree/95a307e38b6e0a942971cbac3c4a738558329d50)
+on November 30, 2020.
 </em></small>
 
 ## Authors
@@ -738,11 +738,10 @@ Unless you use these techniques, don't share the weights or arbitrary access to 
 
 ## Conclusion {#conclusion}
 
-Deep learning techniques have the potential for wide use in biology and the capacity to meet or exceed the performance of both humans and the current state-of-the art algorithms across a wide range of tasks.
-Beyond simply achieving good predictive performance, deep learning has the potential to inform novel biological insights to fundamentally drive high value research.
+Deep learning techniques have the potential for wide use in biology and the capacity to meet or exceed the performance of both humans and the current state-of-the-art algorithms across a wide range of biological sub-disciplines and tasks.
+Beyond simply achieving good predictive performance, deep learning has the potential to inform novel biological insights to fundamentally drive high-impact research.
 To realize this potential, the use of deep learning as a research tool must be approached as any other tool would be: scientifically and thoughtfully.
-We hope that our tips for applying deep learning to the biological sciences will serve as a starting point for discussion and not as an ending point.
-
+We hope that our tips for applying deep learning to the biological sciences will serve as a starting point for discussion and considering deep learning for biological research sensibly and responsibly.
 
 ## Acknowledgements {#acknowledgements}
 
