@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d8d46c1422a4489b192e23c778913d8c368df630/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/f7e20257e3154a1b029c940ca21b1f87890699b8/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d8d46c1422a4489b192e23c778913d8c368df630/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/f7e20257e3154a1b029c940ca21b1f87890699b8/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d8d46c1422a4489b192e23c778913d8c368df630/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/f7e20257e3154a1b029c940ca21b1f87890699b8/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d8d46c1422a4489b192e23c778913d8c368df630/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/f7e20257e3154a1b029c940ca21b1f87890699b8/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d8d46c1422a4489b192e23c778913d8c368df630/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/f7e20257e3154a1b029c940ca21b1f87890699b8/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,9 +245,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d8d46c1422a4489b192e23c778913d8c368df630/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/f7e20257e3154a1b029c940ca21b1f87890699b8/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@d8d46c1](https://github.com/Benjamin-Lee/deep-rules/tree/d8d46c1422a4489b192e23c778913d8c368df630)
+from [Benjamin-Lee/deep-rules@f7e2025](https://github.com/Benjamin-Lee/deep-rules/tree/f7e20257e3154a1b029c940ca21b1f87890699b8)
 on December 1, 2020.
 </em></small>
 
@@ -535,21 +535,21 @@ To sum this tip up, practitioners are encouraged to create and fully tune severa
 ## Tip 3: Understand the complexities of training deep neural networks {#complexities}
 
 Correctly training deep neural networks is a non-trivial process, as there are many different options and potential pitfalls at every stage.
-To get good results, you must expect to train many networks across a range of different parameter and hyperparameter settings.
-Such training can be made more difficult by the demanding nature of these deep networks, which often require extensive computing infrastructure and optimization in order to achieve state-of-the-art performance [@doi:10.1109/JPROC.2017.2761740].
-Furthermore, this experimentation is often noisy, which necessitates increased repetition and exacerbates the organizational challenges inherent to deep learning.
-On the whole, all code, random seeds, parameters, and results must be carefully corralled using general good coding practices (e.g. version control [@doi:10.1371/journal.pcbi.1004947], continuous integration etc.) in order to be effective and interpretable.
-This organization is also fundamental to the efficient sharing and reproducibility of research work [@doi:10.1371/journal.pcbi.1003285; @arxiv:1810.08055], and to the ability to keep models up to date as new data becomes available.
+To get good results, one must often train networks across a wide range of different hyperparameter settings.
+Such training can be made more difficult by the demanding nature of these deep networks, which often require extensive time investments into tuning and computing infrastructure to achieve state-of-the-art performance [@doi:10.1109/JPROC.2017.2761740].
+Furthermore, this experimentation is often noisy, necessitating increased repetition and exacerbating the organizational challenges inherent to deep learning.
+On the whole, all code, random seeds, parameters, and results must be carefully corralled using general coding standards and best practices (for example, version control [@doi:10.1371/journal.pcbi.1004947] and continuous integration [@doi:10.1038/nbt.3780]) to be reproducible and interpretable [@doi:10.1371/journal.pcbi.1003285; @arxiv:1810.08055].
+For application-based research, this organization is also fundamental to the efficient sharing of research work and the ability to keep models up to date as new data becomes available.
 
-One specific reproducibility pitfall that is often missed in the application of deep learning is the default use of non-deterministic algorithms by CUDA/CuDNN backends when using GPUs.
+One specific reproducibility pitfall that is often missed in applying deep learning is the default use of non-deterministic algorithms by CUDA/CuDNN backends when using GPUs.
 That is, the CUDA/CuDNN architectures that facilitate the parallelized computing that power state-of-the-art DL often use algorithms by default that produce different outcomes from iteration to iteration.
-Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within your deep learning library), which is distinct from the setting of random seeds that typically achieve reprocubility by controlling pseudorandom deterministic procedures such as shuffling and initialization [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
+Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within deep learning libraries), which is distinct from the setting of random seeds that typically achieve reproducibility by controlling pseudorandom deterministic procedures such as shuffling and initialization [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
 
 Similar to the suggestions in [Tip 2](#baselines) about starting with simpler models, try to start with a relatively small network and then increase the size and complexity as needed.
-This can help to prevent practitioners from wasting signficant time and resources on running highly complex models that feature numerous unresolved problems. 
-Again, beware of the choices that are being made implicitly (that is, by default settings) by your framework of choice (for example, choice of optimization algorithm), as these seemingly trivial specifics can actually have signficant effects on model performance.
-For example, adaptive methods often lead to faster convergence during training, but may lead to worse generalization performance on independent datasets [@url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning]).
-These nuanced elements are easy to overlook, but it is critical to carefully consider them and to evaluate their potential impact (see [Tip 6](#hyperparameters)).
+This can help prevent practitioners from wasting significant time and resources on running highly complex models that feature numerous unresolved problems. 
+Again, beware of the choices made implicitly (that is, by default settings) by deep learning libraries (for example, selection of optimization algorithm), as these seemingly trivial specifics can have significant effects on model performance.
+For example, adaptive methods often lead to faster convergence during training but may lead to worse generalization performance on independent datasets [@url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning]).
+These nuanced elements are easy to overlook, but it is critical to consider them carefully and to evaluate their potential impact (see [Tip 6](#hyperparameters)).
 
 In short, use smaller and simpler networks to enable faster prototyping and follow general software development best practices to maximize reproducibility.
 
@@ -629,20 +629,20 @@ This tip can be distilled into two main action points: first, base the network's
 
 ## Tip 6: Tune your hyperparameters extensively and systematically {#hyperparameters}
 
-Given at least one hidden layer, a non-linear activation function, and a large number of hidden units [@tag:hornik-approximation], multi-layer neural networks can approximate arbitrary continuous functions that relate input and output variables. 
-Deeper architectures that feature additonal hidden layers and an increasing number of overall hidden units and learnable weight parameters (the so-called increasing "capacity" of neural networks) allow for solving increaingly complex problems.
-However, this increased capacity results in many more parameters to tune, which can pose additional challenges during model training.
+Given at least one hidden layer, a non-linear activation function, and a large number of hidden units, multi-layer neural networks can approximate arbitrary continuous functions that relate input and output variables [@tag:hornik-approximation; @doi:10.1016/S0893-6080(05)80131-5]. 
+Deeper architectures that feature additional hidden layers and an increasing number of overall hidden units and learnable weight parameters (the so-called increasing "capacity" of neural networks) allow for solving increasingly complex problems.
+However, this increased capacity results in many more parameters to fit and hyperparameters to tune, which can pose additional challenges during model training.
 In general, one should expect to systematically evaluate the impact of numerous hyperparameters when applying deep neural networks to new data or challenges.
-Hyperparameters typically manifest as choices of optimization algorithms, learning rate, activation functions, number of hidden layers and hidden units, size of the training batches, weight initialization schemes, and seeds for pseudo-random number generators used for dataset shuffling and weight initialization.
+Hyperparameters typically manifest as choices or settings of optimization algorithms, loss function, learning rate, activation functions, number of hidden layers and hidden units, size of the training batches, weight initialization schemes, and seeds for pseudo-random number generators used for dataset shuffling and weight initialization.
 Moreover, additional hyperparameters are introduced by common techniques that facilitate the training of deeper architectures.
-These include norm penalties (typically in the form of $L^2$ regularization), dropout [@tag:srivastava-dropout], and batch normalization [@tag:ioffe-batchnorm], which can reduce the effect of the so-called vanishing or exploding gradient problem when working with deep neural networks.
+These include parameter norm penalties (typically in the form of $L^2$ regularization), dropout [@tag:srivastava-dropout], and batch normalization [@tag:ioffe-batchnorm], which can reduce the effect of the so-called vanishing or exploding gradient problem when working with deep neural networks.
 
-This wide array of potential parameters can make it difficult to evaluate the extent to which neural network methods are well suited to solving a task, as it can be unclear to practitioners whether previous successful applications were the result of interactions between unique data attributes and specific parameter sets.
-Similar to the Continental Breakfast Included effect that we discussed in [Tip 2](#baselines), a lack of clarity on how extensive arrays of hyperparameters were tested and/or chosen can affect methods developers as they attempt to compare techniques.
+This wide array of potential parameters can make it difficult to evaluate the extent to which neural network methods are well suited to solving a task, as it can be unclear to practitioners whether previous successful applications were the result of interactions between unique data attributes and specific hyperparameter settings.
+Similar to the Continental Breakfast Included effect discussed in [Tip 2](#baselines), a lack of clarity on how extensive arrays of hyperparameters were tested and/or chosen can affect method developers as they attempt to compare techniques.
 This effect also has implications for those seeking to use existing deep learning methods, as performance estimates from deep neural networks are often provided after tuning.
-The implication of this effect on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require signficant effort towards temporally expensive hyperparameter optimization.
+The implication of this effect on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require significant effort towards temporally expensive hyperparameter optimization.
 
-Ultimately, to get the best performance of your model, be sure to systematically optimize your hyperparameters on your training dataset, as introduced in the next section.
+Ultimately, to get the best performance from your model, be sure to systematically optimize your hyperparameters on your training dataset, as introduced in the next section.
 
 
 ## Tip 7: Address deep neural networks' increased tendency to overfit the dataset {#overfitting}

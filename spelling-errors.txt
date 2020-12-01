@@ -1,5 +1,4 @@
 Acknowledgements
-additonal
 agitter
 ajlee
 AlexanderTitus
@@ -38,7 +37,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-datasets
+Datasets
 dataset’s
 differentiable
 discriminative
@@ -70,7 +69,6 @@ Hu
 hyperparameter
 hyperparameters
 ImageNet
-increaingly
 interpretability
 interpretable
 iPhones
@@ -95,7 +93,7 @@ Morgridge
 multilayer
 occuring
 overfit
-overfitting
+Overfitting
 overinterpret
 overinterpreting
 parallelized
@@ -111,13 +109,11 @@ quantile
 Rajkomar
 rasbt
 Raschka
-reprocubility
 reproducibility
 RFID
 RNNs
 Rojkomar
 Sigler
-signficant
 Simina
 SiminaB
 specificities
