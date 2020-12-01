@@ -25,7 +25,6 @@ Biostatistics
 blengerich
 Boca
 Britto
-causual
 cgreene
 Chevrette
 chevrm
@@ -37,7 +36,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-Datasets
+datasets
 dataset’s
 differentiable
 discriminative
@@ -93,7 +92,7 @@ Morgridge
 multilayer
 occuring
 overfit
-Overfitting
+overfitting
 overinterpret
 overinterpreting
 parallelized
