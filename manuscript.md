@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-11-30'
+date-meta: '2020-12-01'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-11-30" />
+  <meta name="dc.date" content="2020-12-01" />
 
-  <meta name="citation_publication_date" content="2020-11-30" />
+  <meta name="citation_publication_date" content="2020-12-01" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/95a307e38b6e0a942971cbac3c4a738558329d50/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d8d46c1422a4489b192e23c778913d8c368df630/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/95a307e38b6e0a942971cbac3c4a738558329d50/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d8d46c1422a4489b192e23c778913d8c368df630/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/95a307e38b6e0a942971cbac3c4a738558329d50/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d8d46c1422a4489b192e23c778913d8c368df630/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/95a307e38b6e0a942971cbac3c4a738558329d50/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d8d46c1422a4489b192e23c778913d8c368df630/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/95a307e38b6e0a942971cbac3c4a738558329d50/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d8d46c1422a4489b192e23c778913d8c368df630/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/95a307e38b6e0a942971cbac3c4a738558329d50/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d8d46c1422a4489b192e23c778913d8c368df630/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@95a307e](https://github.com/Benjamin-Lee/deep-rules/tree/95a307e38b6e0a942971cbac3c4a738558329d50)
-on November 30, 2020.
+from [Benjamin-Lee/deep-rules@d8d46c1](https://github.com/Benjamin-Lee/deep-rules/tree/d8d46c1422a4489b192e23c778913d8c368df630)
+on December 1, 2020.
 </em></small>
 
 ## Authors
@@ -563,13 +563,18 @@ If so, obtaining this data (and associated metadata), and reviewing the study pr
 This can help to ensure that data is as expected and can prevent the wasted time and effort that occur when issues are discovered later on in the analytic process.
 For example, a publication or resource might purportedly offer an appropriate dataset that is found to be inadequate upon acquisition.
 The data may be unstructured when it is supposed to be structured, crucial metadata such as sample stratification might be missing, or the usable sample size may be different than expected.
-Any of these data issues might limit a researcher's ability to use DL to address the biological question at hand, or might otherwise require adjustment before DL can be used.
+Any of these data issues might limit a researcher's ability to use DL to address the biological question at hand or might otherwise require adjustment before DL can be used.
 Data collection should also be carefully documented, or a data collection protocol should be created and specified in the project documentation.
+
 Information about the resources used, download dates, and dataset versions are critical to preserve.
-Doing so will help to minimize operational confusion and will increase the reproducibility of the analysis.
+Doing so will help to minimize operational confusion and will increase the reproducibility of the analysis. 
+Best practices for reproducibility also include sharing the collected dataset and metadata along upon publication of the study, ideally in a public dataset repository if there are no ethical or privacy concerns and no copyright restrictions.
+While recommended and recognized dataset repositories may differ across disciplines, a list of general dataset repositories includes the Dryad repository [@doi:10.1038/npre.2010.4595.1] (https://datadryad.org/), Figshare [@doi:10.4103/0976-500X.81919] (https://figshare.com), Zenodo [@doi:10.3897/biss.3.37080] (https://zenodo.org), and the Open Science Framework [@doi:10.5195/jmla.2017.88] (https://osf.io).
+In addition, Gundersen et al. [@doi:10.1609/aimag.v39i3.2816] provide useful checklists summarizing best data sharing practices for reproducible research and open science.
 
 Once the dataset is obtained, it is important to learn why and how the data were collected before beginning analysis.
-The standardized metadata that exist in many fields can help with this (for example, see [@doi:10.1038/ng1201-365]), but if at all possible, seek out a subject matter expert who has experience with the type of data you are using.
+The standardized metadata that exists in many fields can help with this (for example, see [@doi:10.1038/ng1201-365]).
+In addition, if at all possible, we recommend consulting with a subject matter expert who has experience with the type of data being used.
 Doing so will minimize guesswork and is likely to increase the success rate of a deep learning project.
 For example, one might presume that data collected to test the impact of an intervention derives from a randomized controlled trial.
 However, this is not always the case, as ethical or practical concerns often necessitate an observational study design that features prospectively or retrospectively collected data.
@@ -579,42 +584,47 @@ Such information is critical to accurate data analysis, and so it is imperative 
 Other study design considerations that should not be overlooked include knowing whether a study involves biological or technical replicates or both.
 For example, the existence in a dataset of samples collected from the same individuals at different time points can have significant effects on analyses that make assumptions about sample size and independence (that is, non-independence can lower the effective sample size).
 Another potential issue is the existence of systematic biases, which can be induced by confounding variables and can lead to artifacts or so-called "batch effects."
-As a consequence, models may learn to rely on the correlations that these systematic biases underpin, even though they are irrelevant to the scientific context of the study.
+Consequently, models may learn to rely on the correlations that these systematic biases underpin, even though they are irrelevant to the scientific context of the study.
 This can lead to misguided predictions and misleading conclusions [@doi:10.1038/nrg2825].
-As described in [Tip 1](#concepts), unsupervised learning and other exploratory analyses can help to identify such biases in these datasets prior to applying a deep learning model.
+As described in [Tip 1](#concepts), unsupervised learning and other exploratory analyses can help identify such biases in these datasets before applying a deep learning model.
 
-Overall, practitioners should make sure to thoroughly study their data and understand its context and peculiarities _before_ moving on to performing deep learning.
+Overall, practitioners should thoroughly study their data and understand its context and peculiarities _before_ moving on to performing deep learning.
 
 
 ## Tip 5: Choose an appropriate data representation and neural network architecture {#architecture}
 
 While certain best practices have been established by the research community [@doi:10.1007/978-3-642-35289-8], architecture design choices remain largely problem-specific and are vastly empirical efforts requiring extensive experimentation.
-Furthermore, as deep learning is a quickly evolving field, many recommendations are often short-lived, and are frequently replaced by newer insights supported by recent empirical results.
+Furthermore, as deep learning is a quickly evolving field, many recommendations are often short-lived and are frequently replaced by newer insights supported by recent empirical results.
 This is further complicated by the fact that many recommendations do not generalize well across different problems and datasets.
-Therefore, unfortunately, choosing how to represent your data and design your architecture is closer to an art than a science.
+Therefore, unfortunately, choosing how to represent data and design an architecture is closer to an art than a science.
 That said, there are some general principles that are useful to follow when experimenting.
 
 First and foremost, use your knowledge of the available data and your question (see [Tip 4](#know-your-problem)) to inform your data representation and architectural design choices.
-For example, if your dataset is an array of measurements with no natural ordering of inputs (such as gene expression data), multilayer perceptrons (MLPs) may be effective.
+For example, if the dataset is an array of measurements with no natural ordering of inputs (such as gene expression data), multilayer perceptrons (MLPs) may be effective.
 These are the most basic type of neural network, and they are able to learn complex non-linear relationships across the input data despite their relative simplicity.
-Similarly, if your dataset is comprised of images, convolutional neural networks (CNNs) are a good choice because they emphasize local structures and adjacency within the data.
-CNNs may also be a good choice for learning on sequences, as recent empirical evidence suggests that they can outperform canonical sequence learning techniques such as recurrent neural networks (RNNs) and the closely related long short-term memory (LSTM) networks [@arxiv:1803.01271].
+Similarly, if the dataset is comprised of images, convolutional neural networks (CNNs) are a good choice because they emphasize local structures and adjacency within the data.
+CNNs may also be a good choice for learning on sequences, as recent empirical evidence suggests that they can outperform canonical sequence learning techniques such as recurrent neural networks (RNNs) and the closely related long short-term memory (LSTM) networks [@arxiv:1803.01271]. 
+Accessible high-level overviews of these different neural network architectures are provided in [@doi:10.1016/j.ymeth.2020.06.016] and [@doi:10.1038/nature14539].
 
 Deep learning models typically benefit from increasing the amount of labeled data with which to train on.
 Large amounts of data help to avoid overfitting (see [Tip 7](#overfitting)), and increase the likelihood of achieving top performance on a given task.
-In the event that there is not enough data available to train your model, consider using transfer learning.
+If there is not enough data available to train a well-performing model, consider using transfer learning.
 In transfer learning, a model whose weights were generated by training on another dataset is used as the starting point for training [@tag:Yosinski2014].
 Transfer learning is most useful when the pre-training and target datasets are of similar nature [@tag:Yosinski2014].
 For this reason, it is important to search for similar datasets that are already available.
 These can potentially be used to increase the size of the training set or for pre-training and subsequent fine-tuning on the target data.
-However, even when this assumption does not hold, transferring features still can still improve model performance compared with random feature initialization.
+However, even when this assumption does not hold, transferring features can still improve model performance compared with random feature initialization.
 For example Rojkomar et al. showed advantages of ImageNet-pretraining [@doi:10.1007/s11263-015-0816-y] for a model that is applied to grayscale medical image classification [@doi:10.1007/s10278-016-9914-9].
-In addition, or as an alternative to pre-training models on larger datasets for transfer learning yourself, you may also be able to obtain pre-trained models from public repositories, such as Kipoi [@doi:10.1101/375345] for genomics models.
-Moreover, learned features can be helpful even when a pre-training task is different from a target task [@doi:10.1109/CVPRW.2014.131].
-Another related approach is multi-task learning, which consists of simultaneously training a network for multiple separate tasks that share features.
+In addition, or as an alternative to pre-training models on larger datasets for transfer learning, one may be able to obtain pre-trained models from public repositories, such as Kipoi [@doi:10.1101/375345] for genomics models.
+Moreover, learned features could be helpful even when a pre-training task is different from a target task [@doi:10.1109/CVPRW.2014.131]. 
+Recently, the concept of self-supervised learning, which is closely related to pre-training and transfer learning, has seen an increase in popularity [@doi:10.1016/j.micron.2018.01.010]. 
+Self-supervised learning leverages large amounts of unlabeled data and uses naturally available information as labels for supervised learning. 
+Thus, self-supervised learning is sometimes also described as autonomous supervised learning.
+Using self-supervised learning, a model can be pre-trained on a related task before it is trained on the target task.
+Another related approach is multi-task learning, which simultaneously trains a network for multiple separate tasks that share features.
 In fact, multi-task learning can be used separately or even in combination with transfer learning [@doi:10.1109/TBDATA.2016.2573280].
 
-This tip can be distilled into two main action points: first, base your network's architecture on your knowledge of the problem and, second, take advantage of similar existing data or pre-trained deep learning models.
+This tip can be distilled into two main action points: first, base the network's architecture on knowledge of the problem and, second, take advantage of similar existing data or pre-trained deep learning models.
 
 
 ## Tip 6: Tune your hyperparameters extensively and systematically {#hyperparameters}
