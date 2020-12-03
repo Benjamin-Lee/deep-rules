@@ -125,7 +125,6 @@ content/07.architecture-and-representation.md:30:pre
 content/07.architecture-and-representation.md:34:pre
 content/08.hyperparameters.md:1:hyperparameters
 content/08.hyperparameters.md:1:hyperparameters
-content/08.hyperparameters.md:3:hornik
 content/08.hyperparameters.md:4:learnable
 content/08.hyperparameters.md:5:hyperparameters
 content/08.hyperparameters.md:6:hyperparameters

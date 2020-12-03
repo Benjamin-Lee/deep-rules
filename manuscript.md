@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-12-01'
+date-meta: '2020-12-03'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-12-01" />
+  <meta name="dc.date" content="2020-12-03" />
 
-  <meta name="citation_publication_date" content="2020-12-01" />
+  <meta name="citation_publication_date" content="2020-12-03" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/bac76062919486ccf6218ffc8290e3ac7dc4bbd0/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bac76062919486ccf6218ffc8290e3ac7dc4bbd0/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/bac76062919486ccf6218ffc8290e3ac7dc4bbd0/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bac76062919486ccf6218ffc8290e3ac7dc4bbd0/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/bac76062919486ccf6218ffc8290e3ac7dc4bbd0/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/bac76062919486ccf6218ffc8290e3ac7dc4bbd0/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@bac7606](https://github.com/Benjamin-Lee/deep-rules/tree/bac76062919486ccf6218ffc8290e3ac7dc4bbd0)
-on December 1, 2020.
+from [Benjamin-Lee/deep-rules@5eff09c](https://github.com/Benjamin-Lee/deep-rules/tree/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a)
+on December 3, 2020.
 </em></small>
 
 ## Authors
@@ -629,7 +629,7 @@ This tip can be distilled into two main action points: first, base the network's
 
 ## Tip 6: Tune your hyperparameters extensively and systematically {#hyperparameters}
 
-Given at least one hidden layer, a non-linear activation function, and a large number of hidden units, multi-layer neural networks can approximate arbitrary continuous functions that relate input and output variables [@tag:hornik-approximation; @doi:10.1016/S0893-6080(05)80131-5]. 
+Given at least one hidden layer, a non-linear activation function, and a large number of hidden units, multi-layer neural networks can approximate arbitrary continuous functions that relate input and output variables [@doi:10.1016/0893-6080(91)90009-t; @doi:10.1016/S0893-6080(05)80131-5]. 
 Deeper architectures that feature additional hidden layers and an increasing number of overall hidden units and learnable weight parameters (the so-called increasing "capacity" of neural networks) allow for solving increasingly complex problems.
 However, this increased capacity results in many more parameters to fit and hyperparameters to tune, which can pose additional challenges during model training.
 In general, one should expect to systematically evaluate the impact of numerous hyperparameters when applying deep neural networks to new data or challenges.
@@ -686,7 +686,7 @@ Futhermore, be cognizant of the danger of skewed or biased data artificially inf
 ## Tip 8: Deep learning models can be made more transparent {#blackbox}
 
 While model interpretability is a broad concept, in much of the machine learning literature (including in our guidelines), it refers to the ability to identify the discriminative features that influence or sway the predictions.
-In certain cases, the goal behind interpretation is to understand the underlying data generating processes and biological mechanisms [@doi.org/10.3390/biom10030454].
+In certain cases, the goal behind interpretation is to understand the underlying data generating processes and biological mechanisms [@doi:org/10.3390/biom10030454].
 In other cases, the goal is to understand why a model made the prediction that it did for a specific example or set of examples.
 Machine learning models vary widely in terms of interpretability: some are fully transparent while others are considered "black-boxes" that make predictions with little ability to examine why.
 Logistic regression and decision tree models are generally considered interpretable [@doi:10.1007/978-1-4939-7756-7_16].
@@ -704,7 +704,7 @@ Instead of recommending specific methods for either deep learning-specific or ge
 While active research into model interpretability is enabling increased interpretation of models with many parameters and non-linear relationships, simpler traditional machine learning models often remain substantially easier to interpret.
 When deciding on a machine learning approach and model architecture, consider an interpretability versus accuracy tradeoff.
 A challenge in considering this tradeoff is that the extent to which one trades interpretability for accuracy depends on the problem itself.
-Recent research has also shown which interpretability method is best for which model also depends on the model's predictive performance for a given problem and dataset regarding the reliability of local and global explanations [@arXiv:2011.09903].
+Recent research has also shown that which interpretability method is best for which model also depends on the model's predictive performance for a given problem and dataset regarding the reliability of local and global explanations [@arXiv:2011.09903].
 As a rule of thumb, when the features provided to the model are already highly relevant to the task at hand, a simpler and more interpretable model that gives up only a little performance is often more useful.
 On the other hand, if features must be combined in complex ways to be meaningful for the task, the performance difference of a model capable of capturing that structure may outweigh the interpretability costs.
 An appropriate choice can only be made after careful consideration, which often includes estimating the performance of a simple linear model that serves as a [baseline](#baselines).
