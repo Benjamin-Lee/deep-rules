@@ -5,7 +5,7 @@ content/02.intro.md:21:toolset
 content/02.intro.md:26:subfield
 content/02.intro.md:26:subfield
 content/03.when-to-use-dl.md:4:approximators
-content/03.when-to-use-dl.md:4:hornik
+content/03.when-to-use-dl.md:4:dzwxkd
 content/03.when-to-use-dl.md:9:arxiv
 content/03.when-to-use-dl.md:11:arxiv
 content/03.when-to-use-dl.md:11:datasets
@@ -125,6 +125,7 @@ content/07.architecture-and-representation.md:30:pre
 content/07.architecture-and-representation.md:34:pre
 content/08.hyperparameters.md:1:hyperparameters
 content/08.hyperparameters.md:1:hyperparameters
+content/08.hyperparameters.md:3:dzwxkd
 content/08.hyperparameters.md:4:learnable
 content/08.hyperparameters.md:5:hyperparameters
 content/08.hyperparameters.md:6:hyperparameters
@@ -222,9 +223,8 @@ content/14.acknowledgements.md:4:TODO
 content/99.citation-tags.md:1:dl
 content/99.citation-tags.md:2:dl
 content/99.citation-tags.md:3:dl
-content/99.citation-tags.md:4:hornik
-content/99.citation-tags.md:5:dl
-content/99.citation-tags.md:5:krogh
+content/99.citation-tags.md:4:dl
+content/99.citation-tags.md:4:krogh
 content/cover_letter.md:20:hyperparameters
 content/cover_letter.md:21:dataset
 content/cover_letter.md:21:overfit

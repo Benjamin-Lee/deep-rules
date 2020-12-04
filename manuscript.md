@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-12-03'
+date-meta: '2020-12-04'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-12-03" />
+  <meta name="dc.date" content="2020-12-04" />
 
-  <meta name="citation_publication_date" content="2020-12-03" />
+  <meta name="citation_publication_date" content="2020-12-04" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/34d3da766d4eed51fc276ed8e74e584b2901730e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/34d3da766d4eed51fc276ed8e74e584b2901730e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/34d3da766d4eed51fc276ed8e74e584b2901730e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/34d3da766d4eed51fc276ed8e74e584b2901730e/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/34d3da766d4eed51fc276ed8e74e584b2901730e/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/34d3da766d4eed51fc276ed8e74e584b2901730e/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@5eff09c](https://github.com/Benjamin-Lee/deep-rules/tree/5eff09cd62d1d28613a5eb23e1ae609ee1732f4a)
-on December 3, 2020.
+from [Benjamin-Lee/deep-rules@34d3da7](https://github.com/Benjamin-Lee/deep-rules/tree/34d3da766d4eed51fc276ed8e74e584b2901730e)
+on December 4, 2020.
 </em></small>
 
 ## Authors
@@ -466,7 +466,7 @@ By making deep learning more accessible for use in biological research, we aim t
 ## Tip 1: Decide whether deep learning is appropriate for your problem {#appropriate}
 
 In recent years, the number of projects and publications implementing deep learning in biology has risen tremendously [@doi:10.1089/omi.2018.0097; @doi:10.1007/978-981-15-3383-9_54; @doi:10.3390/info11040193]. Given deep learning's usefulness across a range of scientific questions and data modalities, it may seem as though it is a panacea for nearly all modeling problems.
-Neural networks that underpin deep learning models are, in fact, universal function approximators and are therefore theoretically capable of learning the functions that relate almost any input and output variables [@doi:10.1007/BF02551274; @tag:hornik-approximation]. However, deep learning is not suited to every modeling situation.
+Neural networks that underpin deep learning models are, in fact, universal function approximators and are therefore theoretically capable of learning the functions that relate almost any input and output variables [@doi:10.1007/BF02551274; @doi:10/dzwxkd]. However, deep learning is not suited to every modeling situation.
 The primary limiting factors for deep learning's suitability for a given problem is primarily limited by the training demands of neural network models, which require significant amounts of data, computing power, and programming as well as modeling expertise.
 
 In the areas of biology where data collection is thoroughly automated, such as DNA sequencing, large amounts of high-quality data may be available.
@@ -629,7 +629,7 @@ This tip can be distilled into two main action points: first, base the network's
 
 ## Tip 6: Tune your hyperparameters extensively and systematically {#hyperparameters}
 
-Given at least one hidden layer, a non-linear activation function, and a large number of hidden units, multi-layer neural networks can approximate arbitrary continuous functions that relate input and output variables [@doi:10.1016/0893-6080(91)90009-t; @doi:10.1016/S0893-6080(05)80131-5]. 
+Given at least one hidden layer, a non-linear activation function, and a large number of hidden units, multi-layer neural networks can approximate arbitrary continuous functions that relate input and output variables [@doi:10/dzwxkd; @doi:10/bjjdg2]. 
 Deeper architectures that feature additional hidden layers and an increasing number of overall hidden units and learnable weight parameters (the so-called increasing "capacity" of neural networks) allow for solving increasingly complex problems.
 However, this increased capacity results in many more parameters to fit and hyperparameters to tune, which can pose additional challenges during model training.
 In general, one should expect to systematically evaluate the impact of numerous hyperparameters when applying deep neural networks to new data or challenges.
@@ -686,7 +686,7 @@ Futhermore, be cognizant of the danger of skewed or biased data artificially inf
 ## Tip 8: Deep learning models can be made more transparent {#blackbox}
 
 While model interpretability is a broad concept, in much of the machine learning literature (including in our guidelines), it refers to the ability to identify the discriminative features that influence or sway the predictions.
-In certain cases, the goal behind interpretation is to understand the underlying data generating processes and biological mechanisms [@doi:org/10.3390/biom10030454].
+In certain cases, the goal behind interpretation is to understand the underlying data generating processes and biological mechanisms [@doi:10.3390/biom10030454].
 In other cases, the goal is to understand why a model made the prediction that it did for a specific example or set of examples.
 Machine learning models vary widely in terms of interpretability: some are fully transparent while others are considered "black-boxes" that make predictions with little ability to examine why.
 Logistic regression and decision tree models are generally considered interpretable [@doi:10.1007/978-1-4939-7756-7_16].
@@ -771,7 +771,6 @@ We would also like to thank [**TODO**: insert the names of the contributors who 
 [@tag:srivastava-dropout]: http://dl.acm.org/citation.cfm?id=2670313
 [@tag:ioffe-batchnorm]: https://dl.acm.org/citation.cfm?id=3045118.3045167
 [@tag:garson-interpreting]: https://dl.acm.org/citation.cfm?id=129452
-[@tag:hornik-approximation]: doi:10.1016/0893-6080(91)90009-T
 [@tag:krogh-weight-decay]: http://dl.acm.org/citation.cfm?id=2986916.2987033
 [@tag:predicting-pneumonia-mortality]: doi:10.1016/S0933-3657(96)00367-3
 [@tag:Yosinski2014]: https://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-neural-networks
