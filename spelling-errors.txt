@@ -4,7 +4,6 @@ ajlee
 AlexanderTitus
 Alexandr
 alxndrkalinin
-Analytics
 Andel
 anthonygitter
 approximators
@@ -16,6 +15,7 @@ backends
 benchmarked
 betsig
 bioactivity
+Bioeconomy
 Bioinformatics
 biomarker
 biomarkers
@@ -132,5 +132,6 @@ ttriche
 Turi
 unencrypted
 wildtypeMC
+XYZ
 Yu
 Zenodo
