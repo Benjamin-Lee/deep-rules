@@ -23,7 +23,7 @@
   <meta name="author" content="Michael D. Kessler" />
   <meta name="author" content="Alexandra J. Lee" />
   <meta name="author" content="Beth Signal" />
-  <meta name="dcterms.date" content="2020-12-12" />
+  <meta name="dcterms.date" content="2020-12-19" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
   <style>
@@ -46,8 +46,8 @@
   <meta name="citation_title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="og:title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
-  <meta name="dc.date" content="2020-12-12" />
-  <meta name="citation_publication_date" content="2020-12-12" />
+  <meta name="dc.date" content="2020-12-19" />
+  <meta name="citation_publication_date" content="2020-12-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -128,13 +128,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/5b8d5ae51e49e84897ada28568cba6907e64feae/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5b8d5ae51e49e84897ada28568cba6907e64feae/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5b8d5ae51e49e84897ada28568cba6907e64feae/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5b8d5ae51e49e84897ada28568cba6907e64feae/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5b8d5ae51e49e84897ada28568cba6907e64feae/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/19ff76b9ed754767e303e653fbdd8cf898f247fa/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/19ff76b9ed754767e303e653fbdd8cf898f247fa/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -146,10 +146,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/5b8d5ae51e49e84897ada28568cba6907e64feae/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/5b8d5ae51e49e84897ada28568cba6907e64feae">Benjamin-Lee/deep-rules@5b8d5ae</a>
-on December 12, 2020.
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/19ff76b9ed754767e303e653fbdd8cf898f247fa">Benjamin-Lee/deep-rules@19ff76b</a>
+on December 19, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <p>Please note the current author order is chronological and does not reflect the final order.</p>
@@ -566,6 +566,12 @@ This also holds true for certain traditional machine learning methods that learn
 Privacy-preserving techniques <span class="citation" data-cites="1HuQe3Z8X">[<a href="#ref-1HuQe3Z8X" role="doc-biblioref">92</a>]</span>, such as differential privacy <span class="citation" data-cites="LiCxcgZp fbIH12yd eJgWbXRz">[<a href="#ref-LiCxcgZp" role="doc-biblioref">93</a>,<a href="#ref-fbIH12yd" role="doc-biblioref">94</a>,<a href="#ref-eJgWbXRz" role="doc-biblioref">95</a>]</span>, can help to mitigate risks as long as the assumptions underlying these techniques are met.
 These methods provide a path towards a future where trained models and their predictions can be shared, but more software development and theoretical advances will be required to make these techniques easy to apply correctly in many settings.
 Unless you use these techniques, don’t share the weights or arbitrary access to the predictions of models trained on sensitive data.</p>
+<h2 id="ethics">Ethics</h2>
+<p>While deep learning is a very powerful tool, it is important that we consider the ethical risks if used inappropriately.
+For example, despite DL methods helping to increase medical efficiency through improved diagnostics and risk assessment, there can be patient biases due to differences in age, race, gender <span class="citation" data-cites="doi.org/10.1002/hast.977">[<span class="citeproc-not-found" data-reference-id="doi.org/10.1002/hast.977"><strong>???</strong></span>]</span>; unequal representation of different populations <span class="citation" data-cites="doi.org/10.1377/hlthaff.2014.0048">[<span class="citeproc-not-found" data-reference-id="doi.org/10.1377/hlthaff.2014.0048"><strong>???</strong></span>]</span>.
+Beyond, healthcare, deep learning can reinforce societal prejudices of race <span class="citation" data-cites="ZYNExrA1 FgToMkdm">[<a href="#ref-ZYNExrA1" role="doc-biblioref">96</a>,<a href="#ref-FgToMkdm" role="doc-biblioref">97</a>]</span>.</p>
+<p>It is important to think about how these methods and their potential impact.</p>
+<p>Ensure that where necessary your proposed project is compliant with the research ethics approval policies of your institution (e.g., institutional review boards).</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>Deep learning techniques have the potential for wide use in biology and the capacity to meet or exceed the performance of both humans and the current state-of-the-art algorithms across a wide range of biological sub-disciplines and tasks.
 Beyond simply achieving good predictive performance, deep learning has the potential to inform novel biological insights to fundamentally drive high-impact research.
@@ -703,7 +709,7 @@ DOI: <a href="https://doi.org/10.1007/978-3-319-31204-0_9">10.1007/978-3-319-312
 <div id="ref-ndSzNxZQ">
 <p>23. <strong>apple/turicreate</strong> <br />
 Apple<br />
-(2020-12-12) <a href="https://github.com/apple/turicreate">https://github.com/apple/turicreate</a></p>
+(2020-12-19) <a href="https://github.com/apple/turicreate">https://github.com/apple/turicreate</a></p>
 </div>
 <div id="ref-ra8TSEHY">
 <p>24. <strong>Auto-Keras: An Efficient Neural Architecture Search System</strong> <br />
@@ -1112,6 +1118,16 @@ DOI: <a href="https://doi.org/10.1101/159756">10.1101/159756</a></p>
 <p>95. <strong>Privacy-Preserving Distributed Deep Learning for Clinical Data</strong> <br />
 Brett K. Beaulieu-Jones, William Yuan, Samuel G. Finlayson, Zhiwei Steven Wu<br />
 <em>arXiv</em> (2018-12-05) <a href="https://arxiv.org/abs/1812.01484">https://arxiv.org/abs/1812.01484</a></p>
+</div>
+<div id="ref-ZYNExrA1">
+<p>96. <strong>When Discrimination Is Baked Into Algorithms</strong> <br />
+Lauren Kirchner<br />
+<em>The Atlantic</em> (2015-09-06) <a href="https://www.theatlantic.com/business/archive/2015/09/discrimination-algorithms-disparate-impact/403969/">https://www.theatlantic.com/business/archive/2015/09/discrimination-algorithms-disparate-impact/403969/</a></p>
+</div>
+<div id="ref-FgToMkdm">
+<p>97. <strong>Opinion | Artificial Intelligence’s White Guy Problem (Published 2016)</strong> <br />
+Kate Crawford<br />
+<em>The New York Times</em> (2016-06-25) <a href="https://www.nytimes.com/2016/06/26/opinion/sunday/artificial-intelligences-white-guy-problem.html">https://www.nytimes.com/2016/06/26/opinion/sunday/artificial-intelligences-white-guy-problem.html</a></p>
 </div>
 </div>
 <!-- default theme -->

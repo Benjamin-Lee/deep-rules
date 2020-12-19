@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-12-12'
+date-meta: '2020-12-19'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-12-12" />
+  <meta name="dc.date" content="2020-12-19" />
 
-  <meta name="citation_publication_date" content="2020-12-12" />
+  <meta name="citation_publication_date" content="2020-12-19" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/5b8d5ae51e49e84897ada28568cba6907e64feae/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5b8d5ae51e49e84897ada28568cba6907e64feae/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/5b8d5ae51e49e84897ada28568cba6907e64feae/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5b8d5ae51e49e84897ada28568cba6907e64feae/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/19ff76b9ed754767e303e653fbdd8cf898f247fa/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/5b8d5ae51e49e84897ada28568cba6907e64feae/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/19ff76b9ed754767e303e653fbdd8cf898f247fa/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/5b8d5ae51e49e84897ada28568cba6907e64feae/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@5b8d5ae](https://github.com/Benjamin-Lee/deep-rules/tree/5b8d5ae51e49e84897ada28568cba6907e64feae)
-on December 12, 2020.
+from [Benjamin-Lee/deep-rules@19ff76b](https://github.com/Benjamin-Lee/deep-rules/tree/19ff76b9ed754767e303e653fbdd8cf898f247fa)
+on December 19, 2020.
 </em></small>
 
 ## Authors
@@ -747,6 +747,17 @@ Techniques to train deep neural networks without sharing unencrypted access to d
 Privacy-preserving techniques [@arxiv:1811.04017], such as differential privacy [@doi:10.1145/2976749.2978318; @doi:10.1101/159756; @arxiv:1812.01484], can help to mitigate risks as long as the assumptions underlying these techniques are met.
 These methods provide a path towards a future where trained models and their predictions can be shared, but more software development and theoretical advances will be required to make these techniques easy to apply correctly in many settings.
 Unless you use these techniques, don't share the weights or arbitrary access to the predictions of models trained on sensitive data.
+
+
+## Ethics {#ethics}
+
+While deep learning is a very powerful tool, it is important that we consider the ethical risks if used inappropriately. 
+For example, despite DL methods helping to increase medical efficiency through improved diagnostics and risk assessment, there can be patient biases due to differences in age, race, gender [@doi.org/10.1002/hast.977]; unequal representation of different populations [@doi.org/10.1377/hlthaff.2014.0048].
+Beyond, healthcare, deep learning can reinforce societal prejudices of race [@https://www.theatlantic.com/business/archive/2015/09/discrimination-algorithms-disparate-impact/403969/; @https://www.nytimes.com/2016/06/26/opinion/sunday/artificial-intelligences-white-guy-problem.html ].
+
+It is important to think about how these methods and their potential impact.
+
+Ensure that where necessary your proposed project is compliant with the research ethics approval policies of your institution (e.g., institutional review boards).
 
 
 ## Conclusion {#conclusion}
