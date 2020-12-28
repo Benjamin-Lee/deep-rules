@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-12-19'
+date-meta: '2020-12-28'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-12-19" />
+  <meta name="dc.date" content="2020-12-28" />
 
-  <meta name="citation_publication_date" content="2020-12-19" />
+  <meta name="citation_publication_date" content="2020-12-28" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/611dcfa7140e075a1cb2fb39e543edc1228de613/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/611dcfa7140e075a1cb2fb39e543edc1228de613/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/611dcfa7140e075a1cb2fb39e543edc1228de613/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/19ff76b9ed754767e303e653fbdd8cf898f247fa/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/611dcfa7140e075a1cb2fb39e543edc1228de613/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/19ff76b9ed754767e303e653fbdd8cf898f247fa/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/611dcfa7140e075a1cb2fb39e543edc1228de613/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/19ff76b9ed754767e303e653fbdd8cf898f247fa/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/611dcfa7140e075a1cb2fb39e543edc1228de613/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@19ff76b](https://github.com/Benjamin-Lee/deep-rules/tree/19ff76b9ed754767e303e653fbdd8cf898f247fa)
-on December 19, 2020.
+from [Benjamin-Lee/deep-rules@611dcfa](https://github.com/Benjamin-Lee/deep-rules/tree/611dcfa7140e075a1cb2fb39e543edc1228de613)
+on December 28, 2020.
 </em></small>
 
 ## Authors
@@ -431,6 +431,7 @@ Please note the current author order is chronological and does not reflect the f
 
 
 
+
 ## Introduction {#intro}
 
 Machine learning is a modern approach to problem-solving and task automation. In particular, machine learning is concerned with the development and applications of algorithms that learn how to recognize patterns in data and utilize these for predictive modeling, as opposed to having domain experts developing rules for prediction tasks manually.
@@ -452,7 +453,9 @@ biological questions further limits newcomers from using state-of-the-art deep l
 
 To make deep learning more accessible to biological researchers, we solicited input from a community of researchers with varied biological and deep learning interests.
 These individuals collaboratively contributed to this manuscript's writing using the GitHub version control platform [@url:https://github.com/Benjamin-Lee/deep-rules] and the Manubot manuscript generation toolset [@url:https://greenelab.github.io/meta-review/].
-The goal was to articulate a practical, accessible, and concise set of guidelines and suggestions for biologically oriented researchers to follow when using deep learning.
+The goal was to articulate a practical, accessible, and concise set of guidelines and suggestions for biologically oriented researchers to follow when using deep learning (Figure @fig:overview-fig).
+
+![A summary overview of the 10 tips for using deep-learning in biological research.](images/tips_overview.png){#fig:overview-fig}
 
 In the course of our discussions, several themes became clear: the importance of understanding and applying machine learning fundamentals [@doi:10.1186/s13040-017-0155-3] as a baseline for utilizing deep learning, the necessity for extensive model comparisons with careful evaluation, and the need for critical thought in interpreting results generated by deep learning, among others.
 The major similarities between deep learning and traditional computational methods also became apparent.
@@ -499,7 +502,7 @@ In general, these include problems that feature hidden patterns across the data,
 Problems in computer vision and natural language processing often exhibit these very features, which helps explain why these areas were some of the first to experience significant breakthroughs during the recent deep learning revolution [@doi:10.1145/3065386]. 
 As long as large amounts of accurate and labeled data are available, applications to areas of biology with related data characteristics, such as genetic medicine [@doi:10.3389/fpsyt.2018.00290], radiology [@doi:10.1007/s11604-018-0726-3], microscopy [@doi:10.1364/OPTICA.4.001437], and pharmacovigilance [@doi:10.1093/jamia/ocw180], are similarly likely to benefit from deep learning techniques.
 For example, Ferreira et al. used deep learning to recognize individual birds from images [@doi:10.1111/2041-210X.13436] despite this problem being very difficult historically.
-By combining automatic data collection using RFID tags with data augmentation and transfer learning (explained in [Tip 5](#architecture)), the authors were able to use deep learning to achieve 90% accuracy across several species.
+By combining automatic data collection using RFID tags with data augmentation and transfer learning, the authors were able to use deep learning to achieve 90% accuracy across several species.
 Another research area where deep learning excels is generative modeling, where new samples are created based on the training data [@doi:10.1109/ISACV.2018.8354080].
 One other area of machine learning that has been revolutionized by deep learning is reinforcement learning, which is concerned with training agents to interact with an environment [@arXiv:1709.06560].
 Overall, initial evaluation as to whether similar problems (including analogous ones in other domains) have been solved successfully using deep learning can inform researchers about the potential for deep learning to address their needs.
@@ -545,11 +548,11 @@ One specific reproducibility pitfall that is often missed in applying deep learn
 That is, the CUDA/CuDNN architectures that facilitate the parallelized computing that power state-of-the-art DL often use algorithms by default that produce different outcomes from iteration to iteration.
 Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within deep learning libraries), which is distinct from the setting of random seeds that typically achieve reproducibility by controlling pseudorandom deterministic procedures such as shuffling and initialization [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
 
-Similar to the suggestions in [Tip 2](#baselines) about starting with simpler models, try to start with a relatively small network and then increase the size and complexity as needed.
+Similar to the suggestions above about starting with simpler models, try to start with a relatively small network and then increase the size and complexity as needed.
 This can help prevent practitioners from wasting significant time and resources on running highly complex models that feature numerous unresolved problems. 
 Again, beware of the choices made implicitly (that is, by default settings) by deep learning libraries (for example, selection of optimization algorithm), as these seemingly trivial specifics can have significant effects on model performance.
 For example, adaptive methods often lead to faster convergence during training but may lead to worse generalization performance on independent datasets [@url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning]).
-These nuanced elements are easy to overlook, but it is critical to consider them carefully and to evaluate their potential impact (see [Tip 6](#hyperparameters)).
+These nuanced elements are easy to overlook, but it is critical to consider them carefully and to evaluate their potential impact.
 
 In short, use smaller and simpler networks to enable faster prototyping and follow general software development best practices to maximize reproducibility.
 
@@ -586,7 +589,7 @@ For example, the existence in a dataset of samples collected from the same indiv
 Another potential issue is the existence of systematic biases, which can be induced by confounding variables and can lead to artifacts or so-called "batch effects."
 Consequently, models may learn to rely on the correlations that these systematic biases underpin, even though they are irrelevant to the scientific context of the study.
 This can lead to misguided predictions and misleading conclusions [@doi:10.1038/nrg2825].
-As described in [Tip 1](#concepts), unsupervised learning and other exploratory analyses can help identify such biases in these datasets before applying a deep learning model.
+Unsupervised learning and other exploratory analyses can help identify such biases in these datasets before applying a deep learning model.
 
 Overall, practitioners should thoroughly study their data and understand its context and peculiarities _before_ moving on to performing deep learning.
 
@@ -599,7 +602,7 @@ This is further complicated by the fact that many recommendations do not general
 Therefore, unfortunately, choosing how to represent data and design an architecture is closer to an art than a science.
 That said, there are some general principles that are useful to follow when experimenting.
 
-First and foremost, use your knowledge of the available data and your question (see [Tip 4](#know-your-problem)) to inform your data representation and architectural design choices.
+First and foremost, use your knowledge of the available data and your question to inform your data representation and architectural design choices.
 For example, if the dataset is an array of measurements with no natural ordering of inputs (such as gene expression data), multilayer perceptrons (MLPs) may be effective.
 These are the most basic type of neural network, and they are able to learn complex non-linear relationships across the input data despite their relative simplicity.
 Similarly, if the dataset is comprised of images, convolutional neural networks (CNNs) are a good choice because they emphasize local structures and adjacency within the data.
@@ -607,7 +610,7 @@ CNNs may also be a good choice for learning on sequences, as recent empirical ev
 Accessible high-level overviews of these different neural network architectures are provided in [@doi:10.1016/j.ymeth.2020.06.016] and [@doi:10.1038/nature14539].
 
 Deep learning models typically benefit from increasing the amount of labeled data with which to train on.
-Large amounts of data help to avoid overfitting (see [Tip 7](#overfitting)), and increase the likelihood of achieving top performance on a given task.
+Large amounts of data help to avoid overfitting, and increase the likelihood of achieving top performance on a given task.
 If there is not enough data available to train a well-performing model, consider using transfer learning.
 In transfer learning, a model whose weights were generated by training on another dataset is used as the starting point for training [@tag:Yosinski2014].
 Transfer learning is most useful when the pre-training and target datasets are of similar nature [@tag:Yosinski2014].
@@ -638,7 +641,7 @@ Moreover, additional hyperparameters are introduced by common techniques that fa
 These include parameter norm penalties (typically in the form of $L^2$ regularization), dropout [@tag:srivastava-dropout], and batch normalization [@tag:ioffe-batchnorm], which can reduce the effect of the so-called vanishing or exploding gradient problem when working with deep neural networks.
 
 This wide array of potential parameters can make it difficult to evaluate the extent to which neural network methods are well suited to solving a task, as it can be unclear to practitioners whether previous successful applications were the result of interactions between unique data attributes and specific hyperparameter settings.
-Similar to the Continental Breakfast Included effect discussed in [Tip 2](#baselines), a lack of clarity on how extensive arrays of hyperparameters were tested and/or chosen can affect method developers as they attempt to compare techniques.
+Similar to the Continental Breakfast Included effect discussed above, a lack of clarity on how extensive arrays of hyperparameters were tested and/or chosen can affect method developers as they attempt to compare techniques.
 This effect also has implications for those seeking to use existing deep learning methods, as performance estimates from deep neural networks are often provided after tuning.
 The implication of this effect on users of deep neural networks is that attaining performance numbers that match those reported in publications is likely to require significant effort towards temporally expensive hyperparameter optimization.
 
@@ -728,7 +731,7 @@ Nonetheless, the data supported this rule, as pneumonia patients with a history 
 The neural network had, therefore, also learned to make predictions according to this rule despite the fact that it has nothing to do with causality or mechanism.
 Therefore, it would have been disastrous to guide treatment decisions according to the predictions of the neural network, even though the neural network had high predictive accuracy.
 
-To trust deep learning models, we must combine knowledge of the training data ([Tip 4](#know-your-problem)) with inspection of the model ([Tip 8](#blackbox)).
+To trust deep learning models, we must combine knowledge of the training data with inspection of the model.
 To move beyond fitting predictive models and towards the building of an understanding that can inform scientific deduction, we suggest working to disentangle a model's internal logic by comparing data domains where models succeed to those in which they fail.
 By doing so, we can avoid overinterpreting models and view them for what they are: complex statistical models trained on high dimensional data.
 

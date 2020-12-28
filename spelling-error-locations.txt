@@ -1,9 +1,9 @@
-content/02.intro.md:8:differentiable
-content/02.intro.md:11:subfield
-content/02.intro.md:12:phenotypes
-content/02.intro.md:21:toolset
-content/02.intro.md:26:subfield
-content/02.intro.md:26:subfield
+content/02.intro.md:9:differentiable
+content/02.intro.md:12:subfield
+content/02.intro.md:13:phenotypes
+content/02.intro.md:22:toolset
+content/02.intro.md:29:subfield
+content/02.intro.md:29:subfield
 content/03.when-to-use-dl.md:4:approximators
 content/03.when-to-use-dl.md:4:dzwxkd
 content/03.when-to-use-dl.md:9:arxiv
@@ -69,7 +69,6 @@ content/05.dl-complexities.md:12:reproducibility
 content/05.dl-complexities.md:12:reproducibility
 content/05.dl-complexities.md:12:reproducibility
 content/05.dl-complexities.md:17:datasets
-content/05.dl-complexities.md:18:hyperparameters
 content/05.dl-complexities.md:20:reproducibility
 content/06.know-your-problem.md:5:dataset
 content/06.know-your-problem.md:8:dataset
@@ -104,7 +103,6 @@ content/07.architecture-and-representation.md:13:arxiv
 content/07.architecture-and-representation.md:13:CNNs
 content/07.architecture-and-representation.md:13:LSTM
 content/07.architecture-and-representation.md:13:RNNs
-content/07.architecture-and-representation.md:17:overfitting
 content/07.architecture-and-representation.md:17:overfitting
 content/07.architecture-and-representation.md:19:dataset
 content/07.architecture-and-representation.md:20:datasets
