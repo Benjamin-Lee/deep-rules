@@ -53,3 +53,4 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Alexandra J. Lee     | Yes        | Yes                       | Yes      |                | Yes         |
 | Joe Greener          | Yes        |                           |          |                |             |
 | Elana Fertig         | Yes        | Yes                       | Yes      |                | Yes         |
+| Juan Jose Carmona    | Yes        | Yes                       | Yes      |                | Yes         |
