@@ -21,7 +21,7 @@ author-meta:
 - Beth Signal
 bibliography:
 - content/manual-references.json
-date-meta: '2020-12-28'
+date-meta: '2021-01-06'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +40,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2020-12-28" />
+  <meta name="dc.date" content="2021-01-06" />
 
-  <meta name="citation_publication_date" content="2020-12-28" />
+  <meta name="citation_publication_date" content="2021-01-06" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -204,19 +204,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/ee8222b463f9aaccf35ae32c6221db82c5b3d20a/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/7d6a4925464eca24d83c513651da66b2ff4830fd/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ee8222b463f9aaccf35ae32c6221db82c5b3d20a/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/7d6a4925464eca24d83c513651da66b2ff4830fd/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ee8222b463f9aaccf35ae32c6221db82c5b3d20a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/7d6a4925464eca24d83c513651da66b2ff4830fd/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ee8222b463f9aaccf35ae32c6221db82c5b3d20a/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/7d6a4925464eca24d83c513651da66b2ff4830fd/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ee8222b463f9aaccf35ae32c6221db82c5b3d20a/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/7d6a4925464eca24d83c513651da66b2ff4830fd/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +245,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ee8222b463f9aaccf35ae32c6221db82c5b3d20a/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/7d6a4925464eca24d83c513651da66b2ff4830fd/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@ee8222b](https://github.com/Benjamin-Lee/deep-rules/tree/ee8222b463f9aaccf35ae32c6221db82c5b3d20a)
-on December 28, 2020.
+from [Benjamin-Lee/deep-rules@7d6a492](https://github.com/Benjamin-Lee/deep-rules/tree/7d6a4925464eca24d83c513651da66b2ff4830fd)
+on January 6, 2021.
 </em></small>
 
 ## Authors
@@ -500,7 +500,7 @@ In the future, projects such as these are likely to make deep learning increasin
 Despite these limitations, deep learning is strongly indicated over traditional machine learning for specific research questions and problems.
 In general, these include problems that feature hidden patterns across the data, complex relationships, and interrelated variables.
 Problems in computer vision and natural language processing often exhibit these very features, which helps explain why these areas were some of the first to experience significant breakthroughs during the recent deep learning revolution [@doi:10.1145/3065386]. 
-As long as large amounts of accurate and labeled data are available, applications to areas of biology with related data characteristics, such as genetic medicine [@doi:10.3389/fpsyt.2018.00290], radiology [@doi:10.1007/s11604-018-0726-3], microscopy [@doi:10.1364/OPTICA.4.001437], and pharmacovigilance [@doi:10.1093/jamia/ocw180], are similarly likely to benefit from deep learning techniques.
+As long as large amounts of accurate and labeled data are available, applications to areas of life sciences with related data characteristics, such as genetic medicine [@doi:10.3389/fpsyt.2018.00290], radiology [@doi:10.1007/s11604-018-0726-3], microscopy [@doi:10.1364/OPTICA.4.001437], and pharmacovigilance [@doi:10.1093/jamia/ocw180], are similarly likely to benefit from deep learning techniques.
 For example, Ferreira et al. used deep learning to recognize individual birds from images [@doi:10.1111/2041-210X.13436] despite this problem being very difficult historically.
 By combining automatic data collection using RFID tags with data augmentation and transfer learning, the authors were able to use deep learning to achieve 90% accuracy across several species.
 Another research area where deep learning excels is generative modeling, where new samples are created based on the training data [@doi:10.1109/ISACV.2018.8354080].
