@@ -38,11 +38,10 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-datasets
+Datasets
 dataset’s
 differentiable
 discriminative
-DL
 dzwxkd
 ejfertig
 Elana
@@ -133,7 +132,7 @@ toolset
 TPOT
 tradeoff
 transformative
-translational
+Translational
 Triche
 Tschira
 ttriche

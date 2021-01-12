@@ -215,19 +215,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2d410feb6190385e02243ebfa91bab5bd3f48770/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2d410feb6190385e02243ebfa91bab5bd3f48770/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2d410feb6190385e02243ebfa91bab5bd3f48770/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2d410feb6190385e02243ebfa91bab5bd3f48770/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2d410feb6190385e02243ebfa91bab5bd3f48770/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -256,9 +256,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2d410feb6190385e02243ebfa91bab5bd3f48770/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@2d410fe](https://github.com/Benjamin-Lee/deep-rules/tree/2d410feb6190385e02243ebfa91bab5bd3f48770)
+from [Benjamin-Lee/deep-rules@d6ab52c](https://github.com/Benjamin-Lee/deep-rules/tree/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3)
 on January 12, 2021.
 </em></small>
 
@@ -567,11 +567,11 @@ On the whole, all code, random seeds, parameters, and results must be carefully 
 For application-based research, this organization is also fundamental to the efficient sharing of research work and the ability to keep models up to date as new data becomes available.
 
 One specific reproducibility pitfall that is often missed in applying deep learning is the default use of non-deterministic algorithms by CUDA/CuDNN backends when using GPUs.
-That is, the CUDA/CuDNN architectures that facilitate the parallelized computing that power state-of-the-art DL often use algorithms by default that produce different outcomes from iteration to iteration.
+That is, the CUDA/CuDNN architectures that facilitate the parallelized computing that power state-of-the-art deep learning often use algorithms by default that produce different outcomes from iteration to iteration.
 Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within deep learning libraries), which is distinct from the setting of random seeds that typically achieve reproducibility by controlling pseudorandom deterministic procedures such as shuffling and initialization [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
 
 Similar to the suggestions above about starting with simpler models, try to start with a relatively small network and then increase the size and complexity as needed.
-This can help prevent practitioners from wasting significant time and resources on running highly complex models that feature numerous unresolved problems. 
+This can help prevent practitioners from wasting significant time and resources on running highly complex models that feature numerous unresolved problems.
 Again, beware of the choices made implicitly (that is, by default settings) by deep learning libraries (for example, selection of optimization algorithm), as these seemingly trivial specifics can have significant effects on model performance.
 For example, adaptive methods often lead to faster convergence during training but may lead to worse generalization performance on independent datasets [@url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning]).
 These nuanced elements are easy to overlook, but it is critical to consider them carefully and to evaluate their potential impact.
@@ -588,11 +588,11 @@ If so, obtaining this data (and associated metadata), and reviewing the study pr
 This can help to ensure that data is as expected and can prevent the wasted time and effort that occur when issues are discovered later on in the analytic process.
 For example, a publication or resource might purportedly offer an appropriate dataset that is found to be inadequate upon acquisition.
 The data may be unstructured when it is supposed to be structured, crucial metadata such as sample stratification might be missing, or the usable sample size may be different than expected.
-Any of these data issues might limit a researcher's ability to use DL to address the biological question at hand or might otherwise require adjustment before DL can be used.
+Any of these data issues might limit a researcher's ability to use deep learning to address the biological question at hand or might otherwise require adjustment before it can be used.
 Data collection should also be carefully documented, or a data collection protocol should be created and specified in the project documentation.
 
 Information about the resources used, download dates, and dataset versions are critical to preserve.
-Doing so will help to minimize operational confusion and will increase the reproducibility of the analysis. 
+Doing so will help to minimize operational confusion and will increase the reproducibility of the analysis.
 Best practices for reproducibility also include sharing the collected dataset and metadata along upon publication of the study, ideally in a public dataset repository if there are no ethical or privacy concerns and no copyright restrictions.
 While recommended and recognized dataset repositories may differ across disciplines, a list of general dataset repositories includes the Dryad repository [@doi:10.1038/npre.2010.4595.1] (https://datadryad.org/), Figshare [@doi:10.4103/0976-500X.81919] (https://figshare.com), Zenodo [@doi:10.3897/biss.3.37080] (https://zenodo.org), and the Open Science Framework [@doi:10.5195/jmla.2017.88] (https://osf.io).
 In addition, Gundersen et al. [@doi:10.1609/aimag.v39i3.2816] provide useful checklists summarizing best data sharing practices for reproducible research and open science.
@@ -700,7 +700,7 @@ Therefore, model performance should be evaluated with a carefully picked panel o
 When working with biological and medical data, one must also carefully consider potential sources of bias and/or non-independence when defining training and test sets.
 For example, a deep learning model for pneumonia detection in chest X-rays appeared to performed well within the hospitals providing the training data, but then failed to generalize to other hospitals [@doi:10.1371/journal.pmed.1002683].
 This resulted from the deep learning model picking up on signal related to which hospital the images were from, and represents a type of artifact or "batch effect" that practitioners must be vigilant towards.
-When dealing with sequence data, holding out test data that are evolutionarily related or that share structural homology to the training data can result in overfitting that is hard to detect due to the inherent relatedness of the partitioned data (cite?).
+When dealing with sequence data, holding out test data that are evolutionarily related or that share structural homology to the training data can result in overfitting that is hard to detect due to the inherent relatedness of the partitioned data [@doi:10.1093/bib/bbv082].
 In such situations, simply holding out test data selected from a random partition of the training data can be insufficient.
 Again, the best remedy for identifying confounding variables is to [know your data](#know-your-problem) and to test models on truly independent data.
 
