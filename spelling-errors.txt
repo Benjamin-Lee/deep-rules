@@ -38,7 +38,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-Datasets
+datasets
 dataset’s
 differentiable
 discriminative
