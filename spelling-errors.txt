@@ -26,6 +26,7 @@ bjjdg
 blengerich
 Boca
 Britto
+Carmona
 cgreene
 Chevrette
 chevrm
@@ -45,6 +46,7 @@ DL
 dzwxkd
 ejfertig
 Elana
+enrichen
 Epigenetics
 evancofer
 evolutionarily
@@ -72,6 +74,9 @@ ImageNet
 interpretability
 interpretable
 iPhones
+IRB
+jcveritas
+juancarmona
 Kalinin
 Keiser
 Keras
@@ -95,6 +100,7 @@ occuring
 overfit
 overfitting
 overinterpret
+overinterpretation
 overinterpreting
 parallelized
 perceptrons
@@ -117,6 +123,7 @@ Sigler
 Simina
 SiminaB
 specificities
+subdisciplines
 subfield
 tbrittoborges
 Tensorflow
@@ -125,7 +132,8 @@ TODO
 toolset
 TPOT
 tradeoff
-Translational
+transformative
+translational
 Triche
 Tschira
 ttriche

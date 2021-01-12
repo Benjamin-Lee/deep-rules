@@ -19,9 +19,10 @@ author-meta:
 - Michael D. Kessler
 - Alexandra J. Lee
 - Beth Signal
+- Juan Jose Carmona
 bibliography:
 - content/manual-references.json
-date-meta: '2021-01-06'
+date-meta: '2021-01-12'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -40,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-01-06" />
+  <meta name="dc.date" content="2021-01-12" />
 
-  <meta name="citation_publication_date" content="2021-01-06" />
+  <meta name="citation_publication_date" content="2021-01-12" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -192,6 +193,16 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="None" />
 
+  <meta name="citation_author" content="Juan Jose Carmona" />
+
+  <meta name="citation_author_institution" content="Philips Healthcare" />
+
+  <meta name="citation_author_institution" content="Philips Research North America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-3029-4658" />
+
+  <meta name="twitter:creator" content="@jcveritas" />
+
   <link rel="canonical" href="https://Benjamin-Lee.github.io/deep-rules/" />
 
   <meta property="og:url" content="https://Benjamin-Lee.github.io/deep-rules/" />
@@ -204,19 +215,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/7d6a4925464eca24d83c513651da66b2ff4830fd/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/951f49b9f75bc10322014704bb468f25d7c3475c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/7d6a4925464eca24d83c513651da66b2ff4830fd/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/951f49b9f75bc10322014704bb468f25d7c3475c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/7d6a4925464eca24d83c513651da66b2ff4830fd/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/951f49b9f75bc10322014704bb468f25d7c3475c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/7d6a4925464eca24d83c513651da66b2ff4830fd/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/951f49b9f75bc10322014704bb468f25d7c3475c/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/7d6a4925464eca24d83c513651da66b2ff4830fd/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/951f49b9f75bc10322014704bb468f25d7c3475c/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -245,10 +256,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/7d6a4925464eca24d83c513651da66b2ff4830fd/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/951f49b9f75bc10322014704bb468f25d7c3475c/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@7d6a492](https://github.com/Benjamin-Lee/deep-rules/tree/7d6a4925464eca24d83c513651da66b2ff4830fd)
-on January 6, 2021.
+from [Benjamin-Lee/deep-rules@951f49b](https://github.com/Benjamin-Lee/deep-rules/tree/951f49b9f75bc10322014704bb468f25d7c3475c)
+on January 12, 2021.
 </em></small>
 
 ## Authors
@@ -427,6 +438,17 @@ Please note the current author order is chronological and does not reflect the f
     [betsig](https://github.com/betsig)<br>
   <small>
      Climate Change Cluster, University of Technology Sydney
+  </small>
+
++ **Juan Jose Carmona**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3029-4658](https://orcid.org/0000-0002-3029-4658)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [juancarmona](https://github.com/juancarmona)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [jcveritas](https://twitter.com/jcveritas)<br>
+  <small>
+     Philips Healthcare; Philips Research North America
   </small>
 
 
@@ -736,15 +758,31 @@ To move beyond fitting predictive models and towards the building of an understa
 By doing so, we can avoid overinterpreting models and view them for what they are: complex statistical models trained on high dimensional data.
 
 
-## Tip 10: Don't share models trained on sensitive data {#privacy}
+## Tip 10: Actively consider the ethical implications of your work {#privacy}
 
-Practitioners may encounter datasets that cannot be shared, such as ones for which there would be significant ethical or legal issues associated with their release [@doi:10.1371/journal.pcbi.1005399].
+While deep learning continues to be a powerful, transformative tool within life sciences research—spanning basic biology and pre-clinical science to varied translational approaches and clinical studies—it is important to comment on some ethics—related considerations.
+For instance, despite the fact that deep learning methods are helping to increase medical efficiency through improved diagnostic capability and risk assessment, certain biases may be inadvertently introduced into models related to patient age, race, and gender [@doi:10.1002/hast.977]; as previously mentioned, deep learning practitioners may make use of datasets not representative of diverse populations and patient characteristics [@doi:10.1377/hlthaff.2014.0048], thereby contributing to these problems (please refer to Tip 4).
+
+Therefore, it is important to think thoroughly and cautiously about deep learning applications and its potential impact to persons and society—mindful of possible harms, injuries, injustices, and other types of wrongdoings.
+At a minimum, practitioners must ensure that, wherever relevant, their life sciences projects are fully compliant with local research governance/approval policies, legal requirements, institutional review board (IRB) policies, and any other relevant bodies and their standards.
+Moreover, we offer below three tangible, action-oriented recommendations to further empower and enrichen deep learning researchers.
+
+First, similarly to how certain teams keep a project-specific or programming-related issue tracker detailing known bugs and other technical issues, practitioners should get into the habit of keeping an active _ethics register_.
+Teams can institute what Rachel Thomas of the Center for Applied Data Ethics at the University of San Francisco terms “ethical risk sweeps.”
+Teams focus on “periodically scheduling times to really go through what could go wrong and what are the ethical risks.”
+After all, “ethics is thinking through what can go wrong before it does and having processes in place around what happens when there are mistakes or errors” [@https://venturebeat.com/2019/10/07/how-to-operationalize-ai-ethics/].
+Second, to help foster a conscious ethics-oriented mindset, researchers should consider expanding journal clubs to include scholarly and popular articles detailing real-world ethics issues relevant to in their scientific fields.
+This will help researchers to think more holistically and judiciously (that is, with good judgment and sense) about their work and its implications.
+Third, we encourage individual- and team-level participation in professional societies and other types of organizations and initiatives related to AI/deep learning and data ethics [@https://ocean.sagepub.com/blog/10-organizations-leading-the-way-in-ethical-ai; @https://www.aies-conference.com/2021/; @http://ethics-artificial-intelligence-conference.mozello.com].
+This will encourage a sense of community and intellectual engagement, keeping practitioners abreast of cutting-edge insights and emerging professional standards.
+
+Furthermore, practitioners may encounter datasets that cannot be shared, such as ones for which there would be significant ethical or legal issues associated with their release [@doi:10.1371/journal.pcbi.1005399].
 Examples of such data include classified or confidential data, biological data related to trade secrets, medical records, or other personally identifiable information [@doi:10.1038/s41576-020-0257-5].
 While deep learning models can capture information-rich abstractions of multiple features of the data during the training process (which represents one of its great strengths), these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs [@doi:10.1145/2810103.2813677; @arxiv:1610.05820].
 In other words, the complex relationships learned about the input data can potentially be used to infer characteristics about the original dataset.
 This means that the strengths that imbue deep learnings with its great predictive capacity also raise the level of risk surrounding data privacy.
 Therefore, while there is tremendous promise for deep learning techniques to extract information that cannot readily be captured by traditional methods [@arxiv:1509.09292], it is imperative not to share models trained on sensitive data.
-This also holds true for certain traditional machine learning methods that learn by capturing specific details of the full training data (for example, _k_-nearest neighbors models). 
+This also holds true for certain traditional machine learning methods that learn by capturing specific details of the full training data (for example, _k_-nearest neighbors models).
 
 Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption, which serves to enable equivalent prediction on data that is encrypted end to end [@doi:10.1371/journal.pcbi.1006454; @arxiv:1811.00778].
 Privacy-preserving techniques [@arxiv:1811.04017], such as differential privacy [@doi:10.1145/2976749.2978318; @doi:10.1101/159756; @arxiv:1812.01484], can help to mitigate risks as long as the assumptions underlying these techniques are met.
@@ -752,23 +790,20 @@ These methods provide a path towards a future where trained models and their pre
 Unless you use these techniques, don't share the weights or arbitrary access to the predictions of models trained on sensitive data.
 
 
-## Ethics {#ethics}
-
-While deep learning is a very powerful tool, it is important that we consider the ethical risks if used inappropriately. 
-For example, despite DL methods helping to increase medical efficiency through improved diagnostics and risk assessment, there can be patient biases due to differences in age, race, gender [@doi.org/10.1002/hast.977]; unequal representation of different populations [@doi.org/10.1377/hlthaff.2014.0048].
-Beyond, healthcare, deep learning can reinforce societal prejudices of race [@https://www.theatlantic.com/business/archive/2015/09/discrimination-algorithms-disparate-impact/403969/; @https://www.nytimes.com/2016/06/26/opinion/sunday/artificial-intelligences-white-guy-problem.html ].
-
-It is important to think about how these methods and their potential impact.
-
-Ensure that where necessary your proposed project is compliant with the research ethics approval policies of your institution (e.g., institutional review boards).
-
-
 ## Conclusion {#conclusion}
 
-Deep learning techniques have the potential for wide use in biology and the capacity to meet or exceed the performance of both humans and the current state-of-the-art algorithms across a wide range of biological sub-disciplines and tasks.
-Beyond simply achieving good predictive performance, deep learning has the potential to inform novel biological insights to fundamentally drive high-impact research.
-To realize this potential, the use of deep learning as a research tool must be approached as any other tool would be: scientifically and thoughtfully.
-We hope that our tips for applying deep learning to the biological sciences will serve as a starting point for discussion and considering deep learning for biological research sensibly and responsibly.
+Collectively, our manuscript is focused on the promotion of practical tips distilled from cutting-edge insights and evolving professional standards to advance the efficient and optimal application of deep learning within research.
+It is evident that some of our points (see Tips 7, 8, 9, and 10) are intimately linked to safeguarding against key risks: for example, introduction/perpetuation of bias, overinterpretation/misinterpretation of models, poor generalizability, and potential for harm unto others—which can have a mix of ethical, legal, and social implications.
+If leveraged in ethical and responsible ways, deep learning techniques have the potential to add value within a diverse array of research and healthcare contexts, as these techniques have already shown remarkable capacity to meet or exceed the performance of human effort and/or older algorithms across fields and subdisciplines.
+Beyond merely achieving good predictive performance in certain tasks, deep learning has the potential to uncover high-impact biological and clinical insights, fundamentally driving research discoveries and delivery of new products to market.
+Yet, to realize its full potential, deep learning must be approached by all with genuine thoughtfulness, caution, and responsibility.
+
+Through the tips and recommendations provided within this manuscript, we hope to encourage a prudent, vigilant community of computational practitioners, experimental biologists, and clinical scientists: colleagues who, before excitedly stitching together lines of code and datasets, first pause to think, dialogue, plan, and discern how their work might have far-reaching consequences with ethical dimensions.
+This holistic approach will help us to advance accountability, beneficence, and quality in science.
+
+Thus, we aim not only to increase the accessibility of deep learning techniques within the life sciences, but also to improve upon the reproducibility and interpretability of high-quality deep learning research in the literature and scientific community—especially given that published findings, models, and datasets will be leveraged to yield innovative tools, services, and products in the marketplace.
+Indeed, we hope that these tips will serve as a powerful engine for promoting meaningful discussions, reflections, team learnings, and best practices to drive collaboration that fosters cutting-edge deep learning innovation, sensibly and responsibly.
+
 
 ## Acknowledgements {#acknowledgements}
 
