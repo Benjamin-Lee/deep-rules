@@ -38,7 +38,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-Datasets
+datasets
 dataset’s
 differentiable
 discriminative
@@ -95,6 +95,7 @@ MLPs
 Moffitt
 Morgridge
 multilayer
+Nuffield
 occuring
 overfit
 overfitting
@@ -132,7 +133,7 @@ toolset
 TPOT
 tradeoff
 transformative
-Translational
+translational
 Triche
 Tschira
 ttriche

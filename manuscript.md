@@ -22,7 +22,7 @@ author-meta:
 - Juan Jose Carmona
 bibliography:
 - content/manual-references.json
-date-meta: '2021-01-12'
+date-meta: '2021-01-13'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-01-12" />
+  <meta name="dc.date" content="2021-01-13" />
 
-  <meta name="citation_publication_date" content="2021-01-12" />
+  <meta name="citation_publication_date" content="2021-01-13" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -59,17 +59,19 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Benjamin D. Lee" />
 
-  <meta name="citation_author_institution" content="Lab41, In-Q-Tel" />
+  <meta name="citation_author_institution" content="In-Q-Tel Labs" />
 
-  <meta name="citation_author_institution" content="School of Engineering and Applied Sciences, Harvard University" />
+  <meta name="citation_author_institution" content="National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health" />
 
-  <meta name="citation_author_institution" content="Department of Genetics, Harvard Medical School" />
+  <meta name="citation_author_institution" content="Nuffield Department of Medicine, University of Oxford" />
 
   <meta name="citation_author_orcid" content="0000-0002-7133-8397" />
 
   <meta name="citation_author" content="Alexander J. Titus" />
 
-  <meta name="citation_author_institution" content="University of New Hampshire, Bioeconomy.XYZ" />
+  <meta name="citation_author_institution" content="University of New Hampshire" />
+
+  <meta name="citation_author_institution" content="Bioeconomy.XYZ" />
 
   <meta name="citation_author_orcid" content="0000-0002-0145-9564" />
 
@@ -215,19 +217,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2f563847edc300148b80682dadf0cf930edd0e26/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f563847edc300148b80682dadf0cf930edd0e26/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f563847edc300148b80682dadf0cf930edd0e26/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f563847edc300148b80682dadf0cf930edd0e26/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f563847edc300148b80682dadf0cf930edd0e26/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -256,10 +258,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2f563847edc300148b80682dadf0cf930edd0e26/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@d6ab52c](https://github.com/Benjamin-Lee/deep-rules/tree/d6ab52c196b5373d60de746bab98eb1d6b4dd9c3)
-on January 12, 2021.
+from [Benjamin-Lee/deep-rules@2f56384](https://github.com/Benjamin-Lee/deep-rules/tree/2f563847edc300148b80682dadf0cf930edd0e26)
+on January 13, 2021.
 </em></small>
 
 ## Authors
@@ -273,7 +275,7 @@ Please note the current author order is chronological and does not reflect the f
     · ![GitHub icon](images/github.svg){.inline_icon}
     [Benjamin-Lee](https://github.com/Benjamin-Lee)<br>
   <small>
-     Lab41, In-Q-Tel; School of Engineering and Applied Sciences, Harvard University; Department of Genetics, Harvard Medical School
+     In-Q-Tel Labs; National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health; Nuffield Department of Medicine, University of Oxford
   </small>
 
 + **Alexander J. Titus**<br>
@@ -282,7 +284,7 @@ Please note the current author order is chronological and does not reflect the f
     · ![GitHub icon](images/github.svg){.inline_icon}
     [AlexanderTitus](https://github.com/AlexanderTitus)<br>
   <small>
-     University of New Hampshire, Bioeconomy.XYZ
+     University of New Hampshire; Bioeconomy.XYZ
   </small>
 
 + **Kun-Hsing Yu**<br>
