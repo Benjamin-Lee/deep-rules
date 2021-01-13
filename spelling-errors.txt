@@ -7,6 +7,7 @@ alxndrkalinin
 Andel
 anthonygitter
 approximators
+arer
 arxiv
 AUROC
 AutoKeras
@@ -33,12 +34,13 @@ chevrm
 Chuang
 CNNs
 Cofer
+colocating
 convolutional
 CUDA
 CuDNN
 Dalhousie
 dataset
-datasets
+Datasets
 dataset’s
 differentiable
 discriminative
@@ -97,6 +99,7 @@ Morgridge
 multilayer
 Nuffield
 occuring
+operationalize
 overfit
 overfitting
 overinterpret
@@ -106,6 +109,8 @@ parallelized
 perceptrons
 pharmacovigilance
 phenotypes
+practioners
+practive
 pre
 pretraining
 pseudorandom
@@ -133,7 +138,8 @@ toolset
 TPOT
 tradeoff
 transformative
-translational
+Translational
+triaged
 Triche
 Tschira
 ttriche
