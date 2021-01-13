@@ -138,7 +138,7 @@ toolset
 TPOT
 tradeoff
 transformative
-Translational
+translational
 triaged
 Triche
 Tschira
