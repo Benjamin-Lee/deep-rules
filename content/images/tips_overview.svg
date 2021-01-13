@@ -606,8 +606,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2.4055032"
-     inkscape:cx="684.60997"
-     inkscape:cy="532.53185"
+     inkscape:cx="416.14542"
+     inkscape:cy="214.23564"
      inkscape:document-units="mm"
      inkscape:current-layer="g52299"
      inkscape:document-rotation="0"
@@ -630,7 +630,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -4821,8 +4821,7 @@
            inkscape:export-ydpi="300"><tspan
              x="211.43164"
              y="-56.702588"><tspan
-               style="font-weight:bold;text-align:start;text-anchor:start">1. Use an Appropriate Method?</tspan><tspan
-               style="text-align:start;text-anchor:start">
+               style="font-weight:bold;text-align:start;text-anchor:start">1. Use an Appropriate Method</tspan><tspan>
 </tspan></tspan><tspan
              x="211.43164"
              y="-52.733838"><tspan
