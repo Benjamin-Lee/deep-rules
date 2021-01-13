@@ -15,9 +15,9 @@ authors:
     orcid: 0000-0002-7133-8397
     email: benjamindlee@me.com
     affiliations:
-      - Lab41, In-Q-Tel
-      - School of Engineering and Applied Sciences, Harvard University
-      - Department of Genetics, Harvard Medical School
+      - In-Q-Tel Labs
+      - National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health
+      - Nuffield Department of Medicine, University of Oxford
   -
     github: AlexanderTitus
     name: Alexander J. Titus
@@ -25,7 +25,8 @@ authors:
     orcid: 0000-0002-0145-9564
     email: titus.professional@gmail.com
     affiliations:
-      - University of New Hampshire, Bioeconomy.XYZ
+      - University of New Hampshire
+      - Bioeconomy.XYZ
   -
     github: khyu
     name: Kun-Hsing Yu
