@@ -101,7 +101,7 @@ Nuffield
 occuring
 operationalize
 overfit
-overfitting
+Overfitting
 overinterpret
 overinterpretation
 overinterpreting
@@ -138,7 +138,7 @@ toolset
 TPOT
 tradeoff
 transformative
-Translational
+translational
 triaged
 Triche
 Tschira

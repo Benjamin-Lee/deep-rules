@@ -22,7 +22,7 @@ author-meta:
 - Juan Jose Carmona
 bibliography:
 - content/manual-references.json
-date-meta: '2021-01-13'
+date-meta: '2021-01-14'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-01-13" />
+  <meta name="dc.date" content="2021-01-14" />
 
-  <meta name="citation_publication_date" content="2021-01-13" />
+  <meta name="citation_publication_date" content="2021-01-14" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -217,19 +217,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/c16057bde0762a93132422289a5baeac35835801/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/0687027f563dabb10ebe1da1ab91c8a5d39a0440/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c16057bde0762a93132422289a5baeac35835801/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0687027f563dabb10ebe1da1ab91c8a5d39a0440/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c16057bde0762a93132422289a5baeac35835801/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/0687027f563dabb10ebe1da1ab91c8a5d39a0440/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c16057bde0762a93132422289a5baeac35835801/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0687027f563dabb10ebe1da1ab91c8a5d39a0440/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c16057bde0762a93132422289a5baeac35835801/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/0687027f563dabb10ebe1da1ab91c8a5d39a0440/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -258,10 +258,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/c16057bde0762a93132422289a5baeac35835801/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/0687027f563dabb10ebe1da1ab91c8a5d39a0440/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@c16057b](https://github.com/Benjamin-Lee/deep-rules/tree/c16057bde0762a93132422289a5baeac35835801)
-on January 13, 2021.
+from [Benjamin-Lee/deep-rules@0687027](https://github.com/Benjamin-Lee/deep-rules/tree/0687027f563dabb10ebe1da1ab91c8a5d39a0440)
+on January 14, 2021.
 </em></small>
 
 ## Authors
@@ -476,7 +476,7 @@ In addition, the lack of established standards or concise recommendations for th
 biological questions further limits newcomers from using state-of-the-art deep learning in their research.  
 
 To make deep learning more accessible to biological researchers, we solicited input from a community of researchers with varied biological and deep learning interests.
-These individuals collaboratively contributed to this manuscript's writing using the GitHub version control platform [@url:https://github.com/Benjamin-Lee/deep-rules] and the Manubot manuscript generation toolset [@url:https://greenelab.github.io/meta-review/].
+These individuals collaboratively contributed to this manuscript's writing using the GitHub version control platform [@url:https://github.com/Benjamin-Lee/deep-rules] and the Manubot manuscript generation toolset [@doi:10.1371/journal.pcbi.1007128].
 The goal was to articulate a practical, accessible, and concise set of guidelines and suggestions for biologically oriented researchers to follow when using deep learning (Figure @fig:overview-fig).
 
 ![A summary overview of the 10 tips for using deep learning in biological research.](images/tips_overview.png){#fig:overview-fig}
