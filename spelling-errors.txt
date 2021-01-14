@@ -70,7 +70,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 ImageNet
 interpretability
 interpretable
@@ -101,7 +101,7 @@ Nuffield
 occuring
 operationalize
 overfit
-Overfitting
+overfitting
 overinterpret
 overinterpretation
 overinterpreting
