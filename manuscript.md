@@ -22,7 +22,7 @@ author-meta:
 - Juan Jose Carmona
 bibliography:
 - content/manual-references.json
-date-meta: '2021-01-21'
+date-meta: '2021-01-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-01-21" />
+  <meta name="dc.date" content="2021-01-23" />
 
-  <meta name="citation_publication_date" content="2021-01-21" />
+  <meta name="citation_publication_date" content="2021-01-23" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -217,19 +217,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/cdf8ae16f5b10a5ef134a5f56af5fde5c173d11b/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/cc09f2b48953fe4b7a52ad5ff955bfb0d25e62bd/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/cdf8ae16f5b10a5ef134a5f56af5fde5c173d11b/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/cc09f2b48953fe4b7a52ad5ff955bfb0d25e62bd/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/cdf8ae16f5b10a5ef134a5f56af5fde5c173d11b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/cc09f2b48953fe4b7a52ad5ff955bfb0d25e62bd/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/cdf8ae16f5b10a5ef134a5f56af5fde5c173d11b/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/cc09f2b48953fe4b7a52ad5ff955bfb0d25e62bd/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/cdf8ae16f5b10a5ef134a5f56af5fde5c173d11b/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/cc09f2b48953fe4b7a52ad5ff955bfb0d25e62bd/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -258,10 +258,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/cdf8ae16f5b10a5ef134a5f56af5fde5c173d11b/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/cc09f2b48953fe4b7a52ad5ff955bfb0d25e62bd/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@cdf8ae1](https://github.com/Benjamin-Lee/deep-rules/tree/cdf8ae16f5b10a5ef134a5f56af5fde5c173d11b)
-on January 21, 2021.
+from [Benjamin-Lee/deep-rules@cc09f2b](https://github.com/Benjamin-Lee/deep-rules/tree/cc09f2b48953fe4b7a52ad5ff955bfb0d25e62bd)
+on January 23, 2021.
 </em></small>
 
 ## Authors
@@ -695,8 +695,9 @@ In other words, the model fits patterns that are overly specific to the data it 
 This subtle distinction is made clearer by seeing what happens when a model is tested on data to which it was not exposed during training: just as a student who memorizes exam materials struggles to correctly answer questions for which they have not studied, a machine learning model that has overfit to its training data will perform poorly on unseen test data.
 Deep learning models are particularly susceptible to overfitting due to their relatively large number of parameters and associated representational capacity.
 Just as some students may have greater potential for memorization, deep learning models seem more prone to overfitting than machine learning models with fewer parameters.
+However, having a large number of parameters does not always imply that a neural network will overfit [@doi:10.1073/pnas.1903070116].
 
-![A visual example of overfitting and failure to generalize. While a high-degree polynomial achieves high accuracy on its training data, it performs poorly on data with specificities that have not been seen before. That is, the model has learned the training dataset specifically rather than learning a generalizable pattern that represents data of this type. In contrast, a simple linear regression works well on both datasets. The greater representational capacity of the polynomial is analogous to using a larger or deeper neural network.](images/overfitting.png){#fig:overfitting-fig}
+![A visual example of overfitting and failure to generalize. While a high-degree polynomial achieves high accuracy on its training data, it performs poorly on the test data that have not been seen before. That is, the model has memorized the training dataset specifically rather than learning a generalizable pattern that represents data of this type. In contrast, a simple linear regression works equally well on both datasets.](images/overfitting.png){#fig:overfitting-fig}
 
 In general, one of the most effective ways to combat overfitting is to detect it in the first place.
 One way to do this is to split the main dataset being worked on into three independent parts: a training set, a tuning set (also commonly called a validation set in the machine learning literature), and a test set.
