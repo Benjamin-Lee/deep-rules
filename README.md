@@ -26,7 +26,7 @@ Join us!
 
 ## Where we are now
 
-Currently, we're in the process of finalizing the draft of the paper. The journal has already [approved our presubmission inquiry](https://github.com/Benjamin-Lee/deep-rules/issues/99) and we are almost ready to suubmit!
+Currently, we're in the process of finalizing the draft of the paper. The journal has already [approved our presubmission inquiry](https://github.com/Benjamin-Lee/deep-rules/issues/99) and we are almost ready to submit!
 
 The raw text of the manuscript is stored within the [content directory](content). The rendered manuscript may be viewed as HTML [here](https://Benjamin-Lee.github.io/deep-rules/) or as a PDF [here](https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf).
 
