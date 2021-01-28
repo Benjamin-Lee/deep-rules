@@ -97,13 +97,13 @@ multilayer
 Nuffield
 operationalize
 overfit
-overfitting
+Overfitting
 overinterpretation
 parallelized
 perceptrons
 pharmacovigilance
 phenotypes
-Pre
+pre
 pretraining
 pseudorandom
 pstew
@@ -126,7 +126,7 @@ TODO
 toolset
 TPOT
 transformative
-translational
+Translational
 triaged
 Triche
 Tschira
