@@ -69,7 +69,8 @@ authors:
     initials: SR
     orcid: 0000-0001-6989-4493
     email: sraschka@wisc.edu
-    funders: Wisconsin Alumni Foundation (AAD5912)
+    funders:
+      - Wisconsin Alumni Foundation (AAD5912)
     conflicts: None
     affiliations:
       - Department of Statistics, University of Wisconsin-Madison
