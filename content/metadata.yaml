@@ -76,6 +76,9 @@ authors:
     initials: FM
     orcid: 0000-0002-1203-9514
     email: finlaymaguire@gmail.com
+    conflicts: None
+    funders:
+      - Donald Hill Family Fellowship
     affiliations:
       - Faculty of Computer Science, Dalhousie University
   -
