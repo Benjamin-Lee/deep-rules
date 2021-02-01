@@ -118,7 +118,13 @@ authors:
     orcid: 0000-0001-8713-9213
     email: greenescientist@gmail.com
     affiliations:
-      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA
+      - Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA
+      - Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA
+    conflicts: None
+    funders:
+      - National Institutes of Health (R01 HG010067)
+      - the Gordon and Betty Moore Foundation (GBMF 4552)
   -
     github: SiminaB
     name: Simina M. Boca
