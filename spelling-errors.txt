@@ -40,7 +40,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-datasets
+Datasets
 dataset’s
 differentiable
 discriminative
@@ -105,7 +105,7 @@ parallelized
 perceptrons
 pharmacovigilance
 phenotypes
-pre
+Pre
 pretraining
 pseudorandom
 pstew

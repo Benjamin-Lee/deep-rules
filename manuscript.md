@@ -197,9 +197,9 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Beth Signal" />
 
-  <meta name="citation_author_institution" content="Climate Change Cluster, University of Technology Sydney" />
+  <meta name="citation_author_institution" content="School of Medicine, College of Health and Medicine, University of Tasmania" />
 
-  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author_orcid" content="0000-0002-6839-2392" />
 
   <meta name="citation_author" content="Juan Jose Carmona" />
 
@@ -223,19 +223,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/46bcdfbe4c3908b46f14d5112dafd6a25138a371/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/46bcdfbe4c3908b46f14d5112dafd6a25138a371/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/46bcdfbe4c3908b46f14d5112dafd6a25138a371/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/46bcdfbe4c3908b46f14d5112dafd6a25138a371/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/46bcdfbe4c3908b46f14d5112dafd6a25138a371/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -264,9 +264,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/46bcdfbe4c3908b46f14d5112dafd6a25138a371/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@3dc13ac](https://github.com/Benjamin-Lee/deep-rules/tree/3dc13acbcf1582fd80c755076ce307c0a9e1db4a)
+from [Benjamin-Lee/deep-rules@46bcdfb](https://github.com/Benjamin-Lee/deep-rules/tree/46bcdfbe4c3908b46f14d5112dafd6a25138a371)
 on February 1, 2021.
 </em></small>
 
@@ -447,10 +447,12 @@ Please note the current author order is chronological and does not reflect the f
   </small>
 
 + **Beth Signal**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-6839-2392](https://orcid.org/0000-0002-6839-2392)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [betsig](https://github.com/betsig)<br>
   <small>
-     Climate Change Cluster, University of Technology Sydney
+     School of Medicine, College of Health and Medicine, University of Tasmania
   </small>
 
 + **Juan Jose Carmona**<br>
