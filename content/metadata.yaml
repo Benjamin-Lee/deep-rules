@@ -15,10 +15,11 @@ authors:
     initials: BDL
     orcid: 0000-0002-7133-8397
     email: benjamindlee@me.com
+    conflicts: None
     affiliations:
       - In-Q-Tel Labs
-      - National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health
-      - Nuffield Department of Medicine, University of Oxford
+      - School of Engineering and Applied Sciences, Harvard University
+      - Department of Genetics, Harvard Medical School
   -
     github: AlexanderTitus
     name: Alexander J. Titus
