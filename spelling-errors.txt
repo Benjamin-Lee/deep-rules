@@ -1,3 +1,4 @@
+AAD
 Acknowledgements
 agitter
 ajlee
@@ -39,7 +40,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-datasets
+Datasets
 dataset’s
 differentiable
 discriminative
@@ -97,13 +98,13 @@ multilayer
 Nuffield
 operationalize
 overfit
-Overfitting
+overfitting
 overinterpretation
 parallelized
 perceptrons
 pharmacovigilance
 phenotypes
-Pre
+pre
 pretraining
 pseudorandom
 pstew

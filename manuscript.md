@@ -109,6 +109,8 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0001-6989-4493" />
 
+  <meta name="twitter:creator" content="@rasbt" />
+
   <meta name="citation_author" content="Finlay Maguire" />
 
   <meta name="citation_author_institution" content="Faculty of Computer Science, Dalhousie University" />
@@ -217,19 +219,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/fd48a89d93178ae26082b16c31efea52e15e0cf1/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/168aa492b9c15deb6e899074e340c701d214d816/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/fd48a89d93178ae26082b16c31efea52e15e0cf1/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/168aa492b9c15deb6e899074e340c701d214d816/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/fd48a89d93178ae26082b16c31efea52e15e0cf1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/168aa492b9c15deb6e899074e340c701d214d816/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/fd48a89d93178ae26082b16c31efea52e15e0cf1/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/168aa492b9c15deb6e899074e340c701d214d816/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/fd48a89d93178ae26082b16c31efea52e15e0cf1/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/168aa492b9c15deb6e899074e340c701d214d816/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -258,9 +260,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/fd48a89d93178ae26082b16c31efea52e15e0cf1/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/168aa492b9c15deb6e899074e340c701d214d816/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@fd48a89](https://github.com/Benjamin-Lee/deep-rules/tree/fd48a89d93178ae26082b16c31efea52e15e0cf1)
+from [Benjamin-Lee/deep-rules@168aa49](https://github.com/Benjamin-Lee/deep-rules/tree/168aa492b9c15deb6e899074e340c701d214d816)
 on February 1, 2021.
 </em></small>
 
@@ -329,9 +331,12 @@ Please note the current author order is chronological and does not reflect the f
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-6989-4493](https://orcid.org/0000-0001-6989-4493)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [rasbt](https://github.com/rasbt)<br>
+    [rasbt](https://github.com/rasbt)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [rasbt](https://twitter.com/rasbt)<br>
   <small>
      Department of Statistics, University of Wisconsin-Madison
+     · Funded by Wisconsin Alumni Foundation (AAD5912)
   </small>
 
 + **Finlay Maguire**<br>
