@@ -40,7 +40,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-Datasets
+datasets
 dataset’s
 differentiable
 discriminative
@@ -58,6 +58,7 @@ Fertig
 Figshare
 Finlay
 fmaguire
+GBMF
 generalizability
 generalizable
 Gitter
@@ -127,7 +128,7 @@ TODO
 toolset
 TPOT
 transformative
-translational
+Translational
 triaged
 Triche
 Tschira

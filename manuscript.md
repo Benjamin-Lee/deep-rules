@@ -141,7 +141,11 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Casey S. Greene" />
 
-  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania" />
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA" />
+
+  <meta name="citation_author_institution" content="Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA" />
+
+  <meta name="citation_author_institution" content="Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA" />
 
   <meta name="citation_author_orcid" content="0000-0001-8713-9213" />
 
@@ -219,19 +223,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/168aa492b9c15deb6e899074e340c701d214d816/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/168aa492b9c15deb6e899074e340c701d214d816/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/168aa492b9c15deb6e899074e340c701d214d816/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/168aa492b9c15deb6e899074e340c701d214d816/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/168aa492b9c15deb6e899074e340c701d214d816/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -260,9 +264,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/168aa492b9c15deb6e899074e340c701d214d816/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/3dc13acbcf1582fd80c755076ce307c0a9e1db4a/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@168aa49](https://github.com/Benjamin-Lee/deep-rules/tree/168aa492b9c15deb6e899074e340c701d214d816)
+from [Benjamin-Lee/deep-rules@3dc13ac](https://github.com/Benjamin-Lee/deep-rules/tree/3dc13acbcf1582fd80c755076ce307c0a9e1db4a)
 on February 1, 2021.
 </em></small>
 
@@ -384,7 +388,8 @@ Please note the current author order is chronological and does not reflect the f
     · ![GitHub icon](images/github.svg){.inline_icon}
     [cgreene](https://github.com/cgreene)<br>
   <small>
-     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA; Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA; Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA
+     · Funded by National Institutes of Health (R01 HG010067); the Gordon and Betty Moore Foundation (GBMF 4552)
   </small>
 
 + **Simina M. Boca**<br>
