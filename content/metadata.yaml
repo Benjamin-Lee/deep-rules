@@ -60,8 +60,12 @@ authors:
     orcid: 0000-0003-3877-0433
     email: ecofer@princeton.edu
     affiliations:
-      - Lewis-Sigler Institute for Integrative Genomics, Princeton University
-      - Graduate Program in Quantitative and Computational Biology, Princeton University
+      - Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA
+      - Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA
+    conflicts: None
+    funders:
+        - National Institutes of Health (T32 HG003284)
+        - National Science Foundation Graduate Research Fellowship Program
   -
     github: rasbt
     name: Sebastian Raschka
