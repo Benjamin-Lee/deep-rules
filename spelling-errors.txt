@@ -103,7 +103,7 @@ parallelized
 perceptrons
 pharmacovigilance
 phenotypes
-pre
+Pre
 pretraining
 pseudorandom
 pstew
@@ -126,7 +126,7 @@ TODO
 toolset
 TPOT
 transformative
-Translational
+translational
 triaged
 Triche
 Tschira
