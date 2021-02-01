@@ -6,6 +6,7 @@ keywords:
   - deep learning
   - artificial intelligence
 lang: en-US
+thumbnail: content/images/thumbnail_tips_overview.png
 authors:
   # Note: this is in chronological order, not final authorship order
   -
@@ -15,9 +16,9 @@ authors:
     orcid: 0000-0002-7133-8397
     email: benjamindlee@me.com
     affiliations:
-      - Lab41, In-Q-Tel
-      - School of Engineering and Applied Sciences, Harvard University
-      - Department of Genetics, Harvard Medical School
+      - In-Q-Tel Labs
+      - National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health
+      - Nuffield Department of Medicine, University of Oxford
   -
     github: AlexanderTitus
     name: Alexander J. Titus
@@ -25,7 +26,8 @@ authors:
     orcid: 0000-0002-0145-9564
     email: titus.professional@gmail.com
     affiliations:
-      - Titus Analytics
+      - University of New Hampshire
+      - Bioeconomy.XYZ
   -
     github: khyu
     name: Kun-Hsing Yu
@@ -63,9 +65,13 @@ authors:
   -
     github: rasbt
     name: Sebastian Raschka
+    twitter: rasbt
     initials: SR
     orcid: 0000-0001-6989-4493
     email: sraschka@wisc.edu
+    funders:
+      - Wisconsin Alumni Foundation (AAD5912)
+    conflicts: None
     affiliations:
       - Department of Statistics, University of Wisconsin-Madison
   -
@@ -74,6 +80,9 @@ authors:
     initials: FM
     orcid: 0000-0002-1203-9514
     email: finlaymaguire@gmail.com
+    conflicts: None
+    funders:
+      - Donald Hill Family Fellowship
     affiliations:
       - Faculty of Computer Science, Dalhousie University
   -
@@ -109,7 +118,13 @@ authors:
     orcid: 0000-0001-8713-9213
     email: greenescientist@gmail.com
     affiliations:
-      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA
+      - Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA
+      - Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA
+    conflicts: None
+    funders:
+      - National Institutes of Health (R01 HG010067)
+      - the Gordon and Betty Moore Foundation (GBMF 4552)
   -
     github: SiminaB
     name: Simina M. Boca
@@ -171,6 +186,15 @@ authors:
     email: beth.signal@gmail.com
     affiliations:
       - Climate Change Cluster, University of Technology Sydney     
-
+  -
+    github: juancarmona
+    name: Juan Jose Carmona
+    initials: JJC
+    orcid: 0000-0002-3029-4658
+    twitter: jcveritas
+    email: carmona@mail.harvard.edu
+    affiliations:
+      - Philips Healthcare
+      - Philips Research North America
       
   # ^^^ Add your information above this line ^^^

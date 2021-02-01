@@ -26,7 +26,7 @@ Join us!
 
 ## Where we are now
 
-Currently, we're in the process of drafting the paper with each tip being tracked in its own [project](https://github.com/Benjamin-Lee/deep-rules/projects). The journal has already [approved our presubmission inquiry](https://github.com/Benjamin-Lee/deep-rules/issues/99), so we are ready to write! To contribute to the paper, take a look at [`CONTRIBUTING.md`](CONTRIBUTING.md) for information on how we're organizing the writing as well as [`USAGE.md`](USAGE.md) for instructions on how to write the actual text.
+Currently, we're in the process of finalizing the draft of the paper. The journal has already [approved our presubmission inquiry](https://github.com/Benjamin-Lee/deep-rules/issues/99) and we are almost ready to submit!
 
 The raw text of the manuscript is stored within the [content directory](content). The rendered manuscript may be viewed as HTML [here](https://Benjamin-Lee.github.io/deep-rules/) or as a PDF [here](https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf).
 
