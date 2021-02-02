@@ -79,7 +79,7 @@ authors:
     affiliations:
       - Department of Statistics, University of Wisconsin-Madison
     zipcode:
-      - 53706
+      - "53706"
   -
     github: fmaguire
     name: Finlay Maguire
