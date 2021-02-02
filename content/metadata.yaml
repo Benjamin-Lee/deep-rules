@@ -60,8 +60,12 @@ authors:
     orcid: 0000-0003-3877-0433
     email: ecofer@princeton.edu
     affiliations:
-      - Lewis-Sigler Institute for Integrative Genomics, Princeton University
-      - Graduate Program in Quantitative and Computational Biology, Princeton University
+      - Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA
+      - Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA
+    conflicts: None
+    funders:
+        - National Institutes of Health (T32 HG003284)
+        - National Science Foundation Graduate Research Fellowship Program
   -
     github: rasbt
     name: Sebastian Raschka
@@ -182,10 +186,10 @@ authors:
     github: betsig
     name: Beth Signal
     initials: BS
-    orcid: 
+    orcid: 0000-0002-6839-2392
     email: beth.signal@gmail.com
     affiliations:
-      - Climate Change Cluster, University of Technology Sydney     
+      - School of Medicine, College of Health and Medicine, University of Tasmania     
   -
     github: juancarmona
     name: Juan Jose Carmona
