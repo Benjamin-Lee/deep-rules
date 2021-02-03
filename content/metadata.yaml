@@ -165,6 +165,12 @@ authors:
     email: ejfertig@jhmi.edu
     affiliations:
       - Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Johns Hopkins University
+    funders:
+      - Lustgarten Foundation
+      - Allegheny Health Network
+      - Emerson Foundation (640183)
+      - National Cancer Institute (U01CA212007, U01CA253403, P30CA006973)
+      - National Institute of Dental and Cranofacial Research (R01DE027809)
   -
     github: mdkessler
     name: Michael D. Kessler
@@ -173,6 +179,8 @@ authors:
     email: mkessl11@jhmi.edu
     affiliations:
       - Department of Oncology, Johns Hopkins University
+    funders:
+      - National Institute of Dental and Cranofacial Research (R01DE027809)
   -
     github: ajlee21
     name: Alexandra J. Lee
