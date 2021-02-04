@@ -22,7 +22,7 @@ author-meta:
 - Juan Jose Carmona
 bibliography:
 - content/manual-references.json
-date-meta: '2021-02-01'
+date-meta: '2021-02-04'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-02-01" />
+  <meta name="dc.date" content="2021-02-04" />
 
-  <meta name="citation_publication_date" content="2021-02-01" />
+  <meta name="citation_publication_date" content="2021-02-04" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -97,9 +97,9 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Evan M. Cofer" />
 
-  <meta name="citation_author_institution" content="Lewis-Sigler Institute for Integrative Genomics, Princeton University" />
+  <meta name="citation_author_institution" content="Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA" />
 
-  <meta name="citation_author_institution" content="Graduate Program in Quantitative and Computational Biology, Princeton University" />
+  <meta name="citation_author_institution" content="Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA" />
 
   <meta name="citation_author_orcid" content="0000-0003-3877-0433" />
 
@@ -131,9 +131,9 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Anthony Gitter" />
 
-  <meta name="citation_author_institution" content="Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison" />
+  <meta name="citation_author_institution" content="Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, USA" />
 
-  <meta name="citation_author_institution" content="Morgridge Institute for Research" />
+  <meta name="citation_author_institution" content="Morgridge Institute for Research, Madison, Wisconsin, USA" />
 
   <meta name="citation_author_orcid" content="0000-0002-5324-9833" />
 
@@ -223,19 +223,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/46bcdfbe4c3908b46f14d5112dafd6a25138a371/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d779569052c8811ed3014311189e19e4dcd41121/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/46bcdfbe4c3908b46f14d5112dafd6a25138a371/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d779569052c8811ed3014311189e19e4dcd41121/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/46bcdfbe4c3908b46f14d5112dafd6a25138a371/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d779569052c8811ed3014311189e19e4dcd41121/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/46bcdfbe4c3908b46f14d5112dafd6a25138a371/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d779569052c8811ed3014311189e19e4dcd41121/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/46bcdfbe4c3908b46f14d5112dafd6a25138a371/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d779569052c8811ed3014311189e19e4dcd41121/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -264,10 +264,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/46bcdfbe4c3908b46f14d5112dafd6a25138a371/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d779569052c8811ed3014311189e19e4dcd41121/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@46bcdfb](https://github.com/Benjamin-Lee/deep-rules/tree/46bcdfbe4c3908b46f14d5112dafd6a25138a371)
-on February 1, 2021.
+from [Benjamin-Lee/deep-rules@d779569](https://github.com/Benjamin-Lee/deep-rules/tree/d779569052c8811ed3014311189e19e4dcd41121)
+on February 4, 2021.
 </em></small>
 
 ## Authors
@@ -328,7 +328,8 @@ Please note the current author order is chronological and does not reflect the f
     · ![GitHub icon](images/github.svg){.inline_icon}
     [evancofer](https://github.com/evancofer)<br>
   <small>
-     Lewis-Sigler Institute for Integrative Genomics, Princeton University; Graduate Program in Quantitative and Computational Biology, Princeton University
+     Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA; Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA
+     · Funded by National Institutes of Health (T32 HG003284); National Science Foundation Graduate Research Fellowship Program
   </small>
 
 + **Sebastian Raschka**<br>
@@ -379,7 +380,8 @@ Please note the current author order is chronological and does not reflect the f
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
-     Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research
+     Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, USA; Morgridge Institute for Research, Madison, Wisconsin, USA
+     · Funded by National Science Foundation (DBI 1553206); National Institutes of Health (R01GM135631)
   </small>
 
 + **Casey S. Greene**<br>

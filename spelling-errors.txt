@@ -42,6 +42,7 @@ Dalhousie
 dataset
 Datasets
 dataset’s
+DBI
 differentiable
 discriminative
 druglike
@@ -105,7 +106,7 @@ parallelized
 perceptrons
 pharmacovigilance
 phenotypes
-Pre
+pre
 pretraining
 pseudorandom
 pstew
@@ -128,7 +129,7 @@ TODO
 toolset
 TPOT
 transformative
-Translational
+translational
 triaged
 Triche
 Tschira
