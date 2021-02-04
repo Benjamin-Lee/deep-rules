@@ -64,8 +64,8 @@ authors:
       - Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA
     conflicts: None
     funders:
-        - National Institutes of Health (T32 HG003284)
-        - National Science Foundation Graduate Research Fellowship Program
+      - National Institutes of Health (T32 HG003284)
+      - National Science Foundation Graduate Research Fellowship Program
   -
     github: rasbt
     name: Sebastian Raschka
@@ -150,6 +150,9 @@ authors:
       - Department of Oncology, Georgetown University Medical Center
       - Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center
       - Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center
+    conflicts: None
+    funders:
+      - National Institutes of Health (R21 CA220398)
   -
     github: ttriche
     name: Timothy J. Triche, Jr.
