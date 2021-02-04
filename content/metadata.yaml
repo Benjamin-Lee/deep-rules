@@ -129,6 +129,9 @@ authors:
     funders:
       - National Institutes of Health (R01 HG010067)
       - the Gordon and Betty Moore Foundation (GBMF 4552)
+    postcode: "80045"
+    approval: yes
+    accountable: yes
   -
     github: SiminaB
     name: Simina M. Boca
