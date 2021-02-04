@@ -64,8 +64,8 @@ authors:
       - Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA
     conflicts: None
     funders:
-        - National Institutes of Health (T32 HG003284)
-        - National Science Foundation Graduate Research Fellowship Program
+      - National Institutes of Health (T32 HG003284)
+      - National Science Foundation Graduate Research Fellowship Program
   -
     github: rasbt
     name: Sebastian Raschka
@@ -113,8 +113,15 @@ authors:
     twitter: anthonygitter
     email: gitter@biostat.wisc.edu
     affiliations:
-      - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison
-      - Morgridge Institute for Research
+      - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, USA
+      - Morgridge Institute for Research, Madison, Wisconsin, USA
+    conflicts: Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells
+    funders:
+      - National Science Foundation (DBI 1553206)
+      - National Institutes of Health (R01GM135631)
+    postcode: "53715"
+    approval: yes
+    accountable: yes
   -
     github: cgreene
     name: Casey S. Greene
@@ -129,6 +136,9 @@ authors:
     funders:
       - National Institutes of Health (R01 HG010067)
       - the Gordon and Betty Moore Foundation (GBMF 4552)
+    postcode: "80045"
+    approval: yes
+    accountable: yes
   -
     github: SiminaB
     name: Simina M. Boca
@@ -140,9 +150,12 @@ authors:
       - Department of Oncology, Georgetown University Medical Center
       - Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center
       - Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center
-   postcode: "20007"
-   approval: yes
-   accountable: yes
+    postcode: "20007"
+    approval: yes
+    accountable: yes
+    conflicts: None
+    funders:
+      - National Institutes of Health (R21 CA220398)
   -
     github: ttriche
     name: Timothy J. Triche, Jr.
