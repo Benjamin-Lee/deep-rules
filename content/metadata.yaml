@@ -113,8 +113,15 @@ authors:
     twitter: anthonygitter
     email: gitter@biostat.wisc.edu
     affiliations:
-      - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison
-      - Morgridge Institute for Research
+      - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, USA
+      - Morgridge Institute for Research, Madison, Wisconsin, USA
+    conflicts: Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells
+    funders:
+      - National Science Foundation (DBI 1553206)
+      - National Institutes of Health (R01GM135631)
+    postcode: "53715"
+    approval: yes
+    accountable: yes
   -
     github: cgreene
     name: Casey S. Greene
