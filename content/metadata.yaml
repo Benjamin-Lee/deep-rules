@@ -89,6 +89,9 @@ authors:
       - Donald Hill Family Fellowship
     affiliations:
       - Faculty of Computer Science, Dalhousie University
+    postcode: "B3H 4R2"
+    approval: yes
+    accountable: yes
   -
     github: blengerich
     name: Benjamin J. Lengerich
