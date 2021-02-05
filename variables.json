@@ -31,7 +31,7 @@
       "Beth Signal",
       "Juan Jose Carmona"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta name=\"citation_title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta property=\"og:title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta property=\"twitter:title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta name=\"dc.date\" content=\"2021-02-05\" />\n<meta name=\"citation_publication_date\" content=\"2021-02-05\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Benjamin D. Lee\" />\n<meta name=\"citation_author_institution\" content=\"In-Q-Tel Labs\" />\n<meta name=\"citation_author_institution\" content=\"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health\" />\n<meta name=\"citation_author_institution\" content=\"Nuffield Department of Medicine, University of Oxford\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7133-8397\" />\n<meta name=\"citation_author\" content=\"Alexander J. Titus\" />\n<meta name=\"citation_author_institution\" content=\"University of New Hampshire\" />\n<meta name=\"citation_author_institution\" content=\"Bioeconomy.XYZ\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0145-9564\" />\n<meta name=\"citation_author\" content=\"Kun-Hsing Yu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Informatics, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9892-8218\" />\n<meta name=\"citation_author\" content=\"Marc G. Chevrette\" />\n<meta name=\"citation_author_institution\" content=\"Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7209-0717\" />\n<meta name=\"twitter:creator\" content=\"@wildtypeMC\" />\n<meta name=\"citation_author\" content=\"Paul Allen Stewart\" />\n<meta name=\"citation_author_institution\" content=\"Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0882-308X\" />\n<meta name=\"citation_author\" content=\"Evan M. Cofer\" />\n<meta name=\"citation_author_institution\" content=\"Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA\" />\n<meta name=\"citation_author_institution\" content=\"Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3877-0433\" />\n<meta name=\"citation_author\" content=\"Sebastian Raschka\" />\n<meta name=\"citation_author_institution\" content=\"Department of Statistics, University of Wisconsin-Madison\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6989-4493\" />\n<meta name=\"twitter:creator\" content=\"@rasbt\" />\n<meta name=\"citation_author\" content=\"Finlay Maguire\" />\n<meta name=\"citation_author_institution\" content=\"Faculty of Computer Science, Dalhousie University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1203-9514\" />\n<meta name=\"citation_author\" content=\"Benjamin J. Lengerich\" />\n<meta name=\"citation_author_institution\" content=\"Computer Science Department, Carnegie Mellon University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8690-9554\" />\n<meta name=\"citation_author\" content=\"Alexandr A. Kalinin\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computational Medicine and Bioinformatics, University of Michigan\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4563-3226\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, USA\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Georgetown University Medical Center\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center\" />\n<meta name=\"citation_author_institution\" content=\"Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Timothy J. Triche, Jr.\" />\n<meta name=\"citation_author_institution\" content=\"Center for Epigenetics, Van Andel Research Institute\" />\n<meta name=\"citation_author_institution\" content=\"Department of Translational Genomics, Keck School of Medicine, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5665-946X\" />\n<meta name=\"citation_author\" content=\"Thiago Britto-Borges\" />\n<meta name=\"citation_author_institution\" content=\"Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6218-4429\" />\n<meta name=\"citation_author\" content=\"Elana J. Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Johns Hopkins University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"citation_author\" content=\"Michael D. Kessler\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Johns Hopkins University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1258-5221\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Genomics and Computational Biology Graduate Program, University of Pennsylvania\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Beth Signal\" />\n<meta name=\"citation_author_institution\" content=\"School of Medicine, College of Health and Medicine, University of Tasmania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6839-2392\" />\n<meta name=\"citation_author\" content=\"Juan Jose Carmona\" />\n<meta name=\"citation_author_institution\" content=\"Philips Healthcare\" />\n<meta name=\"citation_author_institution\" content=\"Philips Research North America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3029-4658\" />\n<meta name=\"twitter:creator\" content=\"@jcveritas\" />\n<link rel=\"canonical\" href=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta property=\"og:url\" content=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta property=\"twitter:url\" content=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Benjamin-Lee.github.io/deep-rules/v/d0913750dab3fad4ec610e7e3e72839574c9ff13/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Benjamin-Lee.github.io/deep-rules/v/d0913750dab3fad4ec610e7e3e72839574c9ff13/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Benjamin-Lee.github.io/deep-rules/v/d0913750dab3fad4ec610e7e3e72839574c9ff13/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/Benjamin-Lee/deep-rules/raw/d0913750dab3fad4ec610e7e3e72839574c9ff13/content/images/thumbnail_tips_overview.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/Benjamin-Lee/deep-rules/raw/d0913750dab3fad4ec610e7e3e72839574c9ff13/content/images/thumbnail_tips_overview.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta name=\"citation_title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta property=\"og:title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta property=\"twitter:title\" content=\"Ten Quick Tips for Deep Learning in Biology\" />\n<meta name=\"dc.date\" content=\"2021-02-05\" />\n<meta name=\"citation_publication_date\" content=\"2021-02-05\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Benjamin D. Lee\" />\n<meta name=\"citation_author_institution\" content=\"In-Q-Tel Labs\" />\n<meta name=\"citation_author_institution\" content=\"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health\" />\n<meta name=\"citation_author_institution\" content=\"Nuffield Department of Medicine, University of Oxford\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7133-8397\" />\n<meta name=\"citation_author\" content=\"Alexander J. Titus\" />\n<meta name=\"citation_author_institution\" content=\"University of New Hampshire\" />\n<meta name=\"citation_author_institution\" content=\"Bioeconomy.XYZ\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0145-9564\" />\n<meta name=\"citation_author\" content=\"Kun-Hsing Yu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Informatics, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9892-8218\" />\n<meta name=\"citation_author\" content=\"Marc G. Chevrette\" />\n<meta name=\"citation_author_institution\" content=\"Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7209-0717\" />\n<meta name=\"twitter:creator\" content=\"@wildtypeMC\" />\n<meta name=\"citation_author\" content=\"Paul Allen Stewart\" />\n<meta name=\"citation_author_institution\" content=\"Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0882-308X\" />\n<meta name=\"citation_author\" content=\"Evan M. Cofer\" />\n<meta name=\"citation_author_institution\" content=\"Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA\" />\n<meta name=\"citation_author_institution\" content=\"Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3877-0433\" />\n<meta name=\"citation_author\" content=\"Sebastian Raschka\" />\n<meta name=\"citation_author_institution\" content=\"Department of Statistics, University of Wisconsin-Madison\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6989-4493\" />\n<meta name=\"twitter:creator\" content=\"@rasbt\" />\n<meta name=\"citation_author\" content=\"Finlay Maguire\" />\n<meta name=\"citation_author_institution\" content=\"Faculty of Computer Science, Dalhousie University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1203-9514\" />\n<meta name=\"citation_author\" content=\"Benjamin J. Lengerich\" />\n<meta name=\"citation_author_institution\" content=\"Computer Science Department, Carnegie Mellon University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8690-9554\" />\n<meta name=\"citation_author\" content=\"Alexandr A. Kalinin\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computational Medicine and Bioinformatics, University of Michigan\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4563-3226\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, USA\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"citation_author\" content=\"Simina M. Boca\" />\n<meta name=\"citation_author_institution\" content=\"Innovation Center for Biomedical Informatics, Georgetown University Medical Center\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Georgetown University Medical Center\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center\" />\n<meta name=\"citation_author_institution\" content=\"Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1400-3398\" />\n<meta name=\"citation_author\" content=\"Timothy J. Triche, Jr.\" />\n<meta name=\"citation_author_institution\" content=\"Center for Epigenetics, Van Andel Research Institute\" />\n<meta name=\"citation_author_institution\" content=\"Department of Translational Genomics, Keck School of Medicine, University of Southern California\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-5665-946X\" />\n<meta name=\"citation_author\" content=\"Thiago Britto-Borges\" />\n<meta name=\"citation_author_institution\" content=\"Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6218-4429\" />\n<meta name=\"citation_author\" content=\"Elana J. Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Convergence Institute, Johns Hopkins University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"citation_author\" content=\"Michael D. Kessler\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Johns Hopkins University\" />\n<meta name=\"citation_author_institution\" content=\"Institute for Genome Sciences, University of Maryland School of Medicine\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1258-5221\" />\n<meta name=\"citation_author\" content=\"Alexandra J. Lee\" />\n<meta name=\"citation_author_institution\" content=\"Genomics and Computational Biology Graduate Program, University of Pennsylvania\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0208-3730\" />\n<meta name=\"citation_author\" content=\"Beth Signal\" />\n<meta name=\"citation_author_institution\" content=\"School of Medicine, College of Health and Medicine, University of Tasmania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6839-2392\" />\n<meta name=\"citation_author\" content=\"Juan Jose Carmona\" />\n<meta name=\"citation_author_institution\" content=\"Philips Healthcare\" />\n<meta name=\"citation_author_institution\" content=\"Philips Research North America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3029-4658\" />\n<meta name=\"twitter:creator\" content=\"@jcveritas\" />\n<link rel=\"canonical\" href=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta property=\"og:url\" content=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta property=\"twitter:url\" content=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://Benjamin-Lee.github.io/deep-rules/\" />\n<meta name=\"citation_pdf_url\" content=\"https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://Benjamin-Lee.github.io/deep-rules/v/c095eae46d3571d9d90bdc1307702852efa4e767/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://Benjamin-Lee.github.io/deep-rules/v/c095eae46d3571d9d90bdc1307702852efa4e767/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://Benjamin-Lee.github.io/deep-rules/v/c095eae46d3571d9d90bdc1307702852efa4e767/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/Benjamin-Lee/deep-rules/raw/c095eae46d3571d9d90bdc1307702852efa4e767/content/images/thumbnail_tips_overview.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/Benjamin-Lee/deep-rules/raw/c095eae46d3571d9d90bdc1307702852efa4e767/content/images/thumbnail_tips_overview.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -312,8 +312,19 @@
         "orcid": "0000-0003-3204-342X",
         "email": "ejfertig@jhmi.edu",
         "affiliations": [
-          "Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Johns Hopkins University"
+          "Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Convergence Institute, Johns Hopkins University"
         ],
+        "conflicts": [
+          "Scientific Advisory Board member at Viosera Therapeutics"
+        ],
+        "funders": [
+          "Lustgarten Foundation",
+          "Allegheny Health Network",
+          "Emerson Foundation (640183)",
+          "National Cancer Institute (U01CA212007, U01CA253403, P30CA006973)",
+          "National Institute of Dental and Cranofacial Research (R01DE027809)"
+        ],
+        "postcode": "21205",
         "affiliation_numbers": [
           27
         ]
@@ -325,10 +336,17 @@
         "orcid": "0000-0003-1258-5221",
         "email": "mkessl11@jhmi.edu",
         "affiliations": [
-          "Department of Oncology, Johns Hopkins University"
+          "Department of Oncology, Johns Hopkins University",
+          "Institute for Genome Sciences, University of Maryland School of Medicine"
         ],
+        "conflicts": "None",
+        "funders": [
+          "National Institutes of Health (R01DE027809)"
+        ],
+        "postcode": "21205",
         "affiliation_numbers": [
-          28
+          28,
+          29
         ]
       },
       {
@@ -345,8 +363,8 @@
         "approval": true,
         "accountable": true,
         "affiliation_numbers": [
-          29,
-          30
+          30,
+          31
         ]
       },
       {
@@ -359,7 +377,7 @@
           "School of Medicine, College of Health and Medicine, University of Tasmania"
         ],
         "affiliation_numbers": [
-          31
+          32
         ]
       },
       {
@@ -374,8 +392,8 @@
           "Philips Research North America"
         ],
         "affiliation_numbers": [
-          32,
-          33
+          33,
+          34
         ]
       }
     ],
@@ -485,7 +503,7 @@
         "affiliation_number": 26
       },
       {
-        "affiliation": "Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Johns Hopkins University",
+        "affiliation": "Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Convergence Institute, Johns Hopkins University",
         "affiliation_number": 27
       },
       {
@@ -493,24 +511,28 @@
         "affiliation_number": 28
       },
       {
-        "affiliation": "Genomics and Computational Biology Graduate Program, University of Pennsylvania",
+        "affiliation": "Institute for Genome Sciences, University of Maryland School of Medicine",
         "affiliation_number": 29
       },
       {
-        "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
+        "affiliation": "Genomics and Computational Biology Graduate Program, University of Pennsylvania",
         "affiliation_number": 30
       },
       {
-        "affiliation": "School of Medicine, College of Health and Medicine, University of Tasmania",
+        "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
         "affiliation_number": 31
       },
       {
-        "affiliation": "Philips Healthcare",
+        "affiliation": "School of Medicine, College of Health and Medicine, University of Tasmania",
         "affiliation_number": 32
       },
       {
-        "affiliation": "Philips Research North America",
+        "affiliation": "Philips Healthcare",
         "affiliation_number": 33
+      },
+      {
+        "affiliation": "Philips Research North America",
+        "affiliation_number": 34
       }
     ],
     "ci_source": {
@@ -518,20 +540,20 @@
       "repo_slug": "Benjamin-Lee/deep-rules",
       "repo_owner": "Benjamin-Lee",
       "repo_name": "deep-rules",
-      "commit": "d0913750dab3fad4ec610e7e3e72839574c9ff13",
-      "triggering_commit": "d0913750dab3fad4ec610e7e3e72839574c9ff13",
-      "build_url": "https://github.com/Benjamin-Lee/deep-rules/commit/d0913750dab3fad4ec610e7e3e72839574c9ff13/checks",
+      "commit": "c095eae46d3571d9d90bdc1307702852efa4e767",
+      "triggering_commit": "c095eae46d3571d9d90bdc1307702852efa4e767",
+      "build_url": "https://github.com/Benjamin-Lee/deep-rules/commit/c095eae46d3571d9d90bdc1307702852efa4e767/checks",
       "job_url": "https://github.com/Benjamin-Lee/deep-rules/runs/run3"
     },
     "html_url": "https://Benjamin-Lee.github.io/deep-rules/",
     "pdf_url": "https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf",
-    "html_url_versioned": "https://Benjamin-Lee.github.io/deep-rules/v/d0913750dab3fad4ec610e7e3e72839574c9ff13/",
-    "pdf_url_versioned": "https://Benjamin-Lee.github.io/deep-rules/v/d0913750dab3fad4ec610e7e3e72839574c9ff13/manuscript.pdf",
+    "html_url_versioned": "https://Benjamin-Lee.github.io/deep-rules/v/c095eae46d3571d9d90bdc1307702852efa4e767/",
+    "pdf_url_versioned": "https://Benjamin-Lee.github.io/deep-rules/v/c095eae46d3571d9d90bdc1307702852efa4e767/manuscript.pdf",
     "manubot_version": "0.4.1",
     "rootstock_commit": "97b294802ffcd39071b6e5b8ab59f60faf4be118",
-    "thumbnail_url": "https://github.com/Benjamin-Lee/deep-rules/raw/d0913750dab3fad4ec610e7e3e72839574c9ff13/content/images/thumbnail_tips_overview.png",
+    "thumbnail_url": "https://github.com/Benjamin-Lee/deep-rules/raw/c095eae46d3571d9d90bdc1307702852efa4e767/content/images/thumbnail_tips_overview.png",
     "manuscript_stats": {
-      "word_count": 7456
+      "word_count": 7381
     }
   }
 }

@@ -36,11 +36,12 @@ Cofer
 colocating
 compendia
 convolutional
+Cranofacial
 CUDA
 CuDNN
 Dalhousie
 dataset
-datasets
+Datasets
 dataset’s
 DBI
 differentiable
@@ -72,7 +73,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 hyperparmeter
 ImageNet
 interpretability
@@ -90,10 +91,11 @@ Koutsoukas
 krogh
 Kun
 learnable
-learnings
 Lengerich
+Lustgarten
 Maguire
 mdkessler
+mis
 Moffitt
 Morgridge
 multilayer
@@ -101,7 +103,6 @@ Nuffield
 operationalize
 overfit
 overfitting
-overinterpretation
 parallelized
 perceptrons
 pharmacovigilance
@@ -129,7 +130,7 @@ TODO
 toolset
 TPOT
 transformative
-translational
+Translational
 triaged
 Triche
 Tschira

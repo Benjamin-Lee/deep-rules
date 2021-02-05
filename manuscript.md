@@ -177,13 +177,15 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Elana J. Fertig" />
 
-  <meta name="citation_author_institution" content="Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Johns Hopkins University" />
+  <meta name="citation_author_institution" content="Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Convergence Institute, Johns Hopkins University" />
 
   <meta name="citation_author_orcid" content="0000-0003-3204-342X" />
 
   <meta name="citation_author" content="Michael D. Kessler" />
 
   <meta name="citation_author_institution" content="Department of Oncology, Johns Hopkins University" />
+
+  <meta name="citation_author_institution" content="Institute for Genome Sciences, University of Maryland School of Medicine" />
 
   <meta name="citation_author_orcid" content="0000-0003-1258-5221" />
 
@@ -223,19 +225,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d0913750dab3fad4ec610e7e3e72839574c9ff13/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/c095eae46d3571d9d90bdc1307702852efa4e767/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d0913750dab3fad4ec610e7e3e72839574c9ff13/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c095eae46d3571d9d90bdc1307702852efa4e767/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d0913750dab3fad4ec610e7e3e72839574c9ff13/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c095eae46d3571d9d90bdc1307702852efa4e767/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d0913750dab3fad4ec610e7e3e72839574c9ff13/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c095eae46d3571d9d90bdc1307702852efa4e767/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d0913750dab3fad4ec610e7e3e72839574c9ff13/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c095eae46d3571d9d90bdc1307702852efa4e767/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -264,9 +266,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d0913750dab3fad4ec610e7e3e72839574c9ff13/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/c095eae46d3571d9d90bdc1307702852efa4e767/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@d091375](https://github.com/Benjamin-Lee/deep-rules/tree/d0913750dab3fad4ec610e7e3e72839574c9ff13)
+from [Benjamin-Lee/deep-rules@c095eae](https://github.com/Benjamin-Lee/deep-rules/tree/c095eae46d3571d9d90bdc1307702852efa4e767)
 on February 5, 2021.
 </em></small>
 
@@ -428,7 +430,8 @@ Please note the current author order is chronological and does not reflect the f
     · ![GitHub icon](images/github.svg){.inline_icon}
     [ejfertig](https://github.com/ejfertig)<br>
   <small>
-     Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Johns Hopkins University
+     Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Convergence Institute, Johns Hopkins University
+     · Funded by Lustgarten Foundation; Allegheny Health Network; Emerson Foundation (640183); National Cancer Institute (U01CA212007, U01CA253403, P30CA006973); National Institute of Dental and Cranofacial Research (R01DE027809)
   </small>
 
 + **Michael D. Kessler**<br>
@@ -437,7 +440,8 @@ Please note the current author order is chronological and does not reflect the f
     · ![GitHub icon](images/github.svg){.inline_icon}
     [mdkessler](https://github.com/mdkessler)<br>
   <small>
-     Department of Oncology, Johns Hopkins University
+     Department of Oncology, Johns Hopkins University; Institute for Genome Sciences, University of Maryland School of Medicine
+     · Funded by National Institutes of Health (R01DE027809)
   </small>
 
 + **Alexandra J. Lee**<br>
@@ -478,7 +482,7 @@ Machine learning is a modern approach to problem-solving and task automation. In
 Artificial neural networks are a particular class of machine learning algorithms and models that evolved into what we now describe as "deep learning".
 Deep learning encompasses neural networks with many layers and the algorithms that make them perform well.
 These neural networks comprise artificial neurons arranged into layers and are modeled after the human brain, even though the building blocks and learning algorithms may differ [@doi:10.1038/s41583-020-0277-3].
-Each layer receives input from previous layers (the first of which represents the input data) and then transmits a transformed version of its input to the subsequent layer. 
+Each layer receives input from previous layers (the first of which represents the input data), and then transmits a transformed version of its own weighted output that serves as input into subsequent layers of the network. 
 Thus, the process of "training" a neural network is the tuning of the layers' weights to minimize a 
 cost or loss function that serves as a surrogate of the prediction error.
 The loss function is differentiable so that the weights can be automatically updated to attempt to reduce the loss.
@@ -500,20 +504,24 @@ Although deep learning is a distinct subfield of machine learning, it is still a
 It is subject to the many limitations inherent to machine learning, and most best practices for machine learning [@doi:10.1186/s13040-017-0155-3; @arxiv:1906.01998] also apply to deep learning.
 As with all computational methods, deep learning should be applied in a systematic manner that is reproducible and rigorously tested.
 Ultimately, the tips we collate range from high-level guidance to best practices for implementation. It is our hope that they will provide actionable, deep learning-specific instruction for both new and experienced deep learning practitioners.
-By making deep learning more accessible for use in biological research, we aim to improve the overall usage and reporting quality of deep learning in the literature and enable increasing numbers of researchers to effectively and accurately use these state-of-the-art techniques.
+By making deep learning more accessible for use in biological research, we aim to improve the overall usage and reporting quality of deep learning in the literature, and to enable increasing numbers of researchers to utilize these state-of-the art techniques effectively and accurately.
+
 
 
 ## Tip 1: Decide whether deep learning is appropriate for your problem {#appropriate}
 
-In recent years, the number of projects and publications implementing deep learning in biology has risen tremendously [@doi:10.1089/omi.2018.0097; @doi:10.1007/978-981-15-3383-9_54; @doi:10.3390/info11040193]. Given deep learning's usefulness across a range of scientific questions and data modalities, it may seem as though it is a panacea for nearly all modeling problems.
-Neural networks that underpin deep learning models are, in fact, universal function approximators and are therefore theoretically capable of learning the functions that relate almost any input and output variables [@doi:10.1007/BF02551274; @doi:10/dzwxkd]. However, deep learning is not suited to every modeling situation.
-The primary limiting factors are the training demands of neural network models, which require significant amounts of data, computing power, and programming as well as modeling expertise.
+In recent years, the number of projects and publications implementing deep learning in biology has risen tremendously [@doi:10.1089/omi.2018.0097; @doi:10.1007/978-981-15-3383-9_54; @doi:10.3390/info11040193].
+This trend is likely driven by deep learning's usefulness across a range of scientific questions and data modalities, and can contribute to the appearance of deep learning as a panacea for nearly all modeling problems.
+Indeed, neural networks are universal function approximators and derive tremendous power from this theoretical capacity to learn any function [@doi:10.1007/BF02551274; @doi:10/dzwxkd].
+However, in reality, deep learning is not suited to every modeling situation and can be significantly limited by its large demands for data, computing power, programming skill, and modeling expertise.
 
-In the areas of biology where data collection is thoroughly automated, such as DNA sequencing, large amounts of high-quality data may be available.
-However, areas of biology that rely on manual data collection may not possess enough data to train and apply deep learning models effectively.
+While large amounts of high-quality data may be available in the areas of biology where data collection is thoroughly automated, such as DNA sequencing, areas of biology that rely on manual data collection may not possess enough data to train and apply deep learning models effectively.
 Though there are methods that try to increase the amount of training data, such as data augmentation (in which existing data is slightly manipulated in an attempt to yield "new" samples) and weak supervision (in which simple labeling heuristics are combined to produce noisy, probabilistic labels) [@arxiv:1605.07723v3], these methods cannot overcome substantial data shortages.
 
-In the fields of computer vision and natural language processing, deep neural networks are routinely trained on sample sizes ranging from hundreds of thousands to millions of training examples. Datasets of this size are often not available in many biological contexts. Still, it has been found that under certain circumstances, deep learning can be considered for datasets with at least one hundred samples per class [@arxiv:1511.06348]. However, it is best suited for datasets that contain orders of magnitude more samples.
+In the fields of computer vision and natural language processing, deep neural networks are routinely trained on sample sizes ranging from hundreds of thousands to millions of training examples.
+Datasets of this size are often not available in many biological contexts.
+Still, it has been found that, under certain circumstances, deep learning can be considered for datasets with only one hundred samples per class [@arxiv:1511.06348]. 
+Nonetheless, deep learning is generally best suited for datasets that contain orders of magnitude more samples.
 
 Training deep learning models often requires extensive computing infrastructure and patience to achieve state-of-the-art performance [@doi:10.1109/JPROC.2017.2761740].
 In some deep learning contexts, such as generating human-like text, state-of-the-art models have over one hundred billion parameters [@arxiv:2005.14165] and require very costly and time-consuming training procedures [@arxiv:1906.02243].
@@ -526,15 +534,14 @@ In contrast to the large scale computational demands of deep learning, tradition
 Therefore, due to this enormous disparity in resource demand alone, traditional machine learning approaches may be desirable in various biological applications.
 
 Beyond requiring more data and computational capacity, building and training deep learning models often requires more expertise than training traditional machine learning models.
-There are currently several popular programming frameworks for deep learning, such as Tensorflow [@arxiv:1603.04467] and PyTorch [@arxiv:1912.01703].
-While these tools allow users to create and deploy entirely novel model architectures, this flexibility combined with the rapid development of the deep learning field has resulted in large and complex frameworks that can be daunting to new users.
-For readers new to software development but experienced in biology, gaining computational skills while interfacing with such complex industrial-grade tools can be a prohibitive challenge.
-Conversely, traditional machine learning methods are generally more straightforward to apply and are also accessible through popular frameworks [@https://www.jmlr.org/papers/v12/pedregosa11a.html].
-There are currently more tools for automating the model selection and training process for traditional machine learning models than for deep learning models.
+While popular programming frameworks for deep learning such as Tensorflow [@arxiv:1603.04467] and PyTorch [@arxiv:1912.01703] allow users to create and deploy entirely novel model architectures, this flexibility combined with the rapid development of the deep learning field has resulted in large and complex frameworks that can be daunting to new users.
+For readers new to software development but experienced in biology, gaining computational skills while also interfacing with such complex industrial-grade tools can be a prohibitive challenge.
+Conversely, traditional machine learning methods are generally more straightforward to apply and are also more accessible through popular frameworks [@https://www.jmlr.org/papers/v12/pedregosa11a.html].
+Furthermore, there are currently more tools for automating the model selection and training process for traditional machine learning models than for deep learning models.
 For example, automated machine learning (AutoML) tools, such as TPOT [@doi:10.1007/978-3-319-31204-0_9] and Turi Create [@https://github.com/apple/turicreate], are able to test and optimize multiple machine learning models automatically, and can allow users to achieve competitive performance with only a few lines of code.
 There are efforts underway to extend these and other automation frameworks to reduce the expertise required to build and use deep learning models.
 For example, TPOT, Turi Create, and AutoKeras [@arxiv:1806.10282] are already capable of abstracting away much of the programming required for "standard" deep learning tasks, and high-level interfaces such as Keras [@https://keras.io] and Fastai [@doi:10.3390/info11020108], make it increasingly straightforward to design and test custom deep learning architectures
-In the future, projects such as these are likely to make deep learning accessible to a much wider swath of researchers.
+In the future, projects such as these are likely to make deep learning accessible to a much wider range of researchers.
 
 Despite these limitations, deep learning is strongly indicated over traditional machine learning for specific research questions and problems.
 In general, these include problems that feature hidden patterns across the data, complex relationships, and interrelated variables.
@@ -586,7 +593,7 @@ Correctly training deep neural networks is non-trivial.
 There are many different options and potential pitfalls at every stage.
 To get good results, one must often train networks across a wide range of different hyperparameter settings.
 Such training can be made more difficult by the demanding nature of these deep networks, which often require extensive time investments into tuning and computing infrastructure to achieve state-of-the-art performance [@doi:10.1109/JPROC.2017.2761740].
-Furthermore, this experimentation is often noisy, necessitating increased repetition and exacerbating the organizational challenges inherent to deep learning.
+Furthermore, this experimentation is often noisy, which necessitates increased repetition and exacerbates the challenges inherent to deep learning.
 On the whole, all code, random seeds, parameters, and results must be carefully corralled using general coding standards and best practices (for example, version control [@doi:10.1371/journal.pcbi.1004947] and continuous integration [@doi:10.1038/nbt.3780]) to be reproducible and interpretable [@doi:10.1371/journal.pcbi.1003285; @arxiv:1810.08055].
 For application-based research, this organization is also fundamental to the efficient sharing of research work and the ability to keep models up to date as new data becomes available.
 
@@ -618,7 +625,7 @@ Data collection should also be carefully documented, or a data collection protoc
 
 Information about the resources used, download dates, and dataset versions are critical to preserve.
 Doing so will help to minimize operational confusion and will increase the reproducibility of the analysis.
-Best practices for reproducibility also include sharing the collected dataset and metadata along upon publication of the study, ideally in a public dataset repository if there are no ethical or privacy concerns and no copyright restrictions.
+Best practices for reproducibility also include sharing the collected dataset and metadata upon publication of the study, ideally in a public dataset repository if there are no ethical or privacy concerns and no copyright restrictions.
 While recommended and recognized dataset repositories may differ across disciplines, a list of general dataset repositories includes the Dryad repository [@doi:10.1038/npre.2010.4595.1] (https://datadryad.org/), Figshare [@doi:10.4103/0976-500X.81919] (https://figshare.com), Zenodo [@doi:10.3897/biss.3.37080] (https://zenodo.org), and the Open Science Framework [@doi:10.5195/jmla.2017.88] (https://osf.io).
 In addition, Gundersen et al. [@doi:10.1609/aimag.v39i3.2816] provide useful checklists summarizing best data sharing practices for reproducible research and open science.
 
@@ -626,7 +633,7 @@ Once the dataset is obtained, it is important to learn why and how the data were
 The standardized metadata that exists in many fields can help with this (for example, see [@doi:10.1038/ng1201-365]).
 If at all possible, we recommend consulting with a subject matter expert who has experience with the type of data being used.
 Doing so will minimize guesswork and is likely to increase the success rate of a deep learning project.
-For example, one might presume that data collected to test the impact of an intervention derives from a randomized controlled trial.
+For example, one might presume that data collected to test the impact of an intervention are derived from a randomized controlled trial.
 However, this is not always the case, as ethical or practical concerns often necessitate an observational study design that features prospectively or retrospectively collected data.
 In order to ensure similar distributions of important characteristics across study groups in the absence of randomization, such a study may have selected individuals in a fashion that best matches attributes such as age, gender, or weight.
 Passively collected datasets can have their own peculiarities, and other study designs can include samples that originate from the same study site, the oversampling of ethnic groups or zip codes, or sample processing differences.
@@ -692,8 +699,8 @@ Moreover, additional hyperparameters are introduced by common techniques that fa
 These include regularization penalties, dropout [@tag:srivastava-dropout], and batch normalization [@tag:ioffe-batchnorm], which can reduce the effect of the so-called vanishing or exploding gradient problem when working with deep neural networks.
 
 This wide array of potential parameters can make it difficult to evaluate the extent to which neural network methods are well suited to solving a task.
-It can be unclear to practitioners whether previous successful applications were the result of interactions between unique data attributes and specific hyperparameter settings.
-A lack of clarity on how extensive arrays of hyperparameters were tested or chosen can hamper method developers as they attempt to compare techniques.
+For example, it can be unclear to practitioners whether previously successful deep learning applications were the result of general model suitability for the data at hand or interactions between unique data attributes and specific hyperparameter settings.
+As a result, a lack of clarity about how extensive arrays of hyperparameters were tested or chosen can hamper method developers as they attempt to compare techniques.
 This effect also has implications for those seeking to use existing deep learning methods, as performance estimates from deep neural networks are often provided after tuning.
 The implication is that attaining performance numbers that match those reported in publications is likely to require significant effort towards temporally expensive hyperparameter optimization.
 Strategies for tuning hyperparameters include exhaustive grid search, random search, or Bayesian optimization and other specialized techniques.
@@ -770,7 +777,7 @@ After training an accurate deep learning model, it is natural to want to use it 
 However, be careful to interpret the model's predictions correctly.
 Given that deep learning models can be difficult to interpret intuitively, there is often a temptation to over-interpret the predictions in indulgent or inaccurate ways.
 In accordance with the classic statistical saying "correlation doesn't imply causation," predictions by deep learning models rarely provide causal relationships.
-Accurately predicting an outcome does not a causal mechanism has been learned, even when predictions are extremely accurate.
+Accurately predicting an outcome does not mean that a causal mechanism has been learned, even when predictions are extremely accurate.
 In a poignant example, authors evaluated the capacities of several models to predict the probability of death for patients with pneumonia admitted to an intensive care unit [@tag:predicting-pneumonia-mortality; @doi:10.1145/2783258.2788613].
 The neural network model achieved the best predictive accuracy.
 However, after fitting a rule-based model to understand the relationships inherent to their data better, the authors discovered that the hospital data implied the rule "$\text{HasAsthma}(x) \Rightarrow \text{LowerRisk}(x)$."
@@ -785,11 +792,12 @@ If causal inference is desired, special techniques for causal inference are requ
 
 ## Tip 10: Actively consider the ethical implications of your work {#privacy}
 
-While deep learning continues to be a powerful, transformative tool within life sciences research—spanning basic biology and pre-clinical science to varied translational approaches and clinical studies—it is important to comment on ethical considerations.
+While deep learning continues to be a powerful, transformative tool within life sciences research—spanning from basic biology and pre-clinical science to varied translational approaches and clinical studies—it is important to comment on ethical considerations.
 For instance, despite the fact that deep learning methods are helping to increase medical efficiency through improved diagnostic capability and risk assessment, certain biases may be inadvertently introduced into models related to patient age, race, and gender [@doi:10.1002/hast.977].
 Deep learning practitioners may make use of datasets not representative of diverse populations and patient characteristics [@doi:10.1377/hlthaff.2014.0048], thereby contributing to these problems.
 
-Therefore, it is important to think thoroughly and cautiously about deep learning applications and their potential impact to persons and society—mindful of possible harms, injuries, injustices, and other types of wrongdoings.
+Therefore, it is important to think thoroughly and cautiously about deep learning applications and their potential impact to persons and society.
+This includes being mindful of possible harms, injustices, and other types of wrongdoing.
 At a minimum, practitioners must ensure that, wherever relevant, their life sciences projects are fully compliant with local research governance and approval policies, legal requirements, Institutional Review Board policies, and any other relevant bodies and standards.
 Moreover, we offer below three tangible, action-oriented recommendations to further empower and enrichen deep learning researchers.
 
@@ -801,35 +809,30 @@ For practitioners intending to distribute trained models, having an ethics regis
 Second, to help foster a conscious ethics-oriented mindset, researchers should consider expanding journal clubs to include scholarly and popular articles detailing real-world ethics issues relevant to their scientific fields.
 This will help researchers to think more holistically and judiciously about their work and its implications.
 Third, we encourage individual- and team-level participation in professional societies [@https://asbh.org] and other types of organizations [@https://web.archive.org/web/20210112231619/https://ocean.sagepub.com/blog/10-organizations-leading-the-way-in-ethical-ai] and events [@https://www.aies-conference.com/] related to the domains of AI and data ethics as well as bioethics.
-This will encourage a sense of community and intellectual engagement, keeping practitioners abreast of cutting-edge insights and emerging professional standards.
+This will encourage a sense of community and intellectual engagement, and will keep practitioners abreast of cutting-edge insights and emerging professional standards.
 
 Furthermore, practitioners may encounter datasets that cannot be shared, such as ones for which there would be significant ethical or legal issues associated with their release [@doi:10.1371/journal.pcbi.1005399].
 Examples of such data include classified or confidential data, biological data related to trade secrets, medical records, or other personally identifiable information [@doi:10.1038/s41576-020-0257-5].
 While deep learning models can capture information-rich abstractions of multiple features of the data during the training process, these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs [@doi:10.1145/2810103.2813677; @arxiv:1610.05820].
-In other words, the complex relationships learned about the input data can potentially be used to infer characteristics about the original dataset.
-The strengths that imbue deep learnings with its great predictive capacity also raise the level of risk surrounding data privacy.
+In other words, the complex relationships learned about the input data can potentially be used to infer characteristics about the original dataset, which reflects the facts that the strengths that imbue deep learning with its great predictive capacity may also raise the level of risk surrounding data privacy.
 Therefore, while there is tremendous promise for deep learning techniques to extract information that cannot readily be captured by traditional methods [@arxiv:1509.09292], it is imperative not to share models trained on sensitive data.
 This also holds true for certain traditional machine learning methods that learn by capturing specific details of the full training data (for example, _k_-nearest neighbors models).
 
 Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption, which serves to enable equivalent prediction on data that is encrypted end-to-end [@doi:10.1371/journal.pcbi.1006454; @arxiv:1811.00778].
 Privacy-preserving techniques [@arxiv:1811.04017], such as differential privacy [@doi:10.1145/2976749.2978318; @doi:10.1101/159756; @arxiv:1812.01484], can help to mitigate risks as long as the assumptions underlying these techniques are met.
-These methods provide a path towards a future where trained models and their predictions can be shared, but more software development and theoretical advances will be required to make these techniques easy to apply correctly in many settings.
+While these methods provide a path towards a future where trained models and their predictions can be shared, more software development and theoretical advances will be required to make these techniques easy to apply correctly in many settings.
 Unless you use these techniques, do not share the weights or provide arbitrary access to the predictions of models trained on sensitive data.
 
 
 ## Conclusion {#conclusion}
 
-Collectively, our manuscript is focused on the promotion of practical tips distilled from cutting-edge insights and evolving professional standards to advance the efficient and optimal application of deep learning within research.
-It is evident that some of our points (see Tips 7, 8, 9, and 10) are intimately linked to safeguarding against key risks: for example, introduction/perpetuation of bias, overinterpretation/misinterpretation of models, poor generalizability, and potential for harm unto others—which can have a mix of ethical, legal, and social implications.
-If leveraged in ethical and responsible ways, deep learning techniques have the potential to add value within a diverse array of research and healthcare contexts, as these techniques have already shown remarkable capacity to meet or exceed the performance of human effort or older algorithms across fields and subdisciplines.
-Beyond merely achieving good predictive performance in certain tasks, deep learning has the potential to uncover high-impact biological and clinical insights, fundamentally driving research discoveries and delivery of new products to market.
-Yet, to realize its full potential, deep learning must be approached by all with genuine thoughtfulness, caution, and responsibility.
-
-Through the tips and recommendations provided within this manuscript, we hope to encourage a prudent, vigilant community of computational practitioners, experimental biologists, and clinical scientists: colleagues who, before excitedly stitching together lines of code and datasets, first pause to think, dialogue, plan, and discern how their work might have far-reaching consequences with ethical dimensions.
-This holistic approach will help us to advance accountability, beneficence, and quality in science.
-
-Thus, we aim not only to increase the accessibility of deep learning techniques within the life sciences, but also to improve upon the reproducibility and interpretability of high-quality deep learning research in the literature and scientific community—especially given that published findings, models, and datasets will be leveraged to yield innovative tools, services, and products in the marketplace.
-Indeed, we hope that these tips will serve as a powerful engine for promoting meaningful discussions, reflections, team learnings, and best practices to drive collaboration that fosters cutting-edge deep learning innovation, sensibly and responsibly.
+Collectively, our manuscript is focused on the promotion of practical tips, cutting-edge insights, and evolving professional standards that can help to advance the efficient and optimal application of deep learning across a wide range of scientific research environments.
+Specifically, we have tried to increase the accessibility of deep learning techniques within the life sciences so that these methods can generate innovative biomedical insights, tools, technologies, services, and products.
+A number of our tips (see Tips 7, 8, 9, and 10) are deeply motivated by the need to safeguard against key risks, which include the introduction and perpetuation of bias, over- or mis-interpretation of models, poor generalizability, and the potential for harm unto others.
+However, despite these concerns, deep learning techniques have the potential to add value across a diverse array of research and healthcare contexts if they are leveraged in ethical and responsible ways.
+After all, these techniques have already shown a remarkable ability to meet or exceed the performance of human effort and older algorithms across numerous fields and subdisciplines.
+In sum, we hope this work will encourage the development of a prudent and vigilant community of computational practitioners, experimental biologists, and clinical scientists that think carefully and critically about their usage and deployment of powerful deep learning techniques.
+After all, the initial discernment of the potential scientific and societal consequences of one's work is critical to the advancement of accountable, beneficent, and high-quality science.
 
 
 ## Acknowledgements {#acknowledgements}
