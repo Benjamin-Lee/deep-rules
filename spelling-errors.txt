@@ -106,7 +106,7 @@ parallelized
 perceptrons
 pharmacovigilance
 phenotypes
-pre
+Pre
 pretraining
 pseudorandom
 pstew
