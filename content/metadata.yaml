@@ -78,6 +78,9 @@ authors:
     conflicts: None
     affiliations:
       - Department of Statistics, University of Wisconsin-Madison
+    postcode: "53706"
+    approval: yes
+    accountable: yes
   -
     github: fmaguire
     name: Finlay Maguire
