@@ -198,6 +198,9 @@ authors:
     affiliations:
       - Genomics and Computational Biology Graduate Program, University of Pennsylvania
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+    postcode: "19104"
+    approval: yes
+    accountable: yes
   -
     github: betsig
     name: Beth Signal
