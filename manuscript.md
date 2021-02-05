@@ -223,19 +223,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/673c9da30d177b7e8f078cf2b0ff200617d22931/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/1a01ee64e2148adcba4e1a3d2faba83230e1282e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/673c9da30d177b7e8f078cf2b0ff200617d22931/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/1a01ee64e2148adcba4e1a3d2faba83230e1282e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/673c9da30d177b7e8f078cf2b0ff200617d22931/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/1a01ee64e2148adcba4e1a3d2faba83230e1282e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/673c9da30d177b7e8f078cf2b0ff200617d22931/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/1a01ee64e2148adcba4e1a3d2faba83230e1282e/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/673c9da30d177b7e8f078cf2b0ff200617d22931/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/1a01ee64e2148adcba4e1a3d2faba83230e1282e/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -264,9 +264,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/673c9da30d177b7e8f078cf2b0ff200617d22931/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/1a01ee64e2148adcba4e1a3d2faba83230e1282e/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@673c9da](https://github.com/Benjamin-Lee/deep-rules/tree/673c9da30d177b7e8f078cf2b0ff200617d22931)
+from [Benjamin-Lee/deep-rules@1a01ee6](https://github.com/Benjamin-Lee/deep-rules/tree/1a01ee64e2148adcba4e1a3d2faba83230e1282e)
 on February 5, 2021.
 </em></small>
 
@@ -577,7 +577,7 @@ They describe how the unequal tuning of hyperparameters across different learnin
 Therefore, practitioners should tune the settings of both traditional machine learning and deep learning-based methods before making claims about relative performance differences.
 Performance comparisons among machine learning and deep learning models are only informative when the models are equally well optimized.
 
-To sum this tip up, practitioners are encouraged to create and fully tune several traditional models and standard pipelines before implementing a deep learning model.
+In sum, practitioners are encouraged to create and fully tune several traditional models and standard pipelines before implementing a deep learning model.
 
 
 ## Tip 3: Understand the complexities of training deep neural networks {#complexities}
