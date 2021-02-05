@@ -156,6 +156,9 @@ authors:
       - Department of Oncology, Georgetown University Medical Center
       - Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center
       - Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center
+    postcode: "20007"
+    approval: yes
+    accountable: yes
     conflicts: None
     funders:
       - National Institutes of Health (R21 CA220398)
