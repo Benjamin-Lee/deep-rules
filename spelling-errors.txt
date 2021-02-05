@@ -41,7 +41,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-Datasets
+datasets
 dataset’s
 DBI
 differentiable
@@ -73,7 +73,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 hyperparmeter
 ImageNet
 interpretability
@@ -130,7 +130,7 @@ TODO
 toolset
 TPOT
 transformative
-Translational
+translational
 triaged
 Triche
 Tschira
