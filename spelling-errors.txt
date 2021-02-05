@@ -72,7 +72,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 hyperparmeter
 ImageNet
 interpretability
@@ -106,7 +106,7 @@ parallelized
 perceptrons
 pharmacovigilance
 phenotypes
-Pre
+pre
 pretraining
 pseudorandom
 pstew
