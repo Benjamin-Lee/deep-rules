@@ -178,7 +178,12 @@ authors:
     orcid: 0000-0002-6218-4429
     email: Thiago.BrittoBorges@uni-heidelberg.de
     affiliations:
-      - Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg
+      - Section of Bioinformatics and Systems Cardiology, Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg
+      - Department of Internal Medicine III (Cardiology, Angiology, and Pneumology), University Hospital Heidelberg
+    postcode: "69120"
+    conflicts: None
+    approval: yes
+    accountable: yes
   -
     github: ejfertig
     name: Elana J. Fertig
