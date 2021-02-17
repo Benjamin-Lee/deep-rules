@@ -24,6 +24,7 @@ Biomathematics
 biomedicine
 Biostatistics
 bjjdg
+Blavatnik
 blengerich
 Boca
 Britto
@@ -74,7 +75,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 hyperparmeter
 ImageNet
 interpretability
@@ -102,7 +103,7 @@ Morgridge
 multilayer
 operationalize
 overfit
-Overfitting
+overfitting
 parallelized
 perceptrons
 pharmacovigilance
