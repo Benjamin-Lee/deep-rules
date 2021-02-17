@@ -100,10 +100,9 @@ mis
 Moffitt
 Morgridge
 multilayer
-Nuffield
 operationalize
 overfit
-overfitting
+Overfitting
 parallelized
 perceptrons
 pharmacovigilance

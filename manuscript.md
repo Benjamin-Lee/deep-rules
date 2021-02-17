@@ -61,9 +61,9 @@ header-includes: '<!--
 
   <meta name="citation_author_institution" content="In-Q-Tel Labs" />
 
-  <meta name="citation_author_institution" content="National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health" />
+  <meta name="citation_author_institution" content="School of Engineering and Applied Sciences, Harvard University" />
 
-  <meta name="citation_author_institution" content="Nuffield Department of Medicine, University of Oxford" />
+  <meta name="citation_author_institution" content="Department of Genetics, Harvard Medical School" />
 
   <meta name="citation_author_orcid" content="0000-0002-7133-8397" />
 
@@ -227,19 +227,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/64f85983f0d60546769b8dec5432ee93d1199bad/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/b16896da3ec208085aa3be7bd499eeb50a9541ad/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/64f85983f0d60546769b8dec5432ee93d1199bad/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b16896da3ec208085aa3be7bd499eeb50a9541ad/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/64f85983f0d60546769b8dec5432ee93d1199bad/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b16896da3ec208085aa3be7bd499eeb50a9541ad/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/64f85983f0d60546769b8dec5432ee93d1199bad/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b16896da3ec208085aa3be7bd499eeb50a9541ad/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/64f85983f0d60546769b8dec5432ee93d1199bad/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b16896da3ec208085aa3be7bd499eeb50a9541ad/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -268,9 +268,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/64f85983f0d60546769b8dec5432ee93d1199bad/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/b16896da3ec208085aa3be7bd499eeb50a9541ad/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@64f8598](https://github.com/Benjamin-Lee/deep-rules/tree/64f85983f0d60546769b8dec5432ee93d1199bad)
+from [Benjamin-Lee/deep-rules@b16896d](https://github.com/Benjamin-Lee/deep-rules/tree/b16896da3ec208085aa3be7bd499eeb50a9541ad)
 on February 17, 2021.
 </em></small>
 
@@ -285,7 +285,7 @@ Please note the current author order is chronological and does not reflect the f
     · ![GitHub icon](images/github.svg){.inline_icon}
     [Benjamin-Lee](https://github.com/Benjamin-Lee)<br>
   <small>
-     In-Q-Tel Labs; National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health; Nuffield Department of Medicine, University of Oxford
+     In-Q-Tel Labs; School of Engineering and Applied Sciences, Harvard University; Department of Genetics, Harvard Medical School
   </small>
 
 + **Alexander J. Titus**<br>
