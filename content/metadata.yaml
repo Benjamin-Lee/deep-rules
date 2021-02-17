@@ -28,10 +28,14 @@ authors:
     name: Alexander J. Titus
     initials: AJT
     orcid: 0000-0002-0145-9564
-    email: titus.professional@gmail.com
+    email: contact@alexandertitus.com
     affiliations:
       - University of New Hampshire
       - Bioeconomy.XYZ
+    conflicts: None
+    approval: yes
+    accountable: yes
+    postcode: "03101"
   -
     github: khyu
     name: Kun-Hsing Yu
