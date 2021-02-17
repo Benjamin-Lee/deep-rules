@@ -22,7 +22,7 @@ author-meta:
 - Juan Jose Carmona
 bibliography:
 - content/manual-references.json
-date-meta: '2021-02-05'
+date-meta: '2021-02-17'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-02-05" />
+  <meta name="dc.date" content="2021-02-17" />
 
-  <meta name="citation_publication_date" content="2021-02-05" />
+  <meta name="citation_publication_date" content="2021-02-17" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -225,19 +225,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/8077ea6d484cf49e946f268f6b1aae617935ea08/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/db19ad7e94fed9d9db8430d0d0cdc03333945be2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/8077ea6d484cf49e946f268f6b1aae617935ea08/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/db19ad7e94fed9d9db8430d0d0cdc03333945be2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/8077ea6d484cf49e946f268f6b1aae617935ea08/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/db19ad7e94fed9d9db8430d0d0cdc03333945be2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/8077ea6d484cf49e946f268f6b1aae617935ea08/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/db19ad7e94fed9d9db8430d0d0cdc03333945be2/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/8077ea6d484cf49e946f268f6b1aae617935ea08/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/db19ad7e94fed9d9db8430d0d0cdc03333945be2/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -266,10 +266,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/8077ea6d484cf49e946f268f6b1aae617935ea08/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/db19ad7e94fed9d9db8430d0d0cdc03333945be2/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@8077ea6](https://github.com/Benjamin-Lee/deep-rules/tree/8077ea6d484cf49e946f268f6b1aae617935ea08)
-on February 5, 2021.
+from [Benjamin-Lee/deep-rules@db19ad7](https://github.com/Benjamin-Lee/deep-rules/tree/db19ad7e94fed9d9db8430d0d0cdc03333945be2)
+on February 17, 2021.
 </em></small>
 
 ## Authors
@@ -826,13 +826,13 @@ Unless you use these techniques, do not share the weights or provide arbitrary a
 
 ## Conclusion {#conclusion}
 
-Collectively, our manuscript is focused on the promotion of practical tips, cutting-edge insights, and evolving professional standards that can help to advance the efficient and optimal application of deep learning across a wide range of scientific research environments.
-Specifically, we have tried to increase the accessibility of deep learning techniques within the life sciences so that these methods can generate innovative biomedical insights, tools, technologies, services, and products.
-A number of our tips (see Tips 7, 8, 9, and 10) are deeply motivated by the need to safeguard against key risks, which include the introduction and perpetuation of bias, over- or mis-interpretation of models, poor generalizability, and the potential for harm unto others.
-However, despite these concerns, deep learning techniques have the potential to add value across a diverse array of research and healthcare contexts if they are leveraged in ethical and responsible ways.
-After all, these techniques have already shown a remarkable ability to meet or exceed the performance of human effort and older algorithms across numerous fields and subdisciplines.
-In sum, we hope this work will encourage the development of a prudent and vigilant community of computational practitioners, experimental biologists, and clinical scientists that think carefully and critically about their usage and deployment of powerful deep learning techniques.
-After all, the initial discernment of the potential scientific and societal consequences of one's work is critical to the advancement of accountable, beneficent, and high-quality science.
+Collectively, we have presented practical tips that emphasize cutting-edge insights and describe evolving professional standards.
+In addition, a number of our points are focused on safeguarding against the risks inherent to data science and deep learning.
+These risks include the over- and mis-interpretation of models, poor generalizability, and the potential to harm others.
+However, we want to strongly emphasize that when used ethically and responsibly, deep learning techniques have the potential to add tremendous value across a diverse range of contexts.
+After all, these techniques have already shown a remarkable capacity to meet or exceed the performance of both humans and traditional algorithms and have the potential to uncover biomedical insights that drive discovery and innovation.
+By taking a comprehensive and careful approach to deep learning based on critical thinking about research questions, planning to maintain rigor, and discerning how  work might have far-reaching consequences with ethical dimensions, the life science community can advance reproducible, interpretable, and high-quality science that is enriching and beneficial for both scientists and society.
+Indeed, we hope that these tips will serve as a powerful engine for promoting meaningful discussions, reflections, team learnings, and best practices to drive collaboration that fosters cutting-edge deep learning innovation, sensibly and responsibly.
 
 
 ## Acknowledgements {#acknowledgements}

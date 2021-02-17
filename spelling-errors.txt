@@ -73,7 +73,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 hyperparmeter
 ImageNet
 interpretability
@@ -91,6 +91,7 @@ Koutsoukas
 krogh
 Kun
 learnable
+learnings
 Lengerich
 Lustgarten
 Maguire
@@ -121,7 +122,6 @@ Sigler
 Simina
 SiminaB
 specificities
-subdisciplines
 subfield
 tbrittoborges
 Tensorflow
