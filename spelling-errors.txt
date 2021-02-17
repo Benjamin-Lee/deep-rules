@@ -41,7 +41,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-datasets
+Datasets
 dataset’s
 DBI
 differentiable
@@ -91,7 +91,6 @@ Koutsoukas
 krogh
 Kun
 learnable
-learnings
 Lengerich
 Lustgarten
 Maguire

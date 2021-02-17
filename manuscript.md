@@ -225,19 +225,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/db19ad7e94fed9d9db8430d0d0cdc03333945be2/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/db19ad7e94fed9d9db8430d0d0cdc03333945be2/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/db19ad7e94fed9d9db8430d0d0cdc03333945be2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/db19ad7e94fed9d9db8430d0d0cdc03333945be2/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/db19ad7e94fed9d9db8430d0d0cdc03333945be2/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -266,9 +266,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/db19ad7e94fed9d9db8430d0d0cdc03333945be2/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@db19ad7](https://github.com/Benjamin-Lee/deep-rules/tree/db19ad7e94fed9d9db8430d0d0cdc03333945be2)
+from [Benjamin-Lee/deep-rules@9c25c47](https://github.com/Benjamin-Lee/deep-rules/tree/9c25c47c291e9fb94c95c6d0237be203a1e5eab4)
 on February 17, 2021.
 </em></small>
 
@@ -832,7 +832,6 @@ These risks include the over- and mis-interpretation of models, poor generalizab
 However, we want to strongly emphasize that when used ethically and responsibly, deep learning techniques have the potential to add tremendous value across a diverse range of contexts.
 After all, these techniques have already shown a remarkable capacity to meet or exceed the performance of both humans and traditional algorithms and have the potential to uncover biomedical insights that drive discovery and innovation.
 By taking a comprehensive and careful approach to deep learning based on critical thinking about research questions, planning to maintain rigor, and discerning how  work might have far-reaching consequences with ethical dimensions, the life science community can advance reproducible, interpretable, and high-quality science that is enriching and beneficial for both scientists and society.
-Indeed, we hope that these tips will serve as a powerful engine for promoting meaningful discussions, reflections, team learnings, and best practices to drive collaboration that fosters cutting-edge deep learning innovation, sensibly and responsibly.
 
 
 ## Acknowledgements {#acknowledgements}
