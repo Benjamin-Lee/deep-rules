@@ -6,6 +6,7 @@ AlexanderTitus
 Alexandr
 alxndrkalinin
 Andel
+Angiology
 anthonygitter
 approximators
 arxiv
@@ -41,7 +42,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-Datasets
+datasets
 dataset’s
 DBI
 differentiable
@@ -107,6 +108,7 @@ parallelized
 perceptrons
 pharmacovigilance
 phenotypes
+Pneumology
 pre
 pretraining
 pseudorandom
@@ -129,7 +131,7 @@ TODO
 toolset
 TPOT
 transformative
-translational
+Translational
 triaged
 Triche
 Tschira

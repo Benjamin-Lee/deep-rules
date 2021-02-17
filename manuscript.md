@@ -171,7 +171,9 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Thiago Britto-Borges" />
 
-  <meta name="citation_author_institution" content="Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg" />
+  <meta name="citation_author_institution" content="Section of Bioinformatics and Systems Cardiology, Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg" />
+
+  <meta name="citation_author_institution" content="Department of Internal Medicine III (Cardiology, Angiology, and Pneumology), University Hospital Heidelberg" />
 
   <meta name="citation_author_orcid" content="0000-0002-6218-4429" />
 
@@ -225,19 +227,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/64f85983f0d60546769b8dec5432ee93d1199bad/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/64f85983f0d60546769b8dec5432ee93d1199bad/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/64f85983f0d60546769b8dec5432ee93d1199bad/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/64f85983f0d60546769b8dec5432ee93d1199bad/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/64f85983f0d60546769b8dec5432ee93d1199bad/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -266,9 +268,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/9c25c47c291e9fb94c95c6d0237be203a1e5eab4/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/64f85983f0d60546769b8dec5432ee93d1199bad/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@9c25c47](https://github.com/Benjamin-Lee/deep-rules/tree/9c25c47c291e9fb94c95c6d0237be203a1e5eab4)
+from [Benjamin-Lee/deep-rules@64f8598](https://github.com/Benjamin-Lee/deep-rules/tree/64f85983f0d60546769b8dec5432ee93d1199bad)
 on February 17, 2021.
 </em></small>
 
@@ -421,7 +423,7 @@ Please note the current author order is chronological and does not reflect the f
     · ![GitHub icon](images/github.svg){.inline_icon}
     [tbrittoborges](https://github.com/tbrittoborges)<br>
   <small>
-     Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg
+     Section of Bioinformatics and Systems Cardiology, Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg; Department of Internal Medicine III (Cardiology, Angiology, and Pneumology), University Hospital Heidelberg
   </small>
 
 + **Elana J. Fertig**<br>
