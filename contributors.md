@@ -33,7 +33,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Brett Beaulieu-Jones | Yes        |                           |          |                |             |
 | Julian Stanley       | Yes        |                           |          |                |             |
 | Paul Stewart         | Yes        | Yes                       | Yes      |                |             |
-| Thiago Britto Borges | Yes        | Yes                       | Yes      |                |             |
+| Thiago Britto Borges | Yes        | Yes                       | Yes      |                | Yes         |
 | Isaac Lazzeri        | Yes        |                           |          |                |             |
 | Sebastian Raschka    | Yes        | Yes                       | Yes      |                |             |
 | Fábio Madeira        | Yes        |                           |          |                |             |
