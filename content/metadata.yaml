@@ -45,6 +45,13 @@ authors:
     email: Kun-Hsing_Yu@hms.harvard.edu
     affiliations:
       - Department of Biomedical Informatics, Harvard Medical School
+      - Department of Pathology, Brigham and Women's Hospital
+    conflicts: Yu is an inventor of a quantitative pathology analytical system (U.S. Patent 10,832,406). This invention is not related to this work.
+    approval: yes
+    accountable: yes
+    postcode: "02115"
+    funders: 
+      - Blavatnik Center for Computational Biomedicine Award
   -
     github: chevrm
     name: Marc G. Chevrette
