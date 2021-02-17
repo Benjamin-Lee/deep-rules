@@ -15,11 +15,14 @@ authors:
     initials: BDL
     orcid: 0000-0002-7133-8397
     email: benjamindlee@me.com
-    conflicts: None
     affiliations:
       - In-Q-Tel Labs
       - School of Engineering and Applied Sciences, Harvard University
       - Department of Genetics, Harvard Medical School
+    conflicts: None
+    approval: yes
+    accountable: yes
+    postcode: "02138"
   -
     github: AlexanderTitus
     name: Alexander J. Titus
