@@ -2,7 +2,7 @@ AAD
 Acknowledgements
 agitter
 ajlee
-AlexanderTitus
+alexandertitus
 Alexandr
 alxndrkalinin
 Andel

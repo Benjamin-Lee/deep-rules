@@ -75,6 +75,8 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0002-0145-9564" />
 
+  <meta name="twitter:creator" content="@1alexandertitus" />
+
   <meta name="citation_author" content="Kun-Hsing Yu" />
 
   <meta name="citation_author_institution" content="Department of Biomedical Informatics, Harvard Medical School" />
@@ -227,19 +229,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/b16896da3ec208085aa3be7bd499eeb50a9541ad/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/8f8604cc87a891011ca0a89caf1b100a2eba2ddd/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b16896da3ec208085aa3be7bd499eeb50a9541ad/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/8f8604cc87a891011ca0a89caf1b100a2eba2ddd/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b16896da3ec208085aa3be7bd499eeb50a9541ad/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/8f8604cc87a891011ca0a89caf1b100a2eba2ddd/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b16896da3ec208085aa3be7bd499eeb50a9541ad/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/8f8604cc87a891011ca0a89caf1b100a2eba2ddd/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b16896da3ec208085aa3be7bd499eeb50a9541ad/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/8f8604cc87a891011ca0a89caf1b100a2eba2ddd/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -268,9 +270,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/b16896da3ec208085aa3be7bd499eeb50a9541ad/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/8f8604cc87a891011ca0a89caf1b100a2eba2ddd/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@b16896d](https://github.com/Benjamin-Lee/deep-rules/tree/b16896da3ec208085aa3be7bd499eeb50a9541ad)
+from [Benjamin-Lee/deep-rules@8f8604c](https://github.com/Benjamin-Lee/deep-rules/tree/8f8604cc87a891011ca0a89caf1b100a2eba2ddd)
 on February 17, 2021.
 </em></small>
 
@@ -292,7 +294,9 @@ Please note the current author order is chronological and does not reflect the f
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-0145-9564](https://orcid.org/0000-0002-0145-9564)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [AlexanderTitus](https://github.com/AlexanderTitus)<br>
+    [AlexanderTitus](https://github.com/AlexanderTitus)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [1alexandertitus](https://twitter.com/1alexandertitus)<br>
   <small>
      University of New Hampshire; Bioeconomy.XYZ
   </small>
