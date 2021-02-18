@@ -64,11 +64,18 @@ authors:
   -
     github: pstew
     name: Paul Allen Stewart
+    twitter: biodataguy
     initials: PAS
     orcid: 0000-0003-0882-308X
     email: paul.stewart@moffitt.org
     affiliations:
       - Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center
+    conflicts: None
+    approval: yes
+    accountable: yes
+    postcode: "33647"
+    funders:
+      - Moffitt Cancer Center Support Grant (P30-CA076292)
   -
     github: evancofer
     name: Evan M. Cofer
