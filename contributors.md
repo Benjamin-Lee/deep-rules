@@ -22,7 +22,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Anthony Gitter       | Yes        | Yes                       | Yes      |                | Yes         |
 | Tim Triche, Jr.      | Yes        | Yes                       | Yes      |                | Yes         |
 | Simina M. Boca       | Yes        | Yes                       | Yes      |                | Yes         |
-| Kun-Hsing Yu         | Yes        | Yes                       | Yes      |                |             |
+| Kun-Hsing Yu         | Yes        | Yes                       | Yes      |                | Yes         |
 | Andrew L. Beam       | Yes        | Yes                       |          |                |             |
 | Hugo Aerts           | Yes        |                           |          |                |             |
 | Beth Signal          | Yes        | Yes                       | Yes      |                | Yes         |
