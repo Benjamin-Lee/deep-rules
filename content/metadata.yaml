@@ -271,7 +271,11 @@ authors:
     twitter: jcveritas
     email: carmona@mail.harvard.edu
     affiliations:
-      - Philips Healthcare
-      - Philips Research North America
+      - Philips Healthcare, Cambridge, MA, USA
+      - Philips Research North America, Cambridge, MA, USA
+    postcode: "02143"
+    conflicts: None
+    approval: yes
+    accountable: yes
       
   # ^^^ Add your information above this line ^^^
