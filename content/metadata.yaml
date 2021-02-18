@@ -124,9 +124,15 @@ authors:
     name: Alexandr A. Kalinin
     initials: AAK
     orcid: 0000-0003-4563-3226
+    twitter: alxndrkalinin
     email: akalinin@umich.edu
     affiliations:
-      - Department of Computational Medicine and Bioinformatics, University of Michigan
+      - Medical Big Data Group, Shenzhen Research Institute of Big Data, China
+      - Department of Computational Medicine and Bioinformatics, University of Michigan, USA
+    conflicts: Co-inventor on 4 patent applications related to machine learning applications in biology
+    postcode: "518172"
+    approval: yes
+    accountable: yes
   -
     github: agitter
     name: Anthony Gitter
