@@ -21,7 +21,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-biomedicine
+Biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -75,7 +75,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 hyperparmeter
 ImageNet
 interpretability
@@ -103,7 +103,7 @@ Morgridge
 multilayer
 operationalize
 overfit
-overfitting
+Overfitting
 parallelized
 perceptrons
 pharmacovigilance
@@ -131,7 +131,7 @@ TODO
 toolset
 TPOT
 transformative
-Translational
+translational
 triaged
 Triche
 Tschira
