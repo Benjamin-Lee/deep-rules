@@ -217,9 +217,9 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Juan Jose Carmona" />
 
-  <meta name="citation_author_institution" content="Philips Healthcare" />
+  <meta name="citation_author_institution" content="Philips Healthcare, Cambridge, MA, USA" />
 
-  <meta name="citation_author_institution" content="Philips Research North America" />
+  <meta name="citation_author_institution" content="Philips Research North America, Cambridge, MA, USA" />
 
   <meta name="citation_author_orcid" content="0000-0002-3029-4658" />
 
@@ -237,19 +237,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/4467bffff6558699e7a482c18c5daa9a4b3c5a91/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/4467bffff6558699e7a482c18c5daa9a4b3c5a91/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/4467bffff6558699e7a482c18c5daa9a4b3c5a91/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/4467bffff6558699e7a482c18c5daa9a4b3c5a91/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/4467bffff6558699e7a482c18c5daa9a4b3c5a91/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -278,9 +278,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/4467bffff6558699e7a482c18c5daa9a4b3c5a91/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@d4678e3](https://github.com/Benjamin-Lee/deep-rules/tree/d4678e3e30e1ac91d5b66fd19118e484be2a6bca)
+from [Benjamin-Lee/deep-rules@4467bff](https://github.com/Benjamin-Lee/deep-rules/tree/4467bffff6558699e7a482c18c5daa9a4b3c5a91)
 on February 18, 2021.
 </em></small>
 
@@ -490,7 +490,7 @@ Please note the current author order is chronological and does not reflect the f
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [jcveritas](https://twitter.com/jcveritas)<br>
   <small>
-     Philips Healthcare; Philips Research North America
+     Philips Healthcare, Cambridge, MA, USA; Philips Research North America, Cambridge, MA, USA
   </small>
 
 
