@@ -99,6 +99,8 @@ header-includes: '<!--
 
   <meta name="citation_author_orcid" content="0000-0003-0882-308X" />
 
+  <meta name="twitter:creator" content="@biodataguy" />
+
   <meta name="citation_author" content="Evan M. Cofer" />
 
   <meta name="citation_author_institution" content="Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA" />
@@ -129,9 +131,13 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Alexandr A. Kalinin" />
 
-  <meta name="citation_author_institution" content="Department of Computational Medicine and Bioinformatics, University of Michigan" />
+  <meta name="citation_author_institution" content="Medical Big Data Group, Shenzhen Research Institute of Big Data, China" />
+
+  <meta name="citation_author_institution" content="Department of Computational Medicine and Bioinformatics, University of Michigan, USA" />
 
   <meta name="citation_author_orcid" content="0000-0003-4563-3226" />
+
+  <meta name="twitter:creator" content="@alxndrkalinin" />
 
   <meta name="citation_author" content="Anthony Gitter" />
 
@@ -231,19 +237,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/3d4eba553ee7fb011110759bbb8b60aebbf96c32/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/3d4eba553ee7fb011110759bbb8b60aebbf96c32/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/3d4eba553ee7fb011110759bbb8b60aebbf96c32/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/3d4eba553ee7fb011110759bbb8b60aebbf96c32/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/3d4eba553ee7fb011110759bbb8b60aebbf96c32/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -272,9 +278,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/3d4eba553ee7fb011110759bbb8b60aebbf96c32/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d4678e3e30e1ac91d5b66fd19118e484be2a6bca/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@3d4eba5](https://github.com/Benjamin-Lee/deep-rules/tree/3d4eba553ee7fb011110759bbb8b60aebbf96c32)
+from [Benjamin-Lee/deep-rules@d4678e3](https://github.com/Benjamin-Lee/deep-rules/tree/d4678e3e30e1ac91d5b66fd19118e484be2a6bca)
 on February 18, 2021.
 </em></small>
 
@@ -328,9 +334,12 @@ Please note the current author order is chronological and does not reflect the f
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-0882-308X](https://orcid.org/0000-0003-0882-308X)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [pstew](https://github.com/pstew)<br>
+    [pstew](https://github.com/pstew)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [biodataguy](https://twitter.com/biodataguy)<br>
   <small>
      Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center
+     · Funded by Moffitt Cancer Center Support Grant (P30-CA076292)
   </small>
 
 + **Evan M. Cofer**<br>
@@ -378,9 +387,11 @@ Please note the current author order is chronological and does not reflect the f
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-4563-3226](https://orcid.org/0000-0003-4563-3226)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [alxndrkalinin](https://github.com/alxndrkalinin)<br>
+    [alxndrkalinin](https://github.com/alxndrkalinin)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [alxndrkalinin](https://twitter.com/alxndrkalinin)<br>
   <small>
-     Department of Computational Medicine and Bioinformatics, University of Michigan
+     Medical Big Data Group, Shenzhen Research Institute of Big Data, China; Department of Computational Medicine and Bioinformatics, University of Michigan, USA
   </small>
 
 + **Anthony Gitter**<br>

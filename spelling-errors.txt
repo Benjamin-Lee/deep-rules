@@ -2,7 +2,7 @@ AAD
 Acknowledgements
 agitter
 ajlee
-alexandertitus
+AlexanderTitus
 Alexandr
 alxndrkalinin
 Andel
@@ -17,11 +17,12 @@ backends
 benchmarked
 betsig
 bioactivity
+biodataguy
 Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-Biomedicine
+biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -103,7 +104,7 @@ Morgridge
 multilayer
 operationalize
 overfit
-Overfitting
+overfitting
 parallelized
 perceptrons
 pharmacovigilance
@@ -119,6 +120,7 @@ Rajkomar
 rasbt
 Raschka
 reproducibility
+Shenzhen
 Sigler
 Simina
 SiminaB
