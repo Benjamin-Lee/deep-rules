@@ -79,6 +79,7 @@ authors:
   -
     github: evancofer
     name: Evan M. Cofer
+    twitter: evan_cofer
     initials: EMC
     orcid: 0000-0003-3877-0433
     email: ecofer@princeton.edu
@@ -86,6 +87,9 @@ authors:
       - Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA
       - Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA
     conflicts: None
+    postcode: "08544"
+    approval: yes
+    accountable: yes
     funders:
       - National Institutes of Health (T32 HG003284)
       - National Science Foundation Graduate Research Fellowship Program
