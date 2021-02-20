@@ -22,7 +22,7 @@ author-meta:
 - Juan Jose Carmona
 bibliography:
 - content/manual-references.json
-date-meta: '2021-02-18'
+date-meta: '2021-02-20'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-02-18" />
+  <meta name="dc.date" content="2021-02-20" />
 
-  <meta name="citation_publication_date" content="2021-02-18" />
+  <meta name="citation_publication_date" content="2021-02-20" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -108,6 +108,8 @@ header-includes: '<!--
   <meta name="citation_author_institution" content="Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA" />
 
   <meta name="citation_author_orcid" content="0000-0003-3877-0433" />
+
+  <meta name="twitter:creator" content="@evan_cofer" />
 
   <meta name="citation_author" content="Sebastian Raschka" />
 
@@ -237,19 +239,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/4467bffff6558699e7a482c18c5daa9a4b3c5a91/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/a65ef5df448610f772d9b839e1767497dd3515f5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/4467bffff6558699e7a482c18c5daa9a4b3c5a91/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a65ef5df448610f772d9b839e1767497dd3515f5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/4467bffff6558699e7a482c18c5daa9a4b3c5a91/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a65ef5df448610f772d9b839e1767497dd3515f5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/4467bffff6558699e7a482c18c5daa9a4b3c5a91/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a65ef5df448610f772d9b839e1767497dd3515f5/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/4467bffff6558699e7a482c18c5daa9a4b3c5a91/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a65ef5df448610f772d9b839e1767497dd3515f5/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -278,10 +280,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/4467bffff6558699e7a482c18c5daa9a4b3c5a91/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a65ef5df448610f772d9b839e1767497dd3515f5/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@4467bff](https://github.com/Benjamin-Lee/deep-rules/tree/4467bffff6558699e7a482c18c5daa9a4b3c5a91)
-on February 18, 2021.
+from [Benjamin-Lee/deep-rules@a65ef5d](https://github.com/Benjamin-Lee/deep-rules/tree/a65ef5df448610f772d9b839e1767497dd3515f5)
+on February 20, 2021.
 </em></small>
 
 ## Authors
@@ -346,7 +348,9 @@ Please note the current author order is chronological and does not reflect the f
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-3877-0433](https://orcid.org/0000-0003-3877-0433)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [evancofer](https://github.com/evancofer)<br>
+    [evancofer](https://github.com/evancofer)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [evan_cofer](https://twitter.com/evan_cofer)<br>
   <small>
      Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA; Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA
      · Funded by National Institutes of Health (T32 HG003284); National Science Foundation Graduate Research Fellowship Program
