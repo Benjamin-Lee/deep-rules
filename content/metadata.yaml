@@ -50,7 +50,7 @@ authors:
     approval: yes
     accountable: yes
     postcode: "02115"
-    funders: 
+    funders:
       - Blavatnik Center for Computational Biomedicine Award
   -
     github: chevrm
@@ -266,7 +266,11 @@ authors:
     orcid: 0000-0002-6839-2392
     email: beth.signal@gmail.com
     affiliations:
-      - School of Medicine, College of Health and Medicine, University of Tasmania     
+      - School of Medicine, College of Health and Medicine, University of Tasmania
+    postcode: "7001"
+    approval: yes
+    accountable: yes
+    conflicts: None
   -
     github: juancarmona
     name: Juan Jose Carmona
@@ -281,5 +285,5 @@ authors:
     conflicts: None
     approval: yes
     accountable: yes
-      
+
   # ^^^ Add your information above this line ^^^
