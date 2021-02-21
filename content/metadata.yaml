@@ -256,6 +256,9 @@ authors:
     affiliations:
       - Genomics and Computational Biology Graduate Program, University of Pennsylvania
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+    funders:
+      - the Gordon and Betty Moore Foundation (GBMF 4552)
+    conflicts: None
     postcode: "19104"
     approval: yes
     accountable: yes
