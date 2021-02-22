@@ -251,6 +251,8 @@ authors:
     funders:
       - National Institutes of Health (R01DE027809)
     postcode: "21205"
+    approval: yes
+    accountable: yes
   -
     github: ajlee21
     name: Alexandra J. Lee
