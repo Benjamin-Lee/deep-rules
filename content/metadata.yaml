@@ -17,17 +17,26 @@ authors:
     email: benjamindlee@me.com
     affiliations:
       - In-Q-Tel Labs
-      - National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health
-      - Nuffield Department of Medicine, University of Oxford
+      - School of Engineering and Applied Sciences, Harvard University
+      - Department of Genetics, Harvard Medical School
+    conflicts: None
+    approval: yes
+    accountable: yes
+    postcode: "02138"
   -
     github: AlexanderTitus
     name: Alexander J. Titus
     initials: AJT
     orcid: 0000-0002-0145-9564
-    email: titus.professional@gmail.com
+    email: contact@alexandertitus.com
     affiliations:
       - University of New Hampshire
       - Bioeconomy.XYZ
+    conflicts: None
+    approval: yes
+    accountable: yes
+    postcode: "03101"
+    twitter: 1alexandertitus
   -
     github: khyu
     name: Kun-Hsing Yu
@@ -36,6 +45,13 @@ authors:
     email: Kun-Hsing_Yu@hms.harvard.edu
     affiliations:
       - Department of Biomedical Informatics, Harvard Medical School
+      - Department of Pathology, Brigham and Women's Hospital
+    conflicts: Yu is an inventor of a quantitative pathology analytical system (U.S. Patent 10,832,406). This invention is not related to this work.
+    approval: yes
+    accountable: yes
+    postcode: "02115"
+    funders:
+      - Blavatnik Center for Computational Biomedicine Award
   -
     github: chevrm
     name: Marc G. Chevrette
@@ -48,14 +64,22 @@ authors:
   -
     github: pstew
     name: Paul Allen Stewart
+    twitter: biodataguy
     initials: PAS
     orcid: 0000-0003-0882-308X
     email: paul.stewart@moffitt.org
     affiliations:
       - Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center
+    conflicts: None
+    approval: yes
+    accountable: yes
+    postcode: "33647"
+    funders:
+      - Moffitt Cancer Center Support Grant (P30-CA076292)
   -
     github: evancofer
     name: Evan M. Cofer
+    twitter: evan_cofer
     initials: EMC
     orcid: 0000-0003-3877-0433
     email: ecofer@princeton.edu
@@ -63,9 +87,12 @@ authors:
       - Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ, USA
       - Graduate Program in Quantitative and Computational Biology, Princeton University, Princeton, NJ, USA
     conflicts: None
+    postcode: "08544"
+    approval: yes
+    accountable: yes
     funders:
-        - National Institutes of Health (T32 HG003284)
-        - National Science Foundation Graduate Research Fellowship Program
+      - National Institutes of Health (T32 HG003284)
+      - National Science Foundation Graduate Research Fellowship Program
   -
     github: rasbt
     name: Sebastian Raschka
@@ -78,6 +105,9 @@ authors:
     conflicts: None
     affiliations:
       - Department of Statistics, University of Wisconsin-Madison
+    postcode: "53706"
+    approval: yes
+    accountable: yes
   -
     github: fmaguire
     name: Finlay Maguire
@@ -89,6 +119,9 @@ authors:
       - Donald Hill Family Fellowship
     affiliations:
       - Faculty of Computer Science, Dalhousie University
+    postcode: "B3H 4R2"
+    approval: yes
+    accountable: yes
   -
     github: blengerich
     name: Benjamin J. Lengerich
@@ -97,14 +130,24 @@ authors:
     email: blengeri@andrew.cmu.edu
     affiliations:
       - Computer Science Department, Carnegie Mellon University
+    conflcts: None
+    approval: yes
+    accountable: yes
+    postcode: "15213"
   -
     github: alxndrkalinin
     name: Alexandr A. Kalinin
     initials: AAK
     orcid: 0000-0003-4563-3226
+    twitter: alxndrkalinin
     email: akalinin@umich.edu
     affiliations:
-      - Department of Computational Medicine and Bioinformatics, University of Michigan
+      - Medical Big Data Group, Shenzhen Research Institute of Big Data, China
+      - Department of Computational Medicine and Bioinformatics, University of Michigan, USA
+    conflicts: Co-inventor on 4 patent applications related to machine learning applications in biology
+    postcode: "518172"
+    approval: yes
+    accountable: yes
   -
     github: agitter
     name: Anthony Gitter
@@ -113,8 +156,15 @@ authors:
     twitter: anthonygitter
     email: gitter@biostat.wisc.edu
     affiliations:
-      - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison
-      - Morgridge Institute for Research
+      - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, USA
+      - Morgridge Institute for Research, Madison, Wisconsin, USA
+    conflicts: Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells
+    funders:
+      - National Science Foundation (DBI 1553206)
+      - National Institutes of Health (R01GM135631)
+    postcode: "53715"
+    approval: yes
+    accountable: yes
   -
     github: cgreene
     name: Casey S. Greene
@@ -129,6 +179,9 @@ authors:
     funders:
       - National Institutes of Health (R01 HG010067)
       - the Gordon and Betty Moore Foundation (GBMF 4552)
+    postcode: "80045"
+    approval: yes
+    accountable: yes
   -
     github: SiminaB
     name: Simina M. Boca
@@ -140,6 +193,12 @@ authors:
       - Department of Oncology, Georgetown University Medical Center
       - Department of Biostatistics, Bioinformatics and Biomathematics, Georgetown University Medical Center
       - Cancer Prevention and Control Program, Lombardi Comprehensive Cancer Center
+    postcode: "20007"
+    approval: yes
+    accountable: yes
+    conflicts: None
+    funders:
+      - National Institutes of Health (R21 CA220398)
   -
     github: ttriche
     name: Timothy J. Triche, Jr.
@@ -156,7 +215,12 @@ authors:
     orcid: 0000-0002-6218-4429
     email: Thiago.BrittoBorges@uni-heidelberg.de
     affiliations:
-      - Section of Bioinformatics and Systems Cardiology, Department of Internal Medicine III and Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg
+      - Section of Bioinformatics and Systems Cardiology, Klaus Tschira Institute for Integrative Computational Cardiology, University Hospital Heidelberg
+      - Department of Internal Medicine III (Cardiology, Angiology, and Pneumology), University Hospital Heidelberg
+    postcode: "69120"
+    conflicts: None
+    approval: yes
+    accountable: yes
   -
     github: ejfertig
     name: Elana J. Fertig
@@ -196,6 +260,12 @@ authors:
     affiliations:
       - Genomics and Computational Biology Graduate Program, University of Pennsylvania
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+    funders:
+      - the Gordon and Betty Moore Foundation (GBMF 4552)
+    conflicts: None
+    postcode: "19104"
+    approval: yes
+    accountable: yes
   -
     github: betsig
     name: Beth Signal
@@ -203,7 +273,11 @@ authors:
     orcid: 0000-0002-6839-2392
     email: beth.signal@gmail.com
     affiliations:
-      - School of Medicine, College of Health and Medicine, University of Tasmania     
+      - School of Medicine, College of Health and Medicine, University of Tasmania
+    postcode: "7001"
+    approval: yes
+    accountable: yes
+    conflicts: None
   -
     github: juancarmona
     name: Juan Jose Carmona
@@ -212,7 +286,11 @@ authors:
     twitter: jcveritas
     email: carmona@mail.harvard.edu
     affiliations:
-      - Philips Healthcare
-      - Philips Research North America
-      
+      - Philips Healthcare, Cambridge, MA, USA
+      - Philips Research North America, Cambridge, MA, USA
+    postcode: "02143"
+    conflicts: None
+    approval: yes
+    accountable: yes
+
   # ^^^ Add your information above this line ^^^

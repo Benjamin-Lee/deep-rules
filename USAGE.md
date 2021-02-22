@@ -241,7 +241,11 @@ affiliations:  # as a list, strongly suggested
   - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   - Department of Biological & Medical Informatics, University of California, San Francisco
 funders:
-  - GBMF4552  # optional list of author's funding
+  - The Gordon and Betty Moore Foundation (GBMF 4552)  # optional list of author's funding with funder and award number if applicable
+conflicts: None # mandatory phrase listing conflicts of interest or None
+postcode: "01234" # mandatory postcode of address of primary affiliation in double quotes
+approval: yes # mandatory, yes indicates the author has read and approved the manuscript per ICMJE authorship criteria
+accountable: yes # mandatory, yes indicates the author agrees to be accountable for all aspects of the work per ICMJE authorship criteria
 ```
 
 Note that `affiliations` should be a list to allow for multiple affiliations per author.

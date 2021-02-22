@@ -22,7 +22,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Anthony Gitter       | Yes        | Yes                       | Yes      |                | Yes         |
 | Tim Triche, Jr.      | Yes        | Yes                       | Yes      |                | Yes         |
 | Simina M. Boca       | Yes        | Yes                       | Yes      |                | Yes         |
-| Kun-Hsing Yu         | Yes        | Yes                       | Yes      |                |             |
+| Kun-Hsing Yu         | Yes        | Yes                       | Yes      |                | Yes         |
 | Andrew L. Beam       | Yes        | Yes                       |          |                |             |
 | Hugo Aerts           | Yes        |                           |          |                |             |
 | Beth Signal          | Yes        | Yes                       | Yes      |                | Yes         |
@@ -33,7 +33,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Brett Beaulieu-Jones | Yes        |                           |          |                |             |
 | Julian Stanley       | Yes        |                           |          |                |             |
 | Paul Stewart         | Yes        | Yes                       | Yes      |                |             |
-| Thiago Britto Borges | Yes        | Yes                       | Yes      |                |             |
+| Thiago Britto Borges | Yes        | Yes                       | Yes      |                | Yes         |
 | Isaac Lazzeri        | Yes        |                           |          |                |             |
 | Sebastian Raschka    | Yes        | Yes                       | Yes      |                |             |
 | Fábio Madeira        | Yes        |                           |          |                |             |
@@ -54,3 +54,4 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Joe Greener          | Yes        |                           |          |                |             |
 | Elana Fertig         | Yes        | Yes                       | Yes      |                | Yes         |
 | Juan Jose Carmona    | Yes        | Yes                       | Yes      |                | Yes         |
+| Michael Kessler      | Yes        | Yes                       | Yes      |                |             |
