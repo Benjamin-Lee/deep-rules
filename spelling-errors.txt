@@ -22,7 +22,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-Biomedicine
+biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -35,7 +35,7 @@ Chevrette
 chevrm
 Chuang
 CNNs
-cofer
+Cofer
 colocating
 compendia
 convolutional
@@ -44,7 +44,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-datasets
+Datasets
 dataset’s
 DBI
 differentiable
@@ -104,13 +104,13 @@ Morgridge
 multilayer
 operationalize
 overfit
-Overfitting
+overfitting
 parallelized
 perceptrons
 pharmacovigilance
 phenotypes
 Pneumology
-pre
+Pre
 pretraining
 pseudorandom
 pstew
