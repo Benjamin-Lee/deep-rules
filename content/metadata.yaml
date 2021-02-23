@@ -61,6 +61,12 @@ authors:
     email: chevrette@wisc.edu
     affiliations:
       - Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison
+    funders:
+      - Grant 2020-67012-31772 (accession 1022881) from the USDA National Institute of Food and Agriculture
+    conflicts: None
+    postcode: "53711"
+    approval: yes
+    accountable: yes
   -
     github: pstew
     name: Paul Allen Stewart
