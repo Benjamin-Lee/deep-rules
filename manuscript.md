@@ -22,7 +22,7 @@ author-meta:
 - Juan Jose Carmona
 bibliography:
 - content/manual-references.json
-date-meta: '2021-02-22'
+date-meta: '2021-02-24'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-02-22" />
+  <meta name="dc.date" content="2021-02-24" />
 
-  <meta name="citation_publication_date" content="2021-02-22" />
+  <meta name="citation_publication_date" content="2021-02-24" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -239,19 +239,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2d3caa2cd1a495345434adc0e397d627fdb56349/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/8bc0e9b92cfeb5a93255797e37d67c391221d191/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2d3caa2cd1a495345434adc0e397d627fdb56349/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/8bc0e9b92cfeb5a93255797e37d67c391221d191/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2d3caa2cd1a495345434adc0e397d627fdb56349/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/8bc0e9b92cfeb5a93255797e37d67c391221d191/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2d3caa2cd1a495345434adc0e397d627fdb56349/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/8bc0e9b92cfeb5a93255797e37d67c391221d191/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2d3caa2cd1a495345434adc0e397d627fdb56349/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/8bc0e9b92cfeb5a93255797e37d67c391221d191/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -280,10 +280,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2d3caa2cd1a495345434adc0e397d627fdb56349/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/8bc0e9b92cfeb5a93255797e37d67c391221d191/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@2d3caa2](https://github.com/Benjamin-Lee/deep-rules/tree/2d3caa2cd1a495345434adc0e397d627fdb56349)
-on February 22, 2021.
+from [Benjamin-Lee/deep-rules@8bc0e9b](https://github.com/Benjamin-Lee/deep-rules/tree/8bc0e9b92cfeb5a93255797e37d67c391221d191)
+on February 24, 2021.
 </em></small>
 
 ## Authors
@@ -330,6 +330,7 @@ Please note the current author order is chronological and does not reflect the f
     [wildtypeMC](https://twitter.com/wildtypeMC)<br>
   <small>
      Wisconsin Institute for Discovery and Department of Plant Pathology, University of Wisconsin-Madison
+     · Funded by Grant 2020-67012-31772 (accession 1022881) from the USDA National Institute of Food and Agriculture
   </small>
 
 + **Paul Allen Stewart**<br>

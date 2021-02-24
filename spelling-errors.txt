@@ -2,7 +2,7 @@ AAD
 Acknowledgements
 agitter
 ajlee
-alexandertitus
+AlexanderTitus
 Alexandr
 alxndrkalinin
 Andel
@@ -35,7 +35,7 @@ Chevrette
 chevrm
 Chuang
 CNNs
-cofer
+Cofer
 colocating
 compendia
 convolutional
@@ -44,7 +44,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-datasets
+Datasets
 dataset’s
 DBI
 differentiable
@@ -76,7 +76,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 hyperparmeter
 ImageNet
 interpretability
@@ -110,7 +110,7 @@ perceptrons
 pharmacovigilance
 phenotypes
 Pneumology
-pre
+Pre
 pretraining
 pseudorandom
 pstew
