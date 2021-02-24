@@ -210,10 +210,19 @@ authors:
     name: Timothy J. Triche, Jr.
     initials: TJT
     orcid: 0000-0001-5665-946X
-    email: tim.triche@gmail.com
+    email: tim.triche@vai.org
     affiliations:
       - Center for Epigenetics, Van Andel Research Institute
+      - Department of Pediatrics, College of Human Medicine, Michigan State University
       - Department of Translational Genomics, Keck School of Medicine, University of Southern California
+    conflicts: None
+    funders: 
+      - National Institute of Allergy and Infectious Diseases (R21AI153997)
+      - Michelle Lunn Hope Foundation
+      - Folz Fund for Cancer Research
+      - Grand Rapids Community Foundation
+    approval: yes
+    accountable: yes
   -
     github: tbrittoborges
     name: Thiago Britto-Borges
