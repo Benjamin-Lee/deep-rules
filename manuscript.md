@@ -177,6 +177,8 @@ header-includes: '<!--
 
   <meta name="citation_author_institution" content="Center for Epigenetics, Van Andel Research Institute" />
 
+  <meta name="citation_author_institution" content="Department of Pediatrics, College of Human Medicine, Michigan State University" />
+
   <meta name="citation_author_institution" content="Department of Translational Genomics, Keck School of Medicine, University of Southern California" />
 
   <meta name="citation_author_orcid" content="0000-0001-5665-946X" />
@@ -239,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/a66b14bf1d186a3452062470ef4510157e3ab647/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/77a51997990324bce6613bb9edb0f6a71d2248d7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a66b14bf1d186a3452062470ef4510157e3ab647/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/77a51997990324bce6613bb9edb0f6a71d2248d7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/a66b14bf1d186a3452062470ef4510157e3ab647/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/77a51997990324bce6613bb9edb0f6a71d2248d7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a66b14bf1d186a3452062470ef4510157e3ab647/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/77a51997990324bce6613bb9edb0f6a71d2248d7/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/a66b14bf1d186a3452062470ef4510157e3ab647/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/77a51997990324bce6613bb9edb0f6a71d2248d7/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -280,9 +282,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/a66b14bf1d186a3452062470ef4510157e3ab647/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/77a51997990324bce6613bb9edb0f6a71d2248d7/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@a66b14b](https://github.com/Benjamin-Lee/deep-rules/tree/a66b14bf1d186a3452062470ef4510157e3ab647)
+from [Benjamin-Lee/deep-rules@77a5199](https://github.com/Benjamin-Lee/deep-rules/tree/77a51997990324bce6613bb9edb0f6a71d2248d7)
 on February 24, 2021.
 </em></small>
 
@@ -437,7 +439,8 @@ Please note the current author order is chronological and does not reflect the f
     · ![GitHub icon](images/github.svg){.inline_icon}
     [ttriche](https://github.com/ttriche)<br>
   <small>
-     Center for Epigenetics, Van Andel Research Institute; Department of Translational Genomics, Keck School of Medicine, University of Southern California
+     Center for Epigenetics, Van Andel Research Institute; Department of Pediatrics, College of Human Medicine, Michigan State University; Department of Translational Genomics, Keck School of Medicine, University of Southern California
+     · Funded by National Institute of Allergy and Infectious Diseases (R21AI153997); Michelle Lunn Hope Foundation; Folz Fund for Cancer Research; Grand Rapids Community Foundation
   </small>
 
 + **Thiago Britto-Borges**<br>

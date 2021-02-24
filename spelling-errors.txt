@@ -44,7 +44,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-Datasets
+datasets
 dataset’s
 DBI
 differentiable
@@ -63,6 +63,7 @@ Fertig
 Figshare
 Finlay
 fmaguire
+Folz
 GBMF
 generalizability
 generalizable
@@ -95,6 +96,7 @@ krogh
 Kun
 learnable
 Lengerich
+Lunn
 Lustgarten
 Maguire
 mdkessler
@@ -133,7 +135,7 @@ TODO
 toolset
 TPOT
 transformative
-translational
+Translational
 triaged
 Triche
 Tschira
