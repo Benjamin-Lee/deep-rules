@@ -2,11 +2,12 @@ AAD
 Acknowledgements
 agitter
 ajlee
-alexandertitus
+AlexanderTitus
 Alexandr
 alxndrkalinin
 Andel
 Angiology
+Anshul
 anthonygitter
 approximators
 arxiv
@@ -14,6 +15,7 @@ AUROC
 AutoKeras
 AutoML
 backends
+Beaulieu
 benchmarked
 betsig
 bioactivity
@@ -29,13 +31,14 @@ Blavatnik
 blengerich
 Boca
 Britto
+Brodersen
 Carmona
 cgreene
 Chevrette
 chevrm
 Chuang
 CNNs
-cofer
+Cofer
 colocating
 compendia
 convolutional
@@ -57,6 +60,7 @@ enrichen
 Epigenetics
 evancofer
 evolutionarily
+Fabio
 Fastai
 Ferreira
 Fertig
@@ -70,6 +74,7 @@ generalizable
 Gitter
 GPUs
 grayscale
+Greiff
 Gundersen
 Himmelstein
 homology
@@ -94,6 +99,7 @@ Kipoi
 Koutsoukas
 krogh
 Kun
+Kundaje
 learnable
 Lengerich
 Lunn
@@ -122,7 +128,9 @@ Rajkomar
 rasbt
 Raschka
 reproducibility
+Saladi
 Shenzhen
+Shyam
 Sigler
 Simina
 SiminaB
@@ -131,7 +139,6 @@ subfield
 tbrittoborges
 Tensorflow
 Thiago
-TODO
 toolset
 TPOT
 transformative

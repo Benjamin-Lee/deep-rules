@@ -215,7 +215,14 @@ content/13.conclusion.md:8:interpretable
 content/14.acknowledgements.md:1:acknowledgements
 content/14.acknowledgements.md:1:Acknowledgements
 content/14.acknowledgements.md:3:Himmelstein
-content/14.acknowledgements.md:4:TODO
+content/14.acknowledgements.md:4:Anshul
+content/14.acknowledgements.md:4:Beaulieu
+content/14.acknowledgements.md:4:Brodersen
+content/14.acknowledgements.md:4:Fabio
+content/14.acknowledgements.md:4:Greiff
+content/14.acknowledgements.md:4:Kundaje
+content/14.acknowledgements.md:4:Saladi
+content/14.acknowledgements.md:4:Shyam
 content/99.citation-tags.md:4:krogh
 content/cover_letter.md:20:hyperparameters
 content/cover_letter.md:21:dataset

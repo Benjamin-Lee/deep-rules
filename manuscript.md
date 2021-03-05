@@ -22,7 +22,7 @@ author-meta:
 - Juan Jose Carmona
 bibliography:
 - content/manual-references.json
-date-meta: '2021-02-24'
+date-meta: '2021-03-05'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-02-24" />
+  <meta name="dc.date" content="2021-03-05" />
 
-  <meta name="citation_publication_date" content="2021-02-24" />
+  <meta name="citation_publication_date" content="2021-03-05" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/77a51997990324bce6613bb9edb0f6a71d2248d7/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/b0342e65358bbbb8de9c4ac8c90a63443c399350/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/77a51997990324bce6613bb9edb0f6a71d2248d7/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b0342e65358bbbb8de9c4ac8c90a63443c399350/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/77a51997990324bce6613bb9edb0f6a71d2248d7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/b0342e65358bbbb8de9c4ac8c90a63443c399350/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/77a51997990324bce6613bb9edb0f6a71d2248d7/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b0342e65358bbbb8de9c4ac8c90a63443c399350/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/77a51997990324bce6613bb9edb0f6a71d2248d7/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/b0342e65358bbbb8de9c4ac8c90a63443c399350/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,10 +282,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/77a51997990324bce6613bb9edb0f6a71d2248d7/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/b0342e65358bbbb8de9c4ac8c90a63443c399350/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@77a5199](https://github.com/Benjamin-Lee/deep-rules/tree/77a51997990324bce6613bb9edb0f6a71d2248d7)
-on February 24, 2021.
+from [Benjamin-Lee/deep-rules@b0342e6](https://github.com/Benjamin-Lee/deep-rules/tree/b0342e65358bbbb8de9c4ac8c90a63443c399350)
+on March 5, 2021.
 </em></small>
 
 ## Authors
@@ -866,7 +866,7 @@ By taking a comprehensive and careful approach to deep learning based on critica
 ## Acknowledgements {#acknowledgements}
 
 The authors would like the thank Daniel Himmelstein and the developers of Manubot for creating the software that enabled the collaborative composition of this manuscript.
-We would also like to thank [**TODO**: insert the names of the contributors who don't meet the standards for authorship] for their contributions to the discussions that comprised the initial stage of the drafting process.
+We would also like to thank Fabio Madeira, Victor Greiff, Shyam Saladi, Anshul Kundaje, Brett Beaulieu-Jones, and Paul Brodersen for their contributions to the discussions that comprised the initial stage of the drafting process.
 
 
 ## References {.page_break_before}
