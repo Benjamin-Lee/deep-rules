@@ -2,7 +2,7 @@ AAD
 Acknowledgements
 agitter
 ajlee
-AlexanderTitus
+alexandertitus
 Alexandr
 alxndrkalinin
 Andel
@@ -47,7 +47,7 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-datasets
+Datasets
 dataset’s
 DBI
 differentiable
@@ -118,7 +118,7 @@ perceptrons
 pharmacovigilance
 phenotypes
 Pneumology
-pre
+Pre
 pretraining
 pseudorandom
 pstew
