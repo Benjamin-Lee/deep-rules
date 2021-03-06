@@ -271,7 +271,7 @@ authors:
     email: blengeri@andrew.cmu.edu
     affiliations:
       - Computer Science Department, Carnegie Mellon University
-    conflcts: None
+    conflicts: None
     approval: yes
     accountable: yes
     postcode: "15213"
