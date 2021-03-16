@@ -32,7 +32,7 @@ authors:
     affiliations:
       - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, USA
       - Morgridge Institute for Research, Madison, Wisconsin, USA
-    conflicts: Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells
+    conflicts: Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells.
     funders:
       - National Science Foundation (DBI 1553206)
       - National Institutes of Health (R01GM135631)
@@ -198,7 +198,7 @@ authors:
     affiliations:
       - Department of Biomedical Informatics, Harvard Medical School
       - Department of Pathology, Brigham and Women's Hospital
-    conflicts: Yu is an inventor of a quantitative pathology analytical system (U.S. Patent 10,832,406). This invention is not related to this work.
+    conflicts: Inventor of a quantitative pathology analytical system (U.S. Patent 10,832,406). This invention is not related to this work.
     approval: yes
     accountable: yes
     postcode: "02115"
@@ -226,8 +226,7 @@ authors:
     email: ejfertig@jhmi.edu
     affiliations:
       - Department of Oncology, Department of Biomedical Engineering, Department of Applied Mathematics and Statistics, Convergence Institute, Johns Hopkins University
-    conflicts:
-      - Scientific Advisory Board member at Viosera Therapeutics
+    conflicts: Scientific Advisory Board member at Viosera Therapeutics.
     funders:
       - Lustgarten Foundation
       - Allegheny Health Network
@@ -247,7 +246,7 @@ authors:
     affiliations:
       - Medical Big Data Group, Shenzhen Research Institute of Big Data, China
       - Department of Computational Medicine and Bioinformatics, University of Michigan, USA
-    conflicts: Co-inventor on 4 patent applications related to machine learning applications in biology
+    conflicts: Co-inventor on 4 patent applications related to machine learning applications in biology.
     postcode: "518172"
     approval: yes
     accountable: yes
@@ -271,7 +270,7 @@ authors:
     email: blengeri@andrew.cmu.edu
     affiliations:
       - Computer Science Department, Carnegie Mellon University
-    conflcts: None
+    conflicts: None
     approval: yes
     accountable: yes
     postcode: "15213"
