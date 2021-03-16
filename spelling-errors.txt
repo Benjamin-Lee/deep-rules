@@ -2,7 +2,7 @@ AAD
 Acknowledgements
 agitter
 ajlee
-alexandertitus
+AlexanderTitus
 Alexandr
 alxndrkalinin
 Andel
@@ -24,7 +24,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-biomedicine
+Biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -38,7 +38,7 @@ Chevrette
 chevrm
 Chuang
 CNNs
-Cofer
+cofer
 colocating
 compendia
 convolutional
@@ -47,10 +47,9 @@ CUDA
 CuDNN
 Dalhousie
 dataset
-Datasets
 dataset’s
+datasets
 DBI
-differentiable
 discriminative
 druglike
 dzwxkd
@@ -65,7 +64,6 @@ Fastai
 Ferreira
 Fertig
 Figshare
-Finlay
 fmaguire
 Folz
 GBMF
@@ -77,7 +75,6 @@ grayscale
 Greiff
 Gundersen
 Himmelstein
-homology
 homomorphic
 Hsing
 Hu
@@ -122,7 +119,6 @@ Pre
 pretraining
 pseudorandom
 pstew
-PyTorch
 quantile
 Rajkomar
 rasbt
@@ -137,18 +133,18 @@ SiminaB
 specificities
 subfield
 tbrittoborges
-Tensorflow
 Thiago
 toolset
 TPOT
 transformative
-Translational
+translational
 triaged
 Triche
 Tschira
 ttriche
 Turi
 unencrypted
+Viosera
 wildtypeMC
 XYZ
 Yu

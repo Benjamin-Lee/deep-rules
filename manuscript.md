@@ -22,7 +22,7 @@ author-meta:
 - Simina M. Boca
 bibliography:
 - content/manual-references.json
-date-meta: '2021-03-06'
+date-meta: '2021-03-16'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-03-06" />
+  <meta name="dc.date" content="2021-03-16" />
 
-  <meta name="citation_publication_date" content="2021-03-06" />
+  <meta name="citation_publication_date" content="2021-03-16" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/c6b57cc749d346a40b3e7e86d140864a27783d39/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d27403ff3aa3cc179c87720c89d39bc1fcffa543/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c6b57cc749d346a40b3e7e86d140864a27783d39/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d27403ff3aa3cc179c87720c89d39bc1fcffa543/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/c6b57cc749d346a40b3e7e86d140864a27783d39/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d27403ff3aa3cc179c87720c89d39bc1fcffa543/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c6b57cc749d346a40b3e7e86d140864a27783d39/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d27403ff3aa3cc179c87720c89d39bc1fcffa543/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/c6b57cc749d346a40b3e7e86d140864a27783d39/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d27403ff3aa3cc179c87720c89d39bc1fcffa543/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,14 +282,13 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/c6b57cc749d346a40b3e7e86d140864a27783d39/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d27403ff3aa3cc179c87720c89d39bc1fcffa543/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@c6b57cc](https://github.com/Benjamin-Lee/deep-rules/tree/c6b57cc749d346a40b3e7e86d140864a27783d39)
-on March 6, 2021.
+from [Benjamin-Lee/deep-rules@d27403f](https://github.com/Benjamin-Lee/deep-rules/tree/d27403ff3aa3cc179c87720c89d39bc1fcffa543)
+on March 16, 2021.
 </em></small>
 
 ## Authors
-Please note the current author order is chronological and does not reflect the final order.
 
 
 
@@ -862,6 +861,18 @@ However, we want to strongly emphasize that when used ethically and responsibly,
 After all, these techniques have already shown a remarkable capacity to meet or exceed the performance of both humans and traditional algorithms and have the potential to uncover biomedical insights that drive discovery and innovation.
 By taking a comprehensive and careful approach to deep learning based on critical thinking about research questions, planning to maintain rigor, and discerning how  work might have far-reaching consequences with ethical dimensions, the life science community can advance reproducible, interpretable, and high-quality science that is enriching and beneficial for both scientists and society.
 
+
+## Competing interests {#conflicts}
+
+|Author|Competing interests|
+|---|---|
+|Anthony Gitter|Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells.|
+|Kun-Hsing Yu|Inventor of a quantitative pathology analytical system (U.S. Patent 10,832,406). This invention is not related to this work.|
+|Elana J. Fertig|Scientific Advisory Board member at Viosera Therapeutics.|
+|Alexandr A. Kalinin|Co-inventor on 4 patent applications related to machine learning applications in biology.|
+
+
+All other authors have declared no competing interests.
 
 ## Acknowledgements {#acknowledgements}
 
