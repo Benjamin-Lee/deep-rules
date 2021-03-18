@@ -22,7 +22,7 @@ author-meta:
 - Simina M. Boca
 bibliography:
 - content/manual-references.json
-date-meta: '2021-03-16'
+date-meta: '2021-03-18'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-03-16" />
+  <meta name="dc.date" content="2021-03-18" />
 
-  <meta name="citation_publication_date" content="2021-03-16" />
+  <meta name="citation_publication_date" content="2021-03-18" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/d27403ff3aa3cc179c87720c89d39bc1fcffa543/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/db775e1bd828560877cc413cd396e82e87dcf65e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d27403ff3aa3cc179c87720c89d39bc1fcffa543/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/db775e1bd828560877cc413cd396e82e87dcf65e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/d27403ff3aa3cc179c87720c89d39bc1fcffa543/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/db775e1bd828560877cc413cd396e82e87dcf65e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d27403ff3aa3cc179c87720c89d39bc1fcffa543/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/db775e1bd828560877cc413cd396e82e87dcf65e/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/d27403ff3aa3cc179c87720c89d39bc1fcffa543/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/db775e1bd828560877cc413cd396e82e87dcf65e/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,10 +282,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/d27403ff3aa3cc179c87720c89d39bc1fcffa543/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/db775e1bd828560877cc413cd396e82e87dcf65e/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@d27403f](https://github.com/Benjamin-Lee/deep-rules/tree/d27403ff3aa3cc179c87720c89d39bc1fcffa543)
-on March 16, 2021.
+from [Benjamin-Lee/deep-rules@db775e1](https://github.com/Benjamin-Lee/deep-rules/tree/db775e1bd828560877cc413cd396e82e87dcf65e)
+on March 18, 2021.
 </em></small>
 
 ## Authors
@@ -503,15 +503,14 @@ on March 16, 2021.
 
 
 
-
 ## Introduction {#intro}
 
 Machine learning is a modern approach to problem-solving and task automation. In particular, machine learning is concerned with the development and applications of algorithms that can recognize patterns in data and use them for predictive modeling, as opposed to having domain experts developing rules for prediction tasks manually.
-Artificial neural networks are a particular class of machine learning algorithms and models that evolved into what we now describe as "deep learning".
+Artificial neural networks are a particular class of machine learning algorithms and models that evolved into what is now described as "deep learning".
 Deep learning encompasses neural networks with many layers and the algorithms that make them perform well.
 These neural networks comprise artificial neurons arranged into layers and are modeled after the human brain, even though the building blocks and learning algorithms may differ [@doi:10.1038/s41583-020-0277-3].
-Each layer receives input from previous layers (the first of which represents the input data), and then transmits a transformed version of its own weighted output that serves as input into subsequent layers of the network. 
-Thus, the process of "training" a neural network is the tuning of the layers' weights to minimize a 
+Each layer receives input from previous layers (the first of which represents the input data), and then transmits a transformed version of its own weighted output that serves as input into subsequent layers of the network.
+Thus, the process of "training" a neural network is the tuning of the layers' weights to minimize a
 cost or loss function that serves as a surrogate of the prediction error.
 The loss function is differentiable so that the weights can be automatically updated to attempt to reduce the loss.
 Deep learning uses artificial neural networks with many layers (hence the term "deep"). Given the computational advances made in the last decade, it can now be applied to massive data sets and in innumerable contexts.
@@ -533,7 +532,6 @@ It is subject to the many limitations inherent to machine learning, and most bes
 As with all computational methods, deep learning should be applied in a systematic manner that is reproducible and rigorously tested.
 Ultimately, the tips we collate range from high-level guidance to best practices for implementation. It is our hope that they will provide actionable, deep learning-specific instruction for both new and experienced deep learning practitioners.
 By making deep learning more accessible for use in biological research, we aim to improve the overall usage and reporting quality of deep learning in the literature, and to enable increasing numbers of researchers to utilize these state-of-the art techniques effectively and accurately.
-
 
 
 ## Tip 1: Decide whether deep learning is appropriate for your problem {#appropriate}
@@ -599,7 +597,7 @@ After choosing deep learning as a potential solution, practitioners should still
 Deep learning requires practitioners to consider a larger number and variety of tuning parameters (that is, algorithmic settings) than more traditional machine learning methods.
 These settings are often called hyperparameters.
 Their extensiveness can make it easy to fall into the trap of performing an unnecessarily convoluted analysis.
-Hence, before applying deep learning to a given problem, we highly recommend implementing simpler models with fewer hyperparameters at the beginning of each study.
+Hence, before applying deep learning to a given problem, it is ideal to implement simpler models with fewer hyperparameters at the beginning of each study.
 Such models include logistic regression, random forests, k-nearest neighbors, Naive Bayes, and support vector machines.
 They can help to establish baseline performance expectations and the difficultly of a specific prediction problem.
 While performance baselines available from existing literature can also serve as helpful guides, an implementation of a simpler model that uses the same software framework as planned for deep learning can greatly help with assessing the correctness of data processing steps, performance evaluation pipelines, resource requirement estimates, and computational performance estimates.
@@ -629,14 +627,13 @@ One specific reproducibility pitfall that is often missed in applying deep learn
 That is, the CUDA/CuDNN architectures that facilitate the parallelized computing that power state-of-the-art deep learning often use algorithms by default that produce different outcomes from iteration to iteration.
 Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within deep learning libraries), which is distinct from the setting of random seeds that typically achieve reproducibility by controlling pseudorandom deterministic procedures such as shuffling and initialization [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
 
-Similar to the suggestions above about starting with simpler models, try to start with a relatively small network and then increase the size and complexity as needed.
-This can help prevent practitioners from wasting significant time and resources on running highly complex models that feature numerous unresolved problems.
-Again, beware of the choices made implicitly (that is, by default settings) by deep learning libraries.
+Similar to the suggestions above about starting with simpler models, starting with relatively small networks and then increasing the size and complexity as needed can help prevent practitioners from wasting significant time and resources on running highly complex models that feature numerous unresolved problems.
+Again, practitioners must beware of the choices made implicitly (that is, by default settings) by deep learning libraries.
 These seemingly trivial details, such as the selection of optimization algorithm, can have significant effects on model performance.
 For example, adaptive methods often lead to faster convergence during training but may lead to worse generalization performance on independent datasets [@url:https://papers.nips.cc/paper/7003-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning].
 These nuanced elements are easy to overlook, but it is critical to consider them carefully and to evaluate their potential impact.
 
-In short, use smaller and simpler networks to enable faster prototyping, follow general software development best practices to maximize reproducibility, and check software documentation to understand default choices.
+In short, researchers should use smaller and simpler networks to enable faster prototyping, follow general software development best practices to maximize reproducibility, and check software documentation to understand default choices.
 
 
 ## Tip 4: Know your data and your question {#know-your-problem}
@@ -659,8 +656,7 @@ In addition, Gundersen et al. [@doi:10.1609/aimag.v39i3.2816] provide useful che
 
 Once the dataset is obtained, it is important to learn why and how the data were collected before beginning analysis.
 The standardized metadata that exists in many fields can help with this (for example, see [@doi:10.1038/ng1201-365]).
-If at all possible, we recommend consulting with a subject matter expert who has experience with the type of data being used.
-Doing so will minimize guesswork and is likely to increase the success rate of a deep learning project.
+If at all possible, consulting with a subject matter expert who has experience with the type of data being used will minimize guesswork and likely increase the success rate of a deep learning project.
 For example, one might presume that data collected to test the impact of an intervention are derived from a randomized controlled trial.
 However, this is not always the case, as ethical or practical concerns often necessitate an observational study design that features prospectively or retrospectively collected data.
 In order to ensure similar distributions of important characteristics across study groups in the absence of randomization, such a study may have selected individuals in a fashion that best matches attributes such as age, gender, or weight.
@@ -685,40 +681,40 @@ This is further complicated by the fact that many recommendations do not general
 Therefore, choosing how to represent data and design an architecture is closer to an art than a science.
 That said, there are some general principles to follow when experimenting.
 
-First and foremost, use your knowledge of the available data and your question to inform your data representation and architectural design choices.
+First and foremost, knowledge of the available data and scientific question should inform data representation and architectural design choices.
 For example, if the dataset is an array of measurements with no natural ordering of inputs (such as gene expression data), multilayer perceptrons may be effective.
 These are the most basic type of neural network.
 They are able to learn complex non-linear relationships across the input data despite their relative simplicity.
 Similarly, if the dataset is comprised of images, convolutional neural networks (CNNs) are a good choice because they emphasize local structures and adjacency within the data.
 CNNs may also be a good choice for learning on sequences.
-Recent empirical evidence suggests that they can outperform canonical sequence learning techniques such as recurrent neural networks and the closely related long short-term memory networks in some cases [@arxiv:1803.01271]. 
+Recent empirical evidence suggests that they can outperform canonical sequence learning techniques such as recurrent neural networks and the closely related long short-term memory networks in some cases [@arxiv:1803.01271].
 Transformers are powerful sequence models [@arxiv:1706.03762] but require extensive data and computing power to train from scratch.
 Accessible high-level overviews of different neural network architectures are provided in [@doi:10.1016/j.ymeth.2020.06.016] and [@doi:10.1038/nature14539].
 
 Deep learning models typically benefit from increasing the amount of labeled training data.
 Large amounts of data help to avoid overfitting and increase the likelihood of achieving top performance on a given task.
-If there is not enough data available to train a well-performing model, consider using transfer learning.
+If there is not enough data available to train a well-performing model, transfer learning should be considered.
 In transfer learning, a model whose weights were generated by training on another dataset is used as the starting point for training [@tag:Yosinski2014].
 Transfer learning is most useful when the pre-training and target datasets are of similar nature [@tag:Yosinski2014].
 For this reason, it is important to search for similar datasets that are already available.
 However, even when similar datasets do not exist, transferring features can still improve model performance compared with random feature initialization.
 For example, Rajkomar et al. showed advantages of ImageNet-pretraining [@doi:10.1007/s11263-015-0816-y] for a model that is applied to grayscale medical image classification [@doi:10.1007/s10278-016-9914-9].
 Pre-trained models can be obtained from public repositories, such as Kipoi [@doi:10.1101/375345] for genomics or Hugging Face [@doi:10.18653/v1/2020.emnlp-demos.6] for biomedical text [@arxiv:2007.15779], protein sequences [@arxiv:2007.06225], and chemicals [@arxiv:2010.09885].
-Moreover, learned features could be helpful even when a pre-training task is different from a target task [@doi:10.1109/CVPRW.2014.131]. 
+Moreover, learned features could be helpful even when a pre-training task is different from a target task [@doi:10.1109/CVPRW.2014.131].
 
-Recently, the concept of self-supervised learning, which is closely related to pre-training and transfer learning, has seen an increase in popularity [@doi:10.1016/j.micron.2018.01.010]. 
-Self-supervised learning leverages large amounts of unlabeled data and uses naturally available information as labels for supervised learning. 
+Recently, the concept of self-supervised learning, which is closely related to pre-training and transfer learning, has seen an increase in popularity [@doi:10.1016/j.micron.2018.01.010].
+Self-supervised learning leverages large amounts of unlabeled data and uses naturally available information as labels for supervised learning.
 Thus, self-supervised learning is sometimes also described as autonomous supervised learning.
 Using self-supervised learning, a model can be pre-trained on a related task before it is trained on the target task.
 Another related approach is multi-task learning, which simultaneously trains a network for multiple separate tasks that share features.
 In fact, multi-task learning can be used separately or even in combination with transfer learning [@doi:10.1109/TBDATA.2016.2573280].
 
-This tip can be distilled into two main action points: first, base the network's architecture on knowledge of the problem and, second, take advantage of similar existing data or pre-trained deep learning models.
+This tip can be distilled into two main action points for practitioners: first, they should base the network's architecture on knowledge of the problem and, second, they should take advantage of similar existing data or pre-trained deep learning models.
 
 
 ## Tip 6: Tune your hyperparameters extensively and systematically {#hyperparameters}
 
-Given at least one hidden layer, a non-linear activation function, and a large number of hidden units, multi-layer neural networks can approximate arbitrary continuous functions that relate input and output variables [@doi:10/dzwxkd; @doi:10/bjjdg2]. 
+Given at least one hidden layer, a non-linear activation function, and a large number of hidden units, multi-layer neural networks can approximate arbitrary continuous functions that relate input and output variables [@doi:10/dzwxkd; @doi:10/bjjdg2].
 Deeper architectures that feature additional hidden layers and an increasing number of overall hidden units and learnable weight parameters (the so-called increasing "capacity" of neural networks) allow for solving increasingly complex problems.
 However, this increased capacity results in many more parameters to fit and hyperparameters to tune, which can pose additional challenges during model training.
 In general, one should expect to systematically evaluate the impact of numerous hyperparameters when applying deep neural networks to new data or challenges.
@@ -734,8 +730,7 @@ The implication is that attaining performance numbers that match those reported 
 Strategies for tuning hyperparameters include exhaustive grid search, random search, or Bayesian optimization and other specialized techniques.
 Tools such as Keras Tuner (https://keras-team.github.io/keras-tuner/) and Ray Tune (https://docs.ray.io/en/latest/tune/index.html) support best practices for hyperparmeter optimization.
 
-To get the best performance from your model, be sure to systematically optimize your hyperparameters on your training dataset.
-Report both the selected hyperparameters and the hyperparameter optimization strategy.
+To get the best performance from your model, researchers should be sure to systematically optimize their hyperparameters on the training dataset and report both the selected hyperparameters and the hyperparameter optimization strategy.
 
 
 ## Tip 7: Address deep neural networks' increased tendency to overfit the dataset {#overfitting}
@@ -776,7 +771,7 @@ In such situations, simply holding out test data selected from a random partitio
 The best remedy for identifying confounding variables is to know your data and to test models on truly independent data.
 
 In essence, practitioners should split data into training, tuning, and single-use testing sets to assess the performance of the model on data that can provide a reliable estimate of its generalization performance.
-Furthermore, be cognizant of the danger of skewed or biased data artificially inflating performance.
+Furthermore, practitioners should be cognizant of the danger of skewed or biased data artificially inflating performance.
 
 
 ## Tip 8: Deep learning models can be made more transparent {#blackbox}
@@ -786,7 +781,7 @@ In certain cases, the goal behind interpretation is to understand the underlying
 In other cases, the goal is to understand why a model made the prediction that it did for a specific example or set of examples.
 Machine learning models vary widely in terms of interpretability: some are fully transparent while others are considered "black-boxes" that make predictions with little ability to examine why.
 Logistic regression and decision tree models are generally considered interpretable [@doi:10.1007/978-1-4939-7756-7_16].
-In contrast, deep neural networks are often considered among the most difficult to interpret naively because they can have many parameters and non-linear relationships. 
+In contrast, deep neural networks are often considered among the most difficult to interpret naively because they can have many parameters and non-linear relationships.
 
 Knowing which of the input variables influences a model's predictions, and potentially in what ways, can help with the application or extrapolation of machine learning models.
 This is particularly important in biomedicine.
@@ -794,7 +789,7 @@ Subsequent decision making often requires human input, and models are employed w
 Furthermore, while prediction rules can be derived from high-throughput molecular datasets, most affordable clinical tests still rely on lower-dimensional measurements of a limited number of biomarkers.
 Therefore, it is often unclear how to translate the predictive capacity of deep learning models that encompass non-linear relationships between countless input variables into clinically digestible terms.
 As a result, selecting which biomarkers to use for decision making remains an important modeling and interpretation challenge.
-In fact, many authors attribute a lower uptake of deep learning tools in healthcare to interpretability challenges [@doi:10.1109/JBHI.2016.2636665; @doi:10.1038/s41551-018-0315-x]. 
+In fact, many authors attribute a lower uptake of deep learning tools in healthcare to interpretability challenges [@doi:10.1109/JBHI.2016.2636665; @doi:10.1038/s41551-018-0315-x].
 Nonetheless, strategies to interpret both machine learning and deep learning models are rapidly emerging, and the literature on the topic is growing exponentially [@arxiv:2001.02522].
 Instead of recommending specific methods for either deep learning-specific or general-purpose model interpretation, we suggest consulting a freely available and continually updated textbook [@url:https://christophm.github.io/interpretable-ml-book/].
 
@@ -814,7 +809,7 @@ Nonetheless, the data supported this rule, as pneumonia patients with a history 
 The neural network had, therefore, also learned to make predictions according to this rule despite the fact that it has nothing to do with causality or mechanism.
 Therefore, it would have been disastrous to guide treatment decisions according to the predictions of the neural network, even though the neural network had high predictive accuracy.
 
-Avoid over-interpreting deep learning models by viewing them for what they are: complex statistical models trained on high dimensional data.
+It is critical to avoid over-interpreting deep learning models by viewing them for what they are: complex statistical models trained on high dimensional data.
 If causal inference is desired, special techniques for causal inference are required [@doi:10.1038/s42256-020-0218-x].
 
 
@@ -830,10 +825,10 @@ At a minimum, practitioners must ensure that, wherever relevant, their life scie
 Moreover, we offer below three tangible, action-oriented recommendations to further empower and enrichen deep learning researchers.
 
 First, just as it is a best practice to keep a project-specific or programming-related issue tracker detailing known bugs and other technical issues, practitioners should get into the habit of keeping an active _ethics register_.
-In this register, ethical concerns can be raised, recorded, and resolved, exactly as software problems are triaged and fixed. 
+In this register, ethical concerns can be raised, recorded, and resolved, exactly as software problems are triaged and fixed.
 Because projects using deep learning usually rely on writing code, an ethics register can be a part of the issue tracker in the version control system for the software itself.
 By colocating the two, practitioners can operationalize the concept that ethical problems are "bugs" that must be resolved, not nice-to-haves that can be considered at some indefinite point in the future.
-For practitioners intending to distribute trained models, having an ethics register can also facilitate creating a *model card* [@doi:10.1145/3287560.3287596], a short document specifying the domains in which the model's performance was validated (for example, which model organism was used), how the performance was benchmarked, and known limitations and concerns.
+For practitioners intending to distribute trained models, having an ethics register can also facilitate creating a _model card_ [@doi:10.1145/3287560.3287596], a short document specifying the domains in which the model's performance was validated (for example, which model organism was used), how the performance was benchmarked, and known limitations and concerns.
 Second, to help foster a conscious ethics-oriented mindset, researchers should consider expanding journal clubs to include scholarly and popular articles detailing real-world ethics issues relevant to their scientific fields.
 This will help researchers to think more holistically and judiciously about their work and its implications.
 Third, we encourage individual- and team-level participation in professional societies [@https://asbh.org] and other types of organizations [@https://web.archive.org/web/20210112231619/https://ocean.sagepub.com/blog/10-organizations-leading-the-way-in-ethical-ai] and events [@https://www.aies-conference.com/] related to the domains of AI and data ethics as well as bioethics.
@@ -849,7 +844,7 @@ This also holds true for certain traditional machine learning methods that learn
 Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption, which serves to enable equivalent prediction on data that is encrypted end-to-end [@doi:10.1371/journal.pcbi.1006454; @arxiv:1811.00778].
 Privacy-preserving techniques [@arxiv:1811.04017], such as differential privacy [@doi:10.1145/2976749.2978318; @doi:10.1101/159756; @arxiv:1812.01484], can help to mitigate risks as long as the assumptions underlying these techniques are met.
 While these methods provide a path towards a future where trained models and their predictions can be shared, more software development and theoretical advances will be required to make these techniques easy to apply correctly in many settings.
-Unless you use these techniques, do not share the weights or provide arbitrary access to the predictions of models trained on sensitive data.
+Unless using these techniques, researchers must not share the weights or provide arbitrary access to the predictions of models trained on sensitive data.
 
 
 ## Conclusion {#conclusion}

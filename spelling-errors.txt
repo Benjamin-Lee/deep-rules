@@ -2,7 +2,7 @@ AAD
 Acknowledgements
 agitter
 ajlee
-AlexanderTitus
+alexandertitus
 Alexandr
 alxndrkalinin
 Andel
@@ -79,7 +79,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 hyperparmeter
 ImageNet
 interpretability
@@ -115,7 +115,7 @@ perceptrons
 pharmacovigilance
 phenotypes
 Pneumology
-Pre
+pre
 pretraining
 pseudorandom
 pstew
@@ -137,7 +137,7 @@ Thiago
 toolset
 TPOT
 transformative
-translational
+Translational
 triaged
 Triche
 Tschira
