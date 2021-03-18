@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/db775e1bd828560877cc413cd396e82e87dcf65e/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2f8ff6e9f26cc012b675f51fb27145196923ab3f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/db775e1bd828560877cc413cd396e82e87dcf65e/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f8ff6e9f26cc012b675f51fb27145196923ab3f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/db775e1bd828560877cc413cd396e82e87dcf65e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f8ff6e9f26cc012b675f51fb27145196923ab3f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/db775e1bd828560877cc413cd396e82e87dcf65e/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f8ff6e9f26cc012b675f51fb27145196923ab3f/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/db775e1bd828560877cc413cd396e82e87dcf65e/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f8ff6e9f26cc012b675f51fb27145196923ab3f/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,9 +282,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/db775e1bd828560877cc413cd396e82e87dcf65e/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2f8ff6e9f26cc012b675f51fb27145196923ab3f/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@db775e1](https://github.com/Benjamin-Lee/deep-rules/tree/db775e1bd828560877cc413cd396e82e87dcf65e)
+from [Benjamin-Lee/deep-rules@2f8ff6e](https://github.com/Benjamin-Lee/deep-rules/tree/2f8ff6e9f26cc012b675f51fb27145196923ab3f)
 on March 18, 2021.
 </em></small>
 
@@ -872,7 +872,7 @@ All other authors have declared no competing interests.
 ## Acknowledgements {#acknowledgements}
 
 The authors would like the thank Daniel Himmelstein and the developers of Manubot for creating the software that enabled the collaborative composition of this manuscript.
-We would also like to thank Fabio Madeira, Victor Greiff, Shyam Saladi, Anshul Kundaje, Brett Beaulieu-Jones, and Paul Brodersen for their contributions to the discussions that comprised the initial stage of the drafting process.
+We would also like to thank Fábio Madeira ([0000-0001-8728-9449](https://orcid.org/0000-0001-8728-9449)), Victor Greiff ([0000-0003-2622-5032](https://orcid.org/0000-0003-2622-5032)), Shyam Saladi ([0000-0001-9701-3059](https://orcid.org/0000-0001-9701-3059)), Anshul Kundaje ([0000-0003-3084-2287](https://orcid.org/0000-0003-3084-2287)), Brett K. Beaulieu-Jones ([0000-0002-6700-1468](https://orcid.org/0000-0002-6700-1468)), Paul Brodersen ([0000-0001-5216-7863](https://orcid.org/0000-0001-5216-7863)), and Michael M. Hoffman ([0000-0002-4517-1562](https://orcid.org/0000-0002-4517-1562)) for their contributions to the discussions that comprised the initial stage of the drafting process.
 
 
 ## References {.page_break_before}

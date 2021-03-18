@@ -214,7 +214,7 @@ content/14.acknowledgements.md:13:Himmelstein
 content/14.acknowledgements.md:14:Anshul
 content/14.acknowledgements.md:14:Beaulieu
 content/14.acknowledgements.md:14:Brodersen
-content/14.acknowledgements.md:14:Fabio
+content/14.acknowledgements.md:14:Fábio
 content/14.acknowledgements.md:14:Greiff
 content/14.acknowledgements.md:14:Kundaje
 content/14.acknowledgements.md:14:Saladi

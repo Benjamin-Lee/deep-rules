@@ -48,7 +48,7 @@ CuDNN
 Dalhousie
 dataset
 dataset’s
-datasets
+Datasets
 DBI
 discriminative
 druglike
@@ -59,7 +59,7 @@ enrichen
 Epigenetics
 evancofer
 evolutionarily
-Fabio
+Fábio
 Fastai
 Ferreira
 Fertig
@@ -79,7 +79,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 hyperparmeter
 ImageNet
 interpretability
@@ -115,7 +115,7 @@ perceptrons
 pharmacovigilance
 phenotypes
 Pneumology
-pre
+Pre
 pretraining
 pseudorandom
 pstew
