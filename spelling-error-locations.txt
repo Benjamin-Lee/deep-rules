@@ -217,6 +217,7 @@ content/14.acknowledgements.md:14:Brodersen
 content/14.acknowledgements.md:14:Fábio
 content/14.acknowledgements.md:14:Greiff
 content/14.acknowledgements.md:14:Kundaje
+content/14.acknowledgements.md:14:Lazzeri
 content/14.acknowledgements.md:14:Saladi
 content/14.acknowledgements.md:14:Shyam
 content/99.citation-tags.md:4:krogh

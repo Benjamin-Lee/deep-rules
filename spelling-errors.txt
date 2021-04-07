@@ -2,7 +2,7 @@ AAD
 Acknowledgements
 agitter
 ajlee
-alexandertitus
+AlexanderTitus
 Alexandr
 alxndrkalinin
 Andel
@@ -24,7 +24,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-Biomedicine
+biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -48,7 +48,7 @@ CuDNN
 Dalhousie
 dataset
 dataset’s
-Datasets
+datasets
 DBI
 discriminative
 druglike
@@ -97,6 +97,7 @@ Koutsoukas
 krogh
 Kun
 Kundaje
+Lazzeri
 learnable
 Lengerich
 Lunn
@@ -115,7 +116,7 @@ perceptrons
 pharmacovigilance
 phenotypes
 Pneumology
-Pre
+pre
 pretraining
 pseudorandom
 pstew

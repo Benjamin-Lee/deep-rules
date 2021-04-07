@@ -22,7 +22,7 @@ author-meta:
 - Simina M. Boca
 bibliography:
 - content/manual-references.json
-date-meta: '2021-03-18'
+date-meta: '2021-04-07'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-03-18" />
+  <meta name="dc.date" content="2021-04-07" />
 
-  <meta name="citation_publication_date" content="2021-03-18" />
+  <meta name="citation_publication_date" content="2021-04-07" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2f8ff6e9f26cc012b675f51fb27145196923ab3f/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/779fcd49cce77b224b8bb61c0fda6e5d581c1b21/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f8ff6e9f26cc012b675f51fb27145196923ab3f/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/779fcd49cce77b224b8bb61c0fda6e5d581c1b21/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2f8ff6e9f26cc012b675f51fb27145196923ab3f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/779fcd49cce77b224b8bb61c0fda6e5d581c1b21/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f8ff6e9f26cc012b675f51fb27145196923ab3f/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/779fcd49cce77b224b8bb61c0fda6e5d581c1b21/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2f8ff6e9f26cc012b675f51fb27145196923ab3f/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/779fcd49cce77b224b8bb61c0fda6e5d581c1b21/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,10 +282,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2f8ff6e9f26cc012b675f51fb27145196923ab3f/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/779fcd49cce77b224b8bb61c0fda6e5d581c1b21/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@2f8ff6e](https://github.com/Benjamin-Lee/deep-rules/tree/2f8ff6e9f26cc012b675f51fb27145196923ab3f)
-on March 18, 2021.
+from [Benjamin-Lee/deep-rules@779fcd4](https://github.com/Benjamin-Lee/deep-rules/tree/779fcd49cce77b224b8bb61c0fda6e5d581c1b21)
+on April 7, 2021.
 </em></small>
 
 ## Authors
@@ -872,7 +872,7 @@ All other authors have declared no competing interests.
 ## Acknowledgements {#acknowledgements}
 
 The authors would like the thank Daniel Himmelstein and the developers of Manubot for creating the software that enabled the collaborative composition of this manuscript.
-We would also like to thank Fábio Madeira ([0000-0001-8728-9449](https://orcid.org/0000-0001-8728-9449)), Victor Greiff ([0000-0003-2622-5032](https://orcid.org/0000-0003-2622-5032)), Shyam Saladi ([0000-0001-9701-3059](https://orcid.org/0000-0001-9701-3059)), Anshul Kundaje ([0000-0003-3084-2287](https://orcid.org/0000-0003-3084-2287)), Brett K. Beaulieu-Jones ([0000-0002-6700-1468](https://orcid.org/0000-0002-6700-1468)), Paul Brodersen ([0000-0001-5216-7863](https://orcid.org/0000-0001-5216-7863)), and Michael M. Hoffman ([0000-0002-4517-1562](https://orcid.org/0000-0002-4517-1562)) for their contributions to the discussions that comprised the initial stage of the drafting process.
+We would also like to thank Fábio Madeira ([0000-0001-8728-9449](https://orcid.org/0000-0001-8728-9449)), Victor Greiff ([0000-0003-2622-5032](https://orcid.org/0000-0003-2622-5032)), Shyam Saladi ([0000-0001-9701-3059](https://orcid.org/0000-0001-9701-3059)), Anshul Kundaje ([0000-0003-3084-2287](https://orcid.org/0000-0003-3084-2287)), Brett K. Beaulieu-Jones ([0000-0002-6700-1468](https://orcid.org/0000-0002-6700-1468)), Paul Brodersen ([0000-0001-5216-7863](https://orcid.org/0000-0001-5216-7863)), Michael M. Hoffman ([0000-0002-4517-1562](https://orcid.org/0000-0002-4517-1562)), and Isaac Lazzeri for their contributions to the discussions that comprised the initial stage of the drafting process.
 
 
 ## References {.page_break_before}
