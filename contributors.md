@@ -54,4 +54,4 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Joe Greener          | Yes        |                           |          |                |             |
 | Elana Fertig         | Yes        | Yes                       | Yes      |                | Yes         |
 | Juan Jose Carmona    | Yes        | Yes                       | Yes      |                | Yes         |
-| Michael Kessler      | Yes        | Yes                       | Yes      |                |             |
+| Michael D. Kessler   | Yes        | Yes                       | Yes      |                | Yes         |
