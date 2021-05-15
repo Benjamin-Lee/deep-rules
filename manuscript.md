@@ -137,7 +137,7 @@ header-includes: '<!--
 
   <meta name="citation_author" content="Paul Allen Stewart" />
 
-  <meta name="citation_author_institution" content="Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center" />
+  <meta name="citation_author_institution" content="Department of Biostatistics and Bioinformatics, Moffitt Cancer Center, Tampa FL" />
 
   <meta name="citation_author_orcid" content="0000-0003-0882-308X" />
 
@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/71ee0ad77e55223311982ca662e4533e99aa5262/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/21e9178b1ab9ac804b56beda0b015935034e1d62/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/71ee0ad77e55223311982ca662e4533e99aa5262/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/21e9178b1ab9ac804b56beda0b015935034e1d62/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/71ee0ad77e55223311982ca662e4533e99aa5262/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/21e9178b1ab9ac804b56beda0b015935034e1d62/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/71ee0ad77e55223311982ca662e4533e99aa5262/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/21e9178b1ab9ac804b56beda0b015935034e1d62/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/71ee0ad77e55223311982ca662e4533e99aa5262/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/21e9178b1ab9ac804b56beda0b015935034e1d62/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,9 +282,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/71ee0ad77e55223311982ca662e4533e99aa5262/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/21e9178b1ab9ac804b56beda0b015935034e1d62/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@71ee0ad](https://github.com/Benjamin-Lee/deep-rules/tree/71ee0ad77e55223311982ca662e4533e99aa5262)
+from [Benjamin-Lee/deep-rules@21e9178](https://github.com/Benjamin-Lee/deep-rules/tree/21e9178b1ab9ac804b56beda0b015935034e1d62)
 on May 15, 2021.
 </em></small>
 
@@ -396,7 +396,7 @@ on May 15, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [biodataguy](https://twitter.com/biodataguy)<br>
   <small>
-     Biostatistics and Bioinformatics Shared Resource, Moffitt Cancer Center
+     Department of Biostatistics and Bioinformatics, Moffitt Cancer Center, Tampa FL
      · Funded by Moffitt Cancer Center Support Grant (P30-CA076292)
   </small>
 
@@ -872,7 +872,7 @@ All other authors have declared no competing interests.
 ## Acknowledgements {#acknowledgements}
 
 The authors would like the thank Daniel Himmelstein and the developers of Manubot for creating the software that enabled the collaborative composition of this manuscript.
-We would also like to thank Fábio Madeira ([0000-0001-8728-9449](https://orcid.org/0000-0001-8728-9449)), Victor Greiff ([0000-0003-2622-5032](https://orcid.org/0000-0003-2622-5032)), Shyam Saladi ([0000-0001-9701-3059](https://orcid.org/0000-0001-9701-3059)), Anshul Kundaje ([0000-0003-3084-2287](https://orcid.org/0000-0003-3084-2287)), Brett K. Beaulieu-Jones ([0000-0002-6700-1468](https://orcid.org/0000-0002-6700-1468)), Paul Brodersen ([0000-0001-5216-7863](https://orcid.org/0000-0001-5216-7863)), Michael M. Hoffman ([0000-0002-4517-1562](https://orcid.org/0000-0002-4517-1562)), and Isaac Lazzeri for their contributions to the discussions that comprised the initial stage of the drafting process.
+We would also like to thank Fábio Madeira ([0000-0001-8728-9449](https://orcid.org/0000-0001-8728-9449)), Victor Greiff ([0000-0003-2622-5032](https://orcid.org/0000-0003-2622-5032)), Shyam Saladi ([0000-0001-9701-3059](https://orcid.org/0000-0001-9701-3059)), Anshul Kundaje ([0000-0003-3084-2287](https://orcid.org/0000-0003-3084-2287)), Brett K. Beaulieu-Jones ([0000-0002-6700-1468](https://orcid.org/0000-0002-6700-1468)), Paul Brodersen ([0000-0001-5216-7863](https://orcid.org/0000-0001-5216-7863)), Michael M. Hoffman ([0000-0002-4517-1562](https://orcid.org/0000-0002-4517-1562)), and Isaac Lazzeri for their contributions to the discussions that comprised the initial stage of the drafting process. This work has been supported in part by the Biostatistics and Bioinformatics Shared Resource at the H. Lee Moffitt Cancer Center & Research Institute, an NCI designated Comprehensive Cancer Center (P30-CA076292).
 
 
 ## References {.page_break_before}

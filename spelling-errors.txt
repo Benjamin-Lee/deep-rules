@@ -24,7 +24,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-Biomedicine
+biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -38,7 +38,7 @@ Chevrette
 chevrm
 Chuang
 CNNs
-cofer
+Cofer
 colocating
 compendia
 convolutional
@@ -79,7 +79,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-hyperparameters
+Hyperparameters
 hyperparmeter
 ImageNet
 interpretability
@@ -108,6 +108,7 @@ mis
 Moffitt
 Morgridge
 multilayer
+NCI
 operationalize
 overfit
 overfitting
@@ -116,7 +117,7 @@ perceptrons
 pharmacovigilance
 phenotypes
 Pneumology
-Pre
+pre
 pretraining
 pseudorandom
 pstew
@@ -138,7 +139,7 @@ Thiago
 toolset
 TPOT
 transformative
-Translational
+translational
 triaged
 Triche
 Tschira

@@ -213,11 +213,15 @@ content/14.acknowledgements.md:11:Acknowledgements
 content/14.acknowledgements.md:13:Himmelstein
 content/14.acknowledgements.md:14:Anshul
 content/14.acknowledgements.md:14:Beaulieu
+content/14.acknowledgements.md:14:Bioinformatics
+content/14.acknowledgements.md:14:Biostatistics
 content/14.acknowledgements.md:14:Brodersen
 content/14.acknowledgements.md:14:Fábio
 content/14.acknowledgements.md:14:Greiff
 content/14.acknowledgements.md:14:Kundaje
 content/14.acknowledgements.md:14:Lazzeri
+content/14.acknowledgements.md:14:Moffitt
+content/14.acknowledgements.md:14:NCI
 content/14.acknowledgements.md:14:Saladi
 content/14.acknowledgements.md:14:Shyam
 content/99.citation-tags.md:4:krogh
