@@ -13,6 +13,7 @@ jobs:
     env:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
       SPELLCHECK: true
+      BUILD_DOCX: true
     steps:
       - name: Set Environment Variables
         run: |
