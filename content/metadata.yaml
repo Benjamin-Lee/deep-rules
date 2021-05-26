@@ -7,7 +7,6 @@ keywords:
   - artificial intelligence
 lang: en-US
 thumbnail: content/images/thumbnail_tips_overview.png
-csl: content/plos-computational-biology.csl
 authors:
   -
     github: Benjamin-Lee
