@@ -24,7 +24,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-Biomedicine
+biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -79,7 +79,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 hyperparmeter
 ImageNet
 interpretability
