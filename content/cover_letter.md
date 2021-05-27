@@ -1,6 +1,11 @@
+---
+fontsize: 12pt
+geometry: margin=1in
+---
+\pagenumbering{gobble}
 May 27th, 2021
 
-Dear Prof. Ouellette
+Dear Prof. Ouellette,
 
 We are writing to submit our manuscript entitled “Ten Quick Tips for Deep Learning in Biology” for consideration in _PLOS Computational Biology_'s education section.
 
