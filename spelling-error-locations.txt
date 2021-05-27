@@ -225,9 +225,9 @@ content/14.acknowledgements.md:14:NCI
 content/14.acknowledgements.md:14:Saladi
 content/14.acknowledgements.md:14:Shyam
 content/99.citation-tags.md:4:krogh
-content/cover_letter.md:20:hyperparameters
-content/cover_letter.md:21:dataset
-content/cover_letter.md:21:overfit
+content/cover_letter.md:25:hyperparameters
+content/cover_letter.md:26:dataset
+content/cover_letter.md:26:overfit
 content/presubmission_inquiry.md:15:bioinformatics
 content/presubmission_inquiry.md:29:hyperparameters
 content/presubmission_inquiry.md:30:dataset

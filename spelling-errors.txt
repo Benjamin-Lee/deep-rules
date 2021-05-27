@@ -2,7 +2,7 @@ AAD
 Acknowledgements
 agitter
 ajlee
-AlexanderTitus
+alexandertitus
 Alexandr
 alxndrkalinin
 Andel
@@ -24,7 +24,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-biomedicine
+Biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -38,7 +38,7 @@ Chevrette
 chevrm
 Chuang
 CNNs
-cofer
+Cofer
 colocating
 compendia
 convolutional
@@ -111,7 +111,7 @@ multilayer
 NCI
 operationalize
 overfit
-overfitting
+Overfitting
 parallelized
 perceptrons
 pharmacovigilance
@@ -139,7 +139,7 @@ Thiago
 toolset
 TPOT
 transformative
-Translational
+translational
 triaged
 Triche
 Tschira
