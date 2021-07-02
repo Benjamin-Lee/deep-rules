@@ -2,7 +2,7 @@ AAD
 Acknowledgements
 agitter
 ajlee
-alexandertitus
+AlexanderTitus
 Alexandr
 alxndrkalinin
 Andel
@@ -11,6 +11,7 @@ Anshul
 anthonygitter
 approximators
 arxiv
+AstraZeneca
 AUROC
 AutoKeras
 AutoML
@@ -24,7 +25,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-Biomedicine
+biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -38,7 +39,7 @@ Chevrette
 chevrm
 Chuang
 CNNs
-Cofer
+cofer
 colocating
 compendia
 convolutional
@@ -66,6 +67,7 @@ Fertig
 Figshare
 fmaguire
 Folz
+Gaithersburg
 GBMF
 generalizability
 generalizable
@@ -111,7 +113,7 @@ multilayer
 NCI
 operationalize
 overfit
-Overfitting
+overfitting
 parallelized
 perceptrons
 pharmacovigilance

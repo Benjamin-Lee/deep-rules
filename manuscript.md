@@ -22,7 +22,7 @@ author-meta:
 - Simina M. Boca
 bibliography:
 - content/manual-references.json
-date-meta: '2021-05-27'
+date-meta: '2021-07-02'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-05-27" />
+  <meta name="dc.date" content="2021-07-02" />
 
-  <meta name="citation_publication_date" content="2021-05-27" />
+  <meta name="citation_publication_date" content="2021-07-02" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2d2f8593460383cef2e1d9964b7b3b2ae7d59508/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2d2f8593460383cef2e1d9964b7b3b2ae7d59508/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2d2f8593460383cef2e1d9964b7b3b2ae7d59508/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2d2f8593460383cef2e1d9964b7b3b2ae7d59508/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2d2f8593460383cef2e1d9964b7b3b2ae7d59508/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,10 +282,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2d2f8593460383cef2e1d9964b7b3b2ae7d59508/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@2d2f859](https://github.com/Benjamin-Lee/deep-rules/tree/2d2f8593460383cef2e1d9964b7b3b2ae7d59508)
-on May 27, 2021.
+from [Benjamin-Lee/deep-rules@12a0fd8](https://github.com/Benjamin-Lee/deep-rules/tree/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b)
+on July 2, 2021.
 </em></small>
 
 ## Authors
@@ -865,6 +865,7 @@ By taking a comprehensive and careful approach to deep learning based on critica
 |Kun-Hsing Yu|Inventor of a quantitative pathology analytical system (U.S. Patent 10,832,406). This invention is not related to this work.|
 |Elana J. Fertig|Scientific Advisory Board member at Viosera Therapeutics.|
 |Alexandr A. Kalinin|Co-inventor on 4 patent applications related to machine learning applications in biology.|
+|Simina M. Boca|Currently an employee and minor share holder at AstraZeneca, Gaithersburg, MD, USA.|
 
 
 All other authors have declared no competing interests.
