@@ -24,7 +24,7 @@
   <meta name="author" content="Benjamin J. Lengerich" />
   <meta name="author" content="Timothy J. Triche, Jr." />
   <meta name="author" content="Simina M. Boca" />
-  <meta name="dcterms.date" content="2021-07-02" />
+  <meta name="dcterms.date" content="2021-10-19" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
   <style>
@@ -47,8 +47,8 @@
   <meta name="citation_title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="og:title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
-  <meta name="dc.date" content="2021-07-02" />
-  <meta name="citation_publication_date" content="2021-07-02" />
+  <meta name="dc.date" content="2021-10-19" />
+  <meta name="citation_publication_date" content="2021-10-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -147,13 +147,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/content/images/thumbnail_tips_overview.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/60546dabd91d092ff44f371d7ec80cc2d138f969/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/60546dabd91d092ff44f371d7ec80cc2d138f969/content/images/thumbnail_tips_overview.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -165,10 +165,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b">Benjamin-Lee/deep-rules@12a0fd8</a>
-on July 2, 2021.
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/60546dabd91d092ff44f371d7ec80cc2d138f969">Benjamin-Lee/deep-rules@60546da</a>
+on October 19, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -405,7 +405,7 @@ Nonetheless, deep learning is generally best suited for datasets that contain or
 <p>Training deep learning models often requires extensive computing infrastructure and patience to achieve state-of-the-art performance <span class="citation" data-cites="L7EocHX2">[<a href="#ref-L7EocHX2" role="doc-biblioref">18</a>]</span>.
 In some deep learning contexts, such as generating human-like text, state-of-the-art models have over one hundred billion parameters <span class="citation" data-cites="bYOaJHMe">[<a href="#ref-bYOaJHMe" role="doc-biblioref">19</a>]</span> and require very costly and time-consuming training procedures <span class="citation" data-cites="1CnZlKOVj">[<a href="#ref-1CnZlKOVj" role="doc-biblioref">20</a>]</span>.
 These types of large language models are being used in biology to learn representations of protein sequences <span class="citation" data-cites="703iLzmh 19sSkUYfR 3MV4PRAe">[<a href="#ref-703iLzmh" role="doc-biblioref">21</a>–<a href="#ref-3MV4PRAe" role="doc-biblioref">23</a>]</span>.
-Even those most deep learning applications in biology rarely require this much training, they can still require computational resources beyond those available on consumer-grade devices such as laptops or office desktops.
+Even though most deep learning applications in biology rarely require this much training, they can still require computational resources beyond those available on consumer-grade devices such as laptops or office desktops.
 Specialized hardware such as discrete graphics processing units (GPUs) and custom deep learning accelerators can dramatically reduce the time and cost required to train models <span class="citation" data-cites="sLm8UD2q">[<a href="#ref-sLm8UD2q" role="doc-biblioref">13</a>]</span>. Still, this hardware is not universally accessible, and cloud-based rentals add additional cost and complexity.
 These specialized hardware solutions are likely to be more broadly available as deep learning becomes more popular.
 For example, recent-generation iPhones already have such hardware.
@@ -418,7 +418,7 @@ Conversely, traditional machine learning methods are generally more straightforw
 Furthermore, there are currently more tools for automating the model selection and training process for traditional machine learning models than for deep learning models.
 For example, automated machine learning (AutoML) tools, such as TPOT <span class="citation" data-cites="12tC5JTV6">[<a href="#ref-12tC5JTV6" role="doc-biblioref">28</a>]</span> and Turi Create <span class="citation" data-cites="ndSzNxZQ">[<a href="#ref-ndSzNxZQ" role="doc-biblioref">29</a>]</span>, are able to test and optimize multiple machine learning models automatically, and can allow users to achieve competitive performance with only a few lines of code.
 There are efforts underway to extend these and other automation frameworks to reduce the expertise required to build and use deep learning models.
-For example, TPOT, Turi Create, and AutoKeras <span class="citation" data-cites="ra8TSEHY">[<a href="#ref-ra8TSEHY" role="doc-biblioref">30</a>]</span> are already capable of abstracting away much of the programming required for “standard” deep learning tasks, and high-level interfaces such as Keras <span class="citation" data-cites="fMQbR11C">[<a href="#ref-fMQbR11C" role="doc-biblioref">31</a>]</span> and Fastai <span class="citation" data-cites="McKosnsZ">[<a href="#ref-McKosnsZ" role="doc-biblioref">32</a>]</span>, make it increasingly straightforward to design and test custom deep learning architectures
+For example, TPOT, Turi Create, and AutoKeras <span class="citation" data-cites="ra8TSEHY">[<a href="#ref-ra8TSEHY" role="doc-biblioref">30</a>]</span> are already capable of abstracting away much of the programming required for “standard” deep learning tasks, and high-level interfaces such as Keras <span class="citation" data-cites="fMQbR11C">[<a href="#ref-fMQbR11C" role="doc-biblioref">31</a>]</span> and Fastai <span class="citation" data-cites="McKosnsZ">[<a href="#ref-McKosnsZ" role="doc-biblioref">32</a>]</span>, make it increasingly straightforward to design and test custom deep learning architectures.
 In the future, projects such as these are likely to make deep learning accessible to a much wider range of researchers.</p>
 <p>Despite these limitations, deep learning is strongly indicated over traditional machine learning for specific research questions and problems.
 In general, these include problems that feature hidden patterns across the data, complex relationships, and interrelated variables.
@@ -463,9 +463,10 @@ Such training can be made more difficult by the demanding nature of these deep n
 Furthermore, this experimentation is often noisy, which necessitates increased repetition and exacerbates the challenges inherent to deep learning.
 On the whole, all code, random seeds, parameters, and results must be carefully corralled using general coding standards and best practices (for example, version control <span class="citation" data-cites="kEX5dgzK">[<a href="#ref-kEX5dgzK" role="doc-biblioref">49</a>]</span> and continuous integration <span class="citation" data-cites="Qh7xTLwz">[<a href="#ref-Qh7xTLwz" role="doc-biblioref">50</a>]</span>) to be reproducible and interpretable <span class="citation" data-cites="Pf3steOn Tx4vUlOa">[<a href="#ref-Pf3steOn" role="doc-biblioref">51</a>,<a href="#ref-Tx4vUlOa" role="doc-biblioref">52</a>]</span>.
 For application-based research, this organization is also fundamental to the efficient sharing of research work and the ability to keep models up to date as new data becomes available.</p>
-<p>One specific reproducibility pitfall that is often missed in applying deep learning is the default use of non-deterministic algorithms by CUDA/CuDNN backends when using GPUs.
-That is, the CUDA/CuDNN architectures that facilitate the parallelized computing that power state-of-the-art deep learning often use algorithms by default that produce different outcomes from iteration to iteration.
-Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within deep learning libraries), which is distinct from the setting of random seeds that typically achieve reproducibility by controlling pseudorandom deterministic procedures such as shuffling and initialization <span class="citation" data-cites="1GSwNJdl7">[<a href="#ref-1GSwNJdl7" role="doc-biblioref">53</a>]</span>.</p>
+<p>A specific reproducibility pitfall that is often missed in applying deep learning is the use (often by default) of non-deterministic algorithms.
+For example, GPU acceleration libraries like CUDA/CuDNN, which facilitate the parallelized computing powering state-of-the-art deep learning, often use algorithms by default that produce different outcomes from iteration to iteration even with the same hardware and software.
+Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within deep learning libraries).
+This step is distinct from and in addition to the setting of random seeds that typically achieve reproducibility by controlling pseudorandom deterministic procedures such as shuffling and initialization <span class="citation" data-cites="1GSwNJdl7">[<a href="#ref-1GSwNJdl7" role="doc-biblioref">53</a>]</span>.</p>
 <p>Similar to the suggestions above about starting with simpler models, starting with relatively small networks and then increasing the size and complexity as needed can help prevent practitioners from wasting significant time and resources on running highly complex models that feature numerous unresolved problems.
 Again, practitioners must beware of the choices made implicitly (that is, by default settings) by deep learning libraries.
 These seemingly trivial details, such as the selection of optimization algorithm, can have significant effects on model performance.
@@ -577,23 +578,26 @@ Another way to reduce overfitting, as described by Chuang and Keiser, is to iden
 By comparing the model performance with the shuffled data to that achieved with the actual data <span class="citation" data-cites="yqAEYaMg">[<a href="#ref-yqAEYaMg" role="doc-biblioref">85</a>]</span>, a practitioner can identify overfitting as a model that performs no better on real data.
 This suggests that any predictive capacity is not due to data-driven signal.
 One important caveat when working with partitioned data is the need to apply transformation and normalization procedures equally to all datasets.
-The parameters required for such procedures (for example, quantile normalization, a common standardization method when analyzing gene-expression data) should only be derived from the training data, and not from the tuning or test data.
-Additionally, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance <span class="citation" data-cites="KnxQ4G8">[<a href="#ref-KnxQ4G8" role="doc-biblioref">86</a>]</span>.
-Therefore, model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data <span class="citation" data-cites="rKXyJKNt">[<a href="#ref-rKXyJKNt" role="doc-biblioref">87</a>]</span>.</p>
+The parameters required for such procedures (for example, quantile normalization, a common standardization method when analyzing gene-expression data) should only be derived from the training data, and not from the tuning or test data.</p>
+<p>Additionally, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance <span class="citation" data-cites="KnxQ4G8">[<a href="#ref-KnxQ4G8" role="doc-biblioref">86</a>]</span>.
+Consider an example of a dataset of mammograms in which 99% of the samples do not have breast cancer.
+A model could achieve 99% accuracy by classifying every sample as negative.
+Therefore, model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data <span class="citation" data-cites="rKXyJKNt">[<a href="#ref-rKXyJKNt" role="doc-biblioref">87</a>]</span>.
+One alternative approach is to use the precision-recall curve rather than the receiver operating characteristic since the former is more robust to class imbalance <span class="citation" data-cites="JNnkm5Zt">[<a href="#ref-JNnkm5Zt" role="doc-biblioref">88</a>]</span>.</p>
 <p>When working with biological and medical data, one must also carefully consider potential sources of bias and/or non-independence when defining training and test sets.
-For example, a deep learning model for pneumonia detection in chest X-rays appeared to performed well within the hospitals providing the training data, but then failed to generalize to other hospitals <span class="citation" data-cites="NDyhvXoh">[<a href="#ref-NDyhvXoh" role="doc-biblioref">88</a>]</span>.
+For example, a deep learning model for pneumonia detection in chest X-rays appeared to performed well within the hospitals providing the training data, but then failed to generalize to other hospitals <span class="citation" data-cites="NDyhvXoh">[<a href="#ref-NDyhvXoh" role="doc-biblioref">89</a>]</span>.
 This resulted from the deep learning model picking up on signal related to which hospital the images were from and represents a type of artifact or “batch effect” that practitioners must be vigilant towards.
-When dealing with sequence data, holding out test data that are evolutionarily related or that share structural homology to the training data can result in overfitting that is hard to detect due to the inherent relatedness of the partitioned data <span class="citation" data-cites="QobI7Hyv">[<a href="#ref-QobI7Hyv" role="doc-biblioref">89</a>]</span>.
+When dealing with sequence data, holding out test data that are evolutionarily related or that share structural homology to the training data can result in overfitting that is hard to detect due to the inherent relatedness of the partitioned data <span class="citation" data-cites="QobI7Hyv">[<a href="#ref-QobI7Hyv" role="doc-biblioref">90</a>]</span>.
 In such situations, simply holding out test data selected from a random partition of the training data can be insufficient.
 The best remedy for identifying confounding variables is to know your data and to test models on truly independent data.</p>
 <p>In essence, practitioners should split data into training, tuning, and single-use testing sets to assess the performance of the model on data that can provide a reliable estimate of its generalization performance.
 Furthermore, practitioners should be cognizant of the danger of skewed or biased data artificially inflating performance.</p>
 <h2 id="blackbox">Tip 8: Deep learning models can be made more transparent</h2>
 <p>While model interpretability is a broad concept, in much of the machine learning literature it refers to the ability to identify the discriminative features that influence or sway the predictions.
-In certain cases, the goal behind interpretation is to understand the underlying data generating processes and biological mechanisms <span class="citation" data-cites="lyJaUNDq">[<a href="#ref-lyJaUNDq" role="doc-biblioref">90</a>]</span>.
+In certain cases, the goal behind interpretation is to understand the underlying data generating processes and biological mechanisms <span class="citation" data-cites="lyJaUNDq">[<a href="#ref-lyJaUNDq" role="doc-biblioref">91</a>]</span>.
 In other cases, the goal is to understand why a model made the prediction that it did for a specific example or set of examples.
 Machine learning models vary widely in terms of interpretability: some are fully transparent while others are considered “black-boxes” that make predictions with little ability to examine why.
-Logistic regression and decision tree models are generally considered interpretable <span class="citation" data-cites="aYxTroNH">[<a href="#ref-aYxTroNH" role="doc-biblioref">91</a>]</span>.
+Logistic regression and decision tree models are generally considered interpretable <span class="citation" data-cites="aYxTroNH">[<a href="#ref-aYxTroNH" role="doc-biblioref">92</a>]</span>.
 In contrast, deep neural networks are often considered among the most difficult to interpret naively because they can have many parameters and non-linear relationships.</p>
 <p>Knowing which of the input variables influences a model’s predictions, and potentially in what ways, can help with the application or extrapolation of machine learning models.
 This is particularly important in biomedicine.
@@ -601,16 +605,16 @@ Subsequent decision making often requires human input, and models are employed w
 Furthermore, while prediction rules can be derived from high-throughput molecular datasets, most affordable clinical tests still rely on lower-dimensional measurements of a limited number of biomarkers.
 Therefore, it is often unclear how to translate the predictive capacity of deep learning models that encompass non-linear relationships between countless input variables into clinically digestible terms.
 As a result, selecting which biomarkers to use for decision making remains an important modeling and interpretation challenge.
-In fact, many authors attribute a lower uptake of deep learning tools in healthcare to interpretability challenges <span class="citation" data-cites="8seWxxzY GdO9NZJH">[<a href="#ref-8seWxxzY" role="doc-biblioref">92</a>,<a href="#ref-GdO9NZJH" role="doc-biblioref">93</a>]</span>.
-Nonetheless, strategies to interpret both machine learning and deep learning models are rapidly emerging, and the literature on the topic is growing exponentially <span class="citation" data-cites="cRG2FGOV">[<a href="#ref-cRG2FGOV" role="doc-biblioref">94</a>]</span>.
-Instead of recommending specific methods for either deep learning-specific or general-purpose model interpretation, we suggest consulting a freely available and continually updated textbook <span class="citation" data-cites="pj5bK84R">[<a href="#ref-pj5bK84R" role="doc-biblioref">95</a>]</span>.</p>
+In fact, many authors attribute a lower uptake of deep learning tools in healthcare to interpretability challenges <span class="citation" data-cites="8seWxxzY GdO9NZJH">[<a href="#ref-8seWxxzY" role="doc-biblioref">93</a>,<a href="#ref-GdO9NZJH" role="doc-biblioref">94</a>]</span>.
+Nonetheless, strategies to interpret both machine learning and deep learning models are rapidly emerging, and the literature on the topic is growing exponentially <span class="citation" data-cites="cRG2FGOV">[<a href="#ref-cRG2FGOV" role="doc-biblioref">95</a>]</span>.
+Instead of recommending specific methods for either deep learning-specific or general-purpose model interpretation, we suggest consulting a freely available and continually updated textbook <span class="citation" data-cites="pj5bK84R">[<a href="#ref-pj5bK84R" role="doc-biblioref">96</a>]</span>.</p>
 <h2 id="interpretation">Tip 9: Don’t over-interpret predictions</h2>
 <p>After training an accurate deep learning model, it is natural to want to use it to deduce relationships and inform scientific findings.
 However, be careful to interpret the model’s predictions correctly.
 Given that deep learning models can be difficult to interpret intuitively, there is often a temptation to over-interpret the predictions in indulgent or inaccurate ways.
 In accordance with the classic statistical saying “correlation doesn’t imply causation,” predictions by deep learning models rarely provide causal relationships.
 Accurately predicting an outcome does not mean that a causal mechanism has been learned, even when predictions are extremely accurate.
-In a poignant example, authors evaluated the capacities of several models to predict the probability of death for patients with pneumonia admitted to an intensive care unit <span class="citation" data-cites="980FAm5x gSmt16Rh">[<a href="#ref-980FAm5x" role="doc-biblioref">96</a>,<a href="#ref-gSmt16Rh" role="doc-biblioref">97</a>]</span>.
+In a poignant example, authors evaluated the capacities of several models to predict the probability of death for patients with pneumonia admitted to an intensive care unit <span class="citation" data-cites="980FAm5x gSmt16Rh">[<a href="#ref-980FAm5x" role="doc-biblioref">97</a>,<a href="#ref-gSmt16Rh" role="doc-biblioref">98</a>]</span>.
 The neural network model achieved the best predictive accuracy.
 However, after fitting a rule-based model to understand the relationships inherent to their data better, the authors discovered that the hospital data implied the rule “<span class="math inline">\(\text{HasAsthma}(x) \Rightarrow \text{LowerRisk}(x)\)</span>.”
 This rule contradicts medical understanding, as having asthma does not make pneumonia better!
@@ -618,11 +622,11 @@ Nonetheless, the data supported this rule, as pneumonia patients with a history 
 The neural network had, therefore, also learned to make predictions according to this rule despite the fact that it has nothing to do with causality or mechanism.
 Therefore, it would have been disastrous to guide treatment decisions according to the predictions of the neural network, even though the neural network had high predictive accuracy.</p>
 <p>It is critical to avoid over-interpreting deep learning models by viewing them for what they are: complex statistical models trained on high dimensional data.
-If causal inference is desired, special techniques for causal inference are required <span class="citation" data-cites="nqeUDzJ4">[<a href="#ref-nqeUDzJ4" role="doc-biblioref">98</a>]</span>.</p>
+If causal inference is desired, special techniques for causal inference are required <span class="citation" data-cites="nqeUDzJ4">[<a href="#ref-nqeUDzJ4" role="doc-biblioref">99</a>]</span>.</p>
 <h2 id="privacy">Tip 10: Actively consider the ethical implications of your work</h2>
 <p>While deep learning continues to be a powerful, transformative tool within life sciences research—spanning from basic biology and pre-clinical science to varied translational approaches and clinical studies—it is important to comment on ethical considerations.
-For instance, despite the fact that deep learning methods are helping to increase medical efficiency through improved diagnostic capability and risk assessment, certain biases may be inadvertently introduced into models related to patient age, race, and gender <span class="citation" data-cites="f6P8XTkP">[<a href="#ref-f6P8XTkP" role="doc-biblioref">99</a>]</span>.
-Deep learning practitioners may make use of datasets not representative of diverse populations and patient characteristics <span class="citation" data-cites="su90EPNJ">[<a href="#ref-su90EPNJ" role="doc-biblioref">100</a>]</span>, thereby contributing to these problems.</p>
+For instance, despite the fact that deep learning methods are helping to increase medical efficiency through improved diagnostic capability and risk assessment, certain biases may be inadvertently introduced into models related to patient age, race, and gender <span class="citation" data-cites="f6P8XTkP">[<a href="#ref-f6P8XTkP" role="doc-biblioref">100</a>]</span>.
+Deep learning practitioners may make use of datasets not representative of diverse populations and patient characteristics <span class="citation" data-cites="su90EPNJ">[<a href="#ref-su90EPNJ" role="doc-biblioref">101</a>]</span>, thereby contributing to these problems.</p>
 <p>Therefore, it is important to think thoroughly and cautiously about deep learning applications and their potential impact to persons and society.
 This includes being mindful of possible harms, injustices, and other types of wrongdoing.
 At a minimum, practitioners must ensure that, wherever relevant, their life sciences projects are fully compliant with local research governance and approval policies, legal requirements, Institutional Review Board policies, and any other relevant bodies and standards.
@@ -631,19 +635,20 @@ Moreover, we offer below three tangible, action-oriented recommendations to furt
 In this register, ethical concerns can be raised, recorded, and resolved, exactly as software problems are triaged and fixed.
 Because projects using deep learning usually rely on writing code, an ethics register can be a part of the issue tracker in the version control system for the software itself.
 By colocating the two, practitioners can operationalize the concept that ethical problems are “bugs” that must be resolved, not nice-to-haves that can be considered at some indefinite point in the future.
-For practitioners intending to distribute trained models, having an ethics register can also facilitate creating a <em>model card</em> <span class="citation" data-cites="TqPn1DCX">[<a href="#ref-TqPn1DCX" role="doc-biblioref">101</a>]</span>, a short document specifying the domains in which the model’s performance was validated (for example, which model organism was used), how the performance was benchmarked, and known limitations and concerns.
+For practitioners intending to distribute trained models, having an ethics register can also facilitate creating a <em>model card</em> <span class="citation" data-cites="TqPn1DCX">[<a href="#ref-TqPn1DCX" role="doc-biblioref">102</a>]</span>, a short document specifying the domains in which the model’s performance was validated (for example, which model organism was used), how the performance was benchmarked, and known limitations and concerns.
 Second, to help foster a conscious ethics-oriented mindset, researchers should consider expanding journal clubs to include scholarly and popular articles detailing real-world ethics issues relevant to their scientific fields.
 This will help researchers to think more holistically and judiciously about their work and its implications.
-Third, we encourage individual- and team-level participation in professional societies <span class="citation" data-cites="HKTnYDZq">[<a href="#ref-HKTnYDZq" role="doc-biblioref">102</a>]</span> and other types of organizations <span class="citation" data-cites="cl8ts1jx">[<a href="#ref-cl8ts1jx" role="doc-biblioref">103</a>]</span> and events <span class="citation" data-cites="16qsznKWN">[<a href="#ref-16qsznKWN" role="doc-biblioref">104</a>]</span> related to the domains of AI and data ethics as well as bioethics.
+Third, we encourage individual- and team-level participation in professional societies <span class="citation" data-cites="HKTnYDZq">[<a href="#ref-HKTnYDZq" role="doc-biblioref">103</a>]</span> and other types of organizations <span class="citation" data-cites="cl8ts1jx">[<a href="#ref-cl8ts1jx" role="doc-biblioref">104</a>]</span> and events <span class="citation" data-cites="16qsznKWN">[<a href="#ref-16qsznKWN" role="doc-biblioref">105</a>]</span> related to the domains of AI and data ethics as well as bioethics.
 This will encourage a sense of community and intellectual engagement, and will keep practitioners abreast of cutting-edge insights and emerging professional standards.</p>
-<p>Furthermore, practitioners may encounter datasets that cannot be shared, such as ones for which there would be significant ethical or legal issues associated with their release <span class="citation" data-cites="uXPlMpfq">[<a href="#ref-uXPlMpfq" role="doc-biblioref">105</a>]</span>.
-Examples of such data include classified or confidential data, biological data related to trade secrets, medical records, or other personally identifiable information <span class="citation" data-cites="VpgPDZxv">[<a href="#ref-VpgPDZxv" role="doc-biblioref">106</a>]</span>.
-While deep learning models can capture information-rich abstractions of multiple features of the data during the training process, these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs <span class="citation" data-cites="zCqhgXvY 1HbRTExaU">[<a href="#ref-zCqhgXvY" role="doc-biblioref">107</a>,<a href="#ref-1HbRTExaU" role="doc-biblioref">108</a>]</span>.
+<p>Furthermore, practitioners may encounter datasets that cannot be shared, such as ones for which there would be significant ethical or legal issues associated with their release <span class="citation" data-cites="uXPlMpfq">[<a href="#ref-uXPlMpfq" role="doc-biblioref">106</a>]</span>.
+Examples of such data include classified or confidential data, biological data related to trade secrets, medical records, or other personally identifiable information <span class="citation" data-cites="VpgPDZxv">[<a href="#ref-VpgPDZxv" role="doc-biblioref">107</a>]</span>.
+While deep learning models can capture information-rich abstractions of multiple features of the data during the training process, these features may be more prone to leak the data that they were trained over if the model is shared or allowed to be queried with arbitrary inputs <span class="citation" data-cites="zCqhgXvY 1HbRTExaU">[<a href="#ref-zCqhgXvY" role="doc-biblioref">108</a>,<a href="#ref-1HbRTExaU" role="doc-biblioref">109</a>]</span>.
 In other words, the complex relationships learned about the input data can potentially be used to infer characteristics about the original dataset, which reflects the facts that the strengths that imbue deep learning with its great predictive capacity may also raise the level of risk surrounding data privacy.
-Therefore, while there is tremendous promise for deep learning techniques to extract information that cannot readily be captured by traditional methods <span class="citation" data-cites="UeE0s74F">[<a href="#ref-UeE0s74F" role="doc-biblioref">109</a>]</span>, it is imperative not to share models trained on sensitive data.
+Therefore, while there is tremendous promise for deep learning techniques to extract information that cannot readily be captured by traditional methods <span class="citation" data-cites="UeE0s74F">[<a href="#ref-UeE0s74F" role="doc-biblioref">110</a>]</span>, it is imperative not to share models trained on sensitive data.
 This also holds true for certain traditional machine learning methods that learn by capturing specific details of the full training data (for example, <em>k</em>-nearest neighbors models).</p>
-<p>Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption, which serves to enable equivalent prediction on data that is encrypted end-to-end <span class="citation" data-cites="me326jb9 3326vtLW">[<a href="#ref-me326jb9" role="doc-biblioref">110</a>,<a href="#ref-3326vtLW" role="doc-biblioref">111</a>]</span>.
-Privacy-preserving techniques <span class="citation" data-cites="1HuQe3Z8X">[<a href="#ref-1HuQe3Z8X" role="doc-biblioref">112</a>]</span>, such as differential privacy <span class="citation" data-cites="LiCxcgZp fbIH12yd eJgWbXRz">[<a href="#ref-LiCxcgZp" role="doc-biblioref">113</a>–<a href="#ref-eJgWbXRz" role="doc-biblioref">115</a>]</span>, can help to mitigate risks as long as the assumptions underlying these techniques are met.
+<p>Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption, which serves to enable equivalent prediction on data that is encrypted end-to-end <span class="citation" data-cites="me326jb9 3326vtLW">[<a href="#ref-me326jb9" role="doc-biblioref">111</a>,<a href="#ref-3326vtLW" role="doc-biblioref">112</a>]</span>.
+Privacy-preserving techniques <span class="citation" data-cites="1HuQe3Z8X">[<a href="#ref-1HuQe3Z8X" role="doc-biblioref">113</a>]</span>, such as differential privacy <span class="citation" data-cites="LiCxcgZp fbIH12yd eJgWbXRz">[<a href="#ref-LiCxcgZp" role="doc-biblioref">114</a>–<a href="#ref-eJgWbXRz" role="doc-biblioref">116</a>]</span>, can help to mitigate risks as long as the assumptions underlying these techniques are met.
+Other methods, such a distributed learning, in which small subsets of the data are processed independently in silos (possibly by different agents), are also promsing but require careful investigation before applying to protected information <span class="citation" data-cites="136V3i1jH">[<a href="#ref-136V3i1jH" role="doc-biblioref">117</a>]</span>.
 While these methods provide a path towards a future where trained models and their predictions can be shared, more software development and theoretical advances will be required to make these techniques easy to apply correctly in many settings.
 Unless using these techniques, researchers must not share the weights or provide arbitrary access to the predictions of models trained on sensitive data.</p>
 <h2 id="conclusion">Conclusion</h2>
@@ -717,7 +722,7 @@ We would also like to thank Fábio Madeira (<a href="https://orcid.org/0000-0001
 <p>7. Himmelstein DS, Rubinetti V, Slochower DR, Hu D, Malladi VS, Greene CS, et al. Open collaborative writing with Manubot. PLOS Computational Biology. 2019;15: e1007128. doi:<a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a></p>
 </div>
 <div id="ref-XPXTSaKX">
-<p>8. Raschka S, Mirjalili V. Python machine learning: machine learning and deep learning with python, scikit-learn, and tensorflow 2. 2019. Available: <a href="https://public.ebookcentral.proquest.com/choice/publicfullrecord.aspx?p=6005547">https://public.ebookcentral.proquest.com/choice/publicfullrecord.aspx?p=6005547</a></p>
+<p>8. Raschka S, Mirjalili V. Python machine learning: machine learning and deep learning with Python, scikit-learn, and TensorFlow 2. Third edition. Birmingham Mumbai: Packt; 2019. </p>
 </div>
 <div id="ref-p4Nl5If0">
 <p>9. Chicco D. Ten quick tips for machine learning in computational biology. BioData Mining. 2017;10: 35. doi:<a href="https://doi.org/10.1186/s13040-017-0155-3">10.1186/s13040-017-0155-3</a></p>
@@ -780,13 +785,13 @@ We would also like to thank Fábio Madeira (<a href="https://orcid.org/0000-0001
 <p>28. Olson RS, Urbanowicz RJ, Andrews PC, Lavender NA, Kidd LC, Moore JH. Automating Biomedical Data Science Through Tree-Based Pipeline Optimization. Lecture Notes in Computer Science. Springer Science and Business Media LLC; 2016. doi:<a href="https://doi.org/10.1007/978-3-319-31204-0_9">10.1007/978-3-319-31204-0_9</a></p>
 </div>
 <div id="ref-ndSzNxZQ">
-<p>29. apple/turicreate. Apple; 2021. Available: <a href="https://github.com/apple/turicreate">https://github.com/apple/turicreate</a></p>
+<p>29. GitHub - apple/turicreate: Turi Create simplifies the development of custom machine learning models. In: GitHub [Internet]. [cited 19 Oct 2021]. Available: <a href="https://github.com/apple/turicreate">https://github.com/apple/turicreate</a></p>
 </div>
 <div id="ref-ra8TSEHY">
 <p>30. Jin H, Song Q, Hu X. Auto-Keras: An Efficient Neural Architecture Search System. arXiv. arXiv; 2019 Mar. Report No.: 1806.10282. Available: <a href="https://arxiv.org/abs/1806.10282">https://arxiv.org/abs/1806.10282</a></p>
 </div>
 <div id="ref-fMQbR11C">
-<p>31. Keras: the Python deep learning API. [cited 2 Jul 2021]. Available: <a href="https://keras.io/">https://keras.io/</a></p>
+<p>31. Keras: the Python deep learning API. [cited 19 Oct 2021]. Available: <a href="https://keras.io/">https://keras.io/</a></p>
 </div>
 <div id="ref-McKosnsZ">
 <p>32. Howard J, Gugger S. Fastai: A Layered API for Deep Learning. Information. 2020;11: 108. doi:<a href="https://doi.org/10.3390/info11020108">10.3390/info11020108</a></p>
@@ -837,7 +842,7 @@ We would also like to thank Fábio Madeira (<a href="https://orcid.org/0000-0001
 <p>47. Jiang H, Kim B, Guan MY, Gupta M. To Trust Or Not To Trust A Classifier. arXiv. arXiv; 2018 Oct. Report No.: 1805.11783. Available: <a href="https://arxiv.org/abs/1805.11783">https://arxiv.org/abs/1805.11783</a></p>
 </div>
 <div id="ref-gTcMnARc">
-<p>48. Hu Q, Greene CS. Parameter tuning is a key part of dimensionality reduction via deep variational autoencoders for single cell RNA transcriptomics. World Scientific Pub Co Pte Lt. 2018. doi:<a href="https://doi.org/10.1142/9789813279827_0033">10.1142/9789813279827_0033</a></p>
+<p>48. Hu Q, Greene CS. Parameter tuning is a key part of dimensionality reduction via deep variational autoencoders for single cell RNA transcriptomics. World Scientific Pub Co Pte Ltd. 2018. doi:<a href="https://doi.org/10.1142/9789813279827_0033">10.1142/9789813279827_0033</a></p>
 </div>
 <div id="ref-kEX5dgzK">
 <p>49. Perez-Riverol Y, Gatto L, Wang R, Sachsenberg T, Uszkoreit J, Leprevost F da V, et al. Ten Simple Rules for Taking Advantage of Git and GitHub. PLOS Computational Biology. 2016;12: e1004947. doi:<a href="https://doi.org/10.1371/journal.pcbi.1004947">10.1371/journal.pcbi.1004947</a></p>
@@ -855,7 +860,7 @@ We would also like to thank Fábio Madeira (<a href="https://orcid.org/0000-0001
 <p>53. NVIDIA. Deep Learning SDK Documentation. 1 Nov 2018. Available: <a href="https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility">https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility</a></p>
 </div>
 <div id="ref-mIx19cpn">
-<p>54. Leung H, Glass J, Phillips M, Zue VW. Phonetic Classification and Recognition Using the Multi-Layer Perceptron. In: Lippmann RP, Moody J, Touretzky D, editors. Advances in Neural Information Processing Systems. Morgan-Kaufmann; 1991. Available: <a href="https://proceedings.neurips.cc/paper/1990/file/3dd48ab31d016ffcbf3314df2b3cb9ce-Paper.pdf">https://proceedings.neurips.cc/paper/1990/file/3dd48ab31d016ffcbf3314df2b3cb9ce-Paper.pdf</a></p>
+<p>54. Wilson AC, Roelofs R, Stern M, Srebro N, Recht B. The Marginal Value of Adaptive Gradient Methods in Machine Learning. Advances in Neural Information Processing Systems. 2017;30. Available: <a href="https://papers.nips.cc/paper/2017/hash/81b3833e2504647f9d794f7d7b9bf341-Abstract.html">https://papers.nips.cc/paper/2017/hash/81b3833e2504647f9d794f7d7b9bf341-Abstract.html</a></p>
 </div>
 <div id="ref-esvPpSAp">
 <p>55. Vision T. The Dryad Digital Repository: Published evolutionary data as part of the greater data ecosystem. Nature Precedings. 2010. doi:<a href="https://doi.org/10.1038/npre.2010.4595.1">10.1038/npre.2010.4595.1</a></p>
@@ -894,7 +899,7 @@ We would also like to thank Fábio Madeira (<a href="https://orcid.org/0000-0001
 <p>66. LeCun Y, Bengio Y, Hinton G. Deep learning. Nature. 2015;521: 436–444. doi:<a href="https://doi.org/10.1038/nature14539">10.1038/nature14539</a></p>
 </div>
 <div id="ref-jdSXX5Vn">
-<p>67. Yosinski J, Clune J, Bengio Y, Lipson H. How transferable are features in deep neural networks? Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 2. Montreal, Canada: MIT Press; 2014. pp. 3320–3328. Available: <a href="https://dl.acm.org/doi/abs/10.5555/2969033.2969197">https://dl.acm.org/doi/abs/10.5555/2969033.2969197</a></p>
+<p>67. Yosinski J, Clune J, Bengio Y, Lipson H. How transferable are features in deep neural networks? Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 2. Cambridge, MA, USA: MIT Press; 2014. pp. 3320–3328. Available: <a href="https://dl.acm.org/doi/abs/10.5555/2969033.2969197">https://dl.acm.org/doi/abs/10.5555/2969033.2969197</a></p>
 </div>
 <div id="ref-cBVeXnZx">
 <p>68. Russakovsky O, Deng J, Su H, Krause J, Satheesh S, Ma S, et al. ImageNet Large Scale Visual Recognition Challenge. International Journal of Computer Vision. 2015;115: 211–252. doi:<a href="https://doi.org/10.1007/s11263-015-0816-y">10.1007/s11263-015-0816-y</a></p>
@@ -909,7 +914,7 @@ We would also like to thank Fábio Madeira (<a href="https://orcid.org/0000-0001
 <p>71. Wolf T, Debut L, Sanh V, Chaumond J, Delangue C, Moi A, et al. Transformers: State-of-the-Art Natural Language Processing. Association for Computational Linguistics (ACL). 2020. doi:<a href="https://doi.org/10.18653/v1/2020.emnlp-demos.6">10.18653/v1/2020.emnlp-demos.6</a></p>
 </div>
 <div id="ref-N3a59ayQ">
-<p>72. Gu Y, Tinn R, Cheng H, Lucas M, Usuyama N, Liu X, et al. Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing. arXiv. arXiv; 2021 Jun. Report No.: 2007.15779. Available: <a href="https://arxiv.org/abs/2007.15779">https://arxiv.org/abs/2007.15779</a></p>
+<p>72. Gu Y, Tinn R, Cheng H, Lucas M, Usuyama N, Liu X, et al. Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing. arXiv. arXiv; 2021 Sep. Report No.: 2007.15779. doi:<a href="https://doi.org/10.1145/3458754">10.1145/3458754</a></p>
 </div>
 <div id="ref-EnNKKBjl">
 <p>73. Chithrananda S, Grand G, Ramsundar B. ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction. arXiv. arXiv; 2020 Oct. Report No.: 2010.09885. Available: <a href="https://arxiv.org/abs/2010.09885">https://arxiv.org/abs/2010.09885</a></p>
@@ -945,7 +950,7 @@ We would also like to thank Fábio Madeira (<a href="https://orcid.org/0000-0001
 <p>83. Srivastava N, Hinton G, Krizhevsky A, Sutskever I, Salakhutdinov R. Dropout: A Simple Way to Prevent Neural Networks from Overfitting. Journal of Machine Learning Research. 2014;15: 1929–1958. Available: <a href="http://jmlr.org/papers/v15/srivastava14a.html">http://jmlr.org/papers/v15/srivastava14a.html</a></p>
 </div>
 <div id="ref-eR3C2hhK">
-<p>84. Krogh A, Hertz JA. A simple weight decay can improve generalization. Proceedings of the 4th International Conference on Neural Information Processing Systems. Denver, Colorado: Morgan Kaufmann Publishers Inc. 1991. pp. 950–957. Available: <a href="http://dl.acm.org/citation.cfm?id=2986916.2987033">http://dl.acm.org/citation.cfm?id=2986916.2987033</a></p>
+<p>84. Krogh A, Hertz JA. A simple weight decay can improve generalization. Proceedings of the 4th International Conference on Neural Information Processing Systems. San Francisco, CA, USA: Morgan Kaufmann Publishers Inc. 1991. pp. 950–957. Available: <a href="http://dl.acm.org/citation.cfm?id=2986916.2987033">http://dl.acm.org/citation.cfm?id=2986916.2987033</a></p>
 </div>
 <div id="ref-yqAEYaMg">
 <p>85. Chuang KV, Keiser MJ. Adversarial Controls for Scientific Machine Learning. ACS Chemical Biology. 2018;13: 2819–2821. doi:<a href="https://doi.org/10.1021/acschembio.8b00881">10.1021/acschembio.8b00881</a></p>
@@ -956,89 +961,95 @@ We would also like to thank Fábio Madeira (<a href="https://orcid.org/0000-0001
 <div id="ref-rKXyJKNt">
 <p>87. Korotcov A, Tkachenko V, Russo DP, Ekins S. Comparison of Deep Learning With Multiple Machine Learning Methods and Metrics Using Diverse Drug Discovery Data Sets. Molecular Pharmaceutics. 2017;14: 4462–4475. doi:<a href="https://doi.org/10.1021/acs.molpharmaceut.7b00578">10.1021/acs.molpharmaceut.7b00578</a></p>
 </div>
+<div id="ref-JNnkm5Zt">
+<p>88. Davis J, Goadrich M. The relationship between Precision-Recall and ROC curves. Association for Computing Machinery (ACM). 2006. doi:<a href="https://doi.org/10.1145/1143844.1143874">10.1145/1143844.1143874</a></p>
+</div>
 <div id="ref-NDyhvXoh">
-<p>88. Zech JR, Badgeley MA, Liu M, Costa AB, Titano JJ, Oermann EK. Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study. PLOS Medicine. 2018;15: e1002683. doi:<a href="https://doi.org/10.1371/journal.pmed.1002683">10.1371/journal.pmed.1002683</a></p>
+<p>89. Zech JR, Badgeley MA, Liu M, Costa AB, Titano JJ, Oermann EK. Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study. PLOS Medicine. 2018;15: e1002683. doi:<a href="https://doi.org/10.1371/journal.pmed.1002683">10.1371/journal.pmed.1002683</a></p>
 </div>
 <div id="ref-QobI7Hyv">
-<p>89. Walsh I, Pollastri G, Tosatto SCE. Correct machine learning on protein sequences: a peer-reviewing perspective. Briefings in Bioinformatics. 2016;17: 831–840. doi:<a href="https://doi.org/10.1093/bib/bbv082">10.1093/bib/bbv082</a></p>
+<p>90. Walsh I, Pollastri G, Tosatto SCE. Correct machine learning on protein sequences: a peer-reviewing perspective. Briefings in Bioinformatics. 2016;17: 831–840. doi:<a href="https://doi.org/10.1093/bib/bbv082">10.1093/bib/bbv082</a></p>
 </div>
 <div id="ref-lyJaUNDq">
-<p>90. Bemister-Buffington J, Wolf AJ, Raschka S, Kuhn LA. Machine Learning to Identify Flexibility Signatures of Class A GPCR Inhibition. Biomolecules. 2020;10: 454. doi:<a href="https://doi.org/10.3390/biom10030454">10.3390/biom10030454</a></p>
+<p>91. Bemister-Buffington J, Wolf AJ, Raschka S, Kuhn LA. Machine Learning to Identify Flexibility Signatures of Class A GPCR Inhibition. Biomolecules. 2020;10: 454. doi:<a href="https://doi.org/10.3390/biom10030454">10.3390/biom10030454</a></p>
 </div>
 <div id="ref-aYxTroNH">
-<p>91. Raschka S, Scott AM, Huertas M, Li W, Kuhn LA. Automated Inference of Chemical Discriminants of Biological Activity. Methods in Molecular Biology. Springer Science and Business Media LLC; 2018. doi:<a href="https://doi.org/10.1007/978-1-4939-7756-7_16">10.1007/978-1-4939-7756-7_16</a></p>
+<p>92. Raschka S, Scott AM, Huertas M, Li W, Kuhn LA. Automated Inference of Chemical Discriminants of Biological Activity. Methods in Molecular Biology. Springer Science and Business Media LLC; 2018. doi:<a href="https://doi.org/10.1007/978-1-4939-7756-7_16">10.1007/978-1-4939-7756-7_16</a></p>
 </div>
 <div id="ref-8seWxxzY">
-<p>92. Ravi D, Wong C, Deligianni F, Berthelot M, Andreu-Perez J, Lo B, et al. Deep Learning for Health Informatics. IEEE Journal of Biomedical and Health Informatics. 2017;21: 4–21. doi:<a href="https://doi.org/10.1109/jbhi.2016.2636665">10.1109/jbhi.2016.2636665</a></p>
+<p>93. Ravi D, Wong C, Deligianni F, Berthelot M, Andreu-Perez J, Lo B, et al. Deep Learning for Health Informatics. IEEE Journal of Biomedical and Health Informatics. 2017;21: 4–21. doi:<a href="https://doi.org/10.1109/jbhi.2016.2636665">10.1109/jbhi.2016.2636665</a></p>
 </div>
 <div id="ref-GdO9NZJH">
-<p>93. Towards trustable machine learning. Nature Biomedical Engineering. 2018;2: 709–710. doi:<a href="https://doi.org/10.1038/s41551-018-0315-x">10.1038/s41551-018-0315-x</a></p>
+<p>94. Towards trustable machine learning. Nature Biomedical Engineering. 2018;2: 709–710. doi:<a href="https://doi.org/10.1038/s41551-018-0315-x">10.1038/s41551-018-0315-x</a></p>
 </div>
 <div id="ref-cRG2FGOV">
-<p>94. Fan F, Xiong J, Li M, Wang G. On Interpretability of Artificial Neural Networks: A Survey. arXiv. arXiv; 2021 Jan. Report No.: 2001.02522. Available: <a href="https://arxiv.org/abs/2001.02522">https://arxiv.org/abs/2001.02522</a></p>
+<p>95. Fan F, Xiong J, Li M, Wang G. On Interpretability of Artificial Neural Networks: A Survey. arXiv. arXiv; 2021 Sep. Report No.: 2001.02522. Available: <a href="https://arxiv.org/abs/2001.02522">https://arxiv.org/abs/2001.02522</a></p>
 </div>
 <div id="ref-pj5bK84R">
-<p>95. Molnar C. Interpretable Machine Learning. Available: <a href="https://christophm.github.io/interpretable-ml-book/">https://christophm.github.io/interpretable-ml-book/</a></p>
+<p>96. Molnar C. Interpretable Machine Learning. Available: <a href="https://christophm.github.io/interpretable-ml-book/">https://christophm.github.io/interpretable-ml-book/</a></p>
 </div>
 <div id="ref-980FAm5x">
-<p>96. Cooper GF, Aliferis CF, Ambrosino R, Aronis J, Buchanan BG, Caruana R, et al. An evaluation of machine-learning methods for predicting pneumonia mortality. Artificial Intelligence in Medicine. 1997;9: 107–138. doi:<a href="https://doi.org/10.1016/s0933-3657(96)00367-3">10.1016/s0933-3657(96)00367-3</a></p>
+<p>97. Cooper GF, Aliferis CF, Ambrosino R, Aronis J, Buchanan BG, Caruana R, et al. An evaluation of machine-learning methods for predicting pneumonia mortality. Artificial Intelligence in Medicine. 1997;9: 107–138. doi:<a href="https://doi.org/10.1016/s0933-3657(96)00367-3">10.1016/s0933-3657(96)00367-3</a></p>
 </div>
 <div id="ref-gSmt16Rh">
-<p>97. Caruana R, Lou Y, Gehrke J, Koch P, Sturm M, Elhadad N. Intelligible Models for HealthCare. Association for Computing Machinery (ACM). 2015. doi:<a href="https://doi.org/10.1145/2783258.2788613">10.1145/2783258.2788613</a></p>
+<p>98. Caruana R, Lou Y, Gehrke J, Koch P, Sturm M, Elhadad N. Intelligible Models for HealthCare. Association for Computing Machinery (ACM). 2015. doi:<a href="https://doi.org/10.1145/2783258.2788613">10.1145/2783258.2788613</a></p>
 </div>
 <div id="ref-nqeUDzJ4">
-<p>98. Luo Y, Peng J, Ma J. When causal inference meets deep learning. Nature Machine Intelligence. 2020;2: 426–427. doi:<a href="https://doi.org/10.1038/s42256-020-0218-x">10.1038/s42256-020-0218-x</a></p>
+<p>99. Luo Y, Peng J, Ma J. When causal inference meets deep learning. Nature Machine Intelligence. 2020;2: 426–427. doi:<a href="https://doi.org/10.1038/s42256-020-0218-x">10.1038/s42256-020-0218-x</a></p>
 </div>
 <div id="ref-f6P8XTkP">
-<p>99. Ho A. Deep Ethical Learning: Taking the Interplay of Human and Artificial Intelligence Seriously. Hastings Center Report. 2019;49: 36–39. doi:<a href="https://doi.org/10.1002/hast.977">10.1002/hast.977</a></p>
+<p>100. Ho A. Deep Ethical Learning: Taking the Interplay of Human and Artificial Intelligence Seriously. Hastings Center Report. 2019;49: 36–39. doi:<a href="https://doi.org/10.1002/hast.977">10.1002/hast.977</a></p>
 </div>
 <div id="ref-su90EPNJ">
-<p>100. Cohen IG, Amarasingham R, Shah A, Xie B, Lo B. The Legal And Ethical Concerns That Arise From Using Complex Predictive Analytics In Health Care. Health Affairs. 2014;33: 1139–1147. doi:<a href="https://doi.org/10.1377/hlthaff.2014.0048">10.1377/hlthaff.2014.0048</a></p>
+<p>101. Cohen IG, Amarasingham R, Shah A, Xie B, Lo B. The Legal And Ethical Concerns That Arise From Using Complex Predictive Analytics In Health Care. Health Affairs. 2014;33: 1139–1147. doi:<a href="https://doi.org/10.1377/hlthaff.2014.0048">10.1377/hlthaff.2014.0048</a></p>
 </div>
 <div id="ref-TqPn1DCX">
-<p>101. Mitchell M, Wu S, Zaldivar A, Barnes P, Vasserman L, Hutchinson B, et al. Model Cards for Model Reporting. Association for Computing Machinery (ACM). 2019. doi:<a href="https://doi.org/10.1145/3287560.3287596">10.1145/3287560.3287596</a></p>
+<p>102. Mitchell M, Wu S, Zaldivar A, Barnes P, Vasserman L, Hutchinson B, et al. Model Cards for Model Reporting. Association for Computing Machinery (ACM). 2019. doi:<a href="https://doi.org/10.1145/3287560.3287596">10.1145/3287560.3287596</a></p>
 </div>
 <div id="ref-HKTnYDZq">
-<p>102. American Society for Bioethics and Humanities. [cited 2 Jul 2021]. Available: <a href="https://asbh.org/">https://asbh.org/</a></p>
+<p>103. American Society for Bioethics and Humanities. [cited 19 Oct 2021]. Available: <a href="https://asbh.org/">https://asbh.org/</a></p>
 </div>
 <div id="ref-cl8ts1jx">
-<p>103. 10 organizations leading the way in ethical AI — SAGE Ocean | Big Data, New Tech, Social Science. 12 Jan 2021 [cited 2 Jul 2021]. Available: <a href="https://web.archive.org/web/20210112231619/https://ocean.sagepub.com/blog/10-organizations-leading-the-way-in-ethical-ai">https://web.archive.org/web/20210112231619/https://ocean.sagepub.com/blog/10-organizations-leading-the-way-in-ethical-ai</a></p>
+<p>104. 10 organizations leading the way in ethical AI — SAGE Ocean | Big Data, New Tech, Social Science. 12 Jan 2021 [cited 19 Oct 2021]. Available: <a href="https://web.archive.org/web/20210112231619/https://ocean.sagepub.com/blog/10-organizations-leading-the-way-in-ethical-ai">https://web.archive.org/web/20210112231619/https://ocean.sagepub.com/blog/10-organizations-leading-the-way-in-ethical-ai</a></p>
 </div>
 <div id="ref-16qsznKWN">
-<p>104. Artificial Intelligence, Ethics, and Society — Home. [cited 2 Jul 2021]. Available: <a href="https://www.aies-conference.com/2021/">https://www.aies-conference.com/2021/</a></p>
+<p>105. Artificial Intelligence, Ethics, and Society — Home. [cited 19 Oct 2021]. Available: <a href="https://www.aies-conference.com/2021/">https://www.aies-conference.com/2021/</a></p>
 </div>
 <div id="ref-uXPlMpfq">
-<p>105. Zook M, Barocas S, boyd danah, Crawford K, Keller E, Gangadharan SP, et al. Ten simple rules for responsible big data research. PLOS Computational Biology. 2017;13: e1005399. doi:<a href="https://doi.org/10.1371/journal.pcbi.1005399">10.1371/journal.pcbi.1005399</a></p>
+<p>106. Zook M, Barocas S, boyd danah, Crawford K, Keller E, Gangadharan SP, et al. Ten simple rules for responsible big data research. PLOS Computational Biology. 2017;13: e1005399. doi:<a href="https://doi.org/10.1371/journal.pcbi.1005399">10.1371/journal.pcbi.1005399</a></p>
 </div>
 <div id="ref-VpgPDZxv">
-<p>106. Byrd JB, Greene AC, Prasad DV, Jiang X, Greene CS. Responsible, practical genomic data sharing that accelerates research. Nature Reviews Genetics. 2020;21: 615–629. doi:<a href="https://doi.org/10.1038/s41576-020-0257-5">10.1038/s41576-020-0257-5</a></p>
+<p>107. Byrd JB, Greene AC, Prasad DV, Jiang X, Greene CS. Responsible, practical genomic data sharing that accelerates research. Nature Reviews Genetics. 2020;21: 615–629. doi:<a href="https://doi.org/10.1038/s41576-020-0257-5">10.1038/s41576-020-0257-5</a></p>
 </div>
 <div id="ref-zCqhgXvY">
-<p>107. Fredrikson M, Jha S, Ristenpart T. Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures. Association for Computing Machinery (ACM). 2015. doi:<a href="https://doi.org/10.1145/2810103.2813677">10.1145/2810103.2813677</a></p>
+<p>108. Fredrikson M, Jha S, Ristenpart T. Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures. Association for Computing Machinery (ACM). 2015. doi:<a href="https://doi.org/10.1145/2810103.2813677">10.1145/2810103.2813677</a></p>
 </div>
 <div id="ref-1HbRTExaU">
-<p>108. Shokri R, Stronati M, Song C, Shmatikov V. Membership Inference Attacks against Machine Learning Models. arXiv. arXiv; 2017 Apr. Report No.: 1610.05820. Available: <a href="https://arxiv.org/abs/1610.05820">https://arxiv.org/abs/1610.05820</a></p>
+<p>109. Shokri R, Stronati M, Song C, Shmatikov V. Membership Inference Attacks against Machine Learning Models. arXiv. arXiv; 2017 Apr. Report No.: 1610.05820. Available: <a href="https://arxiv.org/abs/1610.05820">https://arxiv.org/abs/1610.05820</a></p>
 </div>
 <div id="ref-UeE0s74F">
-<p>109. Duvenaud D, Maclaurin D, Aguilera-Iparraguirre J, Gómez-Bombarelli R, Hirzel T, Aspuru-Guzik A, et al. Convolutional Networks on Graphs for Learning Molecular Fingerprints. arXiv. arXiv; 2015 Nov. Report No.: 1509.09292. Available: <a href="https://arxiv.org/abs/1509.09292">https://arxiv.org/abs/1509.09292</a></p>
+<p>110. Duvenaud D, Maclaurin D, Aguilera-Iparraguirre J, Gómez-Bombarelli R, Hirzel T, Aspuru-Guzik A, et al. Convolutional Networks on Graphs for Learning Molecular Fingerprints. arXiv. arXiv; 2015 Nov. Report No.: 1509.09292. Available: <a href="https://arxiv.org/abs/1509.09292">https://arxiv.org/abs/1509.09292</a></p>
 </div>
 <div id="ref-me326jb9">
-<p>110. Titus AJ, Flower A, Hagerty P, Gamble P, Lewis C, Stavish T, et al. SIG-DB: Leveraging homomorphic encryption to securely interrogate privately held genomic databases. PLOS Computational Biology. 2018;14: e1006454. doi:<a href="https://doi.org/10.1371/journal.pcbi.1006454">10.1371/journal.pcbi.1006454</a></p>
+<p>111. Titus AJ, Flower A, Hagerty P, Gamble P, Lewis C, Stavish T, et al. SIG-DB: Leveraging homomorphic encryption to securely interrogate privately held genomic databases. PLOS Computational Biology. 2018;14: e1006454. doi:<a href="https://doi.org/10.1371/journal.pcbi.1006454">10.1371/journal.pcbi.1006454</a></p>
 </div>
 <div id="ref-3326vtLW">
-<p>111. Badawi AA, Chao J, Lin J, Mun CF, Sim JJ, Tan BHM, et al. Towards the AlexNet Moment for Homomorphic Encryption: HCNN, theFirst Homomorphic CNN on Encrypted Data with GPUs. arXiv. arXiv; 2020 Aug. Report No.: 1811.00778. Available: <a href="https://arxiv.org/abs/1811.00778">https://arxiv.org/abs/1811.00778</a></p>
+<p>112. Badawi AA, Chao J, Lin J, Mun CF, Sim JJ, Tan BHM, et al. Towards the AlexNet Moment for Homomorphic Encryption: HCNN, theFirst Homomorphic CNN on Encrypted Data with GPUs. arXiv. arXiv; 2020 Aug. Report No.: 1811.00778. Available: <a href="https://arxiv.org/abs/1811.00778">https://arxiv.org/abs/1811.00778</a></p>
 </div>
 <div id="ref-1HuQe3Z8X">
-<p>112. Ryffel T, Trask A, Dahl M, Wagner B, Mancuso J, Rueckert D, et al. A generic framework for privacy preserving deep learning. arXiv. arXiv; 2018 Nov. Report No.: 1811.04017. Available: <a href="https://arxiv.org/abs/1811.04017">https://arxiv.org/abs/1811.04017</a></p>
+<p>113. Ryffel T, Trask A, Dahl M, Wagner B, Mancuso J, Rueckert D, et al. A generic framework for privacy preserving deep learning. arXiv. arXiv; 2018 Nov. Report No.: 1811.04017. Available: <a href="https://arxiv.org/abs/1811.04017">https://arxiv.org/abs/1811.04017</a></p>
 </div>
 <div id="ref-LiCxcgZp">
-<p>113. Abadi M, Chu A, Goodfellow I, McMahan HB, Mironov I, Talwar K, et al. Deep Learning with Differential Privacy. Association for Computing Machinery (ACM). 2016. doi:<a href="https://doi.org/10.1145/2976749.2978318">10.1145/2976749.2978318</a></p>
+<p>114. Abadi M, Chu A, Goodfellow I, McMahan HB, Mironov I, Talwar K, et al. Deep Learning with Differential Privacy. Association for Computing Machinery (ACM). 2016. doi:<a href="https://doi.org/10.1145/2976749.2978318">10.1145/2976749.2978318</a></p>
 </div>
 <div id="ref-fbIH12yd">
-<p>114. Beaulieu-Jones BK, Wu ZS, Williams C, Lee R, Bhavnani SP, Byrd JB, et al. Privacy-preserving generative deep neural networks support clinical data sharing. Cold Spring Harbor Laboratory. 2018. doi:<a href="https://doi.org/10.1101/159756">10.1101/159756</a></p>
+<p>115. Beaulieu-Jones BK, Wu ZS, Williams C, Lee R, Bhavnani SP, Byrd JB, et al. Privacy-preserving generative deep neural networks support clinical data sharing. Cold Spring Harbor Laboratory. 2018. doi:<a href="https://doi.org/10.1101/159756">10.1101/159756</a></p>
 </div>
 <div id="ref-eJgWbXRz">
-<p>115. Beaulieu-Jones BK, Yuan W, Finlayson SG, Wu ZS. Privacy-Preserving Distributed Deep Learning for Clinical Data. arXiv. arXiv; 2018 Dec. Report No.: 1812.01484. Available: <a href="https://arxiv.org/abs/1812.01484">https://arxiv.org/abs/1812.01484</a></p>
+<p>116. Beaulieu-Jones BK, Yuan W, Finlayson SG, Wu ZS. Privacy-Preserving Distributed Deep Learning for Clinical Data. arXiv. arXiv; 2018 Dec. Report No.: 1812.01484. Available: <a href="https://arxiv.org/abs/1812.01484">https://arxiv.org/abs/1812.01484</a></p>
+</div>
+<div id="ref-136V3i1jH">
+<p>117. Zerka F, Urovi V, Bottari F, Leijenaar RTH, Walsh S, Gabrani-Juma H, et al. Privacy preserving distributed learning classifiers – Sequential learning with small sets of data. Computers in Biology and Medicine. 2021;136: 104716. doi:<a href="https://doi.org/10.1016/j.compbiomed.2021.104716">10.1016/j.compbiomed.2021.104716</a></p>
 </div>
 </div>
 <!-- default theme -->

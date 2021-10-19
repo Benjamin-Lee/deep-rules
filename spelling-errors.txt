@@ -2,7 +2,7 @@ AAD
 Acknowledgements
 agitter
 ajlee
-AlexanderTitus
+alexandertitus
 Alexandr
 alxndrkalinin
 Andel
@@ -15,7 +15,6 @@ AstraZeneca
 AUROC
 AutoKeras
 AutoML
-backends
 Beaulieu
 benchmarked
 betsig
@@ -25,7 +24,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-biomedicine
+Biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -49,7 +48,7 @@ CuDNN
 Dalhousie
 dataset
 dataset’s
-datasets
+Datasets
 DBI
 discriminative
 druglike
@@ -121,6 +120,7 @@ phenotypes
 Pneumology
 pre
 pretraining
+promsing
 pseudorandom
 pstew
 quantile

@@ -22,7 +22,7 @@ author-meta:
 - Simina M. Boca
 bibliography:
 - content/manual-references.json
-date-meta: '2021-07-02'
+date-meta: '2021-10-19'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-07-02" />
+  <meta name="dc.date" content="2021-10-19" />
 
-  <meta name="citation_publication_date" content="2021-07-02" />
+  <meta name="citation_publication_date" content="2021-10-19" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/60546dabd91d092ff44f371d7ec80cc2d138f969/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/60546dabd91d092ff44f371d7ec80cc2d138f969/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,10 +282,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@12a0fd8](https://github.com/Benjamin-Lee/deep-rules/tree/12a0fd8c8a3e2d03e5be657ad74a4c27e0b6a60b)
-on July 2, 2021.
+from [Benjamin-Lee/deep-rules@60546da](https://github.com/Benjamin-Lee/deep-rules/tree/60546dabd91d092ff44f371d7ec80cc2d138f969)
+on October 19, 2021.
 </em></small>
 
 ## Authors
@@ -552,7 +552,7 @@ Nonetheless, deep learning is generally best suited for datasets that contain or
 Training deep learning models often requires extensive computing infrastructure and patience to achieve state-of-the-art performance [@doi:10.1109/JPROC.2017.2761740].
 In some deep learning contexts, such as generating human-like text, state-of-the-art models have over one hundred billion parameters [@arxiv:2005.14165] and require very costly and time-consuming training procedures [@arxiv:1906.02243].
 These types of large language models are being used in biology to learn representations of protein sequences [@arxiv:2004.03497; @arxiv:2007.06225; @doi:10.1101/622803].
-Even those most deep learning applications in biology rarely require this much training, they can still require computational resources beyond those available on consumer-grade devices such as laptops or office desktops.
+Even though most deep learning applications in biology rarely require this much training, they can still require computational resources beyond those available on consumer-grade devices such as laptops or office desktops.
 Specialized hardware such as discrete graphics processing units (GPUs) and custom deep learning accelerators can dramatically reduce the time and cost required to train models [@doi:10.3390/info11040193]. Still, this hardware is not universally accessible, and cloud-based rentals add additional cost and complexity.
 These specialized hardware solutions are likely to be more broadly available as deep learning becomes more popular.
 For example, recent-generation iPhones already have such hardware.
@@ -566,7 +566,7 @@ Conversely, traditional machine learning methods are generally more straightforw
 Furthermore, there are currently more tools for automating the model selection and training process for traditional machine learning models than for deep learning models.
 For example, automated machine learning (AutoML) tools, such as TPOT [@doi:10.1007/978-3-319-31204-0_9] and Turi Create [@https://github.com/apple/turicreate], are able to test and optimize multiple machine learning models automatically, and can allow users to achieve competitive performance with only a few lines of code.
 There are efforts underway to extend these and other automation frameworks to reduce the expertise required to build and use deep learning models.
-For example, TPOT, Turi Create, and AutoKeras [@arxiv:1806.10282] are already capable of abstracting away much of the programming required for "standard" deep learning tasks, and high-level interfaces such as Keras [@https://keras.io] and Fastai [@doi:10.3390/info11020108], make it increasingly straightforward to design and test custom deep learning architectures
+For example, TPOT, Turi Create, and AutoKeras [@arxiv:1806.10282] are already capable of abstracting away much of the programming required for "standard" deep learning tasks, and high-level interfaces such as Keras [@https://keras.io] and Fastai [@doi:10.3390/info11020108], make it increasingly straightforward to design and test custom deep learning architectures.
 In the future, projects such as these are likely to make deep learning accessible to a much wider range of researchers.
 
 Despite these limitations, deep learning is strongly indicated over traditional machine learning for specific research questions and problems.
@@ -623,9 +623,10 @@ Furthermore, this experimentation is often noisy, which necessitates increased r
 On the whole, all code, random seeds, parameters, and results must be carefully corralled using general coding standards and best practices (for example, version control [@doi:10.1371/journal.pcbi.1004947] and continuous integration [@doi:10.1038/nbt.3780]) to be reproducible and interpretable [@doi:10.1371/journal.pcbi.1003285; @arxiv:1810.08055].
 For application-based research, this organization is also fundamental to the efficient sharing of research work and the ability to keep models up to date as new data becomes available.
 
-One specific reproducibility pitfall that is often missed in applying deep learning is the default use of non-deterministic algorithms by CUDA/CuDNN backends when using GPUs.
-That is, the CUDA/CuDNN architectures that facilitate the parallelized computing that power state-of-the-art deep learning often use algorithms by default that produce different outcomes from iteration to iteration.
-Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within deep learning libraries), which is distinct from the setting of random seeds that typically achieve reproducibility by controlling pseudorandom deterministic procedures such as shuffling and initialization [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
+A specific reproducibility pitfall that is often missed in applying deep learning is the use (often by default) of non-deterministic algorithms.
+For example, GPU acceleration libraries like CUDA/CuDNN, which facilitate the parallelized computing powering state-of-the-art deep learning, often use algorithms by default that produce different outcomes from iteration to iteration even with the same hardware and software.
+Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within deep learning libraries).
+This step is distinct from and in addition to the setting of random seeds that typically achieve reproducibility by controlling pseudorandom deterministic procedures such as shuffling and initialization [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
 
 Similar to the suggestions above about starting with simpler models, starting with relatively small networks and then increasing the size and complexity as needed can help prevent practitioners from wasting significant time and resources on running highly complex models that feature numerous unresolved problems.
 Again, practitioners must beware of the choices made implicitly (that is, by default settings) by deep learning libraries.
@@ -760,8 +761,12 @@ By comparing the model performance with the shuffled data to that achieved with 
 This suggests that any predictive capacity is not due to data-driven signal.
 One important caveat when working with partitioned data is the need to apply transformation and normalization procedures equally to all datasets.
 The parameters required for such procedures (for example, quantile normalization, a common standardization method when analyzing gene-expression data) should only be derived from the training data, and not from the tuning or test data.
+
 Additionally, many conventional metrics for classification (e.g. area under the receiver operating characteristic curve or AUROC) have limited utility in cases of extreme class imbalance [@pmid:25738806].
+Consider an example of a dataset of mammograms in which 99% of the samples do not have breast cancer.
+A model could achieve 99% accuracy by classifying every sample as negative.
 Therefore, model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data [@doi:10.1021/acs.molpharmaceut.7b00578].
+One alternative approach is to use the precision-recall curve rather than the receiver operating characteristic since the former is more robust to class imbalance [@doi:10.1145/1143844.1143874].
 
 When working with biological and medical data, one must also carefully consider potential sources of bias and/or non-independence when defining training and test sets.
 For example, a deep learning model for pneumonia detection in chest X-rays appeared to performed well within the hospitals providing the training data, but then failed to generalize to other hospitals [@doi:10.1371/journal.pmed.1002683].
@@ -843,6 +848,7 @@ This also holds true for certain traditional machine learning methods that learn
 
 Techniques to train deep neural networks without sharing unencrypted access to data are being advanced through implementations of homomorphic encryption, which serves to enable equivalent prediction on data that is encrypted end-to-end [@doi:10.1371/journal.pcbi.1006454; @arxiv:1811.00778].
 Privacy-preserving techniques [@arxiv:1811.04017], such as differential privacy [@doi:10.1145/2976749.2978318; @doi:10.1101/159756; @arxiv:1812.01484], can help to mitigate risks as long as the assumptions underlying these techniques are met.
+Other methods, such a distributed learning, in which small subsets of the data are processed independently in silos (possibly by different agents), are also promsing but require careful investigation before applying to protected information [@doi:10.1016/j.compbiomed.2021.104716].
 While these methods provide a path towards a future where trained models and their predictions can be shared, more software development and theoretical advances will be required to make these techniques easy to apply correctly in many settings.
 Unless using these techniques, researchers must not share the weights or provide arbitrary access to the predictions of models trained on sensitive data.
 
