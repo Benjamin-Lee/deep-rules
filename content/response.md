@@ -6,7 +6,8 @@
 
 > Specially need to identify what sort of the data need to be there and how to react when there is not enough data to carry out Deep Learning technique. In the paper some area not contain precise information with relevant references to support the statements. Hence these areas need to improve it further.
 
-We appreciate the constructive feedback and added additional references and clarifications where we thought it was needed.  For instance, we provided more references for data augmentation and weak supervised learning via the following paragraph:
+We appreciate the constructive feedback and added additional references and clarifications where we thought it was needed.
+For instance, we provided more references and an example for data augmentation and weak supervised learning via the following paragraph:
 
 > Methods that try to increase the amount of training data, such as data augmentation (in which existing data is slightly manipulated in an attempt to yield "new" samples) [@doi:10.3390/info11020125] and weak supervision (in which simple labeling heuristics are combined to produce noisy, probabilistic labels) [@arxiv:1605.07723v3] are valuable for small- to medium-scale dataset. 
 > For example, when classifying microalgae using models trained on 21,000 images, data augmentation improved the prediction accuracy by 17% [@doi:10.1109/ICMLA.2017.0-183]. 
