@@ -22,7 +22,7 @@ author-meta:
 - Simina M. Boca
 bibliography:
 - content/manual-references.json
-date-meta: '2021-10-19'
+date-meta: '2021-11-19'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-10-19" />
+  <meta name="dc.date" content="2021-11-19" />
 
-  <meta name="citation_publication_date" content="2021-10-19" />
+  <meta name="citation_publication_date" content="2021-11-19" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/ef0e31af4b81deacca1bdf67da133ac671964e65/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ef0e31af4b81deacca1bdf67da133ac671964e65/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ef0e31af4b81deacca1bdf67da133ac671964e65/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/60546dabd91d092ff44f371d7ec80cc2d138f969/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ef0e31af4b81deacca1bdf67da133ac671964e65/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/60546dabd91d092ff44f371d7ec80cc2d138f969/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ef0e31af4b81deacca1bdf67da133ac671964e65/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,10 +282,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/60546dabd91d092ff44f371d7ec80cc2d138f969/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ef0e31af4b81deacca1bdf67da133ac671964e65/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@60546da](https://github.com/Benjamin-Lee/deep-rules/tree/60546dabd91d092ff44f371d7ec80cc2d138f969)
-on October 19, 2021.
+from [Benjamin-Lee/deep-rules@ef0e31a](https://github.com/Benjamin-Lee/deep-rules/tree/ef0e31af4b81deacca1bdf67da133ac671964e65)
+on November 19, 2021.
 </em></small>
 
 ## Authors
@@ -542,9 +542,13 @@ Indeed, neural networks are universal function approximators and derive tremendo
 However, in reality, deep learning is not suited to every modeling situation and can be significantly limited by its large demands for data, computing power, programming skill, and modeling expertise.
 
 While large amounts of high-quality data may be available in the areas of biology where data collection is thoroughly automated, such as DNA sequencing, areas of biology that rely on manual data collection may not possess enough data to train and apply deep learning models effectively.
-Though there are methods that try to increase the amount of training data, such as data augmentation (in which existing data is slightly manipulated in an attempt to yield "new" samples) and weak supervision (in which simple labeling heuristics are combined to produce noisy, probabilistic labels) [@arxiv:1605.07723v3], these methods cannot overcome substantial data shortages.
 
-In the fields of computer vision and natural language processing, deep neural networks are routinely trained on sample sizes ranging from hundreds of thousands to millions of training examples.
+Methods that try to increase the amount of training data, such as data augmentation (in which existing data is slightly manipulated in an attempt to yield "new" samples) [@doi:10.3390/info11020125] and weak supervision (in which simple labeling heuristics are combined to produce noisy, probabilistic labels) [@arxiv:1605.07723v3] are valuable for small- to medium-scale dataset. 
+For example, when classifying microalgae using models trained on 21,000 images, data augmentation improved the prediction accuracy by 17% [@doi:10.1109/ICMLA.2017.0-183]. 
+In a text detection context based on a small dataset of 229 fully annotated scene text images, weakly supervised learning improved the precision by 11% [@doi:10.1109/ICCV.2017.166]. 
+However, methods cannot overcome substantial data shortages in many practical scenarios, and recent research investigating machine learning methods in neuroimaging studies of depression suggests that high prediction accuracies obtained from small datasets may be caused by misestimation due to insufficient test dataset sizes [@doi:10.1038/s41386-021-01020-7].
+
+In the fields of computer vision and natural language processing, deep neural networks are routinely trained on sample sizes ranging from hundreds of thousands to millions of training examples [@doi:10.1109/ICCV.2017.97; @doi:10.18653/v1/2020.acl-main.747].
 Datasets of this size are often not available in many biological contexts.
 Still, it has been found that, under certain circumstances, deep learning can be considered for datasets with only one hundred samples per class [@arxiv:1511.06348]. 
 Nonetheless, deep learning is generally best suited for datasets that contain orders of magnitude more samples.

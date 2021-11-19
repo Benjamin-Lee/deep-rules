@@ -1,8 +1,9 @@
 AAD
+accuracies
 Acknowledgements
 agitter
 ajlee
-alexandertitus
+AlexanderTitus
 Alexandr
 alxndrkalinin
 Andel
@@ -38,7 +39,7 @@ Chevrette
 chevrm
 Chuang
 CNNs
-cofer
+Cofer
 colocating
 compendia
 convolutional
@@ -48,7 +49,7 @@ CuDNN
 Dalhousie
 dataset
 dataset’s
-Datasets
+datasets
 DBI
 discriminative
 druglike
@@ -105,11 +106,14 @@ Lunn
 Lustgarten
 Maguire
 mdkessler
+microalgae
 mis
+misestimation
 Moffitt
 Morgridge
 multilayer
 NCI
+neuroimaging
 operationalize
 overfit
 overfitting
@@ -141,7 +145,7 @@ Thiago
 toolset
 TPOT
 transformative
-translational
+Translational
 triaged
 Triche
 Tschira
