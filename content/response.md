@@ -1,3 +1,20 @@
+> ## Reviewer 1
+>
+> The authors have specified the importance of using Deep Learning in Biological data and on what are the aspects they have to focus when the researchers are using the Deep Learning. 
+> Even though they have mentioned ten different areas they have to focus the authors did not mentioned enough suitable examples and some common practices for some areas. Further it is important to mention some of the difficulties and limitations they have to face when they are using these methods. 
+
+
+> Specially need to identify what sort of the data need to be there and how to react when there is not enough data to carry out Deep Learning technique. In the paper some area not contain precise information with relevant references to support the statements. Hence these areas need to improve it further.
+
+We appreciate the constructive feedback and added additional references and clarifications where we thought it was needed.
+For instance, we provided more references and an example for data augmentation and weak supervised learning via the following paragraph:
+
+> Methods that try to increase the amount of training data, such as data augmentation (in which existing data is slightly manipulated in an attempt to yield "new" samples) [@doi:10.3390/info11020125] and weak supervision (in which simple labeling heuristics are combined to produce noisy, probabilistic labels) [@arxiv:1605.07723v3] are valuable for small- to medium-scale dataset. 
+> For example, when classifying microalgae using models trained on 21,000 images, data augmentation improved the prediction accuracy by 17% [@doi:10.1109/ICMLA.2017.0-183]. 
+In a text detection context based on a small dataset of 229 fully annotated scene text images, weakly supervised learning improved the precision by 11% [@doi:10.1109/ICCV.2017.166]. 
+> However, methods cannot overcome substantial data shortages in many practical scenarios, and recent research investigating machine learning methods in neuroimaging studies of depression suggests that high prediction accuracies obtained from small datasets may be caused by misestimation due to insufficient test dataset sizes [@doi:10.1038/s41386-021-01020-7].
+
+
 > ## Reviewer 2
 >
 > The article titled “Ten Quick Tips for Deep Learning in Biology” provides a review of potential challenges to employing deep learning in biomedical research.
