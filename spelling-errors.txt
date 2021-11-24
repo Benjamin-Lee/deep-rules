@@ -39,7 +39,7 @@ Chevrette
 chevrm
 Chuang
 CNNs
-Cofer
+cofer
 colocating
 compendia
 convolutional
@@ -122,7 +122,7 @@ perceptrons
 pharmacovigilance
 phenotypes
 Pneumology
-pre
+Pre
 pretraining
 promsing
 pseudorandom

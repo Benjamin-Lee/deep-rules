@@ -22,7 +22,7 @@ author-meta:
 - Simina M. Boca
 bibliography:
 - content/manual-references.json
-date-meta: '2021-11-19'
+date-meta: '2021-11-24'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-11-19" />
+  <meta name="dc.date" content="2021-11-24" />
 
-  <meta name="citation_publication_date" content="2021-11-19" />
+  <meta name="citation_publication_date" content="2021-11-24" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/ef0e31af4b81deacca1bdf67da133ac671964e65/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/16210909cf20c7c500718771c420fdb6725da521/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ef0e31af4b81deacca1bdf67da133ac671964e65/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/16210909cf20c7c500718771c420fdb6725da521/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/ef0e31af4b81deacca1bdf67da133ac671964e65/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/16210909cf20c7c500718771c420fdb6725da521/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ef0e31af4b81deacca1bdf67da133ac671964e65/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/16210909cf20c7c500718771c420fdb6725da521/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/ef0e31af4b81deacca1bdf67da133ac671964e65/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/16210909cf20c7c500718771c420fdb6725da521/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,10 +282,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/ef0e31af4b81deacca1bdf67da133ac671964e65/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/16210909cf20c7c500718771c420fdb6725da521/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@ef0e31a](https://github.com/Benjamin-Lee/deep-rules/tree/ef0e31af4b81deacca1bdf67da133ac671964e65)
-on November 19, 2021.
+from [Benjamin-Lee/deep-rules@1621090](https://github.com/Benjamin-Lee/deep-rules/tree/16210909cf20c7c500718771c420fdb6725da521)
+on November 24, 2021.
 </em></small>
 
 ## Authors
@@ -601,7 +601,7 @@ After choosing deep learning as a potential solution, practitioners should still
 Deep learning requires practitioners to consider a larger number and variety of tuning parameters (that is, algorithmic settings) than more traditional machine learning methods.
 These settings are often called hyperparameters.
 Their extensiveness can make it easy to fall into the trap of performing an unnecessarily convoluted analysis.
-Hence, before applying deep learning to a given problem, it is ideal to implement simpler models with fewer hyperparameters at the beginning of each study.
+Hence, before applying deep learning to a given problem, it is ideal to implement simpler models with fewer hyperparameters at the beginning of each study [@doi:10.1145/3106237.3106256].
 Such models include logistic regression, random forests, k-nearest neighbors, Naive Bayes, and support vector machines.
 They can help to establish baseline performance expectations and the difficultly of a specific prediction problem.
 While performance baselines available from existing literature can also serve as helpful guides, an implementation of a simpler model that uses the same software framework as planned for deep learning can greatly help with assessing the correctness of data processing steps, performance evaluation pipelines, resource requirement estimates, and computational performance estimates.
