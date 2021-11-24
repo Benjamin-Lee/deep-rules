@@ -64,7 +64,7 @@ The paragraph now reads:
 > Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within deep learning libraries).
 > This step is distinct from and in addition to the setting of random seeds that typically achieve reproducibility by controlling pseudorandom deterministic procedures such as shuffling and initialization [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
 
-We hope these changes serve to improve the quality of the manuscript and satisify the concerns of the reviewers.
+We hope these changes improve the quality of the manuscript and satisfy the concerns of the reviewers.
 
 Sincerely,  
 Benjamin Lee, on behalf of all authors
