@@ -37,7 +37,7 @@ Additionally, we have added additional references in our section on when to use 
 
 Thank you for this suggestion. We have added this sentence to point 10:
 
-"Other methods, such a distributed learning, in which small subsets of the data are processed independently in silos (possibly by different agents), are also promsing but requrie careful investigation before applying to protected information [@doi:10.1016/j.compbiomed.2021.104716]."
+"Other methods, such a distributed learning, in which small subsets of the data are processed independently in silos (possibly by different agents), are also promising but requrie careful investigation before applying to protected information [@doi:10.1016/j.compbiomed.2021.104716]."
 
 > - I think it might be worth to further emphasis how results should be evaluated in the presence of class imbalance and risk/benefits of incorrect/correct predictions in the context of the specific application.
 
