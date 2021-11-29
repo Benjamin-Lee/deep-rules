@@ -22,7 +22,7 @@ Similarly we provided a further example to begin the subsequent paragraph:
 
 > In the fields of computer vision and natural language processing, deep neural networks are routinely trained on sample sizes ranging from hundreds of thousands to millions of training examples [@doi:10.1109/ICCV.2017.97; @doi:10.18653/v1/2020.acl-main.747].
 
-Additionally, we have added an additional reference in our section on baseline methods.
+Additionally, we have added additional references in our section on when to use deep learning and an additional guide to best practices in the introduction.
 
 > ## Reviewer 2
 >
@@ -37,7 +37,7 @@ Additionally, we have added an additional reference in our section on baseline m
 
 Thank you for this suggestion. We have added this sentence to point 10:
 
-"Other methods, such a distributed learning, in which small subsets of the data are processed independently in silos (possibly by different agents), are also promsing but requrie careful investigation before applying to protected information [@doi:10.1016/j.compbiomed.2021.104716]."
+"Other methods, such a distributed learning, in which small subsets of the data are processed independently in silos (possibly by different agents), are also promising but requrie careful investigation before applying to protected information [@doi:10.1016/j.compbiomed.2021.104716]."
 
 > - I think it might be worth to further emphasis how results should be evaluated in the presence of class imbalance and risk/benefits of incorrect/correct predictions in the context of the specific application.
 
@@ -59,10 +59,10 @@ We have added the missing period.
 
 The paragraph now reads:
 
-> A specific reproducibility pitfall that is often missed in applying deep learning is the use (often by default) of non-deterministic algorithms.
-> For example, the GPU acceleration libraries, such as CUDA/CuDNN, that facilitate the parallelized computing powering state-of-the-art deep learning often use algorithms by default that produce different outcomes from iteration to iteration even with the same hardware and sofrware.
-> Therefore, achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms (which are typically available within deep learning libraries).
-> This step is distinct from and in addition to the setting of random seeds that typically achieve reproducibility by controlling pseudorandom deterministic procedures such as shuffling and initialization [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
+> The use of non-deterministic algorithms, often by default, is a specific reproducibility pitfall that is often missed in applying deep learning.
+> For example, GPU acceleration libraries like CUDA/CuDNN, which facilitate the parallelized computing powering state-of-the-art deep learning, often use default algorithms that produce different outcomes from iteration to iteration even with the same hardware and software.
+> Achieving reproducibility in this context requires explicitly specifying the use of deterministic algorithms, which are typically available within deep learning libraries [@url:https://docs.nvidia.com/deeplearning/sdk/cudnn-developer-guide/index.html#reproducibility].
+> This step is distinct from and in addition to the setting of random seeds that typically achieve reproducibility by controlling pseudorandom deterministic procedures such as shuffling and initialization.
 
 We hope these changes improve the quality of the manuscript and satisfy the concerns of the reviewers.
 
