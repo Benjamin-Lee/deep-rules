@@ -16,13 +16,13 @@ author-meta:
 - Juan Jose Carmona
 - Elana J. Fertig
 - Alexandr A. Kalinin
-- Beth Signal
+- Brandon Signal
 - Benjamin J. Lengerich
 - Timothy J. Triche, Jr.
 - Simina M. Boca
 bibliography:
 - content/manual-references.json
-date-meta: '2021-11-24'
+date-meta: '2021-11-29'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-11-24" />
+  <meta name="dc.date" content="2021-11-29" />
 
-  <meta name="citation_publication_date" content="2021-11-24" />
+  <meta name="citation_publication_date" content="2021-11-29" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -195,7 +195,7 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@alxndrkalinin" />
 
-  <meta name="citation_author" content="Beth Signal" />
+  <meta name="citation_author" content="Brandon Signal" />
 
   <meta name="citation_author_institution" content="School of Medicine, College of Health and Medicine, University of Tasmania" />
 
@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/16210909cf20c7c500718771c420fdb6725da521/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/322558b00d22f3358be2a2d17cea87605828ae1d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/16210909cf20c7c500718771c420fdb6725da521/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/322558b00d22f3358be2a2d17cea87605828ae1d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/16210909cf20c7c500718771c420fdb6725da521/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/322558b00d22f3358be2a2d17cea87605828ae1d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/16210909cf20c7c500718771c420fdb6725da521/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/322558b00d22f3358be2a2d17cea87605828ae1d/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/16210909cf20c7c500718771c420fdb6725da521/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/322558b00d22f3358be2a2d17cea87605828ae1d/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,10 +282,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/16210909cf20c7c500718771c420fdb6725da521/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/322558b00d22f3358be2a2d17cea87605828ae1d/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@1621090](https://github.com/Benjamin-Lee/deep-rules/tree/16210909cf20c7c500718771c420fdb6725da521)
-on November 24, 2021.
+from [Benjamin-Lee/deep-rules@322558b](https://github.com/Benjamin-Lee/deep-rules/tree/322558b00d22f3358be2a2d17cea87605828ae1d)
+on November 29, 2021.
 </em></small>
 
 ## Authors
@@ -463,7 +463,7 @@ on November 24, 2021.
      Medical Big Data Group, Shenzhen Research Institute of Big Data, China; Department of Computational Medicine and Bioinformatics, University of Michigan, USA
   </small>
 
-+ **Beth Signal**<br>
++ **Brandon Signal**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-6839-2392](https://orcid.org/0000-0002-6839-2392)
     · ![GitHub icon](images/github.svg){.inline_icon}

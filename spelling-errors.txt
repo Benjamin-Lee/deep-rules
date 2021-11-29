@@ -25,7 +25,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-Biomedicine
+biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -39,7 +39,7 @@ Chevrette
 chevrm
 Chuang
 CNNs
-cofer
+Cofer
 colocating
 compendia
 convolutional
@@ -116,13 +116,13 @@ NCI
 neuroimaging
 operationalize
 overfit
-overfitting
+Overfitting
 parallelized
 perceptrons
 pharmacovigilance
 phenotypes
 Pneumology
-Pre
+pre
 pretraining
 promsing
 pseudorandom
