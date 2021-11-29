@@ -197,13 +197,14 @@ authors:
     email: Kun-Hsing_Yu@hms.harvard.edu
     affiliations:
       - Department of Biomedical Informatics, Harvard Medical School
-      - Department of Pathology, Brigham and Women's Hospital
+      - "Department of Pathology, Brigham and Women's Hospital"
     conflicts: Inventor of a quantitative pathology analytical system (U.S. Patent 10,832,406). This invention is not related to this work.
     approval: yes
     accountable: yes
     postcode: "02115"
     funders:
       - Blavatnik Center for Computational Biomedicine Award
+      - National Institute of General Medical Sciences (R35GM142879)
   -
     github: juancarmona
     name: Juan Jose Carmona
