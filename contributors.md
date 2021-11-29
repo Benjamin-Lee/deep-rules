@@ -25,7 +25,7 @@ If you would like to use use a visual editor, copy and paste the table below her
 | Kun-Hsing Yu         | Yes        | Yes                       | Yes      |                | Yes         |
 | Andrew L. Beam       | Yes        | Yes                       |          |                |             |
 | Hugo Aerts           | Yes        |                           |          |                |             |
-| Beth Signal          | Yes        | Yes                       | Yes      |                | Yes         |
+| Brandon Signal       | Yes        | Yes                       | Yes      |                | Yes         |
 | Paul Brodersen       | Yes        |                           |          |                |             |
 | Marc G. Chevrette    | Yes        | Yes                       | Yes      |                | Yes         |
 | Ben Lengerich        | Yes        | Yes                       | Yes      |                | Yes         |
