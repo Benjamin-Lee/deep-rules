@@ -3,7 +3,7 @@ accuracies
 Acknowledgements
 agitter
 ajlee
-AlexanderTitus
+alexandertitus
 Alexandr
 alxndrkalinin
 Andel
@@ -13,7 +13,6 @@ anthonygitter
 approximators
 arxiv
 AstraZeneca
-AUROC
 AutoKeras
 AutoML
 Beaulieu
@@ -25,7 +24,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-biomedicine
+Biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -82,7 +81,6 @@ Hsing
 Hu
 hyperparameter
 hyperparameters
-hyperparmeter
 ImageNet
 interpretability
 interpretable
@@ -116,7 +114,7 @@ NCI
 neuroimaging
 operationalize
 overfit
-Overfitting
+overfitting
 parallelized
 perceptrons
 pharmacovigilance
@@ -124,7 +122,6 @@ phenotypes
 Pneumology
 pre
 pretraining
-promsing
 pseudorandom
 pstew
 quantile
