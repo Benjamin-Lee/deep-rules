@@ -3,7 +3,7 @@ accuracies
 Acknowledgements
 agitter
 ajlee
-AlexanderTitus
+alexandertitus
 Alexandr
 alxndrkalinin
 Andel
@@ -24,7 +24,7 @@ Bioeconomy
 Bioinformatics
 biomarkers
 Biomathematics
-Biomedicine
+biomedicine
 Biostatistics
 bjjdg
 Blavatnik
@@ -38,7 +38,7 @@ Chevrette
 chevrm
 Chuang
 CNNs
-cofer
+Cofer
 colocating
 compendia
 convolutional
@@ -80,7 +80,7 @@ homomorphic
 Hsing
 Hu
 hyperparameter
-Hyperparameters
+hyperparameters
 ImageNet
 interpretability
 interpretable
@@ -120,7 +120,7 @@ perceptrons
 pharmacovigilance
 phenotypes
 Pneumology
-pre
+Pre
 pretraining
 pseudorandom
 pstew
@@ -142,7 +142,7 @@ Thiago
 toolset
 TPOT
 transformative
-Translational
+translational
 triaged
 Triche
 Tschira
