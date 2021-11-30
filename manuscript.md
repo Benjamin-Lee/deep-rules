@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/e95e37a3bcfb172790f474dc365f98e47b8aa774/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/e95e37a3bcfb172790f474dc365f98e47b8aa774/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/e95e37a3bcfb172790f474dc365f98e47b8aa774/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2a1580a6928b1abff7ac5436692ffa61a412a96f/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/e95e37a3bcfb172790f474dc365f98e47b8aa774/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2a1580a6928b1abff7ac5436692ffa61a412a96f/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/e95e37a3bcfb172790f474dc365f98e47b8aa774/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,9 +282,9 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/e95e37a3bcfb172790f474dc365f98e47b8aa774/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@2a1580a](https://github.com/Benjamin-Lee/deep-rules/tree/2a1580a6928b1abff7ac5436692ffa61a412a96f)
+from [Benjamin-Lee/deep-rules@e95e37a](https://github.com/Benjamin-Lee/deep-rules/tree/e95e37a3bcfb172790f474dc365f98e47b8aa774)
 on November 30, 2021.
 </em></small>
 
@@ -530,7 +530,7 @@ The major similarities between deep learning and traditional computational metho
 Although deep learning is a distinct subfield of machine learning, it is still a subfield.
 It is subject to the many limitations inherent to machine learning, and most best practices for machine learning [@doi:10.1186/s13040-017-0155-3; @arxiv:1906.01998; @doi:10.1038/s41580-021-00407-0] also apply to deep learning.
 As with all computational methods, deep learning should be applied in a systematic manner that is reproducible and rigorously tested.
-Ultimately, the tips we collate range from high-level guidance to best practices for implementation. It is our hope that they will provide actionable, deep learning-specific instruction for both new and experienced deep learning practitioners.
+Ultimately, the tips we collate range from high-level guidance to best practices for implementation. It is our hope that they will provide actionable, deep learning-specific instructions for both new and experienced deep learning practitioners.
 By making deep learning more accessible for use in biological research, we aim to improve the overall usage and reporting quality of deep learning in the literature, and to enable increasing numbers of researchers to utilize these state-of-the art techniques effectively and accurately.
 
 
@@ -658,7 +658,7 @@ Best practices for reproducibility also include sharing the collected dataset an
 While recommended and recognized dataset repositories may differ across disciplines, a list of general dataset repositories includes the Dryad repository [@doi:10.1038/npre.2010.4595.1] (https://datadryad.org/), Figshare [@doi:10.4103/0976-500X.81919] (https://figshare.com), Zenodo [@doi:10.3897/biss.3.37080] (https://zenodo.org), and the Open Science Framework [@doi:10.5195/jmla.2017.88] (https://osf.io).
 In addition, Gundersen et al. [@doi:10.1609/aimag.v39i3.2816] provide useful checklists summarizing best data sharing practices for reproducible research and open science.
 
-Once the dataset is obtained, it is important to learn why and how the data were collected before beginning analysis.
+Once the dataset is obtained, it is important to learn why and how the data was collected before beginning the analysis.
 The standardized metadata that exists in many fields can help with this (for example, see [@doi:10.1038/ng1201-365]).
 If at all possible, consulting with a subject matter expert who has experience with the type of data being used will minimize guesswork and likely increase the success rate of a deep learning project.
 For example, one might presume that data collected to test the impact of an intervention are derived from a randomized controlled trial.
