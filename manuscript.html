@@ -24,7 +24,7 @@
   <meta name="author" content="Benjamin J. Lengerich" />
   <meta name="author" content="Timothy J. Triche, Jr." />
   <meta name="author" content="Simina M. Boca" />
-  <meta name="dcterms.date" content="2021-11-29" />
+  <meta name="dcterms.date" content="2021-11-30" />
   <meta name="keywords" content="quick tips, machine learning, deep learning, artificial intelligence" />
   <title>Ten Quick Tips for Deep Learning in Biology</title>
   <style>
@@ -47,8 +47,8 @@
   <meta name="citation_title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="og:title" content="Ten Quick Tips for Deep Learning in Biology" />
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
-  <meta name="dc.date" content="2021-11-29" />
-  <meta name="citation_publication_date" content="2021-11-29" />
+  <meta name="dc.date" content="2021-11-30" />
+  <meta name="citation_publication_date" content="2021-11-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -147,13 +147,13 @@
   <meta name="citation_fulltext_html_url" content="https://Benjamin-Lee.github.io/deep-rules/" />
   <meta name="citation_pdf_url" content="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/26a6008cd848bd5d36d652fe805949f942670f05/" />
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/26a6008cd848bd5d36d652fe805949f942670f05/" />
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/26a6008cd848bd5d36d652fe805949f942670f05/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/26a6008cd848bd5d36d652fe805949f942670f05/content/images/thumbnail_tips_overview.png" />
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/26a6008cd848bd5d36d652fe805949f942670f05/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2a1580a6928b1abff7ac5436692ffa61a412a96f/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2a1580a6928b1abff7ac5436692ffa61a412a96f/content/images/thumbnail_tips_overview.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -165,10 +165,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://Benjamin-Lee.github.io/deep-rules/v/26a6008cd848bd5d36d652fe805949f942670f05/">permalink</a>)
+(<a href="https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/26a6008cd848bd5d36d652fe805949f942670f05">Benjamin-Lee/deep-rules@26a6008</a>
-on November 29, 2021.
+from <a href="https://github.com/Benjamin-Lee/deep-rules/tree/2a1580a6928b1abff7ac5436692ffa61a412a96f">Benjamin-Lee/deep-rules@2a1580a</a>
+on November 30, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -296,7 +296,7 @@ Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton
 <a href="https://github.com/khyu">khyu</a><br>
 <small>
 Department of Biomedical Informatics, Harvard Medical School; Department of Pathology, Brigham and Women’s Hospital
-· Funded by Blavatnik Center for Computational Biomedicine Award
+· Funded by Blavatnik Center for Computational Biomedicine Award; National Institute of General Medical Sciences (R35GM142879)
 </small></p></li>
 <li><p><strong>Juan Jose Carmona</strong><br>
 <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
@@ -397,7 +397,7 @@ This trend is likely driven by deep learning’s usefulness across a range of sc
 Indeed, neural networks are universal function approximators and derive tremendous power from this theoretical capacity to learn any function <span class="citation" data-cites="xwsS0Nlg 1BnILgle7">[<a href="#ref-xwsS0Nlg" role="doc-biblioref">15</a>,<a href="#ref-1BnILgle7" role="doc-biblioref">16</a>]</span>.
 However, in reality, deep learning is not suited to every modeling situation and can be significantly limited by its large demands for data, computing power, programming skill, and modeling expertise.</p>
 <p>While large amounts of high-quality data may be available in the areas of biology where data collection is thoroughly automated, such as DNA sequencing, areas of biology that rely on manual data collection may not possess enough data to train and apply deep learning models effectively.
-Methods that try to increase the amount of training data, such as data augmentation (in which existing data is slightly manipulated in an attempt to yield “new” samples) <span class="citation" data-cites="LKj3b88B">[<a href="#ref-LKj3b88B" role="doc-biblioref">17</a>]</span> and weak supervision (in which simple labeling heuristics are combined to produce noisy, probabilistic labels) <span class="citation" data-cites="15N3fu3hC">[<a href="#ref-15N3fu3hC" role="doc-biblioref">18</a>]</span> are valuable for small- to medium-scale dataset.
+Methods that try to increase the amount of training data, such as data augmentation (in which existing data is slightly manipulated in an attempt to yield “new” samples) <span class="citation" data-cites="LKj3b88B">[<a href="#ref-LKj3b88B" role="doc-biblioref">17</a>]</span> and weak supervision (in which simple labeling heuristics are combined to produce noisy, probabilistic labels) <span class="citation" data-cites="15N3fu3hC">[<a href="#ref-15N3fu3hC" role="doc-biblioref">18</a>]</span> are valuable for small- to medium-scale datasets.
 For example, when classifying microalgae using models trained on 21,000 images, data augmentation improved the prediction accuracy by 17% <span class="citation" data-cites="Kf8H6AuT">[<a href="#ref-Kf8H6AuT" role="doc-biblioref">19</a>]</span>.
 In a text detection context based on a small dataset of 229 fully annotated scene text images, weakly supervised learning improved the precision by 11% <span class="citation" data-cites="UxuAdies">[<a href="#ref-UxuAdies" role="doc-biblioref">20</a>]</span>.
 However, methods cannot overcome substantial data shortages in many practical scenarios, and recent research investigating machine learning methods in neuroimaging studies of depression suggests that high prediction accuracies obtained from small datasets may be caused by misestimation due to insufficient test dataset sizes <span class="citation" data-cites="48PPTnlt">[<a href="#ref-48PPTnlt" role="doc-biblioref">21</a>]</span>.</p>
@@ -588,8 +588,8 @@ A model could achieve 99% accuracy by classifying every sample as negative.
 Therefore, model performance should be evaluated with a carefully picked panel of relevant metrics that make minimal assumptions about the composition of the testing data <span class="citation" data-cites="rKXyJKNt">[<a href="#ref-rKXyJKNt" role="doc-biblioref">97</a>]</span>.
 One alternative approach is to use the precision-recall curve rather than the receiver operating characteristic since the former is more robust to class imbalance <span class="citation" data-cites="JNnkm5Zt">[<a href="#ref-JNnkm5Zt" role="doc-biblioref">98</a>]</span>.</p>
 <p>When working with biological and medical data, one must also carefully consider potential sources of bias and/or non-independence when defining training and test sets.
-For example, a deep learning model for pneumonia detection in chest X-rays appeared to performed well within the hospitals providing the training data, but then failed to generalize to other hospitals <span class="citation" data-cites="NDyhvXoh">[<a href="#ref-NDyhvXoh" role="doc-biblioref">99</a>]</span>.
-This resulted from the deep learning model picking up on signal related to which hospital the images were from and represents a type of artifact or batch effect that practitioners must be vigilant towards.
+For example, a deep learning model for pneumonia detection in chest X-rays appeared to perform well within the hospitals providing the training data, but then failed to generalize to other hospitals <span class="citation" data-cites="NDyhvXoh">[<a href="#ref-NDyhvXoh" role="doc-biblioref">99</a>]</span>.
+This resulted from the deep learning model picking up on signals related to which hospital the images were from and represents a type of artifact or batch effect that practitioners must be vigilant towards.
 When dealing with sequence data, holding out test data that are evolutionarily related or that share structural homology to the training data can result in overfitting that is hard to detect due to the inherent relatedness of the partitioned data <span class="citation" data-cites="QobI7Hyv">[<a href="#ref-QobI7Hyv" role="doc-biblioref">100</a>]</span>.
 In such situations, simply holding out test data selected from a random partition of the training data can be insufficient.
 The best remedy for identifying confounding variables is to know your data and to test models on truly independent data.</p>
@@ -680,7 +680,7 @@ By taking a comprehensive and careful approach to deep learning based on critica
 </tr>
 <tr class="even">
 <td>Kun-Hsing Yu</td>
-<td>Inventor of a quantitative pathology analytical system (U.S. Patent 10,832,406). This invention is not related to this work.</td>
+<td>Inventor of a quantitative pathology analytical system (U.S. Patent 10,832,406).</td>
 </tr>
 <tr class="odd">
 <td>Elana J. Fertig</td>

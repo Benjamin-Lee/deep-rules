@@ -7,7 +7,7 @@ content/02.intro.md:26:arxiv
 content/03.when-to-use-dl.md:5:approximators
 content/03.when-to-use-dl.md:5:dzwxkd
 content/03.when-to-use-dl.md:9:arxiv
-content/03.when-to-use-dl.md:9:dataset
+content/03.when-to-use-dl.md:9:datasets
 content/03.when-to-use-dl.md:10:microalgae
 content/03.when-to-use-dl.md:11:dataset
 content/03.when-to-use-dl.md:12:accuracies

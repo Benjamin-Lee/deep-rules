@@ -22,7 +22,7 @@ author-meta:
 - Simina M. Boca
 bibliography:
 - content/manual-references.json
-date-meta: '2021-11-29'
+date-meta: '2021-11-30'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -41,9 +41,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Ten Quick Tips for Deep Learning in Biology" />
 
-  <meta name="dc.date" content="2021-11-29" />
+  <meta name="dc.date" content="2021-11-30" />
 
-  <meta name="citation_publication_date" content="2021-11-29" />
+  <meta name="citation_publication_date" content="2021-11-30" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -241,19 +241,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://Benjamin-Lee.github.io/deep-rules/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/26a6008cd848bd5d36d652fe805949f942670f05/" />
+  <link rel="alternate" type="text/html" href="https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/26a6008cd848bd5d36d652fe805949f942670f05/" />
+  <meta name="manubot_html_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/26a6008cd848bd5d36d652fe805949f942670f05/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/26a6008cd848bd5d36d652fe805949f942670f05/content/images/thumbnail_tips_overview.png" />
+  <meta property="og:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2a1580a6928b1abff7ac5436692ffa61a412a96f/content/images/thumbnail_tips_overview.png" />
 
-  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/26a6008cd848bd5d36d652fe805949f942670f05/content/images/thumbnail_tips_overview.png" />
+  <meta property="twitter:image" content="https://github.com/Benjamin-Lee/deep-rules/raw/2a1580a6928b1abff7ac5436692ffa61a412a96f/content/images/thumbnail_tips_overview.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -282,10 +282,10 @@ title: Ten Quick Tips for Deep Learning in Biology
 
 <small><em>
 This manuscript
-([permalink](https://Benjamin-Lee.github.io/deep-rules/v/26a6008cd848bd5d36d652fe805949f942670f05/))
+([permalink](https://Benjamin-Lee.github.io/deep-rules/v/2a1580a6928b1abff7ac5436692ffa61a412a96f/))
 was automatically generated
-from [Benjamin-Lee/deep-rules@26a6008](https://github.com/Benjamin-Lee/deep-rules/tree/26a6008cd848bd5d36d652fe805949f942670f05)
-on November 29, 2021.
+from [Benjamin-Lee/deep-rules@2a1580a](https://github.com/Benjamin-Lee/deep-rules/tree/2a1580a6928b1abff7ac5436692ffa61a412a96f)
+on November 30, 2021.
 </em></small>
 
 ## Authors
@@ -428,7 +428,7 @@ on November 29, 2021.
     [khyu](https://github.com/khyu)<br>
   <small>
      Department of Biomedical Informatics, Harvard Medical School; Department of Pathology, Brigham and Women's Hospital
-     · Funded by Blavatnik Center for Computational Biomedicine Award
+     · Funded by Blavatnik Center for Computational Biomedicine Award; National Institute of General Medical Sciences (R35GM142879)
   </small>
 
 + **Juan Jose Carmona**<br>
@@ -542,7 +542,7 @@ Indeed, neural networks are universal function approximators and derive tremendo
 However, in reality, deep learning is not suited to every modeling situation and can be significantly limited by its large demands for data, computing power, programming skill, and modeling expertise.
 
 While large amounts of high-quality data may be available in the areas of biology where data collection is thoroughly automated, such as DNA sequencing, areas of biology that rely on manual data collection may not possess enough data to train and apply deep learning models effectively.
-Methods that try to increase the amount of training data, such as data augmentation (in which existing data is slightly manipulated in an attempt to yield "new" samples) [@doi:10.3390/info11020125] and weak supervision (in which simple labeling heuristics are combined to produce noisy, probabilistic labels) [@arxiv:1605.07723v3] are valuable for small- to medium-scale dataset. 
+Methods that try to increase the amount of training data, such as data augmentation (in which existing data is slightly manipulated in an attempt to yield "new" samples) [@doi:10.3390/info11020125] and weak supervision (in which simple labeling heuristics are combined to produce noisy, probabilistic labels) [@arxiv:1605.07723v3] are valuable for small- to medium-scale datasets. 
 For example, when classifying microalgae using models trained on 21,000 images, data augmentation improved the prediction accuracy by 17% [@doi:10.1109/ICMLA.2017.0-183]. 
 In a text detection context based on a small dataset of 229 fully annotated scene text images, weakly supervised learning improved the precision by 11% [@doi:10.1109/ICCV.2017.166]. 
 However, methods cannot overcome substantial data shortages in many practical scenarios, and recent research investigating machine learning methods in neuroimaging studies of depression suggests that high prediction accuracies obtained from small datasets may be caused by misestimation due to insufficient test dataset sizes [@doi:10.1038/s41386-021-01020-7].
@@ -772,8 +772,8 @@ Therefore, model performance should be evaluated with a carefully picked panel o
 One alternative approach is to use the precision-recall curve rather than the receiver operating characteristic since the former is more robust to class imbalance [@doi:10.1145/1143844.1143874].
 
 When working with biological and medical data, one must also carefully consider potential sources of bias and/or non-independence when defining training and test sets.
-For example, a deep learning model for pneumonia detection in chest X-rays appeared to performed well within the hospitals providing the training data, but then failed to generalize to other hospitals [@doi:10.1371/journal.pmed.1002683].
-This resulted from the deep learning model picking up on signal related to which hospital the images were from and represents a type of artifact or batch effect that practitioners must be vigilant towards.
+For example, a deep learning model for pneumonia detection in chest X-rays appeared to perform well within the hospitals providing the training data, but then failed to generalize to other hospitals [@doi:10.1371/journal.pmed.1002683].
+This resulted from the deep learning model picking up on signals related to which hospital the images were from and represents a type of artifact or batch effect that practitioners must be vigilant towards.
 When dealing with sequence data, holding out test data that are evolutionarily related or that share structural homology to the training data can result in overfitting that is hard to detect due to the inherent relatedness of the partitioned data [@doi:10.1093/bib/bbv082].
 In such situations, simply holding out test data selected from a random partition of the training data can be insufficient.
 The best remedy for identifying confounding variables is to know your data and to test models on truly independent data.
@@ -871,7 +871,7 @@ By taking a comprehensive and careful approach to deep learning based on critica
 |Author|Competing interests|
 |---|---|
 |Anthony Gitter|Filed a patent application with the Wisconsin Alumni Research Foundation related to classifying activated T cells.|
-|Kun-Hsing Yu|Inventor of a quantitative pathology analytical system (U.S. Patent 10,832,406). This invention is not related to this work.|
+|Kun-Hsing Yu|Inventor of a quantitative pathology analytical system (U.S. Patent 10,832,406).|
 |Elana J. Fertig|Scientific Advisory Board member at Viosera Therapeutics.|
 |Alexandr A. Kalinin|Co-inventor on 4 patent applications related to machine learning applications in biology.|
 |Simina M. Boca|Currently an employee and minor share holder at AstraZeneca, Gaithersburg, MD, USA.|
